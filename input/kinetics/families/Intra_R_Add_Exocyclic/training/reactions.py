@@ -91,3 +91,29 @@ Taken from entry: prod2 <=> prod5
 """,
 )
 
+entry(
+    index = 7,
+    label = "C10H9-3 <=> C10H9-4",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(6.311e+09, 's^-1'), n=0.537, Ea=(2.307, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring/2016_Mebel_C10H9_highP""",
+    longDesc = 
+u"""
+Taken from entry: W5 <=> W8
+""",
+)
+
+entry(
+    index = 8,
+    label = "C10H7 <=> C10H7-2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(2.992e+11, 's^-1'), n=0.67, Ea=(58.336, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring/phenyl_diacetylene_effective""",
+    longDesc = 
+u"""
+Taken from entry: i2_trans <=> i3
+""",
+)
+
