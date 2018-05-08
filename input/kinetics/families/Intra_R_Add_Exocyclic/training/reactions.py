@@ -325,3 +325,55 @@ Taken from entry: W1 <=> W3_6
 """,
 )
 
+entry(
+    index = 25,
+    label = "C10H9 <=> C10H9-2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1.3e+12, 's^-1'), n=0.45, Ea=(25.6, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: naphthalene_H""",
+    longDesc = 
+u"""
+Taken from entry: prod2 <=> prod5
+""",
+)
+
+entry(
+    index = 26,
+    label = "C10H11-7 <=> C10H11-8",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(4.36e+10, 's^-1'), n=0.44, Ea=(32.2, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: C10H11""",
+    longDesc = 
+u"""
+Taken from entry: pdt16 <=> pdt17
+""",
+)
+
+entry(
+    index = 27,
+    label = "C10H11-5 <=> C10H11-6",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(2.02e+11, 's^-1'), n=0.79, Ea=(35.3, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: C10H11""",
+    longDesc = 
+u"""
+Taken from entry: pdt55 <=> pdt58
+""",
+)
+
+entry(
+    index = 28,
+    label = "C7H9-5 <=> C7H9-6",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(3.95e+10, 's^-1'), n=0.53, Ea=(31.5, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: vinylCPD_H""",
+    longDesc = 
+u"""
+Taken from entry: product16 <=> product5
+""",
+)
+
