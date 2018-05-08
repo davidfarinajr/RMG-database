@@ -312,3 +312,16 @@ Taken from entry:
 """,
 )
 
+entry(
+    index = 24,
+    label = "C10H7-3 <=> C10H7-4",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1.42e+11, 's^-1'), n=0.258, Ea=(3.797, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring/2017_Mebel_C6H4C2H_C2H2_highP""",
+    longDesc = 
+u"""
+Taken from entry: W1 <=> W3_6
+""",
+)
+

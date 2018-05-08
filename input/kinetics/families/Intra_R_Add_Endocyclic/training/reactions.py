@@ -1620,3 +1620,68 @@ Taken from entry:
 """,
 )
 
+entry(
+    index = 78,
+    label = "C7H9-7 <=> C7H9-8",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(1.21e+11, 's^-1'), n=0.34, Ea=(21.2, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: C3""",
+    longDesc = 
+u"""
+Taken from entry: prod_13 <=> prod_14
+""",
+)
+
+entry(
+    index = 79,
+    label = "C7H9-9 <=> C7H9-10",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(8.9e+10, 's^-1'), n=0.33, Ea=(6.8, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: C3""",
+    longDesc = 
+u"""
+Taken from entry: prod_16 <=> prod_17
+""",
+)
+
+entry(
+    index = 80,
+    label = "C10H7-3 <=> C10H7-4",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(9.926e+10, 's^-1'), n=0.198, Ea=(5.455, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring/2017_Mebel_C6H4C2H_C2H2_highP""",
+    longDesc = 
+u"""
+Taken from entry: W1 <=> W2
+""",
+)
+
+entry(
+    index = 81,
+    label = "C10H9-28 <=> C10H9-27",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1.953e+11, 's^-1'), n=0.387, Ea=(32.996, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring/2017_Mebel_C6H5C2H2_C2H2_highP""",
+    longDesc = 
+u"""
+Taken from entry: W3 <=> W11
+""",
+)
+
+entry(
+    index = 82,
+    label = "C10H9-29 <=> C10H9-30",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(1.076e+11, 's^-1'), n=0.228, Ea=(6.982, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring/2017_Mebel_C6H5C2H2_C2H2_highP""",
+    longDesc = 
+u"""
+Taken from entry: W3 <=> W4
+""",
+)
+
