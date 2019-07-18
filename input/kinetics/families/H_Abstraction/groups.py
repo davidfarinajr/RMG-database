@@ -7879,7 +7879,7 @@ entry(
 
 entry(
     index = 1370,
-    label = "CdO_Val7",
+    label = "CdHO_Val7",
     group =
 """
 1 *1 O2s u0 {2,S} {3,S}
@@ -7892,7 +7892,7 @@ entry(
 
 entry(
     index = 1371,
-    label = "CdO_Val7",
+    label = "CdOH_Val7",
     group =
 """
 1 *1 O2s u0 {2,S} {3,S}
@@ -8162,6 +8162,8 @@ entry(
     kinetics = None,
 )
 
+##################
+
 entry(
     index = 149,
     label = "Y_1centerquadrad",
@@ -8284,16 +8286,6 @@ entry(
 )
 
 entry(
-    index = 161,
-    label = "Val7_rad",
-    group =
-"""
-1 *3 Val7 u1
-""",
-    kinetics = None,
-)
-
-entry(
     index = 1610,
     label = "Br_rad",
     group =
@@ -8309,6 +8301,16 @@ entry(
     group =
 """
 1 *3 Cl u1
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 16111,
+    label = "F_rad",
+    group =
+"""
+1 *3 F u1
 """,
     kinetics = None,
 )
@@ -8343,18 +8345,6 @@ entry(
 """
 1 *3 O u1 {2,S}
 2    O u1 {1,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 1631,
-    label = "ROO_rad",
-    group =
-"""
-1 *3 O u1 {2,S}
-2    O2s u0 {1,S} {3,S}
-3    R u0 {2,S}
 """,
     kinetics = None,
 )
@@ -8554,280 +8544,9 @@ entry(
 #
 
 entry(
-   index = 168,
-   label = "C_pri_HVal72/C_sec_O2",
-   group =
-"""
-1 *1 Cs       u0 {2,S} {3,S} {4,S} {5,S}
-2 *2 Val7    u0 {1,S}
-3    Val7    u0 {1,S}
-4    H       u0 {1,S}
-5    Cs       u0 p0 {1,S} {6,S} {7,S} {8,S}
-6    O2s    u0 {5,S}
-7    O2s    u0 {5,S}
-8    C     u0 {5,S}
-""",
-   kinetics = None,
-)
-
-entry(
-   index = 169,
-   label = "C_pri_HVal72/C_sec_O_H",
-   group =
-"""
-1 *1 Cs       u0 {2,S} {3,S} {4,S} {5,S}
-2 *2 Val7    u0 {1,S}
-3    Val7    u0 {1,S}
-4    H       u0 {1,S}
-5    Cs       u0 p0 {1,S} {6,S} {7,S} {8,S}
-6    O2s    u0 {5,S}
-7    H    u0 {5,S}
-8    C     u0 {5,S}
-""",
-   kinetics = None,
-)
-
-entry(
-   index = 170,
-   label = "C_pri_HVal72/C_sec_O_Val7",
-   group =
-"""
-1 *1 Cs      u0 {2,S} {3,S} {4,S} {5,S}
-2 *2 Val7    u0 {1,S}
-3    Val7    u0 {1,S}
-4    H       u0 {1,S}
-5    Cs       u0 p0 {1,S} {6,S} {7,S} {8,S}
-6    O2s    u0 {5,S}
-7    Val7    u0 {5,S}
-8    C     u0 {5,S}
-""",
-   kinetics = None,
-)
-
-
-
-entry(
-   index = 173,
-   label = "C_pri_Val73/C_sec_O2",
-   group =
-"""
-1 *1 Cs       u0 {2,S} {3,S} {4,S} {5,S}
-2 *2 Val7    u0 {1,S}
-3    Val7    u0 {1,S}
-4    Val7       u0 {1,S}
-5    Cs       u0  p0 {1,S} {6,S} {7,S} {8,S}
-6    O2s    u0 {5,S}
-7    O2s    u0 {5,S}
-8    C     u0 {5,S}
-""",
-   kinetics = None,
-)
-
-entry(
-   index = 174,
-   label = "C_pri_Val73/C_sec_O_H",
-   group =
-"""
-1 *1 Cs       u0 {2,S} {3,S} {4,S} {5,S}
-2 *2 Val7    u0 {1,S}
-3    Val7    u0 {1,S}
-4    Val7       u0 {1,S}
-5    Cs       u0 p0 {1,S} {6,S} {7,S} {8,S}
-6    O2s    u0 {5,S}
-7    H    u0 {5,S}
-8    C     u0 {5,S}
-""",
-   kinetics = None,
-)
-
-entry(
-   index = 175,
-   label = "C_pri_Val73/C_sec_O_Val7",
-   group =
-"""
-1 *1 Cs       u0 {2,S} {3,S} {4,S} {5,S}
-2 *2 Val7    u0 {1,S}
-3    Val7    u0 {1,S}
-4    Val7       u0 {1,S}
-5    Cs       u0 p0 {1,S} {6,S} {7,S} {8,S}
-6    O2s    u0 {5,S}
-7    Val7    u0 {5,S}
-8    C     u0 {5,S}
-""",
-   kinetics = None,
-)
-
-
-entry(
-   index = 177,
-   label = "C_pri_H2Val7/C_sec_O2",
-   group =
-"""
-1 *1 Cs       u0 {2,S} {3,S} {4,S} {5,S}
-2 *2 Val7    u0 {1,S}
-3    H       u0 {1,S}
-4    H       u0 {1,S}
-5    Cs       u0 p0 {1,S} {6,S} {7,S} {8,S}
-6    O2s    u0 {5,S}
-7    O2s    u0 {5,S}
-8    C     u0 {5,S}
-""",
-   kinetics = None,
-)
-
-entry(
-   index = 178,
-   label = "C_pri_H2Val7/C_sec_O_H",
-   group =
-"""
-1 *1 Cs       u0 {2,S} {3,S} {4,S} {5,S}
-2 *2 Val7    u0 {1,S}
-3    H       u0 {1,S}
-4    H       u0 {1,S}
-5    Cs       u0 p0 {1,S} {6,S} {7,S} {8,S}
-6    O2s    u0 {5,S}
-7    H    u0 {5,S}
-8    C     u0 {5,S}
-""",
-   kinetics = None,
-)
-
-entry(
-   index = 179,
-   label = "C_pri_H2Val7/C_sec_O_Val7",
-   group =
-"""
-1 *1 Cs       u0 {2,S} {3,S} {4,S} {5,S}
-2 *2 Val7    u0 {1,S}
-3    H       u0 {1,S}
-4    H       u0 {1,S}
-5    Cs       u0 p0 {1,S} {6,S} {7,S} {8,S}
-6    O2s    u0 {5,S}
-7    Val7    u0 {5,S}
-8    C     u0 {5,S}
-""",
-   kinetics = None,
-)
-
-entry(
-   index = 180,
-   label = "C_pri_H2Val7/C_ter_O",
-   group =
-"""
-1 *1 Cs       u0 {2,S} {3,S} {4,S} {5,S}
-2 *2 Val7    u0 {1,S}
-3    H     u0 {1,S}
-4    H    u0 {1,S}
-5    Cs       u0 p0 {1,S} {6,S} {7,S} {8,S}
-6    O2s    u0 {5,S}
-7    C     u0 {5,S}
-8    C      u0 {5,S}
-""",
-   kinetics = None,
-)
-
-entry(
-   index = 181,
-   label = "C_pri_HVal72/C_ter_O",
-   group =
-"""
-1 *1 Cs       u0 {2,S} {3,S} {4,S} {5,S}
-2 *2 Val7    u0 {1,S}
-3    Val7     u0 {1,S}
-4    H    u0 {1,S}
-5    Cs       u0 p0 {1,S} {6,S} {7,S} {8,S}
-6    O2s    u0 {5,S}
-7    C     u0 {5,S}
-8    C      u0 {5,S}
-""",
-   kinetics = None,
-)
-
-entry(
-   index = 182,
-   label = "C_pri_Val73/C_ter_O",
-   group =
-"""
-1 *1 Cs       u0 {2,S} {3,S} {4,S} {5,S}
-2 *2 Val7    u0 {1,S}
-3    Val7     u0 {1,S}
-4    Val7    u0 {1,S}
-5    Cs       u0 p0 {1,S} {6,S} {7,S} {8,S}
-6    O2s    u0 {5,S}
-7    C     u0 {5,S}
-8    C      u0 {5,S}
-""",
-   kinetics = None,
-)
-
-
-entry(
-    index = 183,
-    label = "Cs_Val7/C_rad",
-    group =
-"""
-1 *1 Cs u0 {2,S} {3,S}
-2 *2 Val7 u0 {1,S}
-3    C u1 p0 {1,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 184,
-    label = "Cs_Val7/C_rad/C_rad",
-    group =
-"""
-1 *1 Cs u0 {2,S} {3,S} {4,S}
-2 *2 Val7 u0 {1,S}
-3    C u1 p0 {1,S}
-4    C u1 p0 {1,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 185,
-    label = "Cs_Val7/C_rad/C_rad/C_rad",
-    group =
-"""
-1 *1 Cs u0 {2,S} {3,S} {4,S} {5,S}
-2 *2 Val7 u0 {1,S}
-3    C u1 p0 {1,S}
-4    C u1 p0 {1,S}
-5    C u1 p0 {1,S}
-""",
-    kinetics = None,
-)
-
-entry(
     index = 186,
     label = "Cs_Val7/C_birad",
     group = "OR{Cs_Val7/C_singlet, Cs_Val7/C_triplet}",
-    kinetics = None,
-)
-
-entry(
-    index = 187,
-    label = "Cs_Val7/C_singlet",
-    group =
-"""
-1 *1 Cs u0 {2,S} {3,S}
-2 *2 Val7 u0 {1,S}
-3    C u0 p1 {1,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 188,
-    label = "Cs_Val7/C_triplet",
-    group =
-"""
-1 *1 Cs u0 {2,S} {3,S}
-2 *2 Val7 u0 {1,S}
-3    C u2 {1,S}
-""",
     kinetics = None,
 )
 
@@ -8838,34 +8557,84 @@ entry(
     kinetics = None,
 )
 
-entry(
-    index = 190,
-    label = "Cs_Val7/C_doublet",
-    group =
-"""
-1 *1 Cs u0 {2,S} {3,S}
-2 *2 Val7 u0 {1,S}
-3    C u1 p1 {1,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 191,
-    label = "Cs_Val7/C_quartet",
-    group =
-"""
-1 *1 Cs u0 {2,S} {3,S}
-2 *2 Val7 u0 {1,S}
-3    C u3  {1,S}
-""",
-    kinetics = None,
-)
 
 ########################
 
 tree(
 """
+###########
+# L1: X_Val7_or_Xrad_Val7_Xbirad_Val7_Xtrirad_Val7
+#     L2: Xbirad_Val7
+#         L3: C_triplet_HVal7
+#         L3: C_triplet_OVal7
+#         L3: C_singlet_HVal7
+#         L3: C_singlet_OVal7
+#     L2: C_rad_Val7
+#         L3: C_rad_Val7/Val7
+#             L4: C_rad_Val7/Val7C
+#         L3: C_rad_Val7/Cs
+#         L3: C_rad_Val7/Ct
+#         L3: C_rad_Val7/CC
+#         L3: C_rad_Val7/CO
+#         L3: C_rad_Val7/O
+#         L3: C_rad_Val7/OH
+#         L3: C_rad_Val7/HO
+#         L3: C_rad_Val7/HC
+#         L3: C_rad_Val7/Cd
+#         L3: C_rad_Val7/O2d
+
+#         L3: HO_Val7
+
+#         L3: OO_Val7
+    L2: HVal7
+    L2: Ct_Val7
+            L4: Cs_Val72_H_O2s_Val7
+            L4: Cs_Val72_O2s_O2s_H
+            L4: Cs_Val72_O2s_H
+            L4: C_pri_HVal72
+                L5: C_pri_HVal72/C_sec_Val72
+                L5: C_pri_HVal72/C_sec_HVal7
+                L5: C_pri_HVal72/C_sec_HVal7_2
+                L5: C_pri_HVal72/C_sec_H2
+                L5: C_pri_HVal72/C_sec_H2_2
+                L5: C_pri_HVal72/C_ter_Val7
+                L5: C_pri_HVal72/C_ter_H
+                L5: C_pri_HVal72/C_ter_H_2
+
+                L5: Cs_Val73_O2s
+    
+                    L6: C_pri_Val73/C_sec_Val72
+                    L6: C_pri_Val73/C_sec_HVal7
+                    L6: C_pri_Val73/C_sec_H2
+                    L6: C_pri_Val73/C_ter_H
+
+
+
+            L4: C_pri_H2Val7/C_sec_H2
+            L4: C_pri_H2Val7/C_sec_H2_2
+            L4: C_pri_H2Val7/C_sec_HVal7
+            L4: C_pri_H2Val7/C_sec_HVal7_2
+            L4: C_pri_H2Val7/C_sec_Val72
+            L4: C_pri_H2Val7/C_ter_H
+            L4: C_pri_H2Val7/C_ter_H_2
+            L4: C_pri_H2Val7/C_ter_Val7
+
+        L3: C_sec_HVal7
+
+        L3: Cs_Val7_H2_O2s
+            L4: Cs_Val7_H2_O2s_Val7
+        L3: Cs_H3_O2s_Val7
+        L3: Cs_Val7_H_O2s_C
+        L3: Cs_Val7/C_birad
+            L4: Cs_Val7/C_singlet
+            L4: Cs_Val7/C_triplet
+        L3: Cs_Val7/C_trirad
+            L4: Cs_Val7/C_doublet
+            L4: Cs_Val7/C_quartet
+##############
+
+
+
 L1: X_H_or_Xrad_H_Xbirad_H_Xtrirad_H
     L2: Xtrirad_H
         L3: C_quartet_H
@@ -8875,10 +8644,28 @@ L1: X_H_or_Xrad_H_Xbirad_H_Xtrirad_H
         L3: CH2_singlet_H
         L3: NH_triplet_H
         L3: NH_singlet_H
+        L3: Xbirad_Val7
+            L4: C_triplet_HVal7
+            L4: C_triplet_OVal7
+            L4: C_singlet_HVal7
+            L4: C_singlet_OVal7
     L2: Xrad_H
         L3: C_rad_H
             L4: CH3_rad_H
             L4: Cs/H2/OneDeN
+            L2: C_rad_Val7
+                L3: C_rad_Val7/Cs
+                L3: C_rad_Val7/Ct
+                L3: C_rad_Val7/CC
+                L3: C_rad_Val7/CO
+                L3: C_rad_Val7/O
+                L3: C_rad_Val7/HO
+                L3: C_rad_Val7/HC
+                L3: C_rad_Val7/Cd
+                L3: C_rad_Val7/O2d
+                L3: C_rad_Val7/Val7
+                    L4: C_rad_Val7/Val7C
+        L3: C_rad_Val7/OH
         L3: OH_rad_H
         L3: Srad_H
         L3: N3s_rad_H
@@ -8893,6 +8680,8 @@ L1: X_H_or_Xrad_H_Xbirad_H_Xtrirad_H
         L3: O_H
             L4: O_pri
             L4: O_sec
+                L5: HO_Val7
+                L5: OO_Val7
                 L5: O/H/NonDeC
                 L5: O/H/NonDeO
                     L6: H2O2
@@ -9009,8 +8798,8 @@ L1: X_H_or_Xrad_H_Xbirad_H_Xtrirad_H
                     L6: C/H3/Cs\TwoDe
                         L7: 1_methyl_CPD
                 L5: C/H2Val7/Cs
-                    L6:C/H2Val7/Cs\H3
-                    L6:C/H2Val7/Cs\H2Val7
+                    L6: C/H2Val7/Cs\H3
+                    L6: C/H2Val7/Cs\H2Val7
                 L5: C/H3/O
                 L5: C/H3/S
                 L5: C/H3/OneDe
@@ -9168,6 +8957,9 @@ L1: Y_rad_birad_trirad_quadrad
     L2: Y_rad
         L3: H_rad
         L3: Val7_rad
+            L4: F_rad
+            L4: Cl_rad
+            L4: Br_rad
         L3: Y_2centeradjbirad
             L4: O2b
             L4: S2b
@@ -9176,8 +8968,12 @@ L1: Y_rad_birad_trirad_quadrad
             L4: Ct_rad/Ct
             L4: Ct_rad/N
         L3: O_rad
+            L4: OO_birad
+            L4: OH_rad
+                L5: OOH_rad
             L4: O_pri_rad
             L4: O_sec_rad
+                L5: OVal7_rad
                 L5: O_rad/NonDeC
                     L6: O_rad/Cs\H2\Cs|H|Cs2
                 L5: O_rad/NonDeO
