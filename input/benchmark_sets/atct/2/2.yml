@@ -20,7 +20,9 @@ Properties:
   multiplicity: 1
 RMG_version: 2.4.1
 calculated_data:
-  fod: 0.000138
+  ccsd(t)/aug-cc-pvdz:
+    class: CalculatedDataEntry
+    t1_diagnostic: 0.011417027
   m062x/cc-pvtz:
     class: CalculatedDataEntry
     conformer:
@@ -237,9 +239,11 @@ calculated_data:
           - 1000.0
           - 1500.0
       class: ThermoData
-  t1: 0.007859791
+  tpss/def2-tzvp:
+    class: CalculatedDataEntry
+    fod: 0.057195
 class: ReferenceSpecies
-datetime: 2019-08-08 13:36
+datetime: 2019-08-08 15:18
 index: 2
 is_ts: false
 reference_data:
