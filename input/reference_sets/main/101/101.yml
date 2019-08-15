@@ -23,7 +23,7 @@ calculated_data:
       E0:
         class: ScalarQuantity
         units: kJ/mol
-        value: -6957571.994937518
+        value: -6957571.99493752
       class: Conformer
       coordinates:
         class: ArrayQuantity
@@ -63,9 +63,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 0.8135035661278662
-            - 46.89795811278794
-            - 47.711468820809124
+            - 0.813503429934744
+            - 46.89795026134192
+            - 47.71146083316877
         quantum: false
         rotationalConstant:
           class: ArrayQuantity
@@ -73,9 +73,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 20.72225587601028
-            - 0.35945336922359156
-            - 0.35332446202109213
+            - 20.722259345238097
+            - 0.35945342940167413
+            - 0.3533245211731005
         symmetry: 1
       - class: HarmonicOscillator
         frequencies:
@@ -98,6 +98,7 @@ calculated_data:
           - 1.0
       opticalIsomers: 1
       spinMultiplicity: 1
+    fod: 0.09764
     thermo:
       Cp0:
         class: ScalarQuantity

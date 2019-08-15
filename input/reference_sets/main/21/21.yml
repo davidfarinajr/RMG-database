@@ -55,6 +55,7 @@ calculated_data:
           - 17.0
       opticalIsomers: 1
       spinMultiplicity: 2
+    fod: 1.333314
     thermo:
       Cp0:
         class: ScalarQuantity
@@ -147,7 +148,7 @@ calculated_data:
       H298:
         class: ScalarQuantity
         units: kJ/mol
-        value: -1208093.1336100542
+        value: -1208093.133610055
       S298:
         class: ScalarQuantity
         units: J/(mol*K)
@@ -183,5 +184,5 @@ reference_data:
         uncertainty: 0.0011
         uncertaintyType: +|-
         units: kJ/mol
-        value: 121.22800000000001
+        value: 121.22800000000007
       class: ThermoData
