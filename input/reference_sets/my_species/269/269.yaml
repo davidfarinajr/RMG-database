@@ -1,0 +1,22 @@
+name: Hydroxyimidogen
+FOD: null
+adjacency_list: null
+atct_id: 35337-59-8*0
+categories: []
+charge: null
+dft_freqs: {}
+dft_thermo: {}
+dft_xyzs: {}
+expt_sources:
+- {hf0: 217.93, hf298: 215.04, source: 'ATcT:35337-59-8*0', u_hf: 0.9, units: kJ/mol}
+ff_xyz: null
+formula: NOH (g)
+inchi: null
+index: 269
+multiplicity: null
+preferred_expt_source: null
+qm_files: {}
+rmg_symmetry: null
+smiles: '[N]O'
+t1: null
+yaml_file: species/269/269.yaml

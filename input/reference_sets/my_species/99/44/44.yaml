@@ -1,0 +1,58 @@
+name: Cyclopropenylidene
+FOD: '0.06366'
+adjacency_list: '1 C u0 p0 c0 {2,S} {3,D} {4,S}
+
+  2 C u0 p0 c0 {1,S} {3,D} {5,S}
+
+  3 C u0 p0 c0 {1,D} {2,D}
+
+  4 H u0 p0 c0 {1,S}
+
+  5 H u0 p0 c0 {2,S}
+
+'
+atct_id: 16165-40-5*0
+categories: []
+charge: 0
+dft_freqs: {}
+dft_thermo:
+  m06-2x/cc-pVTZ:
+    thermo:
+      Cp0: {class: ScalarQuantity, units: J/(mol*K), value: 33.257888}
+      CpInf: {class: ScalarQuantity, units: J/(mol*K), value: 108.08813599999999}
+      E0: {class: ScalarQuantity, units: kJ/mol, value: 467.02365566332276}
+      Tmax: {class: ScalarQuantity, units: K, value: 3000.0}
+      Tmin: {class: ScalarQuantity, units: K, value: 10.0}
+      class: NASA
+      polynomials:
+        polynomial1:
+          Tmax: {class: ScalarQuantity, units: K, value: 676.5465238704609}
+          Tmin: {class: ScalarQuantity, units: K, value: 10.0}
+          class: NASAPolynomial
+          coeffs: [4.102617916921201, -0.007761542176831265, 6.421162163745872e-05,
+            -9.198048053702086e-08, 4.288210656778071e-11, 56168.63940533923, 5.265906923143393]
+        polynomial2:
+          Tmax: {class: ScalarQuantity, units: K, value: 3000.0}
+          Tmin: {class: ScalarQuantity, units: K, value: 676.5465238704609}
+          class: NASAPolynomial
+          coeffs: [1.8899945277453152, 0.015429626606008166, -9.620258132342198e-06,
+            2.8596444893148697e-09, -3.250344773937712e-13, 56236.66894869279, 13.366091414704508]
+    thermo_data:
+      Cp (cal/mol*K): {1000 K: '20.34', 1500 K: '22.64', 2000 K: '23.74', 2400 K: '24.36',
+        300 K: '10.76', 400 K: '12.88', 500 K: '14.82', 600 K: '16.40', 800 K: '18.70'}
+      H298: 114.17 kcal/mol
+      S298: 56.54 cal/mol*K
+dft_xyzs: {}
+expt_sources:
+- {hf0: 497.07, hf298: 496.11, source: 'ATcT:16165-40-5*0', u_hf: 0.46, units: kJ/mol}
+ff_xyz: null
+formula: C(CHCH) (g)
+inchi: InChI=1S/C3H2/c1-2-3-1/h1-2H
+index: 44
+multiplicity: 1
+preferred_expt_source: null
+qm_files: {}
+rmg_symmetry: 2
+smiles: C1=CC=1
+t1: null
+yaml_file: species/44/44.yaml

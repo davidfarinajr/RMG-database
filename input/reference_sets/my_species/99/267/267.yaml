@@ -1,0 +1,67 @@
+name: 2-Fluoroethanol
+FOD: '0.001188'
+adjacency_list: '1 F u0 p3 c0 {4,S}
+
+  2 O u0 p2 c0 {3,S} {9,S}
+
+  3 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
+
+  4 C u0 p0 c0 {1,S} {3,S} {7,S} {8,S}
+
+  5 H u0 p0 c0 {3,S}
+
+  6 H u0 p0 c0 {3,S}
+
+  7 H u0 p0 c0 {4,S}
+
+  8 H u0 p0 c0 {4,S}
+
+  9 H u0 p0 c0 {2,S}
+
+'
+atct_id: 371-62-0*0
+categories: []
+charge: 0
+dft_freqs: {}
+dft_thermo:
+  m06-2x/cc-pVTZ:
+    thermo:
+      Cp0: {class: ScalarQuantity, units: J/(mol*K), value: 33.257888}
+      CpInf: {class: ScalarQuantity, units: J/(mol*K), value: 207.86180000000002}
+      E0: {class: ScalarQuantity, units: kJ/mol, value: -439.00619242286217}
+      Tmax: {class: ScalarQuantity, units: K, value: 3000.0}
+      Tmin: {class: ScalarQuantity, units: K, value: 10.0}
+      class: NASA
+      polynomials:
+        polynomial1:
+          Tmax: {class: ScalarQuantity, units: K, value: 418.6421017795279}
+          Tmin: {class: ScalarQuantity, units: K, value: 10.0}
+          class: NASAPolynomial
+          coeffs: [3.9684354071022185, 0.0019926263259004693, 8.863343437758222e-05,
+            -1.6636702062935447e-07, 1.0205972900033258e-10, -52799.095004929215,
+            8.861031058762448]
+        polynomial2:
+          Tmax: {class: ScalarQuantity, units: K, value: 3000.0}
+          Tmin: {class: ScalarQuantity, units: K, value: 418.6421017795279}
+          class: NASAPolynomial
+          coeffs: [0.8072361763347371, 0.03218176921801873, -1.9480296983766474e-05,
+            5.7121491916089894e-09, -6.488937445726593e-13, -52534.279853558786, 21.360998545577065]
+    thermo_data:
+      Cp (cal/mol*K): {1000 K: '36.91', 1500 K: '42.21', 2000 K: '44.84', 2400 K: '46.25',
+        300 K: '17.64', 400 K: '21.68', 500 K: '25.24', 600 K: '28.32', 800 K: '33.27'}
+      H298: -101.40 kcal/mol
+      S298: 69.02 cal/mol*K
+dft_xyzs: {}
+expt_sources:
+- {hf0: -406.6, hf298: -423.9, source: 'ATcT:371-62-0*0', u_hf: 1.3, units: kJ/mol}
+ff_xyz: null
+formula: FCH2CH2OH (g)
+inchi: InChI=1S/C2H5FO/c3-1-2-4/h4H,1-2H2
+index: 267
+multiplicity: 1
+preferred_expt_source: null
+qm_files: {}
+rmg_symmetry: 1
+smiles: OCCF
+t1: null
+yaml_file: species/267/267.yaml

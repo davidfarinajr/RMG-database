@@ -1,0 +1,59 @@
+name: Fluorochlorobromomethane
+FOD: '0.009042'
+adjacency_list: '1 Br u0 p3 c0 {4,S}
+
+  2 Cl u0 p3 c0 {4,S}
+
+  3 F  u0 p3 c0 {4,S}
+
+  4 C  u0 p0 c0 {1,S} {2,S} {3,S} {5,S}
+
+  5 H  u0 p0 c0 {4,S}
+
+'
+atct_id: 593-98-6*0
+categories: []
+charge: 0
+dft_freqs: {}
+dft_thermo:
+  m06-2x/cc-pVTZ:
+    thermo:
+      Cp0: {class: ScalarQuantity, units: J/(mol*K), value: 33.257888}
+      CpInf: {class: ScalarQuantity, units: J/(mol*K), value: 108.08813599999999}
+      E0: {class: ScalarQuantity, units: kJ/mol, value: -236.4811297024971}
+      Tmax: {class: ScalarQuantity, units: K, value: 3000.0}
+      Tmin: {class: ScalarQuantity, units: K, value: 10.0}
+      class: NASA
+      polynomials:
+        polynomial1:
+          Tmax: {class: ScalarQuantity, units: K, value: 497.5809202898387}
+          Tmin: {class: ScalarQuantity, units: K, value: 10.0}
+          class: NASAPolynomial
+          coeffs: [3.9246667723671904, 0.004889815688403268, 6.111466899989237e-05,
+            -1.5100796172312912e-07, 1.0684823710078673e-10, -28439.94354332282, .inf]
+        polynomial2:
+          Tmax: {class: ScalarQuantity, units: K, value: 3000.0}
+          Tmin: {class: ScalarQuantity, units: K, value: 497.5809202898387}
+          class: NASAPolynomial
+          coeffs: [4.644295434937552, 0.013763713844227355, -9.827001468049521e-06,
+            3.2479801579111494e-09, -4.0222210650915313e-13, -28693.025930276093,
+            .inf]
+    thermo_data:
+      Cp (cal/mol*K): {1000 K: '22.71', 1500 K: '24.05', 2000 K: '24.67', 2400 K: '25.10',
+        300 K: '15.26', 400 K: '17.35', 500 K: '18.78', 600 K: '19.90', 800 K: '21.59'}
+      H298: -53.18 kcal/mol
+      S298: inf cal/mol*K
+dft_xyzs: {}
+expt_sources:
+- {hf0: -219.3, hf298: -231.7, source: 'ATcT:593-98-6*0', u_hf: 5.5, units: kJ/mol}
+ff_xyz: null
+formula: CHFClBr (g)
+inchi: InChI=1S/CHBrClF/c2-1(3)4/h1H
+index: 306
+multiplicity: 1
+preferred_expt_source: null
+qm_files: {}
+rmg_symmetry: 0
+smiles: FC(Cl)Br
+t1: null
+yaml_file: species/306/306.yaml

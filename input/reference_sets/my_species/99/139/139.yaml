@@ -1,0 +1,22 @@
+name: 1,2-Diiodoethane
+FOD: null
+adjacency_list: null
+atct_id: 624-73-7*0
+categories: []
+charge: null
+dft_freqs: {}
+dft_thermo: {}
+dft_xyzs: {}
+expt_sources:
+- {hf0: 87.78, hf298: 73.12, source: 'ATcT:624-73-7*0', u_hf: 0.9, units: kJ/mol}
+ff_xyz: null
+formula: (CIH2)2 (g)
+inchi: null
+index: 139
+multiplicity: null
+preferred_expt_source: null
+qm_files: {}
+rmg_symmetry: null
+smiles: ICCI
+t1: null
+yaml_file: species/139/139.yaml

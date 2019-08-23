@@ -1,0 +1,54 @@
+name: Hypobromous acid
+FOD: '0.09764'
+adjacency_list: '1 Br u0 p3 c0 {2,S}
+
+  2 O  u0 p2 c0 {1,S} {3,S}
+
+  3 H  u0 p0 c0 {2,S}
+
+'
+atct_id: 13517-11-8*0
+categories: []
+charge: 0
+dft_freqs: {}
+dft_thermo:
+  m06-2x/cc-pVTZ:
+    thermo:
+      Cp0: {class: ScalarQuantity, units: J/(mol*K), value: 33.257888}
+      CpInf: {class: ScalarQuantity, units: J/(mol*K), value: 58.201304}
+      E0: {class: ScalarQuantity, units: kJ/mol, value: -56.60820846781451}
+      Tmax: {class: ScalarQuantity, units: K, value: 3000.0}
+      Tmin: {class: ScalarQuantity, units: K, value: 10.0}
+      class: NASA
+      polynomials:
+        polynomial1:
+          Tmax: {class: ScalarQuantity, units: K, value: 551.0506027818666}
+          Tmin: {class: ScalarQuantity, units: K, value: 10.0}
+          class: NASAPolynomial
+          coeffs: [4.030694318653733, -0.0028064922340233145, 2.802996456395484e-05,
+            -5.083254809780695e-08, 3.002980522047189e-11, -6808.176179911901, 6.728622085459019]
+        polynomial2:
+          Tmax: {class: ScalarQuantity, units: K, value: 3000.0}
+          Tmin: {class: ScalarQuantity, units: K, value: 551.0506027818666}
+          class: NASAPolynomial
+          coeffs: [3.73688920027087, 0.0038319942894407453, -2.3055862848621468e-06,
+            7.061625810972862e-10, -8.410841698621495e-14, -6844.20665259453, 7.35024468119571]
+    thermo_data:
+      Cp (cal/mol*K): {1000 K: '11.70', 1500 K: '12.43', 2000 K: '12.88', 2400 K: '13.17',
+        300 K: '9.11', 400 K: '9.75', 500 K: '10.25', 600 K: '10.63', 800 K: '11.24'}
+      H298: -11.07 kcal/mol
+      S298: 59.04 cal/mol*K
+dft_xyzs: {}
+expt_sources:
+- {hf0: -51.71, hf298: -62.18, source: 'ATcT:13517-11-8*0', u_hf: 0.59, units: kJ/mol}
+ff_xyz: null
+formula: HOBr (g)
+inchi: InChI=1S/BrHO/c1-2/h2H
+index: 137
+multiplicity: 1
+preferred_expt_source: null
+qm_files: {}
+rmg_symmetry: 1
+smiles: OBr
+t1: null
+yaml_file: species/137/137.yaml

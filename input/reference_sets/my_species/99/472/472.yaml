@@ -1,0 +1,22 @@
+name: Nitrobenzene
+FOD: null
+adjacency_list: null
+atct_id: 98-95-3*0
+categories: []
+charge: null
+dft_freqs: {}
+dft_thermo: {}
+dft_xyzs: {}
+expt_sources:
+- {hf0: 81.5, hf298: 61.5, source: 'ATcT:98-95-3*0', u_hf: 1.4, units: kJ/mol}
+ff_xyz: null
+formula: C6H5N(O)O (g)
+inchi: null
+index: 472
+multiplicity: null
+preferred_expt_source: null
+qm_files: {}
+rmg_symmetry: null
+smiles: '[O-][N+](=O)c1ccccc1'
+t1: null
+yaml_file: species/472/472.yaml

@@ -1,0 +1,22 @@
+name: Fluorotrichloromethane
+FOD: null
+adjacency_list: null
+atct_id: 75-69-4*0
+categories: []
+charge: null
+dft_freqs: {}
+dft_thermo: {}
+dft_xyzs: {}
+expt_sources:
+- {hf0: -286.4, hf298: -289.6, source: 'ATcT:75-69-4*0', u_hf: 1.2, units: kJ/mol}
+ff_xyz: null
+formula: CCl3F (g)
+inchi: null
+index: 154
+multiplicity: null
+preferred_expt_source: null
+qm_files: {}
+rmg_symmetry: null
+smiles: FC(Cl)(Cl)Cl
+t1: null
+yaml_file: species/154/154.yaml

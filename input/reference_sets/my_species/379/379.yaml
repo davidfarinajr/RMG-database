@@ -1,0 +1,59 @@
+name: Methyl fluoride
+FOD: '0.00015'
+adjacency_list: '1 F u0 p3 c0 {2,S}
+
+  2 C u0 p0 c0 {1,S} {3,S} {4,S} {5,S}
+
+  3 H u0 p0 c0 {2,S}
+
+  4 H u0 p0 c0 {2,S}
+
+  5 H u0 p0 c0 {2,S}
+
+'
+atct_id: 593-53-3*0
+categories: []
+charge: 0
+dft_freqs: {}
+dft_thermo:
+  m06-2x/cc-pVTZ:
+    thermo:
+      Cp0: {class: ScalarQuantity, units: J/(mol*K), value: 33.257888}
+      CpInf: {class: ScalarQuantity, units: J/(mol*K), value: 108.08813599999999}
+      E0: {class: ScalarQuantity, units: kJ/mol, value: -243.58742370568444}
+      Tmax: {class: ScalarQuantity, units: K, value: 3000.0}
+      Tmin: {class: ScalarQuantity, units: K, value: 10.0}
+      class: NASA
+      polynomials:
+        polynomial1:
+          Tmax: {class: ScalarQuantity, units: K, value: 949.6743130709491}
+          Tmin: {class: ScalarQuantity, units: K, value: 10.0}
+          class: NASAPolynomial
+          coeffs: [4.088210114284928, -0.005128483659415491, 3.19483128070594e-05,
+            -3.185706556713434e-08, 1.0288163931385353e-11, -29299.65015741576, 3.846105384877182]
+        polynomial2:
+          Tmax: {class: ScalarQuantity, units: K, value: 3000.0}
+          Tmin: {class: ScalarQuantity, units: K, value: 949.6743130709491}
+          class: NASAPolynomial
+          coeffs: [0.7230356661760605, 0.014476630183953263, -7.5961065540314044e-06,
+            1.9248876116003966e-09, -1.9014404542004825e-13, -28905.396543341216,
+            18.61791827728392]
+    thermo_data:
+      Cp (cal/mol*K): {1000 K: '18.56', 1500 K: '21.62', 2000 K: '23.15', 2400 K: '23.88',
+        300 K: '9.24', 400 K: '10.68', 500 K: '12.26', 600 K: '13.84', 800 K: '16.56'}
+      H298: -55.81 kcal/mol
+      S298: 53.19 cal/mol*K
+dft_xyzs: {}
+expt_sources:
+- {hf0: -227.44, hf298: -235.47, source: 'ATcT:593-53-3*0', u_hf: 0.24, units: kJ/mol}
+ff_xyz: null
+formula: CH3F (g)
+inchi: InChI=1S/CH3F/c1-2/h1H3
+index: 379
+multiplicity: 1
+preferred_expt_source: null
+qm_files: {}
+rmg_symmetry: 3
+smiles: CF
+t1: null
+yaml_file: species/379/379.yaml

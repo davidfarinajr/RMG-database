@@ -1,0 +1,78 @@
+name: Toluene
+FOD: '0.018969'
+adjacency_list: '1  C u0 p0 c0 {2,S} {8,S} {9,S} {10,S}
+
+  2  C u0 p0 c0 {1,S} {3,S} {4,D}
+
+  3  C u0 p0 c0 {2,S} {5,D} {11,S}
+
+  4  C u0 p0 c0 {2,D} {7,S} {15,S}
+
+  5  C u0 p0 c0 {3,D} {6,S} {12,S}
+
+  6  C u0 p0 c0 {5,S} {7,D} {13,S}
+
+  7  C u0 p0 c0 {4,S} {6,D} {14,S}
+
+  8  H u0 p0 c0 {1,S}
+
+  9  H u0 p0 c0 {1,S}
+
+  10 H u0 p0 c0 {1,S}
+
+  11 H u0 p0 c0 {3,S}
+
+  12 H u0 p0 c0 {5,S}
+
+  13 H u0 p0 c0 {6,S}
+
+  14 H u0 p0 c0 {7,S}
+
+  15 H u0 p0 c0 {4,S}
+
+'
+atct_id: 108-88-3*0
+categories: []
+charge: 0
+dft_freqs: {}
+dft_thermo:
+  m06-2x/cc-pVTZ:
+    thermo:
+      Cp0: {class: ScalarQuantity, units: J/(mol*K), value: 33.257888}
+      CpInf: {class: ScalarQuantity, units: J/(mol*K), value: 357.522296}
+      E0: {class: ScalarQuantity, units: kJ/mol, value: 32.99382982467115}
+      Tmax: {class: ScalarQuantity, units: K, value: 3000.0}
+      Tmin: {class: ScalarQuantity, units: K, value: 10.0}
+      class: NASA
+      polynomials:
+        polynomial1:
+          Tmax: {class: ScalarQuantity, units: K, value: 440.18108190857606}
+          Tmin: {class: ScalarQuantity, units: K, value: 10.0}
+          class: NASAPolynomial
+          coeffs: [3.945330392271292, 0.0033896954693904144, 0.00017249799753515978,
+            -3.1347002316929827e-07, 1.8396147712029478e-10, 3970.3136506040164, 10.038853377719764]
+        polynomial2:
+          Tmax: {class: ScalarQuantity, units: K, value: 3000.0}
+          Tmin: {class: ScalarQuantity, units: K, value: 440.18108190857606}
+          class: NASAPolynomial
+          coeffs: [-3.0475223499747415, 0.06687629076475875, -4.3644710525147234e-05,
+            1.3581556059214678e-08, -1.6149497440181499e-12, 4586.506062290993, 38.04366001157852]
+    thermo_data:
+      Cp (cal/mol*K): {1000 K: '63.89', 1500 K: '72.99', 2000 K: '77.38', 2400 K: '79.95',
+        300 K: '26.85', 400 K: '34.87', 500 K: '41.88', 600 K: '47.87', 800 K: '57.26'}
+      H298: 12.49 kcal/mol
+      S298: 77.07 cal/mol*K
+dft_xyzs: {}
+expt_sources:
+- {hf0: 73.44, hf298: 50.15, source: 'ATcT:108-88-3*0', u_hf: 0.34, units: kJ/mol}
+ff_xyz: null
+formula: C6H5CH3 (g)
+inchi: InChI=1S/C7H8/c1-7-5-3-2-4-6-7/h2-6H,1H3
+index: 130
+multiplicity: 1
+preferred_expt_source: null
+qm_files: {}
+rmg_symmetry: 6
+smiles: CC1C=CC=CC=1
+t1: '0.009376059'
+yaml_file: species/130/130.yaml

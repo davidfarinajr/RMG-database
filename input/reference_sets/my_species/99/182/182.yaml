@@ -1,0 +1,62 @@
+name: Ethylidene
+FOD: '0.002931'
+adjacency_list: 'multiplicity 3
+
+  1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+
+  2 C u2 p0 c0 {1,S} {6,S}
+
+  3 H u0 p0 c0 {1,S}
+
+  4 H u0 p0 c0 {1,S}
+
+  5 H u0 p0 c0 {1,S}
+
+  6 H u0 p0 c0 {2,S}
+
+'
+atct_id: 4218-50-2*1
+categories: []
+charge: 0
+dft_freqs: {}
+dft_thermo:
+  m06-2x/cc-pVTZ:
+    thermo:
+      Cp0: {class: ScalarQuantity, units: J/(mol*K), value: 33.257888}
+      CpInf: {class: ScalarQuantity, units: J/(mol*K), value: 133.031552}
+      E0: {class: ScalarQuantity, units: kJ/mol, value: 331.79859221408236}
+      Tmax: {class: ScalarQuantity, units: K, value: 3000.0}
+      Tmin: {class: ScalarQuantity, units: K, value: 10.0}
+      class: NASA
+      polynomials:
+        polynomial1:
+          Tmax: {class: ScalarQuantity, units: K, value: 525.0199753869224}
+          Tmin: {class: ScalarQuantity, units: K, value: 10.0}
+          class: NASAPolynomial
+          coeffs: [3.9782856823516406, 0.001179464123760937, 3.3833410200026926e-05,
+            -5.1133286650902525e-08, 2.5087425019516e-11, 39907.541838175566, 5.236068304047242]
+        polynomial2:
+          Tmax: {class: ScalarQuantity, units: K, value: 3000.0}
+          Tmin: {class: ScalarQuantity, units: K, value: 525.0199753869224}
+          class: NASAPolynomial
+          coeffs: [2.0580543927253667, 0.015809251657490545, -7.96442252165303e-06,
+            1.9413451561620144e-09, -1.852657938845042e-13, 40109.1736498287, 13.262831451039956]
+    thermo_data:
+      Cp (cal/mol*K): {1000 K: '23.17', 1500 K: '26.76', 2000 K: '28.59', 2400 K: '29.44',
+        300 K: '12.32', 400 K: '14.37', 500 K: '16.30', 600 K: '18.03', 800 K: '20.92'}
+      H298: 82.18 kcal/mol
+      S298: 58.33 cal/mol*K
+dft_xyzs: {}
+expt_sources:
+- {hf0: 361.3, hf298: 354.3, source: 'ATcT:4218-50-2*1', u_hf: 0.91, units: kJ/mol}
+ff_xyz: null
+formula: CH3CH (g, triplet)
+inchi: InChI=1S/C2H4/c1-2/h1H,2H3
+index: 182
+multiplicity: 3
+preferred_expt_source: null
+qm_files: {}
+rmg_symmetry: 3
+smiles: '[CH]C'
+t1: null
+yaml_file: species/182/182.yaml

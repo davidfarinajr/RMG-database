@@ -1,0 +1,22 @@
+name: NON
+FOD: null
+adjacency_list: null
+atct_id: 227934-46-5*0
+categories: []
+charge: null
+dft_freqs: {}
+dft_thermo: {}
+dft_xyzs: {}
+expt_sources:
+- {hf0: 545.5, hf298: 542.3, source: 'ATcT:227934-46-5*0', u_hf: 1.7, units: kJ/mol}
+ff_xyz: null
+formula: NON (g)
+inchi: null
+index: 27
+multiplicity: null
+preferred_expt_source: null
+qm_files: {}
+rmg_symmetry: null
+smiles: '[N]O[N]'
+t1: null
+yaml_file: species/27/27.yaml

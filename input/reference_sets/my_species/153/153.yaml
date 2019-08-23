@@ -1,0 +1,22 @@
+name: Chloromethoxy
+FOD: null
+adjacency_list: null
+atct_id: 114282-89-2*0
+categories: []
+charge: null
+dft_freqs: {}
+dft_thermo: {}
+dft_xyzs: {}
+expt_sources:
+- {hf0: -11.7, hf298: -18.5, source: 'ATcT:114282-89-2*0', u_hf: 1.1, units: kJ/mol}
+ff_xyz: null
+formula: CH2(Cl)O (g)
+inchi: null
+index: 153
+multiplicity: null
+preferred_expt_source: null
+qm_files: {}
+rmg_symmetry: null
+smiles: '[O]CCl'
+t1: null
+yaml_file: species/153/153.yaml

@@ -1,0 +1,53 @@
+name: Dichlorine
+FOD: '0.118808'
+adjacency_list: '1 Cl u0 p3 c0 {2,S}
+
+  2 Cl u0 p3 c0 {1,S}
+
+'
+atct_id: 7782-50-5*0
+categories: []
+charge: 0
+dft_freqs: {}
+dft_thermo:
+  m06-2x/cc-pVTZ:
+    thermo:
+      Cp0: {class: ScalarQuantity, units: J/(mol*K), value: 29.100652}
+      CpInf: {class: ScalarQuantity, units: J/(mol*K), value: 37.415124}
+      E0: {class: ScalarQuantity, units: kJ/mol, value: -3.7599612708385104}
+      Tmax: {class: ScalarQuantity, units: K, value: 3000.0}
+      Tmin: {class: ScalarQuantity, units: K, value: 10.0}
+      class: NASA
+      polynomials:
+        polynomial1:
+          Tmax: {class: ScalarQuantity, units: K, value: 600.3397534450091}
+          Tmin: {class: ScalarQuantity, units: K, value: 10.0}
+          class: NASAPolynomial
+          coeffs: [3.487358654410086, 0.0007286318169077482, 8.25658154591713e-06,
+            -1.8510555520270734e-08, 1.1319072424930954e-11, -451.58204499722575,
+            6.469282904495239]
+        polynomial2:
+          Tmax: {class: ScalarQuantity, units: K, value: 3000.0}
+          Tmin: {class: ScalarQuantity, units: K, value: 600.3397534450091}
+          class: NASAPolynomial
+          coeffs: [3.8064266548987815, 0.0015988290614566275, -1.4037249503285438e-06,
+            5.301637513570756e-10, -7.191037534149782e-14, -543.8830214704842, 4.643100227905062]
+    thermo_data:
+      Cp (cal/mol*K): {1000 K: '8.86', 1500 K: '8.89', 2000 K: '8.90', 2400 K: '8.95',
+        300 K: '8.03', 400 K: '8.36', 500 K: '8.56', 600 K: '8.68', 800 K: '8.80'}
+      H298: 1.31 kcal/mol
+      S298: 53.22 cal/mol*K
+dft_xyzs: {}
+expt_sources:
+- {hf0: 0.0, hf298: 0.0, source: 'ATcT:7782-50-5*0', u_hf: 0.0, units: .nan}
+ff_xyz: null
+formula: Cl2 (g)
+inchi: InChI=1S/Cl2/c1-2
+index: 393
+multiplicity: 1
+preferred_expt_source: null
+qm_files: {}
+rmg_symmetry: 2
+smiles: '[Cl][Cl]'
+t1: null
+yaml_file: species/393/393.yaml

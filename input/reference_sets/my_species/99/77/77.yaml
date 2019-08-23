@@ -1,0 +1,62 @@
+name: Cycloprop-1-enyl
+FOD: '0.111377'
+adjacency_list: 'multiplicity 2
+
+  1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+
+  2 C u0 p0 c0 {1,S} {3,D} {6,S}
+
+  3 C u1 p0 c0 {1,S} {2,D}
+
+  4 H u0 p0 c0 {1,S}
+
+  5 H u0 p0 c0 {1,S}
+
+  6 H u0 p0 c0 {2,S}
+
+'
+atct_id: 19528-44-0*0
+categories: []
+charge: 0
+dft_freqs: {}
+dft_thermo:
+  m06-2x/cc-pVTZ:
+    thermo:
+      Cp0: {class: ScalarQuantity, units: J/(mol*K), value: 33.257888}
+      CpInf: {class: ScalarQuantity, units: J/(mol*K), value: 133.031552}
+      E0: {class: ScalarQuantity, units: kJ/mol, value: 504.40250193265456}
+      Tmax: {class: ScalarQuantity, units: K, value: 3000.0}
+      Tmin: {class: ScalarQuantity, units: K, value: 10.0}
+      class: NASA
+      polynomials:
+        polynomial1:
+          Tmax: {class: ScalarQuantity, units: K, value: 591.2185156877556}
+          Tmin: {class: ScalarQuantity, units: K, value: 10.0}
+          class: NASAPolynomial
+          coeffs: [4.117456468554358, -0.009957752235335893, 9.490063344987365e-05,
+            -1.5344048815016642e-07, 8.140227311272097e-11, 60665.558215506506, 6.916500322482909]
+        polynomial2:
+          Tmax: {class: ScalarQuantity, units: K, value: 3000.0}
+          Tmin: {class: ScalarQuantity, units: K, value: 591.2185156877556}
+          class: NASAPolynomial
+          coeffs: [1.6539335708986278, 0.019450056628765047, -1.2034931085365084e-05,
+            3.590686579027292e-09, -4.119097476392679e-13, 60734.19106067556, 15.623734152851444]
+    thermo_data:
+      Cp (cal/mol*K): {1000 K: '24.34', 1500 K: '27.39', 2000 K: '28.91', 2400 K: '29.78',
+        300 K: '12.30', 400 K: '15.07', 500 K: '17.43', 600 K: '19.30', 800 K: '22.22'}
+      H298: 123.25 kcal/mol
+      S298: 60.47 cal/mol*K
+dft_xyzs: {}
+expt_sources:
+- {hf0: 527.56, hf298: 522.98, source: 'ATcT:19528-44-0*0', u_hf: 0.69, units: kJ/mol}
+ff_xyz: null
+formula: CH2(CHC) (g)
+inchi: InChI=1S/C3H3/c1-2-3-1/h1H,2H2
+index: 77
+multiplicity: 2
+preferred_expt_source: null
+qm_files: {}
+rmg_symmetry: 1
+smiles: '[C]1=CC1'
+t1: null
+yaml_file: species/77/77.yaml

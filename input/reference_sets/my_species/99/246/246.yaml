@@ -1,0 +1,22 @@
+name: Fluorotribromomethane
+FOD: null
+adjacency_list: null
+atct_id: 353-54-8*0
+categories: []
+charge: null
+dft_freqs: {}
+dft_thermo: {}
+dft_xyzs: {}
+expt_sources:
+- {hf0: -107.2, hf298: -131.2, source: 'ATcT:353-54-8*0', u_hf: 1.6, units: kJ/mol}
+ff_xyz: null
+formula: CBr3F (g)
+inchi: null
+index: 246
+multiplicity: null
+preferred_expt_source: null
+qm_files: {}
+rmg_symmetry: null
+smiles: FC(Br)(Br)Br
+t1: null
+yaml_file: species/246/246.yaml

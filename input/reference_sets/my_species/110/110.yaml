@@ -1,0 +1,22 @@
+name: Chlorine difluoride
+FOD: null
+adjacency_list: null
+atct_id: 24801-48-7*0
+categories: []
+charge: null
+dft_freqs: {}
+dft_thermo: {}
+dft_xyzs: {}
+expt_sources:
+- {hf0: -47.1, hf298: -48.2, source: 'ATcT:24801-48-7*0', u_hf: 1.4, units: kJ/mol}
+ff_xyz: null
+formula: FClF (g)
+inchi: null
+index: 110
+multiplicity: null
+preferred_expt_source: null
+qm_files: {}
+rmg_symmetry: null
+smiles: F[Cl]F
+t1: null
+yaml_file: species/110/110.yaml

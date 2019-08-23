@@ -1,0 +1,22 @@
+name: Chlorine dioxide
+FOD: null
+adjacency_list: null
+atct_id: 10049-04-4*0
+categories: []
+charge: null
+dft_freqs: {}
+dft_thermo: {}
+dft_xyzs: {}
+expt_sources:
+- {hf0: 101.32, hf298: 98.85, source: 'ATcT:10049-04-4*0', u_hf: 0.27, units: kJ/mol}
+ff_xyz: null
+formula: OClO (g)
+inchi: null
+index: 498
+multiplicity: null
+preferred_expt_source: null
+qm_files: {}
+rmg_symmetry: null
+smiles: O=Cl=O
+t1: null
+yaml_file: species/498/498.yaml

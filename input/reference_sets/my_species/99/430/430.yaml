@@ -1,0 +1,22 @@
+name: Iodobenzene
+FOD: null
+adjacency_list: null
+atct_id: 591-50-4*0
+categories: []
+charge: null
+dft_freqs: {}
+dft_thermo: {}
+dft_xyzs: {}
+expt_sources:
+- {hf0: 177.7, hf298: 161.7, source: 'ATcT:591-50-4*0', u_hf: 1.0, units: kJ/mol}
+ff_xyz: null
+formula: C6H5I (g)
+inchi: null
+index: 430
+multiplicity: null
+preferred_expt_source: null
+qm_files: {}
+rmg_symmetry: null
+smiles: IC1C=CC=CC=1
+t1: null
+yaml_file: species/430/430.yaml

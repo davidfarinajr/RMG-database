@@ -1,0 +1,94 @@
+name: NH
+FOD: '0.006281'
+adjacency_list: 'multiplicity 3
+
+  1 N u2 p1 c0 {2,S}
+
+  2 H u0 p0 c0 {1,S}
+
+'
+atct_id: 13774-92-0*0
+categories: []
+charge: 0
+dft_freqs: {}
+dft_thermo:
+  m06-2x/cc-pVTZ:
+    thermo:
+      Cp0: {class: ScalarQuantity, units: J/(mol*K), value: 29.100652}
+      CpInf: {class: ScalarQuantity, units: J/(mol*K), value: 37.415124}
+      E0: {class: ScalarQuantity, units: kJ/mol, value: 352.6140498624824}
+      Tmax: {class: ScalarQuantity, units: K, value: 3000.0}
+      Tmin: {class: ScalarQuantity, units: K, value: 10.0}
+      class: NASA
+      polynomials:
+        polynomial1:
+          Tmax: {class: ScalarQuantity, units: K, value: 858.7759321794134}
+          Tmin: {class: ScalarQuantity, units: K, value: 10.0}
+          class: NASAPolynomial
+          coeffs: [3.4964575401686537, 0.00024696459165587985, -1.5380196012313656e-06,
+            2.7885022272672565e-09, -1.2715048454570701e-12, 42409.78292339117, 1.8108979922625448]
+        polynomial2:
+          Tmax: {class: ScalarQuantity, units: K, value: 3000.0}
+          Tmin: {class: ScalarQuantity, units: K, value: 858.7759321794134}
+          class: NASAPolynomial
+          coeffs: [3.2923974699908314, 0.00013248946569701636, 5.220399253263995e-07,
+            -2.547196364359398e-10, 3.477947222341241e-14, 42484.100922142956, 2.992939481854094]
+    thermo_data:
+      Cp (cal/mol*K): {1000 K: '7.41', 1500 K: '7.91', 2000 K: '8.28', 2400 K: '8.45',
+        300 K: '6.95', 400 K: '6.95', 500 K: '6.96', 600 K: '7.01', 800 K: '7.19'}
+      H298: 86.35 kcal/mol
+      S298: 43.24 cal/mol*K
+  wb97x_d3bj/def2-tzvp: !!python/object/apply:rmgpy.thermo.nasa.NASA
+  - - !!python/object/apply:rmgpy.thermo.nasa.NASAPolynomial
+      - [0.0, 0.0, 3.49655217, 0.000228301004, -1.36682196e-06, 2.38076171e-09, -1.03891492e-12,
+        -17436024.1, 1.81515549]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [10.0, K, 0.0, +|-]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [891.88, K, 0.0, +|-]
+      - null
+      - ''
+      - ''
+    - !!python/object/apply:rmgpy.thermo.nasa.NASAPolynomial
+      - [0.0, 0.0, 3.33724603, 1.84143651e-06, 5.96536115e-07, -2.69697357e-10, 3.559354e-14,
+        -17435958.3, 2.77528761]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [891.88, K, 0.0, +|-]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [3000.0, K, 0.0, +|-]
+      - null
+      - ''
+      - ''
+  - !!python/object/apply:rmgpy.quantity.ScalarQuantity [10.0, K, 0.0, +|-]
+  - !!python/object/apply:rmgpy.quantity.ScalarQuantity [3000.0, K, 0.0, +|-]
+  - null
+  - null
+  - null
+  - ''
+  - ''
+dft_xyzs: '2
+
+  wB97x_D3BJ/def2-TZVP geometry
+
+  N      0.5191568527    0.0000000000    0.0000000000
+
+  H     -0.5191568527    0.0000000000    0.0000000000
+
+'
+expt_sources:
+- &id001 {hf298: '85.2', source: Colin, u_hf: '0.4', units: kcal/mol}
+- {hf0: 358.74, hf298: 358.79, source: 'ATcT:13774-92-0*0', u_hf: 0.17, units: kJ/mol}
+ff_xyz: '2
+
+
+  N   0.5095000003   0.0000000000   0.0000000000
+
+  H  -0.5095000003   0.0000000000   0.0000000000
+
+'
+formula: NH (g)
+inchi: InChI=1S/HN/h1H
+index: 227
+multiplicity: '3'
+preferred_expt_source: *id001
+qm_files: {}
+rmg_symmetry: 1
+smiles: '[NH]'
+t1: null
+yaml_file: species/227/227.yaml

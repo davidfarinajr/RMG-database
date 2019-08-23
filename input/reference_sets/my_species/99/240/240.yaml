@@ -1,0 +1,22 @@
+name: Peroxychlorous acid
+FOD: null
+adjacency_list: null
+atct_id: 177778-92-6*1
+categories: []
+charge: null
+dft_freqs: {}
+dft_thermo: {}
+dft_xyzs: {}
+expt_sources:
+- {hf0: 96.2, hf298: 90.2, source: 'ATcT:177778-92-6*1', u_hf: 2.1, units: kJ/mol}
+ff_xyz: null
+formula: HOOClO (g, syn)
+inchi: null
+index: 240
+multiplicity: null
+preferred_expt_source: null
+qm_files: {}
+rmg_symmetry: null
+smiles: O=ClOO
+t1: null
+yaml_file: species/240/240.yaml

@@ -1,0 +1,22 @@
+name: Chlorine oxide peroxide
+FOD: null
+adjacency_list: null
+atct_id: 141801-67-4*100
+categories: []
+charge: null
+dft_freqs: {}
+dft_thermo: {}
+dft_xyzs: {}
+expt_sources:
+- {hf0: 226.5, hf298: 227.4, source: 'ATcT:141801-67-4*100', u_hf: 2.5, units: kJ/mol}
+ff_xyz: null
+formula: OClOO (g, vdW)
+inchi: null
+index: 344
+multiplicity: null
+preferred_expt_source: null
+qm_files: {}
+rmg_symmetry: null
+smiles: O=ClO[O]
+t1: null
+yaml_file: species/344/344.yaml

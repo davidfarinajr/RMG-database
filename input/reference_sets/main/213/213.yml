@@ -891,13 +891,13 @@ index: 213
 is_ts: false
 reference_data:
   atct:
-    atct_id: 540-59-0*0
+    atct_id: 156-59-2*0
     class: ReferenceDataEntry
     thermo_data:
       H298:
         class: ScalarQuantity
-        uncertainty: 0.56
+        uncertainty: 0.54
         uncertaintyType: +|-
         units: kJ/mol
-        value: -1.86
+        value: -2.54
       class: ThermoData

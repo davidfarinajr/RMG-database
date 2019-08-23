@@ -1,0 +1,22 @@
+name: Trioxygen difluoride
+FOD: null
+adjacency_list: null
+atct_id: 16829-28-0*1
+categories: []
+charge: null
+dft_freqs: {}
+dft_thermo: {}
+dft_xyzs: {}
+expt_sources:
+- {hf0: 112.5, hf298: 106.7, source: 'ATcT:16829-28-0*1', u_hf: 1.2, units: kJ/mol}
+ff_xyz: null
+formula: FOOOF (g, trans)
+inchi: null
+index: 114
+multiplicity: null
+preferred_expt_source: null
+qm_files: {}
+rmg_symmetry: null
+smiles: FOOOF
+t1: null
+yaml_file: species/114/114.yaml

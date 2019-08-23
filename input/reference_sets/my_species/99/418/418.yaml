@@ -1,0 +1,22 @@
+name: Dioxygen difluoride
+FOD: null
+adjacency_list: null
+atct_id: 183051-89-0*0
+categories: []
+charge: null
+dft_freqs: {}
+dft_thermo: {}
+dft_xyzs: {}
+expt_sources:
+- {hf0: 75.1, hf298: 71.6, source: 'ATcT:183051-89-0*0', u_hf: 3.6, units: kJ/mol}
+ff_xyz: null
+formula: OOF2 (g)
+inchi: null
+index: 418
+multiplicity: null
+preferred_expt_source: null
+qm_files: {}
+rmg_symmetry: null
+smiles: '[O][O](F)F'
+t1: null
+yaml_file: species/418/418.yaml

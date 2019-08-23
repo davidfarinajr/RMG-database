@@ -1,0 +1,54 @@
+name: Hypoflorous acid
+FOD: '0.013295'
+adjacency_list: '1 F u0 p3 c0 {2,S}
+
+  2 O u0 p2 c0 {1,S} {3,S}
+
+  3 H u0 p0 c0 {2,S}
+
+'
+atct_id: 14034-79-8*0
+categories: []
+charge: 0
+dft_freqs: {}
+dft_thermo:
+  m06-2x/cc-pVTZ:
+    thermo:
+      Cp0: {class: ScalarQuantity, units: J/(mol*K), value: 33.257888}
+      CpInf: {class: ScalarQuantity, units: J/(mol*K), value: 58.201304}
+      E0: {class: ScalarQuantity, units: kJ/mol, value: -84.12717417653819}
+      Tmax: {class: ScalarQuantity, units: K, value: 3000.0}
+      Tmin: {class: ScalarQuantity, units: K, value: 10.0}
+      class: NASA
+      polynomials:
+        polynomial1:
+          Tmax: {class: ScalarQuantity, units: K, value: 787.5544272974728}
+          Tmin: {class: ScalarQuantity, units: K, value: 10.0}
+          class: NASAPolynomial
+          coeffs: [4.029079952472216, -0.0019295836794688726, 1.3145880643270502e-05,
+            -1.552447553556745e-08, 6.0351171285102385e-12, -10118.957026691642, 4.325303305881796]
+        polynomial2:
+          Tmax: {class: ScalarQuantity, units: K, value: 3000.0}
+          Tmin: {class: ScalarQuantity, units: K, value: 787.5544272974728}
+          class: NASAPolynomial
+          coeffs: [3.1881038361131715, 0.004253125540959658, -2.2703661285386425e-06,
+            6.070812288985482e-10, -6.38977063530573e-14, -10045.770030397596, 7.805353780941509]
+    thermo_data:
+      Cp (cal/mol*K): {1000 K: '11.35', 1500 K: '12.29', 2000 K: '12.81', 2400 K: '13.10',
+        300 K: '8.47', 400 K: '8.99', 500 K: '9.51', 600 K: '10.00', 800 K: '10.78'}
+      H298: -17.72 kcal/mol
+      S298: 53.98 cal/mol*K
+dft_xyzs: {}
+expt_sources:
+- {hf0: -84.4, hf298: -87.3, source: 'ATcT:14034-79-8*0', u_hf: 0.19, units: kJ/mol}
+ff_xyz: null
+formula: HOF (g)
+inchi: InChI=1S/FHO/c1-2/h2H
+index: 359
+multiplicity: 1
+preferred_expt_source: null
+qm_files: {}
+rmg_symmetry: 1
+smiles: OF
+t1: null
+yaml_file: species/359/359.yaml

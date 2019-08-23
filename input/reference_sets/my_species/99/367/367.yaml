@@ -1,0 +1,22 @@
+name: Isodiazene
+FOD: null
+adjacency_list: null
+atct_id: 28647-38-3*0
+categories: []
+charge: null
+dft_freqs: {}
+dft_thermo: {}
+dft_xyzs: {}
+expt_sources:
+- {hf0: 307.52, hf298: 300.44, source: 'ATcT:28647-38-3*0', u_hf: 0.75, units: kJ/mol}
+ff_xyz: null
+formula: NNH2 (g)
+inchi: null
+index: 367
+multiplicity: null
+preferred_expt_source: null
+qm_files: {}
+rmg_symmetry: null
+smiles: '[N-]=[NH2+]'
+t1: null
+yaml_file: species/367/367.yaml

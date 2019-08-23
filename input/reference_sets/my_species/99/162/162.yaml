@@ -1,0 +1,72 @@
+name: 2-Propanol
+FOD: '0.002033'
+adjacency_list: '1  O u0 p2 c0 {2,S} {12,S}
+
+  2  C u0 p0 c0 {1,S} {3,S} {4,S} {5,S}
+
+  3  C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
+
+  4  C u0 p0 c0 {2,S} {9,S} {10,S} {11,S}
+
+  5  H u0 p0 c0 {2,S}
+
+  6  H u0 p0 c0 {3,S}
+
+  7  H u0 p0 c0 {3,S}
+
+  8  H u0 p0 c0 {3,S}
+
+  9  H u0 p0 c0 {4,S}
+
+  10 H u0 p0 c0 {4,S}
+
+  11 H u0 p0 c0 {4,S}
+
+  12 H u0 p0 c0 {1,S}
+
+'
+atct_id: 67-63-0*0
+categories: []
+charge: 0
+dft_freqs: {}
+dft_thermo:
+  m06-2x/cc-pVTZ:
+    thermo:
+      Cp0: {class: ScalarQuantity, units: J/(mol*K), value: 33.257888}
+      CpInf: {class: ScalarQuantity, units: J/(mol*K), value: 282.692048}
+      E0: {class: ScalarQuantity, units: kJ/mol, value: -284.85135154659184}
+      Tmax: {class: ScalarQuantity, units: K, value: 3000.0}
+      Tmin: {class: ScalarQuantity, units: K, value: 10.0}
+      class: NASA
+      polynomials:
+        polynomial1:
+          Tmax: {class: ScalarQuantity, units: K, value: 376.4541571859719}
+          Tmin: {class: ScalarQuantity, units: K, value: 10.0}
+          class: NASAPolynomial
+          coeffs: [3.9211007774925775, 0.005443693619983744, 0.00012072631966665013,
+            -2.490052709974383e-07, 1.6897507296418317e-10, -34257.37118249814, 6.358086927703732]
+        polynomial2:
+          Tmax: {class: ScalarQuantity, units: K, value: 3000.0}
+          Tmin: {class: ScalarQuantity, units: K, value: 376.4541571859719}
+          class: NASAPolynomial
+          coeffs: [0.5133867302567103, 0.04165230001958245, -2.3548899647200953e-05,
+            6.49370167191074e-09, -6.999204581442223e-13, -34000.802014394045, 19.46913440108899]
+    thermo_data:
+      Cp (cal/mol*K): {1000 K: '48.51', 1500 K: '56.40', 2000 K: '60.36', 2400 K: '62.37',
+        300 K: '21.99', 400 K: '27.43', 500 K: '32.23', 600 K: '36.44', 800 K: '43.33'}
+      H298: -63.98 kcal/mol
+      S298: 67.20 cal/mol*K
+dft_xyzs: {}
+expt_sources:
+- {hf0: -248.87, hf298: -272.97, source: 'ATcT:67-63-0*0', u_hf: 0.32, units: kJ/mol}
+ff_xyz: null
+formula: CH3CH(OH)CH3 (g)
+inchi: InChI=1S/C3H8O/c1-3(2)4/h3-4H,1-2H3
+index: 162
+multiplicity: 1
+preferred_expt_source: null
+qm_files: {}
+rmg_symmetry: 9
+smiles: CC(C)O
+t1: null
+yaml_file: species/162/162.yaml

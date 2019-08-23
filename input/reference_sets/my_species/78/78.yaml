@@ -1,0 +1,22 @@
+name: 2-Propynylidyne
+FOD: null
+adjacency_list: null
+atct_id: 53590-28-6*0
+categories: []
+charge: null
+dft_freqs: {}
+dft_thermo: {}
+dft_xyzs: {}
+expt_sources:
+- {hf0: 717.94, hf298: 722.29, source: 'ATcT:53590-28-6*0', u_hf: 0.81, units: kJ/mol}
+ff_xyz: null
+formula: CCCH (g)
+inchi: null
+index: 78
+multiplicity: null
+preferred_expt_source: null
+qm_files: {}
+rmg_symmetry: null
+smiles: '[C]C#C'
+t1: null
+yaml_file: species/78/78.yaml

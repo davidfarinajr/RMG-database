@@ -1,0 +1,22 @@
+name: Bromine dioxide
+FOD: null
+adjacency_list: null
+atct_id: 21255-83-4*0
+categories: []
+charge: null
+dft_freqs: {}
+dft_thermo: {}
+dft_xyzs: {}
+expt_sources:
+- {hf0: 167.1, hf298: 157.5, source: 'ATcT:21255-83-4*0', u_hf: 3.0, units: kJ/mol}
+ff_xyz: null
+formula: OBrO (g)
+inchi: null
+index: 197
+multiplicity: null
+preferred_expt_source: null
+qm_files: {}
+rmg_symmetry: null
+smiles: '[O]Br[O]'
+t1: null
+yaml_file: species/197/197.yaml

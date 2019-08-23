@@ -1,0 +1,65 @@
+name: Acetic acid
+FOD: '0.00508'
+adjacency_list: '1 O u0 p2 c0 {4,S} {8,S}
+
+  2 O u0 p2 c0 {4,D}
+
+  3 C u0 p0 c0 {4,S} {5,S} {6,S} {7,S}
+
+  4 C u0 p0 c0 {1,S} {2,D} {3,S}
+
+  5 H u0 p0 c0 {3,S}
+
+  6 H u0 p0 c0 {3,S}
+
+  7 H u0 p0 c0 {3,S}
+
+  8 H u0 p0 c0 {1,S}
+
+'
+atct_id: 64-19-7*1
+categories: []
+charge: 0
+dft_freqs: {}
+dft_thermo:
+  m06-2x/cc-pVTZ:
+    thermo:
+      Cp0: {class: ScalarQuantity, units: J/(mol*K), value: 33.257888}
+      CpInf: {class: ScalarQuantity, units: J/(mol*K), value: 182.918384}
+      E0: {class: ScalarQuantity, units: kJ/mol, value: -446.7348407219127}
+      Tmax: {class: ScalarQuantity, units: K, value: 3000.0}
+      Tmin: {class: ScalarQuantity, units: K, value: 10.0}
+      class: NASA
+      polynomials:
+        polynomial1:
+          Tmax: {class: ScalarQuantity, units: K, value: 471.5878906567275}
+          Tmin: {class: ScalarQuantity, units: K, value: 10.0}
+          class: NASAPolynomial
+          coeffs: [3.9632279506772425, 0.0023524337368726615, 8.252859875290196e-05,
+            -1.6414572442903195e-07, 1.0436405829824318e-10, -53728.778654495356,
+            7.804832578598897]
+        polynomial2:
+          Tmax: {class: ScalarQuantity, units: K, value: 3000.0}
+          Tmin: {class: ScalarQuantity, units: K, value: 471.5878906567275}
+          class: NASAPolynomial
+          coeffs: [1.7918477520294964, 0.02717255523804669, -1.6782587541455697e-05,
+            5.035801828836797e-09, -5.847967715067294e-13, -53595.173729501286, 15.893532408263937]
+    thermo_data:
+      Cp (cal/mol*K): {1000 K: '33.05', 1500 K: '37.41', 2000 K: '39.62', 2400 K: '40.84',
+        300 K: '16.91', 400 K: '20.42', 500 K: '23.40', 600 K: '25.96', 800 K: '30.06'}
+      H298: -103.31 kcal/mol
+      S298: 66.59 cal/mol*K
+dft_xyzs: {}
+expt_sources:
+- {hf0: -418.51, hf298: -432.63, source: 'ATcT:64-19-7*1', u_hf: 0.52, units: kJ/mol}
+ff_xyz: null
+formula: CH3C(O)OH (g, syn)
+inchi: InChI=1S/C2H4O2/c1-2(3)4/h1H3,(H,3,4)
+index: 150
+multiplicity: 1
+preferred_expt_source: null
+qm_files: {}
+rmg_symmetry: 3
+smiles: CC(=O)O
+t1: '0.014514193'
+yaml_file: species/150/150.yaml

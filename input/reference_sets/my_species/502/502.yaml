@@ -1,0 +1,56 @@
+name: Fluorodioxidanyl
+FOD: '0.084955'
+adjacency_list: 'multiplicity 2
+
+  1 F u0 p3 c0 {2,S}
+
+  2 O u0 p2 c0 {1,S} {3,S}
+
+  3 O u1 p2 c0 {2,S}
+
+'
+atct_id: 15499-23-7*0
+categories: []
+charge: 0
+dft_freqs: {}
+dft_thermo:
+  m06-2x/cc-pVTZ:
+    thermo:
+      Cp0: {class: ScalarQuantity, units: J/(mol*K), value: 33.257888}
+      CpInf: {class: ScalarQuantity, units: J/(mol*K), value: 58.201304}
+      E0: {class: ScalarQuantity, units: kJ/mol, value: 60.317556236065926}
+      Tmax: {class: ScalarQuantity, units: K, value: 3000.0}
+      Tmin: {class: ScalarQuantity, units: K, value: 10.0}
+      class: NASA
+      polynomials:
+        polynomial1:
+          Tmax: {class: ScalarQuantity, units: K, value: 596.8577900464907}
+          Tmin: {class: ScalarQuantity, units: K, value: 10.0}
+          class: NASAPolynomial
+          coeffs: [3.980522353412787, 0.0011130268647961577, 1.872352174328662e-05,
+            -3.728240614094426e-08, 2.151270122335941e-11, 7255.542813790378, 7.322426873346617]
+        polynomial2:
+          Tmax: {class: ScalarQuantity, units: K, value: 3000.0}
+          Tmin: {class: ScalarQuantity, units: K, value: 596.8577900464907}
+          class: NASAPolynomial
+          coeffs: [4.003144773765593, 0.005612701140465709, -4.274314988543556e-06,
+            1.461904516866471e-09, -1.8465426718227601e-13, 7169.993843606247, 6.530922838044742]
+    thermo_data:
+      Cp (cal/mol*K): {1000 K: '13.15', 1500 K: '13.52', 2000 K: '13.66', 2400 K: '13.78',
+        300 K: '10.27', 400 K: '11.10', 500 K: '11.73', 600 K: '12.17', 800 K: '12.78'}
+      H298: 17.08 kcal/mol
+      S298: 61.36 cal/mol*K
+dft_xyzs: {}
+expt_sources:
+- {hf0: 26.8, hf298: 25.09, source: 'ATcT:15499-23-7*0', u_hf: 0.26, units: kJ/mol}
+ff_xyz: null
+formula: FOO (g)
+inchi: InChI=1S/FO2/c1-3-2
+index: 502
+multiplicity: 2
+preferred_expt_source: null
+qm_files: {}
+rmg_symmetry: 1
+smiles: '[O]OF'
+t1: null
+yaml_file: species/502/502.yaml

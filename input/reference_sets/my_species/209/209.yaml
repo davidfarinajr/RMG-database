@@ -1,0 +1,22 @@
+name: Chlorosyl chloride
+FOD: null
+adjacency_list: null
+atct_id: 86825-56-1*0
+categories: []
+charge: null
+dft_freqs: {}
+dft_thermo: {}
+dft_xyzs: {}
+expt_sources:
+- {hf0: 134.5, hf298: 133.2, source: 'ATcT:86825-56-1*0', u_hf: 1.4, units: kJ/mol}
+ff_xyz: null
+formula: ClClO (g)
+inchi: null
+index: 209
+multiplicity: null
+preferred_expt_source: null
+qm_files: {}
+rmg_symmetry: null
+smiles: ClCl[O]
+t1: null
+yaml_file: species/209/209.yaml

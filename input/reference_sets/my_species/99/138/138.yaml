@@ -1,0 +1,84 @@
+name: Ethylbenzene
+FOD: null
+adjacency_list: '1  C u0 p0 c0 {2,S} {3,S} {9,S} {10,S}
+
+  2  C u0 p0 c0 {1,S} {11,S} {12,S} {13,S}
+
+  3  C u0 p0 c0 {1,S} {4,D} {5,S}
+
+  4  C u0 p0 c0 {3,D} {6,S} {14,S}
+
+  5  C u0 p0 c0 {3,S} {8,D} {18,S}
+
+  6  C u0 p0 c0 {4,S} {7,D} {15,S}
+
+  7  C u0 p0 c0 {6,D} {8,S} {16,S}
+
+  8  C u0 p0 c0 {5,D} {7,S} {17,S}
+
+  9  H u0 p0 c0 {1,S}
+
+  10 H u0 p0 c0 {1,S}
+
+  11 H u0 p0 c0 {2,S}
+
+  12 H u0 p0 c0 {2,S}
+
+  13 H u0 p0 c0 {2,S}
+
+  14 H u0 p0 c0 {4,S}
+
+  15 H u0 p0 c0 {6,S}
+
+  16 H u0 p0 c0 {7,S}
+
+  17 H u0 p0 c0 {8,S}
+
+  18 H u0 p0 c0 {5,S}
+
+'
+atct_id: 100-41-4*0
+categories: []
+charge: 0
+dft_freqs: {}
+dft_thermo:
+  m06-2x/cc-pVTZ:
+    thermo:
+      Cp0: {class: ScalarQuantity, units: J/(mol*K), value: 33.257888}
+      CpInf: {class: ScalarQuantity, units: J/(mol*K), value: 432.35254399999997}
+      E0: {class: ScalarQuantity, units: kJ/mol, value: 11.000432396262884}
+      Tmax: {class: ScalarQuantity, units: K, value: 3000.0}
+      Tmin: {class: ScalarQuantity, units: K, value: 10.0}
+      class: NASA
+      polynomials:
+        polynomial1:
+          Tmax: {class: ScalarQuantity, units: K, value: 404.05417851005706}
+          Tmin: {class: ScalarQuantity, units: K, value: 10.0}
+          class: NASAPolynomial
+          coeffs: [3.9353963947596444, 0.004242829056850303, 0.00022860347733583895,
+            -4.459062084204942e-07, 2.8377789975366316e-10, 1324.0505934083317, 11.104048184839346]
+        polynomial2:
+          Tmax: {class: ScalarQuantity, units: K, value: 3000.0}
+          Tmin: {class: ScalarQuantity, units: K, value: 404.05417851005706}
+          class: NASAPolynomial
+          coeffs: [-3.6780354128606283, 0.07961262783098212, -5.1195109741513965e-05,
+            1.574200610888228e-08, -1.8548962208882875e-12, 1939.3033320734476, 40.935177049656495]
+    thermo_data:
+      Cp (cal/mol*K): {1000 K: '76.76', 1500 K: '88.01', 2000 K: '93.45', 2400 K: '96.55',
+        300 K: '31.88', 400 K: '41.60', 500 K: '50.04', 600 K: '57.27', 800 K: '68.65'}
+      H298: 7.86 kcal/mol
+      S298: 82.60 cal/mol*K
+dft_xyzs: {}
+expt_sources:
+- {hf0: 58.18, hf298: 29.72, source: 'ATcT:100-41-4*0', u_hf: 0.55, units: kJ/mol}
+ff_xyz: null
+formula: C6H5CH2CH3 (g)
+inchi: InChI=1S/C8H10/c1-2-8-6-4-3-5-7-8/h3-7H,2H2,1H3
+index: 138
+multiplicity: 1
+preferred_expt_source: null
+qm_files: {}
+rmg_symmetry: 6
+smiles: CCC1C=CC=CC=1
+t1: null
+yaml_file: species/138/138.yaml

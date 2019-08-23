@@ -1,0 +1,22 @@
+name: Nitrogen hydride oxide
+FOD: null
+adjacency_list: null
+atct_id: 38544-48-8*0
+categories: []
+charge: null
+dft_freqs: {}
+dft_thermo: {}
+dft_xyzs: {}
+expt_sources:
+- {hf0: 71.6, hf298: 60.4, source: 'ATcT:38544-48-8*0', u_hf: 2.0, units: kJ/mol}
+ff_xyz: null
+formula: H3NO (g)
+inchi: null
+index: 63
+multiplicity: null
+preferred_expt_source: null
+qm_files: {}
+rmg_symmetry: null
+smiles: '[O-][NH3+]'
+t1: null
+yaml_file: species/63/63.yaml

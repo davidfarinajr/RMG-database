@@ -1,0 +1,22 @@
+name: Norbornadiene
+FOD: null
+adjacency_list: null
+atct_id: 121-46-0*0
+categories: []
+charge: null
+dft_freqs: {}
+dft_thermo: {}
+dft_xyzs: {}
+expt_sources:
+- {hf0: 237.9, hf298: 212.5, source: 'ATcT:121-46-0*0', u_hf: 1.2, units: kJ/mol}
+ff_xyz: null
+formula: (CHCH)CHCH2CH(CHCH) (g)
+inchi: null
+index: 155
+multiplicity: null
+preferred_expt_source: null
+qm_files: {}
+rmg_symmetry: null
+smiles: C1C=C2CCC=1C2
+t1: null
+yaml_file: species/155/155.yaml

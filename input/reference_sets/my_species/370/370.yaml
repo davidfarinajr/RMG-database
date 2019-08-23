@@ -1,0 +1,58 @@
+name: Dioxirane
+FOD: '0.019719'
+adjacency_list: '1 O u0 p2 c0 {2,S} {3,S}
+
+  2 O u0 p2 c0 {1,S} {3,S}
+
+  3 C u0 p0 c0 {1,S} {2,S} {4,S} {5,S}
+
+  4 H u0 p0 c0 {3,S}
+
+  5 H u0 p0 c0 {3,S}
+
+'
+atct_id: 157-26-6*0
+categories: []
+charge: 0
+dft_freqs: {}
+dft_thermo:
+  m06-2x/cc-pVTZ:
+    thermo:
+      Cp0: {class: ScalarQuantity, units: J/(mol*K), value: 33.257888}
+      CpInf: {class: ScalarQuantity, units: J/(mol*K), value: 108.08813599999999}
+      E0: {class: ScalarQuantity, units: kJ/mol, value: -7.511442687843926}
+      Tmax: {class: ScalarQuantity, units: K, value: 3000.0}
+      Tmin: {class: ScalarQuantity, units: K, value: 10.0}
+      class: NASA
+      polynomials:
+        polynomial1:
+          Tmax: {class: ScalarQuantity, units: K, value: 769.052200116451}
+          Tmin: {class: ScalarQuantity, units: K, value: 10.0}
+          class: NASAPolynomial
+          coeffs: [4.104892262649571, -0.007133229740836555, 5.262308120239711e-05,
+            -6.614282261623031e-08, 2.6944777689367512e-11, -906.0561946703585, 5.800360963665595]
+        polynomial2:
+          Tmax: {class: ScalarQuantity, units: K, value: 3000.0}
+          Tmin: {class: ScalarQuantity, units: K, value: 769.052200116451}
+          class: NASAPolynomial
+          coeffs: [1.3452327751831032, 0.01602829205806352, -9.731884217187993e-06,
+            2.803061938026623e-09, -3.089806023404405e-13, -742.06132701357, 16.696000687696355]
+    thermo_data:
+      Cp (cal/mol*K): {1000 K: '20.14', 1500 K: '22.63', 2000 K: '23.76', 2400 K: '24.35',
+        300 K: '10.20', 400 K: '12.18', 500 K: '14.13', 600 K: '15.85', 800 K: '18.38'}
+      H298: 0.69 kcal/mol
+      S298: 57.36 cal/mol*K
+dft_xyzs: {}
+expt_sources:
+- {hf0: 9.45, hf298: 1.78, source: 'ATcT:157-26-6*0', u_hf: 0.55, units: kJ/mol}
+ff_xyz: null
+formula: CH2(OO) (g)
+inchi: InChI=1S/CH2O2/c1-2-3-1/h1H2
+index: 370
+multiplicity: 1
+preferred_expt_source: null
+qm_files: {}
+rmg_symmetry: 2
+smiles: C1OO1
+t1: '0.014155096'
+yaml_file: species/370/370.yaml

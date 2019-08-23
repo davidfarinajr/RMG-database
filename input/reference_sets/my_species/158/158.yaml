@@ -1,0 +1,56 @@
+name: Methylene
+FOD: '0.000716'
+adjacency_list: 'multiplicity 3
+
+  1 C u2 p0 c0 {2,S} {3,S}
+
+  2 H u0 p0 c0 {1,S}
+
+  3 H u0 p0 c0 {1,S}
+
+'
+atct_id: 2465-56-7*1
+categories: []
+charge: 0
+dft_freqs: {}
+dft_thermo:
+  m06-2x/cc-pVTZ:
+    thermo:
+      Cp0: {class: ScalarQuantity, units: J/(mol*K), value: 33.257888}
+      CpInf: {class: ScalarQuantity, units: J/(mol*K), value: 58.201304}
+      E0: {class: ScalarQuantity, units: kJ/mol, value: 373.6158556297996}
+      Tmax: {class: ScalarQuantity, units: K, value: 3000.0}
+      Tmin: {class: ScalarQuantity, units: K, value: 10.0}
+      class: NASA
+      polynomials:
+        polynomial1:
+          Tmax: {class: ScalarQuantity, units: K, value: 915.6129416301893}
+          Tmin: {class: ScalarQuantity, units: K, value: 10.0}
+          class: NASAPolynomial
+          coeffs: [4.003927925125311, -0.000197856215097378, 3.4061386390724247e-06,
+            -2.451958098380856e-09, 5.472692735899647e-13, 44935.48099238875, 0.5919816229322014]
+        polynomial2:
+          Tmax: {class: ScalarQuantity, units: K, value: 3000.0}
+          Tmin: {class: ScalarQuantity, units: K, value: 915.6129416301893}
+          class: NASAPolynomial
+          coeffs: [3.223668120209658, 0.002775437643065467, -7.515668612846914e-07,
+            5.595880514629728e-11, 4.308377916467993e-15, 45096.61477441565, 4.387158451231006]
+    thermo_data:
+      Cp (cal/mol*K): {1000 K: '10.55', 1500 K: '11.74', 2000 K: '12.49', 2400 K: '12.86',
+        300 K: '8.33', 400 K: '8.60', 500 K: '8.91', 600 K: '9.25', 800 K: '9.92'}
+      H298: 91.70 kcal/mol
+      S298: 46.65 cal/mol*K
+dft_xyzs: {}
+expt_sources:
+- {hf0: 391.03, hf298: 391.59, source: 'ATcT:2465-56-7*1', u_hf: 0.12, units: kJ/mol}
+ff_xyz: null
+formula: CH2 (g, triplet)
+inchi: InChI=1S/CH2/h1H2
+index: 158
+multiplicity: 3
+preferred_expt_source: null
+qm_files: {}
+rmg_symmetry: 2
+smiles: '[CH2]'
+t1: null
+yaml_file: species/158/158.yaml

@@ -1,0 +1,95 @@
+name: n-Heptane
+FOD: '0.000849'
+adjacency_list: '1  C u0 p0 c0 {2,S} {4,S} {10,S} {11,S}
+
+  2  C u0 p0 c0 {1,S} {3,S} {12,S} {13,S}
+
+  3  C u0 p0 c0 {2,S} {5,S} {14,S} {15,S}
+
+  4  C u0 p0 c0 {1,S} {6,S} {8,S} {9,S}
+
+  5  C u0 p0 c0 {3,S} {7,S} {16,S} {17,S}
+
+  6  C u0 p0 c0 {4,S} {18,S} {19,S} {20,S}
+
+  7  C u0 p0 c0 {5,S} {21,S} {22,S} {23,S}
+
+  8  H u0 p0 c0 {4,S}
+
+  9  H u0 p0 c0 {4,S}
+
+  10 H u0 p0 c0 {1,S}
+
+  11 H u0 p0 c0 {1,S}
+
+  12 H u0 p0 c0 {2,S}
+
+  13 H u0 p0 c0 {2,S}
+
+  14 H u0 p0 c0 {3,S}
+
+  15 H u0 p0 c0 {3,S}
+
+  16 H u0 p0 c0 {5,S}
+
+  17 H u0 p0 c0 {5,S}
+
+  18 H u0 p0 c0 {6,S}
+
+  19 H u0 p0 c0 {6,S}
+
+  20 H u0 p0 c0 {6,S}
+
+  21 H u0 p0 c0 {7,S}
+
+  22 H u0 p0 c0 {7,S}
+
+  23 H u0 p0 c0 {7,S}
+
+'
+atct_id: 142-82-5*0
+categories: []
+charge: 0
+dft_freqs: {}
+dft_thermo:
+  m06-2x/cc-pVTZ:
+    thermo:
+      Cp0: {class: ScalarQuantity, units: J/(mol*K), value: 33.257888}
+      CpInf: {class: ScalarQuantity, units: J/(mol*K), value: 557.069624}
+      E0: {class: ScalarQuantity, units: kJ/mol, value: -205.87376203593425}
+      Tmax: {class: ScalarQuantity, units: K, value: 3000.0}
+      Tmin: {class: ScalarQuantity, units: K, value: 10.0}
+      class: NASA
+      polynomials:
+        polynomial1:
+          Tmax: {class: ScalarQuantity, units: K, value: 403.59875615317367}
+          Tmin: {class: ScalarQuantity, units: K, value: 10.0}
+          class: NASAPolynomial
+          coeffs: [3.279885562540189, 0.08043138966282685, -0.0002564328232459715,
+            7.615191924529395e-07, -7.194270656301233e-10, -24757.129663342486, 9.406940041705763]
+        polynomial2:
+          Tmax: {class: ScalarQuantity, units: K, value: 3000.0}
+          Tmin: {class: ScalarQuantity, units: K, value: 403.59875615317367}
+          class: NASAPolynomial
+          coeffs: [-4.798591235917198, 0.09329275835413607, -5.446850047481329e-05,
+            1.5351174236580023e-08, -1.6781696838448843e-12, -23557.695063482515,
+            47.83181224026281]
+    thermo_data:
+      Cp (cal/mol*K): {1000 K: '94.79', 1500 K: '111.09', 2000 K: '118.98', 2400 K: '123.01',
+        300 K: '37.88', 400 K: '49.17', 500 K: '59.70', 600 K: '68.89', 800 K: '83.76'}
+      H298: -42.34 kcal/mol
+      S298: 91.36 cal/mol*K
+dft_xyzs: {}
+expt_sources:
+- {hf0: -145.71, hf298: -187.58, source: 'ATcT:142-82-5*0', u_hf: 0.48, units: kJ/mol}
+ff_xyz: null
+formula: CH3(CH2)5CH3 (g)
+inchi: InChI=1S/C7H16/c1-3-5-7-6-4-2/h3-7H2,1-2H3
+index: 108
+multiplicity: 1
+preferred_expt_source: null
+qm_files: {}
+rmg_symmetry: 18
+smiles: CCCCCCC
+t1: null
+yaml_file: species/108/108.yaml

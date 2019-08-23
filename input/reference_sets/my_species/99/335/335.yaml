@@ -1,0 +1,22 @@
+name: Chlorine difluoride
+FOD: null
+adjacency_list: null
+atct_id: 91483-78-2*0
+categories: []
+charge: null
+dft_freqs: {}
+dft_thermo: {}
+dft_xyzs: {}
+expt_sources:
+- {hf0: 22.5, hf298: 23.8, source: 'ATcT:91483-78-2*0', u_hf: 1.9, units: kJ/mol}
+ff_xyz: null
+formula: ClFF (g)
+inchi: null
+index: 335
+multiplicity: null
+preferred_expt_source: null
+qm_files: {}
+rmg_symmetry: null
+smiles: ClFF
+t1: null
+yaml_file: species/335/335.yaml

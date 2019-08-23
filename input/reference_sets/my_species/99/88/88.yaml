@@ -1,0 +1,53 @@
+name: Bromine monochloride
+FOD: '0.188109'
+adjacency_list: '1 Br u0 p3 c0 {2,S}
+
+  2 Cl u0 p3 c0 {1,S}
+
+'
+atct_id: 13863-41-7*0
+categories: []
+charge: 0
+dft_freqs: {}
+dft_thermo:
+  m06-2x/cc-pVTZ:
+    thermo:
+      Cp0: {class: ScalarQuantity, units: J/(mol*K), value: 29.100652}
+      CpInf: {class: ScalarQuantity, units: J/(mol*K), value: 37.415124}
+      E0: {class: ScalarQuantity, units: kJ/mol, value: 15.432415762085585}
+      Tmax: {class: ScalarQuantity, units: K, value: 3000.0}
+      Tmin: {class: ScalarQuantity, units: K, value: 10.0}
+      class: NASA
+      polynomials:
+        polynomial1:
+          Tmax: {class: ScalarQuantity, units: K, value: 529.7112470977419}
+          Tmin: {class: ScalarQuantity, units: K, value: 10.0}
+          class: NASAPolynomial
+          coeffs: [3.4808533249665956, 0.0012051980622454315, 1.0082320285615208e-05,
+            -2.7784238436480398e-08, 1.994353328514636e-11, 1856.7777805267795, 8.374039666221828]
+        polynomial2:
+          Tmax: {class: ScalarQuantity, units: K, value: 3000.0}
+          Tmin: {class: ScalarQuantity, units: K, value: 529.7112470977419}
+          class: NASAPolynomial
+          coeffs: [4.0150668963088165, 0.0011522936563463841, -1.0412575264570342e-06,
+            4.034038146533506e-10, -5.591724985142765e-14, 1744.3284386473554, 5.609012149464373]
+    thermo_data:
+      Cp (cal/mol*K): {1000 K: '8.89', 1500 K: '8.90', 2000 K: '8.92', 2400 K: '8.95',
+        300 K: '8.27', 400 K: '8.56', 500 K: '8.70', 600 K: '8.77', 800 K: '8.85'}
+      H298: 5.94 kcal/mol
+      S298: 57.24 cal/mol*K
+dft_xyzs: {}
+expt_sources:
+- {hf0: 21.881999999999998, hf298: 14.439, source: 'ATcT:13863-41-7*0', u_hf: 0.06,
+  units: kJ/mol}
+ff_xyz: null
+formula: BrCl (g)
+inchi: InChI=1S/BrCl/c1-2
+index: 88
+multiplicity: 1
+preferred_expt_source: null
+qm_files: {}
+rmg_symmetry: 1
+smiles: ClBr
+t1: null
+yaml_file: species/88/88.yaml

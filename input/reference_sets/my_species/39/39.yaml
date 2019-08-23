@@ -1,0 +1,56 @@
+name: Peroxyhypochlorous acid
+FOD: '0.12385'
+adjacency_list: '1 Cl u0 p3 c0 {3,S}
+
+  2 O  u0 p2 c0 {3,S} {4,S}
+
+  3 O  u0 p2 c0 {1,S} {2,S}
+
+  4 H  u0 p0 c0 {2,S}
+
+'
+atct_id: 67952-07-2*0
+categories: []
+charge: 0
+dft_freqs: {}
+dft_thermo:
+  m06-2x/cc-pVTZ:
+    thermo:
+      Cp0: {class: ScalarQuantity, units: J/(mol*K), value: 33.257888}
+      CpInf: {class: ScalarQuantity, units: J/(mol*K), value: 83.14472}
+      E0: {class: ScalarQuantity, units: kJ/mol, value: 55.02179600255238}
+      Tmax: {class: ScalarQuantity, units: K, value: 3000.0}
+      Tmin: {class: ScalarQuantity, units: K, value: 10.0}
+      class: NASA
+      polynomials:
+        polynomial1:
+          Tmax: {class: ScalarQuantity, units: K, value: 555.1773416047914}
+          Tmin: {class: ScalarQuantity, units: K, value: 10.0}
+          class: NASAPolynomial
+          coeffs: [3.9524764312737815, 0.0028695401553600745, 3.689608011608168e-05,
+            -8.364083013284385e-08, 5.3762893710217765e-11, 6619.679581532892, 7.787367694921937]
+        polynomial2:
+          Tmax: {class: ScalarQuantity, units: K, value: 3000.0}
+          Tmin: {class: ScalarQuantity, units: K, value: 555.1773416047914}
+          class: NASAPolynomial
+          coeffs: [4.694045640298972, 0.008106021427669984, -5.835936454398552e-06,
+            1.9965527647295962e-09, -2.565175453382931e-13, 6374.29870741775, 3.177751294995671]
+    thermo_data:
+      Cp (cal/mol*K): {1000 K: '17.30', 1500 K: '18.21', 2000 K: '18.74', 2400 K: '19.12',
+        300 K: '12.54', 400 K: '13.96', 500 K: '14.94', 600 K: '15.61', 800 K: '16.62'}
+      H298: 16.12 kcal/mol
+      S298: 63.92 cal/mol*K
+dft_xyzs: {}
+expt_sources:
+- {hf0: 3.93, hf298: -1.34, source: 'ATcT:67952-07-2*0', u_hf: 0.95, units: kJ/mol}
+ff_xyz: null
+formula: HOOCl (g)
+inchi: InChI=1S/ClHO2/c1-3-2/h2H
+index: 39
+multiplicity: 1
+preferred_expt_source: null
+qm_files: {}
+rmg_symmetry: 1
+smiles: OOCl
+t1: '0.014086784'
+yaml_file: species/39/39.yaml

@@ -1,0 +1,22 @@
+name: Perchloryl
+FOD: null
+adjacency_list: null
+atct_id: 13932-10-0*0
+categories: []
+charge: null
+dft_freqs: {}
+dft_thermo: {}
+dft_xyzs: {}
+expt_sources:
+- {hf0: 191.68, hf298: 186.01, source: 'ATcT:13932-10-0*0', u_hf: 0.61, units: kJ/mol}
+ff_xyz: null
+formula: OCl(O)O (g)
+inchi: null
+index: 353
+multiplicity: null
+preferred_expt_source: null
+qm_files: {}
+rmg_symmetry: null
+smiles: O=Cl(=O)[O]
+t1: null
+yaml_file: species/353/353.yaml

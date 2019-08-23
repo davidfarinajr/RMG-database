@@ -1,0 +1,22 @@
+name: Dioxymethylidyne
+FOD: null
+adjacency_list: null
+atct_id: 791121-04-5*0
+categories: []
+charge: null
+dft_freqs: {}
+dft_thermo: {}
+dft_xyzs: {}
+expt_sources:
+- {hf0: 299.8, hf298: 301.1, source: 'ATcT:791121-04-5*0', u_hf: 1.7, units: kJ/mol}
+ff_xyz: null
+formula: COO (g)
+inchi: null
+index: 219
+multiplicity: null
+preferred_expt_source: null
+qm_files: {}
+rmg_symmetry: null
+smiles: '[C]O[O]'
+t1: null
+yaml_file: species/219/219.yaml

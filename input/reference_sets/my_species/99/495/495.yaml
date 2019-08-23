@@ -1,0 +1,22 @@
+name: Hypoiodous acid
+FOD: null
+adjacency_list: null
+atct_id: 14332-21-9*0
+categories: []
+charge: null
+dft_freqs: {}
+dft_thermo: {}
+dft_xyzs: {}
+expt_sources:
+- {hf0: -54.2, hf298: -59.0, source: 'ATcT:14332-21-9*0', u_hf: 3.1, units: kJ/mol}
+ff_xyz: null
+formula: HOI (g)
+inchi: null
+index: 495
+multiplicity: null
+preferred_expt_source: null
+qm_files: {}
+rmg_symmetry: null
+smiles: OI
+t1: null
+yaml_file: species/495/495.yaml

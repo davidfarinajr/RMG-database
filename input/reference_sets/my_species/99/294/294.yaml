@@ -1,0 +1,22 @@
+name: 1,5-Hexadiene
+FOD: null
+adjacency_list: null
+atct_id: 592-42-7*0
+categories: []
+charge: null
+dft_freqs: {}
+dft_thermo: {}
+dft_xyzs: {}
+expt_sources:
+- {hf0: 108.34, hf298: 83.75, source: 'ATcT:592-42-7*0', u_hf: 0.4, units: kJ/mol}
+ff_xyz: null
+formula: CH2CHCH2CH2CHCH2 (g)
+inchi: null
+index: 294
+multiplicity: null
+preferred_expt_source: null
+qm_files: {}
+rmg_symmetry: null
+smiles: C=CCCC=C
+t1: null
+yaml_file: species/294/294.yaml

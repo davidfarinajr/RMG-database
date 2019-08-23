@@ -1,0 +1,23 @@
+name: Nitrous oxide
+FOD: null
+adjacency_list: null
+atct_id: 10024-97-2*0
+categories: []
+charge: null
+dft_freqs: {}
+dft_thermo: {}
+dft_xyzs: {}
+expt_sources:
+- {hf0: 85.991, hf298: 82.56200000000001, source: 'ATcT:10024-97-2*0', u_hf: 0.097,
+  units: kJ/mol}
+ff_xyz: null
+formula: NNO (g)
+inchi: null
+index: 231
+multiplicity: null
+preferred_expt_source: null
+qm_files: {}
+rmg_symmetry: null
+smiles: '[N-]=[N+]=O'
+t1: null
+yaml_file: species/231/231.yaml

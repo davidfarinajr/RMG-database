@@ -1,0 +1,56 @@
+name: Hydrogen difluoride
+FOD: null
+adjacency_list: '1 F u0 p3 c0 {3,S}
+
+  2 F u0 p3 c0 {4,S}
+
+  3 H u0 p0 c0 {1,S}
+
+  4 H u0 p0 c0 {2,S}
+
+'
+atct_id: 12528-21-1*1
+categories: []
+charge: 0
+dft_freqs: {}
+dft_thermo:
+  m06-2x/cc-pVTZ:
+    thermo:
+      Cp0: {class: ScalarQuantity, units: J/(mol*K), value: 33.257888}
+      CpInf: {class: ScalarQuantity, units: J/(mol*K), value: 58.201304}
+      E0: {class: ScalarQuantity, units: kJ/mol, value: -200.08747860261172}
+      Tmax: {class: ScalarQuantity, units: K, value: 3000.0}
+      Tmin: {class: ScalarQuantity, units: K, value: 10.0}
+      class: NASA
+      polynomials:
+        polynomial1:
+          Tmax: {class: ScalarQuantity, units: K, value: 697.4476224113805}
+          Tmin: {class: ScalarQuantity, units: K, value: 10.0}
+          class: NASAPolynomial
+          coeffs: [3.782342639518114, 0.016820649974028122, -4.7853905744301945e-05,
+            5.7940836960095113e-08, -2.5129946199591783e-11, -24061.46677153136, 5.911888026694435]
+        polynomial2:
+          Tmax: {class: ScalarQuantity, units: K, value: 3000.0}
+          Tmin: {class: ScalarQuantity, units: K, value: 697.4476224113805}
+          class: NASAPolynomial
+          coeffs: [5.63995806413085, 0.00029713762603995555, 3.072011233962217e-07,
+            -1.616001990554647e-10, 2.2227899151653397e-14, -24177.82331825857, -1.3572263254507342]
+    thermo_data:
+      Cp (cal/mol*K): {1000 K: '12.13', 1500 K: '12.61', 2000 K: '12.97', 2400 K: '13.17',
+        300 K: '11.69', 400 K: '11.76', 500 K: '11.73', 600 K: '11.74', 800 K: '11.92'}
+      H298: -44.73 kcal/mol
+      S298: 61.22 cal/mol*K
+dft_xyzs: {}
+expt_sources:
+- {hf0: -198.5, hf298: -198.4, source: 'ATcT:12528-21-1*1', u_hf: 1.2, units: kJ/mol}
+ff_xyz: null
+formula: (F)(HF) (g, lin)
+inchi: null
+index: 95
+multiplicity: 1
+preferred_expt_source: null
+qm_files: {}
+rmg_symmetry: 1
+smiles: F.F
+t1: null
+yaml_file: species/95/95.yaml

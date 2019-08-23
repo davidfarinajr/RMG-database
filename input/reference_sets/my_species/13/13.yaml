@@ -1,0 +1,60 @@
+name: Vinyl bromide
+FOD: '0.012035'
+adjacency_list: '1 Br u0 p3 c0 {3,S}
+
+  2 C  u0 p0 c0 {3,D} {4,S} {5,S}
+
+  3 C  u0 p0 c0 {1,S} {2,D} {6,S}
+
+  4 H  u0 p0 c0 {2,S}
+
+  5 H  u0 p0 c0 {2,S}
+
+  6 H  u0 p0 c0 {3,S}
+
+'
+atct_id: 593-60-2*0
+categories: []
+charge: 0
+dft_freqs: {}
+dft_thermo:
+  m06-2x/cc-pVTZ:
+    thermo:
+      Cp0: {class: ScalarQuantity, units: J/(mol*K), value: 33.257888}
+      CpInf: {class: ScalarQuantity, units: J/(mol*K), value: 133.031552}
+      E0: {class: ScalarQuantity, units: kJ/mol, value: 71.68751495512983}
+      Tmax: {class: ScalarQuantity, units: K, value: 3000.0}
+      Tmin: {class: ScalarQuantity, units: K, value: 10.0}
+      class: NASA
+      polynomials:
+        polynomial1:
+          Tmax: {class: ScalarQuantity, units: K, value: 496.03914648199657}
+          Tmin: {class: ScalarQuantity, units: K, value: 10.0}
+          class: NASAPolynomial
+          coeffs: [4.0615131371862265, -0.0064060191709312065, 9.616948044678841e-05,
+            -1.8479610183174835e-07, 1.1644899004699453e-10, 8622.816317345878, 9.035108750361312]
+        polynomial2:
+          Tmax: {class: ScalarQuantity, units: K, value: 3000.0}
+          Tmin: {class: ScalarQuantity, units: K, value: 496.03914648199657}
+          class: NASAPolynomial
+          coeffs: [2.309624989910767, 0.018450844584616797, -1.1443131911959715e-05,
+            3.4406413624721906e-09, -3.9879041045739874e-13, 8664.610782564654, 14.928100616153321]
+    thermo_data:
+      Cp (cal/mol*K): {1000 K: '24.56', 1500 K: '27.49', 2000 K: '28.98', 2400 K: '29.83',
+        300 K: '13.41', 400 K: '15.98', 500 K: '18.04', 600 K: '19.78', 800 K: '22.54'}
+      H298: 20.05 kcal/mol
+      S298: 65.85 cal/mol*K
+dft_xyzs: {}
+expt_sources:
+- {hf0: 88.77, hf298: 73.97, source: 'ATcT:593-60-2*0', u_hf: 0.61, units: kJ/mol}
+ff_xyz: null
+formula: CH2CHBr (g)
+inchi: InChI=1S/C2H3Br/c1-2-3/h2H,1H2
+index: 13
+multiplicity: 1
+preferred_expt_source: null
+qm_files: {}
+rmg_symmetry: 1
+smiles: C=CBr
+t1: null
+yaml_file: species/13/13.yaml

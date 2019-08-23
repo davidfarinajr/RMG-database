@@ -1,0 +1,58 @@
+name: Fluorodichloromethane
+FOD: '0.003026'
+adjacency_list: '1 Cl u0 p3 c0 {4,S}
+
+  2 Cl u0 p3 c0 {4,S}
+
+  3 F  u0 p3 c0 {4,S}
+
+  4 C  u0 p0 c0 {1,S} {2,S} {3,S} {5,S}
+
+  5 H  u0 p0 c0 {4,S}
+
+'
+atct_id: 75-43-4*0
+categories: []
+charge: 0
+dft_freqs: {}
+dft_thermo:
+  m06-2x/cc-pVTZ:
+    thermo:
+      Cp0: {class: ScalarQuantity, units: J/(mol*K), value: 33.257888}
+      CpInf: {class: ScalarQuantity, units: J/(mol*K), value: 108.08813599999999}
+      E0: {class: ScalarQuantity, units: kJ/mol, value: -296.57167553834154}
+      Tmax: {class: ScalarQuantity, units: K, value: 3000.0}
+      Tmin: {class: ScalarQuantity, units: K, value: 10.0}
+      class: NASA
+      polynomials:
+        polynomial1:
+          Tmax: {class: ScalarQuantity, units: K, value: 546.9621403627376}
+          Tmin: {class: ScalarQuantity, units: K, value: 10.0}
+          class: NASAPolynomial
+          coeffs: [3.938680744576755, 0.003720054185407882, 5.5771465582150116e-05,
+            -1.220254605478103e-07, 7.743001401490603e-11, -35666.691540119136, 10.207758679268483]
+        polynomial2:
+          Tmax: {class: ScalarQuantity, units: K, value: 3000.0}
+          Tmin: {class: ScalarQuantity, units: K, value: 546.9621403627376}
+          class: NASAPolynomial
+          coeffs: [4.313940105610284, 0.014401928530451951, -1.0342979482585699e-05,
+            3.43685209695175e-09, -4.2766401041345014e-13, -35908.57613192054, 6.787866984554873]
+    thermo_data:
+      Cp (cal/mol*K): {1000 K: '22.62', 1500 K: '24.00', 2000 K: '24.64', 2400 K: '25.09',
+        300 K: '14.72', 400 K: '16.94', 500 K: '18.54', 600 K: '19.71', 800 K: '21.46'}
+      H298: -67.64 kcal/mol
+      S298: 70.16 cal/mol*K
+dft_xyzs: {}
+expt_sources:
+- {hf0: -278.7, hf298: -284.0, source: 'ATcT:75-43-4*0', u_hf: 1.3, units: kJ/mol}
+ff_xyz: null
+formula: CHFCl2 (g)
+inchi: InChI=1S/CHCl2F/c2-1(3)4/h1H
+index: 273
+multiplicity: 1
+preferred_expt_source: null
+qm_files: {}
+rmg_symmetry: 1
+smiles: FC(Cl)Cl
+t1: null
+yaml_file: species/273/273.yaml

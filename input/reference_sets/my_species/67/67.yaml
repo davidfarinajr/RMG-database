@@ -1,0 +1,56 @@
+name: Difluorodioxidane
+FOD: '0.018142'
+adjacency_list: '1 F u0 p3 c0 {3,S}
+
+  2 F u0 p3 c0 {4,S}
+
+  3 O u0 p2 c0 {1,S} {4,S}
+
+  4 O u0 p2 c0 {2,S} {3,S}
+
+'
+atct_id: 7783-44-0*0
+categories: []
+charge: 0
+dft_freqs: {}
+dft_thermo:
+  m06-2x/cc-pVTZ:
+    thermo:
+      Cp0: {class: ScalarQuantity, units: J/(mol*K), value: 33.257888}
+      CpInf: {class: ScalarQuantity, units: J/(mol*K), value: 83.14472}
+      E0: {class: ScalarQuantity, units: kJ/mol, value: 63.259294399311784}
+      Tmax: {class: ScalarQuantity, units: K, value: 3000.0}
+      Tmin: {class: ScalarQuantity, units: K, value: 10.0}
+      class: NASA
+      polynomials:
+        polynomial1:
+          Tmax: {class: ScalarQuantity, units: K, value: 587.4123034754309}
+          Tmin: {class: ScalarQuantity, units: K, value: 10.0}
+          class: NASAPolynomial
+          coeffs: [3.944800993429908, 0.003209722111558877, 4.3605753463489944e-05,
+            -9.358213167805798e-08, 5.661354286515095e-11, 7611.086047236378, 8.474218283601472]
+        polynomial2:
+          Tmax: {class: ScalarQuantity, units: K, value: 3000.0}
+          Tmin: {class: ScalarQuantity, units: K, value: 587.4123034754309}
+          class: NASAPolynomial
+          coeffs: [4.716655429141627, 0.010823112254460521, -8.698421634614298e-06,
+            3.0757067220895655e-09, -3.9690776002120804e-13, 7298.376093408089, 3.2712110238127474]
+    thermo_data:
+      Cp (cal/mol*K): {1000 K: '18.92', 1500 K: '19.38', 2000 K: '19.52', 2400 K: '19.75',
+        300 K: '13.44', 400 K: '15.23', 500 K: '16.48', 600 K: '17.27', 800 K: '18.32'}
+      H298: 18.19 kcal/mol
+      S298: 65.83 cal/mol*K
+dft_xyzs: {}
+expt_sources:
+- {hf0: 35.29, hf298: 31.57, source: 'ATcT:7783-44-0*0', u_hf: 0.41, units: kJ/mol}
+ff_xyz: null
+formula: FOOF (g)
+inchi: InChI=1S/F2O2/c1-3-4-2
+index: 67
+multiplicity: 1
+preferred_expt_source: null
+qm_files: {}
+rmg_symmetry: 1
+smiles: FOOF
+t1: null
+yaml_file: species/67/67.yaml

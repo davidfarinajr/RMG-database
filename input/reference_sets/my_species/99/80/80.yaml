@@ -1,0 +1,56 @@
+name: Chlorooxy hypochlorite
+FOD: '0.188995'
+adjacency_list: '1 Cl u0 p3 c0 {3,S}
+
+  2 Cl u0 p3 c0 {4,S}
+
+  3 O  u0 p2 c0 {1,S} {4,S}
+
+  4 O  u0 p2 c0 {2,S} {3,S}
+
+'
+atct_id: 12292-23-8*0
+categories: []
+charge: 0
+dft_freqs: {}
+dft_thermo:
+  m06-2x/cc-pVTZ:
+    thermo:
+      Cp0: {class: ScalarQuantity, units: J/(mol*K), value: 33.257888}
+      CpInf: {class: ScalarQuantity, units: J/(mol*K), value: 83.14472}
+      E0: {class: ScalarQuantity, units: kJ/mol, value: 329.98228417132435}
+      Tmax: {class: ScalarQuantity, units: K, value: 3000.0}
+      Tmin: {class: ScalarQuantity, units: K, value: 10.0}
+      class: NASA
+      polynomials:
+        polynomial1:
+          Tmax: {class: ScalarQuantity, units: K, value: 460.87963302129845}
+          Tmin: {class: ScalarQuantity, units: K, value: 10.0}
+          class: NASAPolynomial
+          coeffs: [3.6650074198098914, 0.032631503273046744, -8.911752044513295e-05,
+            1.2280765854682607e-07, -6.58065499099875e-11, 39688.1297402418, 10.54715541958381]
+        polynomial2:
+          Tmax: {class: ScalarQuantity, units: K, value: 3000.0}
+          Tmin: {class: ScalarQuantity, units: K, value: 460.87963302129845}
+          class: NASAPolynomial
+          coeffs: [6.622731792417971, 0.006961156155817274, -5.5693295775269555e-06,
+            1.953989174369802e-09, -2.50330579001314e-13, 39415.499738808445, -1.4310366538142374]
+    thermo_data:
+      Cp (cal/mol*K): {1000 K: '19.31', 1500 K: '19.60', 2000 K: '19.66', 2400 K: '19.79',
+        300 K: '16.33', 400 K: '17.16', 500 K: '17.76', 600 K: '18.25', 800 K: '18.93'}
+      H298: 82.78 kcal/mol
+      S298: 75.81 cal/mol*K
+dft_xyzs: {}
+expt_sources:
+- {hf0: 134.55, hf298: 131.32, source: 'ATcT:12292-23-8*0', u_hf: 0.56, units: kJ/mol}
+ff_xyz: null
+formula: ClOOCl (g)
+inchi: InChI=1S/Cl2O2/c1-3-4-2
+index: 80
+multiplicity: 1
+preferred_expt_source: null
+qm_files: {}
+rmg_symmetry: 1
+smiles: ClOOCl
+t1: '0.018414703'
+yaml_file: species/80/80.yaml

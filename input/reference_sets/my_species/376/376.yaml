@@ -1,0 +1,22 @@
+name: 1,1,1-Trichloroethane
+FOD: null
+adjacency_list: null
+atct_id: 71-55-6*0
+categories: []
+charge: null
+dft_freqs: {}
+dft_thermo: {}
+dft_xyzs: {}
+expt_sources:
+- {hf0: -134.42, hf298: -145.0, source: 'ATcT:71-55-6*0', u_hf: 0.52, units: kJ/mol}
+ff_xyz: null
+formula: CH3CCl3 (g)
+inchi: null
+index: 376
+multiplicity: null
+preferred_expt_source: null
+qm_files: {}
+rmg_symmetry: null
+smiles: CC(Cl)(Cl)Cl
+t1: null
+yaml_file: species/376/376.yaml

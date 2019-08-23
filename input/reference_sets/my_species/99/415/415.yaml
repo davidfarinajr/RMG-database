@@ -1,0 +1,22 @@
+name: Propynylidene
+FOD: '0.016869'
+adjacency_list: null
+atct_id: 67152-18-5*1
+categories: []
+charge: null
+dft_freqs: {}
+dft_thermo: {}
+dft_xyzs: {}
+expt_sources:
+- {hf0: 543.38, hf298: 546.38, source: 'ATcT:67152-18-5*1', u_hf: 0.63, units: kJ/mol}
+ff_xyz: null
+formula: HCCCH (g, triplet)
+inchi: null
+index: 415
+multiplicity: null
+preferred_expt_source: null
+qm_files: {}
+rmg_symmetry: null
+smiles: '[CH]=C=[CH]'
+t1: null
+yaml_file: species/415/415.yaml

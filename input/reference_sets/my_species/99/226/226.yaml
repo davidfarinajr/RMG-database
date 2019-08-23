@@ -1,0 +1,58 @@
+name: Difluorodibromomethane
+FOD: '0.020569'
+adjacency_list: '1 Br u0 p3 c0 {5,S}
+
+  2 Br u0 p3 c0 {5,S}
+
+  3 F  u0 p3 c0 {5,S}
+
+  4 F  u0 p3 c0 {5,S}
+
+  5 C  u0 p0 c0 {1,S} {2,S} {3,S} {4,S}
+
+'
+atct_id: 75-61-6*0
+categories: []
+charge: 0
+dft_freqs: {}
+dft_thermo:
+  m06-2x/cc-pVTZ:
+    thermo:
+      Cp0: {class: ScalarQuantity, units: J/(mol*K), value: 33.257888}
+      CpInf: {class: ScalarQuantity, units: J/(mol*K), value: 108.08813599999999}
+      E0: {class: ScalarQuantity, units: kJ/mol, value: -389.15625178805345}
+      Tmax: {class: ScalarQuantity, units: K, value: 3000.0}
+      Tmin: {class: ScalarQuantity, units: K, value: 10.0}
+      class: NASA
+      polynomials:
+        polynomial1:
+          Tmax: {class: ScalarQuantity, units: K, value: 440.98341401012783}
+          Tmin: {class: ScalarQuantity, units: K, value: 10.0}
+          class: NASAPolynomial
+          coeffs: [3.831103699243284, 0.01211851873584105, 8.249605496286834e-05,
+            -2.727946223624584e-07, 2.3335112034892567e-10, -46803.28555208349, 12.048434118099335]
+        polynomial2:
+          Tmax: {class: ScalarQuantity, units: K, value: 3000.0}
+          Tmin: {class: ScalarQuantity, units: K, value: 440.98341401012783}
+          class: NASAPolynomial
+          coeffs: [6.6474407918036365, 0.013011566712033724, -1.0473646988557899e-05,
+            3.711183667492602e-09, -4.799863265609001e-13, -47308.75212048798, -2.1476858846650795]
+    thermo_data:
+      Cp (cal/mol*K): {1000 K: '24.67', 1500 K: '25.23', 2000 K: '25.41', 2400 K: '25.69',
+        300 K: '18.71', 400 K: '20.65', 500 K: '21.80', 600 K: '22.70', 800 K: '23.96'}
+      H298: -89.07 kcal/mol
+      S298: 77.90 cal/mol*K
+dft_xyzs: {}
+expt_sources:
+- {hf0: -366.0, hf298: -383.7, source: 'ATcT:75-61-6*0', u_hf: 1.4, units: kJ/mol}
+ff_xyz: null
+formula: CF2Br2 (g)
+inchi: InChI=1S/CBr2F2/c2-1(3,4)5
+index: 226
+multiplicity: 1
+preferred_expt_source: null
+qm_files: {}
+rmg_symmetry: 2
+smiles: FC(F)(Br)Br
+t1: null
+yaml_file: species/226/226.yaml

@@ -1,0 +1,58 @@
+name: Vinylidene
+FOD: '0.368619'
+adjacency_list: 'multiplicity 3
+
+  1 C u0 p0 c0 {2,D} {3,S} {4,S}
+
+  2 C u2 p0 c0 {1,D}
+
+  3 H u0 p0 c0 {1,S}
+
+  4 H u0 p0 c0 {1,S}
+
+'
+atct_id: 2143-69-3*0
+categories: []
+charge: 0
+dft_freqs: {}
+dft_thermo:
+  m06-2x/cc-pVTZ:
+    thermo:
+      Cp0: {class: ScalarQuantity, units: J/(mol*K), value: 33.257888}
+      CpInf: {class: ScalarQuantity, units: J/(mol*K), value: 83.14472}
+      E0: {class: ScalarQuantity, units: kJ/mol, value: 596.0023161295342}
+      Tmax: {class: ScalarQuantity, units: K, value: 3000.0}
+      Tmin: {class: ScalarQuantity, units: K, value: 10.0}
+      class: NASA
+      polynomials:
+        polynomial1:
+          Tmax: {class: ScalarQuantity, units: K, value: 787.1338104485698}
+          Tmin: {class: ScalarQuantity, units: K, value: 10.0}
+          class: NASAPolynomial
+          coeffs: [4.050961880910342, -0.0030663837618089104, 2.4863664077726283e-05,
+            -2.946997885921206e-08, 1.1399939714061947e-11, 71680.93716312545, 4.2595306409071245]
+        polynomial2:
+          Tmax: {class: ScalarQuantity, units: K, value: 3000.0}
+          Tmin: {class: ScalarQuantity, units: K, value: 787.1338104485698}
+          class: NASAPolynomial
+          coeffs: [2.3363314418606667, 0.009092092244560196, -4.871432030995723e-06,
+            1.2748287050845459e-09, -1.3092573632674532e-13, 71844.1373928813, 11.443266081113403]
+    thermo_data:
+      Cp (cal/mol*K): {1000 K: '15.30', 1500 K: '17.20', 2000 K: '18.16', 2400 K: '18.63',
+        300 K: '9.27', 400 K: '10.35', 500 K: '11.45', 600 K: '12.47', 800 K: '14.09'}
+      H298: 144.90 kcal/mol
+      S298: 54.23 cal/mol*K
+dft_xyzs: {}
+expt_sources:
+- {hf0: 411.25, hf298: 412.17, source: 'ATcT:2143-69-3*0', u_hf: 0.33, units: kJ/mol}
+ff_xyz: null
+formula: CCH2 (g)
+inchi: InChI=1S/C2H2/c1-2/h1H2
+index: 92
+multiplicity: 3
+preferred_expt_source: null
+qm_files: {}
+rmg_symmetry: 2
+smiles: '[C]=C'
+t1: null
+yaml_file: species/92/92.yaml

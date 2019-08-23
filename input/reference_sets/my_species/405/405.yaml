@@ -1,0 +1,68 @@
+name: Ethylene glycol
+FOD: '0.002961'
+adjacency_list: '1  O u0 p2 c0 {3,S} {9,S}
+
+  2  O u0 p2 c0 {4,S} {10,S}
+
+  3  C u0 p0 c0 {1,S} {4,S} {5,S} {6,S}
+
+  4  C u0 p0 c0 {2,S} {3,S} {7,S} {8,S}
+
+  5  H u0 p0 c0 {3,S}
+
+  6  H u0 p0 c0 {3,S}
+
+  7  H u0 p0 c0 {4,S}
+
+  8  H u0 p0 c0 {4,S}
+
+  9  H u0 p0 c0 {1,S}
+
+  10 H u0 p0 c0 {2,S}
+
+'
+atct_id: 107-21-1*0
+categories: []
+charge: 0
+dft_freqs: {}
+dft_thermo:
+  m06-2x/cc-pVTZ:
+    thermo:
+      Cp0: {class: ScalarQuantity, units: J/(mol*K), value: 33.257888}
+      CpInf: {class: ScalarQuantity, units: J/(mol*K), value: 232.805216}
+      E0: {class: ScalarQuantity, units: kJ/mol, value: -405.1879454932594}
+      Tmax: {class: ScalarQuantity, units: K, value: 3000.0}
+      Tmin: {class: ScalarQuantity, units: K, value: 10.0}
+      class: NASA
+      polynomials:
+        polynomial1:
+          Tmax: {class: ScalarQuantity, units: K, value: 401.37541064484026}
+          Tmin: {class: ScalarQuantity, units: K, value: 10.0}
+          class: NASAPolynomial
+          coeffs: [3.928214883235107, 0.00577312522092863, 8.822768847425796e-05,
+            -1.7502527656118695e-07, 1.1208181831959363e-10, -48731.78461801389, 7.881655054059736]
+        polynomial2:
+          Tmax: {class: ScalarQuantity, units: K, value: 3000.0}
+          Tmin: {class: ScalarQuantity, units: K, value: 401.37541064484026}
+          class: NASAPolynomial
+          coeffs: [1.0017102622784229, 0.03493778657950886, -2.0764639701922916e-05,
+            6.005495273947756e-09, -6.743071546346785e-13, -48496.858405332634, 19.32887485201757]
+    thermo_data:
+      Cp (cal/mol*K): {1000 K: '40.75', 1500 K: '46.78', 2000 K: '49.83', 2400 K: '51.46',
+        300 K: '19.44', 400 K: '23.89', 500 K: '27.80', 600 K: '31.20', 800 K: '36.69'}
+      H298: -93.04 kcal/mol
+      S298: 68.71 cal/mol*K
+dft_xyzs: {}
+expt_sources:
+- {hf0: -369.81, hf298: -389.44, source: 'ATcT:107-21-1*0', u_hf: 0.49, units: kJ/mol}
+ff_xyz: null
+formula: (CH2OH)2 (g)
+inchi: InChI=1S/C2H6O2/c3-1-2-4/h3-4H,1-2H2
+index: 405
+multiplicity: 1
+preferred_expt_source: null
+qm_files: {}
+rmg_symmetry: 2
+smiles: OCCO
+t1: null
+yaml_file: species/405/405.yaml

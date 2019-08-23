@@ -1,0 +1,54 @@
+name: Hydrogen chloride
+FOD: '0.000833'
+adjacency_list: '1 Cl u0 p3 c0 {2,S}
+
+  2 H  u0 p0 c0 {1,S}
+
+'
+atct_id: 7647-01-0*0
+categories: []
+charge: 0
+dft_freqs: {}
+dft_thermo:
+  m06-2x/cc-pVTZ:
+    thermo:
+      Cp0: {class: ScalarQuantity, units: J/(mol*K), value: 29.100652}
+      CpInf: {class: ScalarQuantity, units: J/(mol*K), value: 37.415124}
+      E0: {class: ScalarQuantity, units: kJ/mol, value: -92.86843469927196}
+      Tmax: {class: ScalarQuantity, units: K, value: 3000.0}
+      Tmin: {class: ScalarQuantity, units: K, value: 10.0}
+      class: NASA
+      polynomials:
+        polynomial1:
+          Tmax: {class: ScalarQuantity, units: K, value: 787.7726964060819}
+          Tmin: {class: ScalarQuantity, units: K, value: 10.0}
+          class: NASAPolynomial
+          coeffs: [3.4963116624691564, 0.0002919469990585645, -1.9920708091451495e-06,
+            3.959550601703736e-09, -1.9921996744222024e-12, -11169.445587200167, 2.4837904372533]
+        polynomial2:
+          Tmax: {class: ScalarQuantity, units: K, value: 3000.0}
+          Tmin: {class: ScalarQuantity, units: K, value: 787.7726964060819}
+          class: NASAPolynomial
+          coeffs: [3.1954643847066664, 0.00044852648163118825, 3.2031934541724425e-07,
+            -2.0656120831339222e-10, 3.1011564155141754e-14, -11079.504429055207,
+            4.133448843266852]
+    thermo_data:
+      Cp (cal/mol*K): {1000 K: '7.53', 1500 K: '8.05', 2000 K: '8.38', 2400 K: '8.53',
+        300 K: '6.95', 400 K: '6.95', 500 K: '6.98', 600 K: '7.06', 800 K: '7.29'}
+      H298: -20.12 kcal/mol
+      S298: 44.58 cal/mol*K
+dft_xyzs: {}
+expt_sources:
+- {hf0: -91.98899999999999, hf298: -92.17299999999999, source: 'ATcT:7647-01-0*0',
+  u_hf: 0.0062, units: kJ/mol}
+ff_xyz: null
+formula: HCl (g)
+inchi: InChI=1S/ClH/h1H
+index: 371
+multiplicity: 1
+preferred_expt_source: null
+qm_files: {}
+rmg_symmetry: 1
+smiles: Cl
+t1: null
+yaml_file: species/371/371.yaml

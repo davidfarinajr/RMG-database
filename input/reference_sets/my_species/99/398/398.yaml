@@ -1,0 +1,58 @@
+name: Chloromethyl
+FOD: '0.011974'
+adjacency_list: 'multiplicity 2
+
+  1 Cl u0 p3 c0 {2,S}
+
+  2 C  u1 p0 c0 {1,S} {3,S} {4,S}
+
+  3 H  u0 p0 c0 {2,S}
+
+  4 H  u0 p0 c0 {2,S}
+
+'
+atct_id: 6806-86-6*0
+categories: []
+charge: 0
+dft_freqs: {}
+dft_thermo:
+  m06-2x/cc-pVTZ:
+    thermo:
+      Cp0: {class: ScalarQuantity, units: J/(mol*K), value: 33.257888}
+      CpInf: {class: ScalarQuantity, units: J/(mol*K), value: 83.14472}
+      E0: {class: ScalarQuantity, units: kJ/mol, value: 107.60783397888778}
+      Tmax: {class: ScalarQuantity, units: K, value: 3000.0}
+      Tmin: {class: ScalarQuantity, units: K, value: 10.0}
+      class: NASA
+      polynomials:
+        polynomial1:
+          Tmax: {class: ScalarQuantity, units: K, value: 716.8568362846524}
+          Tmin: {class: ScalarQuantity, units: K, value: 10.0}
+          class: NASAPolynomial
+          coeffs: [3.914953322494279, 0.006748187343996805, -4.4516380086975084e-06,
+            2.969090405439479e-09, -1.2548318809362068e-12, 12943.528466200783, 5.854802505546198]
+        polynomial2:
+          Tmax: {class: ScalarQuantity, units: K, value: 3000.0}
+          Tmin: {class: ScalarQuantity, units: K, value: 716.8568362846524}
+          class: NASAPolynomial
+          coeffs: [3.7367570533264303, 0.007068716263259136, -3.7124482728347603e-06,
+            9.704802936078762e-10, -1.0056225890296483e-13, 12986.389221972488, 6.7759316107389145]
+    thermo_data:
+      Cp (cal/mol*K): {1000 K: '15.82', 1500 K: '17.39', 2000 K: '18.24', 2400 K: '18.67',
+        300 K: '11.15', 400 K: '12.04', 500 K: '12.85', 600 K: '13.59', 800 K: '14.85'}
+      H298: 28.57 kcal/mol
+      S298: 59.61 cal/mol*K
+dft_xyzs: {}
+expt_sources:
+- {hf0: 118.47, hf298: 115.39, source: 'ATcT:6806-86-6*0', u_hf: 0.87, units: kJ/mol}
+ff_xyz: null
+formula: CH2Cl (g)
+inchi: InChI=1S/CH2Cl/c1-2/h1H2
+index: 398
+multiplicity: 2
+preferred_expt_source: null
+qm_files: {}
+rmg_symmetry: 2
+smiles: '[CH2]Cl'
+t1: null
+yaml_file: species/398/398.yaml

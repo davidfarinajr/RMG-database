@@ -1,0 +1,22 @@
+name: Nitrogen dioxide
+FOD: null
+adjacency_list: null
+atct_id: 10102-44-0*0
+categories: []
+charge: null
+dft_freqs: {}
+dft_thermo: {}
+dft_xyzs: {}
+expt_sources:
+- {hf0: 36.855, hf298: 34.048, source: 'ATcT:10102-44-0*0', u_hf: 0.065, units: kJ/mol}
+ff_xyz: null
+formula: ONO (g)
+inchi: null
+index: 419
+multiplicity: null
+preferred_expt_source: null
+qm_files: {}
+rmg_symmetry: null
+smiles: '[O-][N+]=O'
+t1: null
+yaml_file: species/419/419.yaml

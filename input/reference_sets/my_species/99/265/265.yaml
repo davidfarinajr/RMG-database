@@ -1,0 +1,76 @@
+name: iso-Butyl
+FOD: '0.006904'
+adjacency_list: 'multiplicity 2
+
+  1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+
+  2  C u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
+
+  3  C u0 p0 c0 {1,S} {9,S} {10,S} {11,S}
+
+  4  C u1 p0 c0 {1,S} {12,S} {13,S}
+
+  5  H u0 p0 c0 {1,S}
+
+  6  H u0 p0 c0 {2,S}
+
+  7  H u0 p0 c0 {2,S}
+
+  8  H u0 p0 c0 {2,S}
+
+  9  H u0 p0 c0 {3,S}
+
+  10 H u0 p0 c0 {3,S}
+
+  11 H u0 p0 c0 {3,S}
+
+  12 H u0 p0 c0 {4,S}
+
+  13 H u0 p0 c0 {4,S}
+
+'
+atct_id: 4630-45-9*0
+categories: []
+charge: 0
+dft_freqs: {}
+dft_thermo:
+  m06-2x/cc-pVTZ:
+    thermo:
+      Cp0: {class: ScalarQuantity, units: J/(mol*K), value: 33.257888}
+      CpInf: {class: ScalarQuantity, units: J/(mol*K), value: 307.635464}
+      E0: {class: ScalarQuantity, units: kJ/mol, value: 59.70699857261076}
+      Tmax: {class: ScalarQuantity, units: K, value: 3000.0}
+      Tmin: {class: ScalarQuantity, units: K, value: 10.0}
+      class: NASA
+      polynomials:
+        polynomial1:
+          Tmax: {class: ScalarQuantity, units: K, value: 378.74599594449387}
+          Tmin: {class: ScalarQuantity, units: K, value: 10.0}
+          class: NASAPolynomial
+          coeffs: [3.8144755727714896, 0.0138948668607434, 9.554345594738753e-05,
+            -2.045072335213177e-07, 1.3860830745269158e-10, 7185.851843278857, 6.490649103897318]
+        polynomial2:
+          Tmax: {class: ScalarQuantity, units: K, value: 3000.0}
+          Tmin: {class: ScalarQuantity, units: K, value: 378.74599594449387}
+          class: NASAPolynomial
+          coeffs: [0.9483602533208947, 0.044164612942909964, -2.433887070025386e-05,
+            6.5105369052429015e-09, -6.79840804640231e-13, 7402.956195635209, 17.5352965353619]
+    thermo_data:
+      Cp (cal/mol*K): {1000 K: '52.87', 1500 K: '61.53', 2000 K: '65.83', 2400 K: '67.96',
+        300 K: '24.21', 400 K: '30.05', 500 K: '35.21', 600 K: '39.75', 800 K: '47.21'}
+      H298: 18.77 kcal/mol
+      S298: 69.70 cal/mol*K
+dft_xyzs: {}
+expt_sources:
+- {hf0: 97.01, hf298: 73.02, source: 'ATcT:4630-45-9*0', u_hf: 0.77, units: kJ/mol}
+ff_xyz: null
+formula: (CH3)2CHCH2 (g)
+inchi: InChI=1S/C4H9/c1-4(2)3/h4H,1H2,2-3H3
+index: 265
+multiplicity: 2
+preferred_expt_source: null
+qm_files: {}
+rmg_symmetry: 18
+smiles: '[CH2]C(C)C'
+t1: null
+yaml_file: species/265/265.yaml

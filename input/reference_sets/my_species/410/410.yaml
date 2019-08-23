@@ -1,0 +1,62 @@
+name: Methylperoxy
+FOD: '0.232567'
+adjacency_list: 'multiplicity 2
+
+  1 O u0 p2 c0 {2,S} {3,S}
+
+  2 O u1 p2 c0 {1,S}
+
+  3 C u0 p0 c0 {1,S} {4,S} {5,S} {6,S}
+
+  4 H u0 p0 c0 {3,S}
+
+  5 H u0 p0 c0 {3,S}
+
+  6 H u0 p0 c0 {3,S}
+
+'
+atct_id: 2143-58-0*0
+categories: []
+charge: 0
+dft_freqs: {}
+dft_thermo:
+  m06-2x/cc-pVTZ:
+    thermo:
+      Cp0: {class: ScalarQuantity, units: J/(mol*K), value: 33.257888}
+      CpInf: {class: ScalarQuantity, units: J/(mol*K), value: 133.031552}
+      E0: {class: ScalarQuantity, units: kJ/mol, value: -1.7698417504256359}
+      Tmax: {class: ScalarQuantity, units: K, value: 3000.0}
+      Tmin: {class: ScalarQuantity, units: K, value: 10.0}
+      class: NASA
+      polynomials:
+        polynomial1:
+          Tmax: {class: ScalarQuantity, units: K, value: 488.2683005363064}
+          Tmin: {class: ScalarQuantity, units: K, value: 10.0}
+          class: NASAPolynomial
+          coeffs: [3.9775019489223657, 0.0012777346864343538, 4.0012066790567843e-05,
+            -6.52230465352723e-08, 3.4440575233943307e-11, -211.45563790307804, 6.9687094951288175]
+        polynomial2:
+          Tmax: {class: ScalarQuantity, units: K, value: 3000.0}
+          Tmin: {class: ScalarQuantity, units: K, value: 488.2683005363064}
+          class: NASAPolynomial
+          coeffs: [2.005248025077155, 0.017435333101060737, -9.6268228489058e-06,
+            2.5543352640167664e-09, -2.6336491092691554e-13, -18.86337575753277, 15.06974818670079]
+    thermo_data:
+      Cp (cal/mol*K): {1000 K: '24.05', 1500 K: '27.39', 2000 K: '28.99', 2400 K: '29.75',
+        300 K: '12.88', 400 K: '15.10', 500 K: '17.13', 600 K: '18.92', 800 K: '21.84'}
+      H298: 2.53 kcal/mol
+      S298: 62.16 cal/mol*K
+dft_xyzs: {}
+expt_sources:
+- {hf0: 22.31, hf298: 12.66, source: 'ATcT:2143-58-0*0', u_hf: 0.5, units: kJ/mol}
+ff_xyz: null
+formula: CH3OO (g)
+inchi: InChI=1S/CH3O2/c1-3-2/h1H3
+index: 410
+multiplicity: 2
+preferred_expt_source: null
+qm_files: {}
+rmg_symmetry: 3
+smiles: CO[O]
+t1: null
+yaml_file: species/410/410.yaml

@@ -355,7 +355,7 @@ calculated_data:
           - 6.0
       opticalIsomers: 1
       spinMultiplicity: 3
-    fod: 3.5e-05
+    fod: 1.332772
     thermo:
       Cp0:
         class: ScalarQuantity
@@ -469,7 +469,7 @@ calculated_data:
       class: ThermoData
   tpss/def2-tzvp:
     class: CalculatedDataEntry
-    fod: 3.5e-05
+    fod: 1.332772
 class: ReferenceSpecies
 datetime: 2019-08-08 16:53
 index: 24

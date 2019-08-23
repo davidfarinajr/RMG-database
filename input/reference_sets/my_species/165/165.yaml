@@ -1,0 +1,76 @@
+name: Benzoyl fluoride
+FOD: '0.04122'
+adjacency_list: '1  F u0 p3 c0 {9,S}
+
+  2  O u0 p2 c0 {9,D}
+
+  3  C u0 p0 c0 {4,S} {5,D} {9,S}
+
+  4  C u0 p0 c0 {3,S} {6,D} {10,S}
+
+  5  C u0 p0 c0 {3,D} {8,S} {14,S}
+
+  6  C u0 p0 c0 {4,D} {7,S} {11,S}
+
+  7  C u0 p0 c0 {6,S} {8,D} {12,S}
+
+  8  C u0 p0 c0 {5,S} {7,D} {13,S}
+
+  9  C u0 p0 c0 {1,S} {2,D} {3,S}
+
+  10 H u0 p0 c0 {4,S}
+
+  11 H u0 p0 c0 {6,S}
+
+  12 H u0 p0 c0 {7,S}
+
+  13 H u0 p0 c0 {8,S}
+
+  14 H u0 p0 c0 {5,S}
+
+'
+atct_id: 455-32-3*0
+categories: []
+charge: 0
+dft_freqs: {}
+dft_thermo:
+  m06-2x/cc-pVTZ:
+    thermo:
+      Cp0: {class: ScalarQuantity, units: J/(mol*K), value: 33.257888}
+      CpInf: {class: ScalarQuantity, units: J/(mol*K), value: 332.57887999999997}
+      E0: {class: ScalarQuantity, units: kJ/mol, value: -332.5992082303539}
+      Tmax: {class: ScalarQuantity, units: K, value: 3000.0}
+      Tmin: {class: ScalarQuantity, units: K, value: 10.0}
+      class: NASA
+      polynomials:
+        polynomial1:
+          Tmax: {class: ScalarQuantity, units: K, value: 540.4280429563962}
+          Tmin: {class: ScalarQuantity, units: K, value: 10.0}
+          class: NASAPolynomial
+          coeffs: [3.866033411821078, 0.008052400580498897, 0.00018465641542002244,
+            -3.6424960908650446e-07, 2.1880275677091734e-10, -39996.43628580875, 12.070781372293792]
+        polynomial2:
+          Tmax: {class: ScalarQuantity, units: K, value: 3000.0}
+          Tmin: {class: ScalarQuantity, units: K, value: 540.4280429563962}
+          class: NASAPolynomial
+          coeffs: [0.7299427014542678, 0.06024034811555404, -4.0620549750034545e-05,
+            1.2861624995176325e-08, -1.5425081625217923e-12, -40080.61078181171, 21.355808620536553]
+    thermo_data:
+      Cp (cal/mol*K): {1000 K: '62.93', 1500 K: '70.14', 2000 K: '73.41', 2400 K: '75.42',
+        300 K: '29.49', 400 K: '37.60', 500 K: '44.12', 600 K: '49.34', 800 K: '57.39'}
+      H298: -74.47 kcal/mol
+      S298: 83.29 cal/mol*K
+dft_xyzs: {}
+expt_sources:
+- {hf0: -288.0, hf298: -304.4, source: 'ATcT:455-32-3*0', u_hf: 1.5, units: kJ/mol}
+ff_xyz: null
+formula: C6H5C(O)F (g)
+inchi: InChI=1S/C7H5FO/c8-7(9)6-4-2-1-3-5-6/h1-5H
+index: 165
+multiplicity: 1
+preferred_expt_source: null
+qm_files: {}
+rmg_symmetry: 2
+smiles: O=C(F)C1C=CC=CC=1
+t1: null
+yaml_file: species/165/165.yaml

@@ -1,0 +1,22 @@
+name: Chloryl chloride
+FOD: null
+adjacency_list: null
+atct_id: 117489-73-3*0
+categories: []
+charge: null
+dft_freqs: {}
+dft_thermo: {}
+dft_xyzs: {}
+expt_sources:
+- {hf0: 126.1, hf298: 122.1, source: 'ATcT:117489-73-3*0', u_hf: 1.7, units: kJ/mol}
+ff_xyz: null
+formula: ClCl(O)O (g)
+inchi: null
+index: 200
+multiplicity: null
+preferred_expt_source: null
+qm_files: {}
+rmg_symmetry: null
+smiles: ClCl([O])[O]
+t1: null
+yaml_file: species/200/200.yaml

@@ -1,0 +1,22 @@
+name: Nitroxyl
+FOD: null
+adjacency_list: null
+atct_id: 12033-49-7*0
+categories: []
+charge: null
+dft_freqs: {}
+dft_thermo: {}
+dft_xyzs: {}
+expt_sources:
+- {hf0: 79.38, hf298: 74.13, source: 'ATcT:12033-49-7*0', u_hf: 0.19, units: kJ/mol}
+ff_xyz: null
+formula: NO3 (g)
+inchi: null
+index: 368
+multiplicity: null
+preferred_expt_source: null
+qm_files: {}
+rmg_symmetry: null
+smiles: '[O-][N+](=O)[O]'
+t1: null
+yaml_file: species/368/368.yaml

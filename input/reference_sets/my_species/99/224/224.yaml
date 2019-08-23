@@ -1,0 +1,60 @@
+name: Trichloroethene
+FOD: '0.02179'
+adjacency_list: '1 Cl u0 p3 c0 {4,S}
+
+  2 Cl u0 p3 c0 {5,S}
+
+  3 Cl u0 p3 c0 {5,S}
+
+  4 C  u0 p0 c0 {1,S} {5,D} {6,S}
+
+  5 C  u0 p0 c0 {2,S} {3,S} {4,D}
+
+  6 H  u0 p0 c0 {4,S}
+
+'
+atct_id: 79-01-6*0
+categories: []
+charge: 0
+dft_freqs: {}
+dft_thermo:
+  m06-2x/cc-pVTZ:
+    thermo:
+      Cp0: {class: ScalarQuantity, units: J/(mol*K), value: 33.257888}
+      CpInf: {class: ScalarQuantity, units: J/(mol*K), value: 133.031552}
+      E0: {class: ScalarQuantity, units: kJ/mol, value: -21.17797839447795}
+      Tmax: {class: ScalarQuantity, units: K, value: 3000.0}
+      Tmin: {class: ScalarQuantity, units: K, value: 10.0}
+      class: NASA
+      polynomials:
+        polynomial1:
+          Tmax: {class: ScalarQuantity, units: K, value: 433.49223515255954}
+          Tmin: {class: ScalarQuantity, units: K, value: 10.0}
+          class: NASAPolynomial
+          coeffs: [3.8402146993430524, 0.011564186572949022, 9.19491144493798e-05,
+            -2.8685824524902467e-07, 2.4240385648050804e-10, -2546.140037407813, 11.800075745666724]
+        polynomial2:
+          Tmax: {class: ScalarQuantity, units: K, value: 3000.0}
+          Tmin: {class: ScalarQuantity, units: K, value: 433.49223515255954}
+          class: NASAPolynomial
+          coeffs: [5.857596364348726, 0.017393276008161988, -1.280479427836358e-05,
+            4.323589434669656e-09, -5.433353721668283e-13, -2950.716570271573, 1.1045692514282142]
+    thermo_data:
+      Cp (cal/mol*K): {1000 K: '28.27', 1500 K: '29.76', 2000 K: '30.44', 2400 K: '30.98',
+        300 K: '19.48', 400 K: '21.91', 500 K: '23.57', 600 K: '24.93', 800 K: '26.96'}
+      H298: -1.05 kcal/mol
+      S298: 77.81 cal/mol*K
+dft_xyzs: {}
+expt_sources:
+- {hf0: -10.8, hf298: -14.1, source: 'ATcT:79-01-6*0', u_hf: 1.6, units: kJ/mol}
+ff_xyz: null
+formula: CHClCCl2 (g)
+inchi: InChI=1S/C2HCl3/c3-1-2(4)5/h1H
+index: 224
+multiplicity: 1
+preferred_expt_source: null
+qm_files: {}
+rmg_symmetry: 1
+smiles: ClC=C(Cl)Cl
+t1: null
+yaml_file: species/224/224.yaml

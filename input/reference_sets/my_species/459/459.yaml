@@ -1,0 +1,22 @@
+name: Fluorosyl fluoride
+FOD: null
+adjacency_list: null
+atct_id: 86825-57-2*1
+categories: []
+charge: null
+dft_freqs: {}
+dft_thermo: {}
+dft_xyzs: {}
+expt_sources:
+- {hf0: 192.6, hf298: 193.1, source: 'ATcT:86825-57-2*1', u_hf: 2.3, units: kJ/mol}
+ff_xyz: null
+formula: FFO (g, triplet)
+inchi: null
+index: 459
+multiplicity: null
+preferred_expt_source: null
+qm_files: {}
+rmg_symmetry: null
+smiles: FF[O]
+t1: null
+yaml_file: species/459/459.yaml

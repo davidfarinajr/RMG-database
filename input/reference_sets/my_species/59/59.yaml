@@ -1,0 +1,22 @@
+name: Dioxofluorine
+FOD: null
+adjacency_list: null
+atct_id: 175861-93-5*0
+categories: []
+charge: null
+dft_freqs: {}
+dft_thermo: {}
+dft_xyzs: {}
+expt_sources:
+- {hf0: 524.0, hf298: 523.2, source: 'ATcT:175861-93-5*0', u_hf: 1.1, units: kJ/mol}
+ff_xyz: null
+formula: OFO (g)
+inchi: null
+index: 59
+multiplicity: null
+preferred_expt_source: null
+qm_files: {}
+rmg_symmetry: null
+smiles: '[O]F[O]'
+t1: null
+yaml_file: species/59/59.yaml

@@ -1,0 +1,22 @@
+name: Nitromethane
+FOD: null
+adjacency_list: null
+atct_id: 75-52-5*0
+categories: []
+charge: null
+dft_freqs: {}
+dft_thermo: {}
+dft_xyzs: {}
+expt_sources:
+- {hf0: -60.85, hf298: -74.75, source: 'ATcT:75-52-5*0', u_hf: 0.46, units: kJ/mol}
+ff_xyz: null
+formula: CH3N(O)O (g)
+inchi: null
+index: 445
+multiplicity: null
+preferred_expt_source: null
+qm_files: {}
+rmg_symmetry: null
+smiles: '[O-][N+](=O)C'
+t1: null
+yaml_file: species/445/445.yaml

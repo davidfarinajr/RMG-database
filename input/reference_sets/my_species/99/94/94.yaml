@@ -1,0 +1,22 @@
+name: Isofulminic acid
+FOD: null
+adjacency_list: null
+atct_id: 51060-05-0*0
+categories: []
+charge: null
+dft_freqs: {}
+dft_thermo: {}
+dft_xyzs: {}
+expt_sources:
+- {hf0: 170.92, hf298: 169.46, source: 'ATcT:51060-05-0*0', u_hf: 0.49, units: kJ/mol}
+ff_xyz: null
+formula: HCNO (g)
+inchi: null
+index: 94
+multiplicity: null
+preferred_expt_source: null
+qm_files: {}
+rmg_symmetry: null
+smiles: '[O-][N+]#C'
+t1: null
+yaml_file: species/94/94.yaml

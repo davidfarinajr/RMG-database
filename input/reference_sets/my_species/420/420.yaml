@@ -1,0 +1,22 @@
+name: Chloric acid
+FOD: null
+adjacency_list: null
+atct_id: 7790-93-4*0
+categories: []
+charge: null
+dft_freqs: {}
+dft_thermo: {}
+dft_xyzs: {}
+expt_sources:
+- {hf0: 2.2, hf298: -4.9, source: 'ATcT:7790-93-4*0', u_hf: 1.6, units: kJ/mol}
+ff_xyz: null
+formula: HOCl(O)O (g)
+inchi: null
+index: 420
+multiplicity: null
+preferred_expt_source: null
+qm_files: {}
+rmg_symmetry: null
+smiles: OCl(=O)=O
+t1: null
+yaml_file: species/420/420.yaml

@@ -1,0 +1,63 @@
+name: Ethenol
+FOD: '0.00705'
+adjacency_list: '1 O u0 p2 c0 {2,S} {7,S}
+
+  2 C u0 p0 c0 {1,S} {3,D} {4,S}
+
+  3 C u0 p0 c0 {2,D} {5,S} {6,S}
+
+  4 H u0 p0 c0 {2,S}
+
+  5 H u0 p0 c0 {3,S}
+
+  6 H u0 p0 c0 {3,S}
+
+  7 H u0 p0 c0 {1,S}
+
+'
+atct_id: 557-75-5*1
+categories: []
+charge: 0
+dft_freqs: {}
+dft_thermo:
+  m06-2x/cc-pVTZ:
+    thermo:
+      Cp0: {class: ScalarQuantity, units: J/(mol*K), value: 33.257888}
+      CpInf: {class: ScalarQuantity, units: J/(mol*K), value: 157.97496800000002}
+      E0: {class: ScalarQuantity, units: kJ/mol, value: -136.65668119506654}
+      Tmax: {class: ScalarQuantity, units: K, value: 3000.0}
+      Tmin: {class: ScalarQuantity, units: K, value: 10.0}
+      class: NASA
+      polynomials:
+        polynomial1:
+          Tmax: {class: ScalarQuantity, units: K, value: 540.2226636721057}
+          Tmin: {class: ScalarQuantity, units: K, value: 10.0}
+          class: NASAPolynomial
+          coeffs: [4.097199952761215, -0.008937382315611754, 0.00010871907097031772,
+            -1.8989182660191913e-07, 1.0914648689895007e-10, -16435.338343300944,
+            6.76309378731872]
+        polynomial2:
+          Tmax: {class: ScalarQuantity, units: K, value: 3000.0}
+          Tmin: {class: ScalarQuantity, units: K, value: 540.2226636721057}
+          class: NASAPolynomial
+          coeffs: [1.5320666151684845, 0.02258760466071776, -1.3610537365110229e-05,
+            4.010814497866718e-09, -4.580049058472672e-13, -16341.054517187096, 15.866342464180562]
+    thermo_data:
+      Cp (cal/mol*K): {1000 K: '27.94', 1500 K: '31.81', 2000 K: '33.83', 2400 K: '34.97',
+        300 K: '13.83', 400 K: '17.01', 500 K: '19.66', 600 K: '21.84', 800 K: '25.35'}
+      H298: -29.76 kcal/mol
+      S298: 61.22 cal/mol*K
+dft_xyzs: {}
+expt_sources:
+- {hf0: -112.76, hf298: -123.95, source: 'ATcT:557-75-5*1', u_hf: 0.84, units: kJ/mol}
+ff_xyz: null
+formula: CH2CHOH (g, syn)
+inchi: InChI=1S/C2H4O/c1-2-3/h2-3H,1H2
+index: 180
+multiplicity: 1
+preferred_expt_source: null
+qm_files: {}
+rmg_symmetry: 1
+smiles: C=CO
+t1: '0.012593413'
+yaml_file: species/180/180.yaml

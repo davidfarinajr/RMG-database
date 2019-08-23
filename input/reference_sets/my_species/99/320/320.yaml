@@ -1,0 +1,22 @@
+name: Trichloromethyl
+FOD: null
+adjacency_list: null
+atct_id: 3170-80-7*0
+categories: []
+charge: null
+dft_freqs: {}
+dft_thermo: {}
+dft_xyzs: {}
+expt_sources:
+- {hf0: 71.91, hf298: 71.43, source: 'ATcT:3170-80-7*0', u_hf: 0.86, units: kJ/mol}
+ff_xyz: null
+formula: CCl3 (g)
+inchi: null
+index: 320
+multiplicity: null
+preferred_expt_source: null
+qm_files: {}
+rmg_symmetry: null
+smiles: Cl[C](Cl)Cl
+t1: null
+yaml_file: species/320/320.yaml

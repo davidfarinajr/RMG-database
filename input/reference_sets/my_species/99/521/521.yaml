@@ -1,0 +1,70 @@
+name: Propyl
+FOD: '0.00548'
+adjacency_list: 'multiplicity 2
+
+  1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+
+  2  C u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
+
+  3  C u1 p0 c0 {1,S} {9,S} {10,S}
+
+  4  H u0 p0 c0 {1,S}
+
+  5  H u0 p0 c0 {1,S}
+
+  6  H u0 p0 c0 {2,S}
+
+  7  H u0 p0 c0 {2,S}
+
+  8  H u0 p0 c0 {2,S}
+
+  9  H u0 p0 c0 {3,S}
+
+  10 H u0 p0 c0 {3,S}
+
+'
+atct_id: 2143-61-5*0
+categories: []
+charge: 0
+dft_freqs: {}
+dft_thermo:
+  m06-2x/cc-pVTZ:
+    thermo:
+      Cp0: {class: ScalarQuantity, units: J/(mol*K), value: 33.257888}
+      CpInf: {class: ScalarQuantity, units: J/(mol*K), value: 232.805216}
+      E0: {class: ScalarQuantity, units: kJ/mol, value: 89.7737719559108}
+      Tmax: {class: ScalarQuantity, units: K, value: 3000.0}
+      Tmin: {class: ScalarQuantity, units: K, value: 10.0}
+      class: NASA
+      polynomials:
+        polynomial1:
+          Tmax: {class: ScalarQuantity, units: K, value: 1063.5020762322474}
+          Tmin: {class: ScalarQuantity, units: K, value: 10.0}
+          class: NASAPolynomial
+          coeffs: [3.905555995007957, 0.014696460874920839, 1.923587948007848e-05,
+            -2.6693702790980375e-08, 8.950126189878399e-12, 10794.601570434055, 6.588590534123149]
+        polynomial2:
+          Tmax: {class: ScalarQuantity, units: K, value: 3000.0}
+          Tmin: {class: ScalarQuantity, units: K, value: 1063.5020762322474}
+          class: NASAPolynomial
+          coeffs: [3.4128600126496167, 0.027225941383867996, -1.3494456166759797e-05,
+            3.263085578488314e-09, -3.1084446335624403e-13, 10295.629757338074, 6.157311657716559]
+    thermo_data:
+      Cp (cal/mol*K): {1000 K: '39.93', 1500 K: '46.36', 2000 K: '49.72', 2400 K: '51.32',
+        300 K: '18.67', 400 K: '22.62', 500 K: '26.40', 600 K: '29.89', 800 K: '35.72'}
+      H298: 25.30 kcal/mol
+      S298: 67.28 cal/mol*K
+dft_xyzs: {}
+expt_sources:
+- {hf0: 118.27, hf298: 100.87, source: 'ATcT:2143-61-5*0', u_hf: 0.6, units: kJ/mol}
+ff_xyz: null
+formula: CH3CH2CH2 (g)
+inchi: InChI=1S/C3H7/c1-3-2/h1,3H2,2H3
+index: 521
+multiplicity: 2
+preferred_expt_source: null
+qm_files: {}
+rmg_symmetry: 6
+smiles: '[CH2]CC'
+t1: '0.01311516'
+yaml_file: species/521/521.yaml

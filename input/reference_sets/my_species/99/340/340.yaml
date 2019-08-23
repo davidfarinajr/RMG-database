@@ -1,0 +1,64 @@
+name: Fluoroethane
+FOD: '0.000245'
+adjacency_list: '1 F u0 p3 c0 {3,S}
+
+  2 C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
+
+  3 C u0 p0 c0 {1,S} {2,S} {7,S} {8,S}
+
+  4 H u0 p0 c0 {2,S}
+
+  5 H u0 p0 c0 {2,S}
+
+  6 H u0 p0 c0 {2,S}
+
+  7 H u0 p0 c0 {3,S}
+
+  8 H u0 p0 c0 {3,S}
+
+'
+atct_id: 353-36-6*0
+categories: []
+charge: 0
+dft_freqs: {}
+dft_thermo:
+  m06-2x/cc-pVTZ:
+    thermo:
+      Cp0: {class: ScalarQuantity, units: J/(mol*K), value: 33.257888}
+      CpInf: {class: ScalarQuantity, units: J/(mol*K), value: 182.918384}
+      E0: {class: ScalarQuantity, units: kJ/mol, value: -283.9894646493327}
+      Tmax: {class: ScalarQuantity, units: K, value: 3000.0}
+      Tmin: {class: ScalarQuantity, units: K, value: 10.0}
+      class: NASA
+      polynomials:
+        polynomial1:
+          Tmax: {class: ScalarQuantity, units: K, value: 559.3104600923934}
+          Tmin: {class: ScalarQuantity, units: K, value: 10.0}
+          class: NASAPolynomial
+          coeffs: [4.019887230676809, -0.00154948757105135, 6.330851166391347e-05,
+            -9.00510169151555e-08, 4.1739434176118364e-11, -34156.041507424074, 6.179423885630126]
+        polynomial2:
+          Tmax: {class: ScalarQuantity, units: K, value: 3000.0}
+          Tmin: {class: ScalarQuantity, units: K, value: 559.3104600923934}
+          class: NASAPolynomial
+          coeffs: [-0.11085817992886979, 0.02799198821067164, -1.5917394125814735e-05,
+            4.381099012974009e-09, -4.694135609098479e-13, -33693.964182043695, 23.707742007328097]
+    thermo_data:
+      Cp (cal/mol*K): {1000 K: '31.55', 1500 K: '36.71', 2000 K: '39.23', 2400 K: '40.49',
+        300 K: '14.23', 400 K: '17.56', 500 K: '20.72', 600 K: '23.53', 800 K: '28.11'}
+      H298: -64.84 kcal/mol
+      S298: 61.04 cal/mol*K
+dft_xyzs: {}
+expt_sources:
+- {hf0: -257.21, hf298: -272.07, source: 'ATcT:353-36-6*0', u_hf: 0.38, units: kJ/mol}
+ff_xyz: null
+formula: CH3CH2F (g)
+inchi: InChI=1S/C2H5F/c1-2-3/h2H2,1H3
+index: 340
+multiplicity: 1
+preferred_expt_source: null
+qm_files: {}
+rmg_symmetry: 3
+smiles: CCF
+t1: null
+yaml_file: species/340/340.yaml

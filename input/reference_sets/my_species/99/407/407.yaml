@@ -1,0 +1,58 @@
+name: Hypochloroperoxoous acid, hydroxy ester
+FOD: '0.059721'
+adjacency_list: '1 Cl u0 p3 c0 {4,S}
+
+  2 O  u0 p2 c0 {3,S} {4,S}
+
+  3 O  u0 p2 c0 {2,S} {5,S}
+
+  4 O  u0 p2 c0 {1,S} {2,S}
+
+  5 H  u0 p0 c0 {3,S}
+
+'
+atct_id: 928652-99-7*1
+categories: []
+charge: 0
+dft_freqs: {}
+dft_thermo:
+  m06-2x/cc-pVTZ:
+    thermo:
+      Cp0: {class: ScalarQuantity, units: J/(mol*K), value: 33.257888}
+      CpInf: {class: ScalarQuantity, units: J/(mol*K), value: 108.08813599999999}
+      E0: {class: ScalarQuantity, units: kJ/mol, value: 42.640297202918795}
+      Tmax: {class: ScalarQuantity, units: K, value: 3000.0}
+      Tmin: {class: ScalarQuantity, units: K, value: 10.0}
+      class: NASA
+      polynomials:
+        polynomial1:
+          Tmax: {class: ScalarQuantity, units: K, value: 497.27873544326627}
+          Tmin: {class: ScalarQuantity, units: K, value: 10.0}
+          class: NASAPolynomial
+          coeffs: [3.903259501270063, 0.006314333696715521, 6.592252179984588e-05,
+            -1.7347082345066502e-07, 1.2656300885421937e-10, 5131.134430368149, 9.490271226593007]
+        polynomial2:
+          Tmax: {class: ScalarQuantity, units: K, value: 3000.0}
+          Tmin: {class: ScalarQuantity, units: K, value: 497.27873544326627}
+          class: NASAPolynomial
+          coeffs: [5.4780931288223895, 0.012425975781857446, -9.158801616398565e-06,
+            3.1268292609174393e-09, -3.97502222943028e-13, 4742.315701194974, 0.6581642494376146]
+    thermo_data:
+      Cp (cal/mol*K): {1000 K: '22.80', 1500 K: '23.95', 2000 K: '24.54', 2400 K: '25.00',
+        300 K: '16.04', 400 K: '18.11', 500 K: '19.41', 600 K: '20.39', 800 K: '21.85'}
+      H298: 13.66 kcal/mol
+      S298: 70.06 cal/mol*K
+dft_xyzs: {}
+expt_sources:
+- {hf0: 49.2, hf298: 42.2, source: 'ATcT:928652-99-7*1', u_hf: 1.9, units: kJ/mol}
+ff_xyz: null
+formula: HOOOCl (g, syn)
+inchi: InChI=1S/ClHO3/c1-3-4-2/h2H
+index: 407
+multiplicity: 1
+preferred_expt_source: null
+qm_files: {}
+rmg_symmetry: 1
+smiles: OOOCl
+t1: '0.018278871'
+yaml_file: species/407/407.yaml

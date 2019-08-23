@@ -1,0 +1,70 @@
+name: m-Benzyne
+FOD: null
+adjacency_list: 'multiplicity 3
+
+  1  C u0 p0 c0 {2,S} {3,D} {7,S}
+
+  2  C u0 p0 c0 {1,S} {6,D} {8,S}
+
+  3  C u0 p0 c0 {1,D} {5,S} {9,S}
+
+  4  C u0 p0 c0 {5,D} {6,S} {10,S}
+
+  5  C u1 p0 c0 {3,S} {4,D}
+
+  6  C u1 p0 c0 {2,D} {4,S}
+
+  7  H u0 p0 c0 {1,S}
+
+  8  H u0 p0 c0 {2,S}
+
+  9  H u0 p0 c0 {3,S}
+
+  10 H u0 p0 c0 {4,S}
+
+'
+atct_id: 1828-89-3*2
+categories: []
+charge: 0
+dft_freqs: {}
+dft_thermo:
+  m06-2x/cc-pVTZ:
+    thermo:
+      Cp0: {class: ScalarQuantity, units: J/(mol*K), value: 33.257888}
+      CpInf: {class: ScalarQuantity, units: J/(mol*K), value: 232.805216}
+      E0: {class: ScalarQuantity, units: kJ/mol, value: 574.4615373311831}
+      Tmax: {class: ScalarQuantity, units: K, value: 3000.0}
+      Tmin: {class: ScalarQuantity, units: K, value: 10.0}
+      class: NASA
+      polynomials:
+        polynomial1:
+          Tmax: {class: ScalarQuantity, units: K, value: 584.9948718136081}
+          Tmin: {class: ScalarQuantity, units: K, value: 10.0}
+          class: NASAPolynomial
+          coeffs: [4.184052810839356, -0.016508980669935582, 0.00020256731082268735,
+            -3.461789187581557e-07, 1.9015499442013515e-10, 69093.40925663755, 10.578720790333342]
+        polynomial2:
+          Tmax: {class: ScalarQuantity, units: K, value: 3000.0}
+          Tmin: {class: ScalarQuantity, units: K, value: 584.9948718136081}
+          class: NASAPolynomial
+          coeffs: [0.33949219948184256, 0.04147530134027897, -2.7385319469830987e-05,
+            8.498049151033188e-09, -9.993988114907032e-13, 69000.86240304337, 22.429667459245387]
+    thermo_data:
+      Cp (cal/mol*K): {1000 K: '43.58', 1500 K: '48.80', 2000 K: '51.16', 2400 K: '52.58',
+        300 K: '19.19', 400 K: '25.24', 500 K: '30.17', 600 K: '33.93', 800 K: '39.61'}
+      H298: 140.70 kcal/mol
+      S298: 71.16 cal/mol*K
+dft_xyzs: {}
+expt_sources:
+- {hf0: 527.0, hf298: 518.5, source: 'ATcT:1828-89-3*2', u_hf: 1.2, units: kJ/mol}
+ff_xyz: null
+formula: C6H4 (g, singlet)
+inchi: InChI=1S/C6H4/c1-2-4-6-5-3-1/h1-3,6H
+index: 369
+multiplicity: 3
+preferred_expt_source: null
+qm_files: {}
+rmg_symmetry: 1
+smiles: '[C]1=C[C]=CC=C1'
+t1: null
+yaml_file: species/369/369.yaml

@@ -1,0 +1,22 @@
+name: Iminomethyl
+FOD: null
+adjacency_list: null
+atct_id: 15691-95-9*0
+categories: []
+charge: null
+dft_freqs: {}
+dft_thermo: {}
+dft_xyzs: {}
+expt_sources:
+- {hf0: 275.83, hf298: 272.23, source: 'ATcT:15691-95-9*0', u_hf: 0.71, units: kJ/mol}
+ff_xyz: null
+formula: HCNH (g)
+inchi: null
+index: 119
+multiplicity: null
+preferred_expt_source: null
+qm_files: {}
+rmg_symmetry: null
+smiles: '[CH]=N'
+t1: null
+yaml_file: species/119/119.yaml

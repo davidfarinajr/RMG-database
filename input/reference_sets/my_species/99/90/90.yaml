@@ -1,0 +1,22 @@
+name: Methyleneamidogen
+FOD: null
+adjacency_list: null
+atct_id: 15845-29-1*0
+categories: []
+charge: null
+dft_freqs: {}
+dft_thermo: {}
+dft_xyzs: {}
+expt_sources:
+- {hf0: 241.95, hf298: 238.3, source: 'ATcT:15845-29-1*0', u_hf: 0.67, units: kJ/mol}
+ff_xyz: null
+formula: CH2N (g)
+inchi: null
+index: 90
+multiplicity: null
+preferred_expt_source: null
+qm_files: {}
+rmg_symmetry: null
+smiles: C=[N]
+t1: null
+yaml_file: species/90/90.yaml

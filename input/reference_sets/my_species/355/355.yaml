@@ -1,0 +1,22 @@
+name: 3H-Diazirin-3-ylidene
+FOD: null
+adjacency_list: null
+atct_id: 253308-70-2*0
+categories: []
+charge: null
+dft_freqs: {}
+dft_thermo: {}
+dft_xyzs: {}
+expt_sources:
+- {hf0: 578.0, hf298: 578.4, source: 'ATcT:253308-70-2*0', u_hf: 4.0, units: kJ/mol}
+ff_xyz: null
+formula: C(NN) (g)
+inchi: null
+index: 355
+multiplicity: null
+preferred_expt_source: null
+qm_files: {}
+rmg_symmetry: null
+smiles: N1=N[C]1
+t1: null
+yaml_file: species/355/355.yaml

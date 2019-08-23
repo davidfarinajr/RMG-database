@@ -1,0 +1,58 @@
+name: Methylene bromide
+FOD: '0.016352'
+adjacency_list: '1 Br u0 p3 c0 {3,S}
+
+  2 Br u0 p3 c0 {3,S}
+
+  3 C  u0 p0 c0 {1,S} {2,S} {4,S} {5,S}
+
+  4 H  u0 p0 c0 {3,S}
+
+  5 H  u0 p0 c0 {3,S}
+
+'
+atct_id: 74-95-3*0
+categories: []
+charge: 0
+dft_freqs: {}
+dft_thermo:
+  m06-2x/cc-pVTZ:
+    thermo:
+      Cp0: {class: ScalarQuantity, units: J/(mol*K), value: 33.257888}
+      CpInf: {class: ScalarQuantity, units: J/(mol*K), value: 108.08813599999999}
+      E0: {class: ScalarQuantity, units: kJ/mol, value: 7.511277516553644}
+      Tmax: {class: ScalarQuantity, units: K, value: 3000.0}
+      Tmin: {class: ScalarQuantity, units: K, value: 10.0}
+      class: NASA
+      polynomials:
+        polynomial1:
+          Tmax: {class: ScalarQuantity, units: K, value: 529.5387221133363}
+          Tmin: {class: ScalarQuantity, units: K, value: 10.0}
+          class: NASAPolynomial
+          coeffs: [3.963560701024224, 0.0022302169963359605, 4.518037528473089e-05,
+            -9.310392651841304e-08, 5.81317653696558e-11, 904.8929109873329, 10.742336185826556]
+        polynomial2:
+          Tmax: {class: ScalarQuantity, units: K, value: 3000.0}
+          Tmin: {class: ScalarQuantity, units: K, value: 529.5387221133363}
+          class: NASAPolynomial
+          coeffs: [3.5246664859929058, 0.013397077475307708, -8.692246984438734e-06,
+            2.719587949544627e-09, -3.2651631952054777e-13, 841.2918338332352, 11.541293474039254]
+    thermo_data:
+      Cp (cal/mol*K): {1000 K: '21.11', 1500 K: '23.03', 2000 K: '24.01', 2400 K: '24.59',
+        300 K: '13.23', 400 K: '15.13', 500 K: '16.63', 600 K: '17.84', 800 K: '19.75'}
+      H298: 4.82 kcal/mol
+      S298: 70.12 cal/mol*K
+dft_xyzs: {}
+expt_sources:
+- {hf0: 25.5, hf298: 4.1, source: 'ATcT:74-95-3*0', u_hf: 1.1, units: kJ/mol}
+ff_xyz: null
+formula: CH2Br2 (g)
+inchi: InChI=1S/CH2Br2/c2-1-3/h1H2
+index: 329
+multiplicity: 1
+preferred_expt_source: null
+qm_files: {}
+rmg_symmetry: 2
+smiles: BrCBr
+t1: null
+yaml_file: species/329/329.yaml

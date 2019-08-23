@@ -1,0 +1,22 @@
+name: Diazomethylene
+FOD: null
+adjacency_list: null
+atct_id: 2468-81-7*0
+categories: []
+charge: null
+dft_freqs: {}
+dft_thermo: {}
+dft_xyzs: {}
+expt_sources:
+- {hf0: 578.8, hf298: 579.5, source: 'ATcT:2468-81-7*0', u_hf: 3.8, units: kJ/mol}
+ff_xyz: null
+formula: CNN (g)
+inchi: null
+index: 506
+multiplicity: null
+preferred_expt_source: null
+qm_files: {}
+rmg_symmetry: null
+smiles: '[N-]=[N+]=[C]'
+t1: null
+yaml_file: species/506/506.yaml

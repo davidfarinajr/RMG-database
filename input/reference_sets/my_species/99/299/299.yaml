@@ -1,0 +1,22 @@
+name: Isocyanogen chloride
+FOD: null
+adjacency_list: null
+atct_id: 75754-69-7*0
+categories: []
+charge: null
+dft_freqs: {}
+dft_thermo: {}
+dft_xyzs: {}
+expt_sources:
+- {hf0: 314.6, hf298: 316.2, source: 'ATcT:75754-69-7*0', u_hf: 2.4, units: kJ/mol}
+ff_xyz: null
+formula: ClNC (g)
+inchi: null
+index: 299
+multiplicity: null
+preferred_expt_source: null
+qm_files: {}
+rmg_symmetry: null
+smiles: ClN=[C]
+t1: null
+yaml_file: species/299/299.yaml

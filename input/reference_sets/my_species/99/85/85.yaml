@@ -1,0 +1,22 @@
+name: Iodotrifluoromethane
+FOD: null
+adjacency_list: null
+atct_id: 2314-97-8*0
+categories: []
+charge: null
+dft_freqs: {}
+dft_thermo: {}
+dft_xyzs: {}
+expt_sources:
+- {hf0: -583.82, hf298: -589.7, source: 'ATcT:2314-97-8*0', u_hf: 0.55, units: kJ/mol}
+ff_xyz: null
+formula: CF3I (g)
+inchi: null
+index: 85
+multiplicity: null
+preferred_expt_source: null
+qm_files: {}
+rmg_symmetry: null
+smiles: FC(F)(F)I
+t1: null
+yaml_file: species/85/85.yaml

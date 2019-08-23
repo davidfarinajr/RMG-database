@@ -1,0 +1,54 @@
+name: Oxygen difluoride
+FOD: '0.026206'
+adjacency_list: '1 F u0 p3 c0 {3,S}
+
+  2 F u0 p3 c0 {3,S}
+
+  3 O u0 p2 c0 {1,S} {2,S}
+
+'
+atct_id: 7783-41-7*0
+categories: []
+charge: 0
+dft_freqs: {}
+dft_thermo:
+  m06-2x/cc-pVTZ:
+    thermo:
+      Cp0: {class: ScalarQuantity, units: J/(mol*K), value: 33.257888}
+      CpInf: {class: ScalarQuantity, units: J/(mol*K), value: 58.201304}
+      E0: {class: ScalarQuantity, units: kJ/mol, value: 33.40737286128939}
+      Tmax: {class: ScalarQuantity, units: K, value: 3000.0}
+      Tmin: {class: ScalarQuantity, units: K, value: 10.0}
+      class: NASA
+      polynomials:
+        polynomial1:
+          Tmax: {class: ScalarQuantity, units: K, value: 594.382598031545}
+          Tmin: {class: ScalarQuantity, units: K, value: 10.0}
+          class: NASAPolynomial
+          coeffs: [4.033915817907295, -0.003147519827217467, 3.816774194084905e-05,
+            -6.828378184689798e-08, 3.837904736026273e-11, 4018.498178546246, 6.3294480739058026]
+        polynomial2:
+          Tmax: {class: ScalarQuantity, units: K, value: 3000.0}
+          Tmin: {class: ScalarQuantity, units: K, value: 594.382598031545}
+          class: NASAPolynomial
+          coeffs: [3.815207817498183, 0.00605511659444237, -4.5659444913534214e-06,
+            1.5291084848267128e-09, -1.8835206769416212e-13, 3907.9363896768664, 6.122045100770283]
+    thermo_data:
+      Cp (cal/mol*K): {1000 K: '13.21', 1500 K: '13.58', 2000 K: '13.67', 2400 K: '13.79',
+        300 K: '9.92', 400 K: '10.92', 500 K: '11.66', 600 K: '12.14', 800 K: '12.80'}
+      H298: 10.53 kcal/mol
+      S298: 58.70 cal/mol*K
+dft_xyzs: {}
+expt_sources:
+- {hf0: 26.8, hf298: 24.55, source: 'ATcT:7783-41-7*0', u_hf: 0.24, units: kJ/mol}
+ff_xyz: null
+formula: FOF (g)
+inchi: InChI=1S/F2O/c1-3-2
+index: 104
+multiplicity: 1
+preferred_expt_source: null
+qm_files: {}
+rmg_symmetry: 2
+smiles: FOF
+t1: null
+yaml_file: species/104/104.yaml

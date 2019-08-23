@@ -1,0 +1,22 @@
+name: Dichloroacetylene
+FOD: null
+adjacency_list: null
+atct_id: 7572-29-4*0
+categories: []
+charge: null
+dft_freqs: {}
+dft_thermo: {}
+dft_xyzs: {}
+expt_sources:
+- {hf0: 230.08, hf298: 233.39, source: 'ATcT:7572-29-4*0', u_hf: 0.98, units: kJ/mol}
+ff_xyz: null
+formula: ClCCCl (g)
+inchi: null
+index: 427
+multiplicity: null
+preferred_expt_source: null
+qm_files: {}
+rmg_symmetry: null
+smiles: ClC#CCl
+t1: null
+yaml_file: species/427/427.yaml

@@ -1,0 +1,22 @@
+name: Diazomethyl
+FOD: null
+adjacency_list: null
+atct_id: 20813-32-5*0
+categories: []
+charge: null
+dft_freqs: {}
+dft_thermo: {}
+dft_xyzs: {}
+expt_sources:
+- {hf0: 472.9, hf298: 470.4, source: 'ATcT:20813-32-5*0', u_hf: 2.0, units: kJ/mol}
+ff_xyz: null
+formula: HCNN (g)
+inchi: null
+index: 487
+multiplicity: null
+preferred_expt_source: null
+qm_files: {}
+rmg_symmetry: null
+smiles: '[CH]=N=[N]'
+t1: null
+yaml_file: species/487/487.yaml

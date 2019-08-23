@@ -1,0 +1,64 @@
+name: 1,1-Dibromoethane
+FOD: '0.017502'
+adjacency_list: '1 Br u0 p3 c0 {4,S}
+
+  2 Br u0 p3 c0 {4,S}
+
+  3 C  u0 p0 c0 {4,S} {5,S} {6,S} {7,S}
+
+  4 C  u0 p0 c0 {1,S} {2,S} {3,S} {8,S}
+
+  5 H  u0 p0 c0 {3,S}
+
+  6 H  u0 p0 c0 {3,S}
+
+  7 H  u0 p0 c0 {3,S}
+
+  8 H  u0 p0 c0 {4,S}
+
+'
+atct_id: 557-91-5*0
+categories: []
+charge: 0
+dft_freqs: {}
+dft_thermo:
+  m06-2x/cc-pVTZ:
+    thermo:
+      Cp0: {class: ScalarQuantity, units: J/(mol*K), value: 33.257888}
+      CpInf: {class: ScalarQuantity, units: J/(mol*K), value: 182.918384}
+      E0: {class: ScalarQuantity, units: kJ/mol, value: -31.01727636914128}
+      Tmax: {class: ScalarQuantity, units: K, value: 3000.0}
+      Tmin: {class: ScalarQuantity, units: K, value: 10.0}
+      class: NASA
+      polynomials:
+        polynomial1:
+          Tmax: {class: ScalarQuantity, units: K, value: 322.03571885665826}
+          Tmin: {class: ScalarQuantity, units: K, value: 10.0}
+          class: NASAPolynomial
+          coeffs: [3.9150090696694697, 0.0071374604318344, 0.00011886590635321941,
+            -3.7459358999293725e-07, 3.7163285293482794e-10, -3732.583447159597, 11.110448666223057]
+        polynomial2:
+          Tmax: {class: ScalarQuantity, units: K, value: 3000.0}
+          Tmin: {class: ScalarQuantity, units: K, value: 322.03571885665826}
+          class: NASAPolynomial
+          coeffs: [3.2499705708592534, 0.025763562575050192, -1.6173956114104656e-05,
+            4.912536248049904e-09, -5.755686005011067e-13, -3743.499849424907, 12.730795602749245]
+    thermo_data:
+      Cp (cal/mol*K): {1000 K: '34.13', 1500 K: '38.09', 2000 K: '40.09', 2400 K: '41.21',
+        300 K: '19.18', 400 K: '22.39', 500 K: '25.17', 600 K: '27.57', 800 K: '31.38'}
+      H298: -3.51 kcal/mol
+      S298: 76.01 cal/mol*K
+dft_xyzs: {}
+expt_sources:
+- {hf0: -9.2, hf298: -36.3, source: 'ATcT:557-91-5*0', u_hf: 7.8, units: kJ/mol}
+ff_xyz: null
+formula: CHBr2CH3 (g)
+inchi: InChI=1S/C2H4Br2/c1-2(3)4/h2H,1H3
+index: 412
+multiplicity: 1
+preferred_expt_source: null
+qm_files: {}
+rmg_symmetry: 3
+smiles: CC(Br)Br
+t1: null
+yaml_file: species/412/412.yaml

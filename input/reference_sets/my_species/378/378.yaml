@@ -1,0 +1,22 @@
+name: (Dimethylamino)methyl
+FOD: null
+adjacency_list: null
+atct_id: 30208-47-0*0
+categories: []
+charge: null
+dft_freqs: {}
+dft_thermo: {}
+dft_xyzs: {}
+expt_sources:
+- {hf0: 165.1, hf298: 142.0, source: 'ATcT:30208-47-0*0', u_hf: 1.4, units: kJ/mol}
+ff_xyz: null
+formula: (CH3)2NCH2 (g)
+inchi: null
+index: 378
+multiplicity: null
+preferred_expt_source: null
+qm_files: {}
+rmg_symmetry: null
+smiles: CN(C)[CH2]
+t1: null
+yaml_file: species/378/378.yaml

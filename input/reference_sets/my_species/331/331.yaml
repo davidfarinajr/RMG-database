@@ -1,0 +1,22 @@
+name: Trifluorine
+FOD: null
+adjacency_list: null
+atct_id: 73455-86-4*0
+categories: []
+charge: null
+dft_freqs: {}
+dft_thermo: {}
+dft_xyzs: {}
+expt_sources:
+- {hf0: 80.6, hf298: 81.9, source: 'ATcT:73455-86-4*0', u_hf: 2.6, units: kJ/mol}
+ff_xyz: null
+formula: F3 (g)
+inchi: null
+index: 331
+multiplicity: null
+preferred_expt_source: null
+qm_files: {}
+rmg_symmetry: null
+smiles: FFF
+t1: null
+yaml_file: species/331/331.yaml

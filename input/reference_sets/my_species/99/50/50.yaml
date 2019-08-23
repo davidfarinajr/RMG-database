@@ -1,0 +1,22 @@
+name: Perchloryloxy
+FOD: null
+adjacency_list: null
+atct_id: 12133-63-0*0
+categories: []
+charge: null
+dft_freqs: {}
+dft_thermo: {}
+dft_xyzs: {}
+expt_sources:
+- {hf0: 248.6, hf298: 241.0, source: 'ATcT:12133-63-0*0', u_hf: 1.8, units: kJ/mol}
+ff_xyz: null
+formula: OCl(O)(O)O (g)
+inchi: null
+index: 50
+multiplicity: null
+preferred_expt_source: null
+qm_files: {}
+rmg_symmetry: null
+smiles: O=Cl(=O)(=O)[O]
+t1: null
+yaml_file: species/50/50.yaml

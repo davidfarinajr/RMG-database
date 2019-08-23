@@ -1,0 +1,56 @@
+name: Chloromethylene
+FOD: '0.009598'
+adjacency_list: 'multiplicity 3
+
+  1 Cl u0 p3 c0 {2,S}
+
+  2 C  u2 p0 c0 {1,S} {3,S}
+
+  3 H  u0 p0 c0 {2,S}
+
+'
+atct_id: 2108-20-5*2
+categories: []
+charge: 0
+dft_freqs: {}
+dft_thermo:
+  m06-2x/cc-pVTZ:
+    thermo:
+      Cp0: {class: ScalarQuantity, units: J/(mol*K), value: 33.257888}
+      CpInf: {class: ScalarQuantity, units: J/(mol*K), value: 58.201304}
+      E0: {class: ScalarQuantity, units: kJ/mol, value: 332.5450640466118}
+      Tmax: {class: ScalarQuantity, units: K, value: 3000.0}
+      Tmin: {class: ScalarQuantity, units: K, value: 10.0}
+      class: NASA
+      polynomials:
+        polynomial1:
+          Tmax: {class: ScalarQuantity, units: K, value: 582.3465990877474}
+          Tmin: {class: ScalarQuantity, units: K, value: 10.0}
+          class: NASAPolynomial
+          coeffs: [4.03608580271076, -0.003101901672788452, 2.738276673933871e-05,
+            -4.569358390610463e-08, 2.5020058251879578e-11, 39995.958512435245, 6.1693647708300645]
+        polynomial2:
+          Tmax: {class: ScalarQuantity, units: K, value: 3000.0}
+          Tmin: {class: ScalarQuantity, units: K, value: 582.3465990877474}
+          class: NASAPolynomial
+          coeffs: [3.5096269464742633, 0.004571173175031762, -2.831274091539542e-06,
+            8.581727461884598e-10, -1.0015042504238484e-13, 39988.48356412529, 7.833935262164531]
+    thermo_data:
+      Cp (cal/mol*K): {1000 K: '11.94', 1500 K: '12.69', 2000 K: '13.10', 2400 K: '13.34',
+        300 K: '9.02', 400 K: '9.72', 500 K: '10.30', 600 K: '10.74', 800 K: '11.43'}
+      H298: 81.92 kcal/mol
+      S298: 57.83 cal/mol*K
+dft_xyzs: {}
+expt_sources:
+- {hf0: 320.24, hf298: 320.52, source: 'ATcT:2108-20-5*2', u_hf: 0.89, units: kJ/mol}
+ff_xyz: null
+formula: CHCl (g, singlet)
+inchi: InChI=1S/CHCl/c1-2/h1H
+index: 272
+multiplicity: 3
+preferred_expt_source: null
+qm_files: {}
+rmg_symmetry: 1
+smiles: '[CH]Cl'
+t1: null
+yaml_file: species/272/272.yaml

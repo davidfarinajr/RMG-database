@@ -1,0 +1,22 @@
+name: Nitrosyl chloride
+FOD: null
+adjacency_list: null
+atct_id: 2696-92-6*0
+categories: []
+charge: null
+dft_freqs: {}
+dft_thermo: {}
+dft_xyzs: {}
+expt_sources:
+- {hf0: 54.45, hf298: 52.548, source: 'ATcT:2696-92-6*0', u_hf: 0.067, units: kJ/mol}
+ff_xyz: null
+formula: ClNO (g)
+inchi: null
+index: 113
+multiplicity: null
+preferred_expt_source: null
+qm_files: {}
+rmg_symmetry: null
+smiles: ClN=O
+t1: null
+yaml_file: species/113/113.yaml

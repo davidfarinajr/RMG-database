@@ -1,0 +1,64 @@
+name: Methyl formate
+FOD: '0.004879'
+adjacency_list: '1 O u0 p2 c0 {3,S} {4,S}
+
+  2 O u0 p2 c0 {4,D}
+
+  3 C u0 p0 c0 {1,S} {5,S} {6,S} {7,S}
+
+  4 C u0 p0 c0 {1,S} {2,D} {8,S}
+
+  5 H u0 p0 c0 {3,S}
+
+  6 H u0 p0 c0 {3,S}
+
+  7 H u0 p0 c0 {3,S}
+
+  8 H u0 p0 c0 {4,S}
+
+'
+atct_id: 107-31-3*1
+categories: []
+charge: 0
+dft_freqs: {}
+dft_thermo:
+  m06-2x/cc-pVTZ:
+    thermo:
+      Cp0: {class: ScalarQuantity, units: J/(mol*K), value: 33.257888}
+      CpInf: {class: ScalarQuantity, units: J/(mol*K), value: 182.918384}
+      E0: {class: ScalarQuantity, units: kJ/mol, value: -379.10396011288174}
+      Tmax: {class: ScalarQuantity, units: K, value: 3000.0}
+      Tmin: {class: ScalarQuantity, units: K, value: 10.0}
+      class: NASA
+      polynomials:
+        polynomial1:
+          Tmax: {class: ScalarQuantity, units: K, value: 966.0047395930774}
+          Tmin: {class: ScalarQuantity, units: K, value: 10.0}
+          class: NASAPolynomial
+          coeffs: [3.923899419142728, 0.009499414009491525, 2.268097415486179e-05,
+            -3.047989910099327e-08, 1.0834923274758858e-11, -45597.24936089372, 7.054461603728247]
+        polynomial2:
+          Tmax: {class: ScalarQuantity, units: K, value: 3000.0}
+          Tmin: {class: ScalarQuantity, units: K, value: 966.0047395930774}
+          class: NASAPolynomial
+          coeffs: [2.678631901342779, 0.02342990664308746, -1.2574479154902064e-05,
+            3.2534157269417056e-09, -3.2854767228076503e-13, -45766.04814840883, 10.900125092589798]
+    thermo_data:
+      Cp (cal/mol*K): {1000 K: '32.71', 1500 K: '37.45', 2000 K: '39.77', 2400 K: '40.85',
+        300 K: '16.06', 400 K: '19.23', 500 K: '22.28', 600 K: '25.06', 800 K: '29.55'}
+      H298: -87.16 kcal/mol
+      S298: 65.58 cal/mol*K
+dft_xyzs: {}
+expt_sources:
+- {hf0: -344.73, hf298: -357.78, source: 'ATcT:107-31-3*1', u_hf: 0.59, units: kJ/mol}
+ff_xyz: null
+formula: HC(O)OCH3 (g, syn-staggered)
+inchi: InChI=1S/C2H4O2/c1-4-2-3/h2H,1H3
+index: 476
+multiplicity: 1
+preferred_expt_source: null
+qm_files: {}
+rmg_symmetry: 3
+smiles: COC=O
+t1: null
+yaml_file: species/476/476.yaml

@@ -1,0 +1,22 @@
+name: Cyanogen chloride
+FOD: null
+adjacency_list: null
+atct_id: 506-77-4*0
+categories: []
+charge: null
+dft_freqs: {}
+dft_thermo: {}
+dft_xyzs: {}
+expt_sources:
+- {hf0: 135.04, hf298: 135.73, source: 'ATcT:506-77-4*0', u_hf: 0.47, units: kJ/mol}
+ff_xyz: null
+formula: ClCN (g)
+inchi: null
+index: 97
+multiplicity: null
+preferred_expt_source: null
+qm_files: {}
+rmg_symmetry: null
+smiles: ClC#N
+t1: null
+yaml_file: species/97/97.yaml

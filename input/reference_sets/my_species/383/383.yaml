@@ -1,0 +1,22 @@
+name: Vinyl iodide
+FOD: null
+adjacency_list: null
+atct_id: 593-66-8*0
+categories: []
+charge: null
+dft_freqs: {}
+dft_thermo: {}
+dft_xyzs: {}
+expt_sources:
+- {hf0: 139.7, hf298: 130.8, source: 'ATcT:593-66-8*0', u_hf: 1.2, units: kJ/mol}
+ff_xyz: null
+formula: CH2CHI (g)
+inchi: null
+index: 383
+multiplicity: null
+preferred_expt_source: null
+qm_files: {}
+rmg_symmetry: null
+smiles: C=CI
+t1: null
+yaml_file: species/383/383.yaml

@@ -1,0 +1,22 @@
+name: Azidonitrene
+FOD: null
+adjacency_list: null
+atct_id: 147363-92-6*1
+categories: []
+charge: null
+dft_freqs: {}
+dft_thermo: {}
+dft_xyzs: {}
+expt_sources:
+- {hf0: 660.8, hf298: 657.6, source: 'ATcT:147363-92-6*1', u_hf: 1.6, units: kJ/mol}
+ff_xyz: null
+formula: NNNN (g, C2h)
+inchi: null
+index: 15
+multiplicity: null
+preferred_expt_source: null
+qm_files: {}
+rmg_symmetry: null
+smiles: '[N]=NN=[N]'
+t1: null
+yaml_file: species/15/15.yaml

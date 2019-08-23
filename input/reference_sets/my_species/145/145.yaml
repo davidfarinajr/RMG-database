@@ -1,0 +1,74 @@
+name: Phenoxy
+FOD: null
+adjacency_list: 'multiplicity 2
+
+  1  O u1 p2 c0 {2,S}
+
+  2  C u0 p0 c0 {1,S} {3,D} {7,S}
+
+  3  C u0 p0 c0 {2,D} {4,S} {8,S}
+
+  4  C u0 p0 c0 {3,S} {5,D} {9,S}
+
+  5  C u0 p0 c0 {4,D} {6,S} {10,S}
+
+  6  C u0 p0 c0 {5,S} {7,D} {11,S}
+
+  7  C u0 p0 c0 {2,S} {6,D} {12,S}
+
+  8  H u0 p0 c0 {3,S}
+
+  9  H u0 p0 c0 {4,S}
+
+  10 H u0 p0 c0 {5,S}
+
+  11 H u0 p0 c0 {6,S}
+
+  12 H u0 p0 c0 {7,S}
+
+'
+atct_id: 2122-46-5*0
+categories: []
+charge: 0
+dft_freqs: {}
+dft_thermo:
+  m06-2x/cc-pVTZ:
+    thermo:
+      Cp0: {class: ScalarQuantity, units: J/(mol*K), value: 33.257888}
+      CpInf: {class: ScalarQuantity, units: J/(mol*K), value: 282.692048}
+      E0: {class: ScalarQuantity, units: kJ/mol, value: 42.30096205308544}
+      Tmax: {class: ScalarQuantity, units: K, value: 3000.0}
+      Tmin: {class: ScalarQuantity, units: K, value: 10.0}
+      class: NASA
+      polynomials:
+        polynomial1:
+          Tmax: {class: ScalarQuantity, units: K, value: 565.1300509971064}
+          Tmin: {class: ScalarQuantity, units: K, value: 10.0}
+          class: NASAPolynomial
+          coeffs: [4.102035105788988, -0.010559877152572072, 0.00021945947704017535,
+            -3.953848253194351e-07, 2.2590028349739973e-10, 5091.070906050346, 10.537301362919623]
+        polynomial2:
+          Tmax: {class: ScalarQuantity, units: K, value: 3000.0}
+          Tmin: {class: ScalarQuantity, units: K, value: 565.1300509971064}
+          class: NASAPolynomial
+          coeffs: [0.3800343341494259, 0.0501889293779044, -3.3101580905147695e-05,
+            1.0278983258311446e-08, -1.2107360638193819e-12, 4962.363385776206, 21.50891671515955]
+    thermo_data:
+      Cp (cal/mol*K): {1000 K: '52.73', 1500 K: '59.11', 2000 K: '62.02', 2400 K: '63.78',
+        300 K: '23.53', 400 K: '30.74', 500 K: '36.53', 600 K: '41.02', 800 K: '47.92'}
+      H298: 14.12 kcal/mol
+      S298: 74.45 cal/mol*K
+dft_xyzs: {}
+expt_sources:
+- {hf0: 71.37, hf298: 56.08, source: 'ATcT:2122-46-5*0', u_hf: 0.94, units: kJ/mol}
+ff_xyz: null
+formula: C6H5O (g)
+inchi: InChI=1S/C6H5O/c7-6-4-2-1-3-5-6/h1-5H
+index: 145
+multiplicity: 2
+preferred_expt_source: null
+qm_files: {}
+rmg_symmetry: 2
+smiles: '[O]C1C=CC=CC=1'
+t1: null
+yaml_file: species/145/145.yaml

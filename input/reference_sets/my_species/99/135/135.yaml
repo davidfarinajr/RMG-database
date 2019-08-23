@@ -1,0 +1,60 @@
+name: Trifluoroethylene
+FOD: '0.00427'
+adjacency_list: '1 F u0 p3 c0 {4,S}
+
+  2 F u0 p3 c0 {5,S}
+
+  3 F u0 p3 c0 {5,S}
+
+  4 C u0 p0 c0 {1,S} {5,D} {6,S}
+
+  5 C u0 p0 c0 {2,S} {3,S} {4,D}
+
+  6 H u0 p0 c0 {4,S}
+
+'
+atct_id: 359-11-5*0
+categories: []
+charge: 0
+dft_freqs: {}
+dft_thermo:
+  m06-2x/cc-pVTZ:
+    thermo:
+      Cp0: {class: ScalarQuantity, units: J/(mol*K), value: 33.257888}
+      CpInf: {class: ScalarQuantity, units: J/(mol*K), value: 133.031552}
+      E0: {class: ScalarQuantity, units: kJ/mol, value: -526.7005853426908}
+      Tmax: {class: ScalarQuantity, units: K, value: 3000.0}
+      Tmin: {class: ScalarQuantity, units: K, value: 10.0}
+      class: NASA
+      polynomials:
+        polynomial1:
+          Tmax: {class: ScalarQuantity, units: K, value: 538.8974837981849}
+          Tmin: {class: ScalarQuantity, units: K, value: 10.0}
+          class: NASAPolynomial
+          coeffs: [3.928398640900015, 0.00437087641543938, 7.184485384861518e-05,
+            -1.5475405400815155e-07, 9.802756783189401e-11, -63344.45084520541, 9.501351762297434]
+        polynomial2:
+          Tmax: {class: ScalarQuantity, units: K, value: 3000.0}
+          Tmin: {class: ScalarQuantity, units: K, value: 538.8974837981849}
+          class: NASAPolynomial
+          coeffs: [3.9414678356034747, 0.019726818378563493, -1.3910484859153871e-05,
+            4.544043056627501e-09, -5.574199098031202e-13, -63570.24436533408, 7.364491403772788]
+    thermo_data:
+      Cp (cal/mol*K): {1000 K: '27.31', 1500 K: '29.31', 2000 K: '30.18', 2400 K: '30.77',
+        300 K: '16.54', 400 K: '19.43', 500 K: '21.58', 600 K: '23.21', 800 K: '25.67'}
+      H298: -122.42 kcal/mol
+      S298: 69.95 cal/mol*K
+dft_xyzs: {}
+expt_sources:
+- {hf0: -482.7, hf298: -487.7, source: 'ATcT:359-11-5*0', u_hf: 8.4, units: kJ/mol}
+ff_xyz: null
+formula: C2HF3 (g)
+inchi: InChI=1S/C2HF3/c3-1-2(4)5/h1H
+index: 135
+multiplicity: 1
+preferred_expt_source: null
+qm_files: {}
+rmg_symmetry: 1
+smiles: FC=C(F)F
+t1: null
+yaml_file: species/135/135.yaml

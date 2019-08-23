@@ -1,0 +1,22 @@
+name: Cyanato
+FOD: null
+adjacency_list: null
+atct_id: 22400-26-6*0
+categories: []
+charge: null
+dft_freqs: {}
+dft_thermo: {}
+dft_xyzs: {}
+expt_sources:
+- {hf0: 127.03, hf298: 127.5, source: 'ATcT:22400-26-6*0', u_hf: 0.35, units: kJ/mol}
+ff_xyz: null
+formula: NCO (g)
+inchi: null
+index: 255
+multiplicity: null
+preferred_expt_source: null
+qm_files: {}
+rmg_symmetry: null
+smiles: '[N]=C=O'
+t1: null
+yaml_file: species/255/255.yaml

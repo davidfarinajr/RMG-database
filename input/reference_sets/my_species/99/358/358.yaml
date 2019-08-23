@@ -1,0 +1,62 @@
+name: 1-Propynyl
+FOD: '0.97691'
+adjacency_list: 'multiplicity 2
+
+  1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
+
+  2 C u0 p0 c0 {1,S} {3,T}
+
+  3 C u1 p0 c0 {2,T}
+
+  4 H u0 p0 c0 {1,S}
+
+  5 H u0 p0 c0 {1,S}
+
+  6 H u0 p0 c0 {1,S}
+
+'
+atct_id: 89342-91-6*0
+categories: []
+charge: 0
+dft_freqs: {}
+dft_thermo:
+  m06-2x/cc-pVTZ:
+    thermo:
+      Cp0: {class: ScalarQuantity, units: J/(mol*K), value: 33.257888}
+      CpInf: {class: ScalarQuantity, units: J/(mol*K), value: 133.031552}
+      E0: {class: ScalarQuantity, units: kJ/mol, value: 509.6956179280598}
+      Tmax: {class: ScalarQuantity, units: K, value: 3000.0}
+      Tmin: {class: ScalarQuantity, units: K, value: 10.0}
+      class: NASA
+      polynomials:
+        polynomial1:
+          Tmax: {class: ScalarQuantity, units: K, value: 931.8455538344615}
+          Tmin: {class: ScalarQuantity, units: K, value: 10.0}
+          class: NASAPolynomial
+          coeffs: [3.8969076916260756, 0.007896436300512073, 7.823821380720919e-06,
+            -1.1813492036204217e-08, 4.16418495094239e-12, 61303.746930710935, 5.743358812112835]
+        polynomial2:
+          Tmax: {class: ScalarQuantity, units: K, value: 3000.0}
+          Tmin: {class: ScalarQuantity, units: K, value: 931.8455538344615}
+          class: NASAPolynomial
+          coeffs: [2.506317102015351, 0.015918204286110287, -8.392943497631612e-06,
+            2.1522122282974925e-09, -2.1677468845760906e-13, 61473.79364305827, 11.875823675192988]
+    thermo_data:
+      Cp (cal/mol*K): {1000 K: '23.78', 1500 K: '27.16', 2000 K: '28.85', 2400 K: '29.66',
+        300 K: '13.28', 400 K: '15.22', 500 K: '17.06', 600 K: '18.76', 800 K: '21.62'}
+      H298: 124.92 kcal/mol
+      S298: 60.71 cal/mol*K
+dft_xyzs: {}
+expt_sources:
+- {hf0: 528.39, hf298: 526.03, source: 'ATcT:89342-91-6*0', u_hf: 0.75, units: kJ/mol}
+ff_xyz: null
+formula: CH3CC (g)
+inchi: InChI=1S/C3H3/c1-3-2/h1H3
+index: 358
+multiplicity: 2
+preferred_expt_source: null
+qm_files: {}
+rmg_symmetry: 3
+smiles: '[C]#CC'
+t1: null
+yaml_file: species/358/358.yaml

@@ -1,0 +1,56 @@
+name: Chloroacetylene
+FOD: '0.004155'
+adjacency_list: '1 Cl u0 p3 c0 {3,S}
+
+  2 C  u0 p0 c0 {3,T} {4,S}
+
+  3 C  u0 p0 c0 {1,S} {2,T}
+
+  4 H  u0 p0 c0 {2,S}
+
+'
+atct_id: 593-63-5*0
+categories: []
+charge: 0
+dft_freqs: {}
+dft_thermo:
+  m06-2x/cc-pVTZ:
+    thermo:
+      Cp0: {class: ScalarQuantity, units: J/(mol*K), value: 29.100652}
+      CpInf: {class: ScalarQuantity, units: J/(mol*K), value: 87.301956}
+      E0: {class: ScalarQuantity, units: kJ/mol, value: 220.46531046421268}
+      Tmax: {class: ScalarQuantity, units: K, value: 3000.0}
+      Tmin: {class: ScalarQuantity, units: K, value: 10.0}
+      class: NASA
+      polynomials:
+        polynomial1:
+          Tmax: {class: ScalarQuantity, units: K, value: 532.3058797267903}
+          Tmin: {class: ScalarQuantity, units: K, value: 10.0}
+          class: NASAPolynomial
+          coeffs: [3.4372683405798545, 0.00390226422656378, 4.483757034533541e-05,
+            -1.0909732158010759e-07, 7.429829609553709e-11, 26518.243402562803, 6.962633658558604]
+        polynomial2:
+          Tmax: {class: ScalarQuantity, units: K, value: 3000.0}
+          Tmin: {class: ScalarQuantity, units: K, value: 532.3058797267903}
+          class: NASAPolynomial
+          coeffs: [4.646069882870136, 0.008333626316259014, -5.73363952960112e-06,
+            1.9355273188576316e-09, -2.498519680428227e-13, 26198.081312599585, 0.0945474934027822]
+    thermo_data:
+      Cp (cal/mol*K): {1000 K: '17.75', 1500 K: '18.90', 2000 K: '19.60', 2400 K: '20.05',
+        300 K: '12.52', 400 K: '14.09', 500 K: '15.11', 600 K: '15.83', 800 K: '16.96'}
+      H298: 55.51 kcal/mol
+      S298: 57.40 cal/mol*K
+dft_xyzs: {}
+expt_sources:
+- {hf0: 228.04, hf298: 228.9, source: 'ATcT:593-63-5*0', u_hf: 0.77, units: kJ/mol}
+ff_xyz: null
+formula: HCCCl (g)
+inchi: InChI=1S/C2HCl/c1-2-3/h1H
+index: 284
+multiplicity: 1
+preferred_expt_source: null
+qm_files: {}
+rmg_symmetry: 1
+smiles: C#CCl
+t1: null
+yaml_file: species/284/284.yaml

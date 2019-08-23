@@ -1,0 +1,22 @@
+name: Iodine monochloride
+FOD: null
+adjacency_list: null
+atct_id: 7790-99-0*0
+categories: []
+charge: null
+dft_freqs: {}
+dft_thermo: {}
+dft_xyzs: {}
+expt_sources:
+- {hf0: 19.024, hf298: 17.391, source: 'ATcT:7790-99-0*0', u_hf: 0.013, units: kJ/mol}
+ff_xyz: null
+formula: ICl (g)
+inchi: null
+index: 81
+multiplicity: null
+preferred_expt_source: null
+qm_files: {}
+rmg_symmetry: null
+smiles: ClI
+t1: null
+yaml_file: species/81/81.yaml

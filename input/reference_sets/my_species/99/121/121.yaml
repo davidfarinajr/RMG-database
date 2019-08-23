@@ -1,0 +1,22 @@
+name: Acetonyl
+FOD: null
+adjacency_list: null
+atct_id: 3122-07-4*0
+categories: []
+charge: null
+dft_freqs: {}
+dft_thermo: {}
+dft_xyzs: {}
+expt_sources:
+- {hf0: -19.17, hf298: -31.88, source: 'ATcT:3122-07-4*0', u_hf: 0.99, units: kJ/mol}
+ff_xyz: null
+formula: CH3C(O)CH2 (g)
+inchi: null
+index: 121
+multiplicity: null
+preferred_expt_source: null
+qm_files: {}
+rmg_symmetry: null
+smiles: '[CH2]C(C)=O'
+t1: null
+yaml_file: species/121/121.yaml

@@ -1,0 +1,22 @@
+name: Cyclopropynyl
+FOD: null
+adjacency_list: null
+atct_id: 119178-99-3*0
+categories: []
+charge: null
+dft_freqs: {}
+dft_thermo: {}
+dft_xyzs: {}
+expt_sources:
+- {hf0: 710.7, hf298: 714.8, source: 'ATcT:119178-99-3*0', u_hf: 1.1, units: kJ/mol}
+ff_xyz: null
+formula: CH(CC) (g)
+inchi: null
+index: 281
+multiplicity: null
+preferred_expt_source: null
+qm_files: {}
+rmg_symmetry: null
+smiles: C1#C[CH]1
+t1: null
+yaml_file: species/281/281.yaml

@@ -1,0 +1,22 @@
+name: Chlorine trifluoride
+FOD: null
+adjacency_list: null
+atct_id: 7790-91-2*0
+categories: []
+charge: null
+dft_freqs: {}
+dft_thermo: {}
+dft_xyzs: {}
+expt_sources:
+- {hf0: -158.6, hf298: -162.7, source: 'ATcT:7790-91-2*0', u_hf: 1.2, units: kJ/mol}
+ff_xyz: null
+formula: FCl(F)F (g)
+inchi: null
+index: 30
+multiplicity: null
+preferred_expt_source: null
+qm_files: {}
+rmg_symmetry: null
+smiles: FCl(F)F
+t1: null
+yaml_file: species/30/30.yaml

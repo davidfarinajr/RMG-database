@@ -1,0 +1,56 @@
+name: Isoformyl
+FOD: '0.085122'
+adjacency_list: 'multiplicity 4
+
+  1 O u0 p2 c0 {2,S} {3,S}
+
+  2 C u3 p0 c0 {1,S}
+
+  3 H u0 p0 c0 {1,S}
+
+'
+atct_id: 71080-92-7*0
+categories: []
+charge: 0
+dft_freqs: {}
+dft_thermo:
+  m06-2x/cc-pVTZ:
+    thermo:
+      Cp0: {class: ScalarQuantity, units: J/(mol*K), value: 33.257888}
+      CpInf: {class: ScalarQuantity, units: J/(mol*K), value: 58.201304}
+      E0: {class: ScalarQuantity, units: kJ/mol, value: 556.5886628474693}
+      Tmax: {class: ScalarQuantity, units: K, value: 3000.0}
+      Tmin: {class: ScalarQuantity, units: K, value: 10.0}
+      class: NASA
+      polynomials:
+        polynomial1:
+          Tmax: {class: ScalarQuantity, units: K, value: 786.7470387339761}
+          Tmin: {class: ScalarQuantity, units: K, value: 10.0}
+          class: NASAPolynomial
+          coeffs: [4.031378723135416, -0.0020893862357292277, 1.4021195619230695e-05,
+            -1.6739896600134056e-08, 6.565900811572452e-12, 66941.30482338747, 5.055539308627438]
+        polynomial2:
+          Tmax: {class: ScalarQuantity, units: K, value: 3000.0}
+          Tmin: {class: ScalarQuantity, units: K, value: 786.7470387339761}
+          class: NASAPolynomial
+          coeffs: [3.1904589926373133, 0.004348222565003666, -2.3750364977333254e-06,
+            6.469852394076604e-10, -6.903715981484162e-14, 67006.70663988685, 8.485524884504333]
+    thermo_data:
+      Cp (cal/mol*K): {1000 K: '11.41', 1500 K: '12.33', 2000 K: '12.83', 2400 K: '13.11',
+        300 K: '8.48', 400 K: '9.01', 500 K: '9.56', 600 K: '10.06', 800 K: '10.83'}
+      H298: 135.42 kcal/mol
+      S298: 55.42 cal/mol*K
+dft_xyzs: {}
+expt_sources:
+- {hf0: 217.29, hf298: 217.67, source: 'ATcT:71080-92-7*0', u_hf: 0.69, units: kJ/mol}
+ff_xyz: null
+formula: COH (g)
+inchi: InChI=1S/CHO/c1-2/h2H
+index: 373
+multiplicity: 4
+preferred_expt_source: null
+qm_files: {}
+rmg_symmetry: 1
+smiles: '[C]O'
+t1: null
+yaml_file: species/373/373.yaml

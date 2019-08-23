@@ -1,0 +1,56 @@
+name: Fluoromethylene
+FOD: '0.001714'
+adjacency_list: 'multiplicity 3
+
+  1 F u0 p3 c0 {2,S}
+
+  2 C u2 p0 c0 {1,S} {3,S}
+
+  3 H u0 p0 c0 {2,S}
+
+'
+atct_id: 13453-52-6*2
+categories: []
+charge: 0
+dft_freqs: {}
+dft_thermo:
+  m06-2x/cc-pVTZ:
+    thermo:
+      Cp0: {class: ScalarQuantity, units: J/(mol*K), value: 33.257888}
+      CpInf: {class: ScalarQuantity, units: J/(mol*K), value: 58.201304}
+      E0: {class: ScalarQuantity, units: kJ/mol, value: 189.60434450341876}
+      Tmax: {class: ScalarQuantity, units: K, value: 3000.0}
+      Tmin: {class: ScalarQuantity, units: K, value: 10.0}
+      class: NASA
+      polynomials:
+        polynomial1:
+          Tmax: {class: ScalarQuantity, units: K, value: 827.8955240427443}
+          Tmin: {class: ScalarQuantity, units: K, value: 10.0}
+          class: NASAPolynomial
+          coeffs: [4.030820320268559, -0.001974095961461416, 1.3268326449735305e-05,
+            -1.5018585970986816e-08, 5.553607164075882e-12, 22803.212722530694, 4.951008872587362]
+        polynomial2:
+          Tmax: {class: ScalarQuantity, units: K, value: 3000.0}
+          Tmin: {class: ScalarQuantity, units: K, value: 827.8955240427443}
+          class: NASAPolynomial
+          coeffs: [3.038011524095045, 0.0048166412526413965, -2.6479778942146703e-06,
+            7.072276504459344e-10, -7.359749275842569e-14, 22899.267207162062, 9.140530855999135]
+    thermo_data:
+      Cp (cal/mol*K): {1000 K: '11.61', 1500 K: '12.56', 2000 K: '13.04', 2400 K: '13.28',
+        300 K: '8.49', 400 K: '9.03', 500 K: '9.60', 600 K: '10.13', 800 K: '10.99'}
+      H298: 47.71 kcal/mol
+      S298: 55.23 cal/mol*K
+dft_xyzs: {}
+expt_sources:
+- {hf0: 148.34, hf298: 148.62, source: 'ATcT:13453-52-6*2', u_hf: 0.46, units: kJ/mol}
+ff_xyz: null
+formula: CHF (g, singlet)
+inchi: InChI=1S/CHF/c1-2/h1H
+index: 480
+multiplicity: 3
+preferred_expt_source: null
+qm_files: {}
+rmg_symmetry: 1
+smiles: '[CH]F'
+t1: null
+yaml_file: species/480/480.yaml

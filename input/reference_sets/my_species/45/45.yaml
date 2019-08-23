@@ -1,0 +1,56 @@
+name: Bromoacetylene
+FOD: '0.008492'
+adjacency_list: '1 Br u0 p3 c0 {3,S}
+
+  2 C  u0 p0 c0 {3,T} {4,S}
+
+  3 C  u0 p0 c0 {1,S} {2,T}
+
+  4 H  u0 p0 c0 {2,S}
+
+'
+atct_id: 593-61-3*0
+categories: []
+charge: 0
+dft_freqs: {}
+dft_thermo:
+  m06-2x/cc-pVTZ:
+    thermo:
+      Cp0: {class: ScalarQuantity, units: J/(mol*K), value: 29.100652}
+      CpInf: {class: ScalarQuantity, units: J/(mol*K), value: 87.301956}
+      E0: {class: ScalarQuantity, units: kJ/mol, value: 273.91391781023293}
+      Tmax: {class: ScalarQuantity, units: K, value: 3000.0}
+      Tmin: {class: ScalarQuantity, units: K, value: 10.0}
+      class: NASA
+      polynomials:
+        polynomial1:
+          Tmax: {class: ScalarQuantity, units: K, value: 508.46691156934475}
+          Tmin: {class: ScalarQuantity, units: K, value: 10.0}
+          class: NASAPolynomial
+          coeffs: [3.426810561708457, 0.004701374687952914, 4.818831328167576e-05,
+            -1.267155936294196e-07, 9.166892773960033e-11, 32946.514613684, 8.165796360119348]
+        polynomial2:
+          Tmax: {class: ScalarQuantity, units: K, value: 3000.0}
+          Tmin: {class: ScalarQuantity, units: K, value: 508.46691156934475}
+          class: NASAPolynomial
+          coeffs: [4.964568030984526, 0.007709194998348945, -5.245394947611672e-06,
+            1.7676443280568295e-09, -2.288374039242744e-13, 32594.873214596533, -0.13302610427956676]
+    thermo_data:
+      Cp (cal/mol*K): {1000 K: '17.82', 1500 K: '18.95', 2000 K: '19.64', 2400 K: '20.06',
+        300 K: '12.91', 400 K: '14.42', 500 K: '15.33', 600 K: '16.00', 800 K: '17.06'}
+      H298: 68.35 kcal/mol
+      S298: 60.20 cal/mol*K
+dft_xyzs: {}
+expt_sources:
+- {hf0: 282.4, hf298: 275.9, source: 'ATcT:593-61-3*0', u_hf: 2.2, units: kJ/mol}
+ff_xyz: null
+formula: HCCBr (g)
+inchi: InChI=1S/C2HBr/c1-2-3/h1H
+index: 45
+multiplicity: 1
+preferred_expt_source: null
+qm_files: {}
+rmg_symmetry: 1
+smiles: C#CBr
+t1: null
+yaml_file: species/45/45.yaml

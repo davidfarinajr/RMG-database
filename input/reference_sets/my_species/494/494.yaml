@@ -1,0 +1,171 @@
+name: cyclopentane
+FOD: '0.000624'
+adjacency_list: '1  C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
+
+  2  C u0 p0 c0 {1,S} {3,S} {8,S} {9,S}
+
+  3  C u0 p0 c0 {2,S} {4,S} {10,S} {11,S}
+
+  4  C u0 p0 c0 {3,S} {5,S} {12,S} {13,S}
+
+  5  C u0 p0 c0 {1,S} {4,S} {14,S} {15,S}
+
+  6  H u0 p0 c0 {1,S}
+
+  7  H u0 p0 c0 {1,S}
+
+  8  H u0 p0 c0 {2,S}
+
+  9  H u0 p0 c0 {2,S}
+
+  10 H u0 p0 c0 {3,S}
+
+  11 H u0 p0 c0 {3,S}
+
+  12 H u0 p0 c0 {4,S}
+
+  13 H u0 p0 c0 {4,S}
+
+  14 H u0 p0 c0 {5,S}
+
+  15 H u0 p0 c0 {5,S}
+
+'
+atct_id: 287-92-3*0
+categories: []
+charge: 0
+dft_freqs: {}
+dft_thermo:
+  m06-2x/cc-pVTZ:
+    thermo:
+      Cp0: {class: ScalarQuantity, units: J/(mol*K), value: 33.257888}
+      CpInf: {class: ScalarQuantity, units: J/(mol*K), value: 349.207824}
+      E0: {class: ScalarQuantity, units: kJ/mol, value: -84.0828373959813}
+      Tmax: {class: ScalarQuantity, units: K, value: 3000.0}
+      Tmin: {class: ScalarQuantity, units: K, value: 10.0}
+      class: NASA
+      polynomials:
+        polynomial1:
+          Tmax: {class: ScalarQuantity, units: K, value: 679.1450591782425}
+          Tmin: {class: ScalarQuantity, units: K, value: 10.0}
+          class: NASAPolynomial
+          coeffs: [4.256518275778114, -0.01905817578196938, 0.0002004887132867363,
+            -2.7903624288242454e-07, 1.261990543170922e-10, -10116.54299826075, 6.880208644165476]
+        polynomial2:
+          Tmax: {class: ScalarQuantity, units: K, value: 3000.0}
+          Tmin: {class: ScalarQuantity, units: K, value: 679.1450591782425}
+          class: NASAPolynomial
+          coeffs: [-5.187286305078201, 0.06255660033254361, -3.7180311525371166e-05,
+            1.0620895390512542e-08, -1.171417258797972e-12, -9433.249561708486, 44.37384135998223]
+    thermo_data:
+      Cp (cal/mol*K): {1000 K: '58.90', 1500 K: '69.37', 2000 K: '74.38', 2400 K: '77.00',
+        300 K: '20.01', 400 K: '27.99', 500 K: '35.49', 600 K: '41.89', 800 K: '51.71'}
+      H298: -16.73 kcal/mol
+      S298: 63.87 cal/mol*K
+  wb97x_d3bj/def2-tzvp: !!python/object/apply:rmgpy.thermo.nasa.NASA
+  - - !!python/object/apply:rmgpy.thermo.nasa.NASAPolynomial
+      - [0.0, 0.0, 4.08824759, -0.00639368007, 0.000144765457, -1.95788954e-07, 8.50057975e-11,
+        -62036495.6, 8.30245442]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [10.0, K, 0.0, +|-]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [681.37, K, 0.0, +|-]
+      - null
+      - ''
+      - ''
+    - !!python/object/apply:rmgpy.thermo.nasa.NASAPolynomial
+      - [0.0, 0.0, -5.40702702, 0.0626566642, -3.65421828e-05, 1.0270897e-08, -1.11643294e-12,
+        -62035510.6, 48.2018679]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [681.37, K, 0.0, +|-]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [3000.0, K, 0.0, +|-]
+      - null
+      - ''
+      - ''
+  - !!python/object/apply:rmgpy.quantity.ScalarQuantity [10.0, K, 0.0, +|-]
+  - !!python/object/apply:rmgpy.quantity.ScalarQuantity [3000.0, K, 0.0, +|-]
+  - null
+  - null
+  - null
+  - ''
+  - ''
+dft_xyzs: '15
+
+  wB97x_D3BJ/def2-TZVP geometry
+
+  C      1.2069887926    0.3533455619    0.2150302454
+
+  C      0.6678968375   -1.0707605094    0.1836238574
+
+  C     -0.8249780197   -0.8771351720    0.4429788894
+
+  C     -1.1827778043    0.4518728992   -0.2528546503
+
+  C      0.1615724882    1.1323992878   -0.5812956527
+
+  H      1.2335478013    0.7086143277    1.2489440168
+
+  H      2.2120736286    0.4473174261   -0.1959899381
+
+  H      0.8227211379   -1.4958672540   -0.8119747331
+
+  H      1.1437802527   -1.7333373676    0.9063894610
+
+  H     -0.9936920746   -0.7908884286    1.5182457494
+
+  H     -1.4278907430   -1.7124084937    0.0881502225
+
+  H     -1.7954362616    1.0766277147    0.3966871332
+
+  H     -1.7613382351    0.2802803417   -1.1603601613
+
+  H      0.3769095695    1.0327301130   -1.6469474026
+
+  H      0.1606226301    2.1972095530   -0.3506270375
+
+'
+expt_sources:
+- {hf298: '-18.3', source: Colin, u_hf: '0.2', units: kcal/mol}
+- &id001 {hf298: -76.4, source: Saeys_Reyneiers_Marin, u_hf: 0.8, units: kJ/mol}
+- {hf0: -45.04, hf298: -77.61, source: 'ATcT:287-92-3*0', u_hf: 0.44, units: kJ/mol}
+ff_xyz: '15
+
+
+  C   1.2066467836   0.3513055434   0.2044826075
+
+  C   0.6659505601  -1.0677727542   0.1938980052
+
+  C  -0.8239864804  -0.8741127839   0.4304382199
+
+  C  -1.1729336210   0.4487720870  -0.2495318634
+
+  C   0.1560485369   1.1296695239  -0.5725376942
+
+  H   1.2708311349   0.7256852663   1.2330165583
+
+  H   2.1988429806   0.4243977398  -0.2496943418
+
+  H   0.8363279420  -1.5318972266  -0.7847346667
+
+  H   1.1299038673  -1.6979965076   0.9578599180
+
+  H  -1.0246075638  -0.7987004461   1.5059020647
+
+  H  -1.4153167607  -1.7082103119   0.0408590327
+
+  H  -1.7849226574   1.0694398731   0.4139225568
+
+  H  -1.7497485039   0.2829491513  -1.1658932726
+
+  H   0.3555315642   1.0546901697  -1.6482435162
+
+  H   0.1514322177   2.1917806757  -0.3097436083
+
+'
+formula: CH2(CH2CH2CH2CH2) (g)
+inchi: InChI=1S/C5H10/c1-2-4-5-3-1/h1-5H2
+index: 494
+multiplicity: '1'
+preferred_expt_source: *id001
+qm_files: {}
+rmg_symmetry: 10
+smiles: C1CCCC1
+t1: null
+yaml_file: species/494/494.yaml

@@ -1,0 +1,22 @@
+name: Peroxyimidogen
+FOD: null
+adjacency_list: null
+atct_id: '*60488-31-5*0'
+categories: []
+charge: null
+dft_freqs: {}
+dft_thermo: {}
+dft_xyzs: {}
+expt_sources:
+- {hf0: 405.4, hf298: 403.4, source: 'ATcT:*60488-31-5*0', u_hf: 1.9, units: kJ/mol}
+ff_xyz: null
+formula: NOO (g)
+inchi: null
+index: 321
+multiplicity: null
+preferred_expt_source: null
+qm_files: {}
+rmg_symmetry: null
+smiles: '[N]O[O]'
+t1: null
+yaml_file: species/321/321.yaml

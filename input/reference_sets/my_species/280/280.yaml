@@ -1,0 +1,77 @@
+name: Benzaldehyde
+FOD: '0.090225'
+adjacency_list: '1  O u0 p2 c0 {8,D}
+
+  2  C u0 p0 c0 {3,S} {4,D} {8,S}
+
+  3  C u0 p0 c0 {2,S} {5,D} {9,S}
+
+  4  C u0 p0 c0 {2,D} {7,S} {13,S}
+
+  5  C u0 p0 c0 {3,D} {6,S} {10,S}
+
+  6  C u0 p0 c0 {5,S} {7,D} {11,S}
+
+  7  C u0 p0 c0 {4,S} {6,D} {12,S}
+
+  8  C u0 p0 c0 {1,D} {2,S} {14,S}
+
+  9  H u0 p0 c0 {3,S}
+
+  10 H u0 p0 c0 {5,S}
+
+  11 H u0 p0 c0 {6,S}
+
+  12 H u0 p0 c0 {7,S}
+
+  13 H u0 p0 c0 {4,S}
+
+  14 H u0 p0 c0 {8,S}
+
+'
+atct_id: 100-52-7*0
+categories: []
+charge: 0
+dft_freqs: {}
+dft_thermo:
+  m06-2x/cc-pVTZ:
+    thermo:
+      Cp0: {class: ScalarQuantity, units: J/(mol*K), value: 33.257888}
+      CpInf: {class: ScalarQuantity, units: J/(mol*K), value: 332.57887999999997}
+      E0: {class: ScalarQuantity, units: kJ/mol, value: -56.816449057646096}
+      Tmax: {class: ScalarQuantity, units: K, value: 3000.0}
+      Tmin: {class: ScalarQuantity, units: K, value: 10.0}
+      class: NASA
+      polynomials:
+        polynomial1:
+          Tmax: {class: ScalarQuantity, units: K, value: 540.9987370682269}
+          Tmin: {class: ScalarQuantity, units: K, value: 10.0}
+          class: NASAPolynomial
+          coeffs: [3.9080082974784243, 0.005449801005603677, 0.00016732075103523725,
+            -3.0846200931306156e-07, 1.7683826453979784e-10, -6829.043265685336, 10.754032101855604]
+        polynomial2:
+          Tmax: {class: ScalarQuantity, units: K, value: 3000.0}
+          Tmin: {class: ScalarQuantity, units: K, value: 540.9987370682269}
+          class: NASAPolynomial
+          coeffs: [-1.1286493490088287, 0.06162271625961019, -4.0922241549655805e-05,
+            1.2842705130902776e-08, -1.5327287108508369e-12, -6561.1465078523925,
+            29.398070507929315]
+    thermo_data:
+      Cp (cal/mol*K): {1000 K: '61.37', 1500 K: '69.18', 2000 K: '72.82', 2400 K: '75.00',
+        300 K: '27.24', 400 K: '35.06', 500 K: '41.65', 600 K: '47.07', 800 K: '55.50'}
+      H298: -8.89 kcal/mol
+      S298: 78.89 cal/mol*K
+dft_xyzs: {}
+expt_sources:
+- {hf0: -19.22, hf298: -37.02, source: 'ATcT:100-52-7*0', u_hf: 0.92, units: kJ/mol}
+ff_xyz: null
+formula: C6H5C(O)H (g)
+inchi: InChI=1S/C7H6O/c8-6-7-4-2-1-3-5-7/h1-6H
+index: 280
+multiplicity: 1
+preferred_expt_source: null
+qm_files: {}
+rmg_symmetry: 2
+smiles: O=CC1C=CC=CC=1
+t1: null
+yaml_file: species/280/280.yaml

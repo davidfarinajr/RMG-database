@@ -1,0 +1,60 @@
+name: Ethylidyne
+FOD: '0.006566'
+adjacency_list: 'multiplicity 4
+
+  1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+
+  2 C u3 p0 c0 {1,S}
+
+  3 H u0 p0 c0 {1,S}
+
+  4 H u0 p0 c0 {1,S}
+
+  5 H u0 p0 c0 {1,S}
+
+'
+atct_id: 67624-57-1*0
+categories: []
+charge: 0
+dft_freqs: {}
+dft_thermo:
+  m06-2x/cc-pVTZ:
+    thermo:
+      Cp0: {class: ScalarQuantity, units: J/(mol*K), value: 33.257888}
+      CpInf: {class: ScalarQuantity, units: J/(mol*K), value: 108.08813599999999}
+      E0: {class: ScalarQuantity, units: kJ/mol, value: 623.7217186907753}
+      Tmax: {class: ScalarQuantity, units: K, value: 3000.0}
+      Tmin: {class: ScalarQuantity, units: K, value: 10.0}
+      class: NASA
+      polynomials:
+        polynomial1:
+          Tmax: {class: ScalarQuantity, units: K, value: 808.7693943224343}
+          Tmin: {class: ScalarQuantity, units: K, value: 10.0}
+          class: NASAPolynomial
+          coeffs: [4.085209588564278, -0.005533031664429426, 3.928226471289502e-05,
+            -4.512523096007131e-08, 1.694939192341971e-11, 75013.92624658349, 4.810707629813379]
+        polynomial2:
+          Tmax: {class: ScalarQuantity, units: K, value: 3000.0}
+          Tmin: {class: ScalarQuantity, units: K, value: 808.7693943224343}
+          class: NASAPolynomial
+          coeffs: [1.1306928485731953, 0.014509065366082628, -7.959485495181366e-06,
+            2.116939643204903e-09, -2.1961833938187444e-13, 75314.25059903697, 17.339630174590223]
+    thermo_data:
+      Cp (cal/mol*K): {1000 K: '19.03', 1500 K: '21.90', 2000 K: '23.31', 2400 K: '24.01',
+        300 K: '9.70', 400 K: '11.33', 500 K: '13.03', 600 K: '14.62', 800 K: '17.17'}
+      H298: 151.53 kcal/mol
+      S298: 55.27 cal/mol*K
+dft_xyzs: {}
+expt_sources:
+- {hf0: 508.56, hf298: 504.86, source: 'ATcT:67624-57-1*0', u_hf: 0.87, units: kJ/mol}
+ff_xyz: null
+formula: CH3C (g)
+inchi: InChI=1S/C2H3/c1-2/h1H3
+index: 386
+multiplicity: 4
+preferred_expt_source: null
+qm_files: {}
+rmg_symmetry: 3
+smiles: '[C]C'
+t1: null
+yaml_file: species/386/386.yaml

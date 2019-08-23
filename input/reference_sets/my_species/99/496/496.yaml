@@ -1,0 +1,22 @@
+name: Chlorotribromomethane
+FOD: null
+adjacency_list: null
+atct_id: 594-15-0*0
+categories: []
+charge: null
+dft_freqs: {}
+dft_thermo: {}
+dft_xyzs: {}
+expt_sources:
+- {hf0: 77.3, hf298: 54.4, source: 'ATcT:594-15-0*0', u_hf: 1.6, units: kJ/mol}
+ff_xyz: null
+formula: CBr3Cl (g)
+inchi: null
+index: 496
+multiplicity: null
+preferred_expt_source: null
+qm_files: {}
+rmg_symmetry: null
+smiles: ClC(Br)(Br)Br
+t1: null
+yaml_file: species/496/496.yaml

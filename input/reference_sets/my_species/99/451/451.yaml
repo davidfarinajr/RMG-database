@@ -1,0 +1,58 @@
+name: Fluorobromomethane
+FOD: '0.004577'
+adjacency_list: '1 Br u0 p3 c0 {3,S}
+
+  2 F  u0 p3 c0 {3,S}
+
+  3 C  u0 p0 c0 {1,S} {2,S} {4,S} {5,S}
+
+  4 H  u0 p0 c0 {3,S}
+
+  5 H  u0 p0 c0 {3,S}
+
+'
+atct_id: 373-52-4*0
+categories: []
+charge: 0
+dft_freqs: {}
+dft_thermo:
+  m06-2x/cc-pVTZ:
+    thermo:
+      Cp0: {class: ScalarQuantity, units: J/(mol*K), value: 33.257888}
+      CpInf: {class: ScalarQuantity, units: J/(mol*K), value: 108.08813599999999}
+      E0: {class: ScalarQuantity, units: kJ/mol, value: -217.90807963826433}
+      Tmax: {class: ScalarQuantity, units: K, value: 3000.0}
+      Tmin: {class: ScalarQuantity, units: K, value: 10.0}
+      class: NASA
+      polynomials:
+        polynomial1:
+          Tmax: {class: ScalarQuantity, units: K, value: 581.9082558616512}
+          Tmin: {class: ScalarQuantity, units: K, value: 10.0}
+          class: NASAPolynomial
+          coeffs: [4.020011194961719, -0.0018854645681839492, 4.8114084973786315e-05,
+            -7.972955753441382e-08, 4.2391060168549404e-11, -26207.804454413315, 9.360457859790804]
+        polynomial2:
+          Tmax: {class: ScalarQuantity, units: K, value: 3000.0}
+          Tmin: {class: ScalarQuantity, units: K, value: 581.9082558616512}
+          class: NASAPolynomial
+          coeffs: [2.4730484919683597, 0.014502097866798886, -8.960382490060167e-06,
+            2.6503131590176475e-09, -3.012526081834672e-13, -26125.18384733393, 15.149015585774746]
+    thermo_data:
+      Cp (cal/mol*K): {1000 K: '20.60', 1500 K: '22.82', 2000 K: '23.88', 2400 K: '24.46',
+        300 K: '11.87', 400 K: '13.80', 500 K: '15.48', 600 K: '16.86', 800 K: '19.02'}
+      H298: -49.30 kcal/mol
+      S298: 66.01 cal/mol*K
+dft_xyzs: {}
+expt_sources:
+- {hf0: -198.0, hf298: -212.4, source: 'ATcT:373-52-4*0', u_hf: 5.5, units: kJ/mol}
+ff_xyz: null
+formula: CH2FBr (g)
+inchi: InChI=1S/CH2BrF/c2-1-3/h1H2
+index: 451
+multiplicity: 1
+preferred_expt_source: null
+qm_files: {}
+rmg_symmetry: 1
+smiles: FCBr
+t1: null
+yaml_file: species/451/451.yaml

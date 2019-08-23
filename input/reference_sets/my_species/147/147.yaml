@@ -1,0 +1,22 @@
+name: Aminomethylidyne
+FOD: null
+adjacency_list: null
+atct_id: 84654-89-7*0
+categories: []
+charge: null
+dft_freqs: {}
+dft_thermo: {}
+dft_xyzs: {}
+expt_sources:
+- {hf0: 371.9, hf298: 368.3, source: 'ATcT:84654-89-7*0', u_hf: 1.1, units: kJ/mol}
+ff_xyz: null
+formula: CNH2 (g)
+inchi: null
+index: 147
+multiplicity: null
+preferred_expt_source: null
+qm_files: {}
+rmg_symmetry: null
+smiles: '[C]N'
+t1: null
+yaml_file: species/147/147.yaml

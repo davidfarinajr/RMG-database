@@ -1,0 +1,22 @@
+name: Hexachloroethane
+FOD: null
+adjacency_list: null
+atct_id: 67-72-1*0
+categories: []
+charge: null
+dft_freqs: {}
+dft_thermo: {}
+dft_xyzs: {}
+expt_sources:
+- {hf0: -147.4, hf298: -149.8, source: 'ATcT:67-72-1*0', u_hf: 1.6, units: kJ/mol}
+ff_xyz: null
+formula: CCl3CCl3 (g)
+inchi: null
+index: 112
+multiplicity: null
+preferred_expt_source: null
+qm_files: {}
+rmg_symmetry: null
+smiles: ClC(Cl)(Cl)C(Cl)(Cl)Cl
+t1: null
+yaml_file: species/112/112.yaml

@@ -1,0 +1,22 @@
+name: Tribromine
+FOD: null
+adjacency_list: null
+atct_id: 11094-39-6*0
+categories: []
+charge: null
+dft_freqs: {}
+dft_thermo: {}
+dft_xyzs: {}
+expt_sources:
+- {hf0: 155.8, hf298: 134.1, source: 'ATcT:11094-39-6*0', u_hf: 3.2, units: kJ/mol}
+ff_xyz: null
+formula: Br3 (g)
+inchi: null
+index: 260
+multiplicity: null
+preferred_expt_source: null
+qm_files: {}
+rmg_symmetry: null
+smiles: BrBrBr
+t1: null
+yaml_file: species/260/260.yaml

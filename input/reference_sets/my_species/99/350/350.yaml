@@ -1,0 +1,122 @@
+name: hydroperoxymethane
+FOD: '0.005323'
+adjacency_list: '1 O u0 p2 c0 {2,S} {3,S}
+
+  2 O u0 p2 c0 {1,S} {7,S}
+
+  3 C u0 p0 c0 {1,S} {4,S} {5,S} {6,S}
+
+  4 H u0 p0 c0 {3,S}
+
+  5 H u0 p0 c0 {3,S}
+
+  6 H u0 p0 c0 {3,S}
+
+  7 H u0 p0 c0 {2,S}
+
+'
+atct_id: 3031-73-0*0
+categories: []
+charge: 0
+dft_freqs: {}
+dft_thermo:
+  m06-2x/cc-pVTZ:
+    thermo:
+      Cp0: {class: ScalarQuantity, units: J/(mol*K), value: 33.257888}
+      CpInf: {class: ScalarQuantity, units: J/(mol*K), value: 157.97496800000002}
+      E0: {class: ScalarQuantity, units: kJ/mol, value: -137.58402934649686}
+      Tmax: {class: ScalarQuantity, units: K, value: 3000.0}
+      Tmin: {class: ScalarQuantity, units: K, value: 10.0}
+      class: NASA
+      polynomials:
+        polynomial1:
+          Tmax: {class: ScalarQuantity, units: K, value: 570.1579542618252}
+          Tmin: {class: ScalarQuantity, units: K, value: 10.0}
+          class: NASAPolynomial
+          coeffs: [3.9020641743982716, 0.008047395966761428, 2.1837516483870383e-05,
+            -3.596009134940796e-08, 1.6824429903637793e-11, -16546.090185961828, 5.928898152850617]
+        polynomial2:
+          Tmax: {class: ScalarQuantity, units: K, value: 3000.0}
+          Tmin: {class: ScalarQuantity, units: K, value: 570.1579542618252}
+          class: NASAPolynomial
+          coeffs: [2.088026494850029, 0.020774020865190475, -1.1644488147449343e-05,
+            3.189491794473236e-09, -3.4176739972865955e-13, -16339.233601187505, 13.661370145054812]
+    thermo_data:
+      Cp (cal/mol*K): {1000 K: '27.95', 1500 K: '31.96', 2000 K: '33.99', 2400 K: '35.03',
+        300 K: '14.80', 400 K: '17.38', 500 K: '19.76', 600 K: '21.87', 800 K: '25.33'}
+      H298: -29.60 kcal/mol
+      S298: 62.09 cal/mol*K
+  wb97x_d3bj/def2-tzvp: !!python/object/apply:rmgpy.thermo.nasa.NASA
+  - - !!python/object/apply:rmgpy.thermo.nasa.NASAPolynomial
+      - [0.0, 0.0, 3.89511911, 0.00905323693, 1.29530972e-05, -1.9292481e-08, 7.21577346e-12,
+        -60258981.2, 5.93004069]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [10.0, K, 0.0, +|-]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [884.37, K, 0.0, +|-]
+      - null
+      - ''
+      - ''
+    - !!python/object/apply:rmgpy.thermo.nasa.NASAPolynomial
+      - [0.0, 0.0, 2.49391888, 0.0189781602, -9.96529121e-06, 2.57082965e-09, -2.61299474e-13,
+        -60258873.7, 11.7247165]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [884.37, K, 0.0, +|-]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [3000.0, K, 0.0, +|-]
+      - null
+      - ''
+      - ''
+  - !!python/object/apply:rmgpy.quantity.ScalarQuantity [10.0, K, 0.0, +|-]
+  - !!python/object/apply:rmgpy.quantity.ScalarQuantity [3000.0, K, 0.0, +|-]
+  - null
+  - null
+  - null
+  - ''
+  - ''
+dft_xyzs: '7
+
+  wB97x_D3BJ/def2-TZVP geometry
+
+  C     -0.7358819578    0.0992230793    0.0066022609
+
+  O      0.3637821699   -0.4681985221   -0.6629812156
+
+  O      1.5237008090    0.1901161856   -0.1729411576
+
+  H     -0.7871576178    1.1758123917   -0.1695130859
+
+  H     -0.6914548384   -0.0972923950    1.0818133238
+
+  H     -1.6117652049   -0.3873689526   -0.4226376885
+
+  H      1.9387766399   -0.5122917868    0.3396575629
+
+'
+expt_sources:
+- &id001 {hf298: '-30.53', source: Colin, u_hf: '0.18', units: kcal/mol}
+- {hf0: -115.03, hf298: -127.85, source: 'ATcT:3031-73-0*0', u_hf: 0.76, units: kJ/mol}
+ff_xyz: '7
+
+
+  C  -0.7470609276   0.0955022646  -0.0051093121
+
+  O   0.3868538573  -0.4587203531  -0.6608635443
+
+  O   1.5388067805   0.2297033716  -0.0966812721
+
+  H  -0.8069955815   1.1694567066  -0.2037207444
+
+  H  -0.6831293219  -0.0861209175   1.0716317786
+
+  H  -1.6456414712  -0.3891917672  -0.3949681944
+
+  H   1.9571666643  -0.5606293050   0.2897112888
+
+'
+formula: CH3OOH (g)
+inchi: InChI=1S/CH4O2/c1-3-2/h2H,1H3
+index: 350
+multiplicity: '1'
+preferred_expt_source: *id001
+qm_files: {}
+rmg_symmetry: 3
+smiles: COO
+t1: '0.012136324'
+yaml_file: species/350/350.yaml

@@ -1,0 +1,22 @@
+name: Dioxaziridinyl
+FOD: null
+adjacency_list: null
+atct_id: 66252-29-7*0
+categories: []
+charge: null
+dft_freqs: {}
+dft_thermo: {}
+dft_xyzs: {}
+expt_sources:
+- {hf0: 355.1, hf298: 352.6, source: 'ATcT:66252-29-7*0', u_hf: 1.5, units: kJ/mol}
+ff_xyz: null
+formula: N(OO) (g)
+inchi: null
+index: 235
+multiplicity: null
+preferred_expt_source: null
+qm_files: {}
+rmg_symmetry: null
+smiles: O1O[N]1
+t1: null
+yaml_file: species/235/235.yaml

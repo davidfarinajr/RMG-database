@@ -1,0 +1,56 @@
+name: Phosgene
+FOD: '0.01223'
+adjacency_list: '1 Cl u0 p3 c0 {4,S}
+
+  2 Cl u0 p3 c0 {4,S}
+
+  3 O  u0 p2 c0 {4,D}
+
+  4 C  u0 p0 c0 {1,S} {2,S} {3,D}
+
+'
+atct_id: 75-44-5*0
+categories: []
+charge: 0
+dft_freqs: {}
+dft_thermo:
+  m06-2x/cc-pVTZ:
+    thermo:
+      Cp0: {class: ScalarQuantity, units: J/(mol*K), value: 33.257888}
+      CpInf: {class: ScalarQuantity, units: J/(mol*K), value: 83.14472}
+      E0: {class: ScalarQuantity, units: kJ/mol, value: -227.75422465651948}
+      Tmax: {class: ScalarQuantity, units: K, value: 3000.0}
+      Tmin: {class: ScalarQuantity, units: K, value: 10.0}
+      class: NASA
+      polynomials:
+        polynomial1:
+          Tmax: {class: ScalarQuantity, units: K, value: 537.6035938871693}
+          Tmin: {class: ScalarQuantity, units: K, value: 10.0}
+          class: NASAPolynomial
+          coeffs: [3.9334384153884736, 0.004120567379803477, 4.615841026572134e-05,
+            -1.1238817864900943e-07, 7.58369239977089e-11, -27389.893460347605, 9.27237163823242]
+        polynomial2:
+          Tmax: {class: ScalarQuantity, units: K, value: 3000.0}
+          Tmin: {class: ScalarQuantity, units: K, value: 537.6035938871693}
+          class: NASAPolynomial
+          coeffs: [5.1752245773885255, 0.009023167556987633, -6.979122230965531e-06,
+            2.437475460874809e-09, -3.144415384986501e-13, -27727.775834530745, 2.151465666207338]
+    thermo_data:
+      Cp (cal/mol*K): {1000 K: '18.57', 1500 K: '19.16', 2000 K: '19.42', 2400 K: '19.66',
+        300 K: '13.72', 400 K: '15.33', 500 K: '16.34', 600 K: '17.02', 800 K: '17.98'}
+      H298: -51.30 kcal/mol
+      S298: 67.80 cal/mol*K
+dft_xyzs: {}
+expt_sources:
+- {hf0: -217.44, hf298: -219.13, source: 'ATcT:75-44-5*0', u_hf: 0.27, units: kJ/mol}
+ff_xyz: null
+formula: CCl2O (g)
+inchi: InChI=1S/CCl2O/c2-1(3)4
+index: 1
+multiplicity: 1
+preferred_expt_source: null
+qm_files: {}
+rmg_symmetry: 2
+smiles: O=C(Cl)Cl
+t1: null
+yaml_file: species/1/1.yaml

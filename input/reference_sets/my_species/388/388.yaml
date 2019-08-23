@@ -1,0 +1,22 @@
+name: (E)-1,2-Diiodoethene
+FOD: null
+adjacency_list: null
+atct_id: 590-27-2*0
+categories: []
+charge: null
+dft_freqs: {}
+dft_thermo: {}
+dft_xyzs: {}
+expt_sources:
+- {hf0: 214.82, hf298: 207.43, source: 'ATcT:590-27-2*0', u_hf: 0.44, units: kJ/mol}
+ff_xyz: null
+formula: C2H2I2 (g)
+inchi: null
+index: 388
+multiplicity: null
+preferred_expt_source: null
+qm_files: {}
+rmg_symmetry: null
+smiles: IC=CI
+t1: null
+yaml_file: species/388/388.yaml

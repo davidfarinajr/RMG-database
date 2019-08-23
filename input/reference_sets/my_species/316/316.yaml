@@ -1,0 +1,22 @@
+name: Chlorous acid
+FOD: null
+adjacency_list: null
+atct_id: 13898-47-0*0
+categories: []
+charge: null
+dft_freqs: {}
+dft_thermo: {}
+dft_xyzs: {}
+expt_sources:
+- {hf0: 25.75, hf298: 20.69, source: 'ATcT:13898-47-0*0', u_hf: 0.63, units: kJ/mol}
+ff_xyz: null
+formula: HOClO (g)
+inchi: null
+index: 316
+multiplicity: null
+preferred_expt_source: null
+qm_files: {}
+rmg_symmetry: null
+smiles: OCl=O
+t1: null
+yaml_file: species/316/316.yaml

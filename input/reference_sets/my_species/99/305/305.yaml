@@ -1,0 +1,60 @@
+name: Vinyl fluoride
+FOD: '0.004123'
+adjacency_list: '1 F u0 p3 c0 {3,S}
+
+  2 C u0 p0 c0 {3,D} {4,S} {5,S}
+
+  3 C u0 p0 c0 {1,S} {2,D} {6,S}
+
+  4 H u0 p0 c0 {2,S}
+
+  5 H u0 p0 c0 {2,S}
+
+  6 H u0 p0 c0 {3,S}
+
+'
+atct_id: 75-02-5*0
+categories: []
+charge: 0
+dft_freqs: {}
+dft_thermo:
+  m06-2x/cc-pVTZ:
+    thermo:
+      Cp0: {class: ScalarQuantity, units: J/(mol*K), value: 33.257888}
+      CpInf: {class: ScalarQuantity, units: J/(mol*K), value: 133.031552}
+      E0: {class: ScalarQuantity, units: kJ/mol, value: -153.92225075653695}
+      Tmax: {class: ScalarQuantity, units: K, value: 3000.0}
+      Tmin: {class: ScalarQuantity, units: K, value: 10.0}
+      class: NASA
+      polynomials:
+        polynomial1:
+          Tmax: {class: ScalarQuantity, units: K, value: 312.67597661926567}
+          Tmin: {class: ScalarQuantity, units: K, value: 10.0}
+          class: NASAPolynomial
+          coeffs: [4.0653113569196515, -0.005982314456870538, 5.663850796273458e-05,
+            -1.9900880890925823e-08, -8.123813489093983e-11, -18512.49878459611, 6.827600749042103]
+        polynomial2:
+          Tmax: {class: ScalarQuantity, units: K, value: 3000.0}
+          Tmin: {class: ScalarQuantity, units: K, value: 312.67597661926567}
+          class: NASAPolynomial
+          coeffs: [1.0180120755385051, 0.020786308456882202, -1.3180259830566404e-05,
+            4.022629555145748e-09, -4.709326968512695e-13, -18262.22528894017, 18.9411281315201]
+    thermo_data:
+      Cp (cal/mol*K): {1000 K: '24.20', 1500 K: '27.29', 2000 K: '28.85', 2400 K: '29.75',
+        300 K: '12.27', 400 K: '14.84', 500 K: '17.07', 600 K: '18.98', 800 K: '22.02'}
+      H298: -34.07 kcal/mol
+      S298: 60.38 cal/mol*K
+dft_xyzs: {}
+expt_sources:
+- {hf0: -134.62, hf298: -142.43, source: 'ATcT:75-02-5*0', u_hf: 0.48, units: kJ/mol}
+ff_xyz: null
+formula: CH2CHF (g)
+inchi: InChI=1S/C2H3F/c1-2-3/h2H,1H2
+index: 305
+multiplicity: 1
+preferred_expt_source: null
+qm_files: {}
+rmg_symmetry: 1
+smiles: C=CF
+t1: null
+yaml_file: species/305/305.yaml

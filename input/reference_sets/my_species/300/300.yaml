@@ -1,0 +1,60 @@
+name: cis-1,2-Difluoroethene
+FOD: '0.004596'
+adjacency_list: '1 F u0 p3 c0 {3,S}
+
+  2 F u0 p3 c0 {4,S}
+
+  3 C u0 p0 c0 {1,S} {4,D} {5,S}
+
+  4 C u0 p0 c0 {2,S} {3,D} {6,S}
+
+  5 H u0 p0 c0 {3,S}
+
+  6 H u0 p0 c0 {4,S}
+
+'
+atct_id: 1630-78-0*0
+categories: []
+charge: 0
+dft_freqs: {}
+dft_thermo:
+  m06-2x/cc-pVTZ:
+    thermo:
+      Cp0: {class: ScalarQuantity, units: J/(mol*K), value: 33.257888}
+      CpInf: {class: ScalarQuantity, units: J/(mol*K), value: 133.031552}
+      E0: {class: ScalarQuantity, units: kJ/mol, value: -326.5966990754381}
+      Tmax: {class: ScalarQuantity, units: K, value: 3000.0}
+      Tmin: {class: ScalarQuantity, units: K, value: 10.0}
+      class: NASA
+      polynomials:
+        polynomial1:
+          Tmax: {class: ScalarQuantity, units: K, value: 556.4506680649816}
+          Tmin: {class: ScalarQuantity, units: K, value: 10.0}
+          class: NASAPolynomial
+          coeffs: [3.974245349105405, 0.0014875162369336699, 5.325010541510911e-05,
+            -9.304074578127052e-08, 5.066572510757238e-11, -39279.153959132076, 7.598576175845066]
+        polynomial2:
+          Tmax: {class: ScalarQuantity, units: K, value: 3000.0}
+          Tmin: {class: ScalarQuantity, units: K, value: 556.4506680649816}
+          class: NASAPolynomial
+          coeffs: [1.8628429178932737, 0.021700054577994773, -1.4808308969206618e-05,
+            4.758595673861432e-09, -5.786922275812393e-13, -39122.1252781536, 15.846799682470976]
+    thermo_data:
+      Cp (cal/mol*K): {1000 K: '25.70', 1500 K: '28.27', 2000 K: '29.49', 2400 K: '30.27',
+        300 K: '14.13', 400 K: '16.76', 500 K: '19.01', 600 K: '20.88', 800 K: '23.74'}
+      H298: -74.95 kcal/mol
+      S298: 64.24 cal/mol*K
+dft_xyzs: {}
+expt_sources:
+- {hf0: -302.9, hf298: -309.7, source: 'ATcT:1630-77-9*0', u_hf: 1.1, units: kJ/mol}
+ff_xyz: null
+formula: CHFCHF (g, trans)
+inchi: InChI=1S/C2H2F2/c3-1-2-4/h1-2H
+index: 300
+multiplicity: 1
+preferred_expt_source: null
+qm_files: {}
+rmg_symmetry: 2
+smiles: FC=CF
+t1: null
+yaml_file: species/300/300.yaml

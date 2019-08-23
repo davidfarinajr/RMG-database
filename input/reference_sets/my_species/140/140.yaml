@@ -1,0 +1,66 @@
+name: Allyl
+FOD: '0.020227'
+adjacency_list: 'multiplicity 2
+
+  1 C u0 p0 c0 {2,S} {3,D} {4,S}
+
+  2 C u1 p0 c0 {1,S} {5,S} {6,S}
+
+  3 C u0 p0 c0 {1,D} {7,S} {8,S}
+
+  4 H u0 p0 c0 {1,S}
+
+  5 H u0 p0 c0 {2,S}
+
+  6 H u0 p0 c0 {2,S}
+
+  7 H u0 p0 c0 {3,S}
+
+  8 H u0 p0 c0 {3,S}
+
+'
+atct_id: 1981-80-2*0
+categories: []
+charge: 0
+dft_freqs: {}
+dft_thermo:
+  m06-2x/cc-pVTZ:
+    thermo:
+      Cp0: {class: ScalarQuantity, units: J/(mol*K), value: 33.257888}
+      CpInf: {class: ScalarQuantity, units: J/(mol*K), value: 182.918384}
+      E0: {class: ScalarQuantity, units: kJ/mol, value: 161.86713895068692}
+      Tmax: {class: ScalarQuantity, units: K, value: 3000.0}
+      Tmin: {class: ScalarQuantity, units: K, value: 10.0}
+      class: NASA
+      polynomials:
+        polynomial1:
+          Tmax: {class: ScalarQuantity, units: K, value: 523.0282729679951}
+          Tmin: {class: ScalarQuantity, units: K, value: 10.0}
+          class: NASAPolynomial
+          coeffs: [4.1225322910712014, -0.011650540134647254, 0.00014147908340805956,
+            -2.551291051650091e-07, 1.5165363693140394e-10, 19469.089479884515, 6.736447083050456]
+        polynomial2:
+          Tmax: {class: ScalarQuantity, units: K, value: 3000.0}
+          Tmin: {class: ScalarQuantity, units: K, value: 523.0282729679951}
+          class: NASAPolynomial
+          coeffs: [1.0795288196516948, 0.02758415145969483, -1.6821705494553714e-05,
+            4.9968765818252715e-09, -5.73931805554243e-13, 19569.070905172106, 17.35773936546444]
+    thermo_data:
+      Cp (cal/mol*K): {1000 K: '32.32', 1500 K: '36.89', 2000 K: '39.25', 2400 K: '40.59',
+        300 K: '15.30', 400 K: '19.18', 500 K: '22.36', 600 K: '25.00', 800 K: '29.22'}
+      H298: 41.72 kcal/mol
+      S298: 61.77 cal/mol*K
+dft_xyzs: {}
+expt_sources:
+- {hf0: 179.54, hf298: 167.82, source: 'ATcT:1981-80-2*0', u_hf: 0.55, units: kJ/mol}
+ff_xyz: null
+formula: CH2CHCH2 (g)
+inchi: InChI=1S/C3H5/c1-3-2/h3H,1-2H2
+index: 140
+multiplicity: 2
+preferred_expt_source: null
+qm_files: {}
+rmg_symmetry: 2
+smiles: '[CH2]C=C'
+t1: null
+yaml_file: species/140/140.yaml
