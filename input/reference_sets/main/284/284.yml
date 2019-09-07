@@ -195,8 +195,8 @@ reference_data:
     thermo_data:
       H298:
         class: ScalarQuantity
-        uncertainty: 0.0092
+        uncertainty: 0.00
         uncertaintyType: +|-
         units: kJ/mol
-        value: 1165.221
+        value: 94.383
       class: ThermoData
