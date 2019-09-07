@@ -1,8 +1,8 @@
 Identifiers:
   adjacency_list: |
-    multiplicity 4
+    multiplicity 2
     1 O u0 p2 c0 {2,S} {3,S}
-    2 C u3 p0 c0 {1,S}
+    2 C u1 p1 c0 {1,S}
     3 H u0 p0 c0 {1,S}
   formula: CHO
   inchi: InChI=1S/CHO/c1-2/h2H
@@ -1518,8 +1518,8 @@ reference_data:
     thermo_data:
       H298:
         class: ScalarQuantity
-        uncertainty: 0.6900000000000002
+        uncertainty: 0.69
         uncertaintyType: +|-
         units: kJ/mol
-        value: 217.64000000000004
+        value: 217.64
       class: ThermoData

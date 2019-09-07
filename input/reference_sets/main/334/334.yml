@@ -1,10 +1,9 @@
 Identifiers:
   adjacency_list: |
-    multiplicity 3
     1  C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
     2  C u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
     3  C u0 p0 c0 {4,S} {10,S} {11,S} {12,S}
-    4  C u2 p0 c0 {1,S} {3,S}
+    4  C u0 p1 c0 {1,S} {3,S}
     5  H u0 p0 c0 {1,S}
     6  H u0 p0 c0 {1,S}
     7  H u0 p0 c0 {2,S}
@@ -24,7 +23,7 @@ Properties:
     class: ScalarQuantity
     units: amu
     value: 56.106325278865256
-  multiplicity: 3
+  multiplicity: 1
 RMG_version: 2.4.1
 calculated_data:
   m062x-gd3_jun-cc-pvtz:

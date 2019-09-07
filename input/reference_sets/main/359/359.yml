@@ -1,10 +1,9 @@
 Identifiers:
   adjacency_list: |
-    multiplicity 3
     1 N u0 p0 c+1 {2,D} {3,D}
     2 N u0 p2 c-1 {1,D}
     3 C u0 p0 c0 {1,D} {4,D}
-    4 C u2 p0 c0 {3,D}
+    4 C u0 p2 c0 {3,D}
   formula: C2N2
   inchi: InChI=1S/C2N2/c1-2-4-3
   inchi_key: YPRWOCQZLXTTOL-UHFFFAOYSA-N
@@ -16,7 +15,7 @@ Properties:
     class: ScalarQuantity
     units: amu
     value: 52.034885321672
-  multiplicity: 3
+  multiplicity: 1
 RMG_version: 2.4.1
 calculated_data:
   m062x-gd3_jun-cc-pvtz:

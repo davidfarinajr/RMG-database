@@ -1,9 +1,8 @@
 Identifiers:
   adjacency_list: |
-    multiplicity 5
     1 O u0 p2 c0 {2,S} {3,S}
-    2 N u2 p1 c0 {1,S}
-    3 N u2 p1 c0 {1,S}
+    2 N u0 p2 c0 {1,S}
+    3 N u0 p2 c0 {1,S}
   formula: N2O
   inchi: InChI=1S/N2O/c1-3-2
   inchi_key: FMTCKYVJENZJOM-UHFFFAOYSA-N

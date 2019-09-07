@@ -1,7 +1,6 @@
 Identifiers:
   adjacency_list: |
-    multiplicity 3
-    1 C u2 p0 c0 {2,S} {3,S}
+    1 C u0 p1 c0 {2,S} {3,S}
     2 C u0 p0 c0 {1,S} {3,T}
     3 C u0 p0 c0 {1,S} {2,T}
   formula: C3
@@ -15,7 +14,7 @@ Properties:
     class: ScalarQuantity
     units: amu
     value: 36.03210322427044
-  multiplicity: 3
+  multiplicity: 1
 RMG_version: 2.4.1
 calculated_data:
   m062x-gd3_jun-cc-pvtz:

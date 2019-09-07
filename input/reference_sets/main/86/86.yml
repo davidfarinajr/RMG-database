@@ -1,8 +1,8 @@
 Identifiers:
   adjacency_list: |
-    multiplicity 5
-    1 C u2 p0 c0 {2,D}
-    2 C u2 p0 c0 {1,D}
+    multiplicity 1
+    1 C u0 p1 c0 {2,D}
+    2 C u0 p1 c0 {1,D}
   formula: C2
   inchi: InChI=1S/C2/c1-2
   inchi_key: LBVWYGNGGJURHQ-UHFFFAOYSA-N
@@ -14,7 +14,7 @@ Properties:
     class: ScalarQuantity
     units: amu
     value: 24.02140214951363
-  multiplicity: 5
+  multiplicity: 1
 RMG_version: 2.4.1
 calculated_data:
   b3lyp-gd3bj_jun-cc-pvtz:
