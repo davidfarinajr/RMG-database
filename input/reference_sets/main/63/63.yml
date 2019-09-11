@@ -247,9 +247,6 @@ calculated_data:
           - 2000.0
           - 2400.0
       class: ThermoData
-  ccsd(t)/aug-cc-pvdz:
-    class: CalculatedDataEntry
-    t1_diagnostic: 0.008440142
   g4:
     class: CalculatedDataEntry
     conformer:
@@ -699,7 +696,7 @@ calculated_data:
           - 2000.0
           - 2400.0
       class: ThermoData
-  m062x/cc-pvtz:
+  m062x_cc-pvtz:
     class: CalculatedDataEntry
     conformer:
       E0:
@@ -765,9 +762,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 16.001262386677595
-            - 91.71229199940136
-            - 101.41671315299256
+            - 16.001261047247716
+            - 91.71228432237052
+            - 101.41670466362635
         quantum: false
         rotationalConstant:
           class: ArrayQuantity
@@ -775,9 +772,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 1.05351869408653
-            - 0.183809919977341
-            - 0.1662214099555549
+            - 1.0535187822742307
+            - 0.18380993536365958
+            - 0.16622142386957853
         symmetry: 3
       - class: HarmonicOscillator
         frequencies:
@@ -1382,9 +1379,6 @@ calculated_data:
           - 2000.0
           - 2400.0
       class: ThermoData
-  tpss/def2-tzvp:
-    class: CalculatedDataEntry
-    fod: 0.001698
   wb97xd_jun-cc-pvtz:
     class: CalculatedDataEntry
     conformer:

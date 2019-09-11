@@ -616,7 +616,7 @@ calculated_data:
           - 2000.0
           - 2400.0
       class: ThermoData
-  m062x/cc-pvtz:
+  m062x_cc-pvtz:
     class: CalculatedDataEntry
     conformer:
       E0:
@@ -671,12 +671,12 @@ calculated_data:
         inertia:
           class: ScalarQuantity
           units: amu*angstrom^2
-          value: 114.38310327500727
+          value: 114.38309370025355
         quantum: false
         rotationalConstant:
           class: ScalarQuantity
           units: cm^-1
-          value: 0.14737866494860075
+          value: 0.14737867728534015
         symmetry: 2
       - class: HarmonicOscillator
         frequencies:
@@ -1223,9 +1223,6 @@ calculated_data:
           - 2000.0
           - 2400.0
       class: ThermoData
-  tpss/def2-tzvp:
-    class: CalculatedDataEntry
-    fod: 0.02234
 class: ReferenceSpecies
 datetime: 2019-08-08 16:53
 index: 50

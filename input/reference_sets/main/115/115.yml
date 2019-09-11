@@ -203,198 +203,6 @@ calculated_data:
           - 2000.0
           - 2400.0
       class: ThermoData
-  ccsd(t)-f12/cc-pvdz(m062x/cc-pvtz):
-    class: CalculatedDataEntry
-    conformer:
-      E0:
-        class: ScalarQuantity
-        units: kJ/mol
-        value: -146481.98374844415
-      class: Conformer
-      coordinates:
-        class: ArrayQuantity
-        units: angstroms
-        value:
-          class: np_array
-          object:
-          - - -0.0018829999999999995
-            - 0.426888
-            - -0.0
-          - - -0.80131
-            - -0.214546
-            - -0.0
-          - - 0.803129
-            - -0.20752
-            - 0.0
-      mass:
-        class: ArrayQuantity
-        units: amu
-        value:
-          class: np_array
-          object:
-          - 14.00307400443
-          - 1.00782503224
-          - 1.00782503224
-      modes:
-      - class: IdealGasTranslation
-        mass:
-          class: ScalarQuantity
-          units: amu
-          value: 16.01872
-        quantum: false
-      - class: NonlinearRotor
-        inertia:
-          class: ArrayQuantity
-          units: amu*angstrom^2
-          value:
-            class: np_array
-            object:
-            - 0.7170546940328627
-            - 1.297208287853177
-            - 2.0142629396256133
-        quantum: false
-        rotationalConstant:
-          class: ArrayQuantity
-          units: cm^-1
-          value:
-            class: np_array
-            object:
-            - 23.509544242068525
-            - 12.995314022582397
-            - 8.369130326392137
-        symmetry: 1
-      - class: HarmonicOscillator
-        frequencies:
-          class: ArrayQuantity
-          units: cm^-1
-          value:
-            class: np_array
-            object:
-            - 1537.8085394500001
-            - 3396.7876504099995
-            - 3486.14881464
-        quantum: true
-      number:
-        class: ArrayQuantity
-        value:
-          class: np_array
-          object:
-          - 7.0
-          - 1.0
-          - 1.0
-      opticalIsomers: 1
-      spinMultiplicity: 2
-    thermo:
-      Cp0:
-        class: ScalarQuantity
-        units: J/(mol*K)
-        value: 33.257888
-      CpInf:
-        class: ScalarQuantity
-        units: J/(mol*K)
-        value: 58.201304
-      E0:
-        class: ScalarQuantity
-        units: kJ/mol
-        value: -146481.98038545588
-      Tmax:
-        class: ScalarQuantity
-        units: K
-        value: 3000.0
-      Tmin:
-        class: ScalarQuantity
-        units: K
-        value: 10.0
-      class: NASA
-      polynomials:
-        polynomial1:
-          Tmax:
-            class: ScalarQuantity
-            units: K
-            value: 765.44790339247
-          Tmin:
-            class: ScalarQuantity
-            units: K
-            value: 10.0
-          class: NASAPolynomial
-          coeffs:
-            class: np_array
-            object:
-            - 4.004787164695094
-            - -0.00021928897623145098
-            - 6.385200966543115e-07
-            - 2.388720869793076e-09
-            - -1.8234502459413107e-12
-            - -17617713.131120205
-            - 1.289597074823419
-        polynomial2:
-          Tmax:
-            class: ScalarQuantity
-            units: K
-            value: 3000.0
-          Tmin:
-            class: ScalarQuantity
-            units: K
-            value: 765.44790339247
-          class: NASAPolynomial
-          coeffs:
-            class: np_array
-            object:
-            - 3.28054682622402
-            - 0.0017796762696480715
-            - 2.2059066644608813e-07
-            - -2.950126646334287e-10
-            - 4.848074367772069e-14
-            - -17617549.944556367
-            - 4.9317672717480106
-    thermo_data:
-      Cp0:
-        class: ScalarQuantity
-        units: J/(mol*K)
-        value: 33.257888
-      CpInf:
-        class: ScalarQuantity
-        units: J/(mol*K)
-        value: 58.201304
-      Cpdata:
-        class: ArrayQuantity
-        units: J/(mol*K)
-        value:
-          class: np_array
-          object:
-          - 33.64195671739816
-          - 34.30079383258754
-          - 35.248349059325875
-          - 36.440049033396086
-          - 39.19672492146892
-          - 41.85739541011671
-          - 47.360531664300794
-      E0:
-        class: ScalarQuantity
-        units: kJ/mol
-        value: -146481.98038545588
-      H298:
-        class: ScalarQuantity
-        units: kJ/mol
-        value: -146472.06191574075
-      S298:
-        class: ScalarQuantity
-        units: J/(mol*K)
-        value: 200.26007594776428
-      Tdata:
-        class: ArrayQuantity
-        units: K
-        value:
-          class: np_array
-          object:
-          - 300.0
-          - 400.0
-          - 500.0
-          - 600.0
-          - 800.0
-          - 1000.0
-          - 1500.0
-      class: ThermoData
   g4:
     class: CalculatedDataEntry
     conformer:
@@ -764,7 +572,7 @@ calculated_data:
           - 2000.0
           - 2400.0
       class: ThermoData
-  m062x/cc-pvtz:
+  m062x_cc-pvtz:
     class: CalculatedDataEntry
     conformer:
       E0:
@@ -810,9 +618,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 0.7170546340098182
-            - 1.297208179266773
-            - 2.0142627710161682
+            - 0.7170545739867786
+            - 1.297208070680378
+            - 2.014262602406737
         quantum: false
         rotationalConstant:
           class: ArrayQuantity
@@ -820,9 +628,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 23.50954621000005
-            - 12.995315110391155
-            - 8.369131026953374
+            - 23.50954817793174
+            - 12.995316198200006
+            - 8.369131727514672
         symmetry: 1
       - class: HarmonicOscillator
         frequencies:
@@ -1327,9 +1135,6 @@ calculated_data:
           - 2000.0
           - 2400.0
       class: ThermoData
-  tpss/def2-tzvp:
-    class: CalculatedDataEntry
-    fod: 0.045324
 class: ReferenceSpecies
 datetime: 2019-08-08 16:54
 index: 115

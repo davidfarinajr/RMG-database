@@ -696,7 +696,7 @@ calculated_data:
           - 2000.0
           - 2400.0
       class: ThermoData
-  m062x/cc-pvtz:
+  m062x_cc-pvtz:
     class: CalculatedDataEntry
     conformer:
       E0:
@@ -762,9 +762,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 52.854266149974926
-            - 55.88958200674171
-            - 96.84794976435889
+            - 52.85426172566253
+            - 55.88957732834981
+            - 96.84794165743364
         quantum: false
         rotationalConstant:
           class: ArrayQuantity
@@ -772,9 +772,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 0.31894547557456704
-            - 0.3016238169631513
-            - 0.17406283864929362
+            - 0.3189455022727817
+            - 0.3016238422114085
+            - 0.17406285321970574
         symmetry: 3
       - class: HarmonicOscillator
         frequencies:
@@ -1379,9 +1379,6 @@ calculated_data:
           - 2000.0
           - 2400.0
       class: ThermoData
-  tpss/def2-tzvp:
-    class: CalculatedDataEntry
-    fod: 0.000143
 class: ReferenceSpecies
 datetime: 2019-08-08 16:54
 index: 196
