@@ -23,7 +23,7 @@ calculated_data:
       E0:
         class: ScalarQuantity
         units: kJ/mol
-        value: -505772.4396092058
+        value: -505772.43960920593
       class: Conformer
       coordinates:
         class: ArrayQuantity
@@ -48,7 +48,7 @@ calculated_data:
           object:
           - 18.99840316274001
           - 14.00307400443
-          - 12.000000000000005
+          - 12.000000000000009
       modes:
       - class: IdealGasTranslation
         mass:
@@ -60,12 +60,12 @@ calculated_data:
         inertia:
           class: ScalarQuantity
           units: amu*angstrom^2
-          value: 47.24243410345931
+          value: 47.24243014890081
         quantum: false
         rotationalConstant:
           class: ScalarQuantity
           units: cm^-1
-          value: 0.35683235576792816
+          value: 0.3568323856375691
         symmetry: 1
       - class: HarmonicOscillator
         frequencies:

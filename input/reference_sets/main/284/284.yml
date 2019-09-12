@@ -55,12 +55,12 @@ calculated_data:
         inertia:
           class: ScalarQuantity
           units: amu*angstrom^2
-          value: 11.659897822778477
+          value: 11.65989684675451
         quantum: false
         rotationalConstant:
           class: ScalarQuantity
           units: cm^-1
-          value: 1.4457784544574537
+          value: 1.4457785754803443
         symmetry: 2
       - class: HarmonicOscillator
         frequencies:
@@ -222,12 +222,12 @@ calculated_data:
         inertia:
           class: ScalarQuantity
           units: amu*angstrom^2
-          value: 11.280522568804198
+          value: 11.280521624536886
         quantum: false
         rotationalConstant:
           class: ScalarQuantity
           units: cm^-1
-          value: 1.4944014295904646
+          value: 1.4944015546834761
         symmetry: 2
       - class: HarmonicOscillator
         frequencies:
@@ -247,6 +247,7 @@ calculated_data:
           - 8.0
       opticalIsomers: 1
       spinMultiplicity: 1
+    error_metric: 0.44052359818951065
     fod: 1.999995
     thermo:
       Cp0:
@@ -330,7 +331,7 @@ calculated_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: -94288.42568251917
+        value: -94288.42568251914
       S298:
         class: ScalarQuantity
         units: cal/(mol*K)
@@ -390,12 +391,12 @@ calculated_data:
         inertia:
           class: ScalarQuantity
           units: amu*angstrom^2
-          value: 11.298532977060862
+          value: 11.298532031285939
         quantum: false
         rotationalConstant:
           class: ScalarQuantity
           units: cm^-1
-          value: 1.4920192814035351
+          value: 1.4920194062971426
         symmetry: 2
       - class: HarmonicOscillator
         frequencies:
@@ -558,12 +559,12 @@ calculated_data:
         inertia:
           class: ScalarQuantity
           units: amu*angstrom^2
-          value: 11.419598630665304
+          value: 11.419597674756247
         quantum: false
         rotationalConstant:
           class: ScalarQuantity
           units: cm^-1
-          value: 1.476201537248457
+          value: 1.476201660817996
         symmetry: 2
       - class: HarmonicOscillator
         frequencies:

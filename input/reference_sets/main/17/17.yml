@@ -55,12 +55,12 @@ calculated_data:
         inertia:
           class: ScalarQuantity
           units: amu*angstrom^2
-          value: 211.25710413458253
+          value: 211.25708645072285
         quantum: false
         rotationalConstant:
           class: ScalarQuantity
           units: cm^-1
-          value: 0.07979674398362123
+          value: 0.07979675066322875
         symmetry: 2
       - class: HarmonicOscillator
         frequencies:
@@ -190,7 +190,7 @@ calculated_data:
       E0:
         class: ScalarQuantity
         units: kJ/mol
-        value: -13514074.971466659
+        value: -13514074.97146666
       class: Conformer
       coordinates:
         class: ArrayQuantity
@@ -223,12 +223,12 @@ calculated_data:
         inertia:
           class: ScalarQuantity
           units: amu*angstrom^2
-          value: 211.83303238050823
+          value: 211.8330146484389
         quantum: false
         rotationalConstant:
           class: ScalarQuantity
           units: cm^-1
-          value: 0.07957979387779206
+          value: 0.07957980053923915
         symmetry: 2
       - class: HarmonicOscillator
         frequencies:
@@ -390,12 +390,12 @@ calculated_data:
         inertia:
           class: ScalarQuantity
           units: amu*angstrom^2
-          value: 205.46858762621804
+          value: 205.46857042690218
         quantum: false
         rotationalConstant:
           class: ScalarQuantity
           units: cm^-1
-          value: 0.08204479939296298
+          value: 0.08204480626075018
         symmetry: 2
       - class: HarmonicOscillator
         frequencies:
@@ -558,12 +558,12 @@ calculated_data:
         inertia:
           class: ScalarQuantity
           units: amu*angstrom^2
-          value: 205.59687585059882
+          value: 205.5968586405442
         quantum: false
         rotationalConstant:
           class: ScalarQuantity
           units: cm^-1
-          value: 0.08199360512461498
+          value: 0.08199361198811687
         symmetry: 2
       - class: HarmonicOscillator
         frequencies:
@@ -734,12 +734,12 @@ calculated_data:
         inertia:
           class: ScalarQuantity
           units: amu*angstrom^2
-          value: 203.3836014390928
+          value: 203.38358441430645
         quantum: false
         rotationalConstant:
           class: ScalarQuantity
           units: cm^-1
-          value: 0.08288588132999916
+          value: 0.08288588826819149
         symmetry: 2
       - class: HarmonicOscillator
         frequencies:
@@ -902,12 +902,12 @@ calculated_data:
         inertia:
           class: ScalarQuantity
           units: amu*angstrom^2
-          value: 204.1604420203185
+          value: 204.16042493050455
         quantum: false
         rotationalConstant:
           class: ScalarQuantity
           units: cm^-1
-          value: 0.08257049645136831
+          value: 0.08257050336316045
         symmetry: 2
       - class: HarmonicOscillator
         frequencies:

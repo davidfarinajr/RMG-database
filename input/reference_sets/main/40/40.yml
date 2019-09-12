@@ -450,7 +450,7 @@ calculated_data:
       E0:
         class: ScalarQuantity
         units: kJ/mol
-        value: -197081.16692554016
+        value: -197081.16692554022
       class: Conformer
       coordinates:
         class: ArrayQuantity
@@ -852,7 +852,7 @@ calculated_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: -47072.905944061
+        value: -47072.905944060985
       S298:
         class: ScalarQuantity
         units: cal/(mol*K)

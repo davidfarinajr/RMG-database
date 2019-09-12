@@ -45,7 +45,7 @@ calculated_data:
         mass:
           class: ScalarQuantity
           units: amu
-          value: 14.003070000000003
+          value: 14.003070000000005
         quantum: false
       number:
         class: ArrayQuantity
@@ -187,7 +187,7 @@ calculated_data:
         mass:
           class: ScalarQuantity
           units: amu
-          value: 14.003070000000003
+          value: 14.003070000000005
         quantum: false
       number:
         class: ArrayQuantity
@@ -280,7 +280,7 @@ calculated_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: -34252.65233109294
+        value: -34252.652331092926
       S298:
         class: ScalarQuantity
         units: cal/(mol*K)
@@ -330,7 +330,7 @@ calculated_data:
         mass:
           class: ScalarQuantity
           units: amu
-          value: 14.003070000000003
+          value: 14.003070000000005
         quantum: false
       number:
         class: ArrayQuantity
@@ -473,7 +473,7 @@ calculated_data:
         mass:
           class: ScalarQuantity
           units: amu
-          value: 14.003070000000003
+          value: 14.003070000000005
         quantum: false
       number:
         class: ArrayQuantity

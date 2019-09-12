@@ -39,13 +39,13 @@ calculated_data:
         value:
           class: np_array
           object:
-          - 12.000000000000005
+          - 12.000000000000009
       modes:
       - class: IdealGasTranslation
         mass:
           class: ScalarQuantity
           units: amu
-          value: 12.000000000000004
+          value: 12.000000000000005
         quantum: false
       number:
         class: ArrayQuantity
@@ -182,13 +182,13 @@ calculated_data:
         value:
           class: np_array
           object:
-          - 12.000000000000005
+          - 12.000000000000009
       modes:
       - class: IdealGasTranslation
         mass:
           class: ScalarQuantity
           units: amu
-          value: 12.000000000000004
+          value: 12.000000000000005
         quantum: false
       number:
         class: ArrayQuantity
@@ -280,7 +280,7 @@ calculated_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: -23738.932565432442
+        value: -23738.932565432435
       S298:
         class: ScalarQuantity
         units: cal/(mol*K)
@@ -324,13 +324,13 @@ calculated_data:
         value:
           class: np_array
           object:
-          - 12.000000000000005
+          - 12.000000000000009
       modes:
       - class: IdealGasTranslation
         mass:
           class: ScalarQuantity
           units: amu
-          value: 12.000000000000004
+          value: 12.000000000000005
         quantum: false
       number:
         class: ArrayQuantity
@@ -423,7 +423,7 @@ calculated_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: -23745.26161459281
+        value: -23745.261614592804
       S298:
         class: ScalarQuantity
         units: cal/(mol*K)
@@ -467,13 +467,13 @@ calculated_data:
         value:
           class: np_array
           object:
-          - 12.000000000000005
+          - 12.000000000000009
       modes:
       - class: IdealGasTranslation
         mass:
           class: ScalarQuantity
           units: amu
-          value: 12.000000000000004
+          value: 12.000000000000005
         quantum: false
       number:
         class: ArrayQuantity
@@ -609,13 +609,13 @@ calculated_data:
         value:
           class: np_array
           object:
-          - 12.000000000000005
+          - 12.000000000000009
       modes:
       - class: IdealGasTranslation
         mass:
           class: ScalarQuantity
           units: amu
-          value: 12.000000000000004
+          value: 12.000000000000005
         quantum: false
       number:
         class: ArrayQuantity
@@ -752,13 +752,13 @@ calculated_data:
         value:
           class: np_array
           object:
-          - 12.000000000000005
+          - 12.000000000000009
       modes:
       - class: IdealGasTranslation
         mass:
           class: ScalarQuantity
           units: amu
-          value: 12.000000000000004
+          value: 12.000000000000005
         quantum: false
       number:
         class: ArrayQuantity
@@ -878,7 +878,7 @@ calculated_data:
       E0:
         class: ScalarQuantity
         units: kJ/mol
-        value: -99354.2036529472
+        value: -99354.20365294722
       class: Conformer
       coordinates:
         class: ArrayQuantity
@@ -895,13 +895,13 @@ calculated_data:
         value:
           class: np_array
           object:
-          - 12.000000000000005
+          - 12.000000000000009
       modes:
       - class: IdealGasTranslation
         mass:
           class: ScalarQuantity
           units: amu
-          value: 12.000000000000004
+          value: 12.000000000000005
         quantum: false
       number:
         class: ArrayQuantity

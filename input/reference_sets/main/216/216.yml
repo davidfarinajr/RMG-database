@@ -51,9 +51,9 @@ calculated_data:
         value:
           class: np_array
           object:
-          - 12.000000000000005
-          - 12.000000000000005
-          - 12.000000000000005
+          - 12.000000000000009
+          - 12.000000000000009
+          - 12.000000000000009
           - 1.00782503224
       modes:
       - class: IdealGasTranslation
@@ -69,9 +69,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 11.121697926105156
-            - 14.70651118566473
-            - 25.82820626718018
+            - 11.1216969951327
+            - 14.706509954615575
+            - 25.828204105158804
         quantum: false
         rotationalConstant:
           class: ArrayQuantity
@@ -79,9 +79,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 1.5157423952128568
-            - 1.1462697604160925
-            - 0.6526829187812949
+            - 1.5157425220922733
+            - 1.1462698563677782
+            - 0.6526829734159267
         symmetry: 1
       - class: HarmonicOscillator
         frequencies:
@@ -244,9 +244,9 @@ calculated_data:
         value:
           class: np_array
           object:
-          - 12.000000000000005
-          - 12.000000000000005
-          - 12.000000000000005
+          - 12.000000000000009
+          - 12.000000000000009
+          - 12.000000000000009
           - 1.00782503224
       modes:
       - class: IdealGasTranslation
@@ -262,9 +262,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 11.08329246564702
-            - 14.6451677146542
-            - 25.728458383608164
+            - 11.083291537889398
+            - 14.645166488739967
+            - 25.72845622993646
         quantum: false
         rotationalConstant:
           class: ArrayQuantity
@@ -272,9 +272,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 1.520994695899183
-            - 1.1510710824076442
-            - 0.6552133362210557
+            - 1.5209948232182575
+            - 1.151071178761238
+            - 0.6552133910675032
         symmetry: 1
       - class: HarmonicOscillator
         frequencies:
@@ -301,6 +301,7 @@ calculated_data:
           - 1.0
       opticalIsomers: 1
       spinMultiplicity: 2
+    error_metric: 1.7280387840674354
     fod: 0.323691
     thermo:
       Cp0:
@@ -411,7 +412,7 @@ calculated_data:
       E0:
         class: ScalarQuantity
         units: kJ/mol
-        value: -301031.47505644086
+        value: -301031.4750564409
       class: Conformer
       coordinates:
         class: ArrayQuantity
@@ -437,9 +438,9 @@ calculated_data:
         value:
           class: np_array
           object:
-          - 12.000000000000005
-          - 12.000000000000005
-          - 12.000000000000005
+          - 12.000000000000009
+          - 12.000000000000009
+          - 12.000000000000009
           - 1.00782503224
       modes:
       - class: IdealGasTranslation
@@ -455,9 +456,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 11.095860951647753
-            - 14.63980531022206
-            - 25.735664390600473
+            - 11.095860022838048
+            - 14.639804084756703
+            - 25.735662236325567
         quantum: false
         rotationalConstant:
           class: ArrayQuantity
@@ -465,9 +466,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 1.5192718372020615
-            - 1.1514927074595633
-            - 0.6550298759532109
+            - 1.5192719643769195
+            - 1.1514928038484504
+            - 0.6550299307843014
         symmetry: 1
       - class: HarmonicOscillator
         frequencies:
@@ -629,9 +630,9 @@ calculated_data:
         value:
           class: np_array
           object:
-          - 12.000000000000005
-          - 12.000000000000005
-          - 12.000000000000005
+          - 12.000000000000009
+          - 12.000000000000009
+          - 12.000000000000009
           - 1.00782503224
       modes:
       - class: IdealGasTranslation
@@ -647,9 +648,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 10.980257143765847
-            - 15.022619952247203
-            - 26.0028793875917
+            - 10.980256224633083
+            - 15.022618694737291
+            - 26.002877210948824
         quantum: false
         rotationalConstant:
           class: ArrayQuantity
@@ -657,9 +658,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 1.535267237609238
-            - 1.1221497386563917
-            - 0.648298551943935
+            - 1.5352673661230352
+            - 1.122149832589044
+            - 0.6482986062115613
         symmetry: 1
       - class: HarmonicOscillator
         frequencies:
@@ -822,9 +823,9 @@ calculated_data:
         value:
           class: np_array
           object:
-          - 12.000000000000005
-          - 12.000000000000005
-          - 12.000000000000005
+          - 12.000000000000009
+          - 12.000000000000009
+          - 12.000000000000009
           - 1.00782503224
       modes:
       - class: IdealGasTranslation
@@ -840,9 +841,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 11.088060999106563
-            - 14.701501492975437
-            - 25.789562005073346
+            - 11.088060070949778
+            - 14.701500262345629
+            - 25.7895598462868
         quantum: false
         rotationalConstant:
           class: ArrayQuantity
@@ -850,9 +851,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 1.520340576653287
-            - 1.1466603640045394
-            - 0.6536609287909676
+            - 1.520340703917607
+            - 1.1466604599889216
+            - 0.6536609835074665
         symmetry: 1
       - class: HarmonicOscillator
         frequencies:

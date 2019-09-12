@@ -55,8 +55,8 @@ calculated_data:
           class: np_array
           object:
           - 15.99491461957
-          - 12.000000000000005
-          - 12.000000000000005
+          - 12.000000000000009
+          - 12.000000000000009
           - 1.00782503224
           - 1.00782503224
       modes:
@@ -73,9 +73,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 15.048681334556727
-            - 19.230978550422297
-            - 34.27966714221151
+            - 15.048680074865269
+            - 19.230976940640097
+            - 34.27966427273724
         quantum: false
         rotationalConstant:
           class: ArrayQuantity
@@ -83,9 +83,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 1.1202063940737337
-            - 0.8765871694541677
-            - 0.4917675829060266
+            - 1.1202064878437135
+            - 0.876587242831325
+            - 0.49176762407079444
         symmetry: 2
       - class: HarmonicOscillator
         frequencies:
@@ -254,8 +254,8 @@ calculated_data:
           class: np_array
           object:
           - 15.99491461957
-          - 12.000000000000005
-          - 12.000000000000005
+          - 12.000000000000009
+          - 12.000000000000009
           - 1.00782503224
           - 1.00782503224
       modes:
@@ -272,9 +272,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 14.983447917825934
-            - 18.558234754827158
-            - 33.5416864284275
+            - 14.983446663595025
+            - 18.55823320135884
+            - 33.541683620727945
         quantum: false
         rotationalConstant:
           class: ArrayQuantity
@@ -282,9 +282,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 1.1250834351212866
-            - 0.9083638221013277
-            - 0.5025874023752482
+            - 1.1250835292995123
+            - 0.9083638981384378
+            - 0.5025874444457192
         symmetry: 2
       - class: HarmonicOscillator
         frequencies:
@@ -315,6 +315,7 @@ calculated_data:
           - 1.0
       opticalIsomers: 1
       spinMultiplicity: 1
+    error_metric: 3.631687533385298
     fod: 0.100617
     thermo:
       Cp0:
@@ -455,8 +456,8 @@ calculated_data:
           class: np_array
           object:
           - 15.99491461957
-          - 12.000000000000005
-          - 12.000000000000005
+          - 12.000000000000009
+          - 12.000000000000009
           - 1.00782503224
           - 1.00782503224
       modes:
@@ -473,9 +474,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 14.973499368252563
-            - 18.611728319970744
-            - 33.58524170468734
+            - 14.973498114854427
+            - 18.611726762024592
+            - 33.58523889334188
         quantum: false
         rotationalConstant:
           class: ArrayQuantity
@@ -483,9 +484,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 1.1258309523217225
-            - 0.9057530157078392
-            - 0.5019356180782153
+            - 1.125831046562521
+            - 0.9057530915264045
+            - 0.5019356600941266
         symmetry: 2
       - class: HarmonicOscillator
         frequencies:
@@ -656,8 +657,8 @@ calculated_data:
           class: np_array
           object:
           - 15.99491461957
-          - 12.000000000000005
-          - 12.000000000000005
+          - 12.000000000000009
+          - 12.000000000000009
           - 1.00782503224
           - 1.00782503224
       modes:
@@ -674,9 +675,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 15.013274923624538
-            - 18.465372417107474
-            - 33.47864950604936
+            - 15.013273666896877
+            - 18.465370871412453
+            - 33.47864670362649
         quantum: false
         rotationalConstant:
           class: ArrayQuantity
@@ -684,9 +685,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 1.1228482219306943
-            - 0.9129319827706552
-            - 0.5035337237932026
+            - 1.1228483159218152
+            - 0.9129320591901559
+            - 0.5035337659428878
         symmetry: 2
       - class: HarmonicOscillator
         frequencies:

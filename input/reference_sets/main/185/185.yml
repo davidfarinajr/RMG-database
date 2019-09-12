@@ -60,8 +60,8 @@ calculated_data:
           object:
           - 18.99840316274001
           - 18.99840316274001
-          - 12.000000000000005
-          - 12.000000000000005
+          - 12.000000000000009
+          - 12.000000000000009
           - 1.00782503224
           - 1.00782503224
       modes:
@@ -69,7 +69,7 @@ calculated_data:
         mass:
           class: ScalarQuantity
           units: amu
-          value: 64.01246000000003
+          value: 64.01246000000005
         quantum: false
       - class: NonlinearRotor
         inertia:
@@ -78,9 +78,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 46.1401831019416
-            - 48.405767397209004
-            - 94.5458862853254
+            - 46.14017923965008
+            - 48.4057633452705
+            - 94.54587837110074
         quantum: false
         rotationalConstant:
           class: ArrayQuantity
@@ -88,9 +88,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 0.365356787078704
-            - 0.3482566222949804
-            - 0.17830103154858246
+            - 0.365356817661906
+            - 0.34825665144676565
+            - 0.17830104647376424
         symmetry: 2
       - class: HarmonicOscillator
         frequencies:
@@ -269,8 +269,8 @@ calculated_data:
           object:
           - 18.99840316274001
           - 18.99840316274001
-          - 12.000000000000005
-          - 12.000000000000005
+          - 12.000000000000009
+          - 12.000000000000009
           - 1.00782503224
           - 1.00782503224
       modes:
@@ -278,7 +278,7 @@ calculated_data:
         mass:
           class: ScalarQuantity
           units: amu
-          value: 64.01246000000003
+          value: 64.01246000000005
         quantum: false
       - class: NonlinearRotor
         inertia:
@@ -287,9 +287,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 45.71430556749414
-            - 48.265231288091485
-            - 93.97958217652281
+            - 45.71430174085189
+            - 48.265227247916926
+            - 93.97957430970219
         quantum: false
         rotationalConstant:
           class: ArrayQuantity
@@ -297,9 +297,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 0.3687604753934044
-            - 0.3492706572299756
-            - 0.17937544158990446
+            - 0.36876050626152146
+            - 0.34927068646664355
+            - 0.17937545660502272
         symmetry: 2
       - class: HarmonicOscillator
         frequencies:
@@ -477,8 +477,8 @@ calculated_data:
           object:
           - 18.99840316274001
           - 18.99840316274001
-          - 12.000000000000005
-          - 12.000000000000005
+          - 12.000000000000009
+          - 12.000000000000009
           - 1.00782503224
           - 1.00782503224
       modes:
@@ -486,7 +486,7 @@ calculated_data:
         mass:
           class: ScalarQuantity
           units: amu
-          value: 64.01246000000003
+          value: 64.01246000000005
         quantum: false
       - class: NonlinearRotor
         inertia:
@@ -495,9 +495,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 45.560995346124606
-            - 48.066234331937
-            - 93.62718790642421
+            - 45.560991532315605
+            - 48.06623030842003
+            - 93.62718006910174
         quantum: false
         rotationalConstant:
           class: ArrayQuantity
@@ -505,9 +505,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 0.37000133393227974
-            - 0.3507166577047135
-            - 0.18005057537557217
+            - 0.37000136490426627
+            - 0.3507166870624228
+            - 0.18005059044720434
         symmetry: 2
       - class: HarmonicOscillator
         frequencies:
@@ -542,6 +542,7 @@ calculated_data:
           - 1.0
       opticalIsomers: 1
       spinMultiplicity: 1
+    error_metric: 0.7643567705932124
     fod: 0.003137
     thermo:
       Cp0:
@@ -704,9 +705,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 45.56812049396124
-            - 48.016523217141575
-            - 93.58466371112642
+            - 45.5681166795558
+            - 48.01651919778581
+            - 93.58465587736357
         quantum: false
         rotationalConstant:
           class: ArrayQuantity
@@ -714,9 +715,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 0.36994347957762475
-            - 0.35107975179948964
-            - 0.18013238905665122
+            - 0.36994351054476854
+            - 0.35107978118759287
+            - 0.18013240413513182
         symmetry: 2
       - class: HarmonicOscillator
         frequencies:
@@ -903,8 +904,8 @@ calculated_data:
           object:
           - 18.99840316274001
           - 18.99840316274001
-          - 12.000000000000005
-          - 12.000000000000005
+          - 12.000000000000009
+          - 12.000000000000009
           - 1.00782503224
           - 1.00782503224
       modes:
@@ -912,7 +913,7 @@ calculated_data:
         mass:
           class: ScalarQuantity
           units: amu
-          value: 64.01246000000003
+          value: 64.01246000000005
         quantum: false
       - class: NonlinearRotor
         inertia:
@@ -921,9 +922,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 46.05214135311257
-            - 48.02717937743944
-            - 94.07930287155581
+            - 46.052137498190824
+            - 48.02717535719167
+            - 94.07929499638777
         quantum: false
         rotationalConstant:
           class: ArrayQuantity
@@ -931,9 +932,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 0.3660552703530065
-            - 0.35100185503018094
-            - 0.17918531003959295
+            - 0.36605530099467704
+            - 0.3510018844117636
+            - 0.17918532503879572
         symmetry: 2
       - class: HarmonicOscillator
         frequencies:
@@ -1112,8 +1113,8 @@ calculated_data:
           object:
           - 18.99840316274001
           - 18.99840316274001
-          - 12.000000000000005
-          - 12.000000000000005
+          - 12.000000000000009
+          - 12.000000000000009
           - 1.00782503224
           - 1.00782503224
       modes:
@@ -1121,7 +1122,7 @@ calculated_data:
         mass:
           class: ScalarQuantity
           units: amu
-          value: 64.01246000000003
+          value: 64.01246000000005
         quantum: false
       - class: NonlinearRotor
         inertia:
@@ -1130,9 +1131,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 45.59869156240561
-            - 48.12793787271549
-            - 93.72668323504762
+            - 45.598687745441126
+            - 48.12793384403347
+            - 93.7266753893966
         quantum: false
         rotationalConstant:
           class: ArrayQuantity
@@ -1140,9 +1141,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 0.36969545563116485
-            - 0.35026701326643284
-            - 0.17985944313289057
+            - 0.36969548657754714
+            - 0.3502670425865035
+            - 0.17985945818852353
         symmetry: 2
       - class: HarmonicOscillator
         frequencies:
@@ -1321,8 +1322,8 @@ calculated_data:
           object:
           - 18.99840316274001
           - 18.99840316274001
-          - 12.000000000000005
-          - 12.000000000000005
+          - 12.000000000000009
+          - 12.000000000000009
           - 1.00782503224
           - 1.00782503224
       modes:
@@ -1330,7 +1331,7 @@ calculated_data:
         mass:
           class: ScalarQuantity
           units: amu
-          value: 64.01246000000003
+          value: 64.01246000000005
         quantum: false
       - class: NonlinearRotor
         inertia:
@@ -1339,9 +1340,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 45.60494603588974
-            - 48.02476051595399
-            - 93.62978980358757
+            - 45.60494221840173
+            - 48.024756495908704
+            - 93.62978196604729
         quantum: false
         rotationalConstant:
           class: ArrayQuantity
@@ -1349,9 +1350,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 0.36964475388441503
-            - 0.35101953392871854
-            - 0.18004557191372195
+            - 0.3696447848265531
+            - 0.3510195633117811
+            - 0.1800455869849353
         symmetry: 2
       - class: HarmonicOscillator
         frequencies:

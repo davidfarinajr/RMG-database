@@ -51,27 +51,27 @@ calculated_data:
         value:
           class: np_array
           object:
-          - 12.000000000000005
-          - 12.000000000000005
-          - 12.000000000000005
-          - 12.000000000000005
+          - 12.000000000000009
+          - 12.000000000000009
+          - 12.000000000000009
+          - 12.000000000000009
       modes:
       - class: IdealGasTranslation
         mass:
           class: ScalarQuantity
           units: amu
-          value: 48.000000000000014
+          value: 48.00000000000002
         quantum: false
       - class: LinearRotor
         inertia:
           class: ScalarQuantity
           units: amu*angstrom^2
-          value: 101.67653812536761
+          value: 101.67652961425202
         quantum: false
         rotationalConstant:
           class: ScalarQuantity
           units: cm^-1
-          value: 0.16579664654360052
+          value: 0.16579666042206812
         symmetry: 2
       - class: HarmonicOscillator
         frequencies:
@@ -234,27 +234,27 @@ calculated_data:
         value:
           class: np_array
           object:
-          - 12.000000000000005
-          - 12.000000000000005
-          - 12.000000000000005
-          - 12.000000000000005
+          - 12.000000000000009
+          - 12.000000000000009
+          - 12.000000000000009
+          - 12.000000000000009
       modes:
       - class: IdealGasTranslation
         mass:
           class: ScalarQuantity
           units: amu
-          value: 48.000000000000014
+          value: 48.00000000000002
         quantum: false
       - class: LinearRotor
         inertia:
           class: ScalarQuantity
           units: amu*angstrom^2
-          value: 100.88914754455027
+          value: 100.88913909934539
         quantum: false
         rotationalConstant:
           class: ScalarQuantity
           units: cm^-1
-          value: 0.16709060849091387
+          value: 0.16709062247769615
         symmetry: 2
       - class: HarmonicOscillator
         frequencies:
@@ -281,6 +281,7 @@ calculated_data:
           - 6.0
       opticalIsomers: 1
       spinMultiplicity: 3
+    error_metric: 2.1134669485962587
     fod: 0.654238
     thermo:
       Cp0:
@@ -364,7 +365,7 @@ calculated_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: -95420.14739982264
+        value: -95420.14739982261
       S298:
         class: ScalarQuantity
         units: cal/(mol*K)
@@ -417,27 +418,27 @@ calculated_data:
         value:
           class: np_array
           object:
-          - 12.000000000000005
-          - 12.000000000000005
-          - 12.000000000000005
-          - 12.000000000000005
+          - 12.000000000000009
+          - 12.000000000000009
+          - 12.000000000000009
+          - 12.000000000000009
       modes:
       - class: IdealGasTranslation
         mass:
           class: ScalarQuantity
           units: amu
-          value: 48.000000000000014
+          value: 48.00000000000002
         quantum: false
       - class: LinearRotor
         inertia:
           class: ScalarQuantity
           units: amu*angstrom^2
-          value: 100.93400038376858
+          value: 100.93399193480919
         quantum: false
         rotationalConstant:
           class: ScalarQuantity
           units: cm^-1
-          value: 0.16701635711705531
+          value: 0.16701637109762218
         symmetry: 2
       - class: HarmonicOscillator
         frequencies:
@@ -601,27 +602,27 @@ calculated_data:
         value:
           class: np_array
           object:
-          - 12.000000000000005
-          - 12.000000000000005
-          - 12.000000000000005
-          - 12.000000000000005
+          - 12.000000000000009
+          - 12.000000000000009
+          - 12.000000000000009
+          - 12.000000000000009
       modes:
       - class: IdealGasTranslation
         mass:
           class: ScalarQuantity
           units: amu
-          value: 48.000000000000014
+          value: 48.00000000000002
         quantum: false
       - class: LinearRotor
         inertia:
           class: ScalarQuantity
           units: amu*angstrom^2
-          value: 101.10450614725352
+          value: 101.10449768402145
         quantum: false
         rotationalConstant:
           class: ScalarQuantity
           units: cm^-1
-          value: 0.16673469557129553
+          value: 0.16673470952828515
         symmetry: 2
       - class: HarmonicOscillator
         frequencies:

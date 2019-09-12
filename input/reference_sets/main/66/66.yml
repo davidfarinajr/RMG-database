@@ -280,7 +280,7 @@ calculated_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: -62563.45775515598
+        value: -62563.45775515596
       S298:
         class: ScalarQuantity
         units: cal/(mol*K)
@@ -353,7 +353,7 @@ calculated_data:
       E0:
         class: ScalarQuantity
         units: kJ/mol
-        value: -261846.89596168385
+        value: -261846.89596168388
       Tmax:
         class: ScalarQuantity
         units: K
