@@ -198,6 +198,7 @@ calculated_data:
           - 17.0
       opticalIsomers: 1
       spinMultiplicity: 2
+    fod: 1.333314
     thermo:
       Cp0:
         class: ScalarQuantity

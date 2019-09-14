@@ -198,6 +198,7 @@ calculated_data:
           - 8.0
       opticalIsomers: 1
       spinMultiplicity: 3
+    fod: 0.467535
     thermo:
       Cp0:
         class: ScalarQuantity
@@ -852,7 +853,7 @@ calculated_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: -47072.905944060985
+        value: -47072.90594406097
       S298:
         class: ScalarQuantity
         units: cal/(mol*K)

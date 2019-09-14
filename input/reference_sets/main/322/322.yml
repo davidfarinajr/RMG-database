@@ -53,7 +53,7 @@ calculated_data:
           - 18.99840316274001
           - 18.99840316274001
           - 15.99491461957
-          - 12.000000000000009
+          - 12.00000000000001
       modes:
       - class: IdealGasTranslation
         mass:
@@ -68,9 +68,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 42.74594704605031
-            - 43.07020719844447
-            - 85.8161311906247
+            - 42.74594346788271
+            - 43.070203593133776
+            - 85.8161240071483
         quantum: false
         rotationalConstant:
           class: ArrayQuantity
@@ -78,9 +78,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 0.3943678925907929
-            - 0.3913988380802896
-            - 0.19643893076352256
+            - 0.3943679256024499
+            - 0.39139887084341357
+            - 0.19643894720698746
         symmetry: 1
       - class: HarmonicOscillator
         frequencies:
@@ -246,7 +246,7 @@ calculated_data:
           - 18.99840316274001
           - 18.99840316274001
           - 15.99491461957
-          - 12.000000000000009
+          - 12.00000000000001
       modes:
       - class: IdealGasTranslation
         mass:
@@ -261,9 +261,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 42.51812354103042
-            - 42.64225252568395
-            - 85.16033863909583
+            - 42.518119981933395
+            - 42.64224895619636
+            - 85.16033151051437
         quantum: false
         rotationalConstant:
           class: ArrayQuantity
@@ -271,9 +271,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 0.3964810214891236
-            - 0.3953268895257102
-            - 0.19795164418955713
+            - 0.3964810546776659
+            - 0.39532692261764274
+            - 0.1979516607596479
         symmetry: 1
       - class: HarmonicOscillator
         frequencies:
@@ -439,7 +439,7 @@ calculated_data:
           - 18.99840316274001
           - 18.99840316274001
           - 15.99491461957
-          - 12.000000000000009
+          - 12.00000000000001
       modes:
       - class: IdealGasTranslation
         mass:
@@ -454,9 +454,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 42.50721618549495
-            - 42.620711294065316
-            - 85.1279195568912
+            - 42.50721262731094
+            - 42.6207077263809
+            - 85.12791243102346
         quantum: false
         rotationalConstant:
           class: ArrayQuantity
@@ -464,9 +464,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 0.3965827585552627
-            - 0.3955266944523242
-            - 0.19802702968774538
+            - 0.3965827917523212
+            - 0.39552672756098184
+            - 0.1980270462641465
         symmetry: 1
       - class: HarmonicOscillator
         frequencies:
@@ -632,7 +632,7 @@ calculated_data:
           - 18.99840316274001
           - 18.99840316274001
           - 15.99491461957
-          - 12.000000000000009
+          - 12.00000000000001
       modes:
       - class: IdealGasTranslation
         mass:
@@ -647,9 +647,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 42.51662121220294
-            - 42.83710794514824
-            - 85.35378712569957
+            - 42.516617653231684
+            - 42.83710435934975
+            - 85.35377998092497
         quantum: false
         rotationalConstant:
           class: ArrayQuantity
@@ -657,9 +657,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 0.39649503118347723
-            - 0.3935286451861837
-            - 0.1975030004060915
+            - 0.3964950643731922
+            - 0.3935286781275892
+            - 0.19750301693862732
         symmetry: 1
       - class: HarmonicOscillator
         frequencies:

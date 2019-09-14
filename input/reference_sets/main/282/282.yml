@@ -48,7 +48,7 @@ calculated_data:
           object:
           - 15.99491461957
           - 15.99491461957
-          - 12.000000000000009
+          - 12.00000000000001
       modes:
       - class: IdealGasTranslation
         mass:
@@ -60,12 +60,12 @@ calculated_data:
         inertia:
           class: ScalarQuantity
           units: amu*angstrom^2
-          value: 43.25948014328405
+          value: 43.25947652212973
         quantum: false
         rotationalConstant:
           class: ScalarQuantity
           units: cm^-1
-          value: 0.3896863530840559
+          value: 0.38968638570383163
         symmetry: 2
       - class: HarmonicOscillator
         frequencies:
@@ -223,7 +223,7 @@ calculated_data:
           object:
           - 15.99491461957
           - 15.99491461957
-          - 12.000000000000009
+          - 12.00000000000001
       modes:
       - class: IdealGasTranslation
         mass:
@@ -235,12 +235,12 @@ calculated_data:
         inertia:
           class: ScalarQuantity
           units: amu*angstrom^2
-          value: 42.69812728149825
+          value: 42.69812370733352
         quantum: false
         rotationalConstant:
           class: ScalarQuantity
           units: cm^-1
-          value: 0.39480956488349694
+          value: 0.3948095979321252
         symmetry: 2
       - class: HarmonicOscillator
         frequencies:
@@ -399,7 +399,7 @@ calculated_data:
           object:
           - 15.99491461957
           - 15.99491461957
-          - 12.000000000000009
+          - 12.00000000000001
       modes:
       - class: IdealGasTranslation
         mass:
@@ -411,12 +411,12 @@ calculated_data:
         inertia:
           class: ScalarQuantity
           units: amu*angstrom^2
-          value: 42.69709557522509
+          value: 42.69709200114672
         quantum: false
         rotationalConstant:
           class: ScalarQuantity
           units: cm^-1
-          value: 0.3948191048182233
+          value: 0.39481913786765027
         symmetry: 2
       - class: HarmonicOscillator
         frequencies:
@@ -575,7 +575,7 @@ calculated_data:
           object:
           - 15.99491461957
           - 15.99491461957
-          - 12.000000000000009
+          - 12.00000000000001
       modes:
       - class: IdealGasTranslation
         mass:
@@ -587,12 +587,12 @@ calculated_data:
         inertia:
           class: ScalarQuantity
           units: amu*angstrom^2
-          value: 42.981612732732174
+          value: 42.98160913483752
         quantum: false
         rotationalConstant:
           class: ScalarQuantity
           units: cm^-1
-          value: 0.39220559633656443
+          value: 0.3922056291672203
         symmetry: 2
       - class: HarmonicOscillator
         frequencies:
@@ -699,7 +699,7 @@ calculated_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: -118256.7162030043
+        value: -118256.71620300427
       S298:
         class: ScalarQuantity
         units: cal/(mol*K)

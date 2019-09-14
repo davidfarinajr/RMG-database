@@ -62,8 +62,8 @@ calculated_data:
           - 34.968852682
           - 34.968852682
           - 34.968852682
-          - 12.000000000000009
-          - 12.000000000000009
+          - 12.00000000000001
+          - 12.00000000000001
       modes:
       - class: IdealGasTranslation
         mass:
@@ -78,9 +78,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 295.9412777615483
-            - 365.5200017599762
-            - 661.464759280913
+            - 295.94125298896586
+            - 365.5199711631144
+            - 661.4647039111775
         quantum: false
         rotationalConstant:
           class: ArrayQuantity
@@ -88,9 +88,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 0.056962750113322684
-            - 0.04611958024780896
-            - 0.02548530184990451
+            - 0.05696275488154748
+            - 0.04611958410837619
+            - 0.025485303983222306
         symmetry: 4
       - class: HarmonicOscillator
         frequencies:
@@ -235,7 +235,7 @@ calculated_data:
       E0:
         class: ScalarQuantity
         units: kJ/mol
-        value: -5031653.473415599
+        value: -5031654.051961116
       class: Conformer
       coordinates:
         class: ArrayQuantity
@@ -271,8 +271,8 @@ calculated_data:
           - 34.968852682
           - 34.968852682
           - 34.968852682
-          - 12.000000000000009
-          - 12.000000000000009
+          - 12.000000000000005
+          - 12.000000000000005
       modes:
       - class: IdealGasTranslation
         mass:
@@ -287,9 +287,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 296.050495898467
-            - 367.3345835393197
-            - 663.3836339731117
+            - 296.0505206801938
+            - 367.3346142880786
+            - 663.3836895034766
         quantum: false
         rotationalConstant:
           class: ArrayQuantity
@@ -297,9 +297,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 0.056941735571792315
-            - 0.04589175593248775
-            - 0.02541158417247262
+            - 0.056941730805327
+            - 0.045891752090991514
+            - 0.025411582045325745
         symmetry: 4
       - class: HarmonicOscillator
         frequencies:
@@ -308,18 +308,18 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 98.20206031
-            - 176.60245951
-            - 237.11950524
-            - 293.26475566
-            - 312.52428634999995
-            - 347.60290468
-            - 448.79363269
-            - 539.66998194
-            - 776.02494428
-            - 893.2641228
-            - 970.1076346399999
-            - 1624.6328113299999
+            - 96.768310229474
+            - 174.024063601154
+            - 233.657560463496
+            - 288.983090227364
+            - 307.96143176928996
+            - 342.527902271672
+            - 442.241245652726
+            - 531.790800203676
+            - 764.6949800935121
+            - 880.22246660712
+            - 955.9440631742559
+            - 1600.913172284582
         quantum: true
       number:
         class: ArrayQuantity
@@ -334,6 +334,7 @@ calculated_data:
           - 6.0
       opticalIsomers: 1
       spinMultiplicity: 1
+    fod: 0.030455
     thermo:
       Cp0:
         class: ScalarQuantity
@@ -346,7 +347,7 @@ calculated_data:
       E0:
         class: ScalarQuantity
         units: kJ/mol
-        value: -5031653.516298129
+        value: -5031654.094844246
       Tmax:
         class: ScalarQuantity
         units: K
@@ -361,7 +362,7 @@ calculated_data:
           Tmax:
             class: ScalarQuantity
             units: K
-            value: 396.4586190430382
+            value: 394.4875029231298
           Tmin:
             class: ScalarQuantity
             units: K
@@ -370,13 +371,13 @@ calculated_data:
           coeffs:
             class: np_array
             object:
-            - 3.711628413321293
-            - 0.02263120201017135
-            - 9.83803886804144e-05
-            - -4.0949745360021187e-07
-            - 4.0332761157829684e-10
-            - -605168136.6259768
-            - 11.575459127268822
+            - 3.704392851466316
+            - 0.023310894397544857
+            - 9.74499412471681e-05
+            - -4.134592194522607e-07
+            - 4.107995111247069e-10
+            - -605168206.3679593
+            - 11.584953714423525
         polynomial2:
           Tmax:
             class: ScalarQuantity
@@ -385,18 +386,18 @@ calculated_data:
           Tmin:
             class: ScalarQuantity
             units: K
-            value: 396.4586190430382
+            value: 394.4875029231298
           class: NASAPolynomial
           coeffs:
             class: np_array
             object:
-            - 7.836384565599359
-            - 0.01659105419551563
-            - -1.3367886462058129e-05
-            - 4.7524742237406964e-09
-            - -6.168610963008212e-13
-            - -605168743.2746764
-            - -8.03403717817308
+            - 7.92106789105098
+            - 0.01650092258254991
+            - -1.3336980137856289e-05
+            - 4.7510578918111726e-09
+            - -6.175089781181201e-13
+            - -605168818.7496786
+            - -8.380913311199112
     thermo_data:
       Cpdata:
         class: ArrayQuantity
@@ -404,23 +405,23 @@ calculated_data:
         value:
           class: np_array
           object:
-          - 22.98352644281209
-          - 25.08313870706383
-          - 26.52015607024387
-          - 27.67218276848751
-          - 29.280257877300905
-          - 30.19593151863651
-          - 30.92483309601031
-          - 31.19310762931341
-          - 31.572978479322344
+          - 23.115649034010357
+          - 25.189391580596848
+          - 26.6138062883968
+          - 27.75433535816354
+          - 29.342591673058518
+          - 30.24241987566692
+          - 30.946623040831213
+          - 31.2057236717275
+          - 31.58353719376582
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: -1202589.3634821319
+        value: -1202589.4712384206
       S298:
         class: ScalarQuantity
         units: cal/(mol*K)
-        value: 81.50776879867159
+        value: 81.72495284649102
       Tdata:
         class: ArrayQuantity
         units: K
@@ -479,8 +480,8 @@ calculated_data:
           - 34.968852682
           - 34.968852682
           - 34.968852682
-          - 12.000000000000009
-          - 12.000000000000009
+          - 12.00000000000001
+          - 12.00000000000001
       modes:
       - class: IdealGasTranslation
         mass:
@@ -495,9 +496,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 292.77640545105663
-            - 361.0107293616659
-            - 653.7890297974071
+            - 292.77638094339864
+            - 361.0106991422653
+            - 653.7889750701898
         quantum: false
         rotationalConstant:
           class: ArrayQuantity
@@ -505,9 +506,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 0.05757850953657732
-            - 0.046695645537061785
-            - 0.025784508893598675
+            - 0.05757851435634597
+            - 0.04669564944585015
+            - 0.02578451105196242
         symmetry: 4
       - class: HarmonicOscillator
         frequencies:
@@ -705,9 +706,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 292.98672762134777
-            - 360.9976543509519
-            - 653.9832889587009
+            - 292.9867030960841
+            - 360.9976241326458
+            - 653.9832342152225
         quantum: false
         rotationalConstant:
           class: ArrayQuantity
@@ -715,9 +716,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 0.05753717647966318
-            - 0.046697336811390946
-            - 0.025776849864451282
+            - 0.05753718129597194
+            - 0.04669734072032088
+            - 0.02577685202217391
         symmetry: 4
       - class: HarmonicOscillator
         frequencies:
@@ -906,8 +907,8 @@ calculated_data:
           - 34.968852682
           - 34.968852682
           - 34.968852682
-          - 12.000000000000009
-          - 12.000000000000009
+          - 12.00000000000001
+          - 12.00000000000001
       modes:
       - class: IdealGasTranslation
         mass:
@@ -922,9 +923,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 291.88358824642836
-            - 358.7275218328917
-            - 650.6075337076084
+            - 291.88356381350604
+            - 358.7274918046132
+            - 650.6074792467069
         quantum: false
         rotationalConstant:
           class: ArrayQuantity
@@ -932,9 +933,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 0.05775463140845081
-            - 0.046992851195848284
-            - 0.025910596142780812
+            - 0.057754636242962225
+            - 0.04699285512951508
+            - 0.02591059831169904
         symmetry: 4
       - class: HarmonicOscillator
         frequencies:
@@ -1115,8 +1116,8 @@ calculated_data:
           - 34.968852682
           - 34.968852682
           - 34.968852682
-          - 12.000000000000009
-          - 12.000000000000009
+          - 12.00000000000001
+          - 12.00000000000001
       modes:
       - class: IdealGasTranslation
         mass:
@@ -1131,9 +1132,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 290.2591535574001
-            - 358.5595436819486
-            - 648.8200585854722
+            - 290.2591292604556
+            - 358.5595136677312
+            - 648.8200042741963
         quantum: false
         rotationalConstant:
           class: ArrayQuantity
@@ -1141,9 +1142,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 0.058077855071036785
-            - 0.04701486642983247
-            - 0.025981978871153773
+            - 0.05807785993260453
+            - 0.04701487036534211
+            - 0.025981981046047296
         symmetry: 4
       - class: HarmonicOscillator
         frequencies:
@@ -1324,8 +1325,8 @@ calculated_data:
           - 34.968852682
           - 34.968852682
           - 34.968852682
-          - 12.000000000000009
-          - 12.000000000000009
+          - 12.00000000000001
+          - 12.00000000000001
       modes:
       - class: IdealGasTranslation
         mass:
@@ -1340,9 +1341,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 293.42916533129494
-            - 363.2683438997957
-            - 656.6944567600457
+            - 293.4291407689959
+            - 363.26831349141514
+            - 656.6944017896215
         quantum: false
         rotationalConstant:
           class: ArrayQuantity
@@ -1350,9 +1351,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 0.05745042090248752
-            - 0.0464054447254521
-            - 0.02567042995386243
+            - 0.057450425711534144
+            - 0.046405448609948406
+            - 0.025670432102676888
         symmetry: 4
       - class: HarmonicOscillator
         frequencies:

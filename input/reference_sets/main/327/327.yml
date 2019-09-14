@@ -45,7 +45,7 @@ calculated_data:
         mass:
           class: ScalarQuantity
           units: amu
-          value: 14.003070000000005
+          value: 14.003070000000003
         quantum: false
       number:
         class: ArrayQuantity
@@ -55,6 +55,7 @@ calculated_data:
           - 7.0
       opticalIsomers: 1
       spinMultiplicity: 4
+    fod: 5.0e-06
     thermo:
       Cp0:
         class: ScalarQuantity
@@ -187,7 +188,7 @@ calculated_data:
         mass:
           class: ScalarQuantity
           units: amu
-          value: 14.003070000000005
+          value: 14.003070000000006
         quantum: false
       number:
         class: ArrayQuantity
@@ -330,7 +331,7 @@ calculated_data:
         mass:
           class: ScalarQuantity
           units: amu
-          value: 14.003070000000005
+          value: 14.003070000000006
         quantum: false
       number:
         class: ArrayQuantity
@@ -473,7 +474,7 @@ calculated_data:
         mass:
           class: ScalarQuantity
           units: amu
-          value: 14.003070000000005
+          value: 14.003070000000006
         quantum: false
       number:
         class: ArrayQuantity

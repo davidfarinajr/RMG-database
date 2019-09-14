@@ -52,7 +52,7 @@ calculated_data:
           object:
           - 15.99491461957
           - 14.00307400443
-          - 12.000000000000009
+          - 12.00000000000001
           - 1.00782503224
       modes:
       - class: IdealGasTranslation
@@ -68,9 +68,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 0.7454132605927671
-            - 47.165114654403226
-            - 47.910526633296286
+            - 0.7454131981958906
+            - 47.16511070631698
+            - 47.91052262281327
         quantum: false
         rotationalConstant:
           class: ArrayQuantity
@@ -78,9 +78,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 22.615145107484377
-            - 0.3574173237332458
-            - 0.3518564757673313
+            - 22.615147000547744
+            - 0.357417353651853
+            - 0.35185650522045225
         symmetry: 1
       - class: HarmonicOscillator
         frequencies:
