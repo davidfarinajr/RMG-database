@@ -1375,13 +1375,13 @@ index: 112
 is_ts: false
 reference_data:
   atct:
-    atct_id: 147723-60-2*1
+    atct_id: 147723-60-2*2
     class: ReferenceDataEntry
     thermo_data:
       H298:
         class: ScalarQuantity
-        uncertainty: 2.6
+        uncertainty: 3.2
         uncertaintyType: +|-
         units: kJ/mol
-        value: 11.0
+        value: 11.4
       class: ThermoData
