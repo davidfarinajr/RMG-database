@@ -10,7 +10,7 @@ Identifiers:
   inchi: InChI=1S/C2H3/c1-2/h1H3
   inchi_key: ADLIKHXOGUAKPM-UHFFFAOYSA-N
   label: '76'
-  smiles: '[CH2]C'
+  smiles: '[C]C'
 Properties:
   charge: 0
   molecular_weight:
@@ -350,6 +350,7 @@ calculated_data:
           - 1.0
       opticalIsomers: 1
       spinMultiplicity: 2
+    fod: 0.003601
     thermo:
       Cp0:
         class: ScalarQuantity

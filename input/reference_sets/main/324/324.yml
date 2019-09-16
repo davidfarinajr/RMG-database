@@ -858,4 +858,15 @@ class: ReferenceSpecies
 datetime: 2019-09-06 18:54
 index: 324
 is_ts: false
-reference_data: {}
+reference_data:
+  atct:
+    atct_id: 1630-77-9*0
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 1.1
+        uncertaintyType: +|-
+        units: kJ/mol
+        value: -309.7
+      class: ThermoData

@@ -7,7 +7,7 @@ Identifiers:
   inchi: InChI=1S/C2/c1-2
   inchi_key: LBVWYGNGGJURHQ-UHFFFAOYSA-N
   label: '86'
-  smiles: '[C]=C'
+  smiles: '[C]=[C]'
 Properties:
   charge: 0
   molecular_weight:
@@ -1206,5 +1206,5 @@ reference_data:
         uncertainty: 0.26
         uncertaintyType: +|-
         units: kJ/mol
-        value: 834.09
+        value: 834.21
       class: ThermoData

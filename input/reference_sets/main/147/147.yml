@@ -7,7 +7,7 @@ Identifiers:
   inchi: InChI=1S/CCl/c1-2
   inchi_key: BBFYMZCRBPASGM-UHFFFAOYSA-N
   label: '147'
-  smiles: '[CH2]Cl'
+  smiles: '[C]Cl'
 Properties:
   charge: 0
   molecular_weight:
@@ -249,6 +249,7 @@ calculated_data:
           - 6.0
       opticalIsomers: 1
       spinMultiplicity: 2
+    fod: 1.008774
     thermo:
       Cp0:
         class: ScalarQuantity
