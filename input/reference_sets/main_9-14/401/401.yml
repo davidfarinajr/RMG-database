@@ -1,22 +1,19 @@
 Identifiers:
   adjacency_list: |
-    1  O u0 p2 c0 {2,S} {4,S}
-    2  C u0 p0 c0 {1,S} {3,S} {6,S} {7,S}
-    3  C u0 p0 c0 {2,S} {8,S} {9,S} {10,S}
-    4  C u0 p0 c0 {1,S} {5,D} {11,S}
-    5  C u0 p0 c0 {4,D} {12,S} {13,S}
-    6  H u0 p0 c0 {2,S}
-    7  H u0 p0 c0 {2,S}
-    8  H u0 p0 c0 {3,S}
-    9  H u0 p0 c0 {3,S}
-    10 H u0 p0 c0 {3,S}
-    11 H u0 p0 c0 {4,S}
-    12 H u0 p0 c0 {5,S}
-    13 H u0 p0 c0 {5,S}
+    1 O u0 p2 c0 {2,S} {3,S}
+    2 C u0 p0 c0 {1,S} {5,S} {6,S} {7,S}
+    3 C u0 p0 c0 {1,S} {4,D} {8,S}
+    4 C u0 p0 c0 {3,D} {9,S} {10,S}
+    5 H u0 p0 c0 {2,S}
+    6 H u0 p0 c0 {2,S}
+    7 H u0 p0 c0 {2,S}
+    8 H u0 p0 c0 {3,S}
+    9 H u0 p0 c0 {4,S}
+    10 H u0 p0 c0 {4,S}
   formula: C4H8O
   inchi: InChI=1S/C4H8O/c1-3-5-4-2/h3H,1,4H2,2H3
   inchi_key: FJKIXWOMBXYWOQ-UHFFFAOYSA-N
-  label: '962'
+  label: '401'
   smiles: C=COC
 Properties:
   charge: 0
@@ -30,7 +27,7 @@ calculated_data: {}
 cas_number: 107-25-5*0
 class: ReferenceSpecies
 datetime: 2019-08-19 16:57
-index: 962
+index: 401
 is_ts: false
 reference_data:
   atct:
