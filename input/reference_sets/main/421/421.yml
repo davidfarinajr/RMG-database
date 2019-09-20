@@ -1,0 +1,40 @@
+Identifiers:
+  adjacency_list: |
+    multiplicity 2
+    1 F u0 p3 c0 {2,S}
+    2 C u0 p0 c0 {1,S} {3,S} {4,S} {5,S}
+    3 C u1 p0 c0 {2,S} {6,S} {7,S}
+    4 H u0 p0 c0 {2,S}
+    5 H u0 p0 c0 {2,S}
+    6 H u0 p0 c0 {3,S}
+    7 H u0 p0 c0 {3,S}
+  formula: C2H4F
+  inchi: InChI=1S/C2H4F/c1-2-3/h1-2H2
+  inchi_key: VHPYNVZYZFYVII-UHFFFAOYSA-N
+  label: '421'
+  smiles: '[CH2]CF'
+Properties:
+  charge: 0
+  molecular_weight:
+    class: ScalarQuantity
+    units: amu
+    value: 47.05156733190611
+  multiplicity: 2
+RMG_version: 2.4.1
+calculated_data: {}
+class: ReferenceSpecies
+datetime: 2019-09-20 16:32
+index: 421
+is_ts: false
+reference_data:
+  diet-HEAT-F12-network:
+    class: ReferenceDataEntry
+    source: 'DOI: 10.1021/acs.jpca.8b00614'
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.85
+        uncertaintyType: +|-
+        units: kJ/mol
+        value: -59.77
+      class: ThermoData

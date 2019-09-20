@@ -1,0 +1,36 @@
+Identifiers:
+  adjacency_list: |
+    multiplicity 3
+    1 Cl u0 p3 c0 {3,S}
+    2 F  u0 p3 c0 {3,S}
+    3 C  u2 p0 c0 {1,S} {2,S}
+  formula: CClF
+  inchi: InChI=1S/CClF/c2-1-3
+  inchi_key: KYKAJFCTULSVSH-UHFFFAOYSA-N
+  label: '419'
+  smiles: F[C]Cl
+Properties:
+  charge: 0
+  molecular_weight:
+    class: ScalarQuantity
+    units: amu
+    value: 66.4621079095167
+  multiplicity: 3
+RMG_version: 2.4.1
+calculated_data: {}
+class: ReferenceSpecies
+datetime: 2019-09-20 16:32
+index: 419
+is_ts: false
+reference_data:
+  diet-HEAT-F12-network:
+    class: ReferenceDataEntry
+    source: 'DOI: 10.1021/acs.jpca.8b00614'
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.78
+        uncertaintyType: +|-
+        units: kJ/mol
+        value: 31.04
+      class: ThermoData

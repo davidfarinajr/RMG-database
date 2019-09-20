@@ -49,18 +49,18 @@ calculated_data:
         mass:
           class: ScalarQuantity
           units: amu
-          value: 35.97668000000003
+          value: 35.97668000000004
         quantum: false
       - class: LinearRotor
         inertia:
           class: ScalarQuantity
           units: amu*angstrom^2
-          value: 1.6138334082397192
+          value: 1.6138332731493341
         quantum: false
         rotationalConstant:
           class: ScalarQuantity
           units: cm^-1
-          value: 10.445705837590678
+          value: 10.445706711977424
         symmetry: 1
       - class: HarmonicOscillator
         frequencies:
@@ -217,18 +217,18 @@ calculated_data:
         mass:
           class: ScalarQuantity
           units: amu
-          value: 35.976680000000016
+          value: 35.97668000000002
         quantum: false
       - class: LinearRotor
         inertia:
           class: ScalarQuantity
           units: amu*angstrom^2
-          value: 1.614507266444617
+          value: 1.614507131297825
         quantum: false
         rotationalConstant:
           class: ScalarQuantity
           units: cm^-1
-          value: 10.441346040189387
+          value: 10.441346914211183
         symmetry: 1
       - class: HarmonicOscillator
         frequencies:
@@ -385,18 +385,18 @@ calculated_data:
         mass:
           class: ScalarQuantity
           units: amu
-          value: 35.97668000000003
+          value: 35.97668000000004
         quantum: false
       - class: LinearRotor
         inertia:
           class: ScalarQuantity
           units: amu*angstrom^2
-          value: 1.6027442898587874
+          value: 1.6027441556966475
         quantum: false
         rotationalConstant:
           class: ScalarQuantity
           units: cm^-1
-          value: 10.517977920753513
+          value: 10.517978801189994
         symmetry: 1
       - class: HarmonicOscillator
         frequencies:
@@ -559,12 +559,12 @@ calculated_data:
         inertia:
           class: ScalarQuantity
           units: amu*angstrom^2
-          value: 1.6023433372988762
+          value: 1.6023432031702995
         quantum: false
         rotationalConstant:
           class: ScalarQuantity
           units: cm^-1
-          value: 10.520609822465365
+          value: 10.520610703122156
         symmetry: 1
       - class: HarmonicOscillator
         frequencies:
@@ -729,18 +729,18 @@ calculated_data:
         mass:
           class: ScalarQuantity
           units: amu
-          value: 35.97668000000003
+          value: 35.97668000000004
         quantum: false
       - class: LinearRotor
         inertia:
           class: ScalarQuantity
           units: amu*angstrom^2
-          value: 1.5960746145387619
+          value: 1.5960744809349257
         quantum: false
         rotationalConstant:
           class: ScalarQuantity
           units: cm^-1
-          value: 10.561930438458894
+          value: 10.56193132257454
         symmetry: 1
       - class: HarmonicOscillator
         frequencies:
@@ -897,18 +897,18 @@ calculated_data:
         mass:
           class: ScalarQuantity
           units: amu
-          value: 35.97668000000003
+          value: 35.97668000000004
         quantum: false
       - class: LinearRotor
         inertia:
           class: ScalarQuantity
           units: amu*angstrom^2
-          value: 1.5879776437629056
+          value: 1.5879775108368488
         quantum: false
         rotationalConstant:
           class: ScalarQuantity
           units: cm^-1
-          value: 10.615784875536596
+          value: 10.615785764160279
         symmetry: 1
       - class: HarmonicOscillator
         frequencies:

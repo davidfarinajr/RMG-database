@@ -50,8 +50,8 @@ calculated_data:
         value:
           class: np_array
           object:
-          - 12.000000000000005
-          - 12.000000000000005
+          - 12.000000000000009
+          - 12.000000000000009
           - 1.00782503224
           - 1.00782503224
       modes:
@@ -65,12 +65,12 @@ calculated_data:
         inertia:
           class: ScalarQuantity
           units: amu*angstrom^2
-          value: 14.189607904303887
+          value: 14.189606716523544
         quantum: false
         rotationalConstant:
           class: ScalarQuantity
           units: cm^-1
-          value: 1.188026418139106
+          value: 1.1880265175861489
         symmetry: 2
       - class: HarmonicOscillator
         frequencies:
@@ -249,12 +249,12 @@ calculated_data:
         inertia:
           class: ScalarQuantity
           units: amu*angstrom^2
-          value: 14.113278953586956
+          value: 14.113277772195943
         quantum: false
         rotationalConstant:
           class: ScalarQuantity
           units: cm^-1
-          value: 1.194451630183647
+          value: 1.1944517301685293
         symmetry: 2
       - class: HarmonicOscillator
         frequencies:
@@ -366,7 +366,7 @@ calculated_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: -48502.84327192716
+        value: -48502.84327192715
       S298:
         class: ScalarQuantity
         units: cal/(mol*K)
@@ -434,12 +434,12 @@ calculated_data:
         inertia:
           class: ScalarQuantity
           units: amu*angstrom^2
-          value: 14.105424388367446
+          value: 14.105423207633917
         quantum: false
         rotationalConstant:
           class: ScalarQuantity
           units: cm^-1
-          value: 1.195116757156967
+          value: 1.1951168571975261
         symmetry: 2
       - class: HarmonicOscillator
         frequencies:
@@ -618,12 +618,12 @@ calculated_data:
         inertia:
           class: ScalarQuantity
           units: amu*angstrom^2
-          value: 14.152341728796674
+          value: 14.152340544135809
         quantum: false
         rotationalConstant:
           class: ScalarQuantity
           units: cm^-1
-          value: 1.1911547485492946
+          value: 1.1911548482582024
         symmetry: 2
       - class: HarmonicOscillator
         frequencies:

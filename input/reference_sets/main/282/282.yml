@@ -60,12 +60,12 @@ calculated_data:
         inertia:
           class: ScalarQuantity
           units: amu*angstrom^2
-          value: 43.25947652212973
+          value: 43.25947290097571
         quantum: false
         rotationalConstant:
           class: ScalarQuantity
           units: cm^-1
-          value: 0.38968638570383163
+          value: 0.3896864183236101
         symmetry: 2
       - class: HarmonicOscillator
         frequencies:
@@ -235,12 +235,12 @@ calculated_data:
         inertia:
           class: ScalarQuantity
           units: amu*angstrom^2
-          value: 42.69812370733352
+          value: 42.698120133169105
         quantum: false
         rotationalConstant:
           class: ScalarQuantity
           units: cm^-1
-          value: 0.3948095979321252
+          value: 0.39480963098075633
         symmetry: 2
       - class: HarmonicOscillator
         frequencies:
@@ -411,12 +411,12 @@ calculated_data:
         inertia:
           class: ScalarQuantity
           units: amu*angstrom^2
-          value: 42.69709200114672
+          value: 42.69708842706866
         quantum: false
         rotationalConstant:
           class: ScalarQuantity
           units: cm^-1
-          value: 0.39481913786765027
+          value: 0.3948191709170799
         symmetry: 2
       - class: HarmonicOscillator
         frequencies:
@@ -587,12 +587,12 @@ calculated_data:
         inertia:
           class: ScalarQuantity
           units: amu*angstrom^2
-          value: 42.98160913483752
+          value: 42.98160553694318
         quantum: false
         rotationalConstant:
           class: ScalarQuantity
           units: cm^-1
-          value: 0.3922056291672203
+          value: 0.3922056619978789
         symmetry: 2
       - class: HarmonicOscillator
         frequencies:
@@ -699,7 +699,7 @@ calculated_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: -118256.71620300427
+        value: -118256.71620300425
       S298:
         class: ScalarQuantity
         units: cal/(mol*K)
