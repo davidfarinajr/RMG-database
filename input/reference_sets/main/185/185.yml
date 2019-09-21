@@ -1497,6 +1497,17 @@ datetime: 2019-08-08 16:54
 index: 185
 is_ts: false
 reference_data:
+  diet-HEAT-F12-network:
+    class: ReferenceDataEntry
+    source: 'DOI: 10.1021/acs.jpca.8b00614'
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.84
+        uncertaintyType: +|-
+        units: kJ/mol
+        value: -351.07
+      class: ThermoData
   atct:
     atct_id: 75-38-7*0
     class: ReferenceDataEntry
