@@ -8,7 +8,7 @@ Identifiers:
   inchi: InChI=1S/C3/c1-3-2
   inchi_key: NVLRFXKSQQPKAD-UHFFFAOYSA-N
   label: '391'
-  smiles: '[C]#C[C]'
+  smiles: '[C]C#[C]'
 Properties:
   charge: 0
   molecular_weight:
@@ -64,9 +64,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 4.187735022870739
-            - 27.3549059144199
-            - 31.542650999698985
+            - 4.187734672324807
+            - 27.354903624601913
+            - 31.542648359334223
         quantum: false
         rotationalConstant:
           class: ArrayQuantity
@@ -74,9 +74,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 4.025476531175652
-            - 0.6162561518613062
-            - 0.534439196423578
+            - 4.025476868139317
+            - 0.6162562034467346
+            - 0.5344392411602914
         symmetry: 1
       - class: HarmonicOscillator
         frequencies:
@@ -249,9 +249,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 4.071207687390175
-            - 27.68630433358936
-            - 31.757511633340435
+            - 4.071207346598486
+            - 27.68630201603075
+            - 31.75750897499018
         quantum: false
         rotationalConstant:
           class: ArrayQuantity
@@ -259,9 +259,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 4.1406949356973195
-            - 0.6088797136025343
-            - 0.5308233607210777
+            - 4.140695282305659
+            - 0.6088797645704975
+            - 0.5308234051551175
         symmetry: 1
       - class: HarmonicOscillator
         frequencies:
@@ -431,12 +431,12 @@ calculated_data:
         inertia:
           class: ScalarQuantity
           units: amu*angstrom^2
-          value: 39.79245624511043
+          value: 39.79245291417293
         quantum: false
         rotationalConstant:
           class: ScalarQuantity
           units: cm^-1
-          value: 0.42363881609896614
+          value: 0.4236388515608268
         symmetry: 1
       - class: HarmonicOscillator
         frequencies:

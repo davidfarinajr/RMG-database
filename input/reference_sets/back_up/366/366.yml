@@ -52,8 +52,8 @@ calculated_data:
           object:
           - 34.968852682
           - 34.968852682
-          - 12.000000000000005
-          - 12.000000000000005
+          - 12.000000000000009
+          - 12.000000000000009
       modes:
       - class: IdealGasTranslation
         mass:
@@ -65,12 +65,12 @@ calculated_data:
         inertia:
           class: ScalarQuantity
           units: amu*angstrom^2
-          value: 359.6516928938709
+          value: 359.6516627882322
         quantum: false
         rotationalConstant:
           class: ScalarQuantity
           units: cm^-1
-          value: 0.04687209704952782
+          value: 0.04687210097308655
         symmetry: 2
       - class: HarmonicOscillator
         frequencies:
@@ -248,12 +248,12 @@ calculated_data:
         inertia:
           class: ScalarQuantity
           units: amu*angstrom^2
-          value: 358.38152685793693
+          value: 358.381496858621
         quantum: false
         rotationalConstant:
           class: ScalarQuantity
           units: cm^-1
-          value: 0.04703821985788594
+          value: 0.04703822379535044
         symmetry: 2
       - class: HarmonicOscillator
         frequencies:
@@ -432,12 +432,12 @@ calculated_data:
         inertia:
           class: ScalarQuantity
           units: amu*angstrom^2
-          value: 358.4542258293993
+          value: 358.45419582399774
         quantum: false
         rotationalConstant:
           class: ScalarQuantity
           units: cm^-1
-          value: 0.047028679922360914
+          value: 0.04702868385902685
         symmetry: 2
       - class: HarmonicOscillator
         frequencies:
@@ -615,12 +615,12 @@ calculated_data:
         inertia:
           class: ScalarQuantity
           units: amu*angstrom^2
-          value: 356.8782635030167
+          value: 356.8782336295355
         quantum: false
         rotationalConstant:
           class: ScalarQuantity
           units: cm^-1
-          value: 0.04723635698032923
+          value: 0.04723636093437934
         symmetry: 2
       - class: HarmonicOscillator
         frequencies:

@@ -73,9 +73,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 3.210019424981442
-            - 38.58289926871564
-            - 38.58292872466081
+            - 3.2100191562778964
+            - 38.58289603902745
+            - 38.582925494970155
         quantum: false
         rotationalConstant:
           class: ArrayQuantity
@@ -83,9 +83,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 5.251566056627819
-            - 0.43691970725012996
-            - 0.4369193736859511
+            - 5.251566496224704
+            - 0.4369197438237044
+            - 0.4369194102594976
         symmetry: 3
       - class: HarmonicOscillator
         frequencies:
@@ -256,7 +256,7 @@ calculated_data:
           class: np_array
           object:
           - 34.968852682
-          - 12.000000000000005
+          - 12.000000000000009
           - 1.00782503224
           - 1.00782503224
           - 1.00782503224
@@ -274,9 +274,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 3.2307543948945208
-            - 38.55411932420974
-            - 38.5541781482802
+            - 3.230754124455297
+            - 38.55411609693065
+            - 38.554174920996175
         quantum: false
         rotationalConstant:
           class: ArrayQuantity
@@ -284,9 +284,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 5.217861524846389
-            - 0.43724585981563024
-            - 0.4372451926873837
+            - 5.217861961621941
+            - 0.4372458964165062
+            - 0.4372452292882039
         symmetry: 3
       - class: HarmonicOscillator
         frequencies:
@@ -475,9 +475,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 3.2014976446993417
-            - 37.906325140148766
-            - 37.90638200408609
+            - 3.2014973767091353
+            - 37.90632196709507
+            - 37.90637883102764
         quantum: false
         rotationalConstant:
           class: ArrayQuantity
@@ -485,9 +485,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 5.265544730685448
-            - 0.44471810419558744
-            - 0.4447174370672289
+            - 5.265545171452457
+            - 0.4447181414219484
+            - 0.4447174742935339
         symmetry: 3
       - class: HarmonicOscillator
         frequencies:
@@ -677,9 +677,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 3.2001629144604573
-            - 37.902468182366825
-            - 37.9026387400625
+            - 3.200162646581978
+            - 37.902465009635996
+            - 37.90263556731738
         quantum: false
         rotationalConstant:
           class: ArrayQuantity
@@ -687,9 +687,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 5.26774089443214
-            - 0.4447633587406079
-            - 0.44476135735452754
+            - 5.2677413353829845
+            - 0.4447633959707569
+            - 0.4447613945845091
         symmetry: 3
       - class: HarmonicOscillator
         frequencies:
@@ -886,9 +886,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 3.2099855794184013
-            - 37.8645195020358
-            - 37.86457624061547
+            - 3.2099853107176877
+            - 37.864516332481564
+            - 37.86457307105648
         quantum: false
         rotationalConstant:
           class: ArrayQuantity
@@ -896,9 +896,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 5.251621428281566
-            - 0.44520911066736607
-            - 0.44520844353900746
+            - 5.251621867883087
+            - 0.44520914793482796
+            - 0.4452084808064135
         symmetry: 3
       - class: HarmonicOscillator
         frequencies:
@@ -1087,9 +1087,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 3.1902815299930367
-            - 37.56966570440914
-            - 37.569693633570665
+            - 3.1902812629417068
+            - 37.569662559536454
+            - 37.56969048869564
         quantum: false
         rotationalConstant:
           class: ArrayQuantity
@@ -1097,9 +1097,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 5.284056875502547
-            - 0.4487031954444593
-            - 0.4487028618802801
+            - 5.284057317819165
+            - 0.4487032330044033
+            - 0.4487028994401962
         symmetry: 3
       - class: HarmonicOscillator
         frequencies:
@@ -1288,9 +1288,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 3.2041853058267633
-            - 38.063663854521806
-            - 38.06392187224907
+            - 3.204185037611578
+            - 38.06366066829764
+            - 38.06391868600331
         quantum: false
         rotationalConstant:
           class: ArrayQuantity
@@ -1298,9 +1298,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 5.261128007388695
-            - 0.4428798320040302
-            - 0.44287682992641747
+            - 5.26112844778599
+            - 0.4428798690765134
+            - 0.44287686699864937
         symmetry: 3
       - class: HarmonicOscillator
         frequencies:
@@ -1450,4 +1450,15 @@ reference_data:
         uncertaintyType: +|-
         units: kJ/mol
         value: -82.60000000000007
+      class: ThermoData
+  diet-HEAT-F12-network:
+    class: ReferenceDataEntry
+    source: 'DOI: 10.1021/acs.jpca.8b00614'
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 1.11
+        uncertaintyType: +|-
+        units: kJ/mol
+        value: -81.96000000000002
       class: ThermoData
