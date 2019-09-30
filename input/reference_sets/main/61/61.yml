@@ -1389,11 +1389,12 @@ reference_data:
   atct:
     atct_id: 144-62-7*0
     class: ReferenceDataEntry
+    source: "DOI: 10.1021/acs.jpca.8b12329."
     thermo_data:
       H298:
         class: ScalarQuantity
-        uncertainty: 2.1
+        uncertainty: 1.2
         uncertaintyType: +|-
         units: kJ/mol
-        value: -721.4
+        value: -731.6
       class: ThermoData
