@@ -56,8 +56,8 @@ calculated_data:
           class: np_array
           object:
           - 15.99491461957
-          - 12.000000000000009
-          - 12.000000000000009
+          - 12.00000000000001
+          - 12.00000000000001
           - 1.00782503224
           - 1.00782503224
       modes:
@@ -74,9 +74,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 5.206680778040736
-            - 43.740867396063145
-            - 48.94753756046263
+            - 5.2066803422011345
+            - 43.74086373461297
+            - 48.94753346317374
         quantum: false
         rotationalConstant:
           class: ArrayQuantity
@@ -84,9 +84,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 3.2376920675540215
-            - 0.3853976854346914
-            - 0.34440198411462564
+            - 3.2376923385740053
+            - 0.3853977176954724
+            - 0.3444020129437478
         symmetry: 1
       - class: HarmonicOscillator
         frequencies:
@@ -200,7 +200,7 @@ calculated_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: -95638.04913507629
+        value: -95638.04913507626
       S298:
         class: ScalarQuantity
         units: cal/(mol*K)
@@ -275,9 +275,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 5.437832559876193
-            - 42.82813414607272
-            - 48.26595669492533
+            - 5.437832104687392
+            - 42.82813056102541
+            - 48.265952654690054
         quantum: false
         rotationalConstant:
           class: ArrayQuantity
@@ -285,9 +285,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 3.100064017736564
-            - 0.3936111014281558
-            - 0.34926540791267274
+            - 3.1000642772360107
+            - 0.39361113437646345
+            - 0.3492654371489013
         symmetry: 1
       - class: HarmonicOscillator
         frequencies:

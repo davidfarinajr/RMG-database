@@ -64,9 +64,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 7.833187840116123
-            - 92.18472615591247
-            - 100.01777064630132
+            - 7.833187184417492
+            - 92.18471843933526
+            - 100.01776227403744
         quantum: false
         rotationalConstant:
           class: ArrayQuantity
@@ -74,9 +74,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 2.1520777233268276
-            - 0.18286791919126716
-            - 0.16854633875977013
+            - 2.1520779034724544
+            - 0.1828679344987329
+            - 0.16854635286840833
         symmetry: 1
       - class: HarmonicOscillator
         frequencies:
@@ -182,7 +182,7 @@ calculated_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: -118207.79862162689
+        value: -118207.79862162688
       S298:
         class: ScalarQuantity
         units: cal/(mol*K)
@@ -249,9 +249,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 8.267004925584667
-            - 88.82626181487885
-            - 97.09337668604319
+            - 8.267004233572175
+            - 88.82625437943115
+            - 97.09336855857379
         quantum: false
         rotationalConstant:
           class: ArrayQuantity
@@ -259,9 +259,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 2.0391458823470185
-            - 0.1897820386552027
-            - 0.1736228528528632
+            - 2.039146053039374
+            - 0.18978205454143404
+            - 0.17362286738644508
         symmetry: 1
       - class: HarmonicOscillator
         frequencies:
@@ -367,7 +367,7 @@ calculated_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: -118206.23446839995
+        value: -118206.23446839994
       S298:
         class: ScalarQuantity
         units: cal/(mol*K)

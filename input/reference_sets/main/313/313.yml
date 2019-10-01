@@ -63,9 +63,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 0.009337021500536499
-            - 39.97978600579843
-            - 39.98914991646213
+            - 0.009337020718955313
+            - 39.97978265917996
+            - 39.98914656905984
         quantum: false
         rotationalConstant:
           class: ArrayQuantity
@@ -73,9 +73,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 1805.4610940308821
-            - 0.4216538090249799
-            - 0.4215550740279377
+            - 1805.4612451620046
+            - 0.4216538443206801
+            - 0.42155510931537304
         symmetry: 2
       - class: HarmonicOscillator
         frequencies:
@@ -245,12 +245,12 @@ calculated_data:
         inertia:
           class: ScalarQuantity
           units: amu*angstrom^2
-          value: 39.68501879667757
+          value: 39.685015474733405
         quantum: false
         rotationalConstant:
           class: ScalarQuantity
           units: cm^-1
-          value: 0.4247857142191858
+          value: 0.4247857497770508
         symmetry: 2
       - class: HarmonicOscillator
         frequencies:
@@ -420,12 +420,12 @@ calculated_data:
         inertia:
           class: ScalarQuantity
           units: amu*angstrom^2
-          value: 39.70756228401052
+          value: 39.7075589601793
         quantum: false
         rotationalConstant:
           class: ScalarQuantity
           units: cm^-1
-          value: 0.424544547277251
+          value: 0.4245445828149284
         symmetry: 2
       - class: HarmonicOscillator
         frequencies:
@@ -594,12 +594,12 @@ calculated_data:
         inertia:
           class: ScalarQuantity
           units: amu*angstrom^2
-          value: 39.789658122185514
+          value: 39.78965479148223
         quantum: false
         rotationalConstant:
           class: ScalarQuantity
           units: cm^-1
-          value: 0.4236686075960323
+          value: 0.42366864306038676
         symmetry: 2
       - class: HarmonicOscillator
         frequencies:

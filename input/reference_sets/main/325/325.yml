@@ -60,12 +60,12 @@ calculated_data:
         inertia:
           class: ScalarQuantity
           units: amu*angstrom^2
-          value: 39.30991428624462
+          value: 39.30991099569963
         quantum: false
         rotationalConstant:
           class: ScalarQuantity
           units: cm^-1
-          value: 0.42883912009056036
+          value: 0.4288391559877269
         symmetry: 1
       - class: HarmonicOscillator
         frequencies:

@@ -67,8 +67,8 @@ calculated_data:
           - 18.99840316274001
           - 18.99840316274001
           - 18.99840316274001
-          - 12.000000000000005
-          - 12.000000000000005
+          - 12.000000000000009
+          - 12.000000000000009
           - 1.00782503224
       modes:
       - class: IdealGasTranslation
@@ -84,9 +84,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 96.04641784354816
-            - 159.2477051927937
-            - 246.24764283227694
+            - 96.04640980371738
+            - 159.24769186252448
+            - 246.2476222194376
         quantum: false
         rotationalConstant:
           class: ArrayQuantity
@@ -94,9 +94,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 0.17551543755445628
-            - 0.10585790880276584
-            - 0.06845803216411084
+            - 0.1755154522464622
+            - 0.10585791766389535
+            - 0.06845803789458006
         symmetry: 2
       - class: HarmonicOscillator
         frequencies:
@@ -284,8 +284,8 @@ calculated_data:
           - 18.99840316274001
           - 18.99840316274001
           - 18.99840316274001
-          - 12.000000000000005
-          - 12.000000000000005
+          - 12.000000000000009
+          - 12.000000000000009
           - 1.00782503224
       modes:
       - class: IdealGasTranslation
@@ -301,9 +301,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 95.07503646592441
-            - 158.43395353294787
-            - 244.4159995828885
+            - 95.07502850740575
+            - 158.433940270796
+            - 244.41597912337193
         quantum: false
         rotationalConstant:
           class: ArrayQuantity
@@ -311,9 +311,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 0.17730867828160543
-            - 0.10640161832383226
-            - 0.06897105378582873
+            - 0.17730869312371955
+            - 0.10640162723047447
+            - 0.06897105955924183
         symmetry: 2
       - class: HarmonicOscillator
         frequencies:
@@ -470,5 +470,5 @@ reference_data:
         uncertainty: 0.79
         uncertaintyType: +|-
         units: kJ/mol
-        value: -674.3000000000004
+        value: -674.3000000000005
       class: ThermoData

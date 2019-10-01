@@ -1,0 +1,42 @@
+Identifiers:
+  adjacency_list: |
+    multiplicity 2
+    1 O u0 p2 c0 {2,S} {3,S}
+    2 O u1 p2 c0 {1,S}
+    3 C u0 p0 c0 {1,S} {4,S} {5,S} {6,S}
+    4 C u0 p0 c0 {3,S} {7,S} {8,S} {9,S}
+    5 H u0 p0 c0 {3,S}
+    6 H u0 p0 c0 {3,S}
+    7 H u0 p0 c0 {4,S}
+    8 H u0 p0 c0 {4,S}
+    9 H u0 p0 c0 {4,S}
+  formula: C2H5O2
+  inchi: InChI=1S/C2H5O2/c1-2-4-3/h2H2,1H3
+  inchi_key: CGVQNDZUWCSFFT-UHFFFAOYSA-N
+  label: '426'
+  smiles: CCO[O]
+Properties:
+  charge: 0
+  molecular_weight:
+    class: ScalarQuantity
+    units: amu
+    value: 61.05990369161248
+  multiplicity: 2
+RMG_version: 2.4.1
+calculated_data: {}
+class: ReferenceSpecies
+datetime: 2019-09-30 17:43
+index: 426
+is_ts: false
+reference_data:
+  Automated Thermochemistry Protocol Based on Explicitly Correlated Coupled-Cluster Theory:
+    class: ReferenceDataEntry
+    source: https://doi.org/10.1021/acs.jpca.9b04381
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 1.3800000000000003
+        uncertaintyType: +|-
+        units: kJ/mol
+        value: -26.45
+      class: ThermoData

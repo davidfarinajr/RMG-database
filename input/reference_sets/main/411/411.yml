@@ -54,7 +54,7 @@ calculated_data:
           - 34.968852682
           - 34.968852682
           - 18.99840316274001
-          - 12.000000000000005
+          - 12.000000000000009
       modes:
       - class: IdealGasTranslation
         mass:
@@ -69,9 +69,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 68.17514786118055
-            - 154.99284265686657
-            - 220.27204439513696
+            - 68.17514215439141
+            - 154.9928296827624
+            - 220.27202595665688
         quantum: false
         rotationalConstant:
           class: ArrayQuantity
@@ -79,9 +79,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 0.2472694168214244
-            - 0.1087639194454226
-            - 0.07653095107751524
+            - 0.24726943751979594
+            - 0.10876392854980778
+            - 0.07653095748375051
         symmetry: 2
       - class: HarmonicOscillator
         frequencies:
@@ -247,7 +247,7 @@ calculated_data:
           - 34.968852682
           - 34.968852682
           - 18.99840316274001
-          - 12.000000000000005
+          - 12.000000000000009
       modes:
       - class: IdealGasTranslation
         mass:
@@ -262,9 +262,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 67.30874508548972
-            - 151.79645162902287
-            - 216.31965720319596
+            - 67.30873945122521
+            - 151.79643892248143
+            - 216.31963909556129
         quantum: false
         rotationalConstant:
           class: ArrayQuantity
@@ -272,9 +272,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 0.25045228568646466
-            - 0.1110541707163686
-            - 0.07792925188261364
+            - 0.25045230665126705
+            - 0.11105418001246561
+            - 0.07792925840589757
         symmetry: 2
       - class: HarmonicOscillator
         frequencies:

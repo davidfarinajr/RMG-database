@@ -54,7 +54,7 @@ calculated_data:
           - 34.968852682
           - 18.99840316274001
           - 18.99840316274001
-          - 12.000000000000005
+          - 12.000000000000009
       modes:
       - class: IdealGasTranslation
         mass:
@@ -69,9 +69,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 46.18048992627067
-            - 103.89380811892546
-            - 146.9206038524042
+            - 46.180486060605155
+            - 103.89379942220717
+            - 146.92059155400906
         quantum: false
         rotationalConstant:
           class: ArrayQuantity
@@ -79,9 +79,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 0.3650378997767779
-            - 0.16225826503588986
-            - 0.11473972071530276
+            - 0.3650379303332865
+            - 0.16225827861816744
+            - 0.11473973031990894
         symmetry: 2
       - class: HarmonicOscillator
         frequencies:
@@ -247,7 +247,7 @@ calculated_data:
           - 34.968852682
           - 18.99840316274001
           - 18.99840316274001
-          - 12.000000000000005
+          - 12.000000000000009
       modes:
       - class: IdealGasTranslation
         mass:
@@ -262,9 +262,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 45.78520845526365
-            - 101.77191234796778
-            - 144.44557694534862
+            - 45.785204622686265
+            - 101.77190382886864
+            - 144.4455648541325
         quantum: false
         rotationalConstant:
           class: ArrayQuantity
@@ -272,9 +272,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 0.36818941361422314
-            - 0.1656412723749424
-            - 0.11670574765834901
+            - 0.36818944443453794
+            - 0.16564128624040397
+            - 0.11670575742752691
         symmetry: 2
       - class: HarmonicOscillator
         frequencies:
@@ -419,5 +419,5 @@ reference_data:
         uncertainty: 0.87
         uncertaintyType: +|-
         units: kJ/mol
-        value: -275.9000000000002
+        value: -275.90000000000026
       class: ThermoData
