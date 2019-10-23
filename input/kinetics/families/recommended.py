@@ -96,3 +96,14 @@ surface_development = {
     'Surface_Bidentate_Dissociation'
     # 'Surface_Recombination' #DEPRECATED. USE Surface_Dissociation INSTEAD
 }
+
+# Fake (non-elementary) reactions used for recognizing things in existing
+# CHEMKIN files using the importer project. 
+fake_for_importer = {
+    'Fake_3products1',
+    'Fake_3products2',
+    'Fake_3products3',
+    'Fake_Ketohydroperoxides',
+    'Fake_O_Abstraction',
+    'Fake_O2_Elimination',
+}
