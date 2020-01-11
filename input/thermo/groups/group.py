@@ -883,161 +883,7 @@ entry(
 
 entry(
     index = 42,
-    label = "Ct-Ct-Cd-N3d_3282",
-    group = 
-"""
-1   Ct  u0 p0 c0 {2,S} {3,T}
-2   Cd  u0 p0 c0 {1,S} {4,D}
-3 * Ct  u0 p0 c0 {1,T}
-4   N3d u0 p1 c0 {2,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([12.32,14.9755,17.0117,18.6274,21.2156,23.1515,26.0214],'J/(mol*K)'),
-        H298 = (69.0282,'kJ/mol'),
-        S298 = (45.0105,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 43,
-    label = "Ct-Ct-O2s-N3s_3225",
-    group = 
-"""
-1   Ct  u0 p0 c0 {2,S} {3,T}
-2   O2s u0 p2 c0 {1,S} {4,S}
-3 * Ct  u0 p0 c0 {1,T}
-4   N3s u0 p1 c0 {2,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([14.6682,16.6754,18.309,19.761,22.2027,24.0373,26.8732],'J/(mol*K)'),
-        H298 = (67.4564,'kJ/mol'),
-        S298 = (51.3958,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 44,
-    label = "Ct-Cd-N5dc_3216",
-    group = 
-"""
-1   Cd   u0 p0 c0 {2,S} {3,D}
-2 * Ct   u0 p0 c0 {1,S}
-3   N5dc u0 p0 c+1 {1,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([13.601,16.2315,18.216,19.9185,22.5876,24.3602,26.5656],'J/(mol*K)'),
-        H298 = (52.6765,'kJ/mol'),
-        S298 = (38.3306,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 45,
-    label = "Ct-Cd-HN3d_3087",
-    group = 
-"""
-1   Cd  u0 p0 c0 {2,S} {3,D} {4,S}
-2 * Ct  u0 p0 c0 {1,S}
-3   N3d u0 p1 c0 {1,D}
-4   H   u0 p0 c0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([21.206,24.7869,27.7882,30.3666,34.491,37.4746,41.8943],'J/(mol*K)'),
-        H298 = (93.9584,'kJ/mol'),
-        S298 = (92.8964,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 46,
-    label = "Ct-Cs-N3s_2943",
-    group = 
-"""
-1   Cs  u0 p0 c0 {2,S} {3,S}
-2 * Ct  u0 p0 c0 {1,S}
-3   N3s u0 p1 c0 {1,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 47,
-    label = "Ct-Cs-HHN3s_3239",
-    group = 
-"""
-1   Cs  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2 * Ct  u0 p0 c0 {1,S}
-3   N3s u0 p1 c0 {1,S}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([24.8452,29.8489,34.1424,37.8699,43.906,48.4852,55.3901],'J/(mol*K)'),
-        H298 = (50.659,'kJ/mol'),
-        S298 = (92.6266,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 48,
-    label = "Ct-Ct-N3d_2734",
-    group = 
-"""
-1   Ct  u0 p0 c0 {2,T} {3,S}
-2 * Ct  u0 p0 c0 {1,T}
-3   N3d u0 p1 c0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([26.0847,30.6477,34.0701,36.8332,41.2609,44.4857,49.2612],'J/(mol*K)'),
-        H298 = (161.822,'kJ/mol'),
-        S298 = (104.003,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 49,
-    label = "Ct-N5tc_2639",
+    label = "Ct-(N5tc)",
     group = 
 """
 1   N5tc u0 p0 c+1 {2,T}
@@ -1052,34 +898,13 @@ entry(
 )
 
 entry(
-    index = 50,
-    label = "Ct-N5tc-O0sc_3166",
+    index = 43,
+    label = "Ct-(N5tcO2s)",
     group = 
 """
-1   N5tc u0 p0 c+1 {2,T} {3,S}
-2 * Ct   u0 p0 c0 {1,T}
-3   O0sc u0 p3 c-1 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([32.0258,35.9008,39.1417,42.047,46.8329,50.2328,54.9005],'J/(mol*K)'),
-        H298 = (117.987,'kJ/mol'),
-        S298 = (116.464,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 51,
-    label = "Ct-N1sc_2611",
-    group = 
-"""
-1   N1sc u0 p2 c-1 {2,S}
-2 * Ct   u0 p0 c0 {1,S}
+1 * Ct   u0 p0 c0 {2,S} {3,T}
+2   O2s  u0 p2 c0 {1,S}
+3   N5tc u0 p0 c+1 {1,T}
 """,
     thermo = None,
     shortDesc = """""",
@@ -1090,21 +915,170 @@ entry(
 )
 
 entry(
-    index = 52,
-    label = "Ct-N1sc-N5dc_2610",
+    index = 44,
+    label = "Ct-(N3dN5tc)",
     group = 
 """
-1   N1sc u0 p2 c-1 {2,S} {3,S}
-2 * Ct   u0 p0 c0 {1,S}
-3   N5dc u0 p0 c+1 {1,S}
+1 * Ct   u0 p0 c0 {2,S} {3,T}
+2   N3d  u0 p1 c0 {1,S}
+3   N5tc u0 p0 c+1 {1,T}
+""",
+    thermo = None,
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 45,
+    label = "Ct-(N3sN5tc)",
+    group = 
+"""
+1 * Ct   u0 p0 c0 {2,S} {3,T}
+2   N3s  u0 p1 c0 {1,S}
+3   N5tc u0 p0 c+1 {1,T}
+""",
+    thermo = None,
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 46,
+    label = "Ct-(CtN5tc)",
+    group = 
+"""
+1 * Ct   u0 p0 c0 {2,T} {3,S}
+2   N5tc u0 p0 c+1 {1,T}
+3   Ct   u0 p0 c0 {1,S}
+""",
+    thermo = None,
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 47,
+    label = "N5tc-(O0sc)",
+    group = 
+"""
+1 * N5tc u0 {2,S}
+2   O0sc u0 {1,S}
+""",
+    thermo = None,
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 48,
+    label = "Ct-(N3t)",
+    group = 
+"""
+1   N3t u0 {2,T}
+2 * Ct  u0 {1,T}
+""",
+    thermo = None,
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 49,
+    label = "Ct-N3tCd",
+    group = 
+"""
+1 * Ct  u0 {2,T} {3,S}
+2   N3t u0 {1,T}
+3   Cd  u0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([13.8967,16.2584,17.9798,19.3301,21.478,22.9387,24.7319],'J/(mol*K)'),
-        H298 = (97.1173,'kJ/mol'),
-        S298 = (54.7192,'J/(mol*K)'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (0,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
     ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 50,
+    label = "Ct-N3tCs",
+    group = 
+"""
+1 * Ct  u0 {2,T} {3,S}
+2   N3t u0 {1,T}
+3   Cs  u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (0,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
+    ),
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 51,
+    label = "Ct-N3tC",
+    group = 
+"""
+1 * Ct  u0 {2,T} {3,S}
+2   N3t u0 {1,T}
+3   C   u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (0,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
+    ),
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 52,
+    label = "Ct-N3tOs",
+    group = 
+"""
+1 * Ct  u0 {2,T} {3,S}
+2   N3t u0 {1,T}
+3   O2s u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (0,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
+    ),
+    shortDesc = """""",
     longDesc = 
 """
 
@@ -1113,20 +1087,20 @@ entry(
 
 entry(
     index = 53,
-    label = "Ct-Ct-N3s_2606",
+    label = "Ct-N3tN3s",
     group = 
 """
-1   Ct  u0 p0 c0 {2,T} {3,S}
-2 * Ct  u0 p0 c0 {1,T}
-3   N3s u0 p1 c0 {1,S}
+1 * Ct  u0 {2,T} {3,S}
+2   N3t u0 {1,T}
+3   N3s u0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([40.5025,47.045,52.175,56.5427,63.685,69.1043,77.6767],'J/(mol*K)'),
-        H298 = (151.147,'kJ/mol'),
-        S298 = (148.752,'J/(mol*K)'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (0,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
     ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
+    shortDesc = """""",
     longDesc = 
 """
 
@@ -1135,11 +1109,12 @@ entry(
 
 entry(
     index = 54,
-    label = "Ct-N3s_2487",
+    label = "Ct-(N3dN3t)",
     group = 
 """
-1   N3s u0 p1 c0 {2,S}
-2 * Ct  u0 p0 c0 {1,S}
+1 * Ct  u0 p0 c0 {2,S} {3,T}
+2   N3d u0 p1 c0 {1,S}
+3   N3t u0 p1 c0 {1,T}
 """,
     thermo = None,
     shortDesc = """""",
@@ -1151,12 +1126,12 @@ entry(
 
 entry(
     index = 55,
-    label = "Ct-N3s-O2s_3069",
+    label = "Ct-(N1scN3t)",
     group = 
 """
-1   N3s u0 p1 c0 {2,S} {3,S}
-2 * Ct  u0 p0 c0 {1,S}
-3   O2s u0 p2 c0 {1,S}
+1 * Ct   u0 p0 c0 {2,S} {3,T}
+2   N1sc u0 p2 c-1 {1,S}
+3   N3t  u0 p1 c0 {1,T}
 """,
     thermo = None,
     shortDesc = """""",
@@ -1168,21 +1143,14 @@ entry(
 
 entry(
     index = 56,
-    label = "Ct-N3s-HO2s_3055",
+    label = "Ct-(N5sc)",
     group = 
 """
-1   N3s u0 p1 c0 {2,S} {3,S} {4,S}
-2 * Ct  u0 p0 c0 {1,S}
-3   O2s u0 p2 c0 {1,S}
-4   H   u0 p0 c0 {1,S}
+1   N5sc u0 p0 c+1 {2,S}
+2 * Ct   u0 p0 c0 {1,S}
 """,
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([14.7866,17.464,19.3073,20.6976,22.9013,24.5157,26.9092],'J/(mol*K)'),
-        H298 = (44.9523,'kJ/mol'),
-        S298 = (62.5169,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
+    thermo = None,
+    shortDesc = """""",
     longDesc = 
 """
 
@@ -1191,13 +1159,11 @@ entry(
 
 entry(
     index = 57,
-    label = "Ct-N3s-HH_2893",
+    label = "N5sc-(Ct)",
     group = 
 """
-1   N3s u0 p1 c0 {2,S} {3,S} {4,S}
-2 * Ct  u0 p0 c0 {1,S}
-3   H   u0 p0 c0 {1,S}
-4   H   u0 p0 c0 {1,S}
+1 * N5sc u0 p0 c+1 {2,S}
+2   Ct   u0 p0 c0 {1,S}
 """,
     thermo = None,
     shortDesc = """""",
@@ -1209,15 +1175,14 @@ entry(
 
 entry(
     index = 58,
-    label = "Ct-N3tN3s",
+    label = "Ct-(N3d)",
     group = 
 """
-1 * Ct  u0 {2,T} {3,S}
-2   N3t u0 {1,T}
-3   N3s u0 {1,S}
+1   N3d u0 p1 c0 {2,S}
+2 * Ct  u0 p0 c0 {1,S}
 """,
     thermo = None,
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
+    shortDesc = """""",
     longDesc = 
 """
 
@@ -1226,253 +1191,7 @@ entry(
 
 entry(
     index = 59,
-    label = "Ct-CtN3s-HH_3260",
-    group = 
-"""
-1   N3s u0 p1 c0 {2,S} {3,S} {4,S}
-2 * Ct  u0 p0 c0 {1,S} {5,T}
-3   H   u0 p0 c0 {1,S}
-4   H   u0 p0 c0 {1,S}
-5   Ct  u0 p0 c0 {2,T}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 60,
-    label = "Ct-CtN3s",
-    group = 
-"""
-1 * Ct  u0 {2,T} {3,S}
-2   Ct  u0 {1,T}
-3   N3s u0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([19.5908,22.3207,24.723,26.8019,30.2277,32.8542,37.0698],'J/(mol*K)'),
-        H298 = (38.9969,'kJ/mol'),
-        S298 = (83.7303,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 61,
-    label = "Ct-N3s-N3s_2875",
-    group = 
-"""
-1   N3s u0 p1 c0 {2,S} {3,S}
-2 * Ct  u0 p0 c0 {1,S}
-3   N3s u0 p1 c0 {1,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 62,
-    label = "Ct-N3s-HN3s_3035",
-    group = 
-"""
-1   N3s u0 p1 c0 {2,S} {3,S} {4,S}
-2 * Ct  u0 p0 c0 {1,S}
-3   N3s u0 p1 c0 {1,S}
-4   H   u0 p0 c0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([15.8062,18.7431,20.9156,22.7679,25.7721,28.0383,31.5362],'J/(mol*K)'),
-        H298 = (74.8856,'kJ/mol'),
-        S298 = (63.5989,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 63,
-    label = "Ct-N3s-Cs_2648",
-    group = 
-"""
-1   N3s u0 p1 c0 {2,S} {3,S}
-2 * Ct  u0 p0 c0 {1,S}
-3   Cs  u0 p0 c0 {1,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 64,
-    label = "Ct-N3s-CsH_3004",
-    group = 
-"""
-1   N3s u0 p1 c0 {2,S} {3,S} {4,S}
-2 * Ct  u0 p0 c0 {1,S}
-3   Cs  u0 p0 c0 {1,S}
-4   H   u0 p0 c0 {1,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 65,
-    label = "Ct-N3s-CsH-HHH_3003",
-    group = 
-"""
-1   Cs  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2   N3s u0 p1 c0 {1,S} {6,S} {7,S}
-3   H   u0 p0 c0 {1,S}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {1,S}
-6 * Ct  u0 p0 c0 {2,S}
-7   H   u0 p0 c0 {2,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 66,
-    label = "Ct-N3s-Cs-HHH_2647",
-    group = 
-"""
-1   Cs  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2   N3s u0 p1 c0 {1,S} {6,S}
-3   H   u0 p0 c0 {1,S}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {1,S}
-6 * Ct  u0 p0 c0 {2,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([9.33318,12.1331,14.7555,17.0408,21.0735,24.1622,29.2571],'J/(mol*K)'),
-        H298 = (-9.29746,'kJ/mol'),
-        S298 = (27.9005,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 67,
-    label = "Ct-O2s-N3s_2404",
-    group = 
-"""
-1   O2s u0 p2 c0 {2,S} {3,S}
-2 * Ct  u0 p0 c0 {1,S}
-3   N3s u0 p1 c0 {1,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 68,
-    label = "Ct-O2s-N3s-HH_3224",
-    group = 
-"""
-1   N3s u0 p1 c0 {2,S} {3,S} {4,S}
-2   O2s u0 p2 c0 {1,S} {5,S}
-3   H   u0 p0 c0 {1,S}
-4   H   u0 p0 c0 {1,S}
-5 * Ct  u0 p0 c0 {2,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([23.4521,26.6591,29.4605,31.9425,36.0955,39.1602,43.7066],'J/(mol*K)'),
-        H298 = (81.9813,'kJ/mol'),
-        S298 = (97.2923,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 69,
-    label = "Ct-N3d_2386",
-    group = 
-"""
-1   N3d u0 p1 c0 {2,S}
-2 * Ct  u0 p0 c0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([14.8391,16.2509,17.4893,18.5772,20.2284,21.3616,22.7649],'J/(mol*K)'),
-        H298 = (97.2152,'kJ/mol'),
-        S298 = (73.5946,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 70,
-    label = "Ct-N3d-N3d_2801",
-    group = 
-"""
-1   N3d u0 p1 c0 {2,S} {3,D}
-2 * Ct  u0 p0 c0 {1,S}
-3   N3d u0 p1 c0 {1,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([16.3404,18.8073,20.777,22.4152,25.039,26.9426,29.6952],'J/(mol*K)'),
-        H298 = (112.01,'kJ/mol'),
-        S298 = (73.9816,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 71,
-    label = "Ct-CtN3d_2736",
+    label = "Ct-(CtN3d)",
     group = 
 """
 1 * Ct  u0 p0 c0 {2,S} {3,T}
@@ -1488,15 +1207,13 @@ entry(
 )
 
 entry(
-    index = 72,
-    label = "Ct-N3d-Cd-HH_2384",
+    index = 60,
+    label = "Ct-(CtN1sc)",
     group = 
 """
-1   Cd  u0 p0 c0 {2,D} {3,S} {4,S}
-2   N3d u0 p1 c0 {1,D} {5,S}
-3   H   u0 p0 c0 {1,S}
-4   H   u0 p0 c0 {1,S}
-5 * Ct  u0 p0 c0 {2,S}
+1 * Ct   u0 p0 c0 {2,S} {3,T}
+2   N1sc u0 p2 c-1 {1,S}
+3   Ct   u0 p0 c0 {1,T}
 """,
     thermo = None,
     shortDesc = """""",
@@ -1507,59 +1224,12 @@ entry(
 )
 
 entry(
-    index = 73,
-    label = "Ct-N3d-Cd_2385",
+    index = 61,
+    label = "Ct-(N3s)",
     group = 
 """
-1   N3d u0 p1 c0 {2,S} {3,D}
-2 * Ct  u0 p0 c0 {1,S}
-3   Cd  u0 p0 c0 {1,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([10.3088,12.2569,13.8353,15.1253,17.1847,18.6856,20.8989],'J/(mol*K)'),
-        H298 = (54.1008,'kJ/mol'),
-        S298 = (40.7073,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 74,
-    label = "Ct-CtN3d-HO2d_2735",
-    group = 
-"""
-1 * Ct  u0 p0 c0 {2,S} {3,T}
-2   N3d u0 p1 c0 {1,S} {4,D}
-3   Ct  u0 p0 c0 {1,T} {5,S}
-4   O2d u0 p2 c0 {2,D}
-5   H   u0 p0 c0 {3,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([10.8519,12.3884,13.4391,14.3372,15.7884,16.8399,18.3753],'J/(mol*K)'),
-        H298 = (58.2045,'kJ/mol'),
-        S298 = (47.1407,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 75,
-    label = "Ct-Ct-N3t_2356",
-    group = 
-"""
-1   Ct  u0 p0 c0 {2,S} {3,T}
-2 * Ct  u0 p0 c0 {1,S}
-3   N3t u0 p1 c0 {1,T}
+1   N3s u0 {2,S}
+2 * Ct  u0 {1,S}
 """,
     thermo = None,
     shortDesc = """""",
@@ -1570,21 +1240,15 @@ entry(
 )
 
 entry(
-    index = 76,
-    label = "Ct-Ct(CtN3t)",
+    index = 62,
+    label = "Ct-CtN3s",
     group = 
 """
-1 * Ct  u0 {2,S} {3,T}
-2   Ct  u0 {1,S} {4,T}
-3   Ct  u0 {1,T}
-4   N3t u0 {2,T}
+1 * Ct  u0 {2,T} {3,S}
+2   Ct  u0 {1,T}
+3   N3s u0 {1,S}
 """,
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([10.3,11.3,12.1,12.7,13.6,14.3,15.3],'cal/(mol*K)'),
-        H298 = (63.8,'kcal/mol'),
-        S298 = (35.4,'cal/(mol*K)'),
-    ),
+    thermo = None,
     shortDesc = """""",
     longDesc = 
 """
@@ -1593,7 +1257,7 @@ entry(
 )
 
 entry(
-    index = 77,
+    index = 63,
     label = "Ct-CtH",
     group = 
 """
@@ -1615,7 +1279,7 @@ entry(
 )
 
 entry(
-    index = 78,
+    index = 64,
     label = "Ct-StH",
     group = 
 """
@@ -1637,7 +1301,7 @@ entry(
 )
 
 entry(
-    index = 79,
+    index = 65,
     label = "Ct-CtOs",
     group = 
 """
@@ -1659,29 +1323,7 @@ entry(
 )
 
 entry(
-    index = 80,
-    label = "Ct-N3tOs",
-    group = 
-"""
-1 * Ct  u0 {2,T} {3,S}
-2   N3t u0 {1,T}
-3   O2s u0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([22.5553,26.1069,28.9206,31.3636,35.4154,38.3074,42.7085],'J/(mol*K)'),
-        H298 = (23.3919,'kJ/mol'),
-        S298 = (102.439,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 81,
+    index = 66,
     label = "Ct-CtS",
     group = 
 """
@@ -1698,7 +1340,7 @@ entry(
 )
 
 entry(
-    index = 82,
+    index = 67,
     label = "Ct-CtS2",
     group = 
 """
@@ -1720,7 +1362,7 @@ entry(
 )
 
 entry(
-    index = 83,
+    index = 68,
     label = "Ct-CtS4",
     group = 
 """
@@ -1742,7 +1384,7 @@ entry(
 )
 
 entry(
-    index = 84,
+    index = 69,
     label = "Ct-CtS6",
     group = 
 """
@@ -1764,98 +1406,7 @@ entry(
 )
 
 entry(
-    index = 85,
-    label = "Ct-N3tC",
-    group = 
-"""
-1 * Ct  u0 {2,T} {3,S}
-2   N3t u0 {1,T}
-3   C   u0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([12.8544,14.7033,16.3443,17.6322,19.6804,21.0326,22.9041],'J/(mol*K)'),
-        H298 = (47.1802,'kJ/mol'),
-        S298 = (71.4147,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 86,
-    label = "Ct-N3tCs",
-    group = 
-"""
-1 * Ct  u0 {2,T} {3,S}
-2   N3t u0 {1,T}
-3   Cs  u0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([23.5674,28.4454,32.5584,36.0604,41.6805,45.6955,51.3415],'J/(mol*K)'),
-        H298 = (53.2354,'kJ/mol'),
-        S298 = (75.8226,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 87,
-    label = "Ct-CsN3t-HHH_2675",
-    group = 
-"""
-1   Cs  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2 * Ct  u0 p0 c0 {1,S} {6,T}
-3   H   u0 p0 c0 {1,S}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {1,S}
-6   N3t u0 p1 c0 {2,T}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-7.12819,-8.19265,-9.31973,-10.11,-11.3763,-12.7149,-14.5602],'J/(mol*K)'),
-        H298 = (-5.37365,'kJ/mol'),
-        S298 = (-38.6707,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 88,
-    label = "Ct-N3tCd",
-    group = 
-"""
-1 * Ct  u0 {2,T} {3,S}
-2   N3t u0 {1,T}
-3   Cd  u0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([14.086,16.4214,18.321,19.9442,22.5573,24.3923,26.8502],'J/(mol*K)'),
-        H298 = (53.9745,'kJ/mol'),
-        S298 = (52.4275,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 89,
+    index = 70,
     label = "Ct-CtC",
     group = 
 """
@@ -1872,7 +1423,7 @@ entry(
 )
 
 entry(
-    index = 90,
+    index = 71,
     label = "Ct-CtCs",
     group = 
 """
@@ -1894,7 +1445,7 @@ entry(
 )
 
 entry(
-    index = 91,
+    index = 72,
     label = "Ct-CtCds",
     group = 
 """
@@ -1911,7 +1462,7 @@ entry(
 )
 
 entry(
-    index = 92,
+    index = 73,
     label = "Ct-Ct(Cds-O2d)",
     group = 
 """
@@ -1929,7 +1480,7 @@ entry(
 )
 
 entry(
-    index = 93,
+    index = 74,
     label = "Ct-Ct(Cds-Cd)",
     group = 
 """
@@ -1947,7 +1498,7 @@ entry(
 )
 
 entry(
-    index = 94,
+    index = 75,
     label = "Ct-Ct(Cds-Cds)",
     group = 
 """
@@ -1970,7 +1521,7 @@ entry(
 )
 
 entry(
-    index = 95,
+    index = 76,
     label = "Ct-Ct(Cds-Cdd)",
     group = 
 """
@@ -1988,7 +1539,7 @@ entry(
 )
 
 entry(
-    index = 96,
+    index = 77,
     label = "Ct-Ct(Cds-Cdd-O2d)",
     group = 
 """
@@ -2007,7 +1558,7 @@ entry(
 )
 
 entry(
-    index = 97,
+    index = 78,
     label = "Ct-Ct(Cds-Cdd-S2d)",
     group = 
 """
@@ -2026,7 +1577,7 @@ entry(
 )
 
 entry(
-    index = 98,
+    index = 79,
     label = "Ct-Ct(Cds-Cdd-Cd)",
     group = 
 """
@@ -2045,7 +1596,7 @@ entry(
 )
 
 entry(
-    index = 99,
+    index = 80,
     label = "Ct-CtCt",
     group = 
 """
@@ -2067,7 +1618,30 @@ entry(
 )
 
 entry(
-    index = 100,
+    index = 81,
+    label = "Ct-Ct(CtN3t)",
+    group = 
+"""
+1 * Ct  u0 {2,S} {3,T}
+2   Ct  u0 {1,S} {4,T}
+3   Ct  u0 {1,T}
+4   N3t u0 {2,T}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([10.3,11.3,12.1,12.7,13.6,14.3,15.3],'cal/(mol*K)'),
+        H298 = (63.8,'kcal/mol'),
+        S298 = (35.4,'cal/(mol*K)'),
+    ),
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 82,
     label = "Ct-CtCb",
     group = 
 """
@@ -2089,7 +1663,7 @@ entry(
 )
 
 entry(
-    index = 101,
+    index = 83,
     label = "Cdd",
     group = 
 """
@@ -2104,38 +1678,12 @@ entry(
 )
 
 entry(
-    index = 102,
-    label = "Cdd-Cdd-N3d_3213",
+    index = 84,
+    label = "Cdd-(N3d)",
     group = 
 """
-1   Cdd u0 p0 c0 {2,D} {3,D}
-2 * Cdd u0 p0 c0 {1,D}
-3   N3d u0 p1 c0 {1,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([24.4777,27.8606,30.633,33.027,36.8297,39.5772,43.5086],'J/(mol*K)'),
-        H298 = (101.253,'kJ/mol'),
-        S298 = (104.144,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 103,
-    label = "Cdd-CddN3d-HN3d-H_3202",
-    group = 
-"""
-1   Cdd u0 p0 c0 {2,D} {4,D}
-2 * Cdd u0 p0 c0 {1,D} {3,D}
-3   N3d u0 p1 c0 {2,D} {5,S}
-4   N3d u0 p1 c0 {1,D} {6,S}
-5   H   u0 p0 c0 {3,S}
-6   H   u0 p0 c0 {4,S}
+1   N3d u0 {2,D}
+2 * Cdd u0 {1,D}
 """,
     thermo = None,
     shortDesc = """""",
@@ -2146,192 +1694,13 @@ entry(
 )
 
 entry(
-    index = 104,
-    label = "Cdd-CddN3d-HN3d_3203",
-    group = 
-"""
-1 * Cdd u0 p0 c0 {2,D} {3,D}
-2   N3d u0 p1 c0 {1,D} {4,S}
-3   Cdd u0 p0 c0 {1,D} {5,D}
-4   H   u0 p0 c0 {2,S}
-5   N3d u0 p1 c0 {3,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([11.5275,13.3821,14.9821,16.3737,18.6326,20.3231,22.9096],'J/(mol*K)'),
-        H298 = (91.5759,'kJ/mol'),
-        S298 = (43.0413,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 105,
-    label = "Cdd-Cd-HN3s_3186",
-    group = 
-"""
-1   Cd  u0 p0 c0 {2,D} {3,S} {4,S}
-2 * Cdd u0 p0 c0 {1,D}
-3   N3s u0 p1 c0 {1,S}
-4   H   u0 p0 c0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([27.3324,32.3031,36.339,39.7511,45.194,49.1981,55.2157],'J/(mol*K)'),
-        H298 = (56.1095,'kJ/mol'),
-        S298 = (101.689,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 106,
-    label = "Cdd-Cdd-N5dc_2860",
-    group = 
-"""
-1   Cdd  u0 p0 c0 {2,D} {3,D}
-2 * Cdd  u0 p0 c0 {1,D}
-3   N5dc u0 p0 c+1 {1,D}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 107,
-    label = "Cdd-Cdd-N5dc-HO0sc_2859",
-    group = 
-"""
-1   N5dc u0 p0 c+1 {2,D} {3,S} {4,S}
-2   Cdd  u0 p0 c0 {1,D} {5,D}
-3   O0sc u0 p3 c-1 {1,S}
-4   H    u0 p0 c0 {1,S}
-5 * Cdd  u0 p0 c0 {2,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([17.1824,20.2466,22.7804,24.9024,28.2125,30.5326,33.6413],'J/(mol*K)'),
-        H298 = (75.6431,'kJ/mol'),
-        S298 = (67.6771,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 108,
-    label = "Cdd-N3d_2511",
-    group = 
-"""
-1   N3d u0 p1 c0 {2,D}
-2 * Cdd u0 p0 c0 {1,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([27.4733,32.5165,36.8914,40.8437,47.3836,52.1509,59.2133],'J/(mol*K)'),
-        H298 = (105.571,'kJ/mol'),
-        S298 = (104.725,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 109,
-    label = "Cdd-N3dOd",
-    group = 
-"""
-1 * Cdd u0 {2,D} {3,D}
-2   N3d u0 {1,D}
-3   O2d u0 {1,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([23.7816,26.5466,29.0817,31.2659,34.768,37.3438,41.0716],'J/(mol*K)'),
-        H298 = (-39.5949,'kJ/mol'),
-        S298 = (119.009,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 110,
-    label = "Cdd-CddN3d_3204",
+    index = 85,
+    label = "Cdd-(N3dN3d)",
     group = 
 """
 1 * Cdd u0 p0 c0 {2,D} {3,D}
 2   N3d u0 p1 c0 {1,D}
-3   Cdd u0 p0 c0 {1,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([14.9579,17.5544,19.8275,21.8043,25.0016,27.3787,30.9628],'J/(mol*K)'),
-        H298 = (83.0544,'kJ/mol'),
-        S298 = (57.3983,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 111,
-    label = "Cdd-CddN3d-HO2d_3212",
-    group = 
-"""
-1 * Cdd u0 p0 c0 {2,D} {3,D}
-2   N3d u0 p1 c0 {1,D} {4,S}
-3   Cdd u0 p0 c0 {1,D} {5,D}
-4   H   u0 p0 c0 {2,S}
-5   O2d u0 p2 c0 {3,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([14.1943,15.1718,15.852,16.4154,17.283,17.8799,18.6549],'J/(mol*K)'),
-        H298 = (-13.4051,'kJ/mol'),
-        S298 = (74.4596,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 112,
-    label = "Cdd-CdN3d-HH_3141",
-    group = 
-"""
-1   Cd  u0 p0 c0 {2,D} {3,S} {4,S}
-2 * Cdd u0 p0 c0 {1,D} {5,D}
-3   H   u0 p0 c0 {1,S}
-4   H   u0 p0 c0 {1,S}
-5   N3d u0 p1 c0 {2,D}
+3   N3d u0 p1 c0 {1,D}
 """,
     thermo = None,
     shortDesc = """""",
@@ -2342,7 +1711,7 @@ entry(
 )
 
 entry(
-    index = 113,
+    index = 86,
     label = "Cdd-N3dCd",
     group = 
 """
@@ -2364,100 +1733,13 @@ entry(
 )
 
 entry(
-    index = 114,
-    label = "Cdd-N3d-Cs_2626",
-    group = 
-"""
-1   N3d u0 p1 c0 {2,D} {3,S}
-2 * Cdd u0 p0 c0 {1,D}
-3   Cs  u0 p0 c0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([19.2062,23.1189,26.5749,29.6038,34.5494,38.2704,43.9257],'J/(mol*K)'),
-        H298 = (46.9489,'kJ/mol'),
-        S298 = (69.9188,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 115,
-    label = "Cdd-N3d-O2s_2594",
-    group = 
-"""
-1   N3d u0 p1 c0 {2,D} {3,S}
-2 * Cdd u0 p0 c0 {1,D}
-3   O2s u0 p2 c0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([14.7548,17.4306,19.3815,20.8795,23.1732,24.8581,27.2698],'J/(mol*K)'),
-        H298 = (37.4346,'kJ/mol'),
-        S298 = (55.6752,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 116,
-    label = "Cdd-N3d-N3s-HH_2509",
-    group = 
-"""
-1   N3s u0 p1 c0 {2,S} {3,S} {4,S}
-2   N3d u0 p1 c0 {1,S} {5,D}
-3   H   u0 p0 c0 {1,S}
-4   H   u0 p0 c0 {1,S}
-5 * Cdd u0 p0 c0 {2,D}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 117,
-    label = "Cdd-N3d-N3s_2510",
-    group = 
-"""
-1   N3d u0 p1 c0 {2,D} {3,S}
-2 * Cdd u0 p0 c0 {1,D}
-3   N3s u0 p1 c0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([18.3319,22.0004,24.9585,27.431,31.4108,34.3547,38.7989],'J/(mol*K)'),
-        H298 = (75.7257,'kJ/mol'),
-        S298 = (70.2025,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 118,
-    label = "Cdd-N3dN3d-HH_2846",
+    index = 87,
+    label = "Cdd-(CddN3d)",
     group = 
 """
 1 * Cdd u0 p0 c0 {2,D} {3,D}
-2   N3d u0 p1 c0 {1,D} {4,S}
-3   N3d u0 p1 c0 {1,D} {5,S}
-4   H   u0 p0 c0 {2,S}
-5   H   u0 p0 c0 {3,S}
+2   Cdd u0 p0 c0 {1,D}
+3   N3d u0 p1 c0 {1,D}
 """,
     thermo = None,
     shortDesc = """""",
@@ -2468,35 +1750,13 @@ entry(
 )
 
 entry(
-    index = 119,
-    label = "Cdd-N3dN3d",
+    index = 88,
+    label = "Cdd-(N3dO2d)",
     group = 
 """
-1 * Cdd u0 {2,D} {3,D}
-2   N3d u0 {1,D}
-3   N3d u0 {1,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([9.23951,10.4998,11.9442,13.2395,15.3013,16.7976,18.8081],'J/(mol*K)'),
-        H298 = (24.902,'kJ/mol'),
-        S298 = (43.0666,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 120,
-    label = "Cdd-N3dN5dc_2645",
-    group = 
-"""
-1 * Cdd  u0 p0 c0 {2,D} {3,D}
-2   N5dc u0 p0 c+1 {1,D}
-3   N3d  u0 p1 c0 {1,D}
+1 * Cdd u0 p0 c0 {2,D} {3,D}
+2   N3d u0 p1 c0 {1,D}
+3   O2d u0 p2 c0 {1,D}
 """,
     thermo = None,
     shortDesc = """""",
@@ -2507,125 +1767,15 @@ entry(
 )
 
 entry(
-    index = 121,
-    label = "Cdd-N3dN5dc-HO0sc_2644",
+    index = 89,
+    label = "Cdd-(N5dc)",
     group = 
 """
-1   N5dc u0 p0 c+1 {2,D} {3,S} {4,S}
-2 * Cdd  u0 p0 c0 {1,D} {5,D}
-3   O0sc u0 p3 c-1 {1,S}
-4   H    u0 p0 c0 {1,S}
-5   N3d  u0 p1 c0 {2,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([24.1543,27.9873,31.2298,34.0153,38.4064,41.5395,45.8977],'J/(mol*K)'),
-        H298 = (106.096,'kJ/mol'),
-        S298 = (94.7309,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 122,
-    label = "Cdd-N5dc",
-    group = 
-"""
-1 * Cdd  u0 {2,D}
-2   N5dc u0 {1,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([16.9764,19.2877,21.2162,22.835,25.4765,27.479,30.6593],'J/(mol*K)'),
-        H298 = (44.5717,'kJ/mol'),
-        S298 = (80.5763,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 123,
-    label = "Cdd-CddN5dc_2858",
-    group = 
-"""
-1 * Cdd  u0 p0 c0 {2,D} {3,D}
-2   N5dc u0 p0 c+1 {1,D}
-3   Cdd  u0 p0 c0 {1,D}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 124,
-    label = "Cdd-CddN5dc-HO0sc_2857",
-    group = 
-"""
-1   N5dc u0 p0 c+1 {2,D} {3,S} {4,S}
-2 * Cdd  u0 p0 c0 {1,D} {5,D}
-3   O0sc u0 p3 c-1 {1,S}
-4   H    u0 p0 c0 {1,S}
-5   Cdd  u0 p0 c0 {2,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([21.8569,25.1122,27.8268,30.0951,33.6674,36.2139,39.7505],'J/(mol*K)'),
-        H298 = (44.0392,'kJ/mol'),
-        S298 = (95.3913,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 125,
-    label = "Cdd-N5dc-HO0sc_2504",
-    group = 
-"""
-1   N5dc u0 p0 c+1 {2,D} {3,S} {4,S}
+1   N5dc u0 p0 c+1 {2,D}
 2 * Cdd  u0 p0 c0 {1,D}
-3   O0sc u0 p3 c-1 {1,S}
-4   H    u0 p0 c0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([27.5326,31.6196,35.6658,39.4221,45.4843,49.7364,55.6513],'J/(mol*K)'),
-        H298 = (90.0833,'kJ/mol'),
-        S298 = (113.179,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 126,
-    label = "Cdd-N5dcN5dc",
-    group = 
-"""
-1 * Cdd  u0 {2,D} {3,D}
-2   N5dc u0 {1,D}
-3   N5dc u0 {1,D}
 """,
     thermo = None,
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
+    shortDesc = """""",
     longDesc = 
 """
 
@@ -2633,41 +1783,7 @@ entry(
 )
 
 entry(
-    index = 127,
-    label = "Cdd-N5dcO2d",
-    group = 
-"""
-1 * Cdd  u0 {2,D} {3,D}
-2   N5dc u0 {1,D}
-3   O2d  u0 {1,D}
-""",
-    thermo = None,
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 128,
-    label = "Cdd-N5dcCd",
-    group = 
-"""
-1 * Cdd  u0 {2,D} {3,D}
-2   N5dc u0 {1,D}
-3   Cd   u0 {1,D}
-""",
-    thermo = None,
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 129,
+    index = 90,
     label = "Cdd-OdOd",
     group = 
 """
@@ -2689,7 +1805,7 @@ entry(
 )
 
 entry(
-    index = 130,
+    index = 91,
     label = "Cdd-OdSd",
     group = 
 """
@@ -2711,7 +1827,7 @@ entry(
 )
 
 entry(
-    index = 131,
+    index = 92,
     label = "Cdd-SdSd",
     group = 
 """
@@ -2728,7 +1844,7 @@ entry(
 )
 
 entry(
-    index = 132,
+    index = 93,
     label = "Cdd-S2dS2d",
     group = 
 """
@@ -2750,7 +1866,7 @@ entry(
 )
 
 entry(
-    index = 133,
+    index = 94,
     label = "Cdd-S4S4",
     group = 
 """
@@ -2772,7 +1888,7 @@ entry(
 )
 
 entry(
-    index = 134,
+    index = 95,
     label = "Cdd-S2S4",
     group = 
 """
@@ -2794,7 +1910,7 @@ entry(
 )
 
 entry(
-    index = 135,
+    index = 96,
     label = "Cdd-CdOd",
     group = 
 """
@@ -2811,7 +1927,7 @@ entry(
 )
 
 entry(
-    index = 136,
+    index = 97,
     label = "Cdd-CdsOd",
     group = 
 """
@@ -2833,7 +1949,7 @@ entry(
 )
 
 entry(
-    index = 137,
+    index = 98,
     label = "Cdd-CddOd",
     group = 
 """
@@ -2850,7 +1966,7 @@ entry(
 )
 
 entry(
-    index = 138,
+    index = 99,
     label = "Cdd-(Cdd-O2d)O2d",
     group = 
 """
@@ -2868,7 +1984,7 @@ entry(
 )
 
 entry(
-    index = 139,
+    index = 100,
     label = "Cdd-(Cdd-Cd)O2d",
     group = 
 """
@@ -2886,7 +2002,7 @@ entry(
 )
 
 entry(
-    index = 140,
+    index = 101,
     label = "Cdd-CdSd",
     group = 
 """
@@ -2908,7 +2024,7 @@ entry(
 )
 
 entry(
-    index = 141,
+    index = 102,
     label = "Cdd-CdsSd",
     group = 
 """
@@ -2925,7 +2041,7 @@ entry(
 )
 
 entry(
-    index = 142,
+    index = 103,
     label = "Cdd-CdsS2d",
     group = 
 """
@@ -2947,7 +2063,7 @@ entry(
 )
 
 entry(
-    index = 143,
+    index = 104,
     label = "Cdd-CdsS4d",
     group = 
 """
@@ -2969,7 +2085,7 @@ entry(
 )
 
 entry(
-    index = 144,
+    index = 105,
     label = "Cdd-CdsS6d",
     group = 
 """
@@ -2991,7 +2107,7 @@ entry(
 )
 
 entry(
-    index = 145,
+    index = 106,
     label = "Cdd-CddSd",
     group = 
 """
@@ -3008,7 +2124,7 @@ entry(
 )
 
 entry(
-    index = 146,
+    index = 107,
     label = "Cdd-(Cdd-S2d)S2d",
     group = 
 """
@@ -3026,7 +2142,7 @@ entry(
 )
 
 entry(
-    index = 147,
+    index = 108,
     label = "Cdd-(Cdd-Cd)S2d",
     group = 
 """
@@ -3044,7 +2160,7 @@ entry(
 )
 
 entry(
-    index = 148,
+    index = 109,
     label = "Cdd-CdCd",
     group = 
 """
@@ -3061,7 +2177,7 @@ entry(
 )
 
 entry(
-    index = 149,
+    index = 110,
     label = "Cdd-CddCdd",
     group = 
 """
@@ -3078,7 +2194,7 @@ entry(
 )
 
 entry(
-    index = 150,
+    index = 111,
     label = "Cdd-(Cdd-O2d)(Cdd-O2d)",
     group = 
 """
@@ -3097,7 +2213,7 @@ entry(
 )
 
 entry(
-    index = 151,
+    index = 112,
     label = "Cdd-(Cdd-S2d)(Cdd-S2d)",
     group = 
 """
@@ -3116,7 +2232,7 @@ entry(
 )
 
 entry(
-    index = 152,
+    index = 113,
     label = "Cdd-(Cdd-O2d)(Cdd-Cd)",
     group = 
 """
@@ -3135,7 +2251,7 @@ entry(
 )
 
 entry(
-    index = 153,
+    index = 114,
     label = "Cdd-(Cdd-S2d)(Cdd-Cd)",
     group = 
 """
@@ -3154,7 +2270,7 @@ entry(
 )
 
 entry(
-    index = 154,
+    index = 115,
     label = "Cdd-(Cdd-Cd)(Cdd-Cd)",
     group = 
 """
@@ -3173,7 +2289,7 @@ entry(
 )
 
 entry(
-    index = 155,
+    index = 116,
     label = "Cdd-CddCds",
     group = 
 """
@@ -3190,7 +2306,7 @@ entry(
 )
 
 entry(
-    index = 156,
+    index = 117,
     label = "Cdd-(Cdd-O2d)Cds",
     group = 
 """
@@ -3208,7 +2324,7 @@ entry(
 )
 
 entry(
-    index = 157,
+    index = 118,
     label = "Cdd-(Cdd-S2d)Cds",
     group = 
 """
@@ -3226,7 +2342,7 @@ entry(
 )
 
 entry(
-    index = 158,
+    index = 119,
     label = "Cdd-(Cdd-Cd)Cds",
     group = 
 """
@@ -3244,7 +2360,7 @@ entry(
 )
 
 entry(
-    index = 159,
+    index = 120,
     label = "Cdd-CdsCds",
     group = 
 """
@@ -3266,7 +2382,7 @@ entry(
 )
 
 entry(
-    index = 160,
+    index = 121,
     label = "Cds",
     group = 
 """
@@ -3281,13 +2397,12 @@ entry(
 )
 
 entry(
-    index = 161,
-    label = "Cd-Cdd-N5dc_3145",
+    index = 122,
+    label = "Cd-(N3d)",
     group = 
 """
-1   Cdd  u0 p0 c0 {2,D} {3,D}
-2 * Cd   u0 p0 c0 {1,D}
-3   N5dc u0 p0 c+1 {1,D}
+1   N3d u0 {2,D}
+2 * Cd  u0 {1,D}
 """,
     thermo = None,
     shortDesc = """""",
@@ -3298,17 +2413,14 @@ entry(
 )
 
 entry(
-    index = 162,
-    label = "Cd-CddHN3s-HHN5dc_2780",
+    index = 123,
+    label = "Cd-(N3dO2sO2s)",
     group = 
 """
-1 * Cd   u0 p0 c0 {2,S} {3,D} {4,S}
-2   N3s  u0 p1 c0 {1,S} {5,S} {6,S}
-3   Cdd  u0 p0 c0 {1,D} {7,D}
-4   H    u0 p0 c0 {1,S}
-5   H    u0 p0 c0 {2,S}
-6   H    u0 p0 c0 {2,S}
-7   N5dc u0 p0 c+1 {3,D}
+1 * Cd  u0 p0 c0 {2,S} {3,S} {4,D}
+2   O2s u0 p2 c0 {1,S}
+3   O2s u0 p2 c0 {1,S}
+4   N3d u0 p1 c0 {1,D}
 """,
     thermo = None,
     shortDesc = """""",
@@ -3319,137 +2431,14 @@ entry(
 )
 
 entry(
-    index = 163,
-    label = "Cd-CddHN3s-HHN5dc-HO0sc_2779",
+    index = 124,
+    label = "Cd-(HN3dN3d)",
     group = 
 """
-1 * Cd   u0 p0 c0 {2,S} {4,D} {5,S}
-2   N3s  u0 p1 c0 {1,S} {6,S} {7,S}
-3   N5dc u0 p0 c+1 {4,D} {8,S} {9,S}
-4   Cdd  u0 p0 c0 {1,D} {3,D}
-5   H    u0 p0 c0 {1,S}
-6   H    u0 p0 c0 {2,S}
-7   H    u0 p0 c0 {2,S}
-8   O0sc u0 p3 c-1 {3,S}
-9   H    u0 p0 c0 {3,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([1.50014,1.71109,1.55179,1.13815,0.0556631,-0.710183,-1.37925],'J/(mol*K)'),
-        H298 = (18.6987,'kJ/mol'),
-        S298 = (12.4288,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 164,
-    label = "Cd-CddHO2s-HN5dc_2727",
-    group = 
-"""
-1 * Cd   u0 p0 c0 {2,S} {3,D} {4,S}
-2   O2s  u0 p2 c0 {1,S} {5,S}
-3   Cdd  u0 p0 c0 {1,D} {6,D}
-4   H    u0 p0 c0 {1,S}
-5   H    u0 p0 c0 {2,S}
-6   N5dc u0 p0 c+1 {3,D}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 165,
-    label = "Cd-CddHO2s-HN5dc-HO0sc_2726",
-    group = 
-"""
-1 * Cd   u0 p0 c0 {3,D} {4,S} {5,S}
-2   N5dc u0 p0 c+1 {3,D} {6,S} {7,S}
-3   Cdd  u0 p0 c0 {1,D} {2,D}
-4   O2s  u0 p2 c0 {1,S} {8,S}
-5   H    u0 p0 c0 {1,S}
-6   O0sc u0 p3 c-1 {2,S}
-7   H    u0 p0 c0 {2,S}
-8   H    u0 p0 c0 {4,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-2.17923,-3.51249,-3.37633,-2.71729,-1.55729,-0.998156,-0.544205],'J/(mol*K)'),
-        H298 = (55.2027,'kJ/mol'),
-        S298 = (-10.4109,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 166,
-    label = "Cd-Cdd-N5dc-HO0sc_3144",
-    group = 
-"""
-1   N5dc u0 p0 c+1 {2,D} {3,S} {4,S}
-2   Cdd  u0 p0 c0 {1,D} {5,D}
-3   O0sc u0 p3 c-1 {1,S}
-4   H    u0 p0 c0 {1,S}
-5 * Cd   u0 p0 c0 {2,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([17.7083,21.7748,24.8733,27.4048,31.5149,34.6268,39.2891],'J/(mol*K)'),
-        H298 = (25.2797,'kJ/mol'),
-        S298 = (66.0016,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 167,
-    label = "Cd-Cdd-N3d_3051",
-    group = 
-"""
-1   Cdd u0 p0 c0 {2,D} {3,D}
-2 * Cd  u0 p0 c0 {1,D}
+1 * Cd  u0 p0 c0 {2,S} {3,D} {4,S}
+2   N3d u0 p1 c0 {1,S}
 3   N3d u0 p1 c0 {1,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([16.0423,19.7265,22.9901,25.7923,30.2919,33.6791,38.7885],'J/(mol*K)'),
-        H298 = (20.2357,'kJ/mol'),
-        S298 = (57.7195,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 168,
-    label = "Cd-CddHH-N3d-H_2978",
-    group = 
-"""
-1 * Cd  u0 p0 c0 {2,D} {4,S} {5,S}
-2   Cdd u0 p0 c0 {1,D} {3,D}
-3   N3d u0 p1 c0 {2,D} {6,S}
 4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {1,S}
-6   H   u0 p0 c0 {3,S}
 """,
     thermo = None,
     shortDesc = """""",
@@ -3460,23 +2449,17 @@ entry(
 )
 
 entry(
-    index = 169,
-    label = "Cd-CddHH-N3d_2979",
+    index = 125,
+    label = "Cd-(COHN3d)",
     group = 
 """
 1 * Cd  u0 p0 c0 {2,D} {3,S} {4,S}
-2   Cdd u0 p0 c0 {1,D} {5,D}
-3   H   u0 p0 c0 {1,S}
+2   N3d u0 p1 c0 {1,D}
+3   CO  u0 p0 c0 {1,S}
 4   H   u0 p0 c0 {1,S}
-5   N3d u0 p1 c0 {2,D}
 """,
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([10.7669,12.9574,15.1824,17.2566,20.8875,23.4435,27.4385],'J/(mol*K)'),
-        H298 = (20.3399,'kJ/mol'),
-        S298 = (55.895,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
+    thermo = None,
+    shortDesc = """""",
     longDesc = 
 """
 
@@ -3484,17 +2467,14 @@ entry(
 )
 
 entry(
-    index = 170,
-    label = "Cd-CddHN3s-HHN3d_3245",
+    index = 126,
+    label = "Cd-(HN3dN3s)",
     group = 
 """
 1 * Cd  u0 p0 c0 {2,S} {3,D} {4,S}
-2   N3s u0 p1 c0 {1,S} {5,S} {6,S}
-3   Cdd u0 p0 c0 {1,D} {7,D}
+2   N3s u0 p1 c0 {1,S}
+3   N3d u0 p1 c0 {1,D}
 4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {2,S}
-6   H   u0 p0 c0 {2,S}
-7   N3d u0 p1 c0 {3,D}
 """,
     thermo = None,
     shortDesc = """""",
@@ -3505,26 +2485,17 @@ entry(
 )
 
 entry(
-    index = 171,
-    label = "Cd-CddHN3s-HHN3d-H_3244",
+    index = 127,
+    label = "Cd-(CtHN3d)",
     group = 
 """
-1 * Cd  u0 p0 c0 {2,S} {3,D} {5,S}
-2   N3s u0 p1 c0 {1,S} {6,S} {7,S}
-3   Cdd u0 p0 c0 {1,D} {4,D}
-4   N3d u0 p1 c0 {3,D} {8,S}
-5   H   u0 p0 c0 {1,S}
-6   H   u0 p0 c0 {2,S}
-7   H   u0 p0 c0 {2,S}
-8   H   u0 p0 c0 {4,S}
+1 * Cd  u0 p0 c0 {2,D} {3,S} {4,S}
+2   N3d u0 p1 c0 {1,D}
+3   Ct  u0 p0 c0 {1,S}
+4   H   u0 p0 c0 {1,S}
 """,
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([9.38916,11.6306,13.4193,14.9469,17.4658,19.3601,22.2537],'J/(mol*K)'),
-        H298 = (61.0737,'kJ/mol'),
-        S298 = (40.1293,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
+    thermo = None,
+    shortDesc = """""",
     longDesc = 
 """
 
@@ -3532,16 +2503,14 @@ entry(
 )
 
 entry(
-    index = 172,
-    label = "Cd-CddHO2s-HN3d_3240",
+    index = 128,
+    label = "Cd-(HN3dO2s)",
     group = 
 """
 1 * Cd  u0 p0 c0 {2,S} {3,D} {4,S}
-2   O2s u0 p2 c0 {1,S} {5,S}
-3   Cdd u0 p0 c0 {1,D} {6,D}
+2   O2s u0 p2 c0 {1,S}
+3   N3d u0 p1 c0 {1,D}
 4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {2,S}
-6   N3d u0 p1 c0 {3,D}
 """,
     thermo = None,
     shortDesc = """""",
@@ -3552,590 +2521,7 @@ entry(
 )
 
 entry(
-    index = 173,
-    label = "Cd-CddHO2s-HN3d-H_3239",
-    group = 
-"""
-1 * Cd  u0 p0 c0 {2,D} {3,S} {5,S}
-2   Cdd u0 p0 c0 {1,D} {4,D}
-3   O2s u0 p2 c0 {1,S} {6,S}
-4   N3d u0 p1 c0 {2,D} {7,S}
-5   H   u0 p0 c0 {1,S}
-6   H   u0 p0 c0 {3,S}
-7   H   u0 p0 c0 {4,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([9.02347,9.75164,11.2173,12.9503,16.0433,18.2353,20.9523],'J/(mol*K)'),
-        H298 = (74.7688,'kJ/mol'),
-        S298 = (35.2946,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 174,
-    label = "Cd-CddHH-N3d-O2s_3139",
-    group = 
-"""
-1 * Cd  u0 p0 c0 {2,D} {4,S} {5,S}
-2   Cdd u0 p0 c0 {1,D} {3,D}
-3   N3d u0 p1 c0 {2,D} {6,S}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {1,S}
-6   O2s u0 p2 c0 {3,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([14.7548,17.4306,19.3815,20.8795,23.1732,24.8581,27.2698],'J/(mol*K)'),
-        H298 = (37.4346,'kJ/mol'),
-        S298 = (55.6752,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 175,
-    label = "Cd-Cdd-N3d-N3s_3138",
-    group = 
-"""
-1   Cdd u0 p0 c0 {2,D} {3,D}
-2   N3d u0 p1 c0 {1,D} {4,S}
-3 * Cd  u0 p0 c0 {1,D}
-4   N3s u0 p1 c0 {2,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([18.3319,22.0004,24.9585,27.431,31.4108,34.3547,38.7989],'J/(mol*K)'),
-        H298 = (75.7257,'kJ/mol'),
-        S298 = (70.2025,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 176,
-    label = "Cd-Cdd-N3d-Cs_3050",
-    group = 
-"""
-1   Cdd u0 p0 c0 {2,D} {3,D}
-2   N3d u0 p1 c0 {1,D} {4,S}
-3 * Cd  u0 p0 c0 {1,D}
-4   Cs  u0 p0 c0 {2,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([19.2062,23.1189,26.5749,29.6038,34.5494,38.2704,43.9257],'J/(mol*K)'),
-        H298 = (46.9489,'kJ/mol'),
-        S298 = (69.9188,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 177,
-    label = "Cd-Cd-HN3d_2997",
-    group = 
-"""
-1   Cd  u0 p0 c0 {2,D} {3,S} {4,S}
-2 * Cd  u0 p0 c0 {1,D}
-3   N3d u0 p1 c0 {1,S}
-4   H   u0 p0 c0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([20.0329,24.7123,28.9034,32.5268,38.3131,42.5422,48.7133],'J/(mol*K)'),
-        H298 = (58.2535,'kJ/mol'),
-        S298 = (79.0058,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 178,
-    label = "Cd-Cd-Cs-N3s_2964",
-    group = 
-"""
-1   Cd  u0 p0 c0 {2,S} {3,D}
-2   Cs  u0 p0 c0 {1,S} {4,S}
-3 * Cd  u0 p0 c0 {1,D}
-4   N3s u0 p1 c0 {2,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([16.4301,20.8374,24.6993,28.0428,33.5192,37.6332,44.0328],'J/(mol*K)'),
-        H298 = (11.0836,'kJ/mol'),
-        S298 = (58.5241,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 179,
-    label = "CO-N3d_2903",
-    group = 
-"""
-1   N3d u0 p1 c0 {2,S}
-2 * CO  u0 p0 c0 {1,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 180,
-    label = "CO-HN3dO2d-N3d_3199",
-    group = 
-"""
-1 * CO  u0 p0 c0 {2,S} {3,D} {4,S}
-2   N3d u0 p1 c0 {1,S} {5,D}
-3   O2d u0 p2 c0 {1,D}
-4   H   u0 p0 c0 {1,S}
-5   N3d u0 p1 c0 {2,D}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 181,
-    label = "CO-HN3dO2d-N3d-H_3198",
-    group = 
-"""
-1 * CO  u0 p0 c0 {2,S} {4,D} {5,S}
-2   N3d u0 p1 c0 {1,S} {3,D}
-3   N3d u0 p1 c0 {2,D} {6,S}
-4   O2d u0 p2 c0 {1,D}
-5   H   u0 p0 c0 {1,S}
-6   H   u0 p0 c0 {3,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([9.65466,11.247,12.7408,14.0642,16.0892,17.4463,19.4962],'J/(mol*K)'),
-        H298 = (27.62,'kJ/mol'),
-        S298 = (45.6361,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 182,
-    label = "CO-HN3dO2d-O2d_3195",
-    group = 
-"""
-1 * CO  u0 p0 c0 {2,S} {3,D} {4,S}
-2   N3d u0 p1 c0 {1,S} {5,D}
-3   O2d u0 p2 c0 {1,D}
-4   H   u0 p0 c0 {1,S}
-5   O2d u0 p2 c0 {2,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([9.25317,10.109,10.7964,11.3457,12.1318,12.6332,13.2847],'J/(mol*K)'),
-        H298 = (-1.69554,'kJ/mol'),
-        S298 = (46.0182,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 183,
-    label = "CO-N3d-Cd_2902",
-    group = 
-"""
-1   N3d u0 p1 c0 {2,S} {3,D}
-2 * CO  u0 p0 c0 {1,S}
-3   Cd  u0 p0 c0 {1,D}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 184,
-    label = "CO-N3d-Cd-HH_2901",
-    group = 
-"""
-1   Cd  u0 p0 c0 {2,D} {3,S} {4,S}
-2   N3d u0 p1 c0 {1,D} {5,S}
-3   H   u0 p0 c0 {1,S}
-4   H   u0 p0 c0 {1,S}
-5 * CO  u0 p0 c0 {2,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 185,
-    label = "Cds-OdN3dCs",
-    group = 
-"""
-1 * CO  u0 {2,S} {3,S} {4,D}
-2   N3d u0 {1,S}
-3   Cs  u0 {1,S}
-4   O2d u0 {1,D}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 186,
-    label = "Cds-OdN3dH",
-    group = 
-"""
-1 * CO  u0 {2,S} {3,S} {4,D}
-2   N3d u0 {1,S}
-3   H   u0 {1,S}
-4   O2d u0 {1,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([10.9772,13.1606,15.2835,17.2458,20.4577,22.6731,25.979],'J/(mol*K)'),
-        H298 = (-13.3177,'kJ/mol'),
-        S298 = (47.3502,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 187,
-    label = "Cd-Cs-HHN3s_2881",
-    group = 
-"""
-1   Cs  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2 * Cd  u0 p0 c0 {1,S}
-3   N3s u0 p1 c0 {1,S}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([24.7249,30.8122,36.2716,41.0544,48.7452,54.444,62.8691],'J/(mol*K)'),
-        H298 = (16.3906,'kJ/mol'),
-        S298 = (86.7465,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 188,
-    label = "Cd-Cdd-Cdd-N5dc_2835",
-    group = 
-"""
-1   Cdd  u0 p0 c0 {2,D} {3,D}
-2   Cdd  u0 p0 c0 {1,D} {4,D}
-3 * Cd   u0 p0 c0 {1,D}
-4   N5dc u0 p0 c+1 {2,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([12.4951,14.6728,16.6473,18.4193,21.2505,23.3218,26.4202],'J/(mol*K)'),
-        H298 = (92.4464,'kJ/mol'),
-        S298 = (35.3594,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 189,
-    label = "CO-O2s-N3s_2778",
-    group = 
-"""
-1   O2s u0 p2 c0 {2,S} {3,S}
-2 * CO  u0 p0 c0 {1,S}
-3   N3s u0 p1 c0 {1,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 190,
-    label = "CO-O2s-N3s-HH_2777",
-    group = 
-"""
-1   N3s u0 p1 c0 {2,S} {3,S} {4,S}
-2   O2s u0 p2 c0 {1,S} {5,S}
-3   H   u0 p0 c0 {1,S}
-4   H   u0 p0 c0 {1,S}
-5 * CO  u0 p0 c0 {2,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([11.8731,13.6018,15.1182,16.4484,18.6293,20.2378,22.5807],'J/(mol*K)'),
-        H298 = (-81.0573,'kJ/mol'),
-        S298 = (71.2256,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 191,
-    label = "CO-N1sc_2688",
-    group = 
-"""
-1   N1sc u0 p2 c-1 {2,S}
-2 * CO   u0 p0 c0 {1,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 192,
-    label = "Cds-OdN1sc",
-    group = 
-"""
-1 * CO   u0 {2,S} {3,D}
-2   N1sc u0 {1,S}
-3   O2d  u0 {1,D}
-""",
-    thermo = None,
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 193,
-    label = "CO-N1sc-N5dc_2687",
-    group = 
-"""
-1   N1sc u0 p2 c-1 {2,S} {3,S}
-2 * CO   u0 p0 c0 {1,S}
-3   N5dc u0 p0 c+1 {1,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 194,
-    label = "CO-N1sc-N5dc-HO2d_2686",
-    group = 
-"""
-1   N5dc u0 p0 c+1 {2,S} {3,D} {4,S}
-2   N1sc u0 p2 c-1 {1,S} {5,S}
-3   O2d  u0 p2 c0 {1,D}
-4   H    u0 p0 c0 {1,S}
-5 * CO   u0 p0 c0 {2,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([10.3088,11.3129,12.3282,13.3057,14.9554,16.2369,18.1092],'J/(mol*K)'),
-        H298 = (-39.5782,'kJ/mol'),
-        S298 = (48.8289,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 195,
-    label = "Cd-Cd-N3s_2543",
-    group = 
-"""
-1   Cd  u0 p0 c0 {2,D} {3,S}
-2 * Cd  u0 p0 c0 {1,D}
-3   N3s u0 p1 c0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([28.4677,36.8712,44.2622,50.3449,60.3849,67.3066,77.0679],'J/(mol*K)'),
-        H298 = (11.1746,'kJ/mol'),
-        S298 = (78.2047,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 196,
-    label = "Cd-Cd-HN3s_2703",
-    group = 
-"""
-1   Cd  u0 p0 c0 {2,D} {3,S} {4,S}
-2 * Cd  u0 p0 c0 {1,D}
-3   N3s u0 p1 c0 {1,S}
-4   H   u0 p0 c0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([42.3518,52.837,62.0489,70.1865,83.2743,93.1967,108.294],'J/(mol*K)'),
-        H298 = (26.8182,'kJ/mol'),
-        S298 = (173.56,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 197,
-    label = "Cd-CdHN3s-HHHN3s_2895",
-    group = 
-"""
-1 * Cd  u0 p0 c0 {2,S} {3,D} {4,S}
-2   N3s u0 p1 c0 {1,S} {5,S} {6,S}
-3   Cd  u0 p0 c0 {1,D} {7,S} {8,S}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {2,S}
-6   H   u0 p0 c0 {2,S}
-7   N3s u0 p1 c0 {3,S}
-8   H   u0 p0 c0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 198,
-    label = "Cd-CdHN3s-HHHN3s-HH_2894",
-    group = 
-"""
-1    Cd  u0 p0 c0 {2,D} {4,S} {6,S}
-2  * Cd  u0 p0 c0 {1,D} {3,S} {5,S}
-3    N3s u0 p1 c0 {2,S} {7,S} {8,S}
-4    N3s u0 p1 c0 {1,S} {9,S} {10,S}
-5    H   u0 p0 c0 {2,S}
-6    H   u0 p0 c0 {1,S}
-7    H   u0 p0 c0 {3,S}
-8    H   u0 p0 c0 {3,S}
-9    H   u0 p0 c0 {4,S}
-10   H   u0 p0 c0 {4,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([21.0482,25.5902,29.3915,32.6978,38.0689,42.094,48.2817],'J/(mol*K)'),
-        H298 = (17.7792,'kJ/mol'),
-        S298 = (73.3847,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 199,
-    label = "Cd-N3d_2529",
-    group = 
-"""
-1   N3d u0 p1 c0 {2,D}
-2 * Cd  u0 p0 c0 {1,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([43.5616,53.2652,62.1677,70.1364,83.1487,92.6772,107.226],'J/(mol*K)'),
-        H298 = (-14.4046,'kJ/mol'),
-        S298 = (150.8,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 200,
+    index = 129,
     label = "Cd-N3dHH",
     group = 
 """
@@ -4158,1513 +2544,7 @@ entry(
 )
 
 entry(
-    index = 201,
-    label = "Cd-HHN3d-O2s_2340",
-    group = 
-"""
-1 * Cd  u0 p0 c0 {2,D} {3,S} {4,S}
-2   N3d u0 p1 c0 {1,D} {5,S}
-3   H   u0 p0 c0 {1,S}
-4   H   u0 p0 c0 {1,S}
-5   O2s u0 p2 c0 {2,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 202,
-    label = "Cd-HHN3d-O2s-O2s_2339",
-    group = 
-"""
-1 * Cd  u0 p0 c0 {2,D} {4,S} {5,S}
-2   N3d u0 p1 c0 {1,D} {3,S}
-3   O2s u0 p2 c0 {2,S} {6,S}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {1,S}
-6   O2s u0 p2 c0 {3,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([12.3932,14.8967,16.8502,18.4784,21.142,23.1442,26.179],'J/(mol*K)'),
-        H298 = (8.35278,'kJ/mol'),
-        S298 = (45.7492,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 203,
-    label = "Cd-HHN3d-O2s-H_2793",
-    group = 
-"""
-1 * Cd  u0 p0 c0 {2,D} {4,S} {5,S}
-2   N3d u0 p1 c0 {1,D} {3,S}
-3   O2s u0 p2 c0 {2,S} {6,S}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {1,S}
-6   H   u0 p0 c0 {3,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([16.0219,19.3646,22.2777,24.7726,28.8312,31.8869,36.5072],'J/(mol*K)'),
-        H298 = (17.9239,'kJ/mol'),
-        S298 = (80.1579,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 204,
-    label = "Cd-N3d-O2s-N3s_2527",
-    group = 
-"""
-1   N3d u0 p1 c0 {2,S} {3,D}
-2   O2s u0 p2 c0 {1,S} {4,S}
-3 * Cd  u0 p0 c0 {1,D}
-4   N3s u0 p1 c0 {2,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([13.2716,15.7165,17.9648,19.9766,23.2488,25.6944,29.3593],'J/(mol*K)'),
-        H298 = (21.6467,'kJ/mol'),
-        S298 = (49.0529,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 205,
-    label = "Cd-N3d-O2s-Cs_3233",
-    group = 
-"""
-1   N3d u0 p1 c0 {2,S} {3,D}
-2   O2s u0 p2 c0 {1,S} {4,S}
-3 * Cd  u0 p0 c0 {1,D}
-4   Cs  u0 p0 c0 {2,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([17.9176,21.5901,25.0475,28.1963,33.3435,36.9439,42.3448],'J/(mol*K)'),
-        H298 = (3.6461,'kJ/mol'),
-        S298 = (69.5081,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 206,
-    label = "Cd-HHN3d-N3d_2555",
-    group = 
-"""
-1 * Cd  u0 p0 c0 {2,D} {3,S} {4,S}
-2   N3d u0 p1 c0 {1,D} {5,S}
-3   H   u0 p0 c0 {1,S}
-4   H   u0 p0 c0 {1,S}
-5   N3d u0 p1 c0 {2,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 207,
-    label = "Cd-HHN3d-N3d-O2d_2564",
-    group = 
-"""
-1 * Cd  u0 p0 c0 {2,D} {4,S} {5,S}
-2   N3d u0 p1 c0 {1,D} {3,S}
-3   N3d u0 p1 c0 {2,S} {6,D}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {1,S}
-6   O2d u0 p2 c0 {3,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([12.5535,15.4629,18.1023,20.3418,23.6468,26.0056,29.5787],'J/(mol*K)'),
-        H298 = (40.7144,'kJ/mol'),
-        S298 = (54.4757,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 208,
-    label = "Cd-HHN3d-N3d-N3d_2554",
-    group = 
-"""
-1 * Cd  u0 p0 c0 {2,D} {4,S} {5,S}
-2   N3d u0 p1 c0 {1,D} {3,S}
-3   N3d u0 p1 c0 {2,S} {6,D}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {1,S}
-6   N3d u0 p1 c0 {3,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([13.5096,16.431,18.9924,21.2214,24.7999,27.4041,31.1698],'J/(mol*K)'),
-        H298 = (65.2039,'kJ/mol'),
-        S298 = (58.2056,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 209,
-    label = "Cd-HHN3d-N3d-Cd_3104",
-    group = 
-"""
-1 * Cd  u0 p0 c0 {2,D} {4,S} {5,S}
-2   N3d u0 p1 c0 {1,D} {3,S}
-3   N3d u0 p1 c0 {2,S} {6,D}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {1,S}
-6   Cd  u0 p0 c0 {3,D}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 210,
-    label = "Cd-N3d-N3d-Cd_3105",
-    group = 
-"""
-1   N3d u0 p1 c0 {2,S} {3,D}
-2   N3d u0 p1 c0 {1,S} {4,D}
-3 * Cd  u0 p0 c0 {1,D}
-4   Cd  u0 p0 c0 {2,D}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 211,
-    label = "Cd-N3d-N3d_3106",
-    group = 
-"""
-1   N3d u0 p1 c0 {2,D} {3,S}
-2 * Cd  u0 p0 c0 {1,D}
-3   N3d u0 p1 c0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([16.9827,20.6218,23.8273,26.606,31.0654,34.3357,39.1095],'J/(mol*K)'),
-        H298 = (66.2925,'kJ/mol'),
-        S298 = (68.6523,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 212,
-    label = "Cd-HHN3d-Ct_2383",
-    group = 
-"""
-1 * Cd  u0 p0 c0 {2,D} {3,S} {4,S}
-2   N3d u0 p1 c0 {1,D} {5,S}
-3   H   u0 p0 c0 {1,S}
-4   H   u0 p0 c0 {1,S}
-5   Ct  u0 p0 c0 {2,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 213,
-    label = "Cd-HHN3d-Ct-Ct_2382",
-    group = 
-"""
-1 * Cd  u0 p0 c0 {2,D} {4,S} {5,S}
-2   N3d u0 p1 c0 {1,D} {3,S}
-3   Ct  u0 p0 c0 {2,S} {6,T}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {1,S}
-6   Ct  u0 p0 c0 {3,T}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([10.3088,12.2569,13.8353,15.1253,17.1847,18.6856,20.8989],'J/(mol*K)'),
-        H298 = (54.1008,'kJ/mol'),
-        S298 = (40.7073,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 214,
-    label = "Cd-HHN3d-Ct-N5tc_2885",
-    group = 
-"""
-1 * Cd   u0 p0 c0 {2,D} {4,S} {5,S}
-2   N3d  u0 p1 c0 {1,D} {3,S}
-3   Ct   u0 p0 c0 {2,S} {6,T}
-4   H    u0 p0 c0 {1,S}
-5   H    u0 p0 c0 {1,S}
-6   N5tc u0 p0 c+1 {3,T}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-0.330061,-0.265911,-0.204343,-0.138652,-0.0686509,0.0237405,0.222456],'J/(mol*K)'),
-        H298 = (2.80642,'kJ/mol'),
-        S298 = (-5.29758,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 215,
-    label = "Cd-HHN3d-Ct-N3t_3234",
-    group = 
-"""
-1 * Cd  u0 p0 c0 {2,D} {4,S} {5,S}
-2   N3d u0 p1 c0 {1,D} {3,S}
-3   Ct  u0 p0 c0 {2,S} {6,T}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {1,S}
-6   N3t u0 p1 c0 {3,T}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([11.2796,13.4118,15.2506,16.8517,19.4524,21.3588,24.1632],'J/(mol*K)'),
-        H298 = (36.7073,'kJ/mol'),
-        S298 = (53.2068,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 216,
-    label = "Cd-N3d-N1sc_2918",
-    group = 
-"""
-1   N3d  u0 p1 c0 {2,D} {3,S}
-2 * Cd   u0 p0 c0 {1,D}
-3   N1sc u0 p2 c-1 {1,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 217,
-    label = "Cd-N3d-N1sc-N5dc_2917",
-    group = 
-"""
-1   N3d  u0 p1 c0 {2,S} {3,D}
-2   N1sc u0 p2 c-1 {1,S} {4,S}
-3 * Cd   u0 p0 c0 {1,D}
-4   N5dc u0 p0 c+1 {2,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([15.5927,18.7489,21.786,24.4141,28.7023,31.8624,36.615],'J/(mol*K)'),
-        H298 = (41.6908,'kJ/mol'),
-        S298 = (60.0517,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 218,
-    label = "Cd-N3d-Cd_2726",
-    group = 
-"""
-1   N3d u0 p1 c0 {2,D} {3,S}
-2 * Cd  u0 p0 c0 {1,D}
-3   Cd  u0 p0 c0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([20.0869,24.841,29.0988,32.8249,38.8874,43.3819,50.03],'J/(mol*K)'),
-        H298 = (31.1235,'kJ/mol'),
-        S298 = (79.356,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 219,
-    label = "Cd-N3d-Cd-HN5dc_3135",
-    group = 
-"""
-1   Cd   u0 p0 c0 {2,S} {3,D} {4,S}
-2   N3d  u0 p1 c0 {1,S} {5,D}
-3   N5dc u0 p0 c+1 {1,D}
-4   H    u0 p0 c0 {1,S}
-5 * Cd   u0 p0 c0 {2,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([13.001,15.8984,18.5516,20.8615,24.559,27.272,31.2483],'J/(mol*K)'),
-        H298 = (16.271,'kJ/mol'),
-        S298 = (49.553,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 220,
-    label = "Cd-N3d-Cs-CsHH_3218",
-    group = 
-"""
-1   Cs  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2   N3d u0 p1 c0 {1,S} {6,D}
-3   Cs  u0 p0 c0 {1,S}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {1,S}
-6 * Cd  u0 p0 c0 {2,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([22.3291,28.4749,33.5737,37.476,43.7306,49.0436,57.4389],'J/(mol*K)'),
-        H298 = (-8.04536,'kJ/mol'),
-        S298 = (76.0037,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 221,
-    label = "Cd-N3d-N3s-HN3s_2993",
-    group = 
-"""
-1   N3s u0 p1 c0 {2,S} {3,S} {4,S}
-2   N3d u0 p1 c0 {1,S} {5,D}
-3   N3s u0 p1 c0 {1,S}
-4   H   u0 p0 c0 {1,S}
-5 * Cd  u0 p0 c0 {2,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([13.9193,17.1642,20.2313,22.892,27.0949,30.1509,34.6219],'J/(mol*K)'),
-        H298 = (39.6378,'kJ/mol'),
-        S298 = (61.688,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 222,
-    label = "Cd-N3d-N3s-HO2s_2922",
-    group = 
-"""
-1   N3s u0 p1 c0 {2,S} {3,S} {4,S}
-2   N3d u0 p1 c0 {1,S} {5,D}
-3   O2s u0 p2 c0 {1,S}
-4   H   u0 p0 c0 {1,S}
-5 * Cd  u0 p0 c0 {2,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([14.266,17.1972,19.8555,22.1526,25.8654,28.6358,32.8197],'J/(mol*K)'),
-        H298 = (31.104,'kJ/mol'),
-        S298 = (62.6515,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 223,
-    label = "Cd-HHN3d-CO-HO2d_2899",
-    group = 
-"""
-1 * Cd  u0 p0 c0 {3,D} {4,S} {5,S}
-2   CO  u0 p0 c0 {3,S} {6,D} {7,S}
-3   N3d u0 p1 c0 {1,D} {2,S}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {1,S}
-6   O2d u0 p2 c0 {2,D}
-7   H   u0 p0 c0 {2,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 224,
-    label = "Cd-HHN3d-CO_2900",
-    group = 
-"""
-1 * Cd  u0 p0 c0 {2,D} {3,S} {4,S}
-2   N3d u0 p1 c0 {1,D} {5,S}
-3   H   u0 p0 c0 {1,S}
-4   H   u0 p0 c0 {1,S}
-5   CO  u0 p0 c0 {2,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([10.9772,13.1606,15.2835,17.2458,20.4577,22.6731,25.979],'J/(mol*K)'),
-        H298 = (-13.3177,'kJ/mol'),
-        S298 = (47.3502,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 225,
-    label = "Cd-N3d-N3s-Cs_2822",
-    group = 
-"""
-1   N3d u0 p1 c0 {2,S} {3,D}
-2   N3s u0 p1 c0 {1,S} {4,S}
-3 * Cd  u0 p0 c0 {1,D}
-4   Cs  u0 p0 c0 {2,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([14.9157,18.685,21.8284,24.4375,28.685,32.065,37.1388],'J/(mol*K)'),
-        H298 = (31.5808,'kJ/mol'),
-        S298 = (62.122,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 226,
-    label = "Cd-N3d-Cs-HHH_2770",
-    group = 
-"""
-1   Cs  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2   N3d u0 p1 c0 {1,S} {6,D}
-3   H   u0 p0 c0 {1,S}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {1,S}
-6 * Cd  u0 p0 c0 {2,D}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 227,
-    label = "Cd-N3d-Cs_2563",
-    group = 
-"""
-1   N3d u0 p1 c0 {2,D} {3,S}
-2 * Cd  u0 p0 c0 {1,D}
-3   Cs  u0 p0 c0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([29.2764,35.9891,42.4476,48.2655,57.8422,65.1115,76.2527],'J/(mol*K)'),
-        H298 = (-5.6676,'kJ/mol'),
-        S298 = (125.648,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 228,
-    label = "Cd-N3d-Cs-N3s_2562",
-    group = 
-"""
-1   N3d u0 p1 c0 {2,S} {3,D}
-2   Cs  u0 p0 c0 {1,S} {4,S}
-3 * Cd  u0 p0 c0 {1,D}
-4   N3s u0 p1 c0 {2,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([11.5343,14.8996,17.9045,20.5146,24.7519,27.8849,32.6037],'J/(mol*K)'),
-        H298 = (-4.07774,'kJ/mol'),
-        S298 = (41.5774,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 229,
-    label = "Cd-CtHN3d-HN3t_2348",
-    group = 
-"""
-1 * Cd  u0 p0 c0 {2,D} {3,S} {4,S}
-2   N3d u0 p1 c0 {1,D} {5,S}
-3   Ct  u0 p0 c0 {1,S} {6,T}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {2,S}
-6   N3t u0 p1 c0 {3,T}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([4.60216,5.60124,6.41083,7.13535,8.33453,9.26606,10.5561],'J/(mol*K)'),
-        H298 = (13.4771,'kJ/mol'),
-        S298 = (23.8783,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 230,
-    label = "Cd-N3dCsCs",
-    group = 
-"""
-1 * Cd  u0 {2,D} {3,S} {4,S}
-2   N3d u0 {1,D}
-3   Cs  u0 {1,S}
-4   Cs  u0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([3.5,4.2,5,5.6,6.6,7.2,7.9],'cal/(mol*K)','+|-',[0.9,0.9,0.9,0.9,0.9,0.9,0.9]),
-        H298 = (5.7,'kcal/mol','+|-',1.2),
-        S298 = (2,'cal/(mol*K)','+|-',1.1),
-    ),
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 231,
-    label = "Cd-CtHN3d-CtH_3280",
-    group = 
-"""
-1 * Cd  u0 p0 c0 {2,D} {3,S} {4,S}
-2   N3d u0 p1 c0 {1,D} {5,S}
-3   Ct  u0 p0 c0 {1,S} {6,T}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {2,S}
-6   Ct  u0 p0 c0 {3,T}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 232,
-    label = "Cd-CtHN3d-CtH-H_3279",
-    group = 
-"""
-1 * Cd  u0 p0 c0 {2,S} {3,D} {5,S}
-2   Ct  u0 p0 c0 {1,S} {4,T}
-3   N3d u0 p1 c0 {1,D} {6,S}
-4   Ct  u0 p0 c0 {2,T} {7,S}
-5   H   u0 p0 c0 {1,S}
-6   H   u0 p0 c0 {3,S}
-7   H   u0 p0 c0 {4,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 233,
-    label = "Cd-CtHN3d_2349",
-    group = 
-"""
-1 * Cd  u0 p0 c0 {2,D} {3,S} {4,S}
-2   N3d u0 p1 c0 {1,D}
-3   Ct  u0 p0 c0 {1,S}
-4   H   u0 p0 c0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([12.32,14.9755,17.0117,18.6274,21.2156,23.1515,26.0214],'J/(mol*K)'),
-        H298 = (69.0282,'kJ/mol'),
-        S298 = (45.0105,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 234,
-    label = "Cd-N3dN3sN3s_3189",
-    group = 
-"""
-1 * Cd  u0 p0 c0 {2,S} {3,S} {4,D}
-2   N3s u0 p1 c0 {1,S}
-3   N3s u0 p1 c0 {1,S}
-4   N3d u0 p1 c0 {1,D}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 235,
-    label = "Cd-N3dN3sN3s-HHHHH_3188",
-    group = 
-"""
-1 * Cd  u0 p0 c0 {2,S} {3,S} {4,D}
-2   N3s u0 p1 c0 {1,S} {5,S} {6,S}
-3   N3s u0 p1 c0 {1,S} {7,S} {8,S}
-4   N3d u0 p1 c0 {1,D} {9,S}
-5   H   u0 p0 c0 {2,S}
-6   H   u0 p0 c0 {2,S}
-7   H   u0 p0 c0 {3,S}
-8   H   u0 p0 c0 {3,S}
-9   H   u0 p0 c0 {4,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([9.45448,11.8158,13.7675,15.284,17.6472,19.2946,21.4602],'J/(mol*K)'),
-        H298 = (-9.65577,'kJ/mol'),
-        S298 = (31.5749,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 236,
-    label = "Cd-HN1scN3d_3118",
-    group = 
-"""
-1 * Cd   u0 p0 c0 {2,S} {3,D} {4,S}
-2   N1sc u0 p2 c-1 {1,S}
-3   N3d  u0 p1 c0 {1,D}
-4   H    u0 p0 c0 {1,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 237,
-    label = "Cd-HN1scN3d-HN5dc_3117",
-    group = 
-"""
-1 * Cd   u0 p0 c0 {2,S} {3,D} {4,S}
-2   N1sc u0 p2 c-1 {1,S} {5,S}
-3   N3d  u0 p1 c0 {1,D} {6,S}
-4   H    u0 p0 c0 {1,S}
-5   N5dc u0 p0 c+1 {2,S}
-6   H    u0 p0 c0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 238,
-    label = "Cd-HN1scN3d-HN5dc-HO2d_3116",
-    group = 
-"""
-1 * Cd   u0 p0 c0 {3,S} {4,D} {5,S}
-2   N5dc u0 p0 c+1 {3,S} {6,D} {7,S}
-3   N1sc u0 p2 c-1 {1,S} {2,S}
-4   N3d  u0 p1 c0 {1,D} {8,S}
-5   H    u0 p0 c0 {1,S}
-6   O2d  u0 p2 c0 {2,D}
-7   H    u0 p0 c0 {2,S}
-8   H    u0 p0 c0 {4,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-8.39959,-11.5441,-13.5765,-15.0412,-17.5648,-20.0126,-23.3749],'J/(mol*K)'),
-        H298 = (13.9367,'kJ/mol'),
-        S298 = (-8.89762,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 239,
-    label = "Cd-CtHN3d-HN5tc_3085",
-    group = 
-"""
-1 * Cd   u0 p0 c0 {2,D} {3,S} {4,S}
-2   N3d  u0 p1 c0 {1,D} {5,S}
-3   Ct   u0 p0 c0 {1,S} {6,T}
-4   H    u0 p0 c0 {1,S}
-5   H    u0 p0 c0 {2,S}
-6   N5tc u0 p0 c+1 {3,T}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 240,
-    label = "Cd-CtHN3d-HN5tc-O0sc_3084",
-    group = 
-"""
-1 * Cd   u0 p0 c0 {2,S} {3,D} {5,S}
-2   Ct   u0 p0 c0 {1,S} {4,T}
-3   N3d  u0 p1 c0 {1,D} {6,S}
-4   N5tc u0 p0 c+1 {2,T} {7,S}
-5   H    u0 p0 c0 {1,S}
-6   H    u0 p0 c0 {3,S}
-7   O0sc u0 p3 c-1 {4,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([4.28384,4.21026,4.36569,4.60388,4.94084,5.05698,5.31685],'J/(mol*K)'),
-        H298 = (11.4531,'kJ/mol'),
-        S298 = (24.0077,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 241,
-    label = "Cd-N3dO2sO2s_2991",
-    group = 
-"""
-1 * Cd  u0 p0 c0 {2,S} {3,S} {4,D}
-2   O2s u0 p2 c0 {1,S}
-3   O2s u0 p2 c0 {1,S}
-4   N3d u0 p1 c0 {1,D}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 242,
-    label = "Cd-N3dO2sO2s-HHH_2990",
-    group = 
-"""
-1 * Cd  u0 p0 c0 {2,S} {3,S} {4,D}
-2   O2s u0 p2 c0 {1,S} {5,S}
-3   O2s u0 p2 c0 {1,S} {6,S}
-4   N3d u0 p1 c0 {1,D} {7,S}
-5   H   u0 p0 c0 {2,S}
-6   H   u0 p0 c0 {3,S}
-7   H   u0 p0 c0 {4,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([8.00055,9.67722,10.9654,11.8963,13.2513,14.1205,14.9639],'J/(mol*K)'),
-        H298 = (-79.3328,'kJ/mol'),
-        S298 = (32.3934,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 243,
-    label = "Cd-HN3dN3s-HHH_2972",
-    group = 
-"""
-1 * Cd  u0 p0 c0 {2,S} {3,D} {4,S}
-2   N3s u0 p1 c0 {1,S} {5,S} {6,S}
-3   N3d u0 p1 c0 {1,D} {7,S}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {2,S}
-6   H   u0 p0 c0 {2,S}
-7   H   u0 p0 c0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 244,
-    label = "Cd-N3dN3s",
-    group = 
-"""
-1 * Cd  u0 {2,D} {3,S}
-2   N3d u0 {1,D}
-3   N3s u0 {1,S}
-""",
-    thermo = None,
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 245,
-    label = "Cd-HN3dN3s_2371",
-    group = 
-"""
-1 * Cd  u0 p0 c0 {2,S} {3,D} {4,S}
-2   N3s u0 p1 c0 {1,S}
-3   N3d u0 p1 c0 {1,D}
-4   H   u0 p0 c0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([17.5592,21.5074,24.5102,26.9876,31.1242,34.4156,39.4187],'J/(mol*K)'),
-        H298 = (-8.98319,'kJ/mol'),
-        S298 = (87.8603,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 246,
-    label = "Cd-HN3dN3d_2950",
-    group = 
-"""
-1 * Cd  u0 p0 c0 {2,S} {3,D} {4,S}
-2   N3d u0 p1 c0 {1,S}
-3   N3d u0 p1 c0 {1,D}
-4   H   u0 p0 c0 {1,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 247,
-    label = "Cd-HN3dN3d-HN3d_3220",
-    group = 
-"""
-1 * Cd  u0 p0 c0 {2,S} {3,D} {4,S}
-2   N3d u0 p1 c0 {1,S} {5,D}
-3   N3d u0 p1 c0 {1,D} {6,S}
-4   H   u0 p0 c0 {1,S}
-5   N3d u0 p1 c0 {2,D}
-6   H   u0 p0 c0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 248,
-    label = "Cd-HN3dN3d-HN3d-H_3219",
-    group = 
-"""
-1 * Cd  u0 p0 c0 {2,S} {3,D} {5,S}
-2   N3d u0 p1 c0 {1,S} {4,D}
-3   N3d u0 p1 c0 {1,D} {6,S}
-4   N3d u0 p1 c0 {2,D} {7,S}
-5   H   u0 p0 c0 {1,S}
-6   H   u0 p0 c0 {3,S}
-7   H   u0 p0 c0 {4,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([6.63391,7.77836,8.76009,9.62458,11.0668,12.1124,13.5771],'J/(mol*K)'),
-        H298 = (43.885,'kJ/mol'),
-        S298 = (31.2506,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 249,
-    label = "Cd-HN3dN3d-HO2d_3153",
-    group = 
-"""
-1 * Cd  u0 p0 c0 {2,D} {3,S} {4,S}
-2   N3d u0 p1 c0 {1,D} {5,S}
-3   N3d u0 p1 c0 {1,S} {6,D}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {2,S}
-6   O2d u0 p2 c0 {3,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([6.76921,8.16356,9.4522,10.453,11.7008,12.5786,13.9375],'J/(mol*K)'),
-        H298 = (25.5994,'kJ/mol'),
-        S298 = (26.2829,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 250,
-    label = "Cd-HN3dN3d-CdH_2949",
-    group = 
-"""
-1 * Cd  u0 p0 c0 {2,S} {3,D} {4,S}
-2   N3d u0 p1 c0 {1,S} {5,D}
-3   N3d u0 p1 c0 {1,D} {6,S}
-4   H   u0 p0 c0 {1,S}
-5   Cd  u0 p0 c0 {2,D}
-6   H   u0 p0 c0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 251,
-    label = "Cd-HN3dN3d-CdH-HH_2948",
-    group = 
-"""
-1 * Cd  u0 p0 c0 {3,S} {4,D} {5,S}
-2   Cd  u0 p0 c0 {3,D} {6,S} {7,S}
-3   N3d u0 p1 c0 {1,S} {2,D}
-4   N3d u0 p1 c0 {1,D} {8,S}
-5   H   u0 p0 c0 {1,S}
-6   H   u0 p0 c0 {2,S}
-7   H   u0 p0 c0 {2,S}
-8   H   u0 p0 c0 {4,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([8.72809,10.7227,12.5145,14.0996,16.7285,18.6915,21.5968],'J/(mol*K)'),
-        H298 = (12.8382,'kJ/mol'),
-        S298 = (36.9303,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 252,
-    label = "Cd-COHN3d_2838",
-    group = 
-"""
-1 * Cd  u0 p0 c0 {2,D} {3,S} {4,S}
-2   N3d u0 p1 c0 {1,D}
-3   CO  u0 p0 c0 {1,S}
-4   H   u0 p0 c0 {1,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 253,
-    label = "Cd-COHN3d-HHO2d_2837",
-    group = 
-"""
-1 * Cd  u0 p0 c0 {2,S} {3,D} {4,S}
-2   CO  u0 p0 c0 {1,S} {5,D} {6,S}
-3   N3d u0 p1 c0 {1,D} {7,S}
-4   H   u0 p0 c0 {1,S}
-5   O2d u0 p2 c0 {2,D}
-6   H   u0 p0 c0 {2,S}
-7   H   u0 p0 c0 {3,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([6.4528,7.94085,9.22443,10.3839,12.3849,15.0387,22.2102],'J/(mol*K)'),
-        H298 = (64.4193,'kJ/mol'),
-        S298 = (25.2582,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 254,
-    label = "Cd-N3d-N3s_2823",
-    group = 
-"""
-1   N3d u0 p1 c0 {2,D} {3,S}
-2 * Cd  u0 p0 c0 {1,D}
-3   N3s u0 p1 c0 {1,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 255,
-    label = "Cd-N3d-N3s-HH_3271",
-    group = 
-"""
-1   N3s u0 p1 c0 {2,S} {3,S} {4,S}
-2   N3d u0 p1 c0 {1,S} {5,D}
-3   H   u0 p0 c0 {1,S}
-4   H   u0 p0 c0 {1,S}
-5 * Cd  u0 p0 c0 {2,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([16.7615,20.6137,24.176,27.3081,32.3735,36.2388,42.1224],'J/(mol*K)'),
-        H298 = (16.1476,'kJ/mol'),
-        S298 = (61.2261,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 256,
-    label = "Cd-HN3dN3s-HHN3s-HH_2369",
-    group = 
-"""
-1 * Cd  u0 p0 c0 {2,S} {4,D} {5,S}
-2   N3s u0 p1 c0 {1,S} {6,S} {7,S}
-3   N3s u0 p1 c0 {4,S} {8,S} {9,S}
-4   N3d u0 p1 c0 {1,D} {3,S}
-5   H   u0 p0 c0 {1,S}
-6   H   u0 p0 c0 {2,S}
-7   H   u0 p0 c0 {2,S}
-8   H   u0 p0 c0 {3,S}
-9   H   u0 p0 c0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 257,
-    label = "Cd-HN3dN3s-HHN3s_2370",
-    group = 
-"""
-1 * Cd  u0 p0 c0 {2,S} {3,D} {4,S}
-2   N3s u0 p1 c0 {1,S} {5,S} {6,S}
-3   N3d u0 p1 c0 {1,D} {7,S}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {2,S}
-6   H   u0 p0 c0 {2,S}
-7   N3s u0 p1 c0 {3,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([8.47449,10.5158,12.1848,13.4248,15.3169,16.7823,18.8963],'J/(mol*K)'),
-        H298 = (28.4545,'kJ/mol'),
-        S298 = (33.0799,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 258,
-    label = "Cd-HN3dO2s-HN3s-HH_2324",
-    group = 
-"""
-1 * Cd  u0 p0 c0 {3,D} {4,S} {5,S}
-2   N3s u0 p1 c0 {3,S} {6,S} {7,S}
-3   N3d u0 p1 c0 {1,D} {2,S}
-4   O2s u0 p2 c0 {1,S} {8,S}
-5   H   u0 p0 c0 {1,S}
-6   H   u0 p0 c0 {2,S}
-7   H   u0 p0 c0 {2,S}
-8   H   u0 p0 c0 {4,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 259,
-    label = "Cd-HN3dO2s-HN3s_2325",
-    group = 
-"""
-1 * Cd  u0 p0 c0 {2,S} {3,D} {4,S}
-2   O2s u0 p2 c0 {1,S} {5,S}
-3   N3d u0 p1 c0 {1,D} {6,S}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {2,S}
-6   N3s u0 p1 c0 {3,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([2.42836,2.69024,3.17766,3.7316,4.57306,5.17214,5.92545],'J/(mol*K)'),
-        H298 = (-32.1204,'kJ/mol'),
-        S298 = (16.6212,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 260,
-    label = "Cd-CdHN3d_2819",
-    group = 
-"""
-1 * Cd  u0 p0 c0 {2,D} {3,S} {4,S}
-2   N3d u0 p1 c0 {1,D}
-3   Cd  u0 p0 c0 {1,S}
-4   H   u0 p0 c0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([16.5925,20.4395,23.8651,26.8494,31.6664,35.1377,40.0205],'J/(mol*K)'),
-        H298 = (36.8119,'kJ/mol'),
-        S298 = (54.6443,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 261,
-    label = "Cd-CdHN3d-HHN3d_2818",
-    group = 
-"""
-1 * Cd  u0 p0 c0 {2,S} {3,D} {4,S}
-2   Cd  u0 p0 c0 {1,S} {5,D} {6,S}
-3   N3d u0 p1 c0 {1,D} {7,S}
-4   H   u0 p0 c0 {1,S}
-5   N3d u0 p1 c0 {2,D}
-6   H   u0 p0 c0 {2,S}
-7   H   u0 p0 c0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 262,
-    label = "Cd-CdHN3d-HHN3d-H_2817",
-    group = 
-"""
-1   Cd  u0 p0 c0 {2,S} {4,D} {6,S}
-2 * Cd  u0 p0 c0 {1,S} {3,D} {5,S}
-3   N3d u0 p1 c0 {2,D} {7,S}
-4   N3d u0 p1 c0 {1,D} {8,S}
-5   H   u0 p0 c0 {2,S}
-6   H   u0 p0 c0 {1,S}
-7   H   u0 p0 c0 {3,S}
-8   H   u0 p0 c0 {4,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([7.54803,9.76013,11.3448,12.6124,14.8334,16.3501,17.2141],'J/(mol*K)'),
-        H298 = (45.7555,'kJ/mol'),
-        S298 = (23.8445,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 263,
-    label = "Cd-HN3dO2s-HN3s_2743",
-    group = 
-"""
-1 * Cd  u0 p0 c0 {2,S} {3,D} {4,S}
-2   O2s u0 p2 c0 {1,S} {5,S}
-3   N3d u0 p1 c0 {1,D} {6,S}
-4   H   u0 p0 c0 {1,S}
-5   N3s u0 p1 c0 {2,S}
-6   H   u0 p0 c0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 264,
-    label = "Cd-HN3dO2s-HN3s-HH_2742",
-    group = 
-"""
-1 * Cd  u0 p0 c0 {3,S} {4,D} {5,S}
-2   N3s u0 p1 c0 {3,S} {6,S} {7,S}
-3   O2s u0 p2 c0 {1,S} {2,S}
-4   N3d u0 p1 c0 {1,D} {8,S}
-5   H   u0 p0 c0 {1,S}
-6   H   u0 p0 c0 {2,S}
-7   H   u0 p0 c0 {2,S}
-8   H   u0 p0 c0 {4,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([11.234,12.9171,14.7285,16.6384,19.8829,22.005,25.3357],'J/(mol*K)'),
-        H298 = (62.1393,'kJ/mol'),
-        S298 = (39.2731,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 265,
-    label = "Cd-HN3dO2s-HO2s_2682",
-    group = 
-"""
-1 * Cd  u0 p0 c0 {2,S} {3,D} {4,S}
-2   O2s u0 p2 c0 {1,S} {5,S}
-3   N3d u0 p1 c0 {1,D} {6,S}
-4   H   u0 p0 c0 {1,S}
-5   O2s u0 p2 c0 {2,S}
-6   H   u0 p0 c0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 266,
-    label = "Cd-HN3dO2s-HO2s-H_2681",
-    group = 
-"""
-1 * Cd  u0 p0 c0 {2,S} {3,D} {5,S}
-2   O2s u0 p2 c0 {1,S} {4,S}
-3   N3d u0 p1 c0 {1,D} {6,S}
-4   O2s u0 p2 c0 {2,S} {7,S}
-5   H   u0 p0 c0 {1,S}
-6   H   u0 p0 c0 {3,S}
-7   H   u0 p0 c0 {4,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([8.69727,10.4563,11.7376,12.6775,14.0691,14.98,15.9405],'J/(mol*K)'),
-        H298 = (9.7054,'kJ/mol'),
-        S298 = (28.3785,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 267,
-    label = "Cd-CsHN3d-HHH_2587",
-    group = 
-"""
-1   Cs  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2 * Cd  u0 p0 c0 {1,S} {6,D} {7,S}
-3   H   u0 p0 c0 {1,S}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {1,S}
-6   N3d u0 p1 c0 {2,D}
-7   H   u0 p0 c0 {2,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 268,
+    index = 130,
     label = "Cd-N3dCsH",
     group = 
 """
@@ -5687,59 +2567,22 @@ entry(
 )
 
 entry(
-    index = 269,
-    label = "Cd-HN3dO2s-HH_2583",
+    index = 131,
+    label = "Cd-N3dCsCs",
     group = 
 """
-1 * Cd  u0 p0 c0 {2,S} {3,D} {4,S}
-2   O2s u0 p2 c0 {1,S} {5,S}
-3   N3d u0 p1 c0 {1,D} {6,S}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {2,S}
-6   H   u0 p0 c0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 270,
-    label = "Cd-HN3dO2s_2326",
-    group = 
-"""
-1 * Cd  u0 p0 c0 {2,S} {3,D} {4,S}
-2   O2s u0 p2 c0 {1,S}
-3   N3d u0 p1 c0 {1,D}
-4   H   u0 p0 c0 {1,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 271,
-    label = "Cd-N3dO2s",
-    group = 
-"""
-1 * Cd  u0 {2,D} {3,S}
+1 * Cd  u0 {2,D} {3,S} {4,S}
 2   N3d u0 {1,D}
-3   O2s u0 {1,S}
+3   Cs  u0 {1,S}
+4   Cs  u0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([2.09287,3.1887,4.14851,4.70052,5.40203,6.1667,7.52273],'J/(mol*K)'),
-        H298 = (-65.974,'kJ/mol'),
-        S298 = (32.5597,'J/(mol*K)'),
+        Cpdata = ([3.5,4.2,5,5.6,6.6,7.2,7.9],'cal/(mol*K)','+|-',[0.9,0.9,0.9,0.9,0.9,0.9,0.9]),
+        H298 = (5.7,'kcal/mol','+|-',1.2),
+        S298 = (2,'cal/(mol*K)','+|-',1.1),
     ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
+    shortDesc = """""",
     longDesc = 
 """
 
@@ -5747,13 +2590,14 @@ entry(
 )
 
 entry(
-    index = 272,
-    label = "Cd-N3d-O2s_2528",
+    index = 132,
+    label = "Cd-(N3dN3sN3s)",
     group = 
 """
-1   N3d u0 p1 c0 {2,D} {3,S}
-2 * Cd  u0 p0 c0 {1,D}
-3   O2s u0 p2 c0 {1,S}
+1 * Cd  u0 p0 c0 {2,S} {3,S} {4,D}
+2   N3s u0 p1 c0 {1,S}
+3   N3s u0 p1 c0 {1,S}
+4   N3d u0 p1 c0 {1,D}
 """,
     thermo = None,
     shortDesc = """""",
@@ -5764,17 +2608,14 @@ entry(
 )
 
 entry(
-    index = 273,
-    label = "Cd-HN3dN3s-HHO2s_3020",
+    index = 133,
+    label = "Cd-(HN1scN3d)",
     group = 
 """
-1 * Cd  u0 p0 c0 {2,S} {3,D} {4,S}
-2   N3s u0 p1 c0 {1,S} {5,S} {6,S}
-3   N3d u0 p1 c0 {1,D} {7,S}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {2,S}
-6   H   u0 p0 c0 {2,S}
-7   O2s u0 p2 c0 {3,S}
+1 * Cd   u0 p0 c0 {2,S} {3,D} {4,S}
+2   N1sc u0 p2 c-1 {1,S}
+3   N3d  u0 p1 c0 {1,D}
+4   H    u0 p0 c0 {1,S}
 """,
     thermo = None,
     shortDesc = """""",
@@ -5785,43 +2626,12 @@ entry(
 )
 
 entry(
-    index = 274,
-    label = "Cd-HN3dN3s-HHO2s-H_3019",
+    index = 134,
+    label = "CO-(N3s)",
     group = 
 """
-1 * Cd  u0 p0 c0 {2,S} {3,D} {5,S}
-2   N3s u0 p1 c0 {1,S} {6,S} {7,S}
-3   N3d u0 p1 c0 {1,D} {4,S}
-4   O2s u0 p2 c0 {3,S} {8,S}
-5   H   u0 p0 c0 {1,S}
-6   H   u0 p0 c0 {2,S}
-7   H   u0 p0 c0 {2,S}
-8   H   u0 p0 c0 {4,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([5.04446,6.05523,6.70124,7.06503,7.56009,7.88304,8.26853],'J/(mol*K)'),
-        H298 = (10.6765,'kJ/mol'),
-        S298 = (15.0976,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 275,
-    label = "Cd-HN3dO2s-HO2s_2545",
-    group = 
-"""
-1 * Cd  u0 p0 c0 {2,S} {3,D} {4,S}
-2   O2s u0 p2 c0 {1,S} {5,S}
-3   N3d u0 p1 c0 {1,D} {6,S}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {2,S}
-6   O2s u0 p2 c0 {3,S}
+1   N3s u0 {2,S}
+2 * CO  u0 {1,S}
 """,
     thermo = None,
     shortDesc = """""",
@@ -5832,49 +2642,7 @@ entry(
 )
 
 entry(
-    index = 276,
-    label = "Cd-HN3dO2s-HO2s-H_2544",
-    group = 
-"""
-1 * Cd  u0 p0 c0 {2,D} {3,S} {5,S}
-2   N3d u0 p1 c0 {1,D} {4,S}
-3   O2s u0 p2 c0 {1,S} {6,S}
-4   O2s u0 p2 c0 {2,S} {7,S}
-5   H   u0 p0 c0 {1,S}
-6   H   u0 p0 c0 {3,S}
-7   H   u0 p0 c0 {4,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-0.159898,-0.632884,-1.16628,-1.7224,-2.66857,-3.48868,-4.79336],'J/(mol*K)'),
-        H298 = (-47.4464,'kJ/mol'),
-        S298 = (-2.42746,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 277,
-    label = "CO-N3s_2500",
-    group = 
-"""
-1   N3s u0 p1 c0 {2,S}
-2 * CO  u0 p0 c0 {1,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 278,
+    index = 135,
     label = "Cds-OdN3sCs",
     group = 
 """
@@ -5897,7 +2665,7 @@ entry(
 )
 
 entry(
-    index = 279,
+    index = 136,
     label = "Cds-OdN3sH",
     group = 
 """
@@ -5920,50 +2688,8 @@ entry(
 )
 
 entry(
-    index = 280,
-    label = "CO-N3s-Cs-HHH_2498",
-    group = 
-"""
-1   Cs  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2   N3s u0 p1 c0 {1,S} {6,S}
-3   H   u0 p0 c0 {1,S}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {1,S}
-6 * CO  u0 p0 c0 {2,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 281,
-    label = "CO-N3s-Cs_2499",
-    group = 
-"""
-1   N3s u0 p1 c0 {2,S} {3,S}
-2 * CO  u0 p0 c0 {1,S}
-3   Cs  u0 p0 c0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([24.1628,29.2369,34.4338,39.4199,47.8209,53.9753,65.3496],'J/(mol*K)'),
-        H298 = (-47.4827,'kJ/mol'),
-        S298 = (52.3701,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 282,
-    label = "CO-N3sO2dO2s_3060",
+    index = 137,
+    label = "CO-(N3sO2dO2s)",
     group = 
 """
 1 * CO  u0 p0 c0 {2,S} {3,D} {4,S}
@@ -5980,34 +2706,8 @@ entry(
 )
 
 entry(
-    index = 283,
-    label = "CO-N3sO2dO2s-HHH_3059",
-    group = 
-"""
-1 * CO  u0 p0 c0 {2,S} {3,S} {4,D}
-2   N3s u0 p1 c0 {1,S} {5,S} {6,S}
-3   O2s u0 p2 c0 {1,S} {7,S}
-4   O2d u0 p2 c0 {1,D}
-5   H   u0 p0 c0 {2,S}
-6   H   u0 p0 c0 {2,S}
-7   H   u0 p0 c0 {3,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([6.42652,7.5433,7.77403,7.07769,5.62252,3.81374,-0.936929],'J/(mol*K)'),
-        H298 = (-132.107,'kJ/mol'),
-        S298 = (92.1175,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 284,
-    label = "CO-N3sN3sO2d_3027",
+    index = 138,
+    label = "CO-(N3sN3sO2d)",
     group = 
 """
 1 * CO  u0 p0 c0 {2,D} {3,S} {4,S}
@@ -6024,26 +2724,17 @@ entry(
 )
 
 entry(
-    index = 285,
-    label = "CO-N3sN3sO2d-HHHH_3026",
+    index = 139,
+    label = "CO-(HN3dO2d)",
     group = 
 """
-1 * CO  u0 p0 c0 {2,S} {3,S} {4,D}
-2   N3s u0 p1 c0 {1,S} {5,S} {6,S}
-3   N3s u0 p1 c0 {1,S} {7,S} {8,S}
-4   O2d u0 p2 c0 {1,D}
-5   H   u0 p0 c0 {2,S}
-6   H   u0 p0 c0 {2,S}
-7   H   u0 p0 c0 {3,S}
-8   H   u0 p0 c0 {3,S}
+1 * CO  u0 p0 c0 {2,D} {3,S} {4,S}
+2   O2d u0 p2 c0 {1,D}
+3   N3d u0 p1 c0 {1,S}
+4   H   u0 p0 c0 {1,S}
 """,
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([13.3111,10.3455,7.75642,5.08963,1.86722,-0.736151,-10.5009],'J/(mol*K)'),
-        H298 = (-36.0988,'kJ/mol'),
-        S298 = (316.415,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
+    thermo = None,
+    shortDesc = """""",
     longDesc = 
 """
 
@@ -6051,20 +2742,33 @@ entry(
 )
 
 entry(
-    index = 286,
-    label = "Cd-N5dc_2490",
+    index = 140,
+    label = "CO-(HN1scO2d)",
+    group = 
+"""
+1 * CO   u0 p0 c0 {2,D} {3,S} {4,S}
+2   O2d  u0 p2 c0 {1,D}
+3   N1sc u0 p2 c-1 {1,S}
+4   H    u0 p0 c0 {1,S}
+""",
+    thermo = None,
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 141,
+    label = "Cd-(N5dc)",
     group = 
 """
 1   N5dc u0 p0 c+1 {2,D}
 2 * Cd   u0 p0 c0 {1,D}
 """,
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([27.0038,33.4556,39.2945,44.2337,51.8563,57.1724,64.8915],'J/(mol*K)'),
-        H298 = (10.2659,'kJ/mol'),
-        S298 = (94.627,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
+    thermo = None,
+    shortDesc = """""",
     longDesc = 
 """
 
@@ -6072,8 +2776,8 @@ entry(
 )
 
 entry(
-    index = 287,
-    label = "Cd-CtHN5dc_2415",
+    index = 142,
+    label = "Cd-(CtHN5dc)",
     group = 
 """
 1 * Cd   u0 p0 c0 {2,D} {3,S} {4,S}
@@ -6090,82 +2794,8 @@ entry(
 )
 
 entry(
-    index = 288,
-    label = "Cd-CtHN5dc-CtHO0sc_2414",
-    group = 
-"""
-1 * Cd   u0 p0 c0 {2,D} {3,S} {4,S}
-2   N5dc u0 p0 c+1 {1,D} {5,S} {6,S}
-3   Ct   u0 p0 c0 {1,S} {7,T}
-4   H    u0 p0 c0 {1,S}
-5   O0sc u0 p3 c-1 {2,S}
-6   H    u0 p0 c0 {2,S}
-7   Ct   u0 p0 c0 {3,T}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 289,
-    label = "Cd-CtHN5dc-CtHO0sc-H_2413",
-    group = 
-"""
-1 * Cd   u0 p0 c0 {2,D} {3,S} {5,S}
-2   N5dc u0 p0 c+1 {1,D} {6,S} {7,S}
-3   Ct   u0 p0 c0 {1,S} {4,T}
-4   Ct   u0 p0 c0 {3,T} {8,S}
-5   H    u0 p0 c0 {1,S}
-6   O0sc u0 p3 c-1 {2,S}
-7   H    u0 p0 c0 {2,S}
-8   H    u0 p0 c0 {4,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([6.1921,8.33078,9.71064,10.9032,12.8219,14.085,15.5446],'J/(mol*K)'),
-        H298 = (31.5855,'kJ/mol'),
-        S298 = (0.7637,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 290,
-    label = "Cd-CtHN5dc-HN3tO0sc_3214",
-    group = 
-"""
-1 * Cd   u0 p0 c0 {2,D} {3,S} {4,S}
-2   N5dc u0 p0 c+1 {1,D} {5,S} {6,S}
-3   Ct   u0 p0 c0 {1,S} {7,T}
-4   H    u0 p0 c0 {1,S}
-5   O0sc u0 p3 c-1 {2,S}
-6   H    u0 p0 c0 {2,S}
-7   N3t  u0 p1 c0 {3,T}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([7.40891,7.90073,8.5054,9.01529,9.76573,10.2752,11.021],'J/(mol*K)'),
-        H298 = (21.091,'kJ/mol'),
-        S298 = (37.5669,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 291,
-    label = "Cd-N3sN5dcO2s_3168",
+    index = 143,
+    label = "Cd-(N3sN5dcO2s)",
     group = 
 """
 1 * Cd   u0 p0 c0 {2,S} {3,S} {4,D}
@@ -6182,36 +2812,8 @@ entry(
 )
 
 entry(
-    index = 292,
-    label = "Cd-N3sN5dcO2s-HHHHO0sc_3167",
-    group = 
-"""
-1 * Cd   u0 p0 c0 {2,S} {3,D} {4,S}
-2   N3s  u0 p1 c0 {1,S} {5,S} {6,S}
-3   N5dc u0 p0 c+1 {1,D} {7,S} {8,S}
-4   O2s  u0 p2 c0 {1,S} {9,S}
-5   H    u0 p0 c0 {2,S}
-6   H    u0 p0 c0 {2,S}
-7   O0sc u0 p3 c-1 {3,S}
-8   H    u0 p0 c0 {3,S}
-9   H    u0 p0 c0 {4,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([7.10577,8.10643,9.68992,11.42,14.5022,16.6544,19.3706],'J/(mol*K)'),
-        H298 = (15.1854,'kJ/mol'),
-        S298 = (26.9322,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 293,
-    label = "Cd-COHN5dc_2911",
+    index = 144,
+    label = "Cd-(COHN5dc)",
     group = 
 """
 1 * Cd   u0 p0 c0 {2,D} {3,S} {4,S}
@@ -6228,67 +2830,14 @@ entry(
 )
 
 entry(
-    index = 294,
-    label = "Cd-COHN5dc-HHO0scO2d_2910",
+    index = 145,
+    label = "Cd-(HHN5dc)",
     group = 
 """
 1 * Cd   u0 p0 c0 {2,D} {3,S} {4,S}
-2   N5dc u0 p0 c+1 {1,D} {5,S} {6,S}
-3   CO   u0 p0 c0 {1,S} {7,D} {8,S}
+2   N5dc u0 p0 c+1 {1,D}
+3   H    u0 p0 c0 {1,S}
 4   H    u0 p0 c0 {1,S}
-5   O0sc u0 p3 c-1 {2,S}
-6   H    u0 p0 c0 {2,S}
-7   O2d  u0 p2 c0 {3,D}
-8   H    u0 p0 c0 {3,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([5.70541,7.23269,8.68542,9.84207,11.3468,13.1658,18.8388],'J/(mol*K)'),
-        H298 = (9.64138,'kJ/mol'),
-        S298 = (12.3312,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 295,
-    label = "Cd-HN5dcO2s_2775",
-    group = 
-"""
-1 * Cd   u0 p0 c0 {2,S} {3,D} {4,S}
-2   O2s  u0 p2 c0 {1,S}
-3   N5dc u0 p0 c+1 {1,D}
-4   H    u0 p0 c0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([16.9734,21.181,24.5725,27.2991,32.0515,35.3034,40.037],'J/(mol*K)'),
-        H298 = (-0.400804,'kJ/mol'),
-        S298 = (55.03,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 296,
-    label = "Cd-HN5dcO2s-HN3sO0sc_2968",
-    group = 
-"""
-1 * Cd   u0 p0 c0 {2,D} {3,S} {4,S}
-2   N5dc u0 p0 c+1 {1,D} {5,S} {6,S}
-3   O2s  u0 p2 c0 {1,S} {7,S}
-4   H    u0 p0 c0 {1,S}
-5   O0sc u0 p3 c-1 {2,S}
-6   H    u0 p0 c0 {2,S}
-7   N3s  u0 p1 c0 {3,S}
 """,
     thermo = None,
     shortDesc = """""",
@@ -6299,62 +2848,8 @@ entry(
 )
 
 entry(
-    index = 297,
-    label = "Cd-HN5dcO2s-HN3sO0sc-HH_2967",
-    group = 
-"""
-1 * Cd   u0 p0 c0 {2,D} {4,S} {5,S}
-2   N5dc u0 p0 c+1 {1,D} {6,S} {7,S}
-3   N3s  u0 p1 c0 {4,S} {8,S} {9,S}
-4   O2s  u0 p2 c0 {1,S} {3,S}
-5   H    u0 p0 c0 {1,S}
-6   O0sc u0 p3 c-1 {2,S}
-7   H    u0 p0 c0 {2,S}
-8   H    u0 p0 c0 {3,S}
-9   H    u0 p0 c0 {3,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([3.96035,4.25603,4.00033,3.76793,3.13941,2.74184,2.42012],'J/(mol*K)'),
-        H298 = (29.8128,'kJ/mol'),
-        S298 = (14.9017,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 298,
-    label = "Cd-HN5dcO2s-HHO0sc_2774",
-    group = 
-"""
-1 * Cd   u0 p0 c0 {2,D} {3,S} {4,S}
-2   N5dc u0 p0 c+1 {1,D} {5,S} {6,S}
-3   O2s  u0 p2 c0 {1,S} {7,S}
-4   H    u0 p0 c0 {1,S}
-5   O0sc u0 p3 c-1 {2,S}
-6   H    u0 p0 c0 {2,S}
-7   H    u0 p0 c0 {3,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([2.75254,3.24814,5.26971,7.56759,11.4761,14.3593,18.1217],'J/(mol*K)'),
-        H298 = (-1.54708,'kJ/mol'),
-        S298 = (30.1075,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 299,
-    label = "Cd-CdHN5dc_2750",
+    index = 146,
+    label = "Cd-(CdHN5dc)",
     group = 
 """
 1 * Cd   u0 p0 c0 {2,D} {3,S} {4,S}
@@ -6371,18 +2866,14 @@ entry(
 )
 
 entry(
-    index = 300,
-    label = "Cd-CdHN5dc-CdHHO0sc_2749",
+    index = 147,
+    label = "Cd-(HN5dcO2s)",
     group = 
 """
-1 * Cd   u0 p0 c0 {2,D} {3,S} {4,S}
-2   N5dc u0 p0 c+1 {1,D} {5,S} {6,S}
-3   Cd   u0 p0 c0 {1,S} {7,D} {8,S}
+1 * Cd   u0 p0 c0 {2,S} {3,D} {4,S}
+2   O2s  u0 p2 c0 {1,S}
+3   N5dc u0 p0 c+1 {1,D}
 4   H    u0 p0 c0 {1,S}
-5   O0sc u0 p3 c-1 {2,S}
-6   H    u0 p0 c0 {2,S}
-7   Cd   u0 p0 c0 {3,D}
-8   H    u0 p0 c0 {3,S}
 """,
     thermo = None,
     shortDesc = """""",
@@ -6393,37 +2884,8 @@ entry(
 )
 
 entry(
-    index = 301,
-    label = "Cd-CdHN5dc-CdHHO0sc-HH_2748",
-    group = 
-"""
-1    Cd   u0 p0 c0 {2,S} {4,D} {6,S}
-2  * Cd   u0 p0 c0 {1,S} {3,D} {5,S}
-3    N5dc u0 p0 c+1 {2,D} {7,S} {8,S}
-4    Cd   u0 p0 c0 {1,D} {9,S} {10,S}
-5    H    u0 p0 c0 {2,S}
-6    H    u0 p0 c0 {1,S}
-7    O0sc u0 p3 c-1 {3,S}
-8    H    u0 p0 c0 {3,S}
-9    H    u0 p0 c0 {4,S}
-10   H    u0 p0 c0 {4,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([5.85826,7.36998,8.77693,10.3012,13.1364,14.6356,14.4868],'J/(mol*K)'),
-        H298 = (-0.727018,'kJ/mol'),
-        S298 = (13.6401,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 302,
-    label = "Cd-HN3sN5dc_2748",
+    index = 148,
+    label = "Cd-(HN3sN5dc)",
     group = 
 """
 1 * Cd   u0 p0 c0 {2,S} {3,D} {4,S}
@@ -6431,33 +2893,6 @@ entry(
 3   N5dc u0 p0 c+1 {1,D}
 4   H    u0 p0 c0 {1,S}
 """,
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([13.0811,15.8764,18.6654,21.3569,25.6234,28.7165,33.6684],'J/(mol*K)'),
-        H298 = (17.6041,'kJ/mol'),
-        S298 = (36.2052,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 303,
-    label = "Cd-HN3sN5dc-HHO0scO2s_3006",
-    group = 
-"""
-1 * Cd   u0 p0 c0 {2,S} {3,D} {4,S}
-2   N3s  u0 p1 c0 {1,S} {5,S} {6,S}
-3   N5dc u0 p0 c+1 {1,D} {7,S} {8,S}
-4   H    u0 p0 c0 {1,S}
-5   O2s  u0 p2 c0 {2,S}
-6   H    u0 p0 c0 {2,S}
-7   O0sc u0 p3 c-1 {3,S}
-8   H    u0 p0 c0 {3,S}
-""",
     thermo = None,
     shortDesc = """""",
     longDesc = 
@@ -6467,63 +2902,8 @@ entry(
 )
 
 entry(
-    index = 304,
-    label = "Cd-HN3sN5dc-HHO0scO2s-H_3005",
-    group = 
-"""
-1 * Cd   u0 p0 c0 {2,S} {3,D} {5,S}
-2   N3s  u0 p1 c0 {1,S} {4,S} {6,S}
-3   N5dc u0 p0 c+1 {1,D} {7,S} {8,S}
-4   O2s  u0 p2 c0 {2,S} {9,S}
-5   H    u0 p0 c0 {1,S}
-6   H    u0 p0 c0 {2,S}
-7   O0sc u0 p3 c-1 {3,S}
-8   H    u0 p0 c0 {3,S}
-9   H    u0 p0 c0 {4,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([2.93559,3.78435,4.51479,5.25782,6.48943,7.43202,8.77191],'J/(mol*K)'),
-        H298 = (-1.85056,'kJ/mol'),
-        S298 = (20.2719,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 305,
-    label = "Cd-HN3sN5dc-HHHO0sc_2747",
-    group = 
-"""
-1 * Cd   u0 p0 c0 {2,S} {3,D} {4,S}
-2   N3s  u0 p1 c0 {1,S} {5,S} {6,S}
-3   N5dc u0 p0 c+1 {1,D} {7,S} {8,S}
-4   H    u0 p0 c0 {1,S}
-5   H    u0 p0 c0 {2,S}
-6   H    u0 p0 c0 {2,S}
-7   O0sc u0 p3 c-1 {3,S}
-8   H    u0 p0 c0 {3,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([2.27049,2.53276,2.59164,2.39654,2.10968,1.89376,1.23456],'J/(mol*K)'),
-        H298 = (5.07506,'kJ/mol'),
-        S298 = (31.6718,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 306,
-    label = "Cd-N3sN3sN5dc_2671",
+    index = 149,
+    label = "Cd-(N3sN3sN5dc)",
     group = 
 """
 1 * Cd   u0 p0 c0 {2,S} {3,S} {4,D}
@@ -6540,37 +2920,8 @@ entry(
 )
 
 entry(
-    index = 307,
-    label = "Cd-N3sN3sN5dc-HHHHHO0sc_2670",
-    group = 
-"""
-1  * Cd   u0 p0 c0 {2,S} {3,S} {4,D}
-2    N3s  u0 p1 c0 {1,S} {5,S} {6,S}
-3    N3s  u0 p1 c0 {1,S} {7,S} {8,S}
-4    N5dc u0 p0 c+1 {1,D} {9,S} {10,S}
-5    H    u0 p0 c0 {2,S}
-6    H    u0 p0 c0 {2,S}
-7    H    u0 p0 c0 {3,S}
-8    H    u0 p0 c0 {3,S}
-9    O0sc u0 p3 c-1 {4,S}
-10   H    u0 p0 c0 {4,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([4.53224,5.75004,6.26887,6.45426,6.63853,6.82512,7.35933],'J/(mol*K)'),
-        H298 = (-4.9176,'kJ/mol'),
-        S298 = (11.8931,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 308,
-    label = "Cd-HN3dN5dc_2514",
+    index = 150,
+    label = "Cd-(HN3dN5dc)",
     group = 
 """
 1 * Cd   u0 p0 c0 {2,D} {3,S} {4,S}
@@ -6587,17 +2938,12 @@ entry(
 )
 
 entry(
-    index = 309,
-    label = "Cd-HN3dN5dc-CdHO0sc_3134",
+    index = 151,
+    label = "Cd-(N5sc)",
     group = 
 """
-1 * Cd   u0 p0 c0 {2,D} {3,S} {4,S}
-2   N5dc u0 p0 c+1 {1,D} {5,S} {6,S}
-3   N3d  u0 p1 c0 {1,S} {7,D}
-4   H    u0 p0 c0 {1,S}
-5   O0sc u0 p3 c-1 {2,S}
-6   H    u0 p0 c0 {2,S}
-7   Cd   u0 p0 c0 {3,D}
+1   N5sc u0 p0 c+1 {2,S}
+2 * Cd   u0 p0 c0 {1,S}
 """,
     thermo = None,
     shortDesc = """""",
@@ -6608,71 +2954,12 @@ entry(
 )
 
 entry(
-    index = 310,
-    label = "Cd-HN3dN5dc-CdHO0sc-HH_3133",
+    index = 152,
+    label = "CO-(N5sc)",
     group = 
 """
-1 * Cd   u0 p0 c0 {2,D} {4,S} {5,S}
-2   N5dc u0 p0 c+1 {1,D} {6,S} {7,S}
-3   Cd   u0 p0 c0 {4,D} {8,S} {9,S}
-4   N3d  u0 p1 c0 {1,S} {3,D}
-5   H    u0 p0 c0 {1,S}
-6   O0sc u0 p3 c-1 {2,S}
-7   H    u0 p0 c0 {2,S}
-8   H    u0 p0 c0 {3,S}
-9   H    u0 p0 c0 {3,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([13.001,15.8984,18.5516,20.8615,24.559,27.272,31.2483],'J/(mol*K)'),
-        H298 = (16.271,'kJ/mol'),
-        S298 = (49.553,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 311,
-    label = "Cd-HN3dN5dc-HO0scO2d_2599",
-    group = 
-"""
-1 * Cd   u0 p0 c0 {2,D} {3,S} {4,S}
-2   N5dc u0 p0 c+1 {1,D} {5,S} {6,S}
-3   N3d  u0 p1 c0 {1,S} {7,D}
-4   H    u0 p0 c0 {1,S}
-5   O0sc u0 p3 c-1 {2,S}
-6   H    u0 p0 c0 {2,S}
-7   O2d  u0 p2 c0 {3,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([2.82967,3.62232,4.05543,4.37082,4.86391,5.10789,5.1048],'J/(mol*K)'),
-        H298 = (0.751375,'kJ/mol'),
-        S298 = (3.65582,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 312,
-    label = "Cd-HN3dN5dc-HN3dO0sc_2513",
-    group = 
-"""
-1 * Cd   u0 p0 c0 {2,D} {3,S} {4,S}
-2   N5dc u0 p0 c+1 {1,D} {5,S} {6,S}
-3   N3d  u0 p1 c0 {1,S} {7,D}
-4   H    u0 p0 c0 {1,S}
-5   O0sc u0 p3 c-1 {2,S}
-6   H    u0 p0 c0 {2,S}
-7   N3d  u0 p1 c0 {3,D}
+1   N5sc u0 p0 c+1 {2,S}
+2 * CO   u0 p0 c0 {1,S}
 """,
     thermo = None,
     shortDesc = """""",
@@ -6683,26 +2970,15 @@ entry(
 )
 
 entry(
-    index = 313,
-    label = "Cd-HN3dN5dc-HN3dO0sc-H_2512",
+    index = 153,
+    label = "Cd-(N3s)",
     group = 
 """
-1 * Cd   u0 p0 c0 {2,D} {3,S} {5,S}
-2   N5dc u0 p0 c+1 {1,D} {6,S} {7,S}
-3   N3d  u0 p1 c0 {1,S} {4,D}
-4   N3d  u0 p1 c0 {3,D} {8,S}
-5   H    u0 p0 c0 {1,S}
-6   O0sc u0 p3 c-1 {2,S}
-7   H    u0 p0 c0 {2,S}
-8   H    u0 p0 c0 {4,S}
+1   N3s u0 {2,S}
+2 * Cd  u0 {1,S}
 """,
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([2.92088,3.25838,3.48569,3.67814,3.9375,4.11961,4.37907],'J/(mol*K)'),
-        H298 = (27.6809,'kJ/mol'),
-        S298 = (13.6932,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
+    thermo = None,
+    shortDesc = """""",
     longDesc = 
 """
 
@@ -6710,28 +2986,7 @@ entry(
 )
 
 entry(
-    index = 314,
-    label = "Cd-N3s_2320",
-    group = 
-"""
-1   N3s u0 p1 c0 {2,S}
-2 * Cd  u0 p0 c0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([14.3053,17.52,20.4449,22.9893,27.2155,30.3788,35.2285],'J/(mol*K)'),
-        H298 = (0.937504,'kJ/mol'),
-        S298 = (38.7291,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 315,
+    index = 154,
     label = "Cd-CdCsN3s",
     group = 
 """
@@ -6756,102 +3011,7 @@ entry(
 )
 
 entry(
-    index = 316,
-    label = "Cd-N3s-HN3s_2976",
-    group = 
-"""
-1   N3s u0 p1 c0 {2,S} {3,S} {4,S}
-2 * Cd  u0 p0 c0 {1,S}
-3   N3s u0 p1 c0 {1,S}
-4   H   u0 p0 c0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([9.35641,11.6674,13.7401,15.462,18.2095,20.0997,22.9265],'J/(mol*K)'),
-        H298 = (25.6071,'kJ/mol'),
-        S298 = (21.9781,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 317,
-    label = "Cd-CdHN3s-HHHO2s_2956",
-    group = 
-"""
-1 * Cd  u0 p0 c0 {2,S} {3,D} {4,S}
-2   N3s u0 p1 c0 {1,S} {5,S} {6,S}
-3   Cd  u0 p0 c0 {1,D} {7,S} {8,S}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {2,S}
-6   H   u0 p0 c0 {2,S}
-7   O2s u0 p2 c0 {3,S}
-8   H   u0 p0 c0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 318,
-    label = "Cd-CdHN3s-HHHO2s-H_2955",
-    group = 
-"""
-1 * Cd  u0 p0 c0 {2,D} {3,S} {5,S}
-2   Cd  u0 p0 c0 {1,D} {4,S} {6,S}
-3   N3s u0 p1 c0 {1,S} {7,S} {8,S}
-4   O2s u0 p2 c0 {2,S} {9,S}
-5   H   u0 p0 c0 {1,S}
-6   H   u0 p0 c0 {2,S}
-7   H   u0 p0 c0 {3,S}
-8   H   u0 p0 c0 {3,S}
-9   H   u0 p0 c0 {4,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([15.5609,19.4362,22.691,25.06,28.6208,30.8081,33.7447],'J/(mol*K)'),
-        H298 = (-78.3524,'kJ/mol'),
-        S298 = (26.9455,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 319,
-    label = "Cd-CdHN3s-HHHH_2702",
-    group = 
-"""
-1 * Cd  u0 p0 c0 {2,S} {3,D} {4,S}
-2   N3s u0 p1 c0 {1,S} {5,S} {6,S}
-3   Cd  u0 p0 c0 {1,D} {7,S} {8,S}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {2,S}
-6   H   u0 p0 c0 {2,S}
-7   H   u0 p0 c0 {3,S}
-8   H   u0 p0 c0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 320,
+    index = 155,
     label = "Cd-CdHN3s",
     group = 
 """
@@ -6876,8 +3036,8 @@ entry(
 )
 
 entry(
-    index = 321,
-    label = "Cd-CdN3sN3s_2640",
+    index = 156,
+    label = "Cd-(CdN3sN3s)",
     group = 
 """
 1 * Cd  u0 p0 c0 {2,S} {3,S} {4,D}
@@ -6894,37 +3054,8 @@ entry(
 )
 
 entry(
-    index = 322,
-    label = "Cd-CdN3sN3s-HHHHHH_2639",
-    group = 
-"""
-1  * Cd  u0 p0 c0 {2,S} {3,S} {4,D}
-2    N3s u0 p1 c0 {1,S} {5,S} {6,S}
-3    N3s u0 p1 c0 {1,S} {7,S} {8,S}
-4    Cd  u0 p0 c0 {1,D} {9,S} {10,S}
-5    H   u0 p0 c0 {2,S}
-6    H   u0 p0 c0 {2,S}
-7    H   u0 p0 c0 {3,S}
-8    H   u0 p0 c0 {3,S}
-9    H   u0 p0 c0 {4,S}
-10   H   u0 p0 c0 {4,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([5.95617,10.6621,13.2109,14.0067,14.5942,14.2176,13.0679],'J/(mol*K)'),
-        H298 = (-8.17018,'kJ/mol'),
-        S298 = (-48.2443,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 323,
-    label = "Cd-CdN3sO2s_2635",
+    index = 157,
+    label = "Cd-(CdN3sO2s)",
     group = 
 """
 1 * Cd  u0 p0 c0 {2,S} {3,S} {4,D}
@@ -6941,167 +3072,8 @@ entry(
 )
 
 entry(
-    index = 324,
-    label = "Cd-CdN3sO2s-HHHHH_2634",
-    group = 
-"""
-1 * Cd  u0 p0 c0 {2,S} {3,D} {4,S}
-2   N3s u0 p1 c0 {1,S} {5,S} {6,S}
-3   Cd  u0 p0 c0 {1,D} {7,S} {8,S}
-4   O2s u0 p2 c0 {1,S} {9,S}
-5   H   u0 p0 c0 {2,S}
-6   H   u0 p0 c0 {2,S}
-7   H   u0 p0 c0 {3,S}
-8   H   u0 p0 c0 {3,S}
-9   H   u0 p0 c0 {4,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([2.61728,2.90699,4.32963,5.73473,8.2319,9.68205,10.7993],'J/(mol*K)'),
-        H298 = (20.0918,'kJ/mol'),
-        S298 = (-23.4036,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 325,
-    label = "Cd-CdHN3s-HHHO2s_2540",
-    group = 
-"""
-1 * Cd  u0 p0 c0 {2,S} {3,D} {4,S}
-2   N3s u0 p1 c0 {1,S} {5,S} {6,S}
-3   Cd  u0 p0 c0 {1,D} {7,S} {8,S}
-4   H   u0 p0 c0 {1,S}
-5   O2s u0 p2 c0 {2,S}
-6   H   u0 p0 c0 {2,S}
-7   H   u0 p0 c0 {3,S}
-8   H   u0 p0 c0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 326,
-    label = "Cd-CdHN3s-HHHO2s-H_2539",
-    group = 
-"""
-1 * Cd  u0 p0 c0 {2,S} {3,D} {5,S}
-2   N3s u0 p1 c0 {1,S} {4,S} {6,S}
-3   Cd  u0 p0 c0 {1,D} {7,S} {8,S}
-4   O2s u0 p2 c0 {2,S} {9,S}
-5   H   u0 p0 c0 {1,S}
-6   H   u0 p0 c0 {2,S}
-7   H   u0 p0 c0 {3,S}
-8   H   u0 p0 c0 {3,S}
-9   H   u0 p0 c0 {4,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([9.37026,11.0596,12.4339,13.4524,15.1056,16.1806,17.8288],'J/(mol*K)'),
-        H298 = (-0.315242,'kJ/mol'),
-        S298 = (20.0864,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 327,
-    label = "Cd-N3s-Cs_2443",
-    group = 
-"""
-1   N3s u0 p1 c0 {2,S} {3,S}
-2 * Cd  u0 p0 c0 {1,S}
-3   Cs  u0 p0 c0 {1,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 328,
-    label = "Cd-N3s-CsH_3183",
-    group = 
-"""
-1   N3s u0 p1 c0 {2,S} {3,S} {4,S}
-2 * Cd  u0 p0 c0 {1,S}
-3   Cs  u0 p0 c0 {1,S}
-4   H   u0 p0 c0 {1,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 329,
-    label = "Cd-N3s-CsH-HHH_3182",
-    group = 
-"""
-1   Cs  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2   N3s u0 p1 c0 {1,S} {6,S} {7,S}
-3   H   u0 p0 c0 {1,S}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {1,S}
-6 * Cd  u0 p0 c0 {2,S}
-7   H   u0 p0 c0 {2,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 330,
-    label = "Cd-N3s-Cs-HHH_2442",
-    group = 
-"""
-1   Cs  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2   N3s u0 p1 c0 {1,S} {6,S}
-3   H   u0 p0 c0 {1,S}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {1,S}
-6 * Cd  u0 p0 c0 {2,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([8.41247,12.8098,16.6633,19.9379,24.759,28.3853,33.8366],'J/(mol*K)'),
-        H298 = (-17.7795,'kJ/mol'),
-        S298 = (36.2117,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 331,
-    label = "Cd-CddHN3s_2379",
+    index = 158,
+    label = "Cd-(CddHN3s)",
     group = 
 """
 1 * Cd  u0 p0 c0 {2,S} {3,D} {4,S}
@@ -7118,82 +3090,7 @@ entry(
 )
 
 entry(
-    index = 332,
-    label = "Cd-CddHN3s-HHO2d_3185",
-    group = 
-"""
-1 * Cd  u0 p0 c0 {2,S} {3,D} {4,S}
-2   N3s u0 p1 c0 {1,S} {5,S} {6,S}
-3   Cdd u0 p0 c0 {1,D} {7,D}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {2,S}
-6   H   u0 p0 c0 {2,S}
-7   O2d u0 p2 c0 {3,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([14.7054,15.7938,17.305,18.7711,21.16,22.8794,25.2206],'J/(mol*K)'),
-        H298 = (-99.1731,'kJ/mol'),
-        S298 = (82.4142,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 333,
-    label = "Cd-CddHN3s-CdHH_2378",
-    group = 
-"""
-1 * Cd  u0 p0 c0 {2,S} {3,D} {4,S}
-2   N3s u0 p1 c0 {1,S} {5,S} {6,S}
-3   Cdd u0 p0 c0 {1,D} {7,D}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {2,S}
-6   H   u0 p0 c0 {2,S}
-7   Cd  u0 p0 c0 {3,D}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 334,
-    label = "Cd-CddHN3s-CdHH-HH_2377",
-    group = 
-"""
-1 * Cd  u0 p0 c0 {2,S} {4,D} {5,S}
-2   N3s u0 p1 c0 {1,S} {6,S} {7,S}
-3   Cd  u0 p0 c0 {4,D} {8,S} {9,S}
-4   Cdd u0 p0 c0 {1,D} {3,D}
-5   H   u0 p0 c0 {1,S}
-6   H   u0 p0 c0 {2,S}
-7   H   u0 p0 c0 {2,S}
-8   H   u0 p0 c0 {3,S}
-9   H   u0 p0 c0 {3,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([1.73772,3.16757,4.063,4.895,6.51252,7.6688,9.12068],'J/(mol*K)'),
-        H298 = (75.5102,'kJ/mol'),
-        S298 = (-33.2828,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 335,
+    index = 159,
     label = "Cds-OdHH",
     group = 
 """
@@ -7216,7 +3113,7 @@ entry(
 )
 
 entry(
-    index = 336,
+    index = 160,
     label = "Cds-OdOsH",
     group = 
 """
@@ -7241,7 +3138,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 337,
+    index = 161,
     label = "CO-SH",
     group = 
 """
@@ -7259,7 +3156,7 @@ entry(
 )
 
 entry(
-    index = 338,
+    index = 162,
     label = "CO-S2H",
     group = 
 """
@@ -7282,7 +3179,7 @@ entry(
 )
 
 entry(
-    index = 339,
+    index = 163,
     label = "CO-S4H",
     group = 
 """
@@ -7305,7 +3202,7 @@ entry(
 )
 
 entry(
-    index = 340,
+    index = 164,
     label = "CO-S6H",
     group = 
 """
@@ -7328,7 +3225,7 @@ entry(
 )
 
 entry(
-    index = 341,
+    index = 165,
     label = "Cds-OdOsOs",
     group = 
 """
@@ -7353,7 +3250,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 342,
+    index = 166,
     label = "CO-CsSs",
     group = 
 """
@@ -7376,7 +3273,7 @@ entry(
 )
 
 entry(
-    index = 343,
+    index = 167,
     label = "CO-OsSs",
     group = 
 """
@@ -7399,7 +3296,7 @@ entry(
 )
 
 entry(
-    index = 344,
+    index = 168,
     label = "Cds-OdCH",
     group = 
 """
@@ -7417,7 +3314,7 @@ entry(
 )
 
 entry(
-    index = 345,
+    index = 169,
     label = "Cds-OdCsH",
     group = 
 """
@@ -7442,7 +3339,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 346,
+    index = 170,
     label = "Cds-OdCdsH",
     group = 
 """
@@ -7460,7 +3357,7 @@ entry(
 )
 
 entry(
-    index = 347,
+    index = 171,
     label = "Cds-O2d(Cds-O2d)H",
     group = 
 """
@@ -7486,7 +3383,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 348,
+    index = 172,
     label = "Cds-O2d(Cds-Cd)H",
     group = 
 """
@@ -7512,7 +3409,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 349,
+    index = 173,
     label = "Cds-O2d(Cds-Cds)H",
     group = 
 """
@@ -7536,7 +3433,7 @@ entry(
 )
 
 entry(
-    index = 350,
+    index = 174,
     label = "Cds-O2d(Cds-Cdd)H",
     group = 
 """
@@ -7555,7 +3452,7 @@ entry(
 )
 
 entry(
-    index = 351,
+    index = 175,
     label = "Cds-O2d(Cds-Cdd-O2d)H",
     group = 
 """
@@ -7575,7 +3472,7 @@ entry(
 )
 
 entry(
-    index = 352,
+    index = 176,
     label = "Cds-O2d(Cds-Cdd-Cd)H",
     group = 
 """
@@ -7595,7 +3492,7 @@ entry(
 )
 
 entry(
-    index = 353,
+    index = 177,
     label = "Cds-OdCtH",
     group = 
 """
@@ -7613,75 +3510,7 @@ entry(
 )
 
 entry(
-    index = 354,
-    label = "CO-CtHO2d-N5tc_3113",
-    group = 
-"""
-1 * CO   u0 p0 c0 {2,S} {3,D} {4,S}
-2   Ct   u0 p0 c0 {1,S} {5,T}
-3   O2d  u0 p2 c0 {1,D}
-4   H    u0 p0 c0 {1,S}
-5   N5tc u0 p0 c+1 {2,T}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 355,
-    label = "CO-CtHO2d-N5tc-O0sc_3112",
-    group = 
-"""
-1 * CO   u0 p0 c0 {2,S} {4,D} {5,S}
-2   Ct   u0 p0 c0 {1,S} {3,T}
-3   N5tc u0 p0 c+1 {2,T} {6,S}
-4   O2d  u0 p2 c0 {1,D}
-5   H    u0 p0 c0 {1,S}
-6   O0sc u0 p3 c-1 {3,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([1.34642,2.50743,3.34979,3.95864,4.69775,5.09253,5.16506],'J/(mol*K)'),
-        H298 = (-77.739,'kJ/mol'),
-        S298 = (19.7727,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 356,
-    label = "CO-CtHO2d-N3t_2351",
-    group = 
-"""
-1 * CO  u0 p0 c0 {2,S} {3,D} {4,S}
-2   Ct  u0 p0 c0 {1,S} {5,T}
-3   O2d u0 p2 c0 {1,D}
-4   H   u0 p0 c0 {1,S}
-5   N3t u0 p1 c0 {2,T}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([21.6756,24.1989,26.3732,28.3183,31.4293,33.7612,37.135],'J/(mol*K)'),
-        H298 = (1.48397,'kJ/mol'),
-        S298 = (99.5828,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 357,
+    index = 178,
     label = "Cds-OdCbH",
     group = 
 """
@@ -7699,7 +3528,7 @@ entry(
 )
 
 entry(
-    index = 358,
+    index = 179,
     label = "Cds-OdCOs",
     group = 
 """
@@ -7717,7 +3546,7 @@ entry(
 )
 
 entry(
-    index = 359,
+    index = 180,
     label = "Cds-OdCsOs",
     group = 
 """
@@ -7742,7 +3571,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 360,
+    index = 181,
     label = "Cds-OdCdsOs",
     group = 
 """
@@ -7760,7 +3589,7 @@ entry(
 )
 
 entry(
-    index = 361,
+    index = 182,
     label = "Cds-O2d(Cds-O2d)O2s",
     group = 
 """
@@ -7786,7 +3615,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 362,
+    index = 183,
     label = "Cds-O2d(Cds-Cd)O2s",
     group = 
 """
@@ -7812,7 +3641,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 363,
+    index = 184,
     label = "Cds-O2d(Cds-Cds)O2s",
     group = 
 """
@@ -7836,7 +3665,7 @@ entry(
 )
 
 entry(
-    index = 364,
+    index = 185,
     label = "Cds-O2d(Cds-Cdd)O2s",
     group = 
 """
@@ -7855,7 +3684,7 @@ entry(
 )
 
 entry(
-    index = 365,
+    index = 186,
     label = "Cds-O2d(Cds-Cdd-O2d)O2s",
     group = 
 """
@@ -7875,7 +3704,7 @@ entry(
 )
 
 entry(
-    index = 366,
+    index = 187,
     label = "Cds-O2d(Cds-Cdd-Cd)O2s",
     group = 
 """
@@ -7895,7 +3724,7 @@ entry(
 )
 
 entry(
-    index = 367,
+    index = 188,
     label = "Cds-OdCtOs",
     group = 
 """
@@ -7913,7 +3742,7 @@ entry(
 )
 
 entry(
-    index = 368,
+    index = 189,
     label = "Cds-OdCbOs",
     group = 
 """
@@ -7936,7 +3765,7 @@ entry(
 )
 
 entry(
-    index = 369,
+    index = 190,
     label = "Cds-OdCC",
     group = 
 """
@@ -7954,7 +3783,7 @@ entry(
 )
 
 entry(
-    index = 370,
+    index = 191,
     label = "Cds-OdCsCs",
     group = 
 """
@@ -7979,7 +3808,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 371,
+    index = 192,
     label = "Cds-OdCdsCs",
     group = 
 """
@@ -7997,7 +3826,7 @@ entry(
 )
 
 entry(
-    index = 372,
+    index = 193,
     label = "Cds-O2d(Cds-O2d)Cs",
     group = 
 """
@@ -8023,7 +3852,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 373,
+    index = 194,
     label = "Cds-O2d(Cds-Cd)Cs",
     group = 
 """
@@ -8049,7 +3878,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 374,
+    index = 195,
     label = "Cds-O2d(Cds-Cds)Cs",
     group = 
 """
@@ -8073,7 +3902,7 @@ entry(
 )
 
 entry(
-    index = 375,
+    index = 196,
     label = "Cds-O2d(Cds-Cdd)Cs",
     group = 
 """
@@ -8092,7 +3921,7 @@ entry(
 )
 
 entry(
-    index = 376,
+    index = 197,
     label = "Cds-O2d(Cds-Cdd-O2d)Cs",
     group = 
 """
@@ -8112,7 +3941,7 @@ entry(
 )
 
 entry(
-    index = 377,
+    index = 198,
     label = "Cds-O2d(Cds-Cdd-Cd)Cs",
     group = 
 """
@@ -8132,7 +3961,7 @@ entry(
 )
 
 entry(
-    index = 378,
+    index = 199,
     label = "Cds-OdCdsCds",
     group = 
 """
@@ -8150,7 +3979,7 @@ entry(
 )
 
 entry(
-    index = 379,
+    index = 200,
     label = "Cds-O2d(Cds-O2d)(Cds-O2d)",
     group = 
 """
@@ -8177,7 +4006,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 380,
+    index = 201,
     label = "Cds-O2d(Cds-Cd)(Cds-O2d)",
     group = 
 """
@@ -8197,7 +4026,7 @@ entry(
 )
 
 entry(
-    index = 381,
+    index = 202,
     label = "Cds-O2d(Cds-Cds)(Cds-O2d)",
     group = 
 """
@@ -8217,7 +4046,7 @@ entry(
 )
 
 entry(
-    index = 382,
+    index = 203,
     label = "Cds-O2d(Cds-Cdd)(Cds-O2d)",
     group = 
 """
@@ -8237,7 +4066,7 @@ entry(
 )
 
 entry(
-    index = 383,
+    index = 204,
     label = "Cds-O2d(Cds-Cdd-O2d)(Cds-O2d)",
     group = 
 """
@@ -8258,7 +4087,7 @@ entry(
 )
 
 entry(
-    index = 384,
+    index = 205,
     label = "Cds-O2d(Cds-Cdd-Cd)(Cds-O2d)",
     group = 
 """
@@ -8279,7 +4108,7 @@ entry(
 )
 
 entry(
-    index = 385,
+    index = 206,
     label = "Cds-O2d(Cds-Cd)(Cds-Cd)",
     group = 
 """
@@ -8299,7 +4128,7 @@ entry(
 )
 
 entry(
-    index = 386,
+    index = 207,
     label = "Cds-O2d(Cds-Cds)(Cds-Cds)",
     group = 
 """
@@ -8324,7 +4153,7 @@ entry(
 )
 
 entry(
-    index = 387,
+    index = 208,
     label = "Cds-O2d(Cds-Cdd)(Cds-Cds)",
     group = 
 """
@@ -8344,7 +4173,7 @@ entry(
 )
 
 entry(
-    index = 388,
+    index = 209,
     label = "Cds-O2d(Cds-Cdd-O2d)(Cds-Cds)",
     group = 
 """
@@ -8365,7 +4194,7 @@ entry(
 )
 
 entry(
-    index = 389,
+    index = 210,
     label = "Cds-O2d(Cds-Cdd-Cd)(Cds-Cds)",
     group = 
 """
@@ -8386,7 +4215,7 @@ entry(
 )
 
 entry(
-    index = 390,
+    index = 211,
     label = "Cds-O2d(Cds-Cdd)(Cds-Cdd)",
     group = 
 """
@@ -8406,7 +4235,7 @@ entry(
 )
 
 entry(
-    index = 391,
+    index = 212,
     label = "Cds-O2d(Cds-Cdd-O2d)(Cds-Cdd-O2d)",
     group = 
 """
@@ -8428,7 +4257,7 @@ entry(
 )
 
 entry(
-    index = 392,
+    index = 213,
     label = "Cds-O2d(Cds-Cdd-Cd)(Cds-Cdd-O2d)",
     group = 
 """
@@ -8450,7 +4279,7 @@ entry(
 )
 
 entry(
-    index = 393,
+    index = 214,
     label = "Cds-O2d(Cds-Cdd-Cd)(Cds-Cdd-Cd)",
     group = 
 """
@@ -8472,7 +4301,7 @@ entry(
 )
 
 entry(
-    index = 394,
+    index = 215,
     label = "Cds-OdCtCs",
     group = 
 """
@@ -8490,7 +4319,7 @@ entry(
 )
 
 entry(
-    index = 395,
+    index = 216,
     label = "Cds-OdCtCds",
     group = 
 """
@@ -8508,7 +4337,7 @@ entry(
 )
 
 entry(
-    index = 396,
+    index = 217,
     label = "Cds-OdCt(Cds-O2d)",
     group = 
 """
@@ -8527,7 +4356,7 @@ entry(
 )
 
 entry(
-    index = 397,
+    index = 218,
     label = "Cds-OdCt(Cds-Cd)",
     group = 
 """
@@ -8546,7 +4375,7 @@ entry(
 )
 
 entry(
-    index = 398,
+    index = 219,
     label = "Cds-OdCt(Cds-Cds)",
     group = 
 """
@@ -8565,7 +4394,7 @@ entry(
 )
 
 entry(
-    index = 399,
+    index = 220,
     label = "Cds-OdCt(Cds-Cdd)",
     group = 
 """
@@ -8584,7 +4413,7 @@ entry(
 )
 
 entry(
-    index = 400,
+    index = 221,
     label = "Cds-OdCt(Cds-Cdd-O2d)",
     group = 
 """
@@ -8604,7 +4433,7 @@ entry(
 )
 
 entry(
-    index = 401,
+    index = 222,
     label = "Cds-OdCt(Cds-Cdd-Cd)",
     group = 
 """
@@ -8624,7 +4453,7 @@ entry(
 )
 
 entry(
-    index = 402,
+    index = 223,
     label = "Cds-OdCtCt",
     group = 
 """
@@ -8642,7 +4471,7 @@ entry(
 )
 
 entry(
-    index = 403,
+    index = 224,
     label = "Cds-OdCbCs",
     group = 
 """
@@ -8660,7 +4489,7 @@ entry(
 )
 
 entry(
-    index = 404,
+    index = 225,
     label = "Cds-OdCbCds",
     group = 
 """
@@ -8678,7 +4507,7 @@ entry(
 )
 
 entry(
-    index = 405,
+    index = 226,
     label = "Cds-OdCb(Cds-O2d)",
     group = 
 """
@@ -8697,7 +4526,7 @@ entry(
 )
 
 entry(
-    index = 406,
+    index = 227,
     label = "Cds-OdCb(Cds-Cd)",
     group = 
 """
@@ -8716,7 +4545,7 @@ entry(
 )
 
 entry(
-    index = 407,
+    index = 228,
     label = "Cds-OdCb(Cds-Cds)",
     group = 
 """
@@ -8735,7 +4564,7 @@ entry(
 )
 
 entry(
-    index = 408,
+    index = 229,
     label = "Cds-OdCb(Cds-Cdd)",
     group = 
 """
@@ -8754,7 +4583,7 @@ entry(
 )
 
 entry(
-    index = 409,
+    index = 230,
     label = "Cds-OdCb(Cds-Cdd-O2d)",
     group = 
 """
@@ -8774,7 +4603,7 @@ entry(
 )
 
 entry(
-    index = 410,
+    index = 231,
     label = "Cds-OdCb(Cds-Cdd-Cd)",
     group = 
 """
@@ -8794,7 +4623,7 @@ entry(
 )
 
 entry(
-    index = 411,
+    index = 232,
     label = "Cds-OdCbCt",
     group = 
 """
@@ -8812,7 +4641,7 @@ entry(
 )
 
 entry(
-    index = 412,
+    index = 233,
     label = "Cds-OdCbCb",
     group = 
 """
@@ -8830,7 +4659,7 @@ entry(
 )
 
 entry(
-    index = 413,
+    index = 234,
     label = "Cds-CdHH",
     group = 
 """
@@ -8848,7 +4677,7 @@ entry(
 )
 
 entry(
-    index = 414,
+    index = 235,
     label = "Cds-CdsHH",
     group = 
 """
@@ -8871,7 +4700,7 @@ entry(
 )
 
 entry(
-    index = 415,
+    index = 236,
     label = "Cds-CddHH",
     group = 
 """
@@ -8889,7 +4718,7 @@ entry(
 )
 
 entry(
-    index = 416,
+    index = 237,
     label = "Cds-(Cdd-O2d)HH",
     group = 
 """
@@ -8913,7 +4742,7 @@ entry(
 )
 
 entry(
-    index = 417,
+    index = 238,
     label = "Cds-(Cdd-S2d)HH",
     group = 
 """
@@ -8932,7 +4761,7 @@ entry(
 )
 
 entry(
-    index = 418,
+    index = 239,
     label = "Cds-(Cdd-Cd)HH",
     group = 
 """
@@ -8951,32 +4780,7 @@ entry(
 )
 
 entry(
-    index = 419,
-    label = "Cd-CddHH-Cdd-N3d_3277",
-    group = 
-"""
-1 * Cd  u0 p0 c0 {2,D} {4,S} {5,S}
-2   Cdd u0 p0 c0 {1,D} {3,D}
-3   Cdd u0 p0 c0 {2,D} {6,D}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {1,S}
-6   N3d u0 p1 c0 {3,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([14.9579,17.5544,19.8275,21.8043,25.0016,27.3787,30.9628],'J/(mol*K)'),
-        H298 = (83.0544,'kJ/mol'),
-        S298 = (57.3983,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 420,
+    index = 240,
     label = "Cds-CdOsH",
     group = 
 """
@@ -9001,7 +4805,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 421,
+    index = 241,
     label = "Cds-CdsOsH",
     group = 
 """
@@ -9024,56 +4828,7 @@ entry(
 )
 
 entry(
-    index = 422,
-    label = "Cd-CdHO2s-HHN3s_2937",
-    group = 
-"""
-1 * Cd  u0 p0 c0 {2,D} {3,S} {4,S}
-2   Cd  u0 p0 c0 {1,D} {5,S} {6,S}
-3   O2s u0 p2 c0 {1,S} {7,S}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {2,S}
-6   H   u0 p0 c0 {2,S}
-7   N3s u0 p1 c0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 423,
-    label = "Cd-CdHO2s-HHN3s-HH_2936",
-    group = 
-"""
-1 * Cd  u0 p0 c0 {2,D} {4,S} {5,S}
-2   Cd  u0 p0 c0 {1,D} {6,S} {7,S}
-3   N3s u0 p1 c0 {4,S} {8,S} {9,S}
-4   O2s u0 p2 c0 {1,S} {3,S}
-5   H   u0 p0 c0 {1,S}
-6   H   u0 p0 c0 {2,S}
-7   H   u0 p0 c0 {2,S}
-8   H   u0 p0 c0 {3,S}
-9   H   u0 p0 c0 {3,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([7.23877,8.37849,9.47858,10.4364,11.9367,13.068,14.6945],'J/(mol*K)'),
-        H298 = (30.7135,'kJ/mol'),
-        S298 = (20.6775,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 424,
+    index = 242,
     label = "Cds-CddOsH",
     group = 
 """
@@ -9091,7 +4846,7 @@ entry(
 )
 
 entry(
-    index = 425,
+    index = 243,
     label = "Cds-(Cdd-O2d)OsH",
     group = 
 """
@@ -9115,7 +4870,7 @@ entry(
 )
 
 entry(
-    index = 426,
+    index = 244,
     label = "Cds-(Cdd-Cd)OsH",
     group = 
 """
@@ -9134,7 +4889,7 @@ entry(
 )
 
 entry(
-    index = 427,
+    index = 245,
     label = "Cds-CdSH",
     group = 
 """
@@ -9152,7 +4907,7 @@ entry(
 )
 
 entry(
-    index = 428,
+    index = 246,
     label = "Cds-CdsSH",
     group = 
 """
@@ -9170,7 +4925,7 @@ entry(
 )
 
 entry(
-    index = 429,
+    index = 247,
     label = "Cds-CdsS2H",
     group = 
 """
@@ -9193,7 +4948,7 @@ entry(
 )
 
 entry(
-    index = 430,
+    index = 248,
     label = "Cds-CdsS4H",
     group = 
 """
@@ -9216,7 +4971,7 @@ entry(
 )
 
 entry(
-    index = 431,
+    index = 249,
     label = "Cds-CdsS6H",
     group = 
 """
@@ -9239,7 +4994,7 @@ entry(
 )
 
 entry(
-    index = 432,
+    index = 250,
     label = "Cds-CddSsH",
     group = 
 """
@@ -9257,7 +5012,7 @@ entry(
 )
 
 entry(
-    index = 433,
+    index = 251,
     label = "Cds-(Cdd-S2d)SsH",
     group = 
 """
@@ -9276,7 +5031,7 @@ entry(
 )
 
 entry(
-    index = 434,
+    index = 252,
     label = "Cds-(Cdd-Cd)SsH",
     group = 
 """
@@ -9295,7 +5050,7 @@ entry(
 )
 
 entry(
-    index = 435,
+    index = 253,
     label = "Cds-CdOsOs",
     group = 
 """
@@ -9320,7 +5075,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 436,
+    index = 254,
     label = "Cds-CdsOsOs",
     group = 
 """
@@ -9338,7 +5093,7 @@ entry(
 )
 
 entry(
-    index = 437,
+    index = 255,
     label = "Cds-CddOsOs",
     group = 
 """
@@ -9356,7 +5111,7 @@ entry(
 )
 
 entry(
-    index = 438,
+    index = 256,
     label = "Cds-(Cdd-O2d)OsOs",
     group = 
 """
@@ -9380,7 +5135,7 @@ entry(
 )
 
 entry(
-    index = 439,
+    index = 257,
     label = "Cds-(Cdd-Cd)OsOs",
     group = 
 """
@@ -9399,7 +5154,7 @@ entry(
 )
 
 entry(
-    index = 440,
+    index = 258,
     label = "Cds-CdSsSs",
     group = 
 """
@@ -9417,7 +5172,7 @@ entry(
 )
 
 entry(
-    index = 441,
+    index = 259,
     label = "Cds-CdsSsSs",
     group = 
 """
@@ -9435,7 +5190,7 @@ entry(
 )
 
 entry(
-    index = 442,
+    index = 260,
     label = "Cds-CddSsSs",
     group = 
 """
@@ -9453,7 +5208,7 @@ entry(
 )
 
 entry(
-    index = 443,
+    index = 261,
     label = "Cds-(Cdd-S2d)SsSs",
     group = 
 """
@@ -9472,7 +5227,7 @@ entry(
 )
 
 entry(
-    index = 444,
+    index = 262,
     label = "Cds-(Cdd-Cd)SsSs",
     group = 
 """
@@ -9491,7 +5246,7 @@ entry(
 )
 
 entry(
-    index = 445,
+    index = 263,
     label = "Cds-CdCH",
     group = 
 """
@@ -9509,7 +5264,7 @@ entry(
 )
 
 entry(
-    index = 446,
+    index = 264,
     label = "Cds-CdsCsH",
     group = 
 """
@@ -9532,7 +5287,7 @@ entry(
 )
 
 entry(
-    index = 447,
+    index = 265,
     label = "Cds-CdsCdsH",
     group = 
 """
@@ -9550,57 +5305,7 @@ entry(
 )
 
 entry(
-    index = 448,
-    label = "Cd-CdCdH-HHHN3d_2335",
-    group = 
-"""
-1 * Cd  u0 p0 c0 {2,S} {3,D} {4,S}
-2   Cd  u0 p0 c0 {1,S} {5,D} {6,S}
-3   Cd  u0 p0 c0 {1,D} {7,S} {8,S}
-4   H   u0 p0 c0 {1,S}
-5   N3d u0 p1 c0 {2,D}
-6   H   u0 p0 c0 {2,S}
-7   H   u0 p0 c0 {3,S}
-8   H   u0 p0 c0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 449,
-    label = "Cd-CdCdH-HHHN3d-H_2334",
-    group = 
-"""
-1 * Cd  u0 p0 c0 {2,S} {3,D} {5,S}
-2   Cd  u0 p0 c0 {1,S} {4,D} {6,S}
-3   Cd  u0 p0 c0 {1,D} {7,S} {8,S}
-4   N3d u0 p1 c0 {2,D} {9,S}
-5   H   u0 p0 c0 {1,S}
-6   H   u0 p0 c0 {2,S}
-7   H   u0 p0 c0 {3,S}
-8   H   u0 p0 c0 {3,S}
-9   H   u0 p0 c0 {4,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([16.5925,20.4395,23.8651,26.8494,31.6664,35.1377,40.0205],'J/(mol*K)'),
-        H298 = (36.8119,'kJ/mol'),
-        S298 = (54.6443,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 450,
+    index = 266,
     label = "Cd-Cd(CO)H",
     group = 
 """
@@ -9626,7 +5331,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 451,
+    index = 267,
     label = "Cds-Cds(Cds-Cd)H",
     group = 
 """
@@ -9645,7 +5350,7 @@ entry(
 )
 
 entry(
-    index = 452,
+    index = 268,
     label = "Cds-Cds(Cds-Cds)H",
     group = 
 """
@@ -9669,7 +5374,7 @@ entry(
 )
 
 entry(
-    index = 453,
+    index = 269,
     label = "Cds-Cds(Cds-Cdd)H",
     group = 
 """
@@ -9688,7 +5393,7 @@ entry(
 )
 
 entry(
-    index = 454,
+    index = 270,
     label = "Cd-Cd(CCO)H",
     group = 
 """
@@ -9715,7 +5420,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 455,
+    index = 271,
     label = "Cds-Cds(Cds-Cdd-S2d)H",
     group = 
 """
@@ -9735,7 +5440,7 @@ entry(
 )
 
 entry(
-    index = 456,
+    index = 272,
     label = "Cds-Cds(Cds-Cdd-Cd)H",
     group = 
 """
@@ -9755,7 +5460,7 @@ entry(
 )
 
 entry(
-    index = 457,
+    index = 273,
     label = "Cds-CdsCtH",
     group = 
 """
@@ -9778,55 +5483,7 @@ entry(
 )
 
 entry(
-    index = 458,
-    label = "Cd-CdCtH-HHN5tc_2576",
-    group = 
-"""
-1 * Cd   u0 p0 c0 {2,D} {3,S} {4,S}
-2   Cd   u0 p0 c0 {1,D} {5,S} {6,S}
-3   Ct   u0 p0 c0 {1,S} {7,T}
-4   H    u0 p0 c0 {1,S}
-5   H    u0 p0 c0 {2,S}
-6   H    u0 p0 c0 {2,S}
-7   N5tc u0 p0 c+1 {3,T}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 459,
-    label = "Cd-CdCtH-HHN5tc-O0sc_2575",
-    group = 
-"""
-1 * Cd   u0 p0 c0 {2,D} {3,S} {5,S}
-2   Cd   u0 p0 c0 {1,D} {6,S} {7,S}
-3   Ct   u0 p0 c0 {1,S} {4,T}
-4   N5tc u0 p0 c+1 {3,T} {8,S}
-5   H    u0 p0 c0 {1,S}
-6   H    u0 p0 c0 {2,S}
-7   H    u0 p0 c0 {2,S}
-8   O0sc u0 p3 c-1 {4,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-1.13116,-0.630428,-0.487755,-0.464332,-0.509979,-0.580274,-1.098],'J/(mol*K)'),
-        H298 = (12.9966,'kJ/mol'),
-        S298 = (-23.5325,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 460,
+    index = 274,
     label = "Cds-CdsH(CtN3t)",
     group = 
 """
@@ -9850,33 +5507,7 @@ entry(
 )
 
 entry(
-    index = 461,
-    label = "Cd-CdCtH-HHN3t_2816",
-    group = 
-"""
-1 * Cd  u0 p0 c0 {2,D} {3,S} {4,S}
-2   Cd  u0 p0 c0 {1,D} {5,S} {6,S}
-3   Ct  u0 p0 c0 {1,S} {7,T}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {2,S}
-6   H   u0 p0 c0 {2,S}
-7   N3t u0 p1 c0 {3,T}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([14.086,16.4214,18.321,19.9442,22.5573,24.3923,26.8502],'J/(mol*K)'),
-        H298 = (53.9745,'kJ/mol'),
-        S298 = (52.4275,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 462,
+    index = 275,
     label = "Cds-CdsCbH",
     group = 
 """
@@ -9899,7 +5530,7 @@ entry(
 )
 
 entry(
-    index = 463,
+    index = 276,
     label = "Cds-(Cds-Os)CbH",
     group = 
 """
@@ -9923,7 +5554,7 @@ Fitted to CBS-QB3 calculations for OC=Cc1ccccc1
 )
 
 entry(
-    index = 464,
+    index = 277,
     label = "Cds-CddCsH",
     group = 
 """
@@ -9941,7 +5572,7 @@ entry(
 )
 
 entry(
-    index = 465,
+    index = 278,
     label = "Cds-(Cdd-O2d)CsH",
     group = 
 """
@@ -9967,7 +5598,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 466,
+    index = 279,
     label = "Cds-(Cdd-S2d)CsH",
     group = 
 """
@@ -9986,7 +5617,7 @@ entry(
 )
 
 entry(
-    index = 467,
+    index = 280,
     label = "Cds-(Cdd-Cd)CsH",
     group = 
 """
@@ -10005,7 +5636,7 @@ entry(
 )
 
 entry(
-    index = 468,
+    index = 281,
     label = "Cds-CddCdsH",
     group = 
 """
@@ -10023,7 +5654,7 @@ entry(
 )
 
 entry(
-    index = 469,
+    index = 282,
     label = "Cds-(Cdd-O2d)(Cds-O2d)H",
     group = 
 """
@@ -10043,7 +5674,7 @@ entry(
 )
 
 entry(
-    index = 470,
+    index = 283,
     label = "Cds-(Cdd-O2d)(Cds-Cd)H",
     group = 
 """
@@ -10070,7 +5701,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 471,
+    index = 284,
     label = "Cds-(Cdd-O2d)(Cds-Cds)H",
     group = 
 """
@@ -10090,7 +5721,7 @@ entry(
 )
 
 entry(
-    index = 472,
+    index = 285,
     label = "Cds-(Cdd-O2d)(Cds-Cdd)H",
     group = 
 """
@@ -10110,7 +5741,7 @@ entry(
 )
 
 entry(
-    index = 473,
+    index = 286,
     label = "Cds-(Cdd-O2d)(Cds-Cdd-O2d)H",
     group = 
 """
@@ -10136,7 +5767,7 @@ entry(
 )
 
 entry(
-    index = 474,
+    index = 287,
     label = "Cds-(Cdd-O2d)(Cds-Cdd-Cd)H",
     group = 
 """
@@ -10157,7 +5788,7 @@ entry(
 )
 
 entry(
-    index = 475,
+    index = 288,
     label = "Cds-(Cdd-S2d)(Cds-Cd)H",
     group = 
 """
@@ -10177,7 +5808,7 @@ entry(
 )
 
 entry(
-    index = 476,
+    index = 289,
     label = "Cds-(Cdd-S2d)(Cds-Cds)H",
     group = 
 """
@@ -10197,7 +5828,7 @@ entry(
 )
 
 entry(
-    index = 477,
+    index = 290,
     label = "Cds-(Cdd-S2d)(Cds-Cdd)H",
     group = 
 """
@@ -10217,7 +5848,7 @@ entry(
 )
 
 entry(
-    index = 478,
+    index = 291,
     label = "Cds-(Cdd-S2d)(Cds-Cdd-S2d)H",
     group = 
 """
@@ -10238,7 +5869,7 @@ entry(
 )
 
 entry(
-    index = 479,
+    index = 292,
     label = "Cds-(Cdd-S2d)(Cds-Cdd-Cd)H",
     group = 
 """
@@ -10259,7 +5890,7 @@ entry(
 )
 
 entry(
-    index = 480,
+    index = 293,
     label = "Cds-(Cdd-Cd)(Cds-O2d)H",
     group = 
 """
@@ -10279,7 +5910,7 @@ entry(
 )
 
 entry(
-    index = 481,
+    index = 294,
     label = "Cds-(Cdd-Cd)(Cds-Cd)H",
     group = 
 """
@@ -10299,7 +5930,7 @@ entry(
 )
 
 entry(
-    index = 482,
+    index = 295,
     label = "Cds-(Cdd-Cd)(Cds-Cds)H",
     group = 
 """
@@ -10319,7 +5950,7 @@ entry(
 )
 
 entry(
-    index = 483,
+    index = 296,
     label = "Cds-(Cdd-Cd)(Cds-Cdd)H",
     group = 
 """
@@ -10339,7 +5970,7 @@ entry(
 )
 
 entry(
-    index = 484,
+    index = 297,
     label = "Cds-(Cdd-Cd)(Cds-Cdd-O2d)H",
     group = 
 """
@@ -10360,7 +5991,7 @@ entry(
 )
 
 entry(
-    index = 485,
+    index = 298,
     label = "Cds-(Cdd-Cd)(Cds-Cdd-S2d)H",
     group = 
 """
@@ -10381,7 +6012,7 @@ entry(
 )
 
 entry(
-    index = 486,
+    index = 299,
     label = "Cds-(Cdd-Cd)(Cds-Cdd-Cd)H",
     group = 
 """
@@ -10402,7 +6033,7 @@ entry(
 )
 
 entry(
-    index = 487,
+    index = 300,
     label = "Cds-CddCtH",
     group = 
 """
@@ -10420,7 +6051,7 @@ entry(
 )
 
 entry(
-    index = 488,
+    index = 301,
     label = "Cds-(Cdd-O2d)CtH",
     group = 
 """
@@ -10439,7 +6070,7 @@ entry(
 )
 
 entry(
-    index = 489,
+    index = 302,
     label = "Cds-(Cdd-S2d)CtH",
     group = 
 """
@@ -10458,7 +6089,7 @@ entry(
 )
 
 entry(
-    index = 490,
+    index = 303,
     label = "Cds-(Cdd-Cd)CtH",
     group = 
 """
@@ -10477,7 +6108,7 @@ entry(
 )
 
 entry(
-    index = 491,
+    index = 304,
     label = "Cds-CddCbH",
     group = 
 """
@@ -10495,7 +6126,7 @@ entry(
 )
 
 entry(
-    index = 492,
+    index = 305,
     label = "Cds-(Cdd-O2d)CbH",
     group = 
 """
@@ -10514,7 +6145,7 @@ entry(
 )
 
 entry(
-    index = 493,
+    index = 306,
     label = "Cds-(Cdd-S2d)CbH",
     group = 
 """
@@ -10533,7 +6164,7 @@ entry(
 )
 
 entry(
-    index = 494,
+    index = 307,
     label = "Cds-(Cdd-Cd)CbH",
     group = 
 """
@@ -10552,7 +6183,7 @@ entry(
 )
 
 entry(
-    index = 495,
+    index = 308,
     label = "Cds-(Cdd-Cd)C=SH",
     group = 
 """
@@ -10572,7 +6203,7 @@ entry(
 )
 
 entry(
-    index = 496,
+    index = 309,
     label = "Cds-(Cdd-S2d)C=SH",
     group = 
 """
@@ -10592,7 +6223,7 @@ entry(
 )
 
 entry(
-    index = 497,
+    index = 310,
     label = "Cds-CdsC=SH",
     group = 
 """
@@ -10616,7 +6247,7 @@ entry(
 )
 
 entry(
-    index = 498,
+    index = 311,
     label = "Cds-CdCO",
     group = 
 """
@@ -10634,7 +6265,7 @@ entry(
 )
 
 entry(
-    index = 499,
+    index = 312,
     label = "Cds-CdsCdsOs",
     group = 
 """
@@ -10652,7 +6283,7 @@ entry(
 )
 
 entry(
-    index = 500,
+    index = 313,
     label = "Cds-Cds(Cds-O2d)O2s",
     group = 
 """
@@ -10676,7 +6307,7 @@ entry(
 )
 
 entry(
-    index = 501,
+    index = 314,
     label = "Cds-Cds(Cds-Cd)O2s",
     group = 
 """
@@ -10695,7 +6326,7 @@ entry(
 )
 
 entry(
-    index = 502,
+    index = 315,
     label = "Cds-Cds(Cds-Cds)O2s",
     group = 
 """
@@ -10719,7 +6350,7 @@ entry(
 )
 
 entry(
-    index = 503,
+    index = 316,
     label = "Cds-Cds(Cds-Cdd)O2s",
     group = 
 """
@@ -10738,7 +6369,7 @@ entry(
 )
 
 entry(
-    index = 504,
+    index = 317,
     label = "Cds-Cds(Cds-Cdd-O2d)O2s",
     group = 
 """
@@ -10758,7 +6389,7 @@ entry(
 )
 
 entry(
-    index = 505,
+    index = 318,
     label = "Cds-Cds(Cds-Cdd-Cd)O2s",
     group = 
 """
@@ -10778,7 +6409,7 @@ entry(
 )
 
 entry(
-    index = 506,
+    index = 319,
     label = "Cds-CdsCtOs",
     group = 
 """
@@ -10796,7 +6427,7 @@ entry(
 )
 
 entry(
-    index = 507,
+    index = 320,
     label = "Cds-CdsCbOs",
     group = 
 """
@@ -10819,7 +6450,7 @@ entry(
 )
 
 entry(
-    index = 508,
+    index = 321,
     label = "Cds-CddCdsOs",
     group = 
 """
@@ -10837,7 +6468,7 @@ entry(
 )
 
 entry(
-    index = 509,
+    index = 322,
     label = "Cds-(Cdd-O2d)(Cds-O2d)O2s",
     group = 
 """
@@ -10857,7 +6488,7 @@ entry(
 )
 
 entry(
-    index = 510,
+    index = 323,
     label = "Cds-(Cdd-O2d)(Cds-Cd)O2s",
     group = 
 """
@@ -10877,7 +6508,7 @@ entry(
 )
 
 entry(
-    index = 511,
+    index = 324,
     label = "Cds-(Cdd-O2d)(Cds-Cds)O2s",
     group = 
 """
@@ -10897,7 +6528,7 @@ entry(
 )
 
 entry(
-    index = 512,
+    index = 325,
     label = "Cds-(Cdd-O2d)(Cds-Cdd)O2s",
     group = 
 """
@@ -10917,7 +6548,7 @@ entry(
 )
 
 entry(
-    index = 513,
+    index = 326,
     label = "Cds-(Cdd-O2d)(Cds-Cdd-O2d)O2s",
     group = 
 """
@@ -10943,7 +6574,7 @@ entry(
 )
 
 entry(
-    index = 514,
+    index = 327,
     label = "Cds-(Cdd-O2d)(Cds-Cdd-Cd)O2s",
     group = 
 """
@@ -10964,7 +6595,7 @@ entry(
 )
 
 entry(
-    index = 515,
+    index = 328,
     label = "Cds-(Cdd-Cd)(Cds-Cd)O2s",
     group = 
 """
@@ -10984,7 +6615,7 @@ entry(
 )
 
 entry(
-    index = 516,
+    index = 329,
     label = "Cds-(Cdd-Cd)(Cds-Cds)O2s",
     group = 
 """
@@ -11004,7 +6635,7 @@ entry(
 )
 
 entry(
-    index = 517,
+    index = 330,
     label = "Cds-(Cdd-Cd)(Cds-Cdd)O2s",
     group = 
 """
@@ -11024,7 +6655,7 @@ entry(
 )
 
 entry(
-    index = 518,
+    index = 331,
     label = "Cds-(Cdd-Cd)(Cds-Cdd-O2d)O2s",
     group = 
 """
@@ -11045,7 +6676,7 @@ entry(
 )
 
 entry(
-    index = 519,
+    index = 332,
     label = "Cds-(Cdd-Cd)(Cds-Cdd-Cd)O2s",
     group = 
 """
@@ -11066,7 +6697,7 @@ entry(
 )
 
 entry(
-    index = 520,
+    index = 333,
     label = "Cds-CddCtOs",
     group = 
 """
@@ -11084,7 +6715,7 @@ entry(
 )
 
 entry(
-    index = 521,
+    index = 334,
     label = "Cds-(Cdd-O2d)CtOs",
     group = 
 """
@@ -11103,7 +6734,7 @@ entry(
 )
 
 entry(
-    index = 522,
+    index = 335,
     label = "Cds-(Cdd-Cd)CtOs",
     group = 
 """
@@ -11122,7 +6753,7 @@ entry(
 )
 
 entry(
-    index = 523,
+    index = 336,
     label = "Cds-CddCbOs",
     group = 
 """
@@ -11140,7 +6771,7 @@ entry(
 )
 
 entry(
-    index = 524,
+    index = 337,
     label = "Cds-(Cdd-O2d)CbOs",
     group = 
 """
@@ -11159,7 +6790,7 @@ entry(
 )
 
 entry(
-    index = 525,
+    index = 338,
     label = "Cds-(Cdd-Cd)CbOs",
     group = 
 """
@@ -11178,7 +6809,7 @@ entry(
 )
 
 entry(
-    index = 526,
+    index = 339,
     label = "Cd-CdCsOs",
     group = 
 """
@@ -11203,7 +6834,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 527,
+    index = 340,
     label = "Cds-CdsCsOs",
     group = 
 """
@@ -11226,7 +6857,7 @@ entry(
 )
 
 entry(
-    index = 528,
+    index = 341,
     label = "Cds-CddCsOs",
     group = 
 """
@@ -11244,7 +6875,7 @@ entry(
 )
 
 entry(
-    index = 529,
+    index = 342,
     label = "Cds-(Cdd-O2d)CsOs",
     group = 
 """
@@ -11268,7 +6899,7 @@ entry(
 )
 
 entry(
-    index = 530,
+    index = 343,
     label = "Cds-(Cdd-Cd)CsOs",
     group = 
 """
@@ -11287,7 +6918,7 @@ entry(
 )
 
 entry(
-    index = 531,
+    index = 344,
     label = "Cds-CdCS",
     group = 
 """
@@ -11305,7 +6936,7 @@ entry(
 )
 
 entry(
-    index = 532,
+    index = 345,
     label = "Cds-CdsCsSs",
     group = 
 """
@@ -11323,7 +6954,7 @@ entry(
 )
 
 entry(
-    index = 533,
+    index = 346,
     label = "Cds-CdsCsS2",
     group = 
 """
@@ -11346,7 +6977,7 @@ entry(
 )
 
 entry(
-    index = 534,
+    index = 347,
     label = "Cds-CdsCsS4",
     group = 
 """
@@ -11369,7 +7000,7 @@ entry(
 )
 
 entry(
-    index = 535,
+    index = 348,
     label = "Cds-CdsCsS6",
     group = 
 """
@@ -11392,7 +7023,7 @@ entry(
 )
 
 entry(
-    index = 536,
+    index = 349,
     label = "Cds-CdsCdsSs",
     group = 
 """
@@ -11410,7 +7041,7 @@ entry(
 )
 
 entry(
-    index = 537,
+    index = 350,
     label = "Cds-Cds(Cds-Cd)S2s",
     group = 
 """
@@ -11429,7 +7060,7 @@ entry(
 )
 
 entry(
-    index = 538,
+    index = 351,
     label = "Cds-Cds(Cds-Cds)S2s",
     group = 
 """
@@ -11448,7 +7079,7 @@ entry(
 )
 
 entry(
-    index = 539,
+    index = 352,
     label = "Cds-Cds(Cds-Cdd)S2s",
     group = 
 """
@@ -11467,7 +7098,7 @@ entry(
 )
 
 entry(
-    index = 540,
+    index = 353,
     label = "Cds-Cds(Cds-Cdd-S2d)S2s",
     group = 
 """
@@ -11487,7 +7118,7 @@ entry(
 )
 
 entry(
-    index = 541,
+    index = 354,
     label = "Cds-Cds(Cds-Cdd-Cd)S2s",
     group = 
 """
@@ -11507,7 +7138,7 @@ entry(
 )
 
 entry(
-    index = 542,
+    index = 355,
     label = "Cds-CdsCtSs",
     group = 
 """
@@ -11525,7 +7156,7 @@ entry(
 )
 
 entry(
-    index = 543,
+    index = 356,
     label = "Cds-CdsCbSs",
     group = 
 """
@@ -11543,7 +7174,7 @@ entry(
 )
 
 entry(
-    index = 544,
+    index = 357,
     label = "Cds-CddCsSs",
     group = 
 """
@@ -11561,7 +7192,7 @@ entry(
 )
 
 entry(
-    index = 545,
+    index = 358,
     label = "Cds-(Cdd-S2d)CsSs",
     group = 
 """
@@ -11580,7 +7211,7 @@ entry(
 )
 
 entry(
-    index = 546,
+    index = 359,
     label = "Cds-(Cdd-Cd)CsSs",
     group = 
 """
@@ -11599,7 +7230,7 @@ entry(
 )
 
 entry(
-    index = 547,
+    index = 360,
     label = "Cds-CddCdsSs",
     group = 
 """
@@ -11617,7 +7248,7 @@ entry(
 )
 
 entry(
-    index = 548,
+    index = 361,
     label = "Cds-(Cdd-S2d)(Cds-Cd)S2s",
     group = 
 """
@@ -11637,7 +7268,7 @@ entry(
 )
 
 entry(
-    index = 549,
+    index = 362,
     label = "Cds-(Cdd-S2d)(Cds-Cds)S2s",
     group = 
 """
@@ -11657,7 +7288,7 @@ entry(
 )
 
 entry(
-    index = 550,
+    index = 363,
     label = "Cds-(Cdd-S2d)(Cds-Cdd)S2s",
     group = 
 """
@@ -11677,7 +7308,7 @@ entry(
 )
 
 entry(
-    index = 551,
+    index = 364,
     label = "Cds-(Cdd-S2d)(Cds-Cdd-S2d)S2s",
     group = 
 """
@@ -11698,7 +7329,7 @@ entry(
 )
 
 entry(
-    index = 552,
+    index = 365,
     label = "Cds-(Cdd-S2d)(Cds-Cdd-Cd)S2s",
     group = 
 """
@@ -11719,7 +7350,7 @@ entry(
 )
 
 entry(
-    index = 553,
+    index = 366,
     label = "Cds-(Cdd-Cd)(Cds-Cd)S2s",
     group = 
 """
@@ -11739,7 +7370,7 @@ entry(
 )
 
 entry(
-    index = 554,
+    index = 367,
     label = "Cds-(Cdd-Cd)(Cds-Cds)S2s",
     group = 
 """
@@ -11759,7 +7390,7 @@ entry(
 )
 
 entry(
-    index = 555,
+    index = 368,
     label = "Cds-(Cdd-Cd)(Cds-Cdd)S2s",
     group = 
 """
@@ -11779,7 +7410,7 @@ entry(
 )
 
 entry(
-    index = 556,
+    index = 369,
     label = "Cds-(Cdd-Cd)(Cds-Cdd-S2d)S2s",
     group = 
 """
@@ -11800,7 +7431,7 @@ entry(
 )
 
 entry(
-    index = 557,
+    index = 370,
     label = "Cds-(Cdd-Cd)(Cds-Cdd-Cd)S2s",
     group = 
 """
@@ -11821,7 +7452,7 @@ entry(
 )
 
 entry(
-    index = 558,
+    index = 371,
     label = "Cds-CddCtSs",
     group = 
 """
@@ -11839,7 +7470,7 @@ entry(
 )
 
 entry(
-    index = 559,
+    index = 372,
     label = "Cds-(Cdd-S2d)CtSs",
     group = 
 """
@@ -11858,7 +7489,7 @@ entry(
 )
 
 entry(
-    index = 560,
+    index = 373,
     label = "Cds-(Cdd-Cd)CtSs",
     group = 
 """
@@ -11877,7 +7508,7 @@ entry(
 )
 
 entry(
-    index = 561,
+    index = 374,
     label = "Cds-CddCbSs",
     group = 
 """
@@ -11895,7 +7526,7 @@ entry(
 )
 
 entry(
-    index = 562,
+    index = 375,
     label = "Cds-(Cdd-S2d)CbSs",
     group = 
 """
@@ -11914,7 +7545,7 @@ entry(
 )
 
 entry(
-    index = 563,
+    index = 376,
     label = "Cds-(Cdd-Cd)CbSs",
     group = 
 """
@@ -11933,7 +7564,7 @@ entry(
 )
 
 entry(
-    index = 564,
+    index = 377,
     label = "Cds-(Cdd-S2d)C=SSs",
     group = 
 """
@@ -11953,7 +7584,7 @@ entry(
 )
 
 entry(
-    index = 565,
+    index = 378,
     label = "Cds-CdsC=SSs",
     group = 
 """
@@ -11972,7 +7603,7 @@ entry(
 )
 
 entry(
-    index = 566,
+    index = 379,
     label = "Cds-CdCC",
     group = 
 """
@@ -11990,7 +7621,7 @@ entry(
 )
 
 entry(
-    index = 567,
+    index = 380,
     label = "Cds-CdsCsCs",
     group = 
 """
@@ -12013,7 +7644,7 @@ entry(
 )
 
 entry(
-    index = 568,
+    index = 381,
     label = "Cds-CdsCdsCs",
     group = 
 """
@@ -12031,7 +7662,7 @@ entry(
 )
 
 entry(
-    index = 569,
+    index = 382,
     label = "Cd-CdCs(CO)",
     group = 
 """
@@ -12057,7 +7688,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 570,
+    index = 383,
     label = "Cds-Cds(Cds-Cd)Cs",
     group = 
 """
@@ -12076,7 +7707,7 @@ entry(
 )
 
 entry(
-    index = 571,
+    index = 384,
     label = "Cds-Cds(Cds-Cds)Cs",
     group = 
 """
@@ -12100,7 +7731,7 @@ entry(
 )
 
 entry(
-    index = 572,
+    index = 385,
     label = "Cds-Cds(Cds-Cdd)Cs",
     group = 
 """
@@ -12119,7 +7750,7 @@ entry(
 )
 
 entry(
-    index = 573,
+    index = 386,
     label = "Cd-CdCs(CCO)",
     group = 
 """
@@ -12146,7 +7777,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 574,
+    index = 387,
     label = "Cds-Cds(Cds-Cdd-S2d)Cs",
     group = 
 """
@@ -12166,7 +7797,7 @@ entry(
 )
 
 entry(
-    index = 575,
+    index = 388,
     label = "Cds-Cds(Cds-Cdd-Cd)Cs",
     group = 
 """
@@ -12186,7 +7817,7 @@ entry(
 )
 
 entry(
-    index = 576,
+    index = 389,
     label = "Cds-CdsCdsCds",
     group = 
 """
@@ -12204,7 +7835,7 @@ entry(
 )
 
 entry(
-    index = 577,
+    index = 390,
     label = "Cds-Cds(Cds-O2d)(Cds-O2d)",
     group = 
 """
@@ -12224,7 +7855,7 @@ entry(
 )
 
 entry(
-    index = 578,
+    index = 391,
     label = "Cds-Cds(Cds-O2d)(Cds-Cd)",
     group = 
 """
@@ -12244,7 +7875,7 @@ entry(
 )
 
 entry(
-    index = 579,
+    index = 392,
     label = "Cds-Cds(Cds-O2d)(Cds-Cds)",
     group = 
 """
@@ -12269,7 +7900,7 @@ AG Vandeputte, added 7 kcal/mol to the following value (see phd M Sabbe)
 )
 
 entry(
-    index = 580,
+    index = 393,
     label = "Cds-Cds(Cds-O2d)(Cds-Cdd)",
     group = 
 """
@@ -12289,7 +7920,7 @@ entry(
 )
 
 entry(
-    index = 581,
+    index = 394,
     label = "Cds-Cds(Cds-O2d)(Cds-Cdd-O2d)",
     group = 
 """
@@ -12310,7 +7941,7 @@ entry(
 )
 
 entry(
-    index = 582,
+    index = 395,
     label = "Cds-Cds(Cds-O2d)(Cds-Cdd-Cd)",
     group = 
 """
@@ -12331,7 +7962,7 @@ entry(
 )
 
 entry(
-    index = 583,
+    index = 396,
     label = "Cds-Cds(Cds-Cd)(Cds-Cd)",
     group = 
 """
@@ -12351,7 +7982,7 @@ entry(
 )
 
 entry(
-    index = 584,
+    index = 397,
     label = "Cds-Cds(Cds-Cds)(Cds-Cds)",
     group = 
 """
@@ -12376,7 +8007,7 @@ AG Vandeputte, added 7 kcal/mol to the following value (see phd M Sabbe)
 )
 
 entry(
-    index = 585,
+    index = 398,
     label = "Cds-Cds(Cds-Cds)(Cds-Cdd)",
     group = 
 """
@@ -12396,7 +8027,7 @@ entry(
 )
 
 entry(
-    index = 586,
+    index = 399,
     label = "Cds-Cds(Cds-Cds)(Cds-Cdd-O2d)",
     group = 
 """
@@ -12417,7 +8048,7 @@ entry(
 )
 
 entry(
-    index = 587,
+    index = 400,
     label = "Cds-Cds(Cds-Cds)(Cds-Cdd-S2d)",
     group = 
 """
@@ -12438,7 +8069,7 @@ entry(
 )
 
 entry(
-    index = 588,
+    index = 401,
     label = "Cds-Cds(Cds-Cds)(Cds-Cdd-Cd)",
     group = 
 """
@@ -12459,7 +8090,7 @@ entry(
 )
 
 entry(
-    index = 589,
+    index = 402,
     label = "Cds-Cds(Cds-Cdd)(Cds-Cdd)",
     group = 
 """
@@ -12479,7 +8110,7 @@ entry(
 )
 
 entry(
-    index = 590,
+    index = 403,
     label = "Cds-Cds(Cds-Cdd-O2d)(Cds-Cdd-O2d)",
     group = 
 """
@@ -12501,7 +8132,7 @@ entry(
 )
 
 entry(
-    index = 591,
+    index = 404,
     label = "Cds-Cds(Cds-Cdd-O2d)(Cds-Cdd-Cd)",
     group = 
 """
@@ -12523,7 +8154,7 @@ entry(
 )
 
 entry(
-    index = 592,
+    index = 405,
     label = "Cds-Cds(Cds-Cdd-S2d)(Cds-Cdd-S2d)",
     group = 
 """
@@ -12545,7 +8176,7 @@ entry(
 )
 
 entry(
-    index = 593,
+    index = 406,
     label = "Cds-Cds(Cds-Cdd-S2d)(Cds-Cdd-Cd)",
     group = 
 """
@@ -12567,7 +8198,7 @@ entry(
 )
 
 entry(
-    index = 594,
+    index = 407,
     label = "Cds-Cds(Cds-Cdd-Cd)(Cds-Cdd-Cd)",
     group = 
 """
@@ -12589,7 +8220,7 @@ entry(
 )
 
 entry(
-    index = 595,
+    index = 408,
     label = "Cds-CdsCtCs",
     group = 
 """
@@ -12612,7 +8243,7 @@ entry(
 )
 
 entry(
-    index = 596,
+    index = 409,
     label = "Cd-CdCs(CtN3t)",
     group = 
 """
@@ -12638,7 +8269,7 @@ entry(
 )
 
 entry(
-    index = 597,
+    index = 410,
     label = "Cds-CdsCtCds",
     group = 
 """
@@ -12656,7 +8287,7 @@ entry(
 )
 
 entry(
-    index = 598,
+    index = 411,
     label = "Cds-CdsCt(Cds-O2d)",
     group = 
 """
@@ -12675,7 +8306,7 @@ entry(
 )
 
 entry(
-    index = 599,
+    index = 412,
     label = "Cds-CdsCt(Cds-Cd)",
     group = 
 """
@@ -12694,7 +8325,7 @@ entry(
 )
 
 entry(
-    index = 600,
+    index = 413,
     label = "Cds-Cds(Cds-Cds)Ct",
     group = 
 """
@@ -12718,7 +8349,7 @@ entry(
 )
 
 entry(
-    index = 601,
+    index = 414,
     label = "Cds-Cds(Cds-Cdd)Ct",
     group = 
 """
@@ -12737,7 +8368,7 @@ entry(
 )
 
 entry(
-    index = 602,
+    index = 415,
     label = "Cds-Cds(Cds-Cdd-O2d)Ct",
     group = 
 """
@@ -12757,7 +8388,7 @@ entry(
 )
 
 entry(
-    index = 603,
+    index = 416,
     label = "Cds-Cds(Cds-Cdd-S2d)Ct",
     group = 
 """
@@ -12777,7 +8408,7 @@ entry(
 )
 
 entry(
-    index = 604,
+    index = 417,
     label = "Cds-Cds(Cds-Cdd-Cd)Ct",
     group = 
 """
@@ -12797,7 +8428,7 @@ entry(
 )
 
 entry(
-    index = 605,
+    index = 418,
     label = "Cds-CdsCtCt",
     group = 
 """
@@ -12820,7 +8451,7 @@ entry(
 )
 
 entry(
-    index = 606,
+    index = 419,
     label = "Cds-Cd(CtN3t)(CtN3t)",
     group = 
 """
@@ -12845,7 +8476,7 @@ entry(
 )
 
 entry(
-    index = 607,
+    index = 420,
     label = "Cds-CdsCbCs",
     group = 
 """
@@ -12868,7 +8499,7 @@ entry(
 )
 
 entry(
-    index = 608,
+    index = 421,
     label = "Cds-CdsCbCds",
     group = 
 """
@@ -12886,7 +8517,7 @@ entry(
 )
 
 entry(
-    index = 609,
+    index = 422,
     label = "Cds-CdsCb(Cds-O2d)",
     group = 
 """
@@ -12905,7 +8536,7 @@ entry(
 )
 
 entry(
-    index = 610,
+    index = 423,
     label = "Cds-Cds(Cds-Cd)Cb",
     group = 
 """
@@ -12924,7 +8555,7 @@ entry(
 )
 
 entry(
-    index = 611,
+    index = 424,
     label = "Cds-Cds(Cds-Cds)Cb",
     group = 
 """
@@ -12948,7 +8579,7 @@ entry(
 )
 
 entry(
-    index = 612,
+    index = 425,
     label = "Cds-Cds(Cds-Cdd)Cb",
     group = 
 """
@@ -12967,7 +8598,7 @@ entry(
 )
 
 entry(
-    index = 613,
+    index = 426,
     label = "Cds-Cds(Cds-Cdd-O2d)Cb",
     group = 
 """
@@ -12987,7 +8618,7 @@ entry(
 )
 
 entry(
-    index = 614,
+    index = 427,
     label = "Cds-Cds(Cds-Cdd-S2d)Cb",
     group = 
 """
@@ -13007,7 +8638,7 @@ entry(
 )
 
 entry(
-    index = 615,
+    index = 428,
     label = "Cds-Cds(Cds-Cdd-Cd)Cb",
     group = 
 """
@@ -13027,7 +8658,7 @@ entry(
 )
 
 entry(
-    index = 616,
+    index = 429,
     label = "Cds-CdsCbCt",
     group = 
 """
@@ -13050,7 +8681,7 @@ entry(
 )
 
 entry(
-    index = 617,
+    index = 430,
     label = "Cds-CdsCbCb",
     group = 
 """
@@ -13073,7 +8704,7 @@ entry(
 )
 
 entry(
-    index = 618,
+    index = 431,
     label = "Cds-CddCsCs",
     group = 
 """
@@ -13091,7 +8722,7 @@ entry(
 )
 
 entry(
-    index = 619,
+    index = 432,
     label = "Cds-(Cdd-O2d)CsCs",
     group = 
 """
@@ -13117,7 +8748,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 620,
+    index = 433,
     label = "Cds-(Cdd-S2d)CsCs",
     group = 
 """
@@ -13136,7 +8767,7 @@ entry(
 )
 
 entry(
-    index = 621,
+    index = 434,
     label = "Cds-(Cdd-Cd)CsCs",
     group = 
 """
@@ -13155,7 +8786,7 @@ entry(
 )
 
 entry(
-    index = 622,
+    index = 435,
     label = "Cds-CddCdsCs",
     group = 
 """
@@ -13173,7 +8804,7 @@ entry(
 )
 
 entry(
-    index = 623,
+    index = 436,
     label = "Cds-(Cdd-O2d)(Cds-O2d)Cs",
     group = 
 """
@@ -13193,7 +8824,7 @@ entry(
 )
 
 entry(
-    index = 624,
+    index = 437,
     label = "Cds-(Cdd-O2d)(Cds-Cd)Cs",
     group = 
 """
@@ -13213,7 +8844,7 @@ entry(
 )
 
 entry(
-    index = 625,
+    index = 438,
     label = "Cds-(Cdd-O2d)(Cds-Cds)Cs",
     group = 
 """
@@ -13233,7 +8864,7 @@ entry(
 )
 
 entry(
-    index = 626,
+    index = 439,
     label = "Cds-(Cdd-O2d)(Cds-Cdd)Cs",
     group = 
 """
@@ -13253,7 +8884,7 @@ entry(
 )
 
 entry(
-    index = 627,
+    index = 440,
     label = "Cds-(Cdd-O2d)(Cds-Cdd-O2d)Cs",
     group = 
 """
@@ -13279,7 +8910,7 @@ entry(
 )
 
 entry(
-    index = 628,
+    index = 441,
     label = "Cds-(Cdd-O2d)(Cds-Cdd-Cd)Cs",
     group = 
 """
@@ -13300,7 +8931,7 @@ entry(
 )
 
 entry(
-    index = 629,
+    index = 442,
     label = "Cds-(Cdd-S2d)(Cds-Cd)Cs",
     group = 
 """
@@ -13320,7 +8951,7 @@ entry(
 )
 
 entry(
-    index = 630,
+    index = 443,
     label = "Cds-(Cdd-S2d)(Cds-Cds)Cs",
     group = 
 """
@@ -13340,7 +8971,7 @@ entry(
 )
 
 entry(
-    index = 631,
+    index = 444,
     label = "Cds-(Cdd-S2d)(Cds-Cdd)Cs",
     group = 
 """
@@ -13360,7 +8991,7 @@ entry(
 )
 
 entry(
-    index = 632,
+    index = 445,
     label = "Cds-(Cdd-S2d)(Cds-Cdd-S2d)Cs",
     group = 
 """
@@ -13381,7 +9012,7 @@ entry(
 )
 
 entry(
-    index = 633,
+    index = 446,
     label = "Cds-(Cdd-S2d)(Cds-Cdd-Cd)Cs",
     group = 
 """
@@ -13402,7 +9033,7 @@ entry(
 )
 
 entry(
-    index = 634,
+    index = 447,
     label = "Cds-(Cdd-Cd)(Cds-Cd)Cs",
     group = 
 """
@@ -13422,7 +9053,7 @@ entry(
 )
 
 entry(
-    index = 635,
+    index = 448,
     label = "Cds-(Cdd-Cd)(Cds-Cds)Cs",
     group = 
 """
@@ -13442,7 +9073,7 @@ entry(
 )
 
 entry(
-    index = 636,
+    index = 449,
     label = "Cds-(Cdd-Cd)(Cds-Cdd)Cs",
     group = 
 """
@@ -13462,7 +9093,7 @@ entry(
 )
 
 entry(
-    index = 637,
+    index = 450,
     label = "Cds-(Cdd-Cd)(Cds-Cdd-O2d)Cs",
     group = 
 """
@@ -13483,7 +9114,7 @@ entry(
 )
 
 entry(
-    index = 638,
+    index = 451,
     label = "Cds-(Cdd-Cd)(Cds-Cdd-S2d)Cs",
     group = 
 """
@@ -13504,7 +9135,7 @@ entry(
 )
 
 entry(
-    index = 639,
+    index = 452,
     label = "Cds-(Cdd-Cd)(Cds-Cdd-Cd)Cs",
     group = 
 """
@@ -13525,7 +9156,7 @@ entry(
 )
 
 entry(
-    index = 640,
+    index = 453,
     label = "Cds-CddCdsCds",
     group = 
 """
@@ -13543,7 +9174,7 @@ entry(
 )
 
 entry(
-    index = 641,
+    index = 454,
     label = "Cds-(Cdd-O2d)(Cds-O2d)(Cds-O2d)",
     group = 
 """
@@ -13564,7 +9195,7 @@ entry(
 )
 
 entry(
-    index = 642,
+    index = 455,
     label = "Cds-(Cdd-O2d)(Cds-Cd)(Cds-O2d)",
     group = 
 """
@@ -13585,7 +9216,7 @@ entry(
 )
 
 entry(
-    index = 643,
+    index = 456,
     label = "Cds-(Cdd-O2d)(Cds-Cds)(Cds-O2d)",
     group = 
 """
@@ -13606,7 +9237,7 @@ entry(
 )
 
 entry(
-    index = 644,
+    index = 457,
     label = "Cds-(Cdd-O2d)(Cds-Cdd)(Cds-O2d)",
     group = 
 """
@@ -13627,7 +9258,7 @@ entry(
 )
 
 entry(
-    index = 645,
+    index = 458,
     label = "Cds-(Cdd-O2d)(Cds-Cdd-O2d)(Cds-O2d)",
     group = 
 """
@@ -13649,7 +9280,7 @@ entry(
 )
 
 entry(
-    index = 646,
+    index = 459,
     label = "Cds-(Cdd-O2d)(Cds-Cdd-Cd)(Cds-O2d)",
     group = 
 """
@@ -13671,7 +9302,7 @@ entry(
 )
 
 entry(
-    index = 647,
+    index = 460,
     label = "Cds-(Cdd-O2d)(Cds-Cd)(Cds-Cd)",
     group = 
 """
@@ -13692,7 +9323,7 @@ entry(
 )
 
 entry(
-    index = 648,
+    index = 461,
     label = "Cds-(Cdd-O2d)(Cds-Cds)(Cds-Cds)",
     group = 
 """
@@ -13713,7 +9344,7 @@ entry(
 )
 
 entry(
-    index = 649,
+    index = 462,
     label = "Cds-(Cdd-O2d)(Cds-Cdd)(Cds-Cds)",
     group = 
 """
@@ -13734,7 +9365,7 @@ entry(
 )
 
 entry(
-    index = 650,
+    index = 463,
     label = "Cds-(Cdd-O2d)(Cds-Cdd-O2d)(Cds-Cds)",
     group = 
 """
@@ -13756,7 +9387,7 @@ entry(
 )
 
 entry(
-    index = 651,
+    index = 464,
     label = "Cds-(Cdd-O2d)(Cds-Cdd-Cd)(Cds-Cds)",
     group = 
 """
@@ -13778,7 +9409,7 @@ entry(
 )
 
 entry(
-    index = 652,
+    index = 465,
     label = "Cds-(Cdd-O2d)(Cds-Cdd)(Cds-Cdd)",
     group = 
 """
@@ -13799,7 +9430,7 @@ entry(
 )
 
 entry(
-    index = 653,
+    index = 466,
     label = "Cds-(Cdd-O2d)(Cds-Cdd-O2d)(Cds-Cdd-O2d)",
     group = 
 """
@@ -13822,7 +9453,7 @@ entry(
 )
 
 entry(
-    index = 654,
+    index = 467,
     label = "Cds-(Cdd-O2d)(Cds-Cdd-O2d)(Cds-Cdd-Cd)",
     group = 
 """
@@ -13845,7 +9476,7 @@ entry(
 )
 
 entry(
-    index = 655,
+    index = 468,
     label = "Cds-(Cdd-O2d)(Cds-Cdd-Cd)(Cds-Cdd-Cd)",
     group = 
 """
@@ -13868,7 +9499,7 @@ entry(
 )
 
 entry(
-    index = 656,
+    index = 469,
     label = "Cds-(Cdd-Cd)(Cds-O2d)(Cds-O2d)",
     group = 
 """
@@ -13889,7 +9520,7 @@ entry(
 )
 
 entry(
-    index = 657,
+    index = 470,
     label = "Cds-(Cdd-Cd)(Cds-O2d)(Cds-Cd)",
     group = 
 """
@@ -13910,7 +9541,7 @@ entry(
 )
 
 entry(
-    index = 658,
+    index = 471,
     label = "Cds-(Cdd-Cd)(Cds-O2d)(Cds-Cds)",
     group = 
 """
@@ -13931,7 +9562,7 @@ entry(
 )
 
 entry(
-    index = 659,
+    index = 472,
     label = "Cds-(Cdd-Cd)(Cds-O2d)(Cds-Cdd)",
     group = 
 """
@@ -13952,7 +9583,7 @@ entry(
 )
 
 entry(
-    index = 660,
+    index = 473,
     label = "Cds-(Cdd-Cd)(Cds-O2d)(Cds-Cdd-O2d)",
     group = 
 """
@@ -13974,7 +9605,7 @@ entry(
 )
 
 entry(
-    index = 661,
+    index = 474,
     label = "Cds-(Cdd-Cd)(Cds-O2d)(Cds-Cdd-Cd)",
     group = 
 """
@@ -13996,7 +9627,7 @@ entry(
 )
 
 entry(
-    index = 662,
+    index = 475,
     label = "Cds-(Cdd-S2d)(Cds-Cd)(Cds-Cd)",
     group = 
 """
@@ -14017,7 +9648,7 @@ entry(
 )
 
 entry(
-    index = 663,
+    index = 476,
     label = "Cds-(Cdd-S2d)(Cds-Cds)(Cds-Cds)",
     group = 
 """
@@ -14038,7 +9669,7 @@ entry(
 )
 
 entry(
-    index = 664,
+    index = 477,
     label = "Cds-(Cdd-S2d)(Cds-Cdd)(Cds-Cds)",
     group = 
 """
@@ -14059,7 +9690,7 @@ entry(
 )
 
 entry(
-    index = 665,
+    index = 478,
     label = "Cds-(Cdd-S2d)(Cds-Cdd-S2d)(Cds-Cds)",
     group = 
 """
@@ -14081,7 +9712,7 @@ entry(
 )
 
 entry(
-    index = 666,
+    index = 479,
     label = "Cds-(Cdd-S2d)(Cds-Cdd-Cd)(Cds-Cds)",
     group = 
 """
@@ -14103,7 +9734,7 @@ entry(
 )
 
 entry(
-    index = 667,
+    index = 480,
     label = "Cds-(Cdd-S2d)(Cds-Cdd)(Cds-Cdd)",
     group = 
 """
@@ -14124,7 +9755,7 @@ entry(
 )
 
 entry(
-    index = 668,
+    index = 481,
     label = "Cds-(Cdd-S2d)(Cds-Cdd-S2d)(Cds-Cdd-S2d)",
     group = 
 """
@@ -14147,7 +9778,7 @@ entry(
 )
 
 entry(
-    index = 669,
+    index = 482,
     label = "Cds-(Cdd-S2d)(Cds-Cdd-S2d)(Cds-Cdd-Cd)",
     group = 
 """
@@ -14170,7 +9801,7 @@ entry(
 )
 
 entry(
-    index = 670,
+    index = 483,
     label = "Cds-(Cdd-S2d)(Cds-Cdd-Cd)(Cds-Cdd-Cd)",
     group = 
 """
@@ -14193,7 +9824,7 @@ entry(
 )
 
 entry(
-    index = 671,
+    index = 484,
     label = "Cds-(Cdd-Cd)(Cds-Cd)(Cds-Cd)",
     group = 
 """
@@ -14214,7 +9845,7 @@ entry(
 )
 
 entry(
-    index = 672,
+    index = 485,
     label = "Cds-(Cdd-Cd)(Cds-Cds)(Cds-Cds)",
     group = 
 """
@@ -14235,7 +9866,7 @@ entry(
 )
 
 entry(
-    index = 673,
+    index = 486,
     label = "Cds-(Cdd-Cd)(Cds-Cdd)(Cds-Cds)",
     group = 
 """
@@ -14256,7 +9887,7 @@ entry(
 )
 
 entry(
-    index = 674,
+    index = 487,
     label = "Cds-(Cdd-Cd)(Cds-Cdd-O2d)(Cds-Cds)",
     group = 
 """
@@ -14278,7 +9909,7 @@ entry(
 )
 
 entry(
-    index = 675,
+    index = 488,
     label = "Cds-(Cdd-Cd)(Cds-Cdd-S2d)(Cds-Cds)",
     group = 
 """
@@ -14300,7 +9931,7 @@ entry(
 )
 
 entry(
-    index = 676,
+    index = 489,
     label = "Cds-(Cdd-Cd)(Cds-Cdd-Cd)(Cds-Cds)",
     group = 
 """
@@ -14322,7 +9953,7 @@ entry(
 )
 
 entry(
-    index = 677,
+    index = 490,
     label = "Cds-(Cdd-Cd)(Cds-Cdd)(Cds-Cdd)",
     group = 
 """
@@ -14343,7 +9974,7 @@ entry(
 )
 
 entry(
-    index = 678,
+    index = 491,
     label = "Cds-(Cdd-Cd)(Cds-Cdd-O2d)(Cds-Cdd-O2d)",
     group = 
 """
@@ -14366,7 +9997,7 @@ entry(
 )
 
 entry(
-    index = 679,
+    index = 492,
     label = "Cds-(Cdd-Cd)(Cds-Cdd-O2d)(Cds-Cdd-Cd)",
     group = 
 """
@@ -14389,7 +10020,7 @@ entry(
 )
 
 entry(
-    index = 680,
+    index = 493,
     label = "Cds-(Cdd-Cd)(Cds-Cdd-S2d)(Cds-Cdd-S2d)",
     group = 
 """
@@ -14412,7 +10043,7 @@ entry(
 )
 
 entry(
-    index = 681,
+    index = 494,
     label = "Cds-(Cdd-Cd)(Cds-Cdd-S2d)(Cds-Cdd-Cd)",
     group = 
 """
@@ -14435,7 +10066,7 @@ entry(
 )
 
 entry(
-    index = 682,
+    index = 495,
     label = "Cds-(Cdd-Cd)(Cds-Cdd-Cd)(Cds-Cdd-Cd)",
     group = 
 """
@@ -14458,7 +10089,7 @@ entry(
 )
 
 entry(
-    index = 683,
+    index = 496,
     label = "Cds-CddCtCs",
     group = 
 """
@@ -14476,7 +10107,7 @@ entry(
 )
 
 entry(
-    index = 684,
+    index = 497,
     label = "Cds-(Cdd-O2d)CtCs",
     group = 
 """
@@ -14495,7 +10126,7 @@ entry(
 )
 
 entry(
-    index = 685,
+    index = 498,
     label = "Cds-(Cdd-S2d)CtCs",
     group = 
 """
@@ -14514,7 +10145,7 @@ entry(
 )
 
 entry(
-    index = 686,
+    index = 499,
     label = "Cds-(Cdd-Cd)CtCs",
     group = 
 """
@@ -14533,7 +10164,7 @@ entry(
 )
 
 entry(
-    index = 687,
+    index = 500,
     label = "Cds-CddCtCds",
     group = 
 """
@@ -14551,7 +10182,7 @@ entry(
 )
 
 entry(
-    index = 688,
+    index = 501,
     label = "Cds-(Cdd-O2d)(Cds-O2d)Ct",
     group = 
 """
@@ -14571,7 +10202,7 @@ entry(
 )
 
 entry(
-    index = 689,
+    index = 502,
     label = "Cds-(Cdd-O2d)(Cds-Cd)Ct",
     group = 
 """
@@ -14591,7 +10222,7 @@ entry(
 )
 
 entry(
-    index = 690,
+    index = 503,
     label = "Cds-(Cdd-O2d)(Cds-Cds)Ct",
     group = 
 """
@@ -14611,7 +10242,7 @@ entry(
 )
 
 entry(
-    index = 691,
+    index = 504,
     label = "Cds-(Cdd-O2d)(Cds-Cdd)Ct",
     group = 
 """
@@ -14631,7 +10262,7 @@ entry(
 )
 
 entry(
-    index = 692,
+    index = 505,
     label = "Cds-(Cdd-O2d)(Cds-Cdd-O2d)Ct",
     group = 
 """
@@ -14652,7 +10283,7 @@ entry(
 )
 
 entry(
-    index = 693,
+    index = 506,
     label = "Cds-(Cdd-O2d)(Cds-Cdd-Cd)Ct",
     group = 
 """
@@ -14673,7 +10304,7 @@ entry(
 )
 
 entry(
-    index = 694,
+    index = 507,
     label = "Cds-(Cdd-S2d)(Cds-Cd)Ct",
     group = 
 """
@@ -14693,7 +10324,7 @@ entry(
 )
 
 entry(
-    index = 695,
+    index = 508,
     label = "Cds-(Cdd-S2d)(Cds-Cds)Ct",
     group = 
 """
@@ -14713,7 +10344,7 @@ entry(
 )
 
 entry(
-    index = 696,
+    index = 509,
     label = "Cds-(Cdd-S2d)(Cds-Cdd)Ct",
     group = 
 """
@@ -14733,7 +10364,7 @@ entry(
 )
 
 entry(
-    index = 697,
+    index = 510,
     label = "Cds-(Cdd-S2d)(Cds-Cdd-S2d)Ct",
     group = 
 """
@@ -14754,7 +10385,7 @@ entry(
 )
 
 entry(
-    index = 698,
+    index = 511,
     label = "Cds-(Cdd-S2d)(Cds-Cdd-Cd)Ct",
     group = 
 """
@@ -14775,7 +10406,7 @@ entry(
 )
 
 entry(
-    index = 699,
+    index = 512,
     label = "Cds-(Cdd-Cd)(Cds-Cd)Ct",
     group = 
 """
@@ -14795,7 +10426,7 @@ entry(
 )
 
 entry(
-    index = 700,
+    index = 513,
     label = "Cds-(Cdd-Cd)(Cds-Cds)Ct",
     group = 
 """
@@ -14815,7 +10446,7 @@ entry(
 )
 
 entry(
-    index = 701,
+    index = 514,
     label = "Cds-(Cdd-Cd)(Cds-Cdd)Ct",
     group = 
 """
@@ -14835,7 +10466,7 @@ entry(
 )
 
 entry(
-    index = 702,
+    index = 515,
     label = "Cds-(Cdd-Cd)(Cds-Cdd-O2d)Ct",
     group = 
 """
@@ -14856,7 +10487,7 @@ entry(
 )
 
 entry(
-    index = 703,
+    index = 516,
     label = "Cds-(Cdd-Cd)(Cds-Cdd-S2d)Ct",
     group = 
 """
@@ -14877,7 +10508,7 @@ entry(
 )
 
 entry(
-    index = 704,
+    index = 517,
     label = "Cds-(Cdd-Cd)(Cds-Cdd-Cd)Ct",
     group = 
 """
@@ -14898,7 +10529,7 @@ entry(
 )
 
 entry(
-    index = 705,
+    index = 518,
     label = "Cds-CddCtCt",
     group = 
 """
@@ -14916,7 +10547,7 @@ entry(
 )
 
 entry(
-    index = 706,
+    index = 519,
     label = "Cds-(Cdd-O2d)CtCt",
     group = 
 """
@@ -14935,7 +10566,7 @@ entry(
 )
 
 entry(
-    index = 707,
+    index = 520,
     label = "Cds-(Cdd-S2d)CtCt",
     group = 
 """
@@ -14954,7 +10585,7 @@ entry(
 )
 
 entry(
-    index = 708,
+    index = 521,
     label = "Cds-(Cdd-Cd)CtCt",
     group = 
 """
@@ -14973,7 +10604,7 @@ entry(
 )
 
 entry(
-    index = 709,
+    index = 522,
     label = "Cds-CddCbCs",
     group = 
 """
@@ -14991,7 +10622,7 @@ entry(
 )
 
 entry(
-    index = 710,
+    index = 523,
     label = "Cds-(Cdd-O2d)CbCs",
     group = 
 """
@@ -15010,7 +10641,7 @@ entry(
 )
 
 entry(
-    index = 711,
+    index = 524,
     label = "Cds-(Cdd-S2d)CbCs",
     group = 
 """
@@ -15029,7 +10660,7 @@ entry(
 )
 
 entry(
-    index = 712,
+    index = 525,
     label = "Cds-(Cdd-Cd)CbCs",
     group = 
 """
@@ -15048,7 +10679,7 @@ entry(
 )
 
 entry(
-    index = 713,
+    index = 526,
     label = "Cds-CddCbCds",
     group = 
 """
@@ -15066,7 +10697,7 @@ entry(
 )
 
 entry(
-    index = 714,
+    index = 527,
     label = "Cds-(Cdd-O2d)(Cds-O2d)Cb",
     group = 
 """
@@ -15086,7 +10717,7 @@ entry(
 )
 
 entry(
-    index = 715,
+    index = 528,
     label = "Cds-(Cdd-O2d)(Cds-Cd)Cb",
     group = 
 """
@@ -15106,7 +10737,7 @@ entry(
 )
 
 entry(
-    index = 716,
+    index = 529,
     label = "Cds-(Cdd-O2d)(Cds-Cds)Cb",
     group = 
 """
@@ -15126,7 +10757,7 @@ entry(
 )
 
 entry(
-    index = 717,
+    index = 530,
     label = "Cds-(Cdd-O2d)(Cds-Cdd)Cb",
     group = 
 """
@@ -15146,7 +10777,7 @@ entry(
 )
 
 entry(
-    index = 718,
+    index = 531,
     label = "Cds-(Cdd-O2d)(Cds-Cdd-O2d)Cb",
     group = 
 """
@@ -15167,7 +10798,7 @@ entry(
 )
 
 entry(
-    index = 719,
+    index = 532,
     label = "Cds-(Cdd-O2d)(Cds-Cdd-Cd)Cb",
     group = 
 """
@@ -15188,7 +10819,7 @@ entry(
 )
 
 entry(
-    index = 720,
+    index = 533,
     label = "Cds-(Cdd-S2d)(Cds-Cd)Cb",
     group = 
 """
@@ -15208,7 +10839,7 @@ entry(
 )
 
 entry(
-    index = 721,
+    index = 534,
     label = "Cds-(Cdd-S2d)(Cds-Cds)Cb",
     group = 
 """
@@ -15228,7 +10859,7 @@ entry(
 )
 
 entry(
-    index = 722,
+    index = 535,
     label = "Cds-(Cdd-S2d)(Cds-Cdd)Cb",
     group = 
 """
@@ -15248,7 +10879,7 @@ entry(
 )
 
 entry(
-    index = 723,
+    index = 536,
     label = "Cds-(Cdd-S2d)(Cds-Cdd-S2d)Cb",
     group = 
 """
@@ -15269,7 +10900,7 @@ entry(
 )
 
 entry(
-    index = 724,
+    index = 537,
     label = "Cds-(Cdd-S2d)(Cds-Cdd-Cd)Cb",
     group = 
 """
@@ -15290,7 +10921,7 @@ entry(
 )
 
 entry(
-    index = 725,
+    index = 538,
     label = "Cds-(Cdd-Cd)(Cds-Cd)Cb",
     group = 
 """
@@ -15310,7 +10941,7 @@ entry(
 )
 
 entry(
-    index = 726,
+    index = 539,
     label = "Cds-(Cdd-Cd)(Cds-Cds)Cb",
     group = 
 """
@@ -15330,7 +10961,7 @@ entry(
 )
 
 entry(
-    index = 727,
+    index = 540,
     label = "Cds-(Cdd-Cd)(Cds-Cdd)Cb",
     group = 
 """
@@ -15350,7 +10981,7 @@ entry(
 )
 
 entry(
-    index = 728,
+    index = 541,
     label = "Cds-(Cdd-Cd)(Cds-Cdd-O2d)Cb",
     group = 
 """
@@ -15371,7 +11002,7 @@ entry(
 )
 
 entry(
-    index = 729,
+    index = 542,
     label = "Cds-(Cdd-Cd)(Cds-Cdd-S2d)Cb",
     group = 
 """
@@ -15392,7 +11023,7 @@ entry(
 )
 
 entry(
-    index = 730,
+    index = 543,
     label = "Cds-(Cdd-Cd)(Cds-Cdd-Cd)Cb",
     group = 
 """
@@ -15413,7 +11044,7 @@ entry(
 )
 
 entry(
-    index = 731,
+    index = 544,
     label = "Cds-CddCbCt",
     group = 
 """
@@ -15431,7 +11062,7 @@ entry(
 )
 
 entry(
-    index = 732,
+    index = 545,
     label = "Cds-(Cdd-O2d)CbCt",
     group = 
 """
@@ -15450,7 +11081,7 @@ entry(
 )
 
 entry(
-    index = 733,
+    index = 546,
     label = "Cds-(Cdd-S2d)CbCt",
     group = 
 """
@@ -15469,7 +11100,7 @@ entry(
 )
 
 entry(
-    index = 734,
+    index = 547,
     label = "Cds-(Cdd-Cd)CbCt",
     group = 
 """
@@ -15488,7 +11119,7 @@ entry(
 )
 
 entry(
-    index = 735,
+    index = 548,
     label = "Cds-CddCbCb",
     group = 
 """
@@ -15506,7 +11137,7 @@ entry(
 )
 
 entry(
-    index = 736,
+    index = 549,
     label = "Cds-(Cdd-O2d)CbCb",
     group = 
 """
@@ -15525,7 +11156,7 @@ entry(
 )
 
 entry(
-    index = 737,
+    index = 550,
     label = "Cds-(Cdd-S2d)CbCb",
     group = 
 """
@@ -15544,7 +11175,7 @@ entry(
 )
 
 entry(
-    index = 738,
+    index = 551,
     label = "Cds-(Cdd-Cd)CbCb",
     group = 
 """
@@ -15563,7 +11194,7 @@ entry(
 )
 
 entry(
-    index = 739,
+    index = 552,
     label = "Cds-CdsC=SC=S",
     group = 
 """
@@ -15583,7 +11214,7 @@ entry(
 )
 
 entry(
-    index = 740,
+    index = 553,
     label = "Cds-(Cdd-Cd)C=S(Cds-Cd)",
     group = 
 """
@@ -15604,7 +11235,7 @@ entry(
 )
 
 entry(
-    index = 741,
+    index = 554,
     label = "Cds-(Cdd-Cd)C=S(Cds-Cds)",
     group = 
 """
@@ -15625,7 +11256,7 @@ entry(
 )
 
 entry(
-    index = 742,
+    index = 555,
     label = "Cds-(Cdd-Cd)C=S(Cds-Cdd)",
     group = 
 """
@@ -15646,7 +11277,7 @@ entry(
 )
 
 entry(
-    index = 743,
+    index = 556,
     label = "Cds-(Cdd-Cd)C=S(Cds-Cdd-Cd)",
     group = 
 """
@@ -15668,7 +11299,7 @@ entry(
 )
 
 entry(
-    index = 744,
+    index = 557,
     label = "Cds-(Cdd-Cd)C=S(Cds-Cdd-S2d)",
     group = 
 """
@@ -15690,7 +11321,7 @@ entry(
 )
 
 entry(
-    index = 745,
+    index = 558,
     label = "Cds-(Cdd-S2d)C=SCs",
     group = 
 """
@@ -15710,7 +11341,7 @@ entry(
 )
 
 entry(
-    index = 746,
+    index = 559,
     label = "Cds-(Cdd-S2d)C=SCt",
     group = 
 """
@@ -15730,7 +11361,7 @@ entry(
 )
 
 entry(
-    index = 747,
+    index = 560,
     label = "Cds-(Cdd-S2d)C=SCb",
     group = 
 """
@@ -15750,7 +11381,7 @@ entry(
 )
 
 entry(
-    index = 748,
+    index = 561,
     label = "Cds-(Cdd-Cd)C=SC=S",
     group = 
 """
@@ -15771,7 +11402,7 @@ entry(
 )
 
 entry(
-    index = 749,
+    index = 562,
     label = "Cds-(Cdd-S2d)(Cds-Cd)C=S",
     group = 
 """
@@ -15792,7 +11423,7 @@ entry(
 )
 
 entry(
-    index = 750,
+    index = 563,
     label = "Cds-(Cdd-S2d)(Cds-Cds)C=S",
     group = 
 """
@@ -15813,7 +11444,7 @@ entry(
 )
 
 entry(
-    index = 751,
+    index = 564,
     label = "Cds-(Cdd-S2d)(Cds-Cdd)C=S",
     group = 
 """
@@ -15834,7 +11465,7 @@ entry(
 )
 
 entry(
-    index = 752,
+    index = 565,
     label = "Cds-(Cdd-S2d)(Cds-Cdd-S2d)C=S",
     group = 
 """
@@ -15856,7 +11487,7 @@ entry(
 )
 
 entry(
-    index = 753,
+    index = 566,
     label = "Cds-(Cdd-S2d)(Cds-Cdd-Cd)C=S",
     group = 
 """
@@ -15878,7 +11509,7 @@ entry(
 )
 
 entry(
-    index = 754,
+    index = 567,
     label = "Cds-CdsCbC=S",
     group = 
 """
@@ -15897,7 +11528,7 @@ entry(
 )
 
 entry(
-    index = 755,
+    index = 568,
     label = "Cds-CdsCtC=S",
     group = 
 """
@@ -15916,7 +11547,7 @@ entry(
 )
 
 entry(
-    index = 756,
+    index = 569,
     label = "Cds-CdsC=SCs",
     group = 
 """
@@ -15940,7 +11571,7 @@ entry(
 )
 
 entry(
-    index = 757,
+    index = 570,
     label = "Cds-CdsC=S(Cds-Cd)",
     group = 
 """
@@ -15960,7 +11591,7 @@ entry(
 )
 
 entry(
-    index = 758,
+    index = 571,
     label = "Cds-CdsC=S(Cds-Cds)",
     group = 
 """
@@ -15980,7 +11611,7 @@ entry(
 )
 
 entry(
-    index = 759,
+    index = 572,
     label = "Cds-CdsC=S(Cds-Cdd)",
     group = 
 """
@@ -16000,7 +11631,7 @@ entry(
 )
 
 entry(
-    index = 760,
+    index = 573,
     label = "Cds-CdsC=S(Cds-Cdd-Cd)",
     group = 
 """
@@ -16021,7 +11652,7 @@ entry(
 )
 
 entry(
-    index = 761,
+    index = 574,
     label = "Cds-CdsC=S(Cds-Cdd-S2d)",
     group = 
 """
@@ -16042,7 +11673,7 @@ entry(
 )
 
 entry(
-    index = 762,
+    index = 575,
     label = "Cds-(Cdd-S2d)C=SC=S",
     group = 
 """
@@ -16063,7 +11694,7 @@ entry(
 )
 
 entry(
-    index = 763,
+    index = 576,
     label = "Cds-CNH",
     group = 
 """
@@ -16072,8 +11703,13 @@ entry(
 3   N  u0 {1,S}
 4   H  u0 {1,S}
 """,
-    thermo = None,
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (0,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
+    ),
+    shortDesc = """""",
     longDesc = 
 """
 
@@ -16081,8 +11717,8 @@ entry(
 )
 
 entry(
-    index = 764,
-    label = "Cd-CdHN3d_2724",
+    index = 577,
+    label = "Cd-(CdHN3d)",
     group = 
 """
 1 * Cd  u0 p0 c0 {2,S} {3,D} {4,S}
@@ -16099,105 +11735,8 @@ entry(
 )
 
 entry(
-    index = 765,
-    label = "Cd-CdHN3d-HHN3d_2995",
-    group = 
-"""
-1 * Cd  u0 p0 c0 {2,D} {3,S} {4,S}
-2   Cd  u0 p0 c0 {1,D} {5,S} {6,S}
-3   N3d u0 p1 c0 {1,S} {7,D}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {2,S}
-6   H   u0 p0 c0 {2,S}
-7   N3d u0 p1 c0 {3,D}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 766,
-    label = "Cd-CdHN3d-HHN3d-H_2994",
-    group = 
-"""
-1 * Cd  u0 p0 c0 {2,D} {3,S} {5,S}
-2   Cd  u0 p0 c0 {1,D} {6,S} {7,S}
-3   N3d u0 p1 c0 {1,S} {4,D}
-4   N3d u0 p1 c0 {3,D} {8,S}
-5   H   u0 p0 c0 {1,S}
-6   H   u0 p0 c0 {2,S}
-7   H   u0 p0 c0 {2,S}
-8   H   u0 p0 c0 {4,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([8.67411,10.594,12.3191,13.8015,16.1542,17.8518,20.2801],'J/(mol*K)'),
-        H298 = (39.9682,'kJ/mol'),
-        S298 = (36.5802,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 767,
-    label = "Cd-CdHN3d-CdHH_2723",
-    group = 
-"""
-1 * Cd  u0 p0 c0 {2,D} {3,S} {4,S}
-2   Cd  u0 p0 c0 {1,D} {5,S} {6,S}
-3   N3d u0 p1 c0 {1,S} {7,D}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {2,S}
-6   H   u0 p0 c0 {2,S}
-7   Cd  u0 p0 c0 {3,D}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 768,
-    label = "Cd-CdHN3d-CdHH-HH_2722",
-    group = 
-"""
-1 * Cd  u0 p0 c0 {2,D} {4,S} {5,S}
-2   Cd  u0 p0 c0 {1,D} {6,S} {7,S}
-3   Cd  u0 p0 c0 {4,D} {8,S} {9,S}
-4   N3d u0 p1 c0 {1,S} {3,D}
-5   H   u0 p0 c0 {1,S}
-6   H   u0 p0 c0 {2,S}
-7   H   u0 p0 c0 {2,S}
-8   H   u0 p0 c0 {3,S}
-9   H   u0 p0 c0 {3,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([11.3588,14.1183,16.5844,18.7253,22.1589,24.6904,28.4333],'J/(mol*K)'),
-        H298 = (18.2853,'kJ/mol'),
-        S298 = (42.4257,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 769,
-    label = "Cd-CdHN1sc_2536",
+    index = 578,
+    label = "Cd-(CdHN1sc)",
     group = 
 """
 1 * Cd   u0 p0 c0 {2,S} {3,D} {4,S}
@@ -16214,56 +11753,7 @@ entry(
 )
 
 entry(
-    index = 770,
-    label = "Cd-CdHN1sc-HHN5dc_2535",
-    group = 
-"""
-1 * Cd   u0 p0 c0 {2,D} {3,S} {4,S}
-2   Cd   u0 p0 c0 {1,D} {5,S} {6,S}
-3   N1sc u0 p2 c-1 {1,S} {7,S}
-4   H    u0 p0 c0 {1,S}
-5   H    u0 p0 c0 {2,S}
-6   H    u0 p0 c0 {2,S}
-7   N5dc u0 p0 c+1 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 771,
-    label = "Cd-CdHN1sc-HHN5dc-HO2d_2534",
-    group = 
-"""
-1 * Cd   u0 p0 c0 {2,D} {4,S} {5,S}
-2   Cd   u0 p0 c0 {1,D} {6,S} {7,S}
-3   N5dc u0 p0 c+1 {4,S} {8,D} {9,S}
-4   N1sc u0 p2 c-1 {1,S} {3,S}
-5   H    u0 p0 c0 {1,S}
-6   H    u0 p0 c0 {2,S}
-7   H    u0 p0 c0 {2,S}
-8   O2d  u0 p2 c0 {3,D}
-9   H    u0 p0 c0 {3,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0.861922,0.978424,0.878175,0.828303,0.930584,1.23336,1.57813],'J/(mol*K)'),
-        H298 = (-2.82135,'kJ/mol'),
-        S298 = (-14.9434,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 772,
+    index = 579,
     label = "Cd-CdH(N5dcOdOs)",
     group = 
 """
@@ -16290,7 +11780,7 @@ entry(
 )
 
 entry(
-    index = 773,
+    index = 580,
     label = "Cds-CCN",
     group = 
 """
@@ -16313,7 +11803,7 @@ entry(
 )
 
 entry(
-    index = 774,
+    index = 581,
     label = "Cd-CdCs(N5dcOdOs)",
     group = 
 """
@@ -16340,7 +11830,7 @@ entry(
 )
 
 entry(
-    index = 775,
+    index = 582,
     label = "C=S-SsSs",
     group = 
 """
@@ -16358,7 +11848,7 @@ entry(
 )
 
 entry(
-    index = 776,
+    index = 583,
     label = "C=S-CH",
     group = 
 """
@@ -16376,7 +11866,7 @@ entry(
 )
 
 entry(
-    index = 777,
+    index = 584,
     label = "C=S-CsH",
     group = 
 """
@@ -16394,7 +11884,7 @@ entry(
 )
 
 entry(
-    index = 778,
+    index = 585,
     label = "C=S2-CsH",
     group = 
 """
@@ -16417,7 +11907,7 @@ entry(
 )
 
 entry(
-    index = 779,
+    index = 586,
     label = "C=S4-CsH",
     group = 
 """
@@ -16440,7 +11930,7 @@ entry(
 )
 
 entry(
-    index = 780,
+    index = 587,
     label = "C=S-CdsH",
     group = 
 """
@@ -16463,7 +11953,7 @@ entry(
 )
 
 entry(
-    index = 781,
+    index = 588,
     label = "C=S-(Cds-Cd)H",
     group = 
 """
@@ -16482,7 +11972,7 @@ entry(
 )
 
 entry(
-    index = 782,
+    index = 589,
     label = "C=S-(Cds-Cdd)H",
     group = 
 """
@@ -16501,7 +11991,7 @@ entry(
 )
 
 entry(
-    index = 783,
+    index = 590,
     label = "C=S-(Cds-Cdd-Cd)H",
     group = 
 """
@@ -16521,7 +12011,7 @@ entry(
 )
 
 entry(
-    index = 784,
+    index = 591,
     label = "C=S-(Cds-Cdd-S2d)H",
     group = 
 """
@@ -16541,7 +12031,7 @@ entry(
 )
 
 entry(
-    index = 785,
+    index = 592,
     label = "C=S-(Cds-Cds)H",
     group = 
 """
@@ -16560,7 +12050,7 @@ entry(
 )
 
 entry(
-    index = 786,
+    index = 593,
     label = "C=S-CtH",
     group = 
 """
@@ -16583,7 +12073,7 @@ entry(
 )
 
 entry(
-    index = 787,
+    index = 594,
     label = "C=S-C=SH",
     group = 
 """
@@ -16607,7 +12097,7 @@ entry(
 )
 
 entry(
-    index = 788,
+    index = 595,
     label = "C=S-CC",
     group = 
 """
@@ -16625,7 +12115,7 @@ entry(
 )
 
 entry(
-    index = 789,
+    index = 596,
     label = "C=S-CbCds",
     group = 
 """
@@ -16643,7 +12133,7 @@ entry(
 )
 
 entry(
-    index = 790,
+    index = 597,
     label = "C=S-Cb(Cds-Cd)",
     group = 
 """
@@ -16662,7 +12152,7 @@ entry(
 )
 
 entry(
-    index = 791,
+    index = 598,
     label = "C=S-Cb(Cds-Cds)",
     group = 
 """
@@ -16681,7 +12171,7 @@ entry(
 )
 
 entry(
-    index = 792,
+    index = 599,
     label = "C=S-Cb(Cds-Cdd)",
     group = 
 """
@@ -16700,7 +12190,7 @@ entry(
 )
 
 entry(
-    index = 793,
+    index = 600,
     label = "C=S-Cb(Cds-Cdd-S2d)",
     group = 
 """
@@ -16720,7 +12210,7 @@ entry(
 )
 
 entry(
-    index = 794,
+    index = 601,
     label = "C=S-Cb(Cds-Cdd-Cd)",
     group = 
 """
@@ -16740,7 +12230,7 @@ entry(
 )
 
 entry(
-    index = 795,
+    index = 602,
     label = "C=S-CtCt",
     group = 
 """
@@ -16758,7 +12248,7 @@ entry(
 )
 
 entry(
-    index = 796,
+    index = 603,
     label = "C=S-CbCb",
     group = 
 """
@@ -16776,7 +12266,7 @@ entry(
 )
 
 entry(
-    index = 797,
+    index = 604,
     label = "C=S-CdsCds",
     group = 
 """
@@ -16794,7 +12284,7 @@ entry(
 )
 
 entry(
-    index = 798,
+    index = 605,
     label = "C=S-(Cds-Cd)(Cds-Cd)",
     group = 
 """
@@ -16814,7 +12304,7 @@ entry(
 )
 
 entry(
-    index = 799,
+    index = 606,
     label = "C=S-(Cds-Cdd)(Cds-Cds)",
     group = 
 """
@@ -16834,7 +12324,7 @@ entry(
 )
 
 entry(
-    index = 800,
+    index = 607,
     label = "C=S-(Cds-Cdd-Cd)(Cds-Cds)",
     group = 
 """
@@ -16855,7 +12345,7 @@ entry(
 )
 
 entry(
-    index = 801,
+    index = 608,
     label = "C=S-(Cds-Cdd-S2d)(Cds-Cds)",
     group = 
 """
@@ -16876,7 +12366,7 @@ entry(
 )
 
 entry(
-    index = 802,
+    index = 609,
     label = "C=S-(Cds-Cds)(Cds-Cds)",
     group = 
 """
@@ -16896,7 +12386,7 @@ entry(
 )
 
 entry(
-    index = 803,
+    index = 610,
     label = "C=S-(Cds-Cdd)(Cds-Cdd)",
     group = 
 """
@@ -16916,7 +12406,7 @@ entry(
 )
 
 entry(
-    index = 804,
+    index = 611,
     label = "C=S-(Cds-Cdd-Cd)(Cds-Cdd-Cd)",
     group = 
 """
@@ -16938,7 +12428,7 @@ entry(
 )
 
 entry(
-    index = 805,
+    index = 612,
     label = "C=S-(Cds-Cdd-S2d)(Cds-Cdd-S2d)",
     group = 
 """
@@ -16960,7 +12450,7 @@ entry(
 )
 
 entry(
-    index = 806,
+    index = 613,
     label = "C=S-(Cds-Cdd-Cd)(Cds-Cdd-S2d)",
     group = 
 """
@@ -16982,7 +12472,7 @@ entry(
 )
 
 entry(
-    index = 807,
+    index = 614,
     label = "C=S-CtCds",
     group = 
 """
@@ -17000,7 +12490,7 @@ entry(
 )
 
 entry(
-    index = 808,
+    index = 615,
     label = "C=S-Ct(Cds-Cd)",
     group = 
 """
@@ -17019,7 +12509,7 @@ entry(
 )
 
 entry(
-    index = 809,
+    index = 616,
     label = "C=S-Ct(Cds-Cds)",
     group = 
 """
@@ -17038,7 +12528,7 @@ entry(
 )
 
 entry(
-    index = 810,
+    index = 617,
     label = "C=S-Ct(Cds-Cdd)",
     group = 
 """
@@ -17057,7 +12547,7 @@ entry(
 )
 
 entry(
-    index = 811,
+    index = 618,
     label = "C=S-Ct(Cds-Cdd-Cd)",
     group = 
 """
@@ -17077,7 +12567,7 @@ entry(
 )
 
 entry(
-    index = 812,
+    index = 619,
     label = "C=S-Ct(Cds-Cdd-S2d)",
     group = 
 """
@@ -17097,7 +12587,7 @@ entry(
 )
 
 entry(
-    index = 813,
+    index = 620,
     label = "C=S-CbCt",
     group = 
 """
@@ -17115,7 +12605,7 @@ entry(
 )
 
 entry(
-    index = 814,
+    index = 621,
     label = "C=S-CsCs",
     group = 
 """
@@ -17138,7 +12628,7 @@ entry(
 )
 
 entry(
-    index = 815,
+    index = 622,
     label = "C=S-CdsCs",
     group = 
 """
@@ -17161,7 +12651,7 @@ entry(
 )
 
 entry(
-    index = 816,
+    index = 623,
     label = "C=S-(Cds-Cd)Cs",
     group = 
 """
@@ -17180,7 +12670,7 @@ entry(
 )
 
 entry(
-    index = 817,
+    index = 624,
     label = "C=S-(Cds-Cds)Cs",
     group = 
 """
@@ -17199,7 +12689,7 @@ entry(
 )
 
 entry(
-    index = 818,
+    index = 625,
     label = "C=S-(Cds-Cdd)Cs",
     group = 
 """
@@ -17218,7 +12708,7 @@ entry(
 )
 
 entry(
-    index = 819,
+    index = 626,
     label = "C=S-(Cds-Cdd-S2d)Cs",
     group = 
 """
@@ -17238,7 +12728,7 @@ entry(
 )
 
 entry(
-    index = 820,
+    index = 627,
     label = "C=S-(Cds-Cdd-Cd)Cs",
     group = 
 """
@@ -17258,7 +12748,7 @@ entry(
 )
 
 entry(
-    index = 821,
+    index = 628,
     label = "C=S-CtCs",
     group = 
 """
@@ -17281,7 +12771,7 @@ entry(
 )
 
 entry(
-    index = 822,
+    index = 629,
     label = "C=S-CbCs",
     group = 
 """
@@ -17304,7 +12794,7 @@ entry(
 )
 
 entry(
-    index = 823,
+    index = 630,
     label = "C=S-C=SCs",
     group = 
 """
@@ -17328,7 +12818,7 @@ entry(
 )
 
 entry(
-    index = 824,
+    index = 631,
     label = "C=S-CtC=S",
     group = 
 """
@@ -17347,7 +12837,7 @@ entry(
 )
 
 entry(
-    index = 825,
+    index = 632,
     label = "C=S-(Cds-Cd)C=S",
     group = 
 """
@@ -17366,7 +12856,7 @@ entry(
 )
 
 entry(
-    index = 826,
+    index = 633,
     label = "C=S-(Cds-Cdd)C=S",
     group = 
 """
@@ -17386,7 +12876,7 @@ entry(
 )
 
 entry(
-    index = 827,
+    index = 634,
     label = "C=S-(Cds-Cdd-Cd)C=S",
     group = 
 """
@@ -17407,7 +12897,7 @@ entry(
 )
 
 entry(
-    index = 828,
+    index = 635,
     label = "C=S-(Cds-Cdd-S2d)C=S",
     group = 
 """
@@ -17428,7 +12918,7 @@ entry(
 )
 
 entry(
-    index = 829,
+    index = 636,
     label = "C=S-(Cds-Cds)C=S",
     group = 
 """
@@ -17448,7 +12938,7 @@ entry(
 )
 
 entry(
-    index = 830,
+    index = 637,
     label = "C=S-C=SC=S",
     group = 
 """
@@ -17468,7 +12958,7 @@ entry(
 )
 
 entry(
-    index = 831,
+    index = 638,
     label = "C=S-CbC=S",
     group = 
 """
@@ -17487,7 +12977,7 @@ entry(
 )
 
 entry(
-    index = 832,
+    index = 639,
     label = "C=S-HH",
     group = 
 """
@@ -17505,7 +12995,7 @@ entry(
 )
 
 entry(
-    index = 833,
+    index = 640,
     label = "C=S2d-HH",
     group = 
 """
@@ -17528,7 +13018,7 @@ entry(
 )
 
 entry(
-    index = 834,
+    index = 641,
     label = "C=S4d-HH",
     group = 
 """
@@ -17551,7 +13041,7 @@ entry(
 )
 
 entry(
-    index = 835,
+    index = 642,
     label = "C=S6dd-HH",
     group = 
 """
@@ -17574,7 +13064,7 @@ entry(
 )
 
 entry(
-    index = 836,
+    index = 643,
     label = "C=S6ddd-HH",
     group = 
 """
@@ -17597,7 +13087,7 @@ entry(
 )
 
 entry(
-    index = 837,
+    index = 644,
     label = "C=S-SH",
     group = 
 """
@@ -17615,7 +13105,7 @@ entry(
 )
 
 entry(
-    index = 838,
+    index = 645,
     label = "C=S-S2H",
     group = 
 """
@@ -17638,7 +13128,7 @@ entry(
 )
 
 entry(
-    index = 839,
+    index = 646,
     label = "C=S-S4H",
     group = 
 """
@@ -17661,7 +13151,7 @@ entry(
 )
 
 entry(
-    index = 840,
+    index = 647,
     label = "C=S-S6H",
     group = 
 """
@@ -17684,7 +13174,7 @@ entry(
 )
 
 entry(
-    index = 841,
+    index = 648,
     label = "C=S6-S2H",
     group = 
 """
@@ -17707,7 +13197,7 @@ entry(
 )
 
 entry(
-    index = 842,
+    index = 649,
     label = "C=S-CSs",
     group = 
 """
@@ -17725,7 +13215,7 @@ entry(
 )
 
 entry(
-    index = 843,
+    index = 650,
     label = "C=S-CbSs",
     group = 
 """
@@ -17743,7 +13233,7 @@ entry(
 )
 
 entry(
-    index = 844,
+    index = 651,
     label = "C=S-CdsSs",
     group = 
 """
@@ -17761,7 +13251,7 @@ entry(
 )
 
 entry(
-    index = 845,
+    index = 652,
     label = "C=S-(Cds-Cd)S2s",
     group = 
 """
@@ -17780,7 +13270,7 @@ entry(
 )
 
 entry(
-    index = 846,
+    index = 653,
     label = "C=S-(Cds-Cds)S2s",
     group = 
 """
@@ -17799,7 +13289,7 @@ entry(
 )
 
 entry(
-    index = 847,
+    index = 654,
     label = "C=S-(Cds-Cdd)S2s",
     group = 
 """
@@ -17818,7 +13308,7 @@ entry(
 )
 
 entry(
-    index = 848,
+    index = 655,
     label = "C=S-(Cds-Cdd-Cd)S2s",
     group = 
 """
@@ -17838,7 +13328,7 @@ entry(
 )
 
 entry(
-    index = 849,
+    index = 656,
     label = "C=S-(Cds-Cdd-S2d)S2s",
     group = 
 """
@@ -17858,7 +13348,7 @@ entry(
 )
 
 entry(
-    index = 850,
+    index = 657,
     label = "C=S-S(CO)",
     group = 
 """
@@ -17881,7 +13371,7 @@ entry(
 )
 
 entry(
-    index = 851,
+    index = 658,
     label = "C=S-CtSs",
     group = 
 """
@@ -17899,7 +13389,7 @@ entry(
 )
 
 entry(
-    index = 852,
+    index = 659,
     label = "C=S-CsSs",
     group = 
 """
@@ -17922,7 +13412,7 @@ entry(
 )
 
 entry(
-    index = 853,
+    index = 660,
     label = "C=S-C=SSs",
     group = 
 """
@@ -17941,7 +13431,7 @@ entry(
 )
 
 entry(
-    index = 854,
+    index = 661,
     label = "Cds-CdClH",
     group = 
 """
@@ -17966,7 +13456,7 @@ JPCA, 1998, 102, 4551-4558
 )
 
 entry(
-    index = 855,
+    index = 662,
     label = "Cds-CdIH",
     group = 
 """
@@ -17990,7 +13480,7 @@ Cpdata at 1500K was not in the book, Cpdata at 1500K = Cpdata at 1000K + 0.7
 )
 
 entry(
-    index = 856,
+    index = 663,
     label = "Cds-CdClCl",
     group = 
 """
@@ -18015,7 +13505,7 @@ JPCA, 1998, 102, 4551-4558
 )
 
 entry(
-    index = 857,
+    index = 664,
     label = "Cds-CdClC",
     group = 
 """
@@ -18040,7 +13530,7 @@ JPCA, 1998, 102, 4551-4558
 )
 
 entry(
-    index = 858,
+    index = 665,
     label = "Cds-CdClCd",
     group = 
 """
@@ -18065,7 +13555,7 @@ JPCA, 1998, 102, 4551-4558
 )
 
 entry(
-    index = 859,
+    index = 666,
     label = "C=S-OsH",
     group = 
 """
@@ -18083,7 +13573,7 @@ entry(
 )
 
 entry(
-    index = 860,
+    index = 667,
     label = "C=S2-OsH",
     group = 
 """
@@ -18106,7 +13596,7 @@ entry(
 )
 
 entry(
-    index = 861,
+    index = 668,
     label = "C=S4-OsH",
     group = 
 """
@@ -18129,7 +13619,7 @@ entry(
 )
 
 entry(
-    index = 862,
+    index = 669,
     label = "C=S-CsOs",
     group = 
 """
@@ -18152,7 +13642,7 @@ entry(
 )
 
 entry(
-    index = 863,
+    index = 670,
     label = "C=S-OsOs",
     group = 
 """
@@ -18175,7 +13665,7 @@ entry(
 )
 
 entry(
-    index = 864,
+    index = 671,
     label = "C=S-OsS",
     group = 
 """
@@ -18198,7 +13688,7 @@ entry(
 )
 
 entry(
-    index = 865,
+    index = 672,
     label = "Cs",
     group = 
 """
@@ -18213,15 +13703,12 @@ entry(
 )
 
 entry(
-    index = 866,
-    label = "Cs-HHN1scO2s_3082",
+    index = 673,
+    label = "Cs-(N3s)",
     group = 
 """
-1 * Cs   u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2   O2s  u0 p2 c0 {1,S}
-3   N1sc u0 p2 c-1 {1,S}
-4   H    u0 p0 c0 {1,S}
-5   H    u0 p0 c0 {1,S}
+1   N3s u0 {2,S}
+2 * Cs  u0 {1,S}
 """,
     thermo = None,
     shortDesc = """""",
@@ -18232,1212 +13719,21 @@ entry(
 )
 
 entry(
-    index = 867,
-    label = "Cs-HHN1scO2s-HN5dc_3081",
+    index = 674,
+    label = "Cs-NNCsCs",
     group = 
 """
-1 * Cs   u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2   O2s  u0 p2 c0 {1,S} {6,S}
-3   N1sc u0 p2 c-1 {1,S} {7,S}
-4   H    u0 p0 c0 {1,S}
-5   H    u0 p0 c0 {1,S}
-6   H    u0 p0 c0 {2,S}
-7   N5dc u0 p0 c+1 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 868,
-    label = "Cs-HHN1scO2s-HN5dc-HO2d_3080",
-    group = 
-"""
-1 * Cs   u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
-2   N5dc u0 p0 c+1 {3,S} {7,D} {8,S}
-3   N1sc u0 p2 c-1 {1,S} {2,S}
-4   O2s  u0 p2 c0 {1,S} {9,S}
-5   H    u0 p0 c0 {1,S}
-6   H    u0 p0 c0 {1,S}
-7   O2d  u0 p2 c0 {2,D}
-8   H    u0 p0 c0 {2,S}
-9   H    u0 p0 c0 {4,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([2.16354,6.88485,10.7063,13.6938,18.0065,21.0095,24.6889],'J/(mol*K)'),
-        H298 = (-68.447,'kJ/mol'),
-        S298 = (-26.5966,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 869,
-    label = "Cs-O2s-N3s_3015",
-    group = 
-"""
-1   O2s u0 p2 c0 {2,S} {3,S}
-2 * Cs  u0 p0 c0 {1,S}
-3   N3s u0 p1 c0 {1,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 870,
-    label = "Cs-CsHHO2s-HHHN3s-HH_2875",
-    group = 
-"""
-1  * Cs  u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
-2    Cs  u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
-3    N3s u0 p1 c0 {4,S} {10,S} {11,S}
-4    O2s u0 p2 c0 {1,S} {3,S}
-5    H   u0 p0 c0 {1,S}
-6    H   u0 p0 c0 {1,S}
-7    H   u0 p0 c0 {2,S}
-8    H   u0 p0 c0 {2,S}
-9    H   u0 p0 c0 {2,S}
-10   H   u0 p0 c0 {3,S}
-11   H   u0 p0 c0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 871,
-    label = "Cs-CsHHO2s-HHHN3s_2876",
-    group = 
-"""
-1 * Cs  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2   Cs  u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
-3   O2s u0 p2 c0 {1,S} {9,S}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {1,S}
-6   H   u0 p0 c0 {2,S}
-7   H   u0 p0 c0 {2,S}
-8   H   u0 p0 c0 {2,S}
-9   N3s u0 p1 c0 {3,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([9.28182,11.0452,13.2082,15.1538,18.5757,21.1336,24.9941],'J/(mol*K)'),
-        H298 = (5.29347,'kJ/mol'),
-        S298 = (16.0505,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 872,
-    label = "Cs-HHHO2s-N3s-HH_2831",
-    group = 
-"""
-1 * Cs  u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
-2   N3s u0 p1 c0 {3,S} {7,S} {8,S}
-3   O2s u0 p2 c0 {1,S} {2,S}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {1,S}
-6   H   u0 p0 c0 {1,S}
-7   H   u0 p0 c0 {2,S}
-8   H   u0 p0 c0 {2,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 873,
-    label = "Cs-HHHO2s-N3s_2612",
-    group = 
-"""
-1 * Cs  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2   O2s u0 p2 c0 {1,S} {6,S}
-3   H   u0 p0 c0 {1,S}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {1,S}
-6   N3s u0 p1 c0 {2,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([21.1841,25.2083,29.2573,32.8714,38.8463,43.4225,50.5738],'J/(mol*K)'),
-        H298 = (-8.70852,'kJ/mol'),
-        S298 = (88.274,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 874,
-    label = "Cs-HHHO2s-N3s-HN3s_2671",
-    group = 
-"""
-1 * Cs  u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
-2   N3s u0 p1 c0 {3,S} {7,S} {8,S}
-3   O2s u0 p2 c0 {1,S} {2,S}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {1,S}
-6   H   u0 p0 c0 {1,S}
-7   N3s u0 p1 c0 {2,S}
-8   H   u0 p0 c0 {2,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([6.45948,7.6169,9.06845,10.5016,12.7107,14.2958,17.0624],'J/(mol*K)'),
-        H298 = (36.7468,'kJ/mol'),
-        S298 = (25.5974,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 875,
-    label = "Cs-HHHO2s-N3s-HO2s_2611",
-    group = 
-"""
-1 * Cs  u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
-2   N3s u0 p1 c0 {3,S} {7,S} {8,S}
-3   O2s u0 p2 c0 {1,S} {2,S}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {1,S}
-6   H   u0 p0 c0 {1,S}
-7   O2s u0 p2 c0 {2,S}
-8   H   u0 p0 c0 {2,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([6.27311,7.8993,9.59292,11.1317,13.5093,15.4067,18.3],'J/(mol*K)'),
-        H298 = (-14.3689,'kJ/mol'),
-        S298 = (14.9014,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 876,
-    label = "Cs-HHN3sO2s-HHN3s_3291",
-    group = 
-"""
-1 * Cs  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2   N3s u0 p1 c0 {1,S} {6,S} {7,S}
-3   O2s u0 p2 c0 {1,S} {8,S}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {1,S}
-6   H   u0 p0 c0 {2,S}
-7   H   u0 p0 c0 {2,S}
-8   N3s u0 p1 c0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 877,
-    label = "Cs-HHN3sO2s-HHN3s-HH_3290",
-    group = 
-"""
-1  * Cs  u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
-2    N3s u0 p1 c0 {1,S} {7,S} {8,S}
-3    N3s u0 p1 c0 {4,S} {9,S} {10,S}
-4    O2s u0 p2 c0 {1,S} {3,S}
-5    H   u0 p0 c0 {1,S}
-6    H   u0 p0 c0 {1,S}
-7    H   u0 p0 c0 {2,S}
-8    H   u0 p0 c0 {2,S}
-9    H   u0 p0 c0 {3,S}
-10   H   u0 p0 c0 {3,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([8.44463,9.9531,11.1534,12.2202,13.8704,15.3069,17.6631],'J/(mol*K)'),
-        H298 = (36.5715,'kJ/mol'),
-        S298 = (35.4434,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 878,
-    label = "Cs-HHO2sO2s-HN3s_3262",
-    group = 
-"""
-1 * Cs  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2   O2s u0 p2 c0 {1,S} {6,S}
-3   O2s u0 p2 c0 {1,S} {7,S}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {1,S}
-6   N3s u0 p1 c0 {2,S}
-7   H   u0 p0 c0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 879,
-    label = "Cs-HHO2sO2s-HN3s-HH_3261",
-    group = 
-"""
-1 * Cs  u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
-2   N3s u0 p1 c0 {3,S} {7,S} {8,S}
-3   O2s u0 p2 c0 {1,S} {2,S}
-4   O2s u0 p2 c0 {1,S} {9,S}
-5   H   u0 p0 c0 {1,S}
-6   H   u0 p0 c0 {1,S}
-7   H   u0 p0 c0 {2,S}
-8   H   u0 p0 c0 {2,S}
-9   H   u0 p0 c0 {4,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([8.36242,11.7153,14.4891,16.7938,20.372,22.8513,26.1649],'J/(mol*K)'),
-        H298 = (-12.4008,'kJ/mol'),
-        S298 = (14.7069,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 880,
-    label = "Cs-O2s-N3s-CsH_3014",
-    group = 
-"""
-1   N3s u0 p1 c0 {2,S} {3,S} {4,S}
-2   O2s u0 p2 c0 {1,S} {5,S}
-3   Cs  u0 p0 c0 {1,S}
-4   H   u0 p0 c0 {1,S}
-5 * Cs  u0 p0 c0 {2,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([10.6501,13.6906,17.2101,20.7141,27.0268,31.5793,38.3466],'J/(mol*K)'),
-        H298 = (-48.4806,'kJ/mol'),
-        S298 = (50.1498,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 881,
-    label = "Cs-Cs-HN3sN3s_2899",
-    group = 
-"""
-1   Cs  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2 * Cs  u0 p0 c0 {1,S}
-3   N3s u0 p1 c0 {1,S}
-4   N3s u0 p1 c0 {1,S}
-5   H   u0 p0 c0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([15.1719,18.9176,22.2076,25.0849,29.7735,33.3009,38.74],'J/(mol*K)'),
-        H298 = (-7.78462,'kJ/mol'),
-        S298 = (48.0657,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 882,
-    label = "Cs-O2s-Cs-HHN3s_2708",
-    group = 
-"""
-1   Cs  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2   O2s u0 p2 c0 {1,S} {6,S}
-3   N3s u0 p1 c0 {1,S}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {1,S}
-6 * Cs  u0 p0 c0 {2,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([9.55912,11.5481,13.8536,16.2771,20.3436,23.1863,27.7624],'J/(mol*K)'),
-        H298 = (-34.9616,'kJ/mol'),
-        S298 = (33.1586,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 883,
-    label = "Cs-N3s_2552",
-    group = 
-"""
-1   N3s u0 p1 c0 {2,S}
-2 * Cs  u0 p0 c0 {1,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 884,
-    label = "Cs-HHHN3s-COH-HO2d_2496",
-    group = 
-"""
-1 * Cs  u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
-2   N3s u0 p1 c0 {1,S} {3,S} {7,S}
-3   CO  u0 p0 c0 {2,S} {8,D} {9,S}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {1,S}
-6   H   u0 p0 c0 {1,S}
-7   H   u0 p0 c0 {2,S}
-8   O2d u0 p2 c0 {3,D}
-9   H   u0 p0 c0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 885,
-    label = "Cs-HHHN3s-COH_2497",
-    group = 
-"""
-1 * Cs  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2   N3s u0 p1 c0 {1,S} {6,S} {7,S}
-3   H   u0 p0 c0 {1,S}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {1,S}
-6   CO  u0 p0 c0 {2,S}
-7   H   u0 p0 c0 {2,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([24.1628,29.2369,34.4338,39.4199,47.8209,53.9753,65.3496],'J/(mol*K)'),
-        H298 = (-47.4827,'kJ/mol'),
-        S298 = (52.3701,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 886,
-    label = "Cs-HHHN3s-HO2s-O2s_2478",
-    group = 
-"""
-1 * Cs  u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
-2   N3s u0 p1 c0 {1,S} {3,S} {7,S}
-3   O2s u0 p2 c0 {2,S} {8,S}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {1,S}
-6   H   u0 p0 c0 {1,S}
-7   H   u0 p0 c0 {2,S}
-8   O2s u0 p2 c0 {3,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([14.7405,17.385,19.9281,22.2655,26.0422,28.9028,33.2446],'J/(mol*K)'),
-        H298 = (3.04327,'kJ/mol'),
-        S298 = (48.9135,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 887,
-    label = "Cs-HHHN3s-HO2s-N3s_2473",
-    group = 
-"""
-1 * Cs  u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
-2   N3s u0 p1 c0 {1,S} {3,S} {7,S}
-3   O2s u0 p2 c0 {2,S} {8,S}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {1,S}
-6   H   u0 p0 c0 {1,S}
-7   H   u0 p0 c0 {2,S}
-8   N3s u0 p1 c0 {3,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([14.3086,17.6215,20.7504,23.5277,28.3294,32.0646,37.7409],'J/(mol*K)'),
-        H298 = (-11.4285,'kJ/mol'),
-        S298 = (62.9478,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 888,
-    label = "Cs-HHHN3s-CdH-HN3d_2440",
-    group = 
-"""
-1 * Cs  u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
-2   N3s u0 p1 c0 {1,S} {3,S} {7,S}
-3   Cd  u0 p0 c0 {2,S} {8,D} {9,S}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {1,S}
-6   H   u0 p0 c0 {1,S}
-7   H   u0 p0 c0 {2,S}
-8   N3d u0 p1 c0 {3,D}
-9   H   u0 p0 c0 {3,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-4.54179,-5.8151,-6.12662,-5.92061,-5.4975,-5.44443,-4.93491],'J/(mol*K)'),
-        H298 = (7.42458,'kJ/mol'),
-        S298 = (-33.183,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 889,
-    label = "Cs-HHHN3s-O2sO2s-HH_2396",
-    group = 
-"""
-1 * Cs  u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
-2   N3s u0 p1 c0 {1,S} {3,S} {4,S}
-3   O2s u0 p2 c0 {2,S} {8,S}
-4   O2s u0 p2 c0 {2,S} {9,S}
-5   H   u0 p0 c0 {1,S}
-6   H   u0 p0 c0 {1,S}
-7   H   u0 p0 c0 {1,S}
-8   H   u0 p0 c0 {3,S}
-9   H   u0 p0 c0 {4,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 890,
-    label = "Cs-HHHN3s-O2sO2s_2397",
-    group = 
-"""
-1 * Cs  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2   N3s u0 p1 c0 {1,S} {6,S} {7,S}
-3   H   u0 p0 c0 {1,S}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {1,S}
-6   O2s u0 p2 c0 {2,S}
-7   O2s u0 p2 c0 {2,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([2.9855,3.53349,3.71225,3.60959,3.33162,2.90469,1.97983],'J/(mol*K)'),
-        H298 = (-16.9137,'kJ/mol'),
-        S298 = (7.31349,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 891,
-    label = "Cs-HHHN3s-N5dcO0sc_3250",
-    group = 
-"""
-1 * Cs   u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2   N3s  u0 p1 c0 {1,S} {6,S} {7,S}
-3   H    u0 p0 c0 {1,S}
-4   H    u0 p0 c0 {1,S}
-5   H    u0 p0 c0 {1,S}
-6   O0sc u0 p3 c-1 {2,S}
-7   N5dc u0 p0 c+1 {2,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 892,
-    label = "Cs-HHHN3s-N5dcO0sc-HO2d_3249",
-    group = 
-"""
-1 * Cs   u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
-2   N3s  u0 p1 c0 {1,S} {3,S} {7,S}
-3   N5dc u0 p0 c+1 {2,S} {8,D} {9,S}
-4   H    u0 p0 c0 {1,S}
-5   H    u0 p0 c0 {1,S}
-6   H    u0 p0 c0 {1,S}
-7   O0sc u0 p3 c-1 {2,S}
-8   O2d  u0 p2 c0 {3,D}
-9   H    u0 p0 c0 {3,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([12.1026,14.4968,16.62,18.3997,21.2027,23.2347,26.1146],'J/(mol*K)'),
-        H298 = (13.2406,'kJ/mol'),
-        S298 = (43.0464,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 893,
-    label = "Cs-N3s-N3s_3207",
-    group = 
-"""
-1   N3s u0 p1 c0 {2,S} {3,S}
-2 * Cs  u0 p0 c0 {1,S}
-3   N3s u0 p1 c0 {1,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 894,
-    label = "Cs-HHHN3s-CsN3s-HHHHH_3022",
-    group = 
-"""
-1  * Cs  u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
-2    Cs  u0 p0 c0 {3,S} {8,S} {9,S} {10,S}
-3    N3s u0 p1 c0 {1,S} {2,S} {4,S}
-4    N3s u0 p1 c0 {3,S} {11,S} {12,S}
-5    H   u0 p0 c0 {1,S}
-6    H   u0 p0 c0 {1,S}
-7    H   u0 p0 c0 {1,S}
-8    H   u0 p0 c0 {2,S}
-9    H   u0 p0 c0 {2,S}
-10   H   u0 p0 c0 {2,S}
-11   H   u0 p0 c0 {4,S}
-12   H   u0 p0 c0 {4,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 895,
-    label = "Cs-HHHN3s-CsN3s_3023",
-    group = 
-"""
-1 * Cs  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2   N3s u0 p1 c0 {1,S} {6,S} {7,S}
-3   H   u0 p0 c0 {1,S}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {1,S}
-6   Cs  u0 p0 c0 {2,S}
-7   N3s u0 p1 c0 {2,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([29.2225,36.6505,43.3085,49.1925,58.9236,66.3756,77.9757],'J/(mol*K)'),
-        H298 = (26.7842,'kJ/mol'),
-        S298 = (92.2863,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 896,
-    label = "Cs-CsHHN3s-HHHHN3s-HH_3016",
-    group = 
-"""
-1  * Cs  u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
-2    Cs  u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
-3    N3s u0 p1 c0 {1,S} {4,S} {10,S}
-4    N3s u0 p1 c0 {3,S} {11,S} {12,S}
-5    H   u0 p0 c0 {1,S}
-6    H   u0 p0 c0 {1,S}
-7    H   u0 p0 c0 {2,S}
-8    H   u0 p0 c0 {2,S}
-9    H   u0 p0 c0 {2,S}
-10   H   u0 p0 c0 {3,S}
-11   H   u0 p0 c0 {4,S}
-12   H   u0 p0 c0 {4,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 897,
-    label = "Cs-CsHHN3s-HHHHN3s_3017",
-    group = 
-"""
-1  * Cs  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2    Cs  u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
-3    N3s u0 p1 c0 {1,S} {9,S} {10,S}
-4    H   u0 p0 c0 {1,S}
-5    H   u0 p0 c0 {1,S}
-6    H   u0 p0 c0 {2,S}
-7    H   u0 p0 c0 {2,S}
-8    H   u0 p0 c0 {2,S}
-9    N3s u0 p1 c0 {3,S}
-10   H   u0 p0 c0 {3,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([19.7046,25.2658,30.0498,34.0611,40.1121,44.4972,52.3087],'J/(mol*K)'),
-        H298 = (43.5176,'kJ/mol'),
-        S298 = (34.2428,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 898,
-    label = "Cs-HHN3sN3s-HHHN3s-HH_2999",
-    group = 
-"""
-1  * Cs  u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
-2    N3s u0 p1 c0 {1,S} {4,S} {7,S}
-3    N3s u0 p1 c0 {1,S} {8,S} {9,S}
-4    N3s u0 p1 c0 {2,S} {10,S} {11,S}
-5    H   u0 p0 c0 {1,S}
-6    H   u0 p0 c0 {1,S}
-7    H   u0 p0 c0 {2,S}
-8    H   u0 p0 c0 {3,S}
-9    H   u0 p0 c0 {3,S}
-10   H   u0 p0 c0 {4,S}
-11   H   u0 p0 c0 {4,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 899,
-    label = "Cs-HHN3sN3s-HHHN3s_3000",
-    group = 
-"""
-1 * Cs  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2   N3s u0 p1 c0 {1,S} {6,S} {7,S}
-3   N3s u0 p1 c0 {1,S} {8,S} {9,S}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {1,S}
-6   N3s u0 p1 c0 {2,S}
-7   H   u0 p0 c0 {2,S}
-8   H   u0 p0 c0 {3,S}
-9   H   u0 p0 c0 {3,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([8.18861,10.1601,11.733,13.0645,15.1751,16.6913,18.9139],'J/(mol*K)'),
-        H298 = (41.8097,'kJ/mol'),
-        S298 = (23.3877,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 900,
-    label = "Cs-HHN3sO2s-HHN3s-HH_2981",
-    group = 
-"""
-1  * Cs  u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
-2    N3s u0 p1 c0 {1,S} {3,S} {7,S}
-3    N3s u0 p1 c0 {2,S} {8,S} {9,S}
-4    O2s u0 p2 c0 {1,S} {10,S}
-5    H   u0 p0 c0 {1,S}
-6    H   u0 p0 c0 {1,S}
-7    H   u0 p0 c0 {2,S}
-8    H   u0 p0 c0 {3,S}
-9    H   u0 p0 c0 {3,S}
-10   H   u0 p0 c0 {4,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 901,
-    label = "Cs-HHN3sO2s-HHN3s_2982",
-    group = 
-"""
-1 * Cs  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2   N3s u0 p1 c0 {1,S} {6,S} {7,S}
-3   O2s u0 p2 c0 {1,S} {8,S}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {1,S}
-6   N3s u0 p1 c0 {2,S}
-7   H   u0 p0 c0 {2,S}
-8   H   u0 p0 c0 {3,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([7.99064,9.78439,11.1553,12.3192,14.0035,15.3473,17.4131],'J/(mol*K)'),
-        H298 = (7.4414,'kJ/mol'),
-        S298 = (34.0849,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 902,
-    label = "Cs-HHHN3s-N3sN3s-HHHH_2662",
-    group = 
-"""
-1  * Cs  u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
-2    N3s u0 p1 c0 {1,S} {3,S} {4,S}
-3    N3s u0 p1 c0 {2,S} {8,S} {9,S}
-4    N3s u0 p1 c0 {2,S} {10,S} {11,S}
-5    H   u0 p0 c0 {1,S}
-6    H   u0 p0 c0 {1,S}
-7    H   u0 p0 c0 {1,S}
-8    H   u0 p0 c0 {3,S}
-9    H   u0 p0 c0 {3,S}
-10   H   u0 p0 c0 {4,S}
-11   H   u0 p0 c0 {4,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 903,
-    label = "Cs-HHHN3s-N3sN3s_2663",
-    group = 
-"""
-1 * Cs  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2   N3s u0 p1 c0 {1,S} {6,S} {7,S}
-3   H   u0 p0 c0 {1,S}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {1,S}
-6   N3s u0 p1 c0 {2,S}
-7   N3s u0 p1 c0 {2,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([12.2773,15.2457,17.8527,20.1492,23.9153,26.7678,31.205],'J/(mol*K)'),
-        H298 = (27.6718,'kJ/mol'),
-        S298 = (40.1456,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 904,
-    label = "Cs-HHHN3s-HN3s-HH_2653",
-    group = 
-"""
-1 * Cs  u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
-2   N3s u0 p1 c0 {1,S} {3,S} {7,S}
-3   N3s u0 p1 c0 {2,S} {8,S} {9,S}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {1,S}
-6   H   u0 p0 c0 {1,S}
-7   H   u0 p0 c0 {2,S}
-8   H   u0 p0 c0 {3,S}
-9   H   u0 p0 c0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 905,
-    label = "Cs-HHHN3s-HN3s_2410",
-    group = 
-"""
-1 * Cs  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2   N3s u0 p1 c0 {1,S} {6,S} {7,S}
-3   H   u0 p0 c0 {1,S}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {1,S}
-6   N3s u0 p1 c0 {2,S}
-7   H   u0 p0 c0 {2,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([23.0306,28.6268,34.246,39.4904,48.2379,55.2047,66.3876],'J/(mol*K)'),
-        H298 = (3.9118,'kJ/mol'),
-        S298 = (109.916,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 906,
-    label = "Cs-HHHN3s-N3sO2s-HHH_2424",
-    group = 
-"""
-1  * Cs  u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
-2    N3s u0 p1 c0 {1,S} {3,S} {4,S}
-3    N3s u0 p1 c0 {2,S} {8,S} {9,S}
-4    O2s u0 p2 c0 {2,S} {10,S}
-5    H   u0 p0 c0 {1,S}
-6    H   u0 p0 c0 {1,S}
-7    H   u0 p0 c0 {1,S}
-8    H   u0 p0 c0 {3,S}
-9    H   u0 p0 c0 {3,S}
-10   H   u0 p0 c0 {4,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 907,
-    label = "Cs-HHHN3s-N3sO2s_2425",
-    group = 
-"""
-1 * Cs  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2   N3s u0 p1 c0 {1,S} {6,S} {7,S}
-3   H   u0 p0 c0 {1,S}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {1,S}
-6   O2s u0 p2 c0 {2,S}
-7   N3s u0 p1 c0 {2,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([7.67509,8.95164,10.089,11.3099,13.3783,14.9709,17.4317],'J/(mol*K)'),
-        H298 = (20.7468,'kJ/mol'),
-        S298 = (15.8224,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 908,
-    label = "Cs-HHHN3s-HN3s-HN3s_2417",
-    group = 
-"""
-1 * Cs  u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
-2   N3s u0 p1 c0 {1,S} {3,S} {7,S}
-3   N3s u0 p1 c0 {2,S} {8,S} {9,S}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {1,S}
-6   H   u0 p0 c0 {1,S}
-7   H   u0 p0 c0 {2,S}
-8   N3s u0 p1 c0 {3,S}
-9   H   u0 p0 c0 {3,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([17.6184,21.9003,26.5,30.8595,37.9212,43.4957,52.2231],'J/(mol*K)'),
-        H298 = (11.3878,'kJ/mol'),
-        S298 = (66.5071,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 909,
-    label = "Cs-HHHN3s-HN3s-HO2s_2409",
-    group = 
-"""
-1 * Cs  u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
-2   N3s u0 p1 c0 {1,S} {3,S} {7,S}
-3   N3s u0 p1 c0 {2,S} {8,S} {9,S}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {1,S}
-6   H   u0 p0 c0 {1,S}
-7   H   u0 p0 c0 {2,S}
-8   O2s u0 p2 c0 {3,S}
-9   H   u0 p0 c0 {3,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([8.68694,11.1071,14.0391,17.1828,22.5248,26.9921,33.998],'J/(mol*K)'),
-        H298 = (-24.8685,'kJ/mol'),
-        S298 = (47.5352,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 910,
-    label = "Cs-N3s-N3s-CsH_3206",
-    group = 
-"""
-1   N3s u0 p1 c0 {2,S} {3,S} {4,S}
-2   N3s u0 p1 c0 {1,S} {5,S}
-3   Cs  u0 p0 c0 {1,S}
-4   H   u0 p0 c0 {1,S}
-5 * Cs  u0 p0 c0 {2,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 911,
-    label = "Cs-HHHN3s-HN3s-CsH_3205",
-    group = 
-"""
-1 * Cs  u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
-2   N3s u0 p1 c0 {1,S} {3,S} {7,S}
-3   N3s u0 p1 c0 {2,S} {8,S} {9,S}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {1,S}
-6   H   u0 p0 c0 {1,S}
-7   H   u0 p0 c0 {2,S}
-8   Cs  u0 p0 c0 {3,S}
-9   H   u0 p0 c0 {3,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([23.0308,29.4554,36.6471,43.8429,55.726,64.7067,79.0672],'J/(mol*K)'),
-        H298 = (-40.9819,'kJ/mol'),
-        S298 = (97.9504,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 912,
-    label = "Cs-HHHN3s-CdH-CdH_3181",
-    group = 
-"""
-1 * Cs  u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
-2   N3s u0 p1 c0 {1,S} {3,S} {7,S}
-3   Cd  u0 p0 c0 {2,S} {8,D} {9,S}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {1,S}
-6   H   u0 p0 c0 {1,S}
-7   H   u0 p0 c0 {2,S}
-8   Cd  u0 p0 c0 {3,D}
-9   H   u0 p0 c0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 913,
-    label = "Cs-HHHN3s-CdH_2441",
-    group = 
-"""
-1 * Cs  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2   N3s u0 p1 c0 {1,S} {6,S} {7,S}
-3   H   u0 p0 c0 {1,S}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {1,S}
-6   Cd  u0 p0 c0 {2,S}
-7   H   u0 p0 c0 {2,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([8.41247,12.8098,16.6633,19.9379,24.759,28.3853,33.8366],'J/(mol*K)'),
-        H298 = (-17.7795,'kJ/mol'),
-        S298 = (36.2117,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 914,
-    label = "Cs-N3s-HH_3095",
-    group = 
-"""
-1   N3s u0 p1 c0 {2,S} {3,S} {4,S}
-2 * Cs  u0 p0 c0 {1,S}
-3   H   u0 p0 c0 {1,S}
-4   H   u0 p0 c0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([21.6321,27.2817,32.655,37.5064,45.3109,51.0487,59.8145],'J/(mol*K)'),
-        H298 = (-9.29235,'kJ/mol'),
-        S298 = (55.5147,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 915,
-    label = "Cs-N3sHHH",
-    group = 
-"""
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   N3s u0 {1,S}
-3   H   u0 {1,S}
-4   H   u0 {1,S}
-5   H   u0 {1,S}
+3   N  u0 {1,S}
+4   Cs u0 {1,S}
+5   Cs u0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([6.19,7.84,9.4,10.79,13.02,14.77,17.58],'cal/(mol*K)'),
-        H298 = (-10.08,'kcal/mol'),
-        S298 = (30.41,'cal/(mol*K)'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (0,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = """""",
     longDesc = 
@@ -19447,187 +13743,8 @@ entry(
 )
 
 entry(
-    index = 916,
-    label = "Cs-CtHHN3s-HHN5tc_2940",
-    group = 
-"""
-1 * Cs   u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2   N3s  u0 p1 c0 {1,S} {6,S} {7,S}
-3   Ct   u0 p0 c0 {1,S} {8,T}
-4   H    u0 p0 c0 {1,S}
-5   H    u0 p0 c0 {1,S}
-6   H    u0 p0 c0 {2,S}
-7   H    u0 p0 c0 {2,S}
-8   N5tc u0 p0 c+1 {3,T}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 917,
-    label = "Cs-CtHHN3s-HHN5tc-O0sc_2939",
-    group = 
-"""
-1 * Cs   u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
-2   N3s  u0 p1 c0 {1,S} {7,S} {8,S}
-3   Ct   u0 p0 c0 {1,S} {4,T}
-4   N5tc u0 p0 c+1 {3,T} {9,S}
-5   H    u0 p0 c0 {1,S}
-6   H    u0 p0 c0 {1,S}
-7   H    u0 p0 c0 {2,S}
-8   H    u0 p0 c0 {2,S}
-9   O0sc u0 p3 c-1 {4,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([4.22706,3.55357,2.91495,2.30862,1.19633,0.581077,-0.118977],'J/(mol*K)'),
-        H298 = (26.4375,'kJ/mol'),
-        S298 = (25.9662,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 918,
-    label = "Cs-CdHHN3s-HHHN5dc_2879",
-    group = 
-"""
-1 * Cs   u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2   N3s  u0 p1 c0 {1,S} {6,S} {7,S}
-3   Cd   u0 p0 c0 {1,S} {8,D} {9,S}
-4   H    u0 p0 c0 {1,S}
-5   H    u0 p0 c0 {1,S}
-6   H    u0 p0 c0 {2,S}
-7   H    u0 p0 c0 {2,S}
-8   N5dc u0 p0 c+1 {3,D}
-9   H    u0 p0 c0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 919,
-    label = "Cs-CdHHN3s-HHHN5dc-HO0sc_2878",
-    group = 
-"""
-1  * Cs   u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
-2    Cd   u0 p0 c0 {1,S} {4,D} {7,S}
-3    N3s  u0 p1 c0 {1,S} {8,S} {9,S}
-4    N5dc u0 p0 c+1 {2,D} {10,S} {11,S}
-5    H    u0 p0 c0 {1,S}
-6    H    u0 p0 c0 {1,S}
-7    H    u0 p0 c0 {2,S}
-8    H    u0 p0 c0 {3,S}
-9    H    u0 p0 c0 {3,S}
-10   O0sc u0 p3 c-1 {4,S}
-11   H    u0 p0 c0 {4,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([5.79519,7.03495,7.81682,8.31832,9.16492,9.90547,10.8271],'J/(mol*K)'),
-        H298 = (2.60441,'kJ/mol'),
-        S298 = (20.7422,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 920,
-    label = "Cs-HHN3dN3s-HHN5dc_2467",
-    group = 
-"""
-1 * Cs   u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2   N3s  u0 p1 c0 {1,S} {6,S} {7,S}
-3   N3d  u0 p1 c0 {1,S} {8,D}
-4   H    u0 p0 c0 {1,S}
-5   H    u0 p0 c0 {1,S}
-6   H    u0 p0 c0 {2,S}
-7   H    u0 p0 c0 {2,S}
-8   N5dc u0 p0 c+1 {3,D}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 921,
-    label = "Cs-HHN3dN3s-HHN5dc-HO0sc_2466",
-    group = 
-"""
-1  * Cs   u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
-2    N3s  u0 p1 c0 {1,S} {7,S} {8,S}
-3    N5dc u0 p0 c+1 {4,D} {9,S} {10,S}
-4    N3d  u0 p1 c0 {1,S} {3,D}
-5    H    u0 p0 c0 {1,S}
-6    H    u0 p0 c0 {1,S}
-7    H    u0 p0 c0 {2,S}
-8    H    u0 p0 c0 {2,S}
-9    O0sc u0 p3 c-1 {3,S}
-10   H    u0 p0 c0 {3,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-10.6972,-11.7454,-13.0048,-14.2657,-16.2092,-17.6015,-20.0774],'J/(mol*K)'),
-        H298 = (-30.7174,'kJ/mol'),
-        S298 = (-53.2112,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 922,
-    label = "Cs-CsHN3sO2s-HHHHHH_3090",
-    group = 
-"""
-1  * Cs  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2    Cs  u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
-3    N3s u0 p1 c0 {1,S} {9,S} {10,S}
-4    O2s u0 p2 c0 {1,S} {11,S}
-5    H   u0 p0 c0 {1,S}
-6    H   u0 p0 c0 {2,S}
-7    H   u0 p0 c0 {2,S}
-8    H   u0 p0 c0 {2,S}
-9    H   u0 p0 c0 {3,S}
-10   H   u0 p0 c0 {3,S}
-11   H   u0 p0 c0 {4,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 923,
-    label = "Cs-CsHN3sO2s_3091",
+    index = 675,
+    label = "Cs-(CsHN3sO2s)",
     group = 
 """
 1 * Cs  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -19636,33 +13753,6 @@ entry(
 4   Cs  u0 p0 c0 {1,S}
 5   H   u0 p0 c0 {1,S}
 """,
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([13.7022,16.3877,18.4031,20.3048,23.5671,25.8596,29.0753],'J/(mol*K)'),
-        H298 = (-60.3999,'kJ/mol'),
-        S298 = (15.8973,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 924,
-    label = "Cs-HHN3sO2s-HHH_3074",
-    group = 
-"""
-1 * Cs  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2   N3s u0 p1 c0 {1,S} {6,S} {7,S}
-3   O2s u0 p2 c0 {1,S} {8,S}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {1,S}
-6   H   u0 p0 c0 {2,S}
-7   H   u0 p0 c0 {2,S}
-8   H   u0 p0 c0 {3,S}
-""",
     thermo = None,
     shortDesc = """""",
     longDesc = 
@@ -19672,56 +13762,8 @@ entry(
 )
 
 entry(
-    index = 925,
-    label = "Cs-HHN3sO2s_2439",
-    group = 
-"""
-1 * Cs  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2   O2s u0 p2 c0 {1,S}
-3   N3s u0 p1 c0 {1,S}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([13.931,16.7015,19.2391,21.4744,25.0644,27.8231,32.1952],'J/(mol*K)'),
-        H298 = (-46.9219,'kJ/mol'),
-        S298 = (64.4032,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 926,
-    label = "Cs-HN3sN3sO2s-HHHHH_3012",
-    group = 
-"""
-1  * Cs  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2    N3s u0 p1 c0 {1,S} {6,S} {7,S}
-3    N3s u0 p1 c0 {1,S} {8,S} {9,S}
-4    O2s u0 p2 c0 {1,S} {10,S}
-5    H   u0 p0 c0 {1,S}
-6    H   u0 p0 c0 {2,S}
-7    H   u0 p0 c0 {2,S}
-8    H   u0 p0 c0 {3,S}
-9    H   u0 p0 c0 {3,S}
-10   H   u0 p0 c0 {4,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 927,
-    label = "Cs-HN3sN3sO2s_3013",
+    index = 676,
+    label = "Cs-(HN3sN3sO2s)",
     group = 
 """
 1 * Cs  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -19730,36 +13772,6 @@ entry(
 4   N3s u0 p1 c0 {1,S}
 5   H   u0 p0 c0 {1,S}
 """,
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([6.85224,8.75211,10.4521,11.743,13.7029,15.2061,17.6084],'J/(mol*K)'),
-        H298 = (-6.31941,'kJ/mol'),
-        S298 = (40.1489,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 928,
-    label = "Cs-CdHHN3s-CdHHH-HH_2961",
-    group = 
-"""
-1  * Cs  u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
-2    Cd  u0 p0 c0 {1,S} {4,D} {7,S}
-3    N3s u0 p1 c0 {1,S} {8,S} {9,S}
-4    Cd  u0 p0 c0 {2,D} {10,S} {11,S}
-5    H   u0 p0 c0 {1,S}
-6    H   u0 p0 c0 {1,S}
-7    H   u0 p0 c0 {2,S}
-8    H   u0 p0 c0 {3,S}
-9    H   u0 p0 c0 {3,S}
-10   H   u0 p0 c0 {4,S}
-11   H   u0 p0 c0 {4,S}
-""",
     thermo = None,
     shortDesc = """""",
     longDesc = 
@@ -19769,109 +13781,8 @@ entry(
 )
 
 entry(
-    index = 929,
-    label = "Cs-CdHHN3s-CdHHH_2962",
-    group = 
-"""
-1 * Cs  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2   N3s u0 p1 c0 {1,S} {6,S} {7,S}
-3   Cd  u0 p0 c0 {1,S} {8,D} {9,S}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {1,S}
-6   H   u0 p0 c0 {2,S}
-7   H   u0 p0 c0 {2,S}
-8   Cd  u0 p0 c0 {3,D}
-9   H   u0 p0 c0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 930,
-    label = "Cs-CdHHN3s_2719",
-    group = 
-"""
-1 * Cs  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2   N3s u0 p1 c0 {1,S}
-3   Cd  u0 p0 c0 {1,S}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([16.4301,20.8374,24.6993,28.0428,33.5192,37.6332,44.0328],'J/(mol*K)'),
-        H298 = (11.0836,'kJ/mol'),
-        S298 = (58.5241,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 931,
-    label = "Cs-CsHN3sN3s-HHHHHHH_2898",
-    group = 
-"""
-1  * Cs  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2    Cs  u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
-3    N3s u0 p1 c0 {1,S} {9,S} {10,S}
-4    N3s u0 p1 c0 {1,S} {11,S} {12,S}
-5    H   u0 p0 c0 {1,S}
-6    H   u0 p0 c0 {2,S}
-7    H   u0 p0 c0 {2,S}
-8    H   u0 p0 c0 {2,S}
-9    H   u0 p0 c0 {3,S}
-10   H   u0 p0 c0 {3,S}
-11   H   u0 p0 c0 {4,S}
-12   H   u0 p0 c0 {4,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([15.1719,18.9176,22.2076,25.0849,29.7735,33.3009,38.74],'J/(mol*K)'),
-        H298 = (-7.78462,'kJ/mol'),
-        S298 = (48.0657,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 932,
-    label = "Cs-COHHN3s-HHHO2d_2792",
-    group = 
-"""
-1 * Cs  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2   N3s u0 p1 c0 {1,S} {6,S} {7,S}
-3   CO  u0 p0 c0 {1,S} {8,D} {9,S}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {1,S}
-6   H   u0 p0 c0 {2,S}
-7   H   u0 p0 c0 {2,S}
-8   O2d u0 p2 c0 {3,D}
-9   H   u0 p0 c0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 933,
-    label = "Cs-COHHN3s_2793",
+    index = 677,
+    label = "Cs-(COHHN3s)",
     group = 
 """
 1 * Cs  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -19880,35 +13791,6 @@ entry(
 4   H   u0 p0 c0 {1,S}
 5   H   u0 p0 c0 {1,S}
 """,
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([24.2183,29.1803,33.8796,38.2211,45.4391,50.5808,58.7871],'J/(mol*K)'),
-        H298 = (-4.16251,'kJ/mol'),
-        S298 = (74.1832,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 934,
-    label = "Cs-CsHHN3s-HHHHH_2738",
-    group = 
-"""
-1  * Cs  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2    Cs  u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
-3    N3s u0 p1 c0 {1,S} {9,S} {10,S}
-4    H   u0 p0 c0 {1,S}
-5    H   u0 p0 c0 {1,S}
-6    H   u0 p0 c0 {2,S}
-7    H   u0 p0 c0 {2,S}
-8    H   u0 p0 c0 {2,S}
-9    H   u0 p0 c0 {3,S}
-10   H   u0 p0 c0 {3,S}
-""",
     thermo = None,
     shortDesc = """""",
     longDesc = 
@@ -19918,97 +13800,15 @@ entry(
 )
 
 entry(
-    index = 935,
-    label = "Cs-N3sCsHH",
-    group = 
-"""
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   N3s u0 {1,S}
-3   Cs  u0 {1,S}
-4   H   u0 {1,S}
-5   H   u0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([5.25,6.9,8.28,9.39,11.09,12.34,14.8],'cal/(mol*K)'),
-        H298 = (-6.6,'kcal/mol'),
-        S298 = (9.8,'cal/(mol*K)'),
-    ),
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 936,
-    label = "Cs-CdHHN3s-HHHN3d-H_2717",
-    group = 
-"""
-1  * Cs  u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
-2    Cd  u0 p0 c0 {1,S} {4,D} {7,S}
-3    N3s u0 p1 c0 {1,S} {8,S} {9,S}
-4    N3d u0 p1 c0 {2,D} {10,S}
-5    H   u0 p0 c0 {1,S}
-6    H   u0 p0 c0 {1,S}
-7    H   u0 p0 c0 {2,S}
-8    H   u0 p0 c0 {3,S}
-9    H   u0 p0 c0 {3,S}
-10   H   u0 p0 c0 {4,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 937,
-    label = "Cs-CdHHN3s-HHHN3d_2718",
+    index = 678,
+    label = "Cs-(CdHHN3s)",
     group = 
 """
 1 * Cs  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2   N3s u0 p1 c0 {1,S} {6,S} {7,S}
-3   Cd  u0 p0 c0 {1,S} {8,D} {9,S}
+2   N3s u0 p1 c0 {1,S}
+3   Cd  u0 p0 c0 {1,S}
 4   H   u0 p0 c0 {1,S}
 5   H   u0 p0 c0 {1,S}
-6   H   u0 p0 c0 {2,S}
-7   H   u0 p0 c0 {2,S}
-8   N3d u0 p1 c0 {3,D}
-9   H   u0 p0 c0 {3,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([2.49953,2.93983,3.75545,4.69334,6.061,6.90534,8.00921],'J/(mol*K)'),
-        H298 = (2.70265,'kJ/mol'),
-        S298 = (7.48019,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 938,
-    label = "Cs-HHN3sO2s-CsHH-HHH_2706",
-    group = 
-"""
-1  * Cs  u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
-2    Cs  u0 p0 c0 {4,S} {7,S} {8,S} {9,S}
-3    N3s u0 p1 c0 {1,S} {10,S} {11,S}
-4    O2s u0 p2 c0 {1,S} {2,S}
-5    H   u0 p0 c0 {1,S}
-6    H   u0 p0 c0 {1,S}
-7    H   u0 p0 c0 {2,S}
-8    H   u0 p0 c0 {2,S}
-9    H   u0 p0 c0 {2,S}
-10   H   u0 p0 c0 {3,S}
-11   H   u0 p0 c0 {3,S}
 """,
     thermo = None,
     shortDesc = """""",
@@ -20019,81 +13819,8 @@ entry(
 )
 
 entry(
-    index = 939,
-    label = "Cs-HHN3sO2s-CsHH_2707",
-    group = 
-"""
-1 * Cs  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2   N3s u0 p1 c0 {1,S} {6,S} {7,S}
-3   O2s u0 p2 c0 {1,S} {8,S}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {1,S}
-6   H   u0 p0 c0 {2,S}
-7   H   u0 p0 c0 {2,S}
-8   Cs  u0 p0 c0 {3,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([9.55912,11.5481,13.8536,16.2771,20.3436,23.1863,27.7624],'J/(mol*K)'),
-        H298 = (-34.9616,'kJ/mol'),
-        S298 = (33.1586,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 940,
-    label = "Cs-HHN3dN3s-CdHH-HH_2559",
-    group = 
-"""
-1  * Cs  u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
-2    N3s u0 p1 c0 {1,S} {7,S} {8,S}
-3    Cd  u0 p0 c0 {4,D} {9,S} {10,S}
-4    N3d u0 p1 c0 {1,S} {3,D}
-5    H   u0 p0 c0 {1,S}
-6    H   u0 p0 c0 {1,S}
-7    H   u0 p0 c0 {2,S}
-8    H   u0 p0 c0 {2,S}
-9    H   u0 p0 c0 {3,S}
-10   H   u0 p0 c0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 941,
-    label = "Cs-HHN3dN3s-CdHH_2560",
-    group = 
-"""
-1 * Cs  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2   N3s u0 p1 c0 {1,S} {6,S} {7,S}
-3   N3d u0 p1 c0 {1,S} {8,D}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {1,S}
-6   H   u0 p0 c0 {2,S}
-7   H   u0 p0 c0 {2,S}
-8   Cd  u0 p0 c0 {3,D}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 942,
-    label = "Cs-HHN3dN3s_2468",
+    index = 679,
+    label = "Cs-(HHN3dN3s)",
     group = 
 """
 1 * Cs  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -20102,37 +13829,6 @@ entry(
 4   H   u0 p0 c0 {1,S}
 5   H   u0 p0 c0 {1,S}
 """,
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([11.5343,14.8996,17.9045,20.5146,24.7519,27.8849,32.6037],'J/(mol*K)'),
-        H298 = (-4.07774,'kJ/mol'),
-        S298 = (41.5774,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 943,
-    label = "Cs-HHN3sN3s-CsHHH-HHH_2548",
-    group = 
-"""
-1  * Cs  u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
-2    Cs  u0 p0 c0 {3,S} {7,S} {8,S} {9,S}
-3    N3s u0 p1 c0 {1,S} {2,S} {10,S}
-4    N3s u0 p1 c0 {1,S} {11,S} {12,S}
-5    H   u0 p0 c0 {1,S}
-6    H   u0 p0 c0 {1,S}
-7    H   u0 p0 c0 {2,S}
-8    H   u0 p0 c0 {2,S}
-9    H   u0 p0 c0 {2,S}
-10   H   u0 p0 c0 {3,S}
-11   H   u0 p0 c0 {4,S}
-12   H   u0 p0 c0 {4,S}
-""",
     thermo = None,
     shortDesc = """""",
     longDesc = 
@@ -20142,48 +13838,15 @@ entry(
 )
 
 entry(
-    index = 944,
-    label = "Cs-HHN3sN3s-CsHHH_2549",
+    index = 680,
+    label = "Cs-(HHN3sN3s)",
     group = 
 """
 1 * Cs  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2   N3s u0 p1 c0 {1,S} {6,S} {7,S}
-3   N3s u0 p1 c0 {1,S} {8,S} {9,S}
+2   N3s u0 p1 c0 {1,S}
+3   N3s u0 p1 c0 {1,S}
 4   H   u0 p0 c0 {1,S}
 5   H   u0 p0 c0 {1,S}
-6   Cs  u0 p0 c0 {2,S}
-7   H   u0 p0 c0 {2,S}
-8   H   u0 p0 c0 {3,S}
-9   H   u0 p0 c0 {3,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([9.78358,12.4966,15.2556,17.7225,21.6683,24.6732,29.2509],'J/(mol*K)'),
-        H298 = (-11.2772,'kJ/mol'),
-        S298 = (21.9088,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 945,
-    label = "Cs-HHN3sN3s-HHHO2s-H_2448",
-    group = 
-"""
-1  * Cs  u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
-2    N3s u0 p1 c0 {1,S} {4,S} {7,S}
-3    N3s u0 p1 c0 {1,S} {8,S} {9,S}
-4    O2s u0 p2 c0 {2,S} {10,S}
-5    H   u0 p0 c0 {1,S}
-6    H   u0 p0 c0 {1,S}
-7    H   u0 p0 c0 {2,S}
-8    H   u0 p0 c0 {3,S}
-9    H   u0 p0 c0 {3,S}
-10   H   u0 p0 c0 {4,S}
 """,
     thermo = None,
     shortDesc = """""",
@@ -20194,47 +13857,15 @@ entry(
 )
 
 entry(
-    index = 946,
-    label = "Cs-HHN3sN3s-HHHO2s_2449",
+    index = 681,
+    label = "Cs-(HHN3sO2s)",
     group = 
 """
 1 * Cs  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2   N3s u0 p1 c0 {1,S} {6,S} {7,S}
-3   N3s u0 p1 c0 {1,S} {8,S} {9,S}
+2   O2s u0 p2 c0 {1,S}
+3   N3s u0 p1 c0 {1,S}
 4   H   u0 p0 c0 {1,S}
 5   H   u0 p0 c0 {1,S}
-6   O2s u0 p2 c0 {2,S}
-7   H   u0 p0 c0 {2,S}
-8   H   u0 p0 c0 {3,S}
-9   H   u0 p0 c0 {3,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-1.30263,-1.16064,-0.960533,-0.765894,-0.34646,-0.0899165,0.160491],'J/(mol*K)'),
-        H298 = (8.41588,'kJ/mol'),
-        S298 = (0.989072,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 947,
-    label = "Cs-HHN3sO2s-HHO2s-H_2437",
-    group = 
-"""
-1 * Cs  u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
-2   N3s u0 p1 c0 {1,S} {7,S} {8,S}
-3   O2s u0 p2 c0 {1,S} {4,S}
-4   O2s u0 p2 c0 {3,S} {9,S}
-5   H   u0 p0 c0 {1,S}
-6   H   u0 p0 c0 {1,S}
-7   H   u0 p0 c0 {2,S}
-8   H   u0 p0 c0 {2,S}
-9   H   u0 p0 c0 {4,S}
 """,
     thermo = None,
     shortDesc = """""",
@@ -20245,75 +13876,15 @@ entry(
 )
 
 entry(
-    index = 948,
-    label = "Cs-HHN3sO2s-HHO2s_2438",
+    index = 682,
+    label = "Cs-(CtHHN3s)",
     group = 
 """
 1 * Cs  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2   N3s u0 p1 c0 {1,S} {6,S} {7,S}
-3   O2s u0 p2 c0 {1,S} {8,S}
+2   N3s u0 p1 c0 {1,S}
+3   Ct  u0 p0 c0 {1,S}
 4   H   u0 p0 c0 {1,S}
 5   H   u0 p0 c0 {1,S}
-6   H   u0 p0 c0 {2,S}
-7   H   u0 p0 c0 {2,S}
-8   O2s u0 p2 c0 {3,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-6.51365,-7.61292,-9.04875,-10.8165,-12.9314,-14.8647,-18.6039],'J/(mol*K)'),
-        H298 = (39.9042,'kJ/mol'),
-        S298 = (-47.2173,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 949,
-    label = "Cs-CtHHN3s-HHN3t_2381",
-    group = 
-"""
-1 * Cs  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2   N3s u0 p1 c0 {1,S} {6,S} {7,S}
-3   Ct  u0 p0 c0 {1,S} {8,T}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {1,S}
-6   H   u0 p0 c0 {2,S}
-7   H   u0 p0 c0 {2,S}
-8   N3t u0 p1 c0 {3,T}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([13.7601,16.0467,18.2386,20.0761,23.0713,25.4457,29.0337],'J/(mol*K)'),
-        H298 = (11.6587,'kJ/mol'),
-        S298 = (67.8014,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 950,
-    label = "Cs-CsHHN3s-HHHHO2s-H_2373",
-    group = 
-"""
-1  * Cs  u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
-2    Cs  u0 p0 c0 {1,S} {4,S} {7,S} {8,S}
-3    N3s u0 p1 c0 {1,S} {9,S} {10,S}
-4    O2s u0 p2 c0 {2,S} {11,S}
-5    H   u0 p0 c0 {1,S}
-6    H   u0 p0 c0 {1,S}
-7    H   u0 p0 c0 {2,S}
-8    H   u0 p0 c0 {2,S}
-9    H   u0 p0 c0 {3,S}
-10   H   u0 p0 c0 {3,S}
-11   H   u0 p0 c0 {4,S}
 """,
     thermo = None,
     shortDesc = """""",
@@ -20324,91 +13895,7 @@ entry(
 )
 
 entry(
-    index = 951,
-    label = "Cs-CsHHN3s-HHHHO2s_2374",
-    group = 
-"""
-1  * Cs  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2    Cs  u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
-3    N3s u0 p1 c0 {1,S} {9,S} {10,S}
-4    H   u0 p0 c0 {1,S}
-5    H   u0 p0 c0 {1,S}
-6    O2s u0 p2 c0 {2,S}
-7    H   u0 p0 c0 {2,S}
-8    H   u0 p0 c0 {2,S}
-9    H   u0 p0 c0 {3,S}
-10   H   u0 p0 c0 {3,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([17.1204,22.3388,26.2511,29.2681,33.7948,36.9353,42.4755],'J/(mol*K)'),
-        H298 = (-93.9913,'kJ/mol'),
-        S298 = (34.9441,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 952,
-    label = "Cs-CsHHN3s-HHHHN3s-HH_2329",
-    group = 
-"""
-1    Cs  u0 p0 c0 {2,S} {4,S} {7,S} {8,S}
-2  * Cs  u0 p0 c0 {1,S} {3,S} {5,S} {6,S}
-3    N3s u0 p1 c0 {2,S} {9,S} {10,S}
-4    N3s u0 p1 c0 {1,S} {11,S} {12,S}
-5    H   u0 p0 c0 {2,S}
-6    H   u0 p0 c0 {2,S}
-7    H   u0 p0 c0 {1,S}
-8    H   u0 p0 c0 {1,S}
-9    H   u0 p0 c0 {3,S}
-10   H   u0 p0 c0 {3,S}
-11   H   u0 p0 c0 {4,S}
-12   H   u0 p0 c0 {4,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 953,
-    label = "Cs-CsHHN3s-HHHHN3s_2330",
-    group = 
-"""
-1  * Cs  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2    Cs  u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
-3    N3s u0 p1 c0 {1,S} {9,S} {10,S}
-4    H   u0 p0 c0 {1,S}
-5    H   u0 p0 c0 {1,S}
-6    N3s u0 p1 c0 {2,S}
-7    H   u0 p0 c0 {2,S}
-8    H   u0 p0 c0 {2,S}
-9    H   u0 p0 c0 {3,S}
-10   H   u0 p0 c0 {3,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([25.1727,32.3417,38.3867,43.5417,51.8468,57.8716,68.1522],'J/(mol*K)'),
-        H298 = (-18.9914,'kJ/mol'),
-        S298 = (54.133,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 954,
+    index = 683,
     label = "Cs-N3sCsCsCs",
     group = 
 """
@@ -20432,7 +13919,7 @@ entry(
 )
 
 entry(
-    index = 955,
+    index = 684,
     label = "Cs-N3sCsCsH",
     group = 
 """
@@ -20456,1093 +13943,21 @@ entry(
 )
 
 entry(
-    index = 956,
-    label = "Cs-CtHHN3s-CtHH_3237",
-    group = 
-"""
-1 * Cs  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2   N3s u0 p1 c0 {1,S} {6,S} {7,S}
-3   Ct  u0 p0 c0 {1,S} {8,T}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {1,S}
-6   H   u0 p0 c0 {2,S}
-7   H   u0 p0 c0 {2,S}
-8   Ct  u0 p0 c0 {3,T}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 957,
-    label = "Cs-CtHHN3s-CtHH-H_3236",
-    group = 
-"""
-1 * Cs  u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
-2   N3s u0 p1 c0 {1,S} {7,S} {8,S}
-3   Ct  u0 p0 c0 {1,S} {4,T}
-4   Ct  u0 p0 c0 {3,T} {9,S}
-5   H   u0 p0 c0 {1,S}
-6   H   u0 p0 c0 {1,S}
-7   H   u0 p0 c0 {2,S}
-8   H   u0 p0 c0 {2,S}
-9   H   u0 p0 c0 {4,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 958,
-    label = "Cs-CtHHN3s_2382",
-    group = 
-"""
-1 * Cs  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2   N3s u0 p1 c0 {1,S}
-3   Ct  u0 p0 c0 {1,S}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([6.85806,10.2486,12.9889,15.4851,19.6383,22.4585,26.4753],'J/(mol*K)'),
-        H298 = (12.5627,'kJ/mol'),
-        S298 = (-1.14104,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 959,
-    label = "Cs-HHN3sN3s-HHHH_3127",
-    group = 
-"""
-1 * Cs  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2   N3s u0 p1 c0 {1,S} {6,S} {7,S}
-3   N3s u0 p1 c0 {1,S} {8,S} {9,S}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {1,S}
-6   H   u0 p0 c0 {2,S}
-7   H   u0 p0 c0 {2,S}
-8   H   u0 p0 c0 {3,S}
-9   H   u0 p0 c0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 960,
-    label = "Cs-HHN3sN3s_2450",
-    group = 
-"""
-1 * Cs  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2   N3s u0 p1 c0 {1,S}
-3   N3s u0 p1 c0 {1,S}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-0.44189,-1.06903,-1.78915,-2.42206,-3.35663,-3.97512,-4.66783],'J/(mol*K)'),
-        H298 = (-29.7855,'kJ/mol'),
-        S298 = (15.7973,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 961,
-    label = "Cs-HHN3dN3s-HHN3d_3102",
-    group = 
-"""
-1 * Cs  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2   N3s u0 p1 c0 {1,S} {6,S} {7,S}
-3   N3d u0 p1 c0 {1,S} {8,D}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {1,S}
-6   H   u0 p0 c0 {2,S}
-7   H   u0 p0 c0 {2,S}
-8   N3d u0 p1 c0 {3,D}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 962,
-    label = "Cs-HHN3dN3s-HHN3d-H_3101",
-    group = 
-"""
-1 * Cs  u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
-2   N3s u0 p1 c0 {1,S} {7,S} {8,S}
-3   N3d u0 p1 c0 {1,S} {4,D}
-4   N3d u0 p1 c0 {3,D} {9,S}
-5   H   u0 p0 c0 {1,S}
-6   H   u0 p0 c0 {1,S}
-7   H   u0 p0 c0 {2,S}
-8   H   u0 p0 c0 {2,S}
-9   H   u0 p0 c0 {4,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([9.76754,11.7456,13.6136,15.2015,17.8052,19.7814,22.8127],'J/(mol*K)'),
-        H298 = (43.3461,'kJ/mol'),
-        S298 = (42.6724,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 963,
-    label = "Cs-HHN3dN3s-HHO2d_3096",
-    group = 
-"""
-1 * Cs  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2   N3s u0 p1 c0 {1,S} {6,S} {7,S}
-3   N3d u0 p1 c0 {1,S} {8,D}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {1,S}
-6   H   u0 p0 c0 {2,S}
-7   H   u0 p0 c0 {2,S}
-8   O2d u0 p2 c0 {3,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([21.6398,24.0963,26.3819,28.6353,32.0301,34.4582,38.2649],'J/(mol*K)'),
-        H298 = (58.1635,'kJ/mol'),
-        S298 = (86.2628,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 964,
-    label = "Cs-CsHHN3s-HHHHO2s_3061",
-    group = 
-"""
-1  * Cs  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2    Cs  u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
-3    N3s u0 p1 c0 {1,S} {9,S} {10,S}
-4    H   u0 p0 c0 {1,S}
-5    H   u0 p0 c0 {1,S}
-6    H   u0 p0 c0 {2,S}
-7    H   u0 p0 c0 {2,S}
-8    H   u0 p0 c0 {2,S}
-9    O2s u0 p2 c0 {3,S}
-10   H   u0 p0 c0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 965,
-    label = "Cs-CsHHN3s-HHHHO2s-H_3060",
-    group = 
-"""
-1  * Cs  u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
-2    Cs  u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
-3    N3s u0 p1 c0 {1,S} {4,S} {10,S}
-4    O2s u0 p2 c0 {3,S} {11,S}
-5    H   u0 p0 c0 {1,S}
-6    H   u0 p0 c0 {1,S}
-7    H   u0 p0 c0 {2,S}
-8    H   u0 p0 c0 {2,S}
-9    H   u0 p0 c0 {2,S}
-10   H   u0 p0 c0 {3,S}
-11   H   u0 p0 c0 {4,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([14.215,17.8587,20.8203,23.1407,26.7525,29.4518,33.8933],'J/(mol*K)'),
-        H298 = (-18.6283,'kJ/mol'),
-        S298 = (34.0026,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 966,
-    label = "Cs-HHHN3s-HO2s-Cs_3013",
-    group = 
-"""
-1 * Cs  u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
-2   N3s u0 p1 c0 {1,S} {3,S} {7,S}
-3   O2s u0 p2 c0 {2,S} {8,S}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {1,S}
-6   H   u0 p0 c0 {1,S}
-7   H   u0 p0 c0 {2,S}
-8   Cs  u0 p0 c0 {3,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([10.6501,13.6906,17.2101,20.7141,27.0268,31.5793,38.3466],'J/(mol*K)'),
-        H298 = (-48.4806,'kJ/mol'),
-        S298 = (50.1498,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 967,
-    label = "Cs-HHHN3s-HN3d_2821",
-    group = 
-"""
-1 * Cs  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2   N3s u0 p1 c0 {1,S} {6,S} {7,S}
-3   H   u0 p0 c0 {1,S}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {1,S}
-6   N3d u0 p1 c0 {2,S}
-7   H   u0 p0 c0 {2,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 968,
-    label = "Cs-HHHN3s-HN3d-N5dc_3272",
-    group = 
-"""
-1 * Cs   u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
-2   N3s  u0 p1 c0 {1,S} {3,S} {7,S}
-3   N3d  u0 p1 c0 {2,S} {8,D}
-4   H    u0 p0 c0 {1,S}
-5   H    u0 p0 c0 {1,S}
-6   H    u0 p0 c0 {1,S}
-7   H    u0 p0 c0 {2,S}
-8   N5dc u0 p0 c+1 {3,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([1.96879,2.52056,3.50479,4.39423,5.40771,6.29692,7.83371],'J/(mol*K)'),
-        H298 = (-0.532108,'kJ/mol'),
-        S298 = (-6.08449,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 969,
-    label = "Cs-HHHN3s-HN3d-N3d_2869",
-    group = 
-"""
-1 * Cs  u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
-2   N3s u0 p1 c0 {1,S} {3,S} {7,S}
-3   N3d u0 p1 c0 {2,S} {8,D}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {1,S}
-6   H   u0 p0 c0 {1,S}
-7   H   u0 p0 c0 {2,S}
-8   N3d u0 p1 c0 {3,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([7.81045,9.34079,10.8595,12.4422,15.2075,16.7942,19.1493],'J/(mol*K)'),
-        H298 = (19.4167,'kJ/mol'),
-        S298 = (16.764,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 970,
-    label = "Cs-HHHN3s-HN3d-Cd_2820",
-    group = 
-"""
-1 * Cs  u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
-2   N3s u0 p1 c0 {1,S} {3,S} {7,S}
-3   N3d u0 p1 c0 {2,S} {8,D}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {1,S}
-6   H   u0 p0 c0 {1,S}
-7   H   u0 p0 c0 {2,S}
-8   Cd  u0 p0 c0 {3,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([14.9157,18.685,21.8284,24.4375,28.685,32.065,37.1388],'J/(mol*K)'),
-        H298 = (31.5808,'kJ/mol'),
-        S298 = (62.122,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 971,
-    label = "Cs-HHHN3s-CdH-HN5dc_2697",
-    group = 
-"""
-1 * Cs   u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
-2   N3s  u0 p1 c0 {1,S} {3,S} {7,S}
-3   Cd   u0 p0 c0 {2,S} {8,D} {9,S}
-4   H    u0 p0 c0 {1,S}
-5   H    u0 p0 c0 {1,S}
-6   H    u0 p0 c0 {1,S}
-7   H    u0 p0 c0 {2,S}
-8   N5dc u0 p0 c+1 {3,D}
-9   H    u0 p0 c0 {3,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([10.6459,13.0672,15.8921,18.6146,22.8118,25.7925,30.7819],'J/(mol*K)'),
-        H298 = (-5.20065,'kJ/mol'),
-        S298 = (23.8778,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 972,
-    label = "Cs-HHHN3s-CtH_2646",
-    group = 
-"""
-1 * Cs  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2   N3s u0 p1 c0 {1,S} {6,S} {7,S}
-3   H   u0 p0 c0 {1,S}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {1,S}
-6   Ct  u0 p0 c0 {2,S}
-7   H   u0 p0 c0 {2,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 973,
-    label = "Cs-HHHN3s-CtH-Ct_3002",
-    group = 
-"""
-1 * Cs  u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
-2   N3s u0 p1 c0 {1,S} {3,S} {7,S}
-3   Ct  u0 p0 c0 {2,S} {8,T}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {1,S}
-6   H   u0 p0 c0 {1,S}
-7   H   u0 p0 c0 {2,S}
-8   Ct  u0 p0 c0 {3,T}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([13.5166,15.2405,16.9819,18.5729,20.9653,22.7072,25.0906],'J/(mol*K)'),
-        H298 = (67.2378,'kJ/mol'),
-        S298 = (50.6005,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 974,
-    label = "Cs-HHHN3s-CtH-N3t_2675",
-    group = 
-"""
-1 * Cs  u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
-2   N3s u0 p1 c0 {1,S} {3,S} {7,S}
-3   Ct  u0 p0 c0 {2,S} {8,T}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {1,S}
-6   H   u0 p0 c0 {1,S}
-7   H   u0 p0 c0 {2,S}
-8   N3t u0 p1 c0 {3,T}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-4.1834,-3.10743,-2.22638,-1.53205,0.108161,1.45505,4.16656],'J/(mol*K)'),
-        H298 = (-76.5352,'kJ/mol'),
-        S298 = (-22.7,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 975,
-    label = "Cs-HHHN3s-CtH-N5tc_2645",
-    group = 
-"""
-1 * Cs   u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
-2   N3s  u0 p1 c0 {1,S} {3,S} {7,S}
-3   Ct   u0 p0 c0 {2,S} {8,T}
-4   H    u0 p0 c0 {1,S}
-5   H    u0 p0 c0 {1,S}
-6   H    u0 p0 c0 {1,S}
-7   H    u0 p0 c0 {2,S}
-8   N5tc u0 p0 c+1 {3,T}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([4.29309,6.29736,8.02443,9.55582,12.1917,14.2664,17.6602],'J/(mol*K)'),
-        H298 = (-20.5567,'kJ/mol'),
-        S298 = (4.63777,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 976,
-    label = "Cs-HHHN3s-HO2s-H_2620",
-    group = 
-"""
-1 * Cs  u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
-2   N3s u0 p1 c0 {1,S} {3,S} {7,S}
-3   O2s u0 p2 c0 {2,S} {8,S}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {1,S}
-6   H   u0 p0 c0 {1,S}
-7   H   u0 p0 c0 {2,S}
-8   H   u0 p0 c0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 977,
-    label = "Cs-HHHN3s-HO2s_2474",
-    group = 
-"""
-1 * Cs  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2   N3s u0 p1 c0 {1,S} {6,S} {7,S}
-3   H   u0 p0 c0 {1,S}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {1,S}
-6   O2s u0 p2 c0 {2,S}
-7   H   u0 p0 c0 {2,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([20.9492,25.5586,29.9373,33.8031,40.4804,45.6959,53.8167],'J/(mol*K)'),
-        H298 = (-68.4003,'kJ/mol'),
-        S298 = (112.24,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 978,
-    label = "Cs-HHN3sO2s-HHO2s_2589",
-    group = 
-"""
-1 * Cs  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2   N3s u0 p1 c0 {1,S} {6,S} {7,S}
-3   O2s u0 p2 c0 {1,S} {8,S}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {1,S}
-6   O2s u0 p2 c0 {2,S}
-7   H   u0 p0 c0 {2,S}
-8   H   u0 p0 c0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 979,
-    label = "Cs-HHN3sO2s-HHO2s-H_2588",
-    group = 
-"""
-1 * Cs  u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
-2   N3s u0 p1 c0 {1,S} {4,S} {7,S}
-3   O2s u0 p2 c0 {1,S} {8,S}
-4   O2s u0 p2 c0 {2,S} {9,S}
-5   H   u0 p0 c0 {1,S}
-6   H   u0 p0 c0 {1,S}
-7   H   u0 p0 c0 {2,S}
-8   H   u0 p0 c0 {3,S}
-9   H   u0 p0 c0 {4,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-7.54177,-8.96344,-10.3034,-11.551,-13.6459,-15.233,-17.8756],'J/(mol*K)'),
-        H298 = (-65.0263,'kJ/mol'),
-        S298 = (-15.5893,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 980,
-    label = "Cs-N3s-Cs_2551",
-    group = 
-"""
-1   N3s u0 p1 c0 {2,S} {3,S}
-2 * Cs  u0 p0 c0 {1,S}
-3   Cs  u0 p0 c0 {1,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 981,
-    label = "Cs-HHHN3s-CsO2s_3193",
-    group = 
-"""
-1 * Cs  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2   N3s u0 p1 c0 {1,S} {6,S} {7,S}
-3   H   u0 p0 c0 {1,S}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {1,S}
-6   Cs  u0 p0 c0 {2,S}
-7   O2s u0 p2 c0 {2,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 982,
-    label = "Cs-HHHN3s-CsO2s-HHHH_3192",
-    group = 
-"""
-1  * Cs  u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
-2    Cs  u0 p0 c0 {3,S} {8,S} {9,S} {10,S}
-3    N3s u0 p1 c0 {1,S} {2,S} {4,S}
-4    O2s u0 p2 c0 {3,S} {11,S}
-5    H   u0 p0 c0 {1,S}
-6    H   u0 p0 c0 {1,S}
-7    H   u0 p0 c0 {1,S}
-8    H   u0 p0 c0 {2,S}
-9    H   u0 p0 c0 {2,S}
-10   H   u0 p0 c0 {2,S}
-11   H   u0 p0 c0 {4,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([22.0381,27.7439,33.2103,38.1916,46.4858,53.4713,64.8984],'J/(mol*K)'),
-        H298 = (-66.1171,'kJ/mol'),
-        S298 = (120.064,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 983,
-    label = "Cs-N3s-Cs-CsHH_3109",
-    group = 
-"""
-1   Cs  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2   N3s u0 p1 c0 {1,S} {6,S}
-3   Cs  u0 p0 c0 {1,S}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {1,S}
-6 * Cs  u0 p0 c0 {2,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([21.6648,27.6474,33.4012,38.9921,48.4963,55.2543,66.5174],'J/(mol*K)'),
-        H298 = (-39.9109,'kJ/mol'),
-        S298 = (58.8551,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 984,
-    label = "Cs-CsHHN3s-CsHHHH_3108",
-    group = 
-"""
-1  * Cs  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2    Cs  u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
-3    N3s u0 p1 c0 {1,S} {9,S} {10,S}
-4    H   u0 p0 c0 {1,S}
-5    H   u0 p0 c0 {1,S}
-6    H   u0 p0 c0 {2,S}
-7    H   u0 p0 c0 {2,S}
-8    H   u0 p0 c0 {2,S}
-9    Cs  u0 p0 c0 {3,S}
-10   H   u0 p0 c0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 985,
-    label = "Cs-CsHHN3s-CsHHHH-HHH_3107",
-    group = 
-"""
-1  * Cs  u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
-2    Cs  u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
-3    Cs  u0 p0 c0 {4,S} {10,S} {11,S} {12,S}
-4    N3s u0 p1 c0 {1,S} {3,S} {13,S}
-5    H   u0 p0 c0 {1,S}
-6    H   u0 p0 c0 {1,S}
-7    H   u0 p0 c0 {2,S}
-8    H   u0 p0 c0 {2,S}
-9    H   u0 p0 c0 {2,S}
-10   H   u0 p0 c0 {3,S}
-11   H   u0 p0 c0 {3,S}
-12   H   u0 p0 c0 {3,S}
-13   H   u0 p0 c0 {4,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([21.6648,27.6474,33.4012,38.9921,48.4963,55.2543,66.5174],'J/(mol*K)'),
-        H298 = (-39.9109,'kJ/mol'),
-        S298 = (58.8551,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 986,
-    label = "Cs-HHHN3s-CsH_3040",
-    group = 
-"""
-1 * Cs  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2   N3s u0 p1 c0 {1,S} {6,S} {7,S}
-3   H   u0 p0 c0 {1,S}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {1,S}
-6   Cs  u0 p0 c0 {2,S}
-7   H   u0 p0 c0 {2,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 987,
-    label = "Cs-N3s-Cs-HHO2s_2569",
-    group = 
-"""
-1   Cs  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2   N3s u0 p1 c0 {1,S} {6,S}
-3   O2s u0 p2 c0 {1,S}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {1,S}
-6 * Cs  u0 p0 c0 {2,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([9.54678,12.0107,14.5818,16.9879,20.5168,23.2713,27.7814],'J/(mol*K)'),
-        H298 = (-45.1714,'kJ/mol'),
-        S298 = (32.3143,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 988,
-    label = "Cs-N3s-Cs-HHN3s_2550",
-    group = 
-"""
-1   Cs  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2   N3s u0 p1 c0 {1,S} {6,S}
-3   N3s u0 p1 c0 {1,S}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {1,S}
-6 * Cs  u0 p0 c0 {2,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([9.78358,12.4966,15.2556,17.7225,21.6683,24.6732,29.2509],'J/(mol*K)'),
-        H298 = (-11.2772,'kJ/mol'),
-        S298 = (21.9088,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 989,
-    label = "Cs-HHHN3s-CsH-HHH_3039",
-    group = 
-"""
-1  * Cs  u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
-2    Cs  u0 p0 c0 {3,S} {7,S} {8,S} {9,S}
-3    N3s u0 p1 c0 {1,S} {2,S} {10,S}
-4    H   u0 p0 c0 {1,S}
-5    H   u0 p0 c0 {1,S}
-6    H   u0 p0 c0 {1,S}
-7    H   u0 p0 c0 {2,S}
-8    H   u0 p0 c0 {2,S}
-9    H   u0 p0 c0 {2,S}
-10   H   u0 p0 c0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 990,
-    label = "Cs-N3s-Cs-HHH_3024",
-    group = 
-"""
-1   Cs  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2   N3s u0 p1 c0 {1,S} {6,S}
-3   H   u0 p0 c0 {1,S}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {1,S}
-6 * Cs  u0 p0 c0 {2,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([25.4373,31.9148,38.1975,44.146,54.2783,62.2897,75.5221],'J/(mol*K)'),
-        H298 = (-41.3457,'kJ/mol'),
-        S298 = (108.049,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 991,
-    label = "Cs-HHN3sO2s-CsHH_2568",
-    group = 
-"""
-1 * Cs  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2   N3s u0 p1 c0 {1,S} {6,S} {7,S}
-3   O2s u0 p2 c0 {1,S} {8,S}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {1,S}
-6   Cs  u0 p0 c0 {2,S}
-7   H   u0 p0 c0 {2,S}
-8   H   u0 p0 c0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 992,
-    label = "Cs-HHN3sO2s-CsHH-HHH_2567",
-    group = 
-"""
-1  * Cs  u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
-2    Cs  u0 p0 c0 {3,S} {7,S} {8,S} {9,S}
-3    N3s u0 p1 c0 {1,S} {2,S} {10,S}
-4    O2s u0 p2 c0 {1,S} {11,S}
-5    H   u0 p0 c0 {1,S}
-6    H   u0 p0 c0 {1,S}
-7    H   u0 p0 c0 {2,S}
-8    H   u0 p0 c0 {2,S}
-9    H   u0 p0 c0 {2,S}
-10   H   u0 p0 c0 {3,S}
-11   H   u0 p0 c0 {4,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([9.54678,12.0107,14.5818,16.9879,20.5168,23.2713,27.7814],'J/(mol*K)'),
-        H298 = (-45.1714,'kJ/mol'),
-        S298 = (32.3143,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 993,
-    label = "Cs-Cs-HHN3d_2407",
-    group = 
-"""
-1   Cs  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2 * Cs  u0 p0 c0 {1,S}
-3   N3d u0 p1 c0 {1,S}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([6.92913,10.5251,14.4934,18.3519,24.9643,29.3529,36.092],'J/(mol*K)'),
-        H298 = (-7.85167,'kJ/mol'),
-        S298 = (9.84169,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 994,
-    label = "Cs-Cs-HHN3s_2332",
-    group = 
-"""
-1   Cs  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2 * Cs  u0 p0 c0 {1,S}
-3   N3s u0 p1 c0 {1,S}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([29.2452,35.708,42.426,48.897,59.932,68.3288,80.3655],'J/(mol*K)'),
-        H298 = (-31.5325,'kJ/mol'),
-        S298 = (130.421,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 995,
-    label = "Cs-CsCsHH-HHHHHN3s_2959",
-    group = 
-"""
-1  * Cs  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2    Cs  u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
-3    Cs  u0 p0 c0 {1,S} {9,S} {10,S} {11,S}
-4    H   u0 p0 c0 {1,S}
-5    H   u0 p0 c0 {1,S}
-6    N3s u0 p1 c0 {2,S}
-7    H   u0 p0 c0 {2,S}
-8    H   u0 p0 c0 {2,S}
-9    H   u0 p0 c0 {3,S}
-10   H   u0 p0 c0 {3,S}
-11   H   u0 p0 c0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 996,
-    label = "Cs-CsCsHH-HHHHHN3s-HH_2958",
-    group = 
-"""
-1  * Cs  u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
-2    Cs  u0 p0 c0 {1,S} {4,S} {7,S} {8,S}
-3    Cs  u0 p0 c0 {1,S} {9,S} {10,S} {11,S}
-4    N3s u0 p1 c0 {2,S} {12,S} {13,S}
-5    H   u0 p0 c0 {1,S}
-6    H   u0 p0 c0 {1,S}
-7    H   u0 p0 c0 {2,S}
-8    H   u0 p0 c0 {2,S}
-9    H   u0 p0 c0 {3,S}
-10   H   u0 p0 c0 {3,S}
-11   H   u0 p0 c0 {3,S}
-12   H   u0 p0 c0 {4,S}
-13   H   u0 p0 c0 {4,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([21.6321,27.2817,32.655,37.5064,45.3109,51.0487,59.8145],'J/(mol*K)'),
-        H298 = (-9.29235,'kJ/mol'),
-        S298 = (55.5147,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 997,
-    label = "Cs-N3d_2322",
-    group = 
-"""
-1   N3d u0 p1 c0 {2,S}
-2 * Cs  u0 p0 c0 {1,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 998,
-    label = "Cs-(N3dOd)CsCsCs",
+    index = 685,
+    label = "Cs-N3sCsHH",
     group = 
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   N3d u0 {1,S} {6,D}
+2   N3s u0 {1,S}
 3   Cs  u0 {1,S}
-4   Cs  u0 {1,S}
-5   Cs  u0 {1,S}
-6   O2d u0 {2,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([12.2,13.3,14,14.5,15.3,15.7,16.2],'cal/(mol*K)','+|-',[1,1,1,1,1,1,1]),
-        H298 = (24.1,'kcal/mol','+|-',1.3),
-        S298 = (1.2,'cal/(mol*K)','+|-',1.2),
-    ),
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 999,
-    label = "Cs-(N3dOd)CsCsH",
-    group = 
-"""
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   N3d u0 {1,S} {6,D}
-3   Cs  u0 {1,S}
-4   Cs  u0 {1,S}
+4   H   u0 {1,S}
 5   H   u0 {1,S}
-6   O2d u0 {2,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([11.2,12.7,14,15.1,16.8,17.9,19.5],'cal/(mol*K)','+|-',[1,1,1,1,1,1,1]),
-        H298 = (23.4,'kcal/mol','+|-',1.3),
-        S298 = (23.1,'cal/(mol*K)','+|-',1.2),
+        Cpdata = ([5.25,6.9,8.28,9.39,11.09,12.34,14.8],'cal/(mol*K)'),
+        H298 = (-6.6,'kcal/mol'),
+        S298 = (9.8,'cal/(mol*K)'),
     ),
     shortDesc = """""",
     longDesc = 
@@ -21552,8 +13967,110 @@ entry(
 )
 
 entry(
-    index = 1000,
-    label = "Cs-HHN3dO2s_3277",
+    index = 686,
+    label = "Cs-N3sHHH",
+    group = 
+"""
+1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+2   N3s u0 {1,S}
+3   H   u0 {1,S}
+4   H   u0 {1,S}
+5   H   u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([6.19,7.84,9.4,10.79,13.02,14.77,17.58],'cal/(mol*K)'),
+        H298 = (-10.08,'kcal/mol'),
+        S298 = (30.41,'cal/(mol*K)'),
+    ),
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 687,
+    label = "Cs-(HHN1scO2s)",
+    group = 
+"""
+1 * Cs   u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2   O2s  u0 p2 c0 {1,S}
+3   N1sc u0 p2 c-1 {1,S}
+4   H    u0 p0 c0 {1,S}
+5   H    u0 p0 c0 {1,S}
+""",
+    thermo = None,
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 688,
+    label = "Cs-(N5sc)",
+    group = 
+"""
+1   [N5sc,N5dc] u0 {2,S}
+2 * Cs   u0 {1,S}
+""",
+    thermo = None,
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 689,
+    label = "Cs-(HHHN5dc)",
+    group = 
+"""
+1 * Cs          u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2   [N5sc,N5dc] u0 p0 c+1 {1,S}
+3   H           u0 p0 c0 {1,S}
+4   H           u0 p0 c0 {1,S}
+5   H           u0 p0 c0 {1,S}
+""",
+    thermo = None,
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 690,
+    label = "Cs-N5dcN5dcCsCs",
+    group = 
+"""
+1 * Cs          u0 {2,S} {3,S} {4,S} {5,S}
+2   [N5sc,N5dc] u0 {1,S}
+3   N5dc        u0 {1,S}
+4   Cs          u0 {1,S}
+5   Cs          u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (0,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
+    ),
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 691,
+    label = "Cs-(HHN3dO2s)",
     group = 
 """
 1 * Cs  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -21571,355 +14088,15 @@ entry(
 )
 
 entry(
-    index = 1001,
-    label = "Cs-HHN3dO2s-HN3d_3284",
+    index = 692,
+    label = "Cs-NHHH",
     group = 
 """
-1 * Cs  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2   O2s u0 p2 c0 {1,S} {6,S}
-3   N3d u0 p1 c0 {1,S} {7,D}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {1,S}
-6   H   u0 p0 c0 {2,S}
-7   N3d u0 p1 c0 {3,D}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1002,
-    label = "Cs-HHN3dO2s-HN3d-H_3283",
-    group = 
-"""
-1 * Cs  u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
-2   N3d u0 p1 c0 {1,S} {4,D}
-3   O2s u0 p2 c0 {1,S} {7,S}
-4   N3d u0 p1 c0 {2,D} {8,S}
-5   H   u0 p0 c0 {1,S}
-6   H   u0 p0 c0 {1,S}
-7   H   u0 p0 c0 {3,S}
-8   H   u0 p0 c0 {4,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([10.4224,13.7572,16.6148,18.9882,22.7946,25.5638,29.5548],'J/(mol*K)'),
-        H298 = (-20.8336,'kJ/mol'),
-        S298 = (28.423,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1003,
-    label = "Cs-HHN3dO2s-HO2d_3276",
-    group = 
-"""
-1 * Cs  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2   O2s u0 p2 c0 {1,S} {6,S}
-3   N3d u0 p1 c0 {1,S} {7,D}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {1,S}
-6   H   u0 p0 c0 {2,S}
-7   O2d u0 p2 c0 {3,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([18.2787,20.7572,22.7382,24.6286,27.4554,29.3273,31.7972],'J/(mol*K)'),
-        H298 = (-18.5224,'kJ/mol'),
-        S298 = (81.7257,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1004,
-    label = "Cs-CsHHN3d-HHHN5dc_3169",
-    group = 
-"""
-1 * Cs   u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2   Cs   u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
-3   N3d  u0 p1 c0 {1,S} {9,D}
-4   H    u0 p0 c0 {1,S}
-5   H    u0 p0 c0 {1,S}
-6   H    u0 p0 c0 {2,S}
-7   H    u0 p0 c0 {2,S}
-8   H    u0 p0 c0 {2,S}
-9   N5dc u0 p0 c+1 {3,D}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1005,
-    label = "Cs-CsHHN3d-HHHN5dc-HO0sc_3168",
-    group = 
-"""
-1  * Cs   u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
-2    Cs   u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
-3    N5dc u0 p0 c+1 {4,D} {10,S} {11,S}
-4    N3d  u0 p1 c0 {1,S} {3,D}
-5    H    u0 p0 c0 {1,S}
-6    H    u0 p0 c0 {1,S}
-7    H    u0 p0 c0 {2,S}
-8    H    u0 p0 c0 {2,S}
-9    H    u0 p0 c0 {2,S}
-10   O0sc u0 p3 c-1 {3,S}
-11   H    u0 p0 c0 {3,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([18.3099,21.249,24.237,27.1002,31.3546,33.967,38.2889],'J/(mol*K)'),
-        H298 = (-4.53702,'kJ/mol'),
-        S298 = (54.3248,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1006,
-    label = "Cs-HHHN3d-N5dc_3029",
-    group = 
-"""
-1 * Cs   u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2   N3d  u0 p1 c0 {1,S} {6,D}
-3   H    u0 p0 c0 {1,S}
-4   H    u0 p0 c0 {1,S}
-5   H    u0 p0 c0 {1,S}
-6   N5dc u0 p0 c+1 {2,D}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1007,
-    label = "Cs-HHHN3d-N5dc-HO0sc_3028",
-    group = 
-"""
-1 * Cs   u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
-2   N5dc u0 p0 c+1 {3,D} {7,S} {8,S}
-3   N3d  u0 p1 c0 {1,S} {2,D}
-4   H    u0 p0 c0 {1,S}
-5   H    u0 p0 c0 {1,S}
-6   H    u0 p0 c0 {1,S}
-7   O0sc u0 p3 c-1 {2,S}
-8   H    u0 p0 c0 {2,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([3.72015,4.50356,5.39381,6.21671,7.8792,9.48776,11.9032],'J/(mol*K)'),
-        H298 = (14.6834,'kJ/mol'),
-        S298 = (32.3194,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1008,
-    label = "Cs-HHHN3d-O2d_2925",
-    group = 
-"""
-1 * Cs  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2   N3d u0 p1 c0 {1,S} {6,D}
-3   H   u0 p0 c0 {1,S}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {1,S}
-6   O2d u0 p2 c0 {2,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([17.7967,20.5815,23.1522,25.5224,29.3911,32.302,36.7705],'J/(mol*K)'),
-        H298 = (35.7795,'kJ/mol'),
-        S298 = (83.0184,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1009,
-    label = "Cs-HHHN3d-Cdd_2623",
-    group = 
-"""
-1 * Cs  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2   N3d u0 p1 c0 {1,S} {6,D}
-3   H   u0 p0 c0 {1,S}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {1,S}
-6   Cdd u0 p0 c0 {2,D}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1010,
-    label = "Cs-HHHN3d-Cdd-Cd_3049",
-    group = 
-"""
-1 * Cs  u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
-2   N3d u0 p1 c0 {1,S} {3,D}
-3   Cdd u0 p0 c0 {2,D} {7,D}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {1,S}
-6   H   u0 p0 c0 {1,S}
-7   Cd  u0 p0 c0 {3,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([19.2062,23.1189,26.5749,29.6038,34.5494,38.2704,43.9257],'J/(mol*K)'),
-        H298 = (46.9489,'kJ/mol'),
-        S298 = (69.9188,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1011,
-    label = "Cs-HHHN3d-Cdd-N5dc_3046",
-    group = 
-"""
-1 * Cs   u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
-2   N3d  u0 p1 c0 {1,S} {3,D}
-3   Cdd  u0 p0 c0 {2,D} {7,D}
-4   H    u0 p0 c0 {1,S}
-5   H    u0 p0 c0 {1,S}
-6   H    u0 p0 c0 {1,S}
-7   N5dc u0 p0 c+1 {3,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([6.50313,8.00654,9.78244,11.4201,14.194,16.3843,19.7867],'J/(mol*K)'),
-        H298 = (-25.8009,'kJ/mol'),
-        S298 = (12.7532,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1012,
-    label = "Cs-HHHN3d-Cdd-O2d_2650",
-    group = 
-"""
-1 * Cs  u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
-2   N3d u0 p1 c0 {1,S} {3,D}
-3   Cdd u0 p0 c0 {2,D} {7,D}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {1,S}
-6   H   u0 p0 c0 {1,S}
-7   O2d u0 p2 c0 {3,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([2.85524,4.5838,6.61605,8.39847,11.407,13.7712,17.2907],'J/(mol*K)'),
-        H298 = (-53.0765,'kJ/mol'),
-        S298 = (11.4672,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1013,
-    label = "Cs-HHHN3d-Cdd-N3d_2622",
-    group = 
-"""
-1 * Cs  u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
-2   N3d u0 p1 c0 {1,S} {3,D}
-3   Cdd u0 p0 c0 {2,D} {7,D}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {1,S}
-6   H   u0 p0 c0 {1,S}
-7   N3d u0 p1 c0 {3,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([1.68742,2.1569,3.2255,4.46256,6.49496,7.77419,10.1456],'J/(mol*K)'),
-        H298 = (-54.4886,'kJ/mol'),
-        S298 = (-0.347888,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1014,
-    label = "Cs-N3d-Cd_2492",
-    group = 
-"""
-1   N3d u0 p1 c0 {2,S} {3,D}
-2 * Cs  u0 p0 c0 {1,S}
-3   Cd  u0 p0 c0 {1,D}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1015,
-    label = "Cs-N3dCsCsCs",
-    group = 
-"""
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   N3d u0 {1,S}
-3   Cs  u0 {1,S}
-4   Cs  u0 {1,S}
-5   Cs  u0 {1,S}
+1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+2   N  u0 {1,S}
+3   H  u0 {1,S}
+4   H  u0 {1,S}
+5   H  u0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -21935,14 +14112,14 @@ entry(
 )
 
 entry(
-    index = 1016,
-    label = "Cs-N3dCsCsH",
+    index = 693,
+    label = "Cs-N3dHHH",
     group = 
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
 2   N3d u0 {1,S}
-3   Cs  u0 {1,S}
-4   Cs  u0 {1,S}
+3   H   u0 {1,S}
+4   H   u0 {1,S}
 5   H   u0 {1,S}
 """,
     thermo = ThermoData(
@@ -21959,223 +14136,7 @@ entry(
 )
 
 entry(
-    index = 1017,
-    label = "Cs-CsHHN3d-CdHHH_3217",
-    group = 
-"""
-1 * Cs  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2   Cs  u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
-3   N3d u0 p1 c0 {1,S} {9,D}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {1,S}
-6   H   u0 p0 c0 {2,S}
-7   H   u0 p0 c0 {2,S}
-8   H   u0 p0 c0 {2,S}
-9   Cd  u0 p0 c0 {3,D}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1018,
-    label = "Cs-CsHHN3d-CdHHH-HH_3216",
-    group = 
-"""
-1  * Cs  u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
-2    Cs  u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
-3    Cd  u0 p0 c0 {4,D} {10,S} {11,S}
-4    N3d u0 p1 c0 {1,S} {3,D}
-5    H   u0 p0 c0 {1,S}
-6    H   u0 p0 c0 {1,S}
-7    H   u0 p0 c0 {2,S}
-8    H   u0 p0 c0 {2,S}
-9    H   u0 p0 c0 {2,S}
-10   H   u0 p0 c0 {3,S}
-11   H   u0 p0 c0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1019,
-    label = "Cs-(N3dCd)CsHH",
-    group = 
-"""
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   N3d u0 {1,S} {6,D}
-3   Cs  u0 {1,S}
-4   H   u0 {1,S}
-5   H   u0 {1,S}
-6   Cd  u0 {2,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([5.3,7.2,8.7,9.8,11.6,12.8,14.7],'cal/(mol*K)','+|-',[1.2,1.2,1.2,1.2,1.2,1.2,1.2]),
-        H298 = (-2.9,'kcal/mol','+|-',1.7),
-        S298 = (8.6,'cal/(mol*K)','+|-',1.6),
-    ),
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1020,
-    label = "Cs-N3dCHH",
-    group = 
-"""
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   N3d u0 {1,S}
-3   Cs  u0 {1,S}
-4   H   u0 {1,S}
-5   H   u0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([22.3291,28.4749,33.5737,37.476,43.7306,49.0436,57.4389],'J/(mol*K)'),
-        H298 = (-8.04536,'kJ/mol'),
-        S298 = (76.0037,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1021,
-    label = "Cs-HHHN3d-Cd_2769",
-    group = 
-"""
-1 * Cs  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2   N3d u0 p1 c0 {1,S} {6,D}
-3   H   u0 p0 c0 {1,S}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {1,S}
-6   Cd  u0 p0 c0 {2,D}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1022,
-    label = "Cs-N3d-Cd-Cs_2491",
-    group = 
-"""
-1   N3d u0 p1 c0 {2,D} {3,S}
-2   Cd  u0 p0 c0 {1,D} {4,S}
-3 * Cs  u0 p0 c0 {1,S}
-4   Cs  u0 p0 c0 {2,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([29.7562,37.5653,44.7556,51.4031,62.4057,70.6315,83.3091],'J/(mol*K)'),
-        H298 = (-34.7626,'kJ/mol'),
-        S298 = (93.844,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1023,
-    label = "Cs-HHHN3d-Cd-HO2s_3176",
-    group = 
-"""
-1 * Cs  u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
-2   Cd  u0 p0 c0 {3,D} {7,S} {8,S}
-3   N3d u0 p1 c0 {1,S} {2,D}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {1,S}
-6   H   u0 p0 c0 {1,S}
-7   O2s u0 p2 c0 {2,S}
-8   H   u0 p0 c0 {2,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([14.7916,17.9556,20.7124,23.0396,26.8096,29.7403,34.0463],'J/(mol*K)'),
-        H298 = (-108.747,'kJ/mol'),
-        S298 = (62.161,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1024,
-    label = "Cs-HHHN3d-Cd-HN3s_3149",
-    group = 
-"""
-1 * Cs  u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
-2   Cd  u0 p0 c0 {3,D} {7,S} {8,S}
-3   N3d u0 p1 c0 {1,S} {2,D}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {1,S}
-6   H   u0 p0 c0 {1,S}
-7   N3s u0 p1 c0 {2,S}
-8   H   u0 p0 c0 {2,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([18.3339,22.3595,25.7654,28.7013,33.5821,37.4794,43.584],'J/(mol*K)'),
-        H298 = (-14.345,'kJ/mol'),
-        S298 = (64.5034,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1025,
-    label = "Cs-HHHN3d-Cd-HH_2768",
-    group = 
-"""
-1 * Cs  u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
-2   Cd  u0 p0 c0 {3,D} {7,S} {8,S}
-3   N3d u0 p1 c0 {1,S} {2,D}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {1,S}
-6   H   u0 p0 c0 {1,S}
-7   H   u0 p0 c0 {2,S}
-8   H   u0 p0 c0 {2,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1026,
+    index = 694,
     label = "Cs-(N3dCd)HHH",
     group = 
 """
@@ -22200,219 +14161,7 @@ entry(
 )
 
 entry(
-    index = 1027,
-    label = "Cs-N3dHHH",
-    group = 
-"""
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   N3d u0 {1,S}
-3   H   u0 {1,S}
-4   H   u0 {1,S}
-5   H   u0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([29.2764,35.9891,42.4476,48.2655,57.8422,65.1115,76.2527],'J/(mol*K)'),
-        H298 = (-5.6676,'kJ/mol'),
-        S298 = (125.648,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1028,
-    label = "Cs-CsHHN3d-HHHO2d_2422",
-    group = 
-"""
-1 * Cs  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2   Cs  u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
-3   N3d u0 p1 c0 {1,S} {9,D}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {1,S}
-6   H   u0 p0 c0 {2,S}
-7   H   u0 p0 c0 {2,S}
-8   H   u0 p0 c0 {2,S}
-9   O2d u0 p2 c0 {3,D}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1029,
-    label = "Cs-(N3dOd)CHH",
-    group = 
-"""
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   N3d u0 {1,S} {6,D}
-3   Cs  u0 {1,S}
-4   H   u0 {1,S}
-5   H   u0 {1,S}
-6   O2d u0 {2,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([11.8,13.6,15.2,16.7,18.9,20.5,23],'cal/(mol*K)','+|-',[1,1,1,1,1,1,1]),
-        H298 = (21.4,'kcal/mol','+|-',1.3),
-        S298 = (44.3,'cal/(mol*K)','+|-',1.2),
-    ),
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1030,
-    label = "Cs-N3d-N3d_2321",
-    group = 
-"""
-1   N3d u0 p1 c0 {2,S} {3,D}
-2 * Cs  u0 p0 c0 {1,S}
-3   N3d u0 p1 c0 {1,D}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1031,
-    label = "Cs-(N3dN3d)CsCsCs",
-    group = 
-"""
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   N3d u0 {1,S} {6,D}
-3   Cs  u0 {1,S}
-4   Cs  u0 {1,S}
-5   Cs  u0 {1,S}
-6   N3d u0 {2,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
-        H298 = (-1.9,'kcal/mol'),
-        S298 = (-34.7,'cal/(mol*K)'),
-    ),
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1032,
-    label = "Cs-(N3dN3d)CsCsH",
-    group = 
-"""
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   N3d u0 {1,S} {6,D}
-3   Cs  u0 {1,S}
-4   Cs  u0 {1,S}
-5   H   u0 {1,S}
-6   N3d u0 {2,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
-        H298 = (-3.3,'kcal/mol'),
-        S298 = (-11.7,'cal/(mol*K)'),
-    ),
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1033,
-    label = "Cs-HHHN3d-N3d-N3s_3295",
-    group = 
-"""
-1 * Cs  u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
-2   N3d u0 p1 c0 {1,S} {3,D}
-3   N3d u0 p1 c0 {2,D} {7,S}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {1,S}
-6   H   u0 p0 c0 {1,S}
-7   N3s u0 p1 c0 {3,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([30.7231,38.2636,45.0391,50.7256,59.8182,66.6244,77.2531],'J/(mol*K)'),
-        H298 = (1.76222,'kJ/mol'),
-        S298 = (122.733,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1034,
-    label = "Cs-HHHN3d-N3d-O2s_3255",
-    group = 
-"""
-1 * Cs  u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
-2   N3d u0 p1 c0 {1,S} {3,D}
-3   N3d u0 p1 c0 {2,D} {7,S}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {1,S}
-6   H   u0 p0 c0 {1,S}
-7   O2s u0 p2 c0 {3,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([11.8411,15.0993,18.1416,20.6852,24.6888,27.6491,32.2906],'J/(mol*K)'),
-        H298 = (-30.7139,'kJ/mol'),
-        S298 = (55.4146,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1035,
-    label = "Cs-HHHN3d-N3d-H_2913",
-    group = 
-"""
-1 * Cs  u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
-2   N3d u0 p1 c0 {1,S} {3,D}
-3   N3d u0 p1 c0 {2,D} {7,S}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {1,S}
-6   H   u0 p0 c0 {1,S}
-7   H   u0 p0 c0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1036,
+    index = 695,
     label = "Cs-(N3dN3d)HHH",
     group = 
 """
@@ -22437,21 +14186,22 @@ entry(
 )
 
 entry(
-    index = 1037,
-    label = "Cs-CsHHN3d-HHHN3d_2405",
+    index = 696,
+    label = "Cs-NCsHH",
     group = 
 """
-1 * Cs  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2   Cs  u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
-3   N3d u0 p1 c0 {1,S} {9,D}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {1,S}
-6   H   u0 p0 c0 {2,S}
-7   H   u0 p0 c0 {2,S}
-8   H   u0 p0 c0 {2,S}
-9   N3d u0 p1 c0 {3,D}
+1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+2   N  u0 {1,S}
+3   Cs u0 {1,S}
+4   H  u0 {1,S}
+5   H  u0 {1,S}
 """,
-    thermo = None,
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (0,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
+    ),
     shortDesc = """""",
     longDesc = 
 """
@@ -22460,22 +14210,22 @@ entry(
 )
 
 entry(
-    index = 1038,
-    label = "Cs-CsHHN3d-HHHN3d-H_2404",
+    index = 697,
+    label = "Cs-N3dCHH",
     group = 
 """
-1  * Cs  u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
-2    Cs  u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
-3    N3d u0 p1 c0 {1,S} {4,D}
-4    N3d u0 p1 c0 {3,D} {10,S}
-5    H   u0 p0 c0 {1,S}
-6    H   u0 p0 c0 {1,S}
-7    H   u0 p0 c0 {2,S}
-8    H   u0 p0 c0 {2,S}
-9    H   u0 p0 c0 {2,S}
-10   H   u0 p0 c0 {4,S}
+1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+2   N3d u0 {1,S}
+3   Cs  u0 {1,S}
+4   H   u0 {1,S}
+5   H   u0 {1,S}
 """,
-    thermo = None,
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (0,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
+    ),
     shortDesc = """""",
     longDesc = 
 """
@@ -22484,7 +14234,7 @@ entry(
 )
 
 entry(
-    index = 1039,
+    index = 698,
     label = "Cs-(N3dN3d)CsHH",
     group = 
 """
@@ -22509,65 +14259,22 @@ entry(
 )
 
 entry(
-    index = 1040,
-    label = "Cs-N3d-N3d-Cs_2320",
+    index = 699,
+    label = "Cs-(N3dOd)CHH",
     group = 
 """
-1   N3d u0 p1 c0 {2,D} {3,S}
-2   N3d u0 p1 c0 {1,D} {4,S}
-3 * Cs  u0 p0 c0 {1,S}
-4   Cs  u0 p0 c0 {2,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1041,
-    label = "Cs-HHHN3d-N3d-Cs_2319",
-    group = 
-"""
-1 * Cs  u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
-2   N3d u0 p1 c0 {1,S} {3,D}
-3   N3d u0 p1 c0 {2,D} {7,S}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {1,S}
-6   H   u0 p0 c0 {1,S}
-7   Cs  u0 p0 c0 {3,S}
+1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+2   N3d u0 {1,S} {6,D}
+3   Cs  u0 {1,S}
+4   H   u0 {1,S}
+5   H   u0 {1,S}
+6   O2d u0 {2,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([25.2508,32.8745,40.4906,46.9925,57.3871,64.957,77.2934],'J/(mol*K)'),
-        H298 = (-36.1125,'kJ/mol'),
-        S298 = (103.921,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1042,
-    label = "Cs-NHHH",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   N  u0 {1,S}
-3   H  u0 {1,S}
-4   H  u0 {1,S}
-5   H  u0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
-        H298 = (0,'kcal/mol'),
-        S298 = (0,'cal/(mol*K)'),
+        Cpdata = ([11.8,13.6,15.2,16.7,18.9,20.5,23],'cal/(mol*K)','+|-',[1,1,1,1,1,1,1]),
+        H298 = (21.4,'kcal/mol','+|-',1.3),
+        S298 = (44.3,'cal/(mol*K)','+|-',1.2),
     ),
     shortDesc = """""",
     longDesc = 
@@ -22577,163 +14284,22 @@ entry(
 )
 
 entry(
-    index = 1043,
-    label = "Cs-HHHN5dc_2753",
+    index = 700,
+    label = "Cs-(N3dCd)CsHH",
     group = 
 """
-1 * Cs   u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2   N5dc u0 p0 c+1 {1,S}
-3   H    u0 p0 c0 {1,S}
-4   H    u0 p0 c0 {1,S}
-5   H    u0 p0 c0 {1,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1044,
-    label = "Cs-HHHN5dc-N3dO0sc_3128",
-    group = 
-"""
-1 * Cs   u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2   N5dc u0 p0 c+1 {1,S} {6,S} {7,D}
-3   H    u0 p0 c0 {1,S}
-4   H    u0 p0 c0 {1,S}
-5   H    u0 p0 c0 {1,S}
-6   O0sc u0 p3 c-1 {2,S}
-7   N3d  u0 p1 c0 {2,D}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1045,
-    label = "Cs-HHHN5dc-N3dO0sc-H_3127",
-    group = 
-"""
-1 * Cs   u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
-2   N5dc u0 p0 c+1 {1,S} {3,D} {7,S}
-3   N3d  u0 p1 c0 {2,D} {8,S}
-4   H    u0 p0 c0 {1,S}
-5   H    u0 p0 c0 {1,S}
-6   H    u0 p0 c0 {1,S}
-7   O0sc u0 p3 c-1 {2,S}
-8   H    u0 p0 c0 {3,S}
+1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+2   N3d u0 {1,S} {6,D}
+3   Cs  u0 {1,S}
+4   H   u0 {1,S}
+5   H   u0 {1,S}
+6   Cd  u0 {2,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([11.8381,14.4698,16.8987,19.0001,22.3301,24.7275,28.2093],'J/(mol*K)'),
-        H298 = (34.9969,'kJ/mol'),
-        S298 = (50.2677,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1046,
-    label = "Cs-HHHN5dc-O0scO2d_2927",
-    group = 
-"""
-1 * Cs   u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2   N5dc u0 p0 c+1 {1,S} {6,S} {7,D}
-3   H    u0 p0 c0 {1,S}
-4   H    u0 p0 c0 {1,S}
-5   H    u0 p0 c0 {1,S}
-6   O0sc u0 p3 c-1 {2,S}
-7   O2d  u0 p2 c0 {2,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([5.80169,6.63887,7.25896,7.75257,8.53674,9.11878,9.96266],'J/(mol*K)'),
-        H298 = (-40.9331,'kJ/mol'),
-        S298 = (27.0946,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1047,
-    label = "Cs-HHHN5dc-CdO0sc_2752",
-    group = 
-"""
-1 * Cs   u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2   N5dc u0 p0 c+1 {1,S} {6,S} {7,D}
-3   H    u0 p0 c0 {1,S}
-4   H    u0 p0 c0 {1,S}
-5   H    u0 p0 c0 {1,S}
-6   O0sc u0 p3 c-1 {2,S}
-7   Cd   u0 p0 c0 {2,D}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1048,
-    label = "Cs-HHHN5dc-CdO0sc-HH_2751",
-    group = 
-"""
-1 * Cs   u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
-2   N5dc u0 p0 c+1 {1,S} {3,D} {7,S}
-3   Cd   u0 p0 c0 {2,D} {8,S} {9,S}
-4   H    u0 p0 c0 {1,S}
-5   H    u0 p0 c0 {1,S}
-6   H    u0 p0 c0 {1,S}
-7   O0sc u0 p3 c-1 {2,S}
-8   H    u0 p0 c0 {3,S}
-9   H    u0 p0 c0 {3,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([3.25448,4.43038,5.46892,6.437,8.1104,9.44422,11.4461],'J/(mol*K)'),
-        H298 = (14.6418,'kJ/mol'),
-        S298 = (7.75157,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1049,
-    label = "Cs-NCsHH",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   N  u0 {1,S}
-3   Cs u0 {1,S}
-4   H  u0 {1,S}
-5   H  u0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
-        H298 = (0,'kcal/mol'),
-        S298 = (0,'cal/(mol*K)'),
+        Cpdata = ([5.3,7.2,8.7,9.8,11.6,12.8,14.7],'cal/(mol*K)','+|-',[1.2,1.2,1.2,1.2,1.2,1.2,1.2]),
+        H298 = (-2.9,'kcal/mol','+|-',1.7),
+        S298 = (8.6,'cal/(mol*K)','+|-',1.6),
     ),
     shortDesc = """""",
     longDesc = 
@@ -22743,15 +14309,15 @@ entry(
 )
 
 entry(
-    index = 1050,
+    index = 701,
     label = "Cs-N5dcCsHH",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
-2   N5dc u0 {1,S}
-3   Cs   u0 {1,S}
-4   H    u0 {1,S}
-5   H    u0 {1,S}
+1 * Cs          u0 {2,S} {3,S} {4,S} {5,S}
+2   [N5sc,N5dc] u0 {1,S}
+3   Cs          u0 {1,S}
+4   H           u0 {1,S}
+5   H           u0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -22767,7 +14333,7 @@ entry(
 )
 
 entry(
-    index = 1051,
+    index = 702,
     label = "Cs-(N5dcOdOs)CsHH",
     group = 
 """
@@ -22793,7 +14359,7 @@ entry(
 )
 
 entry(
-    index = 1052,
+    index = 703,
     label = "Cs-NCsCsH",
     group = 
 """
@@ -22817,15 +14383,15 @@ entry(
 )
 
 entry(
-    index = 1053,
-    label = "Cs-N5dcCsCsH",
+    index = 704,
+    label = "Cs-N3dCsCsH",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
-2   N5dc u0 {1,S}
-3   Cs   u0 {1,S}
-4   Cs   u0 {1,S}
-5   H    u0 {1,S}
+1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+2   N3d u0 {1,S}
+3   Cs  u0 {1,S}
+4   Cs  u0 {1,S}
+5   H   u0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -22841,7 +14407,81 @@ entry(
 )
 
 entry(
-    index = 1054,
+    index = 705,
+    label = "Cs-(N3dOd)CsCsH",
+    group = 
+"""
+1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+2   N3d u0 {1,S} {6,D}
+3   Cs  u0 {1,S}
+4   Cs  u0 {1,S}
+5   H   u0 {1,S}
+6   O2d u0 {2,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([11.2,12.7,14,15.1,16.8,17.9,19.5],'cal/(mol*K)','+|-',[1,1,1,1,1,1,1]),
+        H298 = (23.4,'kcal/mol','+|-',1.3),
+        S298 = (23.1,'cal/(mol*K)','+|-',1.2),
+    ),
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 706,
+    label = "Cs-(N3dN3d)CsCsH",
+    group = 
+"""
+1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+2   N3d u0 {1,S} {6,D}
+3   Cs  u0 {1,S}
+4   Cs  u0 {1,S}
+5   H   u0 {1,S}
+6   N3d u0 {2,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (-3.3,'kcal/mol'),
+        S298 = (-11.7,'cal/(mol*K)'),
+    ),
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 707,
+    label = "Cs-N5dcCsCsH",
+    group = 
+"""
+1 * Cs          u0 {2,S} {3,S} {4,S} {5,S}
+2   [N5sc,N5dc] u0 {1,S}
+3   Cs          u0 {1,S}
+4   Cs          u0 {1,S}
+5   H           u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (0,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
+    ),
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 708,
     label = "Cs-(N5dcOdOs)CsCsH",
     group = 
 """
@@ -22867,7 +14507,7 @@ entry(
 )
 
 entry(
-    index = 1055,
+    index = 709,
     label = "Cs-NCsCsCs",
     group = 
 """
@@ -22891,15 +14531,15 @@ entry(
 )
 
 entry(
-    index = 1056,
-    label = "Cs-N5dcCsCsCs",
+    index = 710,
+    label = "Cs-N3dCsCsCs",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
-2   N5dc u0 {1,S}
-3   Cs   u0 {1,S}
-4   Cs   u0 {1,S}
-5   Cs   u0 {1,S}
+1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+2   N3d u0 {1,S}
+3   Cs  u0 {1,S}
+4   Cs  u0 {1,S}
+5   Cs  u0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -22915,7 +14555,81 @@ entry(
 )
 
 entry(
-    index = 1057,
+    index = 711,
+    label = "Cs-(N3dOd)CsCsCs",
+    group = 
+"""
+1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+2   N3d u0 {1,S} {6,D}
+3   Cs  u0 {1,S}
+4   Cs  u0 {1,S}
+5   Cs  u0 {1,S}
+6   O2d u0 {2,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([12.2,13.3,14,14.5,15.3,15.7,16.2],'cal/(mol*K)','+|-',[1,1,1,1,1,1,1]),
+        H298 = (24.1,'kcal/mol','+|-',1.3),
+        S298 = (1.2,'cal/(mol*K)','+|-',1.2),
+    ),
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 712,
+    label = "Cs-(N3dN3d)CsCsCs",
+    group = 
+"""
+1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+2   N3d u0 {1,S} {6,D}
+3   Cs  u0 {1,S}
+4   Cs  u0 {1,S}
+5   Cs  u0 {1,S}
+6   N3d u0 {2,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (-1.9,'kcal/mol'),
+        S298 = (-34.7,'cal/(mol*K)'),
+    ),
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 713,
+    label = "Cs-N5dcCsCsCs",
+    group = 
+"""
+1 * Cs          u0 {2,S} {3,S} {4,S} {5,S}
+2   [N5sc,N5dc] u0 {1,S}
+3   Cs          u0 {1,S}
+4   Cs          u0 {1,S}
+5   Cs          u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (0,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
+    ),
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 714,
     label = "Cs-(N5dcOdOs)CsCsCs",
     group = 
 """
@@ -22941,79 +14655,7 @@ entry(
 )
 
 entry(
-    index = 1058,
-    label = "Cs-NNCsCs",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   N  u0 {1,S}
-3   N  u0 {1,S}
-4   Cs u0 {1,S}
-5   Cs u0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
-        H298 = (0,'kcal/mol'),
-        S298 = (0,'cal/(mol*K)'),
-    ),
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1059,
-    label = "Cs-N5dcN5dcCsCs",
-    group = 
-"""
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
-2   N5dc u0 {1,S}
-3   N5dc u0 {1,S}
-4   Cs   u0 {1,S}
-5   Cs   u0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
-        H298 = (0,'kcal/mol'),
-        S298 = (0,'cal/(mol*K)'),
-    ),
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1060,
-    label = "Cs-NNCsH",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   N  u0 {1,S}
-3   N  u0 {1,S}
-4   Cs u0 {1,S}
-5   H  u0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
-        H298 = (0,'kcal/mol'),
-        S298 = (0,'cal/(mol*K)'),
-    ),
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1061,
+    index = 716,
     label = "Cs-(N5dcOdOs)(N5dcOdOs)CsH",
     group = 
 """
@@ -23041,7 +14683,7 @@ entry(
 )
 
 entry(
-    index = 1062,
+    index = 717,
     label = "Cs-HHHH",
     group = 
 """
@@ -23065,7 +14707,7 @@ entry(
 )
 
 entry(
-    index = 1063,
+    index = 718,
     label = "Cs-CHHH",
     group = 
 """
@@ -23084,7 +14726,7 @@ entry(
 )
 
 entry(
-    index = 1064,
+    index = 719,
     label = "Cs-CsHHH",
     group = 
 """
@@ -23108,7 +14750,7 @@ entry(
 )
 
 entry(
-    index = 1065,
+    index = 720,
     label = "Cs-CdsHHH",
     group = 
 """
@@ -23127,159 +14769,7 @@ entry(
 )
 
 entry(
-    index = 1066,
-    label = "Cs-CdHHH-HN5dc_2932",
-    group = 
-"""
-1 * Cs   u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2   Cd   u0 p0 c0 {1,S} {6,D} {7,S}
-3   H    u0 p0 c0 {1,S}
-4   H    u0 p0 c0 {1,S}
-5   H    u0 p0 c0 {1,S}
-6   N5dc u0 p0 c+1 {2,D}
-7   H    u0 p0 c0 {2,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1067,
-    label = "Cs-CdHHH-HN5dc-HO0sc_2931",
-    group = 
-"""
-1 * Cs   u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
-2   Cd   u0 p0 c0 {1,S} {3,D} {7,S}
-3   N5dc u0 p0 c+1 {2,D} {8,S} {9,S}
-4   H    u0 p0 c0 {1,S}
-5   H    u0 p0 c0 {1,S}
-6   H    u0 p0 c0 {1,S}
-7   H    u0 p0 c0 {2,S}
-8   O0sc u0 p3 c-1 {3,S}
-9   H    u0 p0 c0 {3,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([5.20208,5.03571,5.59113,6.57721,8.57135,9.79837,11.9162],'J/(mol*K)'),
-        H298 = (5.72755,'kJ/mol'),
-        S298 = (59.173,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1068,
-    label = "Cs-CdHHH-N3sN5dc_2844",
-    group = 
-"""
-1 * Cs   u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2   Cd   u0 p0 c0 {1,S} {6,S} {7,D}
-3   H    u0 p0 c0 {1,S}
-4   H    u0 p0 c0 {1,S}
-5   H    u0 p0 c0 {1,S}
-6   N3s  u0 p1 c0 {2,S}
-7   N5dc u0 p0 c+1 {2,D}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1069,
-    label = "Cs-CdHHH-N3sN5dc-HHHO0sc_2843",
-    group = 
-"""
-1  * Cs   u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
-2    Cd   u0 p0 c0 {1,S} {3,S} {4,D}
-3    N3s  u0 p1 c0 {2,S} {8,S} {9,S}
-4    N5dc u0 p0 c+1 {2,D} {10,S} {11,S}
-5    H    u0 p0 c0 {1,S}
-6    H    u0 p0 c0 {1,S}
-7    H    u0 p0 c0 {1,S}
-8    H    u0 p0 c0 {3,S}
-9    H    u0 p0 c0 {3,S}
-10   O0sc u0 p3 c-1 {4,S}
-11   H    u0 p0 c0 {4,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([1.68296,2.58961,2.75171,2.50937,1.84359,1.269,0.163639],'J/(mol*K)'),
-        H298 = (-9.90749,'kJ/mol'),
-        S298 = (-36.6898,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1070,
-    label = "Cs-CdHHH-CsN5dc_2825",
-    group = 
-"""
-1 * Cs   u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2   Cd   u0 p0 c0 {1,S} {6,S} {7,D}
-3   H    u0 p0 c0 {1,S}
-4   H    u0 p0 c0 {1,S}
-5   H    u0 p0 c0 {1,S}
-6   Cs   u0 p0 c0 {2,S}
-7   N5dc u0 p0 c+1 {2,D}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1071,
-    label = "Cs-CdHHH-CsN5dc-HHHHO0sc_2824",
-    group = 
-"""
-1  * Cs   u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
-2    Cs   u0 p0 c0 {3,S} {8,S} {9,S} {10,S}
-3    Cd   u0 p0 c0 {1,S} {2,S} {4,D}
-4    N5dc u0 p0 c+1 {3,D} {11,S} {12,S}
-5    H    u0 p0 c0 {1,S}
-6    H    u0 p0 c0 {1,S}
-7    H    u0 p0 c0 {1,S}
-8    H    u0 p0 c0 {2,S}
-9    H    u0 p0 c0 {2,S}
-10   H    u0 p0 c0 {2,S}
-11   O0sc u0 p3 c-1 {4,S}
-12   H    u0 p0 c0 {4,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([10.3947,13.8097,16.7646,19.3011,23.6578,27.4161,33.2124],'J/(mol*K)'),
-        H298 = (-18.1634,'kJ/mol'),
-        S298 = (30.6642,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1072,
+    index = 721,
     label = "Cs-(Cds-O2d)HHH",
     group = 
 """
@@ -23306,7 +14796,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 1073,
+    index = 722,
     label = "Cs-(Cds-Cd)HHH",
     group = 
 """
@@ -23326,7 +14816,7 @@ entry(
 )
 
 entry(
-    index = 1074,
+    index = 723,
     label = "Cs-(Cds-Cds)HHH",
     group = 
 """
@@ -23351,86 +14841,7 @@ entry(
 )
 
 entry(
-    index = 1075,
-    label = "Cs-CdHHH-CdN3s_2690",
-    group = 
-"""
-1 * Cs  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 p0 c0 {1,S} {6,S} {7,D}
-3   H   u0 p0 c0 {1,S}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {1,S}
-6   N3s u0 p1 c0 {2,S}
-7   Cd  u0 p0 c0 {2,D}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1076,
-    label = "Cs-CdHHH-CdN3s-HHHH_2689",
-    group = 
-"""
-1  * Cs  u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
-2    Cd  u0 p0 c0 {1,S} {3,S} {4,D}
-3    N3s u0 p1 c0 {2,S} {8,S} {9,S}
-4    Cd  u0 p0 c0 {2,D} {10,S} {11,S}
-5    H   u0 p0 c0 {1,S}
-6    H   u0 p0 c0 {1,S}
-7    H   u0 p0 c0 {1,S}
-8    H   u0 p0 c0 {3,S}
-9    H   u0 p0 c0 {3,S}
-10   H   u0 p0 c0 {4,S}
-11   H   u0 p0 c0 {4,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([19.8943,23.3021,26.7217,30.6035,37.5589,43.407,53.2006],'J/(mol*K)'),
-        H298 = (-0.746981,'kJ/mol'),
-        S298 = (149.853,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1077,
-    label = "Cs-CdHHH-CdH-HN3s_2666",
-    group = 
-"""
-1 * Cs  u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
-2   Cd  u0 p0 c0 {1,S} {3,D} {7,S}
-3   Cd  u0 p0 c0 {2,D} {8,S} {9,S}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {1,S}
-6   H   u0 p0 c0 {1,S}
-7   H   u0 p0 c0 {2,S}
-8   N3s u0 p1 c0 {3,S}
-9   H   u0 p0 c0 {3,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([14.3053,17.52,20.4449,22.9893,27.2155,30.3788,35.2285],'J/(mol*K)'),
-        H298 = (0.937504,'kJ/mol'),
-        S298 = (38.7291,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1078,
+    index = 724,
     label = "Cs-(Cds-Cdd)HHH",
     group = 
 """
@@ -23450,61 +14861,7 @@ entry(
 )
 
 entry(
-    index = 1079,
-    label = "Cs-CdHHH-CddH-N3d_2933",
-    group = 
-"""
-1 * Cs  u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
-2   Cd  u0 p0 c0 {1,S} {3,D} {7,S}
-3   Cdd u0 p0 c0 {2,D} {8,D}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {1,S}
-6   H   u0 p0 c0 {1,S}
-7   H   u0 p0 c0 {2,S}
-8   N3d u0 p1 c0 {3,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([16.0423,19.7265,22.9901,25.7923,30.2919,33.6791,38.7885],'J/(mol*K)'),
-        H298 = (20.2357,'kJ/mol'),
-        S298 = (57.7195,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1080,
-    label = "Cs-CdHHH-CddH-N5dc_2904",
-    group = 
-"""
-1 * Cs   u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
-2   Cd   u0 p0 c0 {1,S} {3,D} {7,S}
-3   Cdd  u0 p0 c0 {2,D} {8,D}
-4   H    u0 p0 c0 {1,S}
-5   H    u0 p0 c0 {1,S}
-6   H    u0 p0 c0 {1,S}
-7   H    u0 p0 c0 {2,S}
-8   N5dc u0 p0 c+1 {3,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([13.7199,17.2705,19.9956,22.368,26.6784,29.9531,34.4401],'J/(mol*K)'),
-        H298 = (-26.7896,'kJ/mol'),
-        S298 = (30.5383,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1081,
+    index = 725,
     label = "Cs-(Cds-Cdd-O2d)HHH",
     group = 
 """
@@ -23532,7 +14889,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 1082,
+    index = 726,
     label = "Cs-(Cds-Cdd-S2d)HHH",
     group = 
 """
@@ -23553,7 +14910,7 @@ entry(
 )
 
 entry(
-    index = 1083,
+    index = 727,
     label = "Cs-(Cds-Cdd-Cd)HHH",
     group = 
 """
@@ -23574,7 +14931,7 @@ entry(
 )
 
 entry(
-    index = 1084,
+    index = 728,
     label = "Cs-(CdN3d)HHH",
     group = 
 """
@@ -23599,237 +14956,7 @@ entry(
 )
 
 entry(
-    index = 1085,
-    label = "Cs-CdHHH-N3dN3s_3268",
-    group = 
-"""
-1 * Cs  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 p0 c0 {1,S} {6,S} {7,D}
-3   H   u0 p0 c0 {1,S}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {1,S}
-6   N3s u0 p1 c0 {2,S}
-7   N3d u0 p1 c0 {2,D}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1086,
-    label = "Cs-CdHHH-N3dN3s-HHH_3267",
-    group = 
-"""
-1  * Cs  u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
-2    Cd  u0 p0 c0 {1,S} {3,S} {4,D}
-3    N3s u0 p1 c0 {2,S} {8,S} {9,S}
-4    N3d u0 p1 c0 {2,D} {10,S}
-5    H   u0 p0 c0 {1,S}
-6    H   u0 p0 c0 {1,S}
-7    H   u0 p0 c0 {1,S}
-8    H   u0 p0 c0 {3,S}
-9    H   u0 p0 c0 {3,S}
-10   H   u0 p0 c0 {4,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([1.74654,2.09422,2.1342,2.12137,2.15958,2.28524,2.58515],'J/(mol*K)'),
-        H298 = (15.1852,'kJ/mol'),
-        S298 = (5.49384,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1087,
-    label = "Cs-CdHHH-HN3d_2490",
-    group = 
-"""
-1 * Cs  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 p0 c0 {1,S} {6,D} {7,S}
-3   H   u0 p0 c0 {1,S}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {1,S}
-6   N3d u0 p1 c0 {2,D}
-7   H   u0 p0 c0 {2,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1088,
-    label = "Cs-CdHHH-HN3d-O2s_2784",
-    group = 
-"""
-1 * Cs  u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
-2   Cd  u0 p0 c0 {1,S} {3,D} {7,S}
-3   N3d u0 p1 c0 {2,D} {8,S}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {1,S}
-6   H   u0 p0 c0 {1,S}
-7   H   u0 p0 c0 {2,S}
-8   O2s u0 p2 c0 {3,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([16.4684,20.4528,23.7885,26.7787,31.68,35.4926,41.2311],'J/(mol*K)'),
-        H298 = (-0.121229,'kJ/mol'),
-        S298 = (58.8703,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1089,
-    label = "Cs-CdHHH-HN3d-N3s_2720",
-    group = 
-"""
-1 * Cs  u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
-2   Cd  u0 p0 c0 {1,S} {3,D} {7,S}
-3   N3d u0 p1 c0 {2,D} {8,S}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {1,S}
-6   H   u0 p0 c0 {1,S}
-7   H   u0 p0 c0 {2,S}
-8   N3s u0 p1 c0 {3,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([16.7615,20.6137,24.176,27.3081,32.3735,36.2388,42.1224],'J/(mol*K)'),
-        H298 = (16.1476,'kJ/mol'),
-        S298 = (61.2261,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1090,
-    label = "Cs-CdHHH-HN3d-H_2585",
-    group = 
-"""
-1 * Cs  u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
-2   Cd  u0 p0 c0 {1,S} {3,D} {7,S}
-3   N3d u0 p1 c0 {2,D} {8,S}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {1,S}
-6   H   u0 p0 c0 {1,S}
-7   H   u0 p0 c0 {2,S}
-8   H   u0 p0 c0 {3,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([18.2442,23.3485,27.8779,31.918,38.5798,43.8071,51.7871],'J/(mol*K)'),
-        H298 = (12.8603,'kJ/mol'),
-        S298 = (82.0774,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1091,
-    label = "Cs-CdHHH-HN3d-Cs_2489",
-    group = 
-"""
-1 * Cs  u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
-2   Cd  u0 p0 c0 {1,S} {3,D} {7,S}
-3   N3d u0 p1 c0 {2,D} {8,S}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {1,S}
-6   H   u0 p0 c0 {1,S}
-7   H   u0 p0 c0 {2,S}
-8   Cs  u0 p0 c0 {3,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([29.7562,37.5653,44.7556,51.4031,62.4057,70.6315,83.3091],'J/(mol*K)'),
-        H298 = (-34.7626,'kJ/mol'),
-        S298 = (93.844,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1092,
-    label = "Cs-CdHHH-CsN3d_2366",
-    group = 
-"""
-1 * Cs  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 p0 c0 {1,S} {6,S} {7,D}
-3   H   u0 p0 c0 {1,S}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {1,S}
-6   Cs  u0 p0 c0 {2,S}
-7   N3d u0 p1 c0 {2,D}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1093,
-    label = "Cs-CdHHH-CsN3d-HHHH_2365",
-    group = 
-"""
-1  * Cs  u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
-2    Cs  u0 p0 c0 {3,S} {8,S} {9,S} {10,S}
-3    Cd  u0 p0 c0 {1,S} {2,S} {4,D}
-4    N3d u0 p1 c0 {3,D} {11,S}
-5    H   u0 p0 c0 {1,S}
-6    H   u0 p0 c0 {1,S}
-7    H   u0 p0 c0 {1,S}
-8    H   u0 p0 c0 {2,S}
-9    H   u0 p0 c0 {2,S}
-10   H   u0 p0 c0 {2,S}
-11   H   u0 p0 c0 {4,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([26.5358,33.1497,39.265,44.9459,53.8892,60.7193,71.6072],'J/(mol*K)'),
-        H298 = (-16.5499,'kJ/mol'),
-        S298 = (105.863,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1094,
+    index = 729,
     label = "Cs-CtHHH",
     group = 
 """
@@ -23853,79 +14980,7 @@ entry(
 )
 
 entry(
-    index = 1095,
-    label = "Cs-CtHHH-N5tc_2788",
-    group = 
-"""
-1 * Cs   u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2   Ct   u0 p0 c0 {1,S} {6,T}
-3   H    u0 p0 c0 {1,S}
-4   H    u0 p0 c0 {1,S}
-5   H    u0 p0 c0 {1,S}
-6   N5tc u0 p0 c+1 {2,T}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1096,
-    label = "Cs-CtHHH-N5tc-O0sc_2787",
-    group = 
-"""
-1 * Cs   u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
-2   Ct   u0 p0 c0 {1,S} {3,T}
-3   N5tc u0 p0 c+1 {2,T} {7,S}
-4   H    u0 p0 c0 {1,S}
-5   H    u0 p0 c0 {1,S}
-6   H    u0 p0 c0 {1,S}
-7   O0sc u0 p3 c-1 {3,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([4.33577,4.73734,5.66046,6.563,8.27455,10.1304,13.6486],'J/(mol*K)'),
-        H298 = (-30.0306,'kJ/mol'),
-        S298 = (54.9366,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1097,
-    label = "Cs-CtHHH-Ct-N3s_2454",
-    group = 
-"""
-1 * Cs  u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
-2   Ct  u0 p0 c0 {1,S} {3,T}
-3   Ct  u0 p0 c0 {2,T} {7,S}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {1,S}
-6   H   u0 p0 c0 {1,S}
-7   N3s u0 p1 c0 {3,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([10.9688,13.0121,15.4847,17.9404,22.0259,25.1449,29.8785],'J/(mol*K)'),
-        H298 = (12.4556,'kJ/mol'),
-        S298 = (36.7245,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1098,
+    index = 730,
     label = "Cs-(CtN3t)HHH",
     group = 
 """
@@ -23950,7 +15005,7 @@ entry(
 )
 
 entry(
-    index = 1099,
+    index = 731,
     label = "Cs-CbHHH",
     group = 
 """
@@ -23974,7 +15029,7 @@ entry(
 )
 
 entry(
-    index = 1100,
+    index = 732,
     label = "Cs-C=SHHH",
     group = 
 """
@@ -23999,7 +15054,7 @@ entry(
 )
 
 entry(
-    index = 1101,
+    index = 733,
     label = "Cs-OsHHH",
     group = 
 """
@@ -24025,283 +15080,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 1102,
-    label = "Cs-HHHO2s-Ct-N3t_3110",
-    group = 
-"""
-1 * Cs  u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
-2   O2s u0 p2 c0 {1,S} {3,S}
-3   Ct  u0 p0 c0 {2,S} {7,T}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {1,S}
-6   H   u0 p0 c0 {1,S}
-7   N3t u0 p1 c0 {3,T}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([2.03169,4.14843,6.06508,8.10314,11.1315,13.4927,17.6644],'J/(mol*K)'),
-        H298 = (-29.3113,'kJ/mol'),
-        S298 = (3.44713,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1103,
-    label = "Cs-HHHO2s-Cd-HN3d_3056",
-    group = 
-"""
-1 * Cs  u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
-2   Cd  u0 p0 c0 {3,S} {7,D} {8,S}
-3   O2s u0 p2 c0 {1,S} {2,S}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {1,S}
-6   H   u0 p0 c0 {1,S}
-7   N3d u0 p1 c0 {2,D}
-8   H   u0 p0 c0 {2,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([1.15352,1.92026,2.48485,2.96087,3.8384,4.6945,6.0196],'J/(mol*K)'),
-        H298 = (-11.5078,'kJ/mol'),
-        S298 = (3.30173,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1104,
-    label = "Cs-HHHO2s-Ct-N5tc_2828",
-    group = 
-"""
-1 * Cs   u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
-2   O2s  u0 p2 c0 {1,S} {3,S}
-3   Ct   u0 p0 c0 {2,S} {7,T}
-4   H    u0 p0 c0 {1,S}
-5   H    u0 p0 c0 {1,S}
-6   H    u0 p0 c0 {1,S}
-7   N5tc u0 p0 c+1 {3,T}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([4.13213,4.99498,7.28151,10.4191,16.4812,21.8362,30.6522],'J/(mol*K)'),
-        H298 = (12.273,'kJ/mol'),
-        S298 = (54.8619,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1105,
-    label = "Cs-HHHO2s-O2s-N3s_2805",
-    group = 
-"""
-1 * Cs  u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
-2   O2s u0 p2 c0 {1,S} {3,S}
-3   O2s u0 p2 c0 {2,S} {7,S}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {1,S}
-6   H   u0 p0 c0 {1,S}
-7   N3s u0 p1 c0 {3,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([11.5688,14.1548,17.1282,19.8567,24.3224,27.6796,32.6696],'J/(mol*K)'),
-        H298 = (-4.08422,'kJ/mol'),
-        S298 = (34.641,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1106,
-    label = "Cs-HHHO2s-Cd-HN5dc_2703",
-    group = 
-"""
-1 * Cs   u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
-2   Cd   u0 p0 c0 {3,S} {7,D} {8,S}
-3   O2s  u0 p2 c0 {1,S} {2,S}
-4   H    u0 p0 c0 {1,S}
-5   H    u0 p0 c0 {1,S}
-6   H    u0 p0 c0 {1,S}
-7   N5dc u0 p0 c+1 {2,D}
-8   H    u0 p0 c0 {2,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([13.023,15.1536,18.1236,21.3884,26.9581,31.1083,37.8123],'J/(mol*K)'),
-        H298 = (8.23193,'kJ/mol'),
-        S298 = (64.6303,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1107,
-    label = "Cs-HHHO2s-N1sc_2461",
-    group = 
-"""
-1 * Cs   u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2   O2s  u0 p2 c0 {1,S} {6,S}
-3   H    u0 p0 c0 {1,S}
-4   H    u0 p0 c0 {1,S}
-5   H    u0 p0 c0 {1,S}
-6   N1sc u0 p2 c-1 {2,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1108,
-    label = "Cs-HHHO2s-N1sc-N5dc_2460",
-    group = 
-"""
-1 * Cs   u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
-2   O2s  u0 p2 c0 {1,S} {3,S}
-3   N1sc u0 p2 c-1 {2,S} {7,S}
-4   H    u0 p0 c0 {1,S}
-5   H    u0 p0 c0 {1,S}
-6   H    u0 p0 c0 {1,S}
-7   N5dc u0 p0 c+1 {3,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([11.2827,13.1668,15.832,18.9309,24.2074,27.7668,33.246],'J/(mol*K)'),
-        H298 = (-73.159,'kJ/mol'),
-        S298 = (32.5181,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1109,
-    label = "Cs-HHHO2s-N3d_2392",
-    group = 
-"""
-1 * Cs  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2   O2s u0 p2 c0 {1,S} {6,S}
-3   H   u0 p0 c0 {1,S}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {1,S}
-6   N3d u0 p1 c0 {2,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1110,
-    label = "Cs-HHHO2s-N3d-Cd_3232",
-    group = 
-"""
-1 * Cs  u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
-2   O2s u0 p2 c0 {1,S} {3,S}
-3   N3d u0 p1 c0 {2,S} {7,D}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {1,S}
-6   H   u0 p0 c0 {1,S}
-7   Cd  u0 p0 c0 {3,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([17.9176,21.5901,25.0475,28.1963,33.3435,36.9439,42.3448],'J/(mol*K)'),
-        H298 = (3.6461,'kJ/mol'),
-        S298 = (69.5081,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1111,
-    label = "Cs-HHHO2s-N3d-O2d_2433",
-    group = 
-"""
-1 * Cs  u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
-2   O2s u0 p2 c0 {1,S} {3,S}
-3   N3d u0 p1 c0 {2,S} {7,D}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {1,S}
-6   H   u0 p0 c0 {1,S}
-7   O2d u0 p2 c0 {3,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([3.44255,5.67394,7.82516,9.53911,12.6477,14.873,18.9786],'J/(mol*K)'),
-        H298 = (-12.3179,'kJ/mol'),
-        S298 = (13.2512,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1112,
-    label = "Cs-HHHO2s-N3d-N3d_2391",
-    group = 
-"""
-1 * Cs  u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
-2   O2s u0 p2 c0 {1,S} {3,S}
-3   N3d u0 p1 c0 {2,S} {7,D}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {1,S}
-6   H   u0 p0 c0 {1,S}
-7   N3d u0 p1 c0 {3,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([2.91952,3.21064,3.643,4.10653,4.95241,5.67405,6.67764],'J/(mol*K)'),
-        H298 = (19.9903,'kJ/mol'),
-        S298 = (3.91766,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1113,
+    index = 734,
     label = "Cs-OsOsHH",
     group = 
 """
@@ -24327,7 +15106,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 1114,
+    index = 735,
     label = "Cs-OsOsOsH",
     group = 
 """
@@ -24351,7 +15130,7 @@ entry(
 )
 
 entry(
-    index = 1115,
+    index = 736,
     label = "Cs-OsSHH",
     group = 
 """
@@ -24370,7 +15149,7 @@ entry(
 )
 
 entry(
-    index = 1116,
+    index = 737,
     label = "Cs-OsS2HH",
     group = 
 """
@@ -24394,7 +15173,7 @@ entry(
 )
 
 entry(
-    index = 1117,
+    index = 738,
     label = "Cs-OsS4HH",
     group = 
 """
@@ -24418,7 +15197,7 @@ entry(
 )
 
 entry(
-    index = 1118,
+    index = 739,
     label = "Cs-OsSSH",
     group = 
 """
@@ -24437,7 +15216,7 @@ entry(
 )
 
 entry(
-    index = 1119,
+    index = 740,
     label = "Cs-OsS2S2H",
     group = 
 """
@@ -24461,7 +15240,7 @@ entry(
 )
 
 entry(
-    index = 1120,
+    index = 741,
     label = "Cs-OsS4S2H",
     group = 
 """
@@ -24485,7 +15264,7 @@ entry(
 )
 
 entry(
-    index = 1121,
+    index = 742,
     label = "Cs-OsOsSH",
     group = 
 """
@@ -24504,7 +15283,7 @@ entry(
 )
 
 entry(
-    index = 1122,
+    index = 743,
     label = "Cs-OsOsS2H",
     group = 
 """
@@ -24528,7 +15307,7 @@ entry(
 )
 
 entry(
-    index = 1123,
+    index = 744,
     label = "Cs-OsOsS4H",
     group = 
 """
@@ -24552,7 +15331,7 @@ entry(
 )
 
 entry(
-    index = 1124,
+    index = 745,
     label = "Cs-SsHHH",
     group = 
 """
@@ -24571,7 +15350,7 @@ entry(
 )
 
 entry(
-    index = 1125,
+    index = 746,
     label = "Cs-S2sHHH",
     group = 
 """
@@ -24595,7 +15374,7 @@ entry(
 )
 
 entry(
-    index = 1126,
+    index = 747,
     label = "Cs-S4HHH",
     group = 
 """
@@ -24619,7 +15398,7 @@ entry(
 )
 
 entry(
-    index = 1127,
+    index = 748,
     label = "Cs-S6HHH",
     group = 
 """
@@ -24643,7 +15422,7 @@ entry(
 )
 
 entry(
-    index = 1128,
+    index = 749,
     label = "Cs-SsSsHH",
     group = 
 """
@@ -24667,7 +15446,7 @@ entry(
 )
 
 entry(
-    index = 1129,
+    index = 750,
     label = "Cs-SsSsSsH",
     group = 
 """
@@ -24691,7 +15470,7 @@ entry(
 )
 
 entry(
-    index = 1130,
+    index = 751,
     label = "Cs-CCHH",
     group = 
 """
@@ -24710,7 +15489,7 @@ entry(
 )
 
 entry(
-    index = 1131,
+    index = 752,
     label = "Cs-CsCsHH",
     group = 
 """
@@ -24734,7 +15513,7 @@ entry(
 )
 
 entry(
-    index = 1132,
+    index = 753,
     label = "Cs-CdsCsHH",
     group = 
 """
@@ -24753,62 +15532,7 @@ entry(
 )
 
 entry(
-    index = 1133,
-    label = "Cs-CdCsHH-HHHHN5dc_2809",
-    group = 
-"""
-1  * Cs   u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2    Cs   u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
-3    Cd   u0 p0 c0 {1,S} {9,D} {10,S}
-4    H    u0 p0 c0 {1,S}
-5    H    u0 p0 c0 {1,S}
-6    H    u0 p0 c0 {2,S}
-7    H    u0 p0 c0 {2,S}
-8    H    u0 p0 c0 {2,S}
-9    N5dc u0 p0 c+1 {3,D}
-10   H    u0 p0 c0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1134,
-    label = "Cs-CdCsHH-HHHHN5dc-HO0sc_2808",
-    group = 
-"""
-1  * Cs   u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
-2    Cs   u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
-3    Cd   u0 p0 c0 {1,S} {4,D} {10,S}
-4    N5dc u0 p0 c+1 {3,D} {11,S} {12,S}
-5    H    u0 p0 c0 {1,S}
-6    H    u0 p0 c0 {1,S}
-7    H    u0 p0 c0 {2,S}
-8    H    u0 p0 c0 {2,S}
-9    H    u0 p0 c0 {2,S}
-10   H    u0 p0 c0 {3,S}
-11   O0sc u0 p3 c-1 {4,S}
-12   H    u0 p0 c0 {4,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([5.61,6.96821,8.33951,9.65085,11.6319,12.8199,14.7035],'J/(mol*K)'),
-        H298 = (7.84212,'kJ/mol'),
-        S298 = (-4.60235,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1135,
+    index = 754,
     label = "Cs-(Cds-O2d)CsHH",
     group = 
 """
@@ -24835,7 +15559,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 1136,
+    index = 755,
     label = "Cs-(Cds-Cd)CsHH",
     group = 
 """
@@ -24855,7 +15579,7 @@ entry(
 )
 
 entry(
-    index = 1137,
+    index = 756,
     label = "Cs-(Cds-Cds)CsHH",
     group = 
 """
@@ -24880,7 +15604,7 @@ entry(
 )
 
 entry(
-    index = 1138,
+    index = 757,
     label = "Cs-(Cds-Cdd)CsHH",
     group = 
 """
@@ -24900,7 +15624,7 @@ entry(
 )
 
 entry(
-    index = 1139,
+    index = 758,
     label = "Cs-(Cds-Cdd-O2d)CsHH",
     group = 
 """
@@ -24926,7 +15650,7 @@ entry(
 )
 
 entry(
-    index = 1140,
+    index = 759,
     label = "Cs-(Cds-Cdd-S2d)CsHH",
     group = 
 """
@@ -24947,7 +15671,7 @@ entry(
 )
 
 entry(
-    index = 1141,
+    index = 760,
     label = "Cs-(Cds-Cdd-Cd)CsHH",
     group = 
 """
@@ -24968,7 +15692,7 @@ entry(
 )
 
 entry(
-    index = 1142,
+    index = 761,
     label = "Cs-(CdN3d)CsHH",
     group = 
 """
@@ -24994,61 +15718,7 @@ entry(
 )
 
 entry(
-    index = 1143,
-    label = "Cs-CdCsHH-HHHHN3d_3064",
-    group = 
-"""
-1  * Cs  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2    Cs  u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
-3    Cd  u0 p0 c0 {1,S} {9,D} {10,S}
-4    H   u0 p0 c0 {1,S}
-5    H   u0 p0 c0 {1,S}
-6    H   u0 p0 c0 {2,S}
-7    H   u0 p0 c0 {2,S}
-8    H   u0 p0 c0 {2,S}
-9    N3d u0 p1 c0 {3,D}
-10   H   u0 p0 c0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1144,
-    label = "Cs-CdCsHH-HHHHN3d-H_3063",
-    group = 
-"""
-1  * Cs  u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
-2    Cs  u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
-3    Cd  u0 p0 c0 {1,S} {4,D} {10,S}
-4    N3d u0 p1 c0 {3,D} {11,S}
-5    H   u0 p0 c0 {1,S}
-6    H   u0 p0 c0 {1,S}
-7    H   u0 p0 c0 {2,S}
-8    H   u0 p0 c0 {2,S}
-9    H   u0 p0 c0 {2,S}
-10   H   u0 p0 c0 {3,S}
-11   H   u0 p0 c0 {4,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([5.42058,6.80114,8.47331,10.2159,13.1085,14.6299,16.8436],'J/(mol*K)'),
-        H298 = (39.0396,'kJ/mol'),
-        S298 = (4.31549,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1145,
+    index = 762,
     label = "Cs-CdsCdsHH",
     group = 
 """
@@ -25067,7 +15737,7 @@ entry(
 )
 
 entry(
-    index = 1146,
+    index = 763,
     label = "Cs-(Cds-O2d)(Cds-O2d)HH",
     group = 
 """
@@ -25095,7 +15765,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 1147,
+    index = 764,
     label = "Cs-(Cds-O2d)(Cds-Cd)HH",
     group = 
 """
@@ -25123,7 +15793,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 1148,
+    index = 765,
     label = "Cs-(Cds-O2d)(Cds-Cds)HH",
     group = 
 """
@@ -25149,7 +15819,7 @@ entry(
 )
 
 entry(
-    index = 1149,
+    index = 766,
     label = "Cs-(Cds-O2d)(Cds-Cdd)HH",
     group = 
 """
@@ -25170,7 +15840,7 @@ entry(
 )
 
 entry(
-    index = 1150,
+    index = 767,
     label = "Cs-(Cds-O2d)(Cds-Cdd-O2d)HH",
     group = 
 """
@@ -25192,7 +15862,7 @@ entry(
 )
 
 entry(
-    index = 1151,
+    index = 768,
     label = "Cs-(Cds-O2d)(Cds-Cdd-Cd)HH",
     group = 
 """
@@ -25214,7 +15884,7 @@ entry(
 )
 
 entry(
-    index = 1152,
+    index = 769,
     label = "Cs-(Cds-Cd)(Cds-Cd)HH",
     group = 
 """
@@ -25235,7 +15905,7 @@ entry(
 )
 
 entry(
-    index = 1153,
+    index = 770,
     label = "Cs-(Cds-Cds)(Cds-Cds)HH",
     group = 
 """
@@ -25261,7 +15931,7 @@ entry(
 )
 
 entry(
-    index = 1154,
+    index = 771,
     label = "Cs-(Cds-Cdd)(Cds-Cds)HH",
     group = 
 """
@@ -25282,7 +15952,7 @@ entry(
 )
 
 entry(
-    index = 1155,
+    index = 772,
     label = "Cs-Cd(CCO)HH",
     group = 
 """
@@ -25311,7 +15981,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 1156,
+    index = 773,
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cds)HH",
     group = 
 """
@@ -25333,7 +16003,7 @@ entry(
 )
 
 entry(
-    index = 1157,
+    index = 774,
     label = "Cs-(Cds-Cdd-Cd)(Cds-Cds)HH",
     group = 
 """
@@ -25355,7 +16025,7 @@ entry(
 )
 
 entry(
-    index = 1158,
+    index = 775,
     label = "Cs-(Cds-Cdd)(Cds-Cdd)HH",
     group = 
 """
@@ -25376,7 +16046,7 @@ entry(
 )
 
 entry(
-    index = 1159,
+    index = 776,
     label = "Cs-(Cds-Cdd-O2d)(Cds-Cdd-O2d)HH",
     group = 
 """
@@ -25404,7 +16074,7 @@ entry(
 )
 
 entry(
-    index = 1160,
+    index = 777,
     label = "Cs-(Cds-Cdd-O2d)(Cds-Cdd-Cd)HH",
     group = 
 """
@@ -25427,7 +16097,7 @@ entry(
 )
 
 entry(
-    index = 1161,
+    index = 778,
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cdd-S2d)HH",
     group = 
 """
@@ -25450,7 +16120,7 @@ entry(
 )
 
 entry(
-    index = 1162,
+    index = 779,
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cdd-Cd)HH",
     group = 
 """
@@ -25473,7 +16143,7 @@ entry(
 )
 
 entry(
-    index = 1163,
+    index = 780,
     label = "Cs-(Cds-Cdd-Cd)(Cds-Cdd-Cd)HH",
     group = 
 """
@@ -25496,7 +16166,7 @@ entry(
 )
 
 entry(
-    index = 1164,
+    index = 781,
     label = "Cs-CtCsHH",
     group = 
 """
@@ -25520,59 +16190,7 @@ entry(
 )
 
 entry(
-    index = 1165,
-    label = "Cs-CsCtHH-HHHN5tc_2739",
-    group = 
-"""
-1 * Cs   u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2   Cs   u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
-3   Ct   u0 p0 c0 {1,S} {9,T}
-4   H    u0 p0 c0 {1,S}
-5   H    u0 p0 c0 {1,S}
-6   H    u0 p0 c0 {2,S}
-7   H    u0 p0 c0 {2,S}
-8   H    u0 p0 c0 {2,S}
-9   N5tc u0 p0 c+1 {3,T}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1166,
-    label = "Cs-CsCtHH-HHHN5tc-O0sc_2738",
-    group = 
-"""
-1  * Cs   u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
-2    Cs   u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
-3    Ct   u0 p0 c0 {1,S} {4,T}
-4    N5tc u0 p0 c+1 {3,T} {10,S}
-5    H    u0 p0 c0 {1,S}
-6    H    u0 p0 c0 {1,S}
-7    H    u0 p0 c0 {2,S}
-8    H    u0 p0 c0 {2,S}
-9    H    u0 p0 c0 {2,S}
-10   O0sc u0 p3 c-1 {4,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-0.910683,-0.775377,-0.539879,-0.0306864,1.3095,1.91386,2.42628],'J/(mol*K)'),
-        H298 = (-7.68722,'kJ/mol'),
-        S298 = (-38.9627,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1167,
+    index = 782,
     label = "Cs-(CtN3t)CsHH",
     group = 
 """
@@ -25597,35 +16215,7 @@ entry(
 )
 
 entry(
-    index = 1168,
-    label = "Cs-CsCtHH-HHHN3t_3132",
-    group = 
-"""
-1 * Cs  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2   Cs  u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
-3   Ct  u0 p0 c0 {1,S} {9,T}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {1,S}
-6   H   u0 p0 c0 {2,S}
-7   H   u0 p0 c0 {2,S}
-8   H   u0 p0 c0 {2,S}
-9   N3t u0 p1 c0 {3,T}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([11.5515,13.5376,15.3098,16.8962,19.6841,21.8022,25.0376],'J/(mol*K)'),
-        H298 = (22.9219,'kJ/mol'),
-        S298 = (36.3606,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1169,
+    index = 783,
     label = "Cs-CtCdsHH",
     group = 
 """
@@ -25644,7 +16234,7 @@ entry(
 )
 
 entry(
-    index = 1170,
+    index = 784,
     label = "Cs-(Cds-O2d)CtHH",
     group = 
 """
@@ -25669,7 +16259,7 @@ entry(
 )
 
 entry(
-    index = 1171,
+    index = 785,
     label = "Cs-(Cds-Cd)CtHH",
     group = 
 """
@@ -25689,7 +16279,7 @@ entry(
 )
 
 entry(
-    index = 1172,
+    index = 786,
     label = "Cs-(Cds-Cds)CtHH",
     group = 
 """
@@ -25714,7 +16304,7 @@ entry(
 )
 
 entry(
-    index = 1173,
+    index = 787,
     label = "Cs-(Cds-Cdd)CtHH",
     group = 
 """
@@ -25734,7 +16324,7 @@ entry(
 )
 
 entry(
-    index = 1174,
+    index = 788,
     label = "Cs-(Cds-Cdd-O2d)CtHH",
     group = 
 """
@@ -25755,7 +16345,7 @@ entry(
 )
 
 entry(
-    index = 1175,
+    index = 789,
     label = "Cs-(Cds-Cdd-S2d)CtHH",
     group = 
 """
@@ -25776,7 +16366,7 @@ entry(
 )
 
 entry(
-    index = 1176,
+    index = 790,
     label = "Cs-(Cds-Cdd-Cd)CtHH",
     group = 
 """
@@ -25797,7 +16387,7 @@ entry(
 )
 
 entry(
-    index = 1177,
+    index = 791,
     label = "Cs-CtCtHH",
     group = 
 """
@@ -25821,7 +16411,7 @@ entry(
 )
 
 entry(
-    index = 1178,
+    index = 792,
     label = "Cs-CbCsHH",
     group = 
 """
@@ -25845,7 +16435,7 @@ entry(
 )
 
 entry(
-    index = 1179,
+    index = 793,
     label = "Cs-CbCdsHH",
     group = 
 """
@@ -25864,7 +16454,7 @@ entry(
 )
 
 entry(
-    index = 1180,
+    index = 794,
     label = "Cs-(Cds-O2d)CbHH",
     group = 
 """
@@ -25889,7 +16479,7 @@ entry(
 )
 
 entry(
-    index = 1181,
+    index = 795,
     label = "Cs-(Cds-Cd)CbHH",
     group = 
 """
@@ -25909,7 +16499,7 @@ entry(
 )
 
 entry(
-    index = 1182,
+    index = 796,
     label = "Cs-(Cds-Cds)CbHH",
     group = 
 """
@@ -25934,7 +16524,7 @@ entry(
 )
 
 entry(
-    index = 1183,
+    index = 797,
     label = "Cs-(Cds-Cdd)CbHH",
     group = 
 """
@@ -25954,7 +16544,7 @@ entry(
 )
 
 entry(
-    index = 1184,
+    index = 798,
     label = "Cs-(Cds-Cdd-O2d)CbHH",
     group = 
 """
@@ -25975,7 +16565,7 @@ entry(
 )
 
 entry(
-    index = 1185,
+    index = 799,
     label = "Cs-(Cds-Cdd-S2d)CbHH",
     group = 
 """
@@ -25996,7 +16586,7 @@ entry(
 )
 
 entry(
-    index = 1186,
+    index = 800,
     label = "Cs-(Cds-Cdd-Cd)CbHH",
     group = 
 """
@@ -26017,7 +16607,7 @@ entry(
 )
 
 entry(
-    index = 1187,
+    index = 801,
     label = "Cs-CbCtHH",
     group = 
 """
@@ -26041,7 +16631,7 @@ entry(
 )
 
 entry(
-    index = 1188,
+    index = 802,
     label = "Cs-CbCbHH",
     group = 
 """
@@ -26065,7 +16655,7 @@ entry(
 )
 
 entry(
-    index = 1189,
+    index = 803,
     label = "Cs-C=SCtHH",
     group = 
 """
@@ -26085,7 +16675,7 @@ entry(
 )
 
 entry(
-    index = 1190,
+    index = 804,
     label = "Cs-C=SCsHH",
     group = 
 """
@@ -26110,7 +16700,7 @@ entry(
 )
 
 entry(
-    index = 1191,
+    index = 805,
     label = "Cs-C=S(Cds-Cd)HH",
     group = 
 """
@@ -26131,7 +16721,7 @@ entry(
 )
 
 entry(
-    index = 1192,
+    index = 806,
     label = "Cs-C=S(Cds-Cdd)HH",
     group = 
 """
@@ -26152,7 +16742,7 @@ entry(
 )
 
 entry(
-    index = 1193,
+    index = 807,
     label = "Cs-C=S(Cds-Cdd-Cd)HH",
     group = 
 """
@@ -26174,7 +16764,7 @@ entry(
 )
 
 entry(
-    index = 1194,
+    index = 808,
     label = "Cs-C=S(Cds-Cdd-S2d)HH",
     group = 
 """
@@ -26196,7 +16786,7 @@ entry(
 )
 
 entry(
-    index = 1195,
+    index = 809,
     label = "Cs-C=S(Cds-Cds)HH",
     group = 
 """
@@ -26217,7 +16807,7 @@ entry(
 )
 
 entry(
-    index = 1196,
+    index = 810,
     label = "Cs-C=SC=SHH",
     group = 
 """
@@ -26238,7 +16828,7 @@ entry(
 )
 
 entry(
-    index = 1197,
+    index = 811,
     label = "Cs-C=SCbHH",
     group = 
 """
@@ -26258,7 +16848,7 @@ entry(
 )
 
 entry(
-    index = 1198,
+    index = 812,
     label = "Cs-CCCH",
     group = 
 """
@@ -26277,7 +16867,7 @@ entry(
 )
 
 entry(
-    index = 1199,
+    index = 813,
     label = "Cs-CsCsCsH",
     group = 
 """
@@ -26301,7 +16891,7 @@ entry(
 )
 
 entry(
-    index = 1200,
+    index = 814,
     label = "Cs-CdsCsCsH",
     group = 
 """
@@ -26320,7 +16910,7 @@ entry(
 )
 
 entry(
-    index = 1201,
+    index = 815,
     label = "Cs-(Cds-O2d)CsCsH",
     group = 
 """
@@ -26347,7 +16937,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 1202,
+    index = 816,
     label = "Cs-(Cds-Cd)CsCsH",
     group = 
 """
@@ -26367,7 +16957,7 @@ entry(
 )
 
 entry(
-    index = 1203,
+    index = 817,
     label = "Cs-(Cds-Cds)CsCsH",
     group = 
 """
@@ -26392,7 +16982,7 @@ entry(
 )
 
 entry(
-    index = 1204,
+    index = 818,
     label = "Cs-(Cds-Cdd)CsCsH",
     group = 
 """
@@ -26412,7 +17002,7 @@ entry(
 )
 
 entry(
-    index = 1205,
+    index = 819,
     label = "Cs-(Cds-Cdd-O2d)CsCsH",
     group = 
 """
@@ -26440,7 +17030,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 1206,
+    index = 820,
     label = "Cs-(Cds-Cdd-S2d)CsCsH",
     group = 
 """
@@ -26461,7 +17051,7 @@ entry(
 )
 
 entry(
-    index = 1207,
+    index = 821,
     label = "Cs-(Cds-Cdd-Cd)CsCsH",
     group = 
 """
@@ -26487,7 +17077,7 @@ entry(
 )
 
 entry(
-    index = 1208,
+    index = 822,
     label = "Cs-(CdN3d)CsCsH",
     group = 
 """
@@ -26513,7 +17103,7 @@ entry(
 )
 
 entry(
-    index = 1209,
+    index = 823,
     label = "Cs-CtCsCsH",
     group = 
 """
@@ -26537,7 +17127,7 @@ entry(
 )
 
 entry(
-    index = 1210,
+    index = 824,
     label = "Cs-(CtN3t)CsCsH",
     group = 
 """
@@ -26562,7 +17152,7 @@ entry(
 )
 
 entry(
-    index = 1211,
+    index = 825,
     label = "Cs-CbCsCsH",
     group = 
 """
@@ -26586,7 +17176,7 @@ entry(
 )
 
 entry(
-    index = 1212,
+    index = 826,
     label = "Cs-CdsCdsCsH",
     group = 
 """
@@ -26605,7 +17195,7 @@ entry(
 )
 
 entry(
-    index = 1213,
+    index = 827,
     label = "Cs-(Cds-O2d)(Cds-O2d)CsH",
     group = 
 """
@@ -26626,7 +17216,7 @@ entry(
 )
 
 entry(
-    index = 1214,
+    index = 828,
     label = "Cs-(Cds-O2d)(Cds-Cd)CsH",
     group = 
 """
@@ -26654,7 +17244,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 1215,
+    index = 829,
     label = "Cs-(Cds-O2d)(Cds-Cds)CsH",
     group = 
 """
@@ -26675,7 +17265,7 @@ entry(
 )
 
 entry(
-    index = 1216,
+    index = 830,
     label = "Cs-(Cds-O2d)(Cds-Cdd)CsH",
     group = 
 """
@@ -26696,7 +17286,7 @@ entry(
 )
 
 entry(
-    index = 1217,
+    index = 831,
     label = "Cs-(Cds-O2d)(Cds-Cdd-O2d)CsH",
     group = 
 """
@@ -26718,7 +17308,7 @@ entry(
 )
 
 entry(
-    index = 1218,
+    index = 832,
     label = "Cs-(Cds-O2d)(Cds-Cdd-Cd)CsH",
     group = 
 """
@@ -26740,7 +17330,7 @@ entry(
 )
 
 entry(
-    index = 1219,
+    index = 833,
     label = "Cs-(Cds-Cd)(Cds-Cd)CsH",
     group = 
 """
@@ -26761,7 +17351,7 @@ entry(
 )
 
 entry(
-    index = 1220,
+    index = 834,
     label = "Cs-(Cds-Cds)(Cds-Cds)CsH",
     group = 
 """
@@ -26787,7 +17377,7 @@ entry(
 )
 
 entry(
-    index = 1221,
+    index = 835,
     label = "Cs-(Cds-Cdd)(Cds-Cds)CsH",
     group = 
 """
@@ -26808,7 +17398,7 @@ entry(
 )
 
 entry(
-    index = 1222,
+    index = 836,
     label = "Cs-CsCd(CCO)H",
     group = 
 """
@@ -26837,7 +17427,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 1223,
+    index = 837,
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cds)CsH",
     group = 
 """
@@ -26859,7 +17449,7 @@ entry(
 )
 
 entry(
-    index = 1224,
+    index = 838,
     label = "Cs-(Cds-Cdd-Cd)(Cds-Cds)CsH",
     group = 
 """
@@ -26881,7 +17471,7 @@ entry(
 )
 
 entry(
-    index = 1225,
+    index = 839,
     label = "Cs-(Cds-Cdd)(Cds-Cdd)CsH",
     group = 
 """
@@ -26902,7 +17492,7 @@ entry(
 )
 
 entry(
-    index = 1226,
+    index = 840,
     label = "Cs-(Cds-Cdd-O2d)(Cds-Cdd-O2d)CsH",
     group = 
 """
@@ -26932,7 +17522,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 1227,
+    index = 841,
     label = "Cs-(Cds-Cdd-O2d)(Cds-Cdd-Cd)CsH",
     group = 
 """
@@ -26955,7 +17545,7 @@ entry(
 )
 
 entry(
-    index = 1228,
+    index = 842,
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cdd-S2d)CsH",
     group = 
 """
@@ -26978,7 +17568,7 @@ entry(
 )
 
 entry(
-    index = 1229,
+    index = 843,
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cdd-Cd)CsH",
     group = 
 """
@@ -27001,7 +17591,7 @@ entry(
 )
 
 entry(
-    index = 1230,
+    index = 844,
     label = "Cs-(Cds-Cdd-Cd)(Cds-Cdd-Cd)CsH",
     group = 
 """
@@ -27024,7 +17614,7 @@ entry(
 )
 
 entry(
-    index = 1231,
+    index = 845,
     label = "Cs-CtCdsCsH",
     group = 
 """
@@ -27043,7 +17633,7 @@ entry(
 )
 
 entry(
-    index = 1232,
+    index = 846,
     label = "Cs-(Cds-O2d)CtCsH",
     group = 
 """
@@ -27063,7 +17653,7 @@ entry(
 )
 
 entry(
-    index = 1233,
+    index = 847,
     label = "Cs-(Cds-Cd)CtCsH",
     group = 
 """
@@ -27083,7 +17673,7 @@ entry(
 )
 
 entry(
-    index = 1234,
+    index = 848,
     label = "Cs-(Cds-Cds)CtCsH",
     group = 
 """
@@ -27108,7 +17698,7 @@ entry(
 )
 
 entry(
-    index = 1235,
+    index = 849,
     label = "Cs-(Cds-Cdd)CtCsH",
     group = 
 """
@@ -27128,7 +17718,7 @@ entry(
 )
 
 entry(
-    index = 1236,
+    index = 850,
     label = "Cs-(Cds-Cdd-O2d)CtCsH",
     group = 
 """
@@ -27149,7 +17739,7 @@ entry(
 )
 
 entry(
-    index = 1237,
+    index = 851,
     label = "Cs-(Cds-Cdd-S2d)CtCsH",
     group = 
 """
@@ -27170,7 +17760,7 @@ entry(
 )
 
 entry(
-    index = 1238,
+    index = 852,
     label = "Cs-(Cds-Cdd-Cd)CtCsH",
     group = 
 """
@@ -27191,7 +17781,7 @@ entry(
 )
 
 entry(
-    index = 1239,
+    index = 853,
     label = "Cs-CbCdsCsH",
     group = 
 """
@@ -27210,7 +17800,7 @@ entry(
 )
 
 entry(
-    index = 1240,
+    index = 854,
     label = "Cs-(Cds-O2d)CbCsH",
     group = 
 """
@@ -27230,7 +17820,7 @@ entry(
 )
 
 entry(
-    index = 1241,
+    index = 855,
     label = "Cs-(Cds-Cd)CbCsH",
     group = 
 """
@@ -27250,7 +17840,7 @@ entry(
 )
 
 entry(
-    index = 1242,
+    index = 856,
     label = "Cs-(Cds-Cds)CbCsH",
     group = 
 """
@@ -27275,7 +17865,7 @@ entry(
 )
 
 entry(
-    index = 1243,
+    index = 857,
     label = "Cs-(Cds-Cdd)CbCsH",
     group = 
 """
@@ -27295,7 +17885,7 @@ entry(
 )
 
 entry(
-    index = 1244,
+    index = 858,
     label = "Cs-(Cds-Cdd-O2d)CbCsH",
     group = 
 """
@@ -27316,7 +17906,7 @@ entry(
 )
 
 entry(
-    index = 1245,
+    index = 859,
     label = "Cs-(Cds-Cdd-Cd)CbCsH",
     group = 
 """
@@ -27337,7 +17927,7 @@ entry(
 )
 
 entry(
-    index = 1246,
+    index = 860,
     label = "Cs-CtCtCsH",
     group = 
 """
@@ -27361,7 +17951,7 @@ entry(
 )
 
 entry(
-    index = 1247,
+    index = 861,
     label = "Cs-CbCtCsH",
     group = 
 """
@@ -27385,7 +17975,7 @@ entry(
 )
 
 entry(
-    index = 1248,
+    index = 862,
     label = "Cs-CbCbCsH",
     group = 
 """
@@ -27409,7 +17999,7 @@ entry(
 )
 
 entry(
-    index = 1249,
+    index = 863,
     label = "Cs-CdsCdsCdsH",
     group = 
 """
@@ -27428,7 +18018,7 @@ entry(
 )
 
 entry(
-    index = 1250,
+    index = 864,
     label = "Cs-(Cds-O2d)(Cds-O2d)(Cds-O2d)H",
     group = 
 """
@@ -27450,7 +18040,7 @@ entry(
 )
 
 entry(
-    index = 1251,
+    index = 865,
     label = "Cs-(Cds-O2d)(Cds-O2d)(Cds-Cd)H",
     group = 
 """
@@ -27472,7 +18062,7 @@ entry(
 )
 
 entry(
-    index = 1252,
+    index = 866,
     label = "Cs-(Cds-O2d)(Cds-O2d)(Cds-Cds)H",
     group = 
 """
@@ -27494,7 +18084,7 @@ entry(
 )
 
 entry(
-    index = 1253,
+    index = 867,
     label = "Cs-(Cds-O2d)(Cds-O2d)(Cds-Cdd)H",
     group = 
 """
@@ -27516,7 +18106,7 @@ entry(
 )
 
 entry(
-    index = 1254,
+    index = 868,
     label = "Cs-(Cds-O2d)(Cds-O2d)(Cds-Cdd-O2d)H",
     group = 
 """
@@ -27539,7 +18129,7 @@ entry(
 )
 
 entry(
-    index = 1255,
+    index = 869,
     label = "Cs-(Cds-O2d)(Cds-O2d)(Cds-Cdd-Cd)H",
     group = 
 """
@@ -27562,7 +18152,7 @@ entry(
 )
 
 entry(
-    index = 1256,
+    index = 870,
     label = "Cs-(Cds-O2d)(Cds-Cd)(Cds-Cd)H",
     group = 
 """
@@ -27591,7 +18181,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 1257,
+    index = 871,
     label = "Cs-(Cds-O2d)(Cds-Cds)(Cds-Cds)H",
     group = 
 """
@@ -27613,7 +18203,7 @@ entry(
 )
 
 entry(
-    index = 1258,
+    index = 872,
     label = "Cs-(Cds-O2d)(Cds-Cdd)(Cds-Cds)H",
     group = 
 """
@@ -27635,7 +18225,7 @@ entry(
 )
 
 entry(
-    index = 1259,
+    index = 873,
     label = "Cs-(Cds-O2d)(Cds-Cdd-O2d)(Cds-Cds)H",
     group = 
 """
@@ -27658,7 +18248,7 @@ entry(
 )
 
 entry(
-    index = 1260,
+    index = 874,
     label = "Cs-(Cds-O2d)(Cds-Cdd-Cd)(Cds-Cds)H",
     group = 
 """
@@ -27681,7 +18271,7 @@ entry(
 )
 
 entry(
-    index = 1261,
+    index = 875,
     label = "Cs-(Cds-O2d)(Cds-Cdd)(Cds-Cdd)H",
     group = 
 """
@@ -27703,7 +18293,7 @@ entry(
 )
 
 entry(
-    index = 1262,
+    index = 876,
     label = "Cs-(Cds-O2d)(Cds-Cdd-O2d)(Cds-Cdd-O2d)H",
     group = 
 """
@@ -27727,7 +18317,7 @@ entry(
 )
 
 entry(
-    index = 1263,
+    index = 877,
     label = "Cs-(Cds-O2d)(Cds-Cdd-O2d)(Cds-Cdd-Cd)H",
     group = 
 """
@@ -27751,7 +18341,7 @@ entry(
 )
 
 entry(
-    index = 1264,
+    index = 878,
     label = "Cs-(Cds-O2d)(Cds-Cdd-Cd)(Cds-Cdd-Cd)H",
     group = 
 """
@@ -27775,7 +18365,7 @@ entry(
 )
 
 entry(
-    index = 1265,
+    index = 879,
     label = "Cs-(Cds-Cd)(Cds-Cd)(Cds-Cd)H",
     group = 
 """
@@ -27797,7 +18387,7 @@ entry(
 )
 
 entry(
-    index = 1266,
+    index = 880,
     label = "Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)H",
     group = 
 """
@@ -27824,7 +18414,7 @@ entry(
 )
 
 entry(
-    index = 1267,
+    index = 881,
     label = "Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd)H",
     group = 
 """
@@ -27846,7 +18436,7 @@ entry(
 )
 
 entry(
-    index = 1268,
+    index = 882,
     label = "Cs-CdCd(CCO)H",
     group = 
 """
@@ -27876,7 +18466,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 1269,
+    index = 883,
     label = "Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd-S2d)H",
     group = 
 """
@@ -27899,7 +18489,7 @@ entry(
 )
 
 entry(
-    index = 1270,
+    index = 884,
     label = "Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd-Cd)H",
     group = 
 """
@@ -27922,7 +18512,7 @@ entry(
 )
 
 entry(
-    index = 1271,
+    index = 885,
     label = "Cs-(Cds-Cds)(Cds-Cdd)(Cds-Cdd)H",
     group = 
 """
@@ -27944,7 +18534,7 @@ entry(
 )
 
 entry(
-    index = 1272,
+    index = 886,
     label = "Cs-(Cds-Cds)(Cds-Cdd-O2d)(Cds-Cdd-O2d)H",
     group = 
 """
@@ -27968,7 +18558,7 @@ entry(
 )
 
 entry(
-    index = 1273,
+    index = 887,
     label = "Cs-(Cds-Cds)(Cds-Cdd-O2d)(Cds-Cdd-Cd)H",
     group = 
 """
@@ -27992,7 +18582,7 @@ entry(
 )
 
 entry(
-    index = 1274,
+    index = 888,
     label = "Cs-(Cds-Cds)(Cds-Cdd-S2d)(Cds-Cdd-S2d)H",
     group = 
 """
@@ -28016,7 +18606,7 @@ entry(
 )
 
 entry(
-    index = 1275,
+    index = 889,
     label = "Cs-(Cds-Cds)(Cds-Cdd-S2d)(Cds-Cdd-Cd)H",
     group = 
 """
@@ -28040,7 +18630,7 @@ entry(
 )
 
 entry(
-    index = 1276,
+    index = 890,
     label = "Cs-(Cds-Cds)(Cds-Cdd-Cd)(Cds-Cdd-Cd)H",
     group = 
 """
@@ -28064,7 +18654,7 @@ entry(
 )
 
 entry(
-    index = 1277,
+    index = 891,
     label = "Cs-(Cds-Cdd)(Cds-Cdd)(Cds-Cdd)H",
     group = 
 """
@@ -28086,7 +18676,7 @@ entry(
 )
 
 entry(
-    index = 1278,
+    index = 892,
     label = "Cs-(Cds-Cdd-O2d)(Cds-Cdd-O2d)(Cds-Cdd-O2d)H",
     group = 
 """
@@ -28111,7 +18701,7 @@ entry(
 )
 
 entry(
-    index = 1279,
+    index = 893,
     label = "Cs-(Cds-Cdd-O2d)(Cds-Cdd-O2d)(Cds-Cdd-Cd)H",
     group = 
 """
@@ -28136,7 +18726,7 @@ entry(
 )
 
 entry(
-    index = 1280,
+    index = 894,
     label = "Cs-(Cds-Cdd-O2d)(Cds-Cdd-Cd)(Cds-Cdd-Cd)H",
     group = 
 """
@@ -28161,7 +18751,7 @@ entry(
 )
 
 entry(
-    index = 1281,
+    index = 895,
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cdd-S2d)(Cds-Cdd-S2d)H",
     group = 
 """
@@ -28186,7 +18776,7 @@ entry(
 )
 
 entry(
-    index = 1282,
+    index = 896,
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cdd-S2d)(Cds-Cdd-Cd)H",
     group = 
 """
@@ -28211,7 +18801,7 @@ entry(
 )
 
 entry(
-    index = 1283,
+    index = 897,
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cdd-Cd)(Cds-Cdd-Cd)H",
     group = 
 """
@@ -28236,7 +18826,7 @@ entry(
 )
 
 entry(
-    index = 1284,
+    index = 898,
     label = "Cs-(Cds-Cdd-Cd)(Cds-Cdd-Cd)(Cds-Cdd-Cd)H",
     group = 
 """
@@ -28261,7 +18851,7 @@ entry(
 )
 
 entry(
-    index = 1285,
+    index = 899,
     label = "Cs-CtCdsCdsH",
     group = 
 """
@@ -28280,7 +18870,7 @@ entry(
 )
 
 entry(
-    index = 1286,
+    index = 900,
     label = "Cs-(Cds-O2d)(Cds-O2d)CtH",
     group = 
 """
@@ -28301,7 +18891,7 @@ entry(
 )
 
 entry(
-    index = 1287,
+    index = 901,
     label = "Cs-(Cds-O2d)(Cds-Cd)CtH",
     group = 
 """
@@ -28322,7 +18912,7 @@ entry(
 )
 
 entry(
-    index = 1288,
+    index = 902,
     label = "Cs-(Cds-O2d)(Cds-Cds)CtH",
     group = 
 """
@@ -28343,7 +18933,7 @@ entry(
 )
 
 entry(
-    index = 1289,
+    index = 903,
     label = "Cs-(Cds-O2d)(Cds-Cdd)CtH",
     group = 
 """
@@ -28364,7 +18954,7 @@ entry(
 )
 
 entry(
-    index = 1290,
+    index = 904,
     label = "Cs-(Cds-O2d)(Cds-Cdd-O2d)CtH",
     group = 
 """
@@ -28386,7 +18976,7 @@ entry(
 )
 
 entry(
-    index = 1291,
+    index = 905,
     label = "Cs-(Cds-O2d)(Cds-Cdd-Cd)CtH",
     group = 
 """
@@ -28408,7 +18998,7 @@ entry(
 )
 
 entry(
-    index = 1292,
+    index = 906,
     label = "Cs-(Cds-Cd)(Cds-Cd)CtH",
     group = 
 """
@@ -28429,7 +19019,7 @@ entry(
 )
 
 entry(
-    index = 1293,
+    index = 907,
     label = "Cs-(Cds-Cds)(Cds-Cds)CtH",
     group = 
 """
@@ -28455,7 +19045,7 @@ entry(
 )
 
 entry(
-    index = 1294,
+    index = 908,
     label = "Cs-(Cds-Cdd)(Cds-Cds)CtH",
     group = 
 """
@@ -28476,7 +19066,7 @@ entry(
 )
 
 entry(
-    index = 1295,
+    index = 909,
     label = "Cs-(Cds-Cdd-O2d)(Cds-Cds)CtH",
     group = 
 """
@@ -28498,7 +19088,7 @@ entry(
 )
 
 entry(
-    index = 1296,
+    index = 910,
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cds)CtH",
     group = 
 """
@@ -28520,7 +19110,7 @@ entry(
 )
 
 entry(
-    index = 1297,
+    index = 911,
     label = "Cs-(Cds-Cdd-Cd)(Cds-Cds)CtH",
     group = 
 """
@@ -28542,7 +19132,7 @@ entry(
 )
 
 entry(
-    index = 1298,
+    index = 912,
     label = "Cs-(Cds-Cdd)(Cds-Cdd)CtH",
     group = 
 """
@@ -28563,7 +19153,7 @@ entry(
 )
 
 entry(
-    index = 1299,
+    index = 913,
     label = "Cs-(Cds-Cdd-O2d)(Cds-Cdd-O2d)CtH",
     group = 
 """
@@ -28586,7 +19176,7 @@ entry(
 )
 
 entry(
-    index = 1300,
+    index = 914,
     label = "Cs-(Cds-Cdd-O2d)(Cds-Cdd-Cd)CtH",
     group = 
 """
@@ -28609,7 +19199,7 @@ entry(
 )
 
 entry(
-    index = 1301,
+    index = 915,
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cdd-S2d)CtH",
     group = 
 """
@@ -28632,7 +19222,7 @@ entry(
 )
 
 entry(
-    index = 1302,
+    index = 916,
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cdd-Cd)CtH",
     group = 
 """
@@ -28655,7 +19245,7 @@ entry(
 )
 
 entry(
-    index = 1303,
+    index = 917,
     label = "Cs-(Cds-Cdd-Cd)(Cds-Cdd-Cd)CtH",
     group = 
 """
@@ -28678,7 +19268,7 @@ entry(
 )
 
 entry(
-    index = 1304,
+    index = 918,
     label = "Cs-CbCdsCdsH",
     group = 
 """
@@ -28697,7 +19287,7 @@ entry(
 )
 
 entry(
-    index = 1305,
+    index = 919,
     label = "Cs-(Cds-O2d)(Cds-O2d)CbH",
     group = 
 """
@@ -28718,7 +19308,7 @@ entry(
 )
 
 entry(
-    index = 1306,
+    index = 920,
     label = "Cs-(Cds-O2d)(Cds-Cd)CbH",
     group = 
 """
@@ -28739,7 +19329,7 @@ entry(
 )
 
 entry(
-    index = 1307,
+    index = 921,
     label = "Cs-(Cds-O2d)(Cds-Cds)CbH",
     group = 
 """
@@ -28760,7 +19350,7 @@ entry(
 )
 
 entry(
-    index = 1308,
+    index = 922,
     label = "Cs-(Cds-O2d)(Cds-Cdd)CbH",
     group = 
 """
@@ -28781,7 +19371,7 @@ entry(
 )
 
 entry(
-    index = 1309,
+    index = 923,
     label = "Cs-(Cds-O2d)(Cds-Cdd-O2d)CbH",
     group = 
 """
@@ -28803,7 +19393,7 @@ entry(
 )
 
 entry(
-    index = 1310,
+    index = 924,
     label = "Cs-(Cds-O2d)(Cds-Cdd-Cd)CbH",
     group = 
 """
@@ -28825,7 +19415,7 @@ entry(
 )
 
 entry(
-    index = 1311,
+    index = 925,
     label = "Cs-(Cds-Cd)(Cds-Cd)CbH",
     group = 
 """
@@ -28846,7 +19436,7 @@ entry(
 )
 
 entry(
-    index = 1312,
+    index = 926,
     label = "Cs-(Cds-Cds)(Cds-Cds)CbH",
     group = 
 """
@@ -28872,7 +19462,7 @@ entry(
 )
 
 entry(
-    index = 1313,
+    index = 927,
     label = "Cs-(Cds-Cdd)(Cds-Cds)CbH",
     group = 
 """
@@ -28893,7 +19483,7 @@ entry(
 )
 
 entry(
-    index = 1314,
+    index = 928,
     label = "Cs-(Cds-Cdd-O2d)(Cds-Cds)CbH",
     group = 
 """
@@ -28915,7 +19505,7 @@ entry(
 )
 
 entry(
-    index = 1315,
+    index = 929,
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cds)CbH",
     group = 
 """
@@ -28937,7 +19527,7 @@ entry(
 )
 
 entry(
-    index = 1316,
+    index = 930,
     label = "Cs-(Cds-Cdd-Cd)(Cds-Cds)CbH",
     group = 
 """
@@ -28959,7 +19549,7 @@ entry(
 )
 
 entry(
-    index = 1317,
+    index = 931,
     label = "Cs-(Cds-Cdd)(Cds-Cdd)CbH",
     group = 
 """
@@ -28980,7 +19570,7 @@ entry(
 )
 
 entry(
-    index = 1318,
+    index = 932,
     label = "Cs-(Cds-Cdd-O2d)(Cds-Cdd-O2d)CbH",
     group = 
 """
@@ -29003,7 +19593,7 @@ entry(
 )
 
 entry(
-    index = 1319,
+    index = 933,
     label = "Cs-(Cds-Cdd-O2d)(Cds-Cdd-Cd)CbH",
     group = 
 """
@@ -29026,7 +19616,7 @@ entry(
 )
 
 entry(
-    index = 1320,
+    index = 934,
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cdd-S2d)CbH",
     group = 
 """
@@ -29049,7 +19639,7 @@ entry(
 )
 
 entry(
-    index = 1321,
+    index = 935,
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cdd-Cd)CbH",
     group = 
 """
@@ -29072,7 +19662,7 @@ entry(
 )
 
 entry(
-    index = 1322,
+    index = 936,
     label = "Cs-(Cds-Cdd-Cd)(Cds-Cdd-Cd)CbH",
     group = 
 """
@@ -29095,7 +19685,7 @@ entry(
 )
 
 entry(
-    index = 1323,
+    index = 937,
     label = "Cs-CtCtCdsH",
     group = 
 """
@@ -29114,7 +19704,7 @@ entry(
 )
 
 entry(
-    index = 1324,
+    index = 938,
     label = "Cs-CtCt(Cds-O2d)H",
     group = 
 """
@@ -29134,7 +19724,7 @@ entry(
 )
 
 entry(
-    index = 1325,
+    index = 939,
     label = "Cs-CtCt(Cds-Cd)H",
     group = 
 """
@@ -29154,7 +19744,7 @@ entry(
 )
 
 entry(
-    index = 1326,
+    index = 940,
     label = "Cs-CtCt(Cds-Cds)H",
     group = 
 """
@@ -29179,7 +19769,7 @@ entry(
 )
 
 entry(
-    index = 1327,
+    index = 941,
     label = "Cs-CtCt(Cds-Cdd)H",
     group = 
 """
@@ -29199,7 +19789,7 @@ entry(
 )
 
 entry(
-    index = 1328,
+    index = 942,
     label = "Cs-CtCt(Cds-Cdd-O2d)H",
     group = 
 """
@@ -29220,7 +19810,7 @@ entry(
 )
 
 entry(
-    index = 1329,
+    index = 943,
     label = "Cs-CtCt(Cds-Cdd-S2d)H",
     group = 
 """
@@ -29241,7 +19831,7 @@ entry(
 )
 
 entry(
-    index = 1330,
+    index = 944,
     label = "Cs-CtCt(Cds-Cdd-Cd)H",
     group = 
 """
@@ -29262,7 +19852,7 @@ entry(
 )
 
 entry(
-    index = 1331,
+    index = 945,
     label = "Cs-CbCtCdsH",
     group = 
 """
@@ -29281,7 +19871,7 @@ entry(
 )
 
 entry(
-    index = 1332,
+    index = 946,
     label = "Cs-CbCt(Cds-O2d)H",
     group = 
 """
@@ -29301,7 +19891,7 @@ entry(
 )
 
 entry(
-    index = 1333,
+    index = 947,
     label = "Cs-CbCt(Cds-Cd)H",
     group = 
 """
@@ -29321,7 +19911,7 @@ entry(
 )
 
 entry(
-    index = 1334,
+    index = 948,
     label = "Cs-CbCt(Cds-Cds)H",
     group = 
 """
@@ -29341,7 +19931,7 @@ entry(
 )
 
 entry(
-    index = 1335,
+    index = 949,
     label = "Cs-CbCt(Cds-Cdd)H",
     group = 
 """
@@ -29361,7 +19951,7 @@ entry(
 )
 
 entry(
-    index = 1336,
+    index = 950,
     label = "Cs-CbCt(Cds-Cdd-O2d)H",
     group = 
 """
@@ -29382,7 +19972,7 @@ entry(
 )
 
 entry(
-    index = 1337,
+    index = 951,
     label = "Cs-CbCt(Cds-Cdd-S2d)H",
     group = 
 """
@@ -29403,7 +19993,7 @@ entry(
 )
 
 entry(
-    index = 1338,
+    index = 952,
     label = "Cs-CbCt(Cds-Cdd-Cd)H",
     group = 
 """
@@ -29424,7 +20014,7 @@ entry(
 )
 
 entry(
-    index = 1339,
+    index = 953,
     label = "Cs-CbCbCdsH",
     group = 
 """
@@ -29443,7 +20033,7 @@ entry(
 )
 
 entry(
-    index = 1340,
+    index = 954,
     label = "Cs-CbCb(Cds-O2d)H",
     group = 
 """
@@ -29463,7 +20053,7 @@ entry(
 )
 
 entry(
-    index = 1341,
+    index = 955,
     label = "Cs-CbCb(Cds-Cd)H",
     group = 
 """
@@ -29483,7 +20073,7 @@ entry(
 )
 
 entry(
-    index = 1342,
+    index = 956,
     label = "Cs-CbCb(Cds-Cds)H",
     group = 
 """
@@ -29503,7 +20093,7 @@ entry(
 )
 
 entry(
-    index = 1343,
+    index = 957,
     label = "Cs-CbCb(Cds-Cdd)H",
     group = 
 """
@@ -29523,7 +20113,7 @@ entry(
 )
 
 entry(
-    index = 1344,
+    index = 958,
     label = "Cs-CbCb(Cds-Cdd-O2d)H",
     group = 
 """
@@ -29544,7 +20134,7 @@ entry(
 )
 
 entry(
-    index = 1345,
+    index = 959,
     label = "Cs-CbCb(Cds-Cdd-S2d)H",
     group = 
 """
@@ -29565,7 +20155,7 @@ entry(
 )
 
 entry(
-    index = 1346,
+    index = 960,
     label = "Cs-CbCb(Cds-Cdd-Cd)H",
     group = 
 """
@@ -29586,7 +20176,7 @@ entry(
 )
 
 entry(
-    index = 1347,
+    index = 961,
     label = "Cs-CtCtCtH",
     group = 
 """
@@ -29610,7 +20200,7 @@ entry(
 )
 
 entry(
-    index = 1348,
+    index = 962,
     label = "Cs-CbCtCtH",
     group = 
 """
@@ -29629,7 +20219,7 @@ entry(
 )
 
 entry(
-    index = 1349,
+    index = 963,
     label = "Cs-CbCbCtH",
     group = 
 """
@@ -29648,7 +20238,7 @@ entry(
 )
 
 entry(
-    index = 1350,
+    index = 964,
     label = "Cs-CbCbCbH",
     group = 
 """
@@ -29672,7 +20262,7 @@ entry(
 )
 
 entry(
-    index = 1351,
+    index = 965,
     label = "Cs-C=SC=SCbH",
     group = 
 """
@@ -29693,7 +20283,7 @@ entry(
 )
 
 entry(
-    index = 1352,
+    index = 966,
     label = "Cs-C=S(Cds-Cd)(Cds-Cd)H",
     group = 
 """
@@ -29715,7 +20305,7 @@ entry(
 )
 
 entry(
-    index = 1353,
+    index = 967,
     label = "Cs-C=S(Cds-Cdd)(Cds-Cds)H",
     group = 
 """
@@ -29737,7 +20327,7 @@ entry(
 )
 
 entry(
-    index = 1354,
+    index = 968,
     label = "Cs-C=S(Cds-Cdd-Cd)(Cds-Cds)H",
     group = 
 """
@@ -29760,7 +20350,7 @@ entry(
 )
 
 entry(
-    index = 1355,
+    index = 969,
     label = "Cs-C=S(Cds-Cdd-S2d)(Cds-Cds)H",
     group = 
 """
@@ -29783,7 +20373,7 @@ entry(
 )
 
 entry(
-    index = 1356,
+    index = 970,
     label = "Cs-C=S(Cds-Cds)(Cds-Cds)H",
     group = 
 """
@@ -29805,7 +20395,7 @@ entry(
 )
 
 entry(
-    index = 1357,
+    index = 971,
     label = "Cs-C=S(Cds-Cdd)(Cds-Cdd)H",
     group = 
 """
@@ -29827,7 +20417,7 @@ entry(
 )
 
 entry(
-    index = 1358,
+    index = 972,
     label = "Cs-C=S(Cds-Cdd-Cd)(Cds-Cdd-Cd)H",
     group = 
 """
@@ -29851,7 +20441,7 @@ entry(
 )
 
 entry(
-    index = 1359,
+    index = 973,
     label = "Cs-C=S(Cds-Cdd-S2d)(Cds-Cdd-S2d)H",
     group = 
 """
@@ -29875,7 +20465,7 @@ entry(
 )
 
 entry(
-    index = 1360,
+    index = 974,
     label = "Cs-C=S(Cds-Cdd-S2d)(Cds-Cdd-Cd)H",
     group = 
 """
@@ -29899,7 +20489,7 @@ entry(
 )
 
 entry(
-    index = 1361,
+    index = 975,
     label = "Cs-C=S(Cds-Cd)CtH",
     group = 
 """
@@ -29920,7 +20510,7 @@ entry(
 )
 
 entry(
-    index = 1362,
+    index = 976,
     label = "Cs-C=S(Cds-Cdd)CtH",
     group = 
 """
@@ -29941,7 +20531,7 @@ entry(
 )
 
 entry(
-    index = 1363,
+    index = 977,
     label = "Cs-C=S(Cds-Cdd-S2d)CtH",
     group = 
 """
@@ -29963,7 +20553,7 @@ entry(
 )
 
 entry(
-    index = 1364,
+    index = 978,
     label = "Cs-C=S(Cds-Cdd-Cd)CtH",
     group = 
 """
@@ -29985,7 +20575,7 @@ entry(
 )
 
 entry(
-    index = 1365,
+    index = 979,
     label = "Cs-C=S(Cds-Cds)CtH",
     group = 
 """
@@ -30006,7 +20596,7 @@ entry(
 )
 
 entry(
-    index = 1366,
+    index = 980,
     label = "Cs-C=SC=SCtH",
     group = 
 """
@@ -30027,7 +20617,7 @@ entry(
 )
 
 entry(
-    index = 1367,
+    index = 981,
     label = "Cs-C=SCtCsH",
     group = 
 """
@@ -30047,7 +20637,7 @@ entry(
 )
 
 entry(
-    index = 1368,
+    index = 982,
     label = "Cs-C=SC=SCsH",
     group = 
 """
@@ -30068,7 +20658,7 @@ entry(
 )
 
 entry(
-    index = 1369,
+    index = 983,
     label = "Cs-C=S(Cds-Cd)CbH",
     group = 
 """
@@ -30089,7 +20679,7 @@ entry(
 )
 
 entry(
-    index = 1370,
+    index = 984,
     label = "Cs-C=S(Cds-Cds)CbH",
     group = 
 """
@@ -30110,7 +20700,7 @@ entry(
 )
 
 entry(
-    index = 1371,
+    index = 985,
     label = "Cs-C=S(Cds-Cdd)CbH",
     group = 
 """
@@ -30131,7 +20721,7 @@ entry(
 )
 
 entry(
-    index = 1372,
+    index = 986,
     label = "Cs-C=S(Cds-Cdd-S2d)CbH",
     group = 
 """
@@ -30153,7 +20743,7 @@ entry(
 )
 
 entry(
-    index = 1373,
+    index = 987,
     label = "Cs-C=S(Cds-Cdd-Cd)CbH",
     group = 
 """
@@ -30175,7 +20765,7 @@ entry(
 )
 
 entry(
-    index = 1374,
+    index = 988,
     label = "Cs-C=S(Cds-Cd)CsH",
     group = 
 """
@@ -30196,7 +20786,7 @@ entry(
 )
 
 entry(
-    index = 1375,
+    index = 989,
     label = "Cs-C=S(Cds-Cds)CsH",
     group = 
 """
@@ -30217,7 +20807,7 @@ entry(
 )
 
 entry(
-    index = 1376,
+    index = 990,
     label = "Cs-C=S(Cds-Cdd)CsH",
     group = 
 """
@@ -30238,7 +20828,7 @@ entry(
 )
 
 entry(
-    index = 1377,
+    index = 991,
     label = "Cs-C=S(Cds-Cdd-Cd)CsH",
     group = 
 """
@@ -30260,7 +20850,7 @@ entry(
 )
 
 entry(
-    index = 1378,
+    index = 992,
     label = "Cs-C=S(Cds-Cdd-S2d)CsH",
     group = 
 """
@@ -30282,7 +20872,7 @@ entry(
 )
 
 entry(
-    index = 1379,
+    index = 993,
     label = "Cs-CbCtC=SH",
     group = 
 """
@@ -30302,7 +20892,7 @@ entry(
 )
 
 entry(
-    index = 1380,
+    index = 994,
     label = "Cs-C=SC=SC=SH",
     group = 
 """
@@ -30324,7 +20914,7 @@ entry(
 )
 
 entry(
-    index = 1381,
+    index = 995,
     label = "Cs-C=SCsCsH",
     group = 
 """
@@ -30349,7 +20939,7 @@ entry(
 )
 
 entry(
-    index = 1382,
+    index = 996,
     label = "Cs-CtCtC=SH",
     group = 
 """
@@ -30369,7 +20959,7 @@ entry(
 )
 
 entry(
-    index = 1383,
+    index = 997,
     label = "Cs-CbCbC=SH",
     group = 
 """
@@ -30389,7 +20979,7 @@ entry(
 )
 
 entry(
-    index = 1384,
+    index = 998,
     label = "Cs-C=SC=S(Cds-Cd)H",
     group = 
 """
@@ -30411,7 +21001,7 @@ entry(
 )
 
 entry(
-    index = 1385,
+    index = 999,
     label = "Cs-C=SC=S(Cds-Cds)H",
     group = 
 """
@@ -30433,7 +21023,7 @@ entry(
 )
 
 entry(
-    index = 1386,
+    index = 1000,
     label = "Cs-C=SC=S(Cds-Cdd)H",
     group = 
 """
@@ -30455,7 +21045,7 @@ entry(
 )
 
 entry(
-    index = 1387,
+    index = 1001,
     label = "Cs-C=SC=S(Cds-Cdd-S2d)H",
     group = 
 """
@@ -30478,7 +21068,7 @@ entry(
 )
 
 entry(
-    index = 1388,
+    index = 1002,
     label = "Cs-C=SC=S(Cds-Cdd-Cd)H",
     group = 
 """
@@ -30501,7 +21091,7 @@ entry(
 )
 
 entry(
-    index = 1389,
+    index = 1003,
     label = "Cs-CCCC",
     group = 
 """
@@ -30520,7 +21110,7 @@ entry(
 )
 
 entry(
-    index = 1390,
+    index = 1004,
     label = "Cs-CsCsCsCs",
     group = 
 """
@@ -30544,7 +21134,7 @@ entry(
 )
 
 entry(
-    index = 1391,
+    index = 1005,
     label = "Cs-CdsCsCsCs",
     group = 
 """
@@ -30563,7 +21153,7 @@ entry(
 )
 
 entry(
-    index = 1392,
+    index = 1006,
     label = "Cs-(Cds-O2d)CsCsCs",
     group = 
 """
@@ -30590,7 +21180,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 1393,
+    index = 1007,
     label = "Cs-(Cds-Cd)CsCsCs",
     group = 
 """
@@ -30610,7 +21200,7 @@ entry(
 )
 
 entry(
-    index = 1394,
+    index = 1008,
     label = "Cs-(Cds-Cds)CsCsCs",
     group = 
 """
@@ -30635,7 +21225,7 @@ entry(
 )
 
 entry(
-    index = 1395,
+    index = 1009,
     label = "Cs-(Cds-Cdd)CsCsCs",
     group = 
 """
@@ -30655,7 +21245,7 @@ entry(
 )
 
 entry(
-    index = 1396,
+    index = 1010,
     label = "Cs-(Cds-Cdd-O2d)CsCsCs",
     group = 
 """
@@ -30683,7 +21273,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 1397,
+    index = 1011,
     label = "Cs-(Cds-Cdd-S2d)CsCsCs",
     group = 
 """
@@ -30704,7 +21294,7 @@ entry(
 )
 
 entry(
-    index = 1398,
+    index = 1012,
     label = "Cs-(Cds-Cdd-Cd)CsCsCs",
     group = 
 """
@@ -30725,7 +21315,7 @@ entry(
 )
 
 entry(
-    index = 1399,
+    index = 1013,
     label = "Cs-(CdN3d)CsCsCs",
     group = 
 """
@@ -30751,7 +21341,7 @@ entry(
 )
 
 entry(
-    index = 1400,
+    index = 1014,
     label = "Cs-CtCsCsCs",
     group = 
 """
@@ -30775,7 +21365,7 @@ entry(
 )
 
 entry(
-    index = 1401,
+    index = 1015,
     label = "Cs-(CtN3t)CsCsCs",
     group = 
 """
@@ -30800,7 +21390,7 @@ entry(
 )
 
 entry(
-    index = 1402,
+    index = 1016,
     label = "Cs-CbCsCsCs",
     group = 
 """
@@ -30824,7 +21414,7 @@ entry(
 )
 
 entry(
-    index = 1403,
+    index = 1017,
     label = "Cs-CdsCdsCsCs",
     group = 
 """
@@ -30843,7 +21433,7 @@ entry(
 )
 
 entry(
-    index = 1404,
+    index = 1018,
     label = "Cs-(Cds-O2d)(Cds-O2d)CsCs",
     group = 
 """
@@ -30871,7 +21461,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 1405,
+    index = 1019,
     label = "Cs-(Cds-O2d)(Cds-Cd)CsCs",
     group = 
 """
@@ -30899,7 +21489,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 1406,
+    index = 1020,
     label = "Cs-(Cds-O2d)(Cds-Cds)CsCs",
     group = 
 """
@@ -30920,7 +21510,7 @@ entry(
 )
 
 entry(
-    index = 1407,
+    index = 1021,
     label = "Cs-(Cds-O2d)(Cds-Cdd)CsCs",
     group = 
 """
@@ -30941,7 +21531,7 @@ entry(
 )
 
 entry(
-    index = 1408,
+    index = 1022,
     label = "Cs-(Cds-O2d)(Cds-Cdd-O2d)CsCs",
     group = 
 """
@@ -30963,7 +21553,7 @@ entry(
 )
 
 entry(
-    index = 1409,
+    index = 1023,
     label = "Cs-(Cds-O2d)(Cds-Cdd-Cd)CsCs",
     group = 
 """
@@ -30985,7 +21575,7 @@ entry(
 )
 
 entry(
-    index = 1410,
+    index = 1024,
     label = "Cs-(Cds-Cd)(Cds-Cd)CsCs",
     group = 
 """
@@ -31006,7 +21596,7 @@ entry(
 )
 
 entry(
-    index = 1411,
+    index = 1025,
     label = "Cs-(Cds-Cds)(Cds-Cds)CsCs",
     group = 
 """
@@ -31032,7 +21622,7 @@ entry(
 )
 
 entry(
-    index = 1412,
+    index = 1026,
     label = "Cs-(Cds-Cdd)(Cds-Cds)CsCs",
     group = 
 """
@@ -31053,7 +21643,7 @@ entry(
 )
 
 entry(
-    index = 1413,
+    index = 1027,
     label = "Cs-CsCsCd(CCO)",
     group = 
 """
@@ -31082,7 +21672,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 1414,
+    index = 1028,
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cds)CsCs",
     group = 
 """
@@ -31104,7 +21694,7 @@ entry(
 )
 
 entry(
-    index = 1415,
+    index = 1029,
     label = "Cs-(Cds-Cdd-Cd)(Cds-Cds)CsCs",
     group = 
 """
@@ -31126,7 +21716,7 @@ entry(
 )
 
 entry(
-    index = 1416,
+    index = 1030,
     label = "Cs-(Cds-Cdd)(Cds-Cdd)CsCs",
     group = 
 """
@@ -31147,7 +21737,7 @@ entry(
 )
 
 entry(
-    index = 1417,
+    index = 1031,
     label = "Cs-(Cds-Cdd-O2d)(Cds-Cdd-O2d)CsCs",
     group = 
 """
@@ -31175,7 +21765,7 @@ entry(
 )
 
 entry(
-    index = 1418,
+    index = 1032,
     label = "Cs-(Cds-Cdd-O2d)(Cds-Cdd-Cd)CsCs",
     group = 
 """
@@ -31198,7 +21788,7 @@ entry(
 )
 
 entry(
-    index = 1419,
+    index = 1033,
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cdd-S2d)CsCs",
     group = 
 """
@@ -31221,7 +21811,7 @@ entry(
 )
 
 entry(
-    index = 1420,
+    index = 1034,
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cdd-Cd)CsCs",
     group = 
 """
@@ -31244,7 +21834,7 @@ entry(
 )
 
 entry(
-    index = 1421,
+    index = 1035,
     label = "Cs-(Cds-Cdd-Cd)(Cds-Cdd-Cd)CsCs",
     group = 
 """
@@ -31267,7 +21857,7 @@ entry(
 )
 
 entry(
-    index = 1422,
+    index = 1036,
     label = "Cs-CtCdsCsCs",
     group = 
 """
@@ -31286,7 +21876,7 @@ entry(
 )
 
 entry(
-    index = 1423,
+    index = 1037,
     label = "Cs-(Cds-O2d)CtCsCs",
     group = 
 """
@@ -31306,7 +21896,7 @@ entry(
 )
 
 entry(
-    index = 1424,
+    index = 1038,
     label = "Cs-(Cds-Cd)CtCsCs",
     group = 
 """
@@ -31326,7 +21916,7 @@ entry(
 )
 
 entry(
-    index = 1425,
+    index = 1039,
     label = "Cs-(Cds-Cds)CtCsCs",
     group = 
 """
@@ -31351,7 +21941,7 @@ entry(
 )
 
 entry(
-    index = 1426,
+    index = 1040,
     label = "Cs-(Cds-Cdd)CtCsCs",
     group = 
 """
@@ -31371,7 +21961,7 @@ entry(
 )
 
 entry(
-    index = 1427,
+    index = 1041,
     label = "Cs-(Cds-Cdd-O2d)CtCsCs",
     group = 
 """
@@ -31392,7 +21982,7 @@ entry(
 )
 
 entry(
-    index = 1428,
+    index = 1042,
     label = "Cs-(Cds-Cdd-S2d)CtCsCs",
     group = 
 """
@@ -31413,7 +22003,7 @@ entry(
 )
 
 entry(
-    index = 1429,
+    index = 1043,
     label = "Cs-(Cds-Cdd-Cd)CtCsCs",
     group = 
 """
@@ -31434,7 +22024,7 @@ entry(
 )
 
 entry(
-    index = 1430,
+    index = 1044,
     label = "Cs-CbCdsCsCs",
     group = 
 """
@@ -31453,7 +22043,7 @@ entry(
 )
 
 entry(
-    index = 1431,
+    index = 1045,
     label = "Cs-(Cds-O2d)CbCsCs",
     group = 
 """
@@ -31473,7 +22063,7 @@ entry(
 )
 
 entry(
-    index = 1432,
+    index = 1046,
     label = "Cs-(Cds-Cd)CbCsCs",
     group = 
 """
@@ -31493,7 +22083,7 @@ entry(
 )
 
 entry(
-    index = 1433,
+    index = 1047,
     label = "Cs-(Cds-Cds)CbCsCs",
     group = 
 """
@@ -31518,7 +22108,7 @@ entry(
 )
 
 entry(
-    index = 1434,
+    index = 1048,
     label = "Cs-(Cds-Cdd)CbCsCs",
     group = 
 """
@@ -31538,7 +22128,7 @@ entry(
 )
 
 entry(
-    index = 1435,
+    index = 1049,
     label = "Cs-(Cds-Cdd-O2d)CbCsCs",
     group = 
 """
@@ -31559,7 +22149,7 @@ entry(
 )
 
 entry(
-    index = 1436,
+    index = 1050,
     label = "Cs-(Cds-Cdd-S2d)CbCsCs",
     group = 
 """
@@ -31580,7 +22170,7 @@ entry(
 )
 
 entry(
-    index = 1437,
+    index = 1051,
     label = "Cs-(Cds-Cdd-Cd)CbCsCs",
     group = 
 """
@@ -31601,7 +22191,7 @@ entry(
 )
 
 entry(
-    index = 1438,
+    index = 1052,
     label = "Cs-CtCtCsCs",
     group = 
 """
@@ -31625,7 +22215,7 @@ entry(
 )
 
 entry(
-    index = 1439,
+    index = 1053,
     label = "Cs-(CtN3t)(CtN3t)CsCs",
     group = 
 """
@@ -31651,7 +22241,7 @@ entry(
 )
 
 entry(
-    index = 1440,
+    index = 1054,
     label = "Cs-CbCtCsCs",
     group = 
 """
@@ -31675,7 +22265,7 @@ entry(
 )
 
 entry(
-    index = 1441,
+    index = 1055,
     label = "Cs-CbCbCsCs",
     group = 
 """
@@ -31699,7 +22289,7 @@ entry(
 )
 
 entry(
-    index = 1442,
+    index = 1056,
     label = "Cs-CdsCdsCdsCs",
     group = 
 """
@@ -31718,7 +22308,7 @@ entry(
 )
 
 entry(
-    index = 1443,
+    index = 1057,
     label = "Cs-(Cds-O2d)(Cds-O2d)(Cds-O2d)Cs",
     group = 
 """
@@ -31740,7 +22330,7 @@ entry(
 )
 
 entry(
-    index = 1444,
+    index = 1058,
     label = "Cs-(Cds-O2d)(Cds-O2d)(Cds-Cd)Cs",
     group = 
 """
@@ -31769,7 +22359,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 1445,
+    index = 1059,
     label = "Cs-(Cds-O2d)(Cds-O2d)(Cds-Cds)Cs",
     group = 
 """
@@ -31791,7 +22381,7 @@ entry(
 )
 
 entry(
-    index = 1446,
+    index = 1060,
     label = "Cs-(Cds-O2d)(Cds-O2d)(Cds-Cdd)Cs",
     group = 
 """
@@ -31813,7 +22403,7 @@ entry(
 )
 
 entry(
-    index = 1447,
+    index = 1061,
     label = "Cs-(Cds-O2d)(Cds-O2d)(Cds-Cdd-O2d)Cs",
     group = 
 """
@@ -31836,7 +22426,7 @@ entry(
 )
 
 entry(
-    index = 1448,
+    index = 1062,
     label = "Cs-(Cds-O2d)(Cds-O2d)(Cds-Cdd-Cd)Cs",
     group = 
 """
@@ -31859,7 +22449,7 @@ entry(
 )
 
 entry(
-    index = 1449,
+    index = 1063,
     label = "Cs-(Cds-O2d)(Cds-Cd)(Cds-Cd)Cs",
     group = 
 """
@@ -31881,7 +22471,7 @@ entry(
 )
 
 entry(
-    index = 1450,
+    index = 1064,
     label = "Cs-(Cds-O2d)(Cds-Cds)(Cds-Cds)Cs",
     group = 
 """
@@ -31903,7 +22493,7 @@ entry(
 )
 
 entry(
-    index = 1451,
+    index = 1065,
     label = "Cs-(Cds-O2d)(Cds-Cdd)(Cds-Cds)Cs",
     group = 
 """
@@ -31925,7 +22515,7 @@ entry(
 )
 
 entry(
-    index = 1452,
+    index = 1066,
     label = "Cs-(Cds-O2d)(Cds-Cdd-O2d)(Cds-Cds)Cs",
     group = 
 """
@@ -31948,7 +22538,7 @@ entry(
 )
 
 entry(
-    index = 1453,
+    index = 1067,
     label = "Cs-(Cds-O2d)(Cds-Cdd-Cd)(Cds-Cds)Cs",
     group = 
 """
@@ -31971,7 +22561,7 @@ entry(
 )
 
 entry(
-    index = 1454,
+    index = 1068,
     label = "Cs-(Cds-O2d)(Cds-Cdd)(Cds-Cdd)Cs",
     group = 
 """
@@ -31993,7 +22583,7 @@ entry(
 )
 
 entry(
-    index = 1455,
+    index = 1069,
     label = "Cs-(Cds-O2d)(Cds-Cdd-O2d)(Cds-Cdd-O2d)Cs",
     group = 
 """
@@ -32017,7 +22607,7 @@ entry(
 )
 
 entry(
-    index = 1456,
+    index = 1070,
     label = "Cs-(Cds-O2d)(Cds-Cdd-O2d)(Cds-Cdd-Cd)Cs",
     group = 
 """
@@ -32041,7 +22631,7 @@ entry(
 )
 
 entry(
-    index = 1457,
+    index = 1071,
     label = "Cs-(Cds-O2d)(Cds-Cdd-Cd)(Cds-Cdd-Cd)Cs",
     group = 
 """
@@ -32065,7 +22655,7 @@ entry(
 )
 
 entry(
-    index = 1458,
+    index = 1072,
     label = "Cs-(Cds-Cd)(Cds-Cd)(Cds-Cd)Cs",
     group = 
 """
@@ -32087,7 +22677,7 @@ entry(
 )
 
 entry(
-    index = 1459,
+    index = 1073,
     label = "Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)Cs",
     group = 
 """
@@ -32114,7 +22704,7 @@ entry(
 )
 
 entry(
-    index = 1460,
+    index = 1074,
     label = "Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd)Cs",
     group = 
 """
@@ -32136,7 +22726,7 @@ entry(
 )
 
 entry(
-    index = 1461,
+    index = 1075,
     label = "Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd-O2d)Cs",
     group = 
 """
@@ -32159,7 +22749,7 @@ entry(
 )
 
 entry(
-    index = 1462,
+    index = 1076,
     label = "Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd-S2d)Cs",
     group = 
 """
@@ -32182,7 +22772,7 @@ entry(
 )
 
 entry(
-    index = 1463,
+    index = 1077,
     label = "Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd-Cd)Cs",
     group = 
 """
@@ -32205,7 +22795,7 @@ entry(
 )
 
 entry(
-    index = 1464,
+    index = 1078,
     label = "Cs-(Cds-Cds)(Cds-Cdd)(Cds-Cdd)Cs",
     group = 
 """
@@ -32227,7 +22817,7 @@ entry(
 )
 
 entry(
-    index = 1465,
+    index = 1079,
     label = "Cs-(Cds-Cds)(Cds-Cdd-O2d)(Cds-Cdd-O2d)Cs",
     group = 
 """
@@ -32251,7 +22841,7 @@ entry(
 )
 
 entry(
-    index = 1466,
+    index = 1080,
     label = "Cs-(Cds-Cds)(Cds-Cdd-O2d)(Cds-Cdd-Cd)Cs",
     group = 
 """
@@ -32275,7 +22865,7 @@ entry(
 )
 
 entry(
-    index = 1467,
+    index = 1081,
     label = "Cs-(Cds-Cds)(Cds-Cdd-S2d)(Cds-Cdd-S2d)Cs",
     group = 
 """
@@ -32299,7 +22889,7 @@ entry(
 )
 
 entry(
-    index = 1468,
+    index = 1082,
     label = "Cs-(Cds-Cds)(Cds-Cdd-S2d)(Cds-Cdd-Cd)Cs",
     group = 
 """
@@ -32323,7 +22913,7 @@ entry(
 )
 
 entry(
-    index = 1469,
+    index = 1083,
     label = "Cs-(Cds-Cds)(Cds-Cdd-Cd)(Cds-Cdd-Cd)Cs",
     group = 
 """
@@ -32347,7 +22937,7 @@ entry(
 )
 
 entry(
-    index = 1470,
+    index = 1084,
     label = "Cs-(Cds-Cdd)(Cds-Cdd)(Cds-Cdd)Cs",
     group = 
 """
@@ -32369,7 +22959,7 @@ entry(
 )
 
 entry(
-    index = 1471,
+    index = 1085,
     label = "Cs-(Cds-Cdd-O2d)(Cds-Cdd-O2d)(Cds-Cdd-O2d)Cs",
     group = 
 """
@@ -32394,7 +22984,7 @@ entry(
 )
 
 entry(
-    index = 1472,
+    index = 1086,
     label = "Cs-(Cds-Cdd-O2d)(Cds-Cdd-O2d)(Cds-Cdd-Cd)Cs",
     group = 
 """
@@ -32419,7 +23009,7 @@ entry(
 )
 
 entry(
-    index = 1473,
+    index = 1087,
     label = "Cs-(Cds-Cdd-O2d)(Cds-Cdd-Cd)(Cds-Cdd-Cd)Cs",
     group = 
 """
@@ -32444,7 +23034,7 @@ entry(
 )
 
 entry(
-    index = 1474,
+    index = 1088,
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cdd-S2d)(Cds-Cdd-S2d)Cs",
     group = 
 """
@@ -32469,7 +23059,7 @@ entry(
 )
 
 entry(
-    index = 1475,
+    index = 1089,
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cdd-S2d)(Cds-Cdd-Cd)Cs",
     group = 
 """
@@ -32494,7 +23084,7 @@ entry(
 )
 
 entry(
-    index = 1476,
+    index = 1090,
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cdd-Cd)(Cds-Cdd-Cd)Cs",
     group = 
 """
@@ -32519,7 +23109,7 @@ entry(
 )
 
 entry(
-    index = 1477,
+    index = 1091,
     label = "Cs-(Cds-Cdd-Cd)(Cds-Cdd-Cd)(Cds-Cdd-Cd)Cs",
     group = 
 """
@@ -32544,7 +23134,7 @@ entry(
 )
 
 entry(
-    index = 1478,
+    index = 1092,
     label = "Cs-CtCdsCdsCs",
     group = 
 """
@@ -32563,7 +23153,7 @@ entry(
 )
 
 entry(
-    index = 1479,
+    index = 1093,
     label = "Cs-(Cds-O2d)(Cds-O2d)CtCs",
     group = 
 """
@@ -32584,7 +23174,7 @@ entry(
 )
 
 entry(
-    index = 1480,
+    index = 1094,
     label = "Cs-(Cds-O2d)(Cds-Cd)CtCs",
     group = 
 """
@@ -32605,7 +23195,7 @@ entry(
 )
 
 entry(
-    index = 1481,
+    index = 1095,
     label = "Cs-(Cds-O2d)(Cds-Cds)CtCs",
     group = 
 """
@@ -32626,7 +23216,7 @@ entry(
 )
 
 entry(
-    index = 1482,
+    index = 1096,
     label = "Cs-(Cds-O2d)(Cds-Cdd)CtCs",
     group = 
 """
@@ -32647,7 +23237,7 @@ entry(
 )
 
 entry(
-    index = 1483,
+    index = 1097,
     label = "Cs-(Cds-O2d)(Cds-Cdd-O2d)CtCs",
     group = 
 """
@@ -32669,7 +23259,7 @@ entry(
 )
 
 entry(
-    index = 1484,
+    index = 1098,
     label = "Cs-(Cds-O2d)(Cds-Cdd-Cd)CtCs",
     group = 
 """
@@ -32691,7 +23281,7 @@ entry(
 )
 
 entry(
-    index = 1485,
+    index = 1099,
     label = "Cs-(Cds-Cd)(Cds-Cd)CtCs",
     group = 
 """
@@ -32712,7 +23302,7 @@ entry(
 )
 
 entry(
-    index = 1486,
+    index = 1100,
     label = "Cs-(Cds-Cds)(Cds-Cds)CtCs",
     group = 
 """
@@ -32733,7 +23323,7 @@ entry(
 )
 
 entry(
-    index = 1487,
+    index = 1101,
     label = "Cs-(Cds-Cdd)(Cds-Cds)CtCs",
     group = 
 """
@@ -32754,7 +23344,7 @@ entry(
 )
 
 entry(
-    index = 1488,
+    index = 1102,
     label = "Cs-(Cds-Cdd-O2d)(Cds-Cds)CtCs",
     group = 
 """
@@ -32776,7 +23366,7 @@ entry(
 )
 
 entry(
-    index = 1489,
+    index = 1103,
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cds)CtCs",
     group = 
 """
@@ -32798,7 +23388,7 @@ entry(
 )
 
 entry(
-    index = 1490,
+    index = 1104,
     label = "Cs-(Cds-Cdd-Cd)(Cds-Cds)CtCs",
     group = 
 """
@@ -32820,7 +23410,7 @@ entry(
 )
 
 entry(
-    index = 1491,
+    index = 1105,
     label = "Cs-(Cds-Cdd)(Cds-Cdd)CtCs",
     group = 
 """
@@ -32841,7 +23431,7 @@ entry(
 )
 
 entry(
-    index = 1492,
+    index = 1106,
     label = "Cs-(Cds-Cdd-O2d)(Cds-Cdd-O2d)CtCs",
     group = 
 """
@@ -32864,7 +23454,7 @@ entry(
 )
 
 entry(
-    index = 1493,
+    index = 1107,
     label = "Cs-(Cds-Cdd-O2d)(Cds-Cdd-Cd)CtCs",
     group = 
 """
@@ -32887,7 +23477,7 @@ entry(
 )
 
 entry(
-    index = 1494,
+    index = 1108,
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cdd-S2d)CtCs",
     group = 
 """
@@ -32910,7 +23500,7 @@ entry(
 )
 
 entry(
-    index = 1495,
+    index = 1109,
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cdd-Cd)CtCs",
     group = 
 """
@@ -32933,7 +23523,7 @@ entry(
 )
 
 entry(
-    index = 1496,
+    index = 1110,
     label = "Cs-(Cds-Cdd-Cd)(Cds-Cdd-Cd)CtCs",
     group = 
 """
@@ -32956,7 +23546,7 @@ entry(
 )
 
 entry(
-    index = 1497,
+    index = 1111,
     label = "Cs-CbCdsCdsCs",
     group = 
 """
@@ -32975,7 +23565,7 @@ entry(
 )
 
 entry(
-    index = 1498,
+    index = 1112,
     label = "Cs-(Cds-O2d)(Cds-O2d)CbCs",
     group = 
 """
@@ -32996,7 +23586,7 @@ entry(
 )
 
 entry(
-    index = 1499,
+    index = 1113,
     label = "Cs-(Cds-O2d)(Cds-Cd)CbCs",
     group = 
 """
@@ -33017,7 +23607,7 @@ entry(
 )
 
 entry(
-    index = 1500,
+    index = 1114,
     label = "Cs-(Cds-O2d)(Cds-Cds)CbCs",
     group = 
 """
@@ -33038,7 +23628,7 @@ entry(
 )
 
 entry(
-    index = 1501,
+    index = 1115,
     label = "Cs-(Cds-O2d)(Cds-Cdd)CbCs",
     group = 
 """
@@ -33059,7 +23649,7 @@ entry(
 )
 
 entry(
-    index = 1502,
+    index = 1116,
     label = "Cs-(Cds-O2d)(Cds-Cdd-O2d)CbCs",
     group = 
 """
@@ -33081,7 +23671,7 @@ entry(
 )
 
 entry(
-    index = 1503,
+    index = 1117,
     label = "Cs-(Cds-O2d)(Cds-Cdd-Cd)CbCs",
     group = 
 """
@@ -33103,7 +23693,7 @@ entry(
 )
 
 entry(
-    index = 1504,
+    index = 1118,
     label = "Cs-(Cds-Cd)(Cds-Cd)CbCs",
     group = 
 """
@@ -33124,7 +23714,7 @@ entry(
 )
 
 entry(
-    index = 1505,
+    index = 1119,
     label = "Cs-(Cds-Cds)(Cds-Cds)CbCs",
     group = 
 """
@@ -33145,7 +23735,7 @@ entry(
 )
 
 entry(
-    index = 1506,
+    index = 1120,
     label = "Cs-(Cds-Cdd)(Cds-Cds)CbCs",
     group = 
 """
@@ -33166,7 +23756,7 @@ entry(
 )
 
 entry(
-    index = 1507,
+    index = 1121,
     label = "Cs-(Cds-Cdd-O2d)(Cds-Cds)CbCs",
     group = 
 """
@@ -33188,7 +23778,7 @@ entry(
 )
 
 entry(
-    index = 1508,
+    index = 1122,
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cds)CbCs",
     group = 
 """
@@ -33210,7 +23800,7 @@ entry(
 )
 
 entry(
-    index = 1509,
+    index = 1123,
     label = "Cs-(Cds-Cdd-Cd)(Cds-Cds)CbCs",
     group = 
 """
@@ -33232,7 +23822,7 @@ entry(
 )
 
 entry(
-    index = 1510,
+    index = 1124,
     label = "Cs-(Cds-Cdd)(Cds-Cdd)CbCs",
     group = 
 """
@@ -33253,7 +23843,7 @@ entry(
 )
 
 entry(
-    index = 1511,
+    index = 1125,
     label = "Cs-(Cds-Cdd-O2d)(Cds-Cdd-O2d)CbCs",
     group = 
 """
@@ -33276,7 +23866,7 @@ entry(
 )
 
 entry(
-    index = 1512,
+    index = 1126,
     label = "Cs-(Cds-Cdd-O2d)(Cds-Cdd-Cd)CbCs",
     group = 
 """
@@ -33299,7 +23889,7 @@ entry(
 )
 
 entry(
-    index = 1513,
+    index = 1127,
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cdd-S2d)CbCs",
     group = 
 """
@@ -33322,7 +23912,7 @@ entry(
 )
 
 entry(
-    index = 1514,
+    index = 1128,
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cdd-Cd)CbCs",
     group = 
 """
@@ -33345,7 +23935,7 @@ entry(
 )
 
 entry(
-    index = 1515,
+    index = 1129,
     label = "Cs-(Cds-Cdd-Cd)(Cds-Cdd-Cd)CbCs",
     group = 
 """
@@ -33368,7 +23958,7 @@ entry(
 )
 
 entry(
-    index = 1516,
+    index = 1130,
     label = "Cs-CtCtCdsCs",
     group = 
 """
@@ -33387,7 +23977,7 @@ entry(
 )
 
 entry(
-    index = 1517,
+    index = 1131,
     label = "Cs-(Cds-O2d)CtCtCs",
     group = 
 """
@@ -33407,7 +23997,7 @@ entry(
 )
 
 entry(
-    index = 1518,
+    index = 1132,
     label = "Cs-(Cds-Cd)CtCtCs",
     group = 
 """
@@ -33427,7 +24017,7 @@ entry(
 )
 
 entry(
-    index = 1519,
+    index = 1133,
     label = "Cs-(Cds-Cds)CtCtCs",
     group = 
 """
@@ -33452,7 +24042,7 @@ entry(
 )
 
 entry(
-    index = 1520,
+    index = 1134,
     label = "Cs-(Cds-Cdd)CtCtCs",
     group = 
 """
@@ -33472,7 +24062,7 @@ entry(
 )
 
 entry(
-    index = 1521,
+    index = 1135,
     label = "Cs-(Cds-Cdd-O2d)CtCtCs",
     group = 
 """
@@ -33493,7 +24083,7 @@ entry(
 )
 
 entry(
-    index = 1522,
+    index = 1136,
     label = "Cs-(Cds-Cdd-S2d)CtCtCs",
     group = 
 """
@@ -33514,7 +24104,7 @@ entry(
 )
 
 entry(
-    index = 1523,
+    index = 1137,
     label = "Cs-(Cds-Cdd-Cd)CtCtCs",
     group = 
 """
@@ -33535,7 +24125,7 @@ entry(
 )
 
 entry(
-    index = 1524,
+    index = 1138,
     label = "Cs-CbCtCdsCs",
     group = 
 """
@@ -33554,7 +24144,7 @@ entry(
 )
 
 entry(
-    index = 1525,
+    index = 1139,
     label = "Cs-(Cds-O2d)CbCtCs",
     group = 
 """
@@ -33574,7 +24164,7 @@ entry(
 )
 
 entry(
-    index = 1526,
+    index = 1140,
     label = "Cs-(Cds-Cd)CbCtCs",
     group = 
 """
@@ -33594,7 +24184,7 @@ entry(
 )
 
 entry(
-    index = 1527,
+    index = 1141,
     label = "Cs-(Cds-Cds)CbCtCs",
     group = 
 """
@@ -33619,7 +24209,7 @@ entry(
 )
 
 entry(
-    index = 1528,
+    index = 1142,
     label = "Cs-(Cds-Cdd)CbCtCs",
     group = 
 """
@@ -33639,7 +24229,7 @@ entry(
 )
 
 entry(
-    index = 1529,
+    index = 1143,
     label = "Cs-(Cds-Cdd-O2d)CbCtCs",
     group = 
 """
@@ -33660,7 +24250,7 @@ entry(
 )
 
 entry(
-    index = 1530,
+    index = 1144,
     label = "Cs-(Cds-Cdd-S2d)CbCtCs",
     group = 
 """
@@ -33681,7 +24271,7 @@ entry(
 )
 
 entry(
-    index = 1531,
+    index = 1145,
     label = "Cs-(Cds-Cdd-Cd)CbCtCs",
     group = 
 """
@@ -33707,7 +24297,7 @@ entry(
 )
 
 entry(
-    index = 1532,
+    index = 1146,
     label = "Cs-CbCbCdsCs",
     group = 
 """
@@ -33726,7 +24316,7 @@ entry(
 )
 
 entry(
-    index = 1533,
+    index = 1147,
     label = "Cs-(Cds-O2d)CbCbCs",
     group = 
 """
@@ -33746,7 +24336,7 @@ entry(
 )
 
 entry(
-    index = 1534,
+    index = 1148,
     label = "Cs-(Cds-Cd)CbCbCs",
     group = 
 """
@@ -33766,7 +24356,7 @@ entry(
 )
 
 entry(
-    index = 1535,
+    index = 1149,
     label = "Cs-(Cds-Cds)CbCbCs",
     group = 
 """
@@ -33791,7 +24381,7 @@ entry(
 )
 
 entry(
-    index = 1536,
+    index = 1150,
     label = "Cs-(Cds-Cdd)CbCbCs",
     group = 
 """
@@ -33811,7 +24401,7 @@ entry(
 )
 
 entry(
-    index = 1537,
+    index = 1151,
     label = "Cs-(Cds-Cdd-O2d)CbCbCs",
     group = 
 """
@@ -33832,7 +24422,7 @@ entry(
 )
 
 entry(
-    index = 1538,
+    index = 1152,
     label = "Cs-(Cds-Cdd-S2d)CbCbCs",
     group = 
 """
@@ -33853,7 +24443,7 @@ entry(
 )
 
 entry(
-    index = 1539,
+    index = 1153,
     label = "Cs-(Cds-Cdd-Cd)CbCbCs",
     group = 
 """
@@ -33874,7 +24464,7 @@ entry(
 )
 
 entry(
-    index = 1540,
+    index = 1154,
     label = "Cs-CtCtCtCs",
     group = 
 """
@@ -33898,7 +24488,7 @@ entry(
 )
 
 entry(
-    index = 1541,
+    index = 1155,
     label = "Cs-CbCtCtCs",
     group = 
 """
@@ -33922,7 +24512,7 @@ entry(
 )
 
 entry(
-    index = 1542,
+    index = 1156,
     label = "Cs-CbCbCtCs",
     group = 
 """
@@ -33946,7 +24536,7 @@ entry(
 )
 
 entry(
-    index = 1543,
+    index = 1157,
     label = "Cs-CbCbCbCs",
     group = 
 """
@@ -33970,7 +24560,7 @@ entry(
 )
 
 entry(
-    index = 1544,
+    index = 1158,
     label = "Cs-CdsCdsCdsCds",
     group = 
 """
@@ -33989,7 +24579,7 @@ entry(
 )
 
 entry(
-    index = 1545,
+    index = 1159,
     label = "Cs-(Cds-O2d)(Cds-O2d)(Cds-O2d)(Cds-O2d)",
     group = 
 """
@@ -34012,7 +24602,7 @@ entry(
 )
 
 entry(
-    index = 1546,
+    index = 1160,
     label = "Cs-(Cds-O2d)(Cds-O2d)(Cds-O2d)(Cds-Cd)",
     group = 
 """
@@ -34035,7 +24625,7 @@ entry(
 )
 
 entry(
-    index = 1547,
+    index = 1161,
     label = "Cs-(Cds-O2d)(Cds-O2d)(Cds-O2d)(Cds-Cds)",
     group = 
 """
@@ -34058,7 +24648,7 @@ entry(
 )
 
 entry(
-    index = 1548,
+    index = 1162,
     label = "Cs-(Cds-O2d)(Cds-O2d)(Cds-O2d)(Cds-Cdd)",
     group = 
 """
@@ -34081,7 +24671,7 @@ entry(
 )
 
 entry(
-    index = 1549,
+    index = 1163,
     label = "Cs-(Cds-O2d)(Cds-O2d)(Cds-O2d)(Cds-Cdd-O2d)",
     group = 
 """
@@ -34105,7 +24695,7 @@ entry(
 )
 
 entry(
-    index = 1550,
+    index = 1164,
     label = "Cs-(Cds-O2d)(Cds-O2d)(Cds-O2d)(Cds-Cdd-Cd)",
     group = 
 """
@@ -34129,7 +24719,7 @@ entry(
 )
 
 entry(
-    index = 1551,
+    index = 1165,
     label = "Cs-(Cds-O2d)(Cds-O2d)(Cds-Cd)(Cds-Cd)",
     group = 
 """
@@ -34159,7 +24749,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 1552,
+    index = 1166,
     label = "Cs-(Cds-O2d)(Cds-O2d)(Cds-Cds)(Cds-Cds)",
     group = 
 """
@@ -34182,7 +24772,7 @@ entry(
 )
 
 entry(
-    index = 1553,
+    index = 1167,
     label = "Cs-(Cds-O2d)(Cds-O2d)(Cds-Cdd)(Cds-Cds)",
     group = 
 """
@@ -34205,7 +24795,7 @@ entry(
 )
 
 entry(
-    index = 1554,
+    index = 1168,
     label = "Cs-(Cds-O2d)(Cds-O2d)(Cds-Cdd-O2d)(Cds-Cds)",
     group = 
 """
@@ -34229,7 +24819,7 @@ entry(
 )
 
 entry(
-    index = 1555,
+    index = 1169,
     label = "Cs-(Cds-O2d)(Cds-O2d)(Cds-Cdd-Cd)(Cds-Cds)",
     group = 
 """
@@ -34253,7 +24843,7 @@ entry(
 )
 
 entry(
-    index = 1556,
+    index = 1170,
     label = "Cs-(Cds-O2d)(Cds-O2d)(Cds-Cdd)(Cds-Cdd)",
     group = 
 """
@@ -34276,7 +24866,7 @@ entry(
 )
 
 entry(
-    index = 1557,
+    index = 1171,
     label = "Cs-(Cds-O2d)(Cds-O2d)(Cds-Cdd-O2d)(Cds-Cdd-O2d)",
     group = 
 """
@@ -34301,7 +24891,7 @@ entry(
 )
 
 entry(
-    index = 1558,
+    index = 1172,
     label = "Cs-(Cds-O2d)(Cds-O2d)(Cds-Cdd-O2d)(Cds-Cdd-Cd)",
     group = 
 """
@@ -34326,7 +24916,7 @@ entry(
 )
 
 entry(
-    index = 1559,
+    index = 1173,
     label = "Cs-(Cds-O2d)(Cds-O2d)(Cds-Cdd-Cd)(Cds-Cdd-Cd)",
     group = 
 """
@@ -34351,7 +24941,7 @@ entry(
 )
 
 entry(
-    index = 1560,
+    index = 1174,
     label = "Cs-(Cds-O2d)(Cds-Cd)(Cds-Cd)(Cds-Cd)",
     group = 
 """
@@ -34374,7 +24964,7 @@ entry(
 )
 
 entry(
-    index = 1561,
+    index = 1175,
     label = "Cs-(Cds-O2d)(Cds-Cds)(Cds-Cds)(Cds-Cds)",
     group = 
 """
@@ -34397,7 +24987,7 @@ entry(
 )
 
 entry(
-    index = 1562,
+    index = 1176,
     label = "Cs-(Cds-O2d)(Cds-Cds)(Cds-Cds)(Cds-Cdd)",
     group = 
 """
@@ -34420,7 +25010,7 @@ entry(
 )
 
 entry(
-    index = 1563,
+    index = 1177,
     label = "Cs-(Cds-O2d)(Cds-Cds)(Cds-Cds)(Cds-Cdd-O2d)",
     group = 
 """
@@ -34444,7 +25034,7 @@ entry(
 )
 
 entry(
-    index = 1564,
+    index = 1178,
     label = "Cs-(Cds-O2d)(Cds-Cds)(Cds-Cds)(Cds-Cdd-Cd)",
     group = 
 """
@@ -34468,7 +25058,7 @@ entry(
 )
 
 entry(
-    index = 1565,
+    index = 1179,
     label = "Cs-(Cds-O2d)(Cds-Cds)(Cds-Cdd)(Cds-Cdd)",
     group = 
 """
@@ -34491,7 +25081,7 @@ entry(
 )
 
 entry(
-    index = 1566,
+    index = 1180,
     label = "Cs-(Cds-O2d)(Cds-Cds)(Cds-Cdd-O2d)(Cds-Cdd-O2d)",
     group = 
 """
@@ -34516,7 +25106,7 @@ entry(
 )
 
 entry(
-    index = 1567,
+    index = 1181,
     label = "Cs-(Cds-O2d)(Cds-Cds)(Cds-Cdd-O2d)(Cds-Cdd-Cd)",
     group = 
 """
@@ -34541,7 +25131,7 @@ entry(
 )
 
 entry(
-    index = 1568,
+    index = 1182,
     label = "Cs-(Cds-O2d)(Cds-Cds)(Cds-Cdd-Cd)(Cds-Cdd-Cd)",
     group = 
 """
@@ -34566,7 +25156,7 @@ entry(
 )
 
 entry(
-    index = 1569,
+    index = 1183,
     label = "Cs-(Cds-O2d)(Cds-Cdd)(Cds-Cdd)(Cds-Cdd)",
     group = 
 """
@@ -34589,7 +25179,7 @@ entry(
 )
 
 entry(
-    index = 1570,
+    index = 1184,
     label = "Cs-(Cds-O2d)(Cds-Cdd-O2d)(Cds-Cdd-O2d)(Cds-Cdd-O2d)",
     group = 
 """
@@ -34615,7 +25205,7 @@ entry(
 )
 
 entry(
-    index = 1571,
+    index = 1185,
     label = "Cs-(Cds-O2d)(Cds-Cdd-O2d)(Cds-Cdd-O2d)(Cds-Cdd-Cd)",
     group = 
 """
@@ -34641,7 +25231,7 @@ entry(
 )
 
 entry(
-    index = 1572,
+    index = 1186,
     label = "Cs-(Cds-O2d)(Cds-Cdd-O2d)(Cds-Cdd-Cd)(Cds-Cdd-Cd)",
     group = 
 """
@@ -34667,7 +25257,7 @@ entry(
 )
 
 entry(
-    index = 1573,
+    index = 1187,
     label = "Cs-(Cds-O2d)(Cds-Cdd-Cd)(Cds-Cdd-Cd)(Cds-Cdd-Cd)",
     group = 
 """
@@ -34693,7 +25283,7 @@ entry(
 )
 
 entry(
-    index = 1574,
+    index = 1188,
     label = "Cs-(Cds-Cd)(Cds-Cd)(Cds-Cd)(Cds-Cd)",
     group = 
 """
@@ -34716,7 +25306,7 @@ entry(
 )
 
 entry(
-    index = 1575,
+    index = 1189,
     label = "Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)(Cds-Cds)",
     group = 
 """
@@ -34739,7 +25329,7 @@ entry(
 )
 
 entry(
-    index = 1576,
+    index = 1190,
     label = "Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)(Cds-Cdd)",
     group = 
 """
@@ -34762,7 +25352,7 @@ entry(
 )
 
 entry(
-    index = 1577,
+    index = 1191,
     label = "Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)(Cds-Cdd-O2d)",
     group = 
 """
@@ -34786,7 +25376,7 @@ entry(
 )
 
 entry(
-    index = 1578,
+    index = 1192,
     label = "Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)(Cds-Cdd-S2d)",
     group = 
 """
@@ -34810,7 +25400,7 @@ entry(
 )
 
 entry(
-    index = 1579,
+    index = 1193,
     label = "Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)(Cds-Cdd-Cd)",
     group = 
 """
@@ -34834,7 +25424,7 @@ entry(
 )
 
 entry(
-    index = 1580,
+    index = 1194,
     label = "Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd)(Cds-Cdd)",
     group = 
 """
@@ -34857,7 +25447,7 @@ entry(
 )
 
 entry(
-    index = 1581,
+    index = 1195,
     label = "Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd-O2d)(Cds-Cdd-O2d)",
     group = 
 """
@@ -34882,7 +25472,7 @@ entry(
 )
 
 entry(
-    index = 1582,
+    index = 1196,
     label = "Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd-O2d)(Cds-Cdd-Cd)",
     group = 
 """
@@ -34907,7 +25497,7 @@ entry(
 )
 
 entry(
-    index = 1583,
+    index = 1197,
     label = "Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd-S2d)(Cds-Cdd-S2d)",
     group = 
 """
@@ -34932,7 +25522,7 @@ entry(
 )
 
 entry(
-    index = 1584,
+    index = 1198,
     label = "Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd-S2d)(Cds-Cdd-Cd)",
     group = 
 """
@@ -34957,7 +25547,7 @@ entry(
 )
 
 entry(
-    index = 1585,
+    index = 1199,
     label = "Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd-Cd)(Cds-Cdd-Cd)",
     group = 
 """
@@ -34982,7 +25572,7 @@ entry(
 )
 
 entry(
-    index = 1586,
+    index = 1200,
     label = "Cs-(Cds-Cds)(Cds-Cdd)(Cds-Cdd)(Cds-Cdd)",
     group = 
 """
@@ -35005,7 +25595,7 @@ entry(
 )
 
 entry(
-    index = 1587,
+    index = 1201,
     label = "Cs-(Cds-Cds)(Cds-Cdd-O2d)(Cds-Cdd-O2d)(Cds-Cdd-O2d)",
     group = 
 """
@@ -35031,7 +25621,7 @@ entry(
 )
 
 entry(
-    index = 1588,
+    index = 1202,
     label = "Cs-(Cds-Cds)(Cds-Cdd-O2d)(Cds-Cdd-O2d)(Cds-Cdd-Cd)",
     group = 
 """
@@ -35057,7 +25647,7 @@ entry(
 )
 
 entry(
-    index = 1589,
+    index = 1203,
     label = "Cs-(Cds-Cds)(Cds-Cdd-O2d)(Cds-Cdd-Cd)(Cds-Cdd-Cd)",
     group = 
 """
@@ -35083,7 +25673,7 @@ entry(
 )
 
 entry(
-    index = 1590,
+    index = 1204,
     label = "Cs-(Cds-Cds)(Cds-Cdd-S2d)(Cds-Cdd-S2d)(Cds-Cdd-S2d)",
     group = 
 """
@@ -35109,7 +25699,7 @@ entry(
 )
 
 entry(
-    index = 1591,
+    index = 1205,
     label = "Cs-(Cds-Cds)(Cds-Cdd-S2d)(Cds-Cdd-S2d)(Cds-Cdd-Cd)",
     group = 
 """
@@ -35135,7 +25725,7 @@ entry(
 )
 
 entry(
-    index = 1592,
+    index = 1206,
     label = "Cs-(Cds-Cds)(Cds-Cdd-S2d)(Cds-Cdd-Cd)(Cds-Cdd-Cd)",
     group = 
 """
@@ -35161,7 +25751,7 @@ entry(
 )
 
 entry(
-    index = 1593,
+    index = 1207,
     label = "Cs-(Cds-Cds)(Cds-Cdd-Cd)(Cds-Cdd-Cd)(Cds-Cdd-Cd)",
     group = 
 """
@@ -35187,7 +25777,7 @@ entry(
 )
 
 entry(
-    index = 1594,
+    index = 1208,
     label = "Cs-(Cds-Cdd)(Cds-Cdd)(Cds-Cdd)(Cds-Cdd)",
     group = 
 """
@@ -35210,7 +25800,7 @@ entry(
 )
 
 entry(
-    index = 1595,
+    index = 1209,
     label = "Cs-(Cds-Cdd-O2d)(Cds-Cdd-O2d)(Cds-Cdd-O2d)(Cds-Cdd-O2d)",
     group = 
 """
@@ -35237,7 +25827,7 @@ entry(
 )
 
 entry(
-    index = 1596,
+    index = 1210,
     label = "Cs-(Cds-Cdd-O2d)(Cds-Cdd-O2d)(Cds-Cdd-O2d)(Cds-Cdd-Cd)",
     group = 
 """
@@ -35264,7 +25854,7 @@ entry(
 )
 
 entry(
-    index = 1597,
+    index = 1211,
     label = "Cs-(Cds-Cdd-O2d)(Cds-Cdd-O2d)(Cds-Cdd-Cd)(Cds-Cdd-Cd)",
     group = 
 """
@@ -35291,7 +25881,7 @@ entry(
 )
 
 entry(
-    index = 1598,
+    index = 1212,
     label = "Cs-(Cds-Cdd-O2d)(Cds-Cdd-Cd)(Cds-Cdd-Cd)(Cds-Cdd-Cd)",
     group = 
 """
@@ -35318,7 +25908,7 @@ entry(
 )
 
 entry(
-    index = 1599,
+    index = 1213,
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cdd-S2d)(Cds-Cdd-S2d)(Cds-Cdd-S2d)",
     group = 
 """
@@ -35345,7 +25935,7 @@ entry(
 )
 
 entry(
-    index = 1600,
+    index = 1214,
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cdd-S2d)(Cds-Cdd-S2d)(Cds-Cdd-Cd)",
     group = 
 """
@@ -35372,7 +25962,7 @@ entry(
 )
 
 entry(
-    index = 1601,
+    index = 1215,
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cdd-S2d)(Cds-Cdd-Cd)(Cds-Cdd-Cd)",
     group = 
 """
@@ -35399,7 +25989,7 @@ entry(
 )
 
 entry(
-    index = 1602,
+    index = 1216,
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cdd-Cd)(Cds-Cdd-Cd)(Cds-Cdd-Cd)",
     group = 
 """
@@ -35426,7 +26016,7 @@ entry(
 )
 
 entry(
-    index = 1603,
+    index = 1217,
     label = "Cs-(Cds-Cdd-Cd)(Cds-Cdd-Cd)(Cds-Cdd-Cd)(Cds-Cdd-Cd)",
     group = 
 """
@@ -35453,7 +26043,7 @@ entry(
 )
 
 entry(
-    index = 1604,
+    index = 1218,
     label = "Cs-CtCdsCdsCds",
     group = 
 """
@@ -35472,7 +26062,7 @@ entry(
 )
 
 entry(
-    index = 1605,
+    index = 1219,
     label = "Cs-(Cds-O2d)(Cds-O2d)(Cds-O2d)Ct",
     group = 
 """
@@ -35494,7 +26084,7 @@ entry(
 )
 
 entry(
-    index = 1606,
+    index = 1220,
     label = "Cs-(Cds-O2d)(Cds-O2d)(Cds-Cd)Ct",
     group = 
 """
@@ -35516,7 +26106,7 @@ entry(
 )
 
 entry(
-    index = 1607,
+    index = 1221,
     label = "Cs-(Cds-O2d)(Cds-O2d)(Cds-Cds)Ct",
     group = 
 """
@@ -35538,7 +26128,7 @@ entry(
 )
 
 entry(
-    index = 1608,
+    index = 1222,
     label = "Cs-(Cds-O2d)(Cds-O2d)(Cds-Cdd)Ct",
     group = 
 """
@@ -35560,7 +26150,7 @@ entry(
 )
 
 entry(
-    index = 1609,
+    index = 1223,
     label = "Cs-(Cds-O2d)(Cds-O2d)(Cds-Cdd-O2d)Ct",
     group = 
 """
@@ -35583,7 +26173,7 @@ entry(
 )
 
 entry(
-    index = 1610,
+    index = 1224,
     label = "Cs-(Cds-O2d)(Cds-O2d)(Cds-Cdd-Cd)Ct",
     group = 
 """
@@ -35606,7 +26196,7 @@ entry(
 )
 
 entry(
-    index = 1611,
+    index = 1225,
     label = "Cs-(Cds-O2d)(Cds-Cd)(Cds-Cd)Ct",
     group = 
 """
@@ -35628,7 +26218,7 @@ entry(
 )
 
 entry(
-    index = 1612,
+    index = 1226,
     label = "Cs-(Cds-O2d)(Cds-Cds)(Cds-Cds)Ct",
     group = 
 """
@@ -35650,7 +26240,7 @@ entry(
 )
 
 entry(
-    index = 1613,
+    index = 1227,
     label = "Cs-(Cds-O2d)(Cds-Cdd)(Cds-Cds)Ct",
     group = 
 """
@@ -35672,7 +26262,7 @@ entry(
 )
 
 entry(
-    index = 1614,
+    index = 1228,
     label = "Cs-(Cds-O2d)(Cds-Cdd-O2d)(Cds-Cds)Ct",
     group = 
 """
@@ -35695,7 +26285,7 @@ entry(
 )
 
 entry(
-    index = 1615,
+    index = 1229,
     label = "Cs-(Cds-O2d)(Cds-Cdd-Cd)(Cds-Cds)Ct",
     group = 
 """
@@ -35718,7 +26308,7 @@ entry(
 )
 
 entry(
-    index = 1616,
+    index = 1230,
     label = "Cs-(Cds-O2d)(Cds-Cdd)(Cds-Cdd)Ct",
     group = 
 """
@@ -35740,7 +26330,7 @@ entry(
 )
 
 entry(
-    index = 1617,
+    index = 1231,
     label = "Cs-(Cds-O2d)(Cds-Cdd-O2d)(Cds-Cdd-O2d)Ct",
     group = 
 """
@@ -35764,7 +26354,7 @@ entry(
 )
 
 entry(
-    index = 1618,
+    index = 1232,
     label = "Cs-(Cds-O2d)(Cds-Cdd-O2d)(Cds-Cdd-Cd)Ct",
     group = 
 """
@@ -35788,7 +26378,7 @@ entry(
 )
 
 entry(
-    index = 1619,
+    index = 1233,
     label = "Cs-(Cds-O2d)(Cds-Cdd-Cd)(Cds-Cdd-Cd)Ct",
     group = 
 """
@@ -35812,7 +26402,7 @@ entry(
 )
 
 entry(
-    index = 1620,
+    index = 1234,
     label = "Cs-(Cds-Cd)(Cds-Cd)(Cds-Cd)Ct",
     group = 
 """
@@ -35834,7 +26424,7 @@ entry(
 )
 
 entry(
-    index = 1621,
+    index = 1235,
     label = "Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)Ct",
     group = 
 """
@@ -35856,7 +26446,7 @@ entry(
 )
 
 entry(
-    index = 1622,
+    index = 1236,
     label = "Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd)Ct",
     group = 
 """
@@ -35878,7 +26468,7 @@ entry(
 )
 
 entry(
-    index = 1623,
+    index = 1237,
     label = "Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd-O2d)Ct",
     group = 
 """
@@ -35901,7 +26491,7 @@ entry(
 )
 
 entry(
-    index = 1624,
+    index = 1238,
     label = "Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd-S2d)Ct",
     group = 
 """
@@ -35924,7 +26514,7 @@ entry(
 )
 
 entry(
-    index = 1625,
+    index = 1239,
     label = "Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd-Cd)Ct",
     group = 
 """
@@ -35947,7 +26537,7 @@ entry(
 )
 
 entry(
-    index = 1626,
+    index = 1240,
     label = "Cs-(Cds-Cds)(Cds-Cdd)(Cds-Cdd)Ct",
     group = 
 """
@@ -35969,7 +26559,7 @@ entry(
 )
 
 entry(
-    index = 1627,
+    index = 1241,
     label = "Cs-(Cds-Cds)(Cds-Cdd-O2d)(Cds-Cdd-O2d)Ct",
     group = 
 """
@@ -35993,7 +26583,7 @@ entry(
 )
 
 entry(
-    index = 1628,
+    index = 1242,
     label = "Cs-(Cds-Cds)(Cds-Cdd-O2d)(Cds-Cdd-Cd)Ct",
     group = 
 """
@@ -36017,7 +26607,7 @@ entry(
 )
 
 entry(
-    index = 1629,
+    index = 1243,
     label = "Cs-(Cds-Cds)(Cds-Cdd-S2d)(Cds-Cdd-S2d)Ct",
     group = 
 """
@@ -36041,7 +26631,7 @@ entry(
 )
 
 entry(
-    index = 1630,
+    index = 1244,
     label = "Cs-(Cds-Cds)(Cds-Cdd-S2d)(Cds-Cdd-Cd)Ct",
     group = 
 """
@@ -36065,7 +26655,7 @@ entry(
 )
 
 entry(
-    index = 1631,
+    index = 1245,
     label = "Cs-(Cds-Cds)(Cds-Cdd-Cd)(Cds-Cdd-Cd)Ct",
     group = 
 """
@@ -36089,7 +26679,7 @@ entry(
 )
 
 entry(
-    index = 1632,
+    index = 1246,
     label = "Cs-(Cds-Cdd)(Cds-Cdd)(Cds-Cdd)Ct",
     group = 
 """
@@ -36111,7 +26701,7 @@ entry(
 )
 
 entry(
-    index = 1633,
+    index = 1247,
     label = "Cs-(Cds-Cdd-O2d)(Cds-Cdd-O2d)(Cds-Cdd-O2d)Ct",
     group = 
 """
@@ -36136,7 +26726,7 @@ entry(
 )
 
 entry(
-    index = 1634,
+    index = 1248,
     label = "Cs-(Cds-Cdd-O2d)(Cds-Cdd-O2d)(Cds-Cdd-Cd)Ct",
     group = 
 """
@@ -36161,7 +26751,7 @@ entry(
 )
 
 entry(
-    index = 1635,
+    index = 1249,
     label = "Cs-(Cds-Cdd-O2d)(Cds-Cdd-Cd)(Cds-Cdd-Cd)Ct",
     group = 
 """
@@ -36186,7 +26776,7 @@ entry(
 )
 
 entry(
-    index = 1636,
+    index = 1250,
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cdd-S2d)(Cds-Cdd-S2d)Ct",
     group = 
 """
@@ -36211,7 +26801,7 @@ entry(
 )
 
 entry(
-    index = 1637,
+    index = 1251,
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cdd-S2d)(Cds-Cdd-Cd)Ct",
     group = 
 """
@@ -36236,7 +26826,7 @@ entry(
 )
 
 entry(
-    index = 1638,
+    index = 1252,
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cdd-Cd)(Cds-Cdd-Cd)Ct",
     group = 
 """
@@ -36261,7 +26851,7 @@ entry(
 )
 
 entry(
-    index = 1639,
+    index = 1253,
     label = "Cs-(Cds-Cdd-Cd)(Cds-Cdd-Cd)(Cds-Cdd-Cd)Ct",
     group = 
 """
@@ -36286,7 +26876,7 @@ entry(
 )
 
 entry(
-    index = 1640,
+    index = 1254,
     label = "Cs-CbCdsCdsCds",
     group = 
 """
@@ -36305,7 +26895,7 @@ entry(
 )
 
 entry(
-    index = 1641,
+    index = 1255,
     label = "Cs-(Cds-O2d)(Cds-O2d)(Cds-O2d)Cb",
     group = 
 """
@@ -36327,7 +26917,7 @@ entry(
 )
 
 entry(
-    index = 1642,
+    index = 1256,
     label = "Cs-(Cds-O2d)(Cds-O2d)(Cds-Cd)Cb",
     group = 
 """
@@ -36349,7 +26939,7 @@ entry(
 )
 
 entry(
-    index = 1643,
+    index = 1257,
     label = "Cs-(Cds-O2d)(Cds-O2d)(Cds-Cds)Cb",
     group = 
 """
@@ -36371,7 +26961,7 @@ entry(
 )
 
 entry(
-    index = 1644,
+    index = 1258,
     label = "Cs-(Cds-O2d)(Cds-O2d)(Cds-Cdd)Cb",
     group = 
 """
@@ -36393,7 +26983,7 @@ entry(
 )
 
 entry(
-    index = 1645,
+    index = 1259,
     label = "Cs-(Cds-O2d)(Cds-O2d)(Cds-Cdd-O2d)Cb",
     group = 
 """
@@ -36416,7 +27006,7 @@ entry(
 )
 
 entry(
-    index = 1646,
+    index = 1260,
     label = "Cs-(Cds-O2d)(Cds-O2d)(Cds-Cdd-Cd)Cb",
     group = 
 """
@@ -36439,7 +27029,7 @@ entry(
 )
 
 entry(
-    index = 1647,
+    index = 1261,
     label = "Cs-(Cds-O2d)(Cds-Cd)(Cds-Cd)Cb",
     group = 
 """
@@ -36461,7 +27051,7 @@ entry(
 )
 
 entry(
-    index = 1648,
+    index = 1262,
     label = "Cs-(Cds-O2d)(Cds-Cds)(Cds-Cds)Cb",
     group = 
 """
@@ -36483,7 +27073,7 @@ entry(
 )
 
 entry(
-    index = 1649,
+    index = 1263,
     label = "Cs-(Cds-O2d)(Cds-Cdd)(Cds-Cds)Cb",
     group = 
 """
@@ -36505,7 +27095,7 @@ entry(
 )
 
 entry(
-    index = 1650,
+    index = 1264,
     label = "Cs-(Cds-O2d)(Cds-Cdd-O2d)(Cds-Cds)Cb",
     group = 
 """
@@ -36528,7 +27118,7 @@ entry(
 )
 
 entry(
-    index = 1651,
+    index = 1265,
     label = "Cs-(Cds-O2d)(Cds-Cdd-Cd)(Cds-Cds)Cb",
     group = 
 """
@@ -36551,7 +27141,7 @@ entry(
 )
 
 entry(
-    index = 1652,
+    index = 1266,
     label = "Cs-(Cds-O2d)(Cds-Cdd)(Cds-Cdd)Cb",
     group = 
 """
@@ -36573,7 +27163,7 @@ entry(
 )
 
 entry(
-    index = 1653,
+    index = 1267,
     label = "Cs-(Cds-O2d)(Cds-Cdd-O2d)(Cds-Cdd-O2d)Cb",
     group = 
 """
@@ -36597,7 +27187,7 @@ entry(
 )
 
 entry(
-    index = 1654,
+    index = 1268,
     label = "Cs-(Cds-O2d)(Cds-Cdd-O2d)(Cds-Cdd-Cd)Cb",
     group = 
 """
@@ -36621,7 +27211,7 @@ entry(
 )
 
 entry(
-    index = 1655,
+    index = 1269,
     label = "Cs-(Cds-O2d)(Cds-Cdd-Cd)(Cds-Cdd-Cd)Cb",
     group = 
 """
@@ -36645,7 +27235,7 @@ entry(
 )
 
 entry(
-    index = 1656,
+    index = 1270,
     label = "Cs-(Cds-Cd)(Cds-Cd)(Cds-Cd)Cb",
     group = 
 """
@@ -36667,7 +27257,7 @@ entry(
 )
 
 entry(
-    index = 1657,
+    index = 1271,
     label = "Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)Cb",
     group = 
 """
@@ -36689,7 +27279,7 @@ entry(
 )
 
 entry(
-    index = 1658,
+    index = 1272,
     label = "Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd)Cb",
     group = 
 """
@@ -36711,7 +27301,7 @@ entry(
 )
 
 entry(
-    index = 1659,
+    index = 1273,
     label = "Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd-O2d)Cb",
     group = 
 """
@@ -36734,7 +27324,7 @@ entry(
 )
 
 entry(
-    index = 1660,
+    index = 1274,
     label = "Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd-S2d)Cb",
     group = 
 """
@@ -36757,7 +27347,7 @@ entry(
 )
 
 entry(
-    index = 1661,
+    index = 1275,
     label = "Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd-Cd)Cb",
     group = 
 """
@@ -36780,7 +27370,7 @@ entry(
 )
 
 entry(
-    index = 1662,
+    index = 1276,
     label = "Cs-(Cds-Cds)(Cds-Cdd)(Cds-Cdd)Cb",
     group = 
 """
@@ -36802,7 +27392,7 @@ entry(
 )
 
 entry(
-    index = 1663,
+    index = 1277,
     label = "Cs-(Cds-Cds)(Cds-Cdd-O2d)(Cds-Cdd-O2d)Cb",
     group = 
 """
@@ -36826,7 +27416,7 @@ entry(
 )
 
 entry(
-    index = 1664,
+    index = 1278,
     label = "Cs-(Cds-Cds)(Cds-Cdd-O2d)(Cds-Cdd-Cd)Cb",
     group = 
 """
@@ -36850,7 +27440,7 @@ entry(
 )
 
 entry(
-    index = 1665,
+    index = 1279,
     label = "Cs-(Cds-Cds)(Cds-Cdd-S2d)(Cds-Cdd-S2d)Cb",
     group = 
 """
@@ -36874,7 +27464,7 @@ entry(
 )
 
 entry(
-    index = 1666,
+    index = 1280,
     label = "Cs-(Cds-Cds)(Cds-Cdd-S2d)(Cds-Cdd-Cd)Cb",
     group = 
 """
@@ -36898,7 +27488,7 @@ entry(
 )
 
 entry(
-    index = 1667,
+    index = 1281,
     label = "Cs-(Cds-Cds)(Cds-Cdd-Cd)(Cds-Cdd-Cd)Cb",
     group = 
 """
@@ -36922,7 +27512,7 @@ entry(
 )
 
 entry(
-    index = 1668,
+    index = 1282,
     label = "Cs-(Cds-Cdd)(Cds-Cdd)(Cds-Cdd)Cb",
     group = 
 """
@@ -36944,7 +27534,7 @@ entry(
 )
 
 entry(
-    index = 1669,
+    index = 1283,
     label = "Cs-(Cds-Cdd-O2d)(Cds-Cdd-O2d)(Cds-Cdd-O2d)Cb",
     group = 
 """
@@ -36969,7 +27559,7 @@ entry(
 )
 
 entry(
-    index = 1670,
+    index = 1284,
     label = "Cs-(Cds-Cdd-O2d)(Cds-Cdd-O2d)(Cds-Cdd-Cd)Cb",
     group = 
 """
@@ -36994,7 +27584,7 @@ entry(
 )
 
 entry(
-    index = 1671,
+    index = 1285,
     label = "Cs-(Cds-Cdd-O2d)(Cds-Cdd-Cd)(Cds-Cdd-Cd)Cb",
     group = 
 """
@@ -37019,7 +27609,7 @@ entry(
 )
 
 entry(
-    index = 1672,
+    index = 1286,
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cdd-S2d)(Cds-Cdd-S2d)Cb",
     group = 
 """
@@ -37044,7 +27634,7 @@ entry(
 )
 
 entry(
-    index = 1673,
+    index = 1287,
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cdd-S2d)(Cds-Cdd-Cd)Cb",
     group = 
 """
@@ -37069,7 +27659,7 @@ entry(
 )
 
 entry(
-    index = 1674,
+    index = 1288,
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cdd-Cd)(Cds-Cdd-Cd)Cb",
     group = 
 """
@@ -37094,7 +27684,7 @@ entry(
 )
 
 entry(
-    index = 1675,
+    index = 1289,
     label = "Cs-(Cds-Cdd-Cd)(Cds-Cdd-Cd)(Cds-Cdd-Cd)Cb",
     group = 
 """
@@ -37119,7 +27709,7 @@ entry(
 )
 
 entry(
-    index = 1676,
+    index = 1290,
     label = "Cs-CtCtCdsCds",
     group = 
 """
@@ -37138,7 +27728,7 @@ entry(
 )
 
 entry(
-    index = 1677,
+    index = 1291,
     label = "Cs-(Cds-O2d)(Cds-O2d)CtCt",
     group = 
 """
@@ -37159,7 +27749,7 @@ entry(
 )
 
 entry(
-    index = 1678,
+    index = 1292,
     label = "Cs-(Cds-O2d)(Cds-Cd)CtCt",
     group = 
 """
@@ -37180,7 +27770,7 @@ entry(
 )
 
 entry(
-    index = 1679,
+    index = 1293,
     label = "Cs-(Cds-O2d)(Cds-Cds)CtCt",
     group = 
 """
@@ -37201,7 +27791,7 @@ entry(
 )
 
 entry(
-    index = 1680,
+    index = 1294,
     label = "Cs-(Cds-O2d)(Cds-Cdd)CtCt",
     group = 
 """
@@ -37222,7 +27812,7 @@ entry(
 )
 
 entry(
-    index = 1681,
+    index = 1295,
     label = "Cs-(Cds-O2d)(Cds-Cdd-O2d)CtCt",
     group = 
 """
@@ -37244,7 +27834,7 @@ entry(
 )
 
 entry(
-    index = 1682,
+    index = 1296,
     label = "Cs-(Cds-O2d)(Cds-Cdd-Cd)CtCt",
     group = 
 """
@@ -37266,7 +27856,7 @@ entry(
 )
 
 entry(
-    index = 1683,
+    index = 1297,
     label = "Cs-(Cds-Cd)(Cds-Cd)CtCt",
     group = 
 """
@@ -37287,7 +27877,7 @@ entry(
 )
 
 entry(
-    index = 1684,
+    index = 1298,
     label = "Cs-(Cds-Cds)(Cds-Cds)CtCt",
     group = 
 """
@@ -37313,7 +27903,7 @@ entry(
 )
 
 entry(
-    index = 1685,
+    index = 1299,
     label = "Cs-(Cds-Cdd)(Cds-Cds)CtCt",
     group = 
 """
@@ -37334,7 +27924,7 @@ entry(
 )
 
 entry(
-    index = 1686,
+    index = 1300,
     label = "Cs-(Cds-Cdd-O2d)(Cds-Cds)CtCt",
     group = 
 """
@@ -37356,7 +27946,7 @@ entry(
 )
 
 entry(
-    index = 1687,
+    index = 1301,
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cds)CtCt",
     group = 
 """
@@ -37378,7 +27968,7 @@ entry(
 )
 
 entry(
-    index = 1688,
+    index = 1302,
     label = "Cs-(Cds-Cdd-Cd)(Cds-Cds)CtCt",
     group = 
 """
@@ -37400,7 +27990,7 @@ entry(
 )
 
 entry(
-    index = 1689,
+    index = 1303,
     label = "Cs-(Cds-Cdd)(Cds-Cdd)CtCt",
     group = 
 """
@@ -37421,7 +28011,7 @@ entry(
 )
 
 entry(
-    index = 1690,
+    index = 1304,
     label = "Cs-(Cds-Cdd-O2d)(Cds-Cdd-O2d)CtCt",
     group = 
 """
@@ -37444,7 +28034,7 @@ entry(
 )
 
 entry(
-    index = 1691,
+    index = 1305,
     label = "Cs-(Cds-Cdd-O2d)(Cds-Cdd-Cd)CtCt",
     group = 
 """
@@ -37467,7 +28057,7 @@ entry(
 )
 
 entry(
-    index = 1692,
+    index = 1306,
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cdd-S2d)CtCt",
     group = 
 """
@@ -37490,7 +28080,7 @@ entry(
 )
 
 entry(
-    index = 1693,
+    index = 1307,
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cdd-Cd)CtCt",
     group = 
 """
@@ -37513,7 +28103,7 @@ entry(
 )
 
 entry(
-    index = 1694,
+    index = 1308,
     label = "Cs-(Cds-Cdd-Cd)(Cds-Cdd-Cd)CtCt",
     group = 
 """
@@ -37536,7 +28126,7 @@ entry(
 )
 
 entry(
-    index = 1695,
+    index = 1309,
     label = "Cs-CbCtCdsCds",
     group = 
 """
@@ -37555,7 +28145,7 @@ entry(
 )
 
 entry(
-    index = 1696,
+    index = 1310,
     label = "Cs-(Cds-O2d)(Cds-O2d)CbCt",
     group = 
 """
@@ -37576,7 +28166,7 @@ entry(
 )
 
 entry(
-    index = 1697,
+    index = 1311,
     label = "Cs-(Cds-O2d)(Cds-Cd)CbCt",
     group = 
 """
@@ -37597,7 +28187,7 @@ entry(
 )
 
 entry(
-    index = 1698,
+    index = 1312,
     label = "Cs-(Cds-O2d)(Cds-Cds)CbCt",
     group = 
 """
@@ -37618,7 +28208,7 @@ entry(
 )
 
 entry(
-    index = 1699,
+    index = 1313,
     label = "Cs-(Cds-O2d)(Cds-Cdd)CbCt",
     group = 
 """
@@ -37639,7 +28229,7 @@ entry(
 )
 
 entry(
-    index = 1700,
+    index = 1314,
     label = "Cs-(Cds-O2d)(Cds-Cdd-O2d)CbCt",
     group = 
 """
@@ -37661,7 +28251,7 @@ entry(
 )
 
 entry(
-    index = 1701,
+    index = 1315,
     label = "Cs-(Cds-O2d)(Cds-Cdd-Cd)CbCt",
     group = 
 """
@@ -37683,7 +28273,7 @@ entry(
 )
 
 entry(
-    index = 1702,
+    index = 1316,
     label = "Cs-(Cds-Cd)(Cds-Cd)CbCt",
     group = 
 """
@@ -37704,7 +28294,7 @@ entry(
 )
 
 entry(
-    index = 1703,
+    index = 1317,
     label = "Cs-(Cds-Cds)(Cds-Cds)CbCt",
     group = 
 """
@@ -37730,7 +28320,7 @@ entry(
 )
 
 entry(
-    index = 1704,
+    index = 1318,
     label = "Cs-(Cds-Cdd)(Cds-Cds)CbCt",
     group = 
 """
@@ -37751,7 +28341,7 @@ entry(
 )
 
 entry(
-    index = 1705,
+    index = 1319,
     label = "Cs-(Cds-Cdd-O2d)(Cds-Cds)CbCt",
     group = 
 """
@@ -37773,7 +28363,7 @@ entry(
 )
 
 entry(
-    index = 1706,
+    index = 1320,
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cds)CbCt",
     group = 
 """
@@ -37795,7 +28385,7 @@ entry(
 )
 
 entry(
-    index = 1707,
+    index = 1321,
     label = "Cs-(Cds-Cdd-Cd)(Cds-Cds)CbCt",
     group = 
 """
@@ -37817,7 +28407,7 @@ entry(
 )
 
 entry(
-    index = 1708,
+    index = 1322,
     label = "Cs-(Cds-Cdd)(Cds-Cdd)CbCt",
     group = 
 """
@@ -37838,7 +28428,7 @@ entry(
 )
 
 entry(
-    index = 1709,
+    index = 1323,
     label = "Cs-(Cds-Cdd-O2d)(Cds-Cdd-O2d)CbCt",
     group = 
 """
@@ -37861,7 +28451,7 @@ entry(
 )
 
 entry(
-    index = 1710,
+    index = 1324,
     label = "Cs-(Cds-Cdd-O2d)(Cds-Cdd-Cd)CbCt",
     group = 
 """
@@ -37884,7 +28474,7 @@ entry(
 )
 
 entry(
-    index = 1711,
+    index = 1325,
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cdd-S2d)CbCt",
     group = 
 """
@@ -37907,7 +28497,7 @@ entry(
 )
 
 entry(
-    index = 1712,
+    index = 1326,
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cdd-Cd)CbCt",
     group = 
 """
@@ -37930,7 +28520,7 @@ entry(
 )
 
 entry(
-    index = 1713,
+    index = 1327,
     label = "Cs-(Cds-Cdd-Cd)(Cds-Cdd-Cd)CbCt",
     group = 
 """
@@ -37953,7 +28543,7 @@ entry(
 )
 
 entry(
-    index = 1714,
+    index = 1328,
     label = "Cs-CbCbCdsCds",
     group = 
 """
@@ -37972,7 +28562,7 @@ entry(
 )
 
 entry(
-    index = 1715,
+    index = 1329,
     label = "Cs-(Cds-O2d)(Cds-O2d)CbCb",
     group = 
 """
@@ -37993,7 +28583,7 @@ entry(
 )
 
 entry(
-    index = 1716,
+    index = 1330,
     label = "Cs-(Cds-O2d)(Cds-Cd)CbCb",
     group = 
 """
@@ -38014,7 +28604,7 @@ entry(
 )
 
 entry(
-    index = 1717,
+    index = 1331,
     label = "Cs-(Cds-O2d)(Cds-Cds)CbCb",
     group = 
 """
@@ -38035,7 +28625,7 @@ entry(
 )
 
 entry(
-    index = 1718,
+    index = 1332,
     label = "Cs-(Cds-O2d)(Cds-Cdd)CbCb",
     group = 
 """
@@ -38056,7 +28646,7 @@ entry(
 )
 
 entry(
-    index = 1719,
+    index = 1333,
     label = "Cs-(Cds-O2d)(Cds-Cdd-O2d)CbCb",
     group = 
 """
@@ -38078,7 +28668,7 @@ entry(
 )
 
 entry(
-    index = 1720,
+    index = 1334,
     label = "Cs-(Cds-O2d)(Cds-Cdd-Cd)CbCb",
     group = 
 """
@@ -38100,7 +28690,7 @@ entry(
 )
 
 entry(
-    index = 1721,
+    index = 1335,
     label = "Cs-(Cds-Cd)(Cds-Cd)CbCb",
     group = 
 """
@@ -38121,7 +28711,7 @@ entry(
 )
 
 entry(
-    index = 1722,
+    index = 1336,
     label = "Cs-(Cds-Cds)(Cds-Cds)CbCb",
     group = 
 """
@@ -38147,7 +28737,7 @@ entry(
 )
 
 entry(
-    index = 1723,
+    index = 1337,
     label = "Cs-(Cds-Cdd)(Cds-Cds)CbCb",
     group = 
 """
@@ -38168,7 +28758,7 @@ entry(
 )
 
 entry(
-    index = 1724,
+    index = 1338,
     label = "Cs-(Cds-Cdd-O2d)(Cds-Cds)CbCb",
     group = 
 """
@@ -38190,7 +28780,7 @@ entry(
 )
 
 entry(
-    index = 1725,
+    index = 1339,
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cds)CbCb",
     group = 
 """
@@ -38212,7 +28802,7 @@ entry(
 )
 
 entry(
-    index = 1726,
+    index = 1340,
     label = "Cs-(Cds-Cdd-Cd)(Cds-Cds)CbCb",
     group = 
 """
@@ -38234,7 +28824,7 @@ entry(
 )
 
 entry(
-    index = 1727,
+    index = 1341,
     label = "Cs-(Cds-Cdd)(Cds-Cdd)CbCb",
     group = 
 """
@@ -38255,7 +28845,7 @@ entry(
 )
 
 entry(
-    index = 1728,
+    index = 1342,
     label = "Cs-(Cds-Cdd-O2d)(Cds-Cdd-O2d)CbCb",
     group = 
 """
@@ -38278,7 +28868,7 @@ entry(
 )
 
 entry(
-    index = 1729,
+    index = 1343,
     label = "Cs-(Cds-Cdd-O2d)(Cds-Cdd-Cd)CbCb",
     group = 
 """
@@ -38301,7 +28891,7 @@ entry(
 )
 
 entry(
-    index = 1730,
+    index = 1344,
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cdd-S2d)CbCb",
     group = 
 """
@@ -38324,7 +28914,7 @@ entry(
 )
 
 entry(
-    index = 1731,
+    index = 1345,
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cdd-Cd)CbCb",
     group = 
 """
@@ -38347,7 +28937,7 @@ entry(
 )
 
 entry(
-    index = 1732,
+    index = 1346,
     label = "Cs-(Cds-Cdd-Cd)(Cds-Cdd-Cd)CbCb",
     group = 
 """
@@ -38370,7 +28960,7 @@ entry(
 )
 
 entry(
-    index = 1733,
+    index = 1347,
     label = "Cs-CtCtCtCds",
     group = 
 """
@@ -38389,7 +28979,7 @@ entry(
 )
 
 entry(
-    index = 1734,
+    index = 1348,
     label = "Cs-(Cds-O2d)CtCtCt",
     group = 
 """
@@ -38409,7 +28999,7 @@ entry(
 )
 
 entry(
-    index = 1735,
+    index = 1349,
     label = "Cs-(Cds-Cd)CtCtCt",
     group = 
 """
@@ -38429,7 +29019,7 @@ entry(
 )
 
 entry(
-    index = 1736,
+    index = 1350,
     label = "Cs-(Cds-Cds)CtCtCt",
     group = 
 """
@@ -38449,7 +29039,7 @@ entry(
 )
 
 entry(
-    index = 1737,
+    index = 1351,
     label = "Cs-(Cds-Cdd)CtCtCt",
     group = 
 """
@@ -38469,7 +29059,7 @@ entry(
 )
 
 entry(
-    index = 1738,
+    index = 1352,
     label = "Cs-(Cds-Cdd-O2d)CtCtCt",
     group = 
 """
@@ -38490,7 +29080,7 @@ entry(
 )
 
 entry(
-    index = 1739,
+    index = 1353,
     label = "Cs-(Cds-Cdd-S2d)CtCtCt",
     group = 
 """
@@ -38511,7 +29101,7 @@ entry(
 )
 
 entry(
-    index = 1740,
+    index = 1354,
     label = "Cs-(Cds-Cdd-Cd)CtCtCt",
     group = 
 """
@@ -38532,7 +29122,7 @@ entry(
 )
 
 entry(
-    index = 1741,
+    index = 1355,
     label = "Cs-CbCtCtCds",
     group = 
 """
@@ -38551,7 +29141,7 @@ entry(
 )
 
 entry(
-    index = 1742,
+    index = 1356,
     label = "Cs-(Cds-O2d)CbCtCt",
     group = 
 """
@@ -38571,7 +29161,7 @@ entry(
 )
 
 entry(
-    index = 1743,
+    index = 1357,
     label = "Cs-(Cds-Cd)CbCtCt",
     group = 
 """
@@ -38591,7 +29181,7 @@ entry(
 )
 
 entry(
-    index = 1744,
+    index = 1358,
     label = "Cs-(Cds-Cds)CbCtCt",
     group = 
 """
@@ -38611,7 +29201,7 @@ entry(
 )
 
 entry(
-    index = 1745,
+    index = 1359,
     label = "Cs-(Cds-Cdd)CbCtCt",
     group = 
 """
@@ -38631,7 +29221,7 @@ entry(
 )
 
 entry(
-    index = 1746,
+    index = 1360,
     label = "Cs-(Cds-Cdd-O2d)CbCtCt",
     group = 
 """
@@ -38652,7 +29242,7 @@ entry(
 )
 
 entry(
-    index = 1747,
+    index = 1361,
     label = "Cs-(Cds-Cdd-S2d)CbCtCt",
     group = 
 """
@@ -38673,7 +29263,7 @@ entry(
 )
 
 entry(
-    index = 1748,
+    index = 1362,
     label = "Cs-(Cds-Cdd-Cd)CbCtCt",
     group = 
 """
@@ -38694,7 +29284,7 @@ entry(
 )
 
 entry(
-    index = 1749,
+    index = 1363,
     label = "Cs-CbCbCtCds",
     group = 
 """
@@ -38713,7 +29303,7 @@ entry(
 )
 
 entry(
-    index = 1750,
+    index = 1364,
     label = "Cs-(Cds-O2d)CbCbCt",
     group = 
 """
@@ -38733,7 +29323,7 @@ entry(
 )
 
 entry(
-    index = 1751,
+    index = 1365,
     label = "Cs-(Cds-Cd)CbCbCt",
     group = 
 """
@@ -38753,7 +29343,7 @@ entry(
 )
 
 entry(
-    index = 1752,
+    index = 1366,
     label = "Cs-(Cds-Cds)CbCbCt",
     group = 
 """
@@ -38773,7 +29363,7 @@ entry(
 )
 
 entry(
-    index = 1753,
+    index = 1367,
     label = "Cs-(Cds-Cdd)CbCbCt",
     group = 
 """
@@ -38793,7 +29383,7 @@ entry(
 )
 
 entry(
-    index = 1754,
+    index = 1368,
     label = "Cs-(Cds-Cdd-O2d)CbCbCt",
     group = 
 """
@@ -38814,7 +29404,7 @@ entry(
 )
 
 entry(
-    index = 1755,
+    index = 1369,
     label = "Cs-(Cds-Cdd-S2d)CbCbCt",
     group = 
 """
@@ -38835,7 +29425,7 @@ entry(
 )
 
 entry(
-    index = 1756,
+    index = 1370,
     label = "Cs-(Cds-Cdd-Cd)CbCbCt",
     group = 
 """
@@ -38856,7 +29446,7 @@ entry(
 )
 
 entry(
-    index = 1757,
+    index = 1371,
     label = "Cs-CbCbCbCds",
     group = 
 """
@@ -38875,7 +29465,7 @@ entry(
 )
 
 entry(
-    index = 1758,
+    index = 1372,
     label = "Cs-(Cds-O2d)CbCbCb",
     group = 
 """
@@ -38895,7 +29485,7 @@ entry(
 )
 
 entry(
-    index = 1759,
+    index = 1373,
     label = "Cs-(Cds-Cd)CbCbCb",
     group = 
 """
@@ -38915,7 +29505,7 @@ entry(
 )
 
 entry(
-    index = 1760,
+    index = 1374,
     label = "Cs-(Cds-Cds)CbCbCb",
     group = 
 """
@@ -38935,7 +29525,7 @@ entry(
 )
 
 entry(
-    index = 1761,
+    index = 1375,
     label = "Cs-(Cds-Cdd)CbCbCb",
     group = 
 """
@@ -38955,7 +29545,7 @@ entry(
 )
 
 entry(
-    index = 1762,
+    index = 1376,
     label = "Cs-(Cds-Cdd-O2d)CbCbCb",
     group = 
 """
@@ -38976,7 +29566,7 @@ entry(
 )
 
 entry(
-    index = 1763,
+    index = 1377,
     label = "Cs-(Cds-Cdd-S2d)CbCbCb",
     group = 
 """
@@ -38997,7 +29587,7 @@ entry(
 )
 
 entry(
-    index = 1764,
+    index = 1378,
     label = "Cs-(Cds-Cdd-Cd)CbCbCb",
     group = 
 """
@@ -39018,7 +29608,7 @@ entry(
 )
 
 entry(
-    index = 1765,
+    index = 1379,
     label = "Cs-CtCtCtCt",
     group = 
 """
@@ -39037,7 +29627,7 @@ entry(
 )
 
 entry(
-    index = 1766,
+    index = 1380,
     label = "Cs-CbCtCtCt",
     group = 
 """
@@ -39056,7 +29646,7 @@ entry(
 )
 
 entry(
-    index = 1767,
+    index = 1381,
     label = "Cs-CbCbCtCt",
     group = 
 """
@@ -39075,7 +29665,7 @@ entry(
 )
 
 entry(
-    index = 1768,
+    index = 1382,
     label = "Cs-CbCbCbCt",
     group = 
 """
@@ -39094,7 +29684,7 @@ entry(
 )
 
 entry(
-    index = 1769,
+    index = 1383,
     label = "Cs-CbCbCbCb",
     group = 
 """
@@ -39113,7 +29703,7 @@ entry(
 )
 
 entry(
-    index = 1770,
+    index = 1384,
     label = "Cs-C=SCbCtCt",
     group = 
 """
@@ -39133,7 +29723,7 @@ entry(
 )
 
 entry(
-    index = 1771,
+    index = 1385,
     label = "Cs-C=S(Cds-Cd)(Cds-Cd)(Cds-Cd)",
     group = 
 """
@@ -39156,7 +29746,7 @@ entry(
 )
 
 entry(
-    index = 1772,
+    index = 1386,
     label = "Cs-C=S(Cds-Cds)(Cds-Cds)(Cds-Cdd)",
     group = 
 """
@@ -39179,7 +29769,7 @@ entry(
 )
 
 entry(
-    index = 1773,
+    index = 1387,
     label = "Cs-C=S(Cds-Cds)(Cds-Cds)(Cds-Cdd-Cd)",
     group = 
 """
@@ -39203,7 +29793,7 @@ entry(
 )
 
 entry(
-    index = 1774,
+    index = 1388,
     label = "Cs-C=S(Cds-Cds)(Cds-Cds)(Cds-Cdd-S2d)",
     group = 
 """
@@ -39227,7 +29817,7 @@ entry(
 )
 
 entry(
-    index = 1775,
+    index = 1389,
     label = "Cs-C=S(Cds-Cdd)(Cds-Cdd)(Cds-Cdd)",
     group = 
 """
@@ -39250,7 +29840,7 @@ entry(
 )
 
 entry(
-    index = 1776,
+    index = 1390,
     label = "Cs-C=S(Cds-Cdd-Cd)(Cds-Cdd-Cd)(Cds-Cdd-Cd)",
     group = 
 """
@@ -39276,7 +29866,7 @@ entry(
 )
 
 entry(
-    index = 1777,
+    index = 1391,
     label = "Cs-C=S(Cds-Cdd-S2d)(Cds-Cdd-Cd)(Cds-Cdd-Cd)",
     group = 
 """
@@ -39302,7 +29892,7 @@ entry(
 )
 
 entry(
-    index = 1778,
+    index = 1392,
     label = "Cs-C=S(Cds-Cdd-S2d)(Cds-Cdd-S2d)(Cds-Cdd-S2d)",
     group = 
 """
@@ -39328,7 +29918,7 @@ entry(
 )
 
 entry(
-    index = 1779,
+    index = 1393,
     label = "Cs-C=S(Cds-Cdd-S2d)(Cds-Cdd-S2d)(Cds-Cdd-Cd)",
     group = 
 """
@@ -39354,7 +29944,7 @@ entry(
 )
 
 entry(
-    index = 1780,
+    index = 1394,
     label = "Cs-C=S(Cds-Cds)(Cds-Cds)(Cds-Cds)",
     group = 
 """
@@ -39377,7 +29967,7 @@ entry(
 )
 
 entry(
-    index = 1781,
+    index = 1395,
     label = "Cs-C=S(Cds-Cds)(Cds-Cdd)(Cds-Cdd)",
     group = 
 """
@@ -39400,7 +29990,7 @@ entry(
 )
 
 entry(
-    index = 1782,
+    index = 1396,
     label = "Cs-C=S(Cds-Cds)(Cds-Cdd-S2d)(Cds-Cdd-S2d)",
     group = 
 """
@@ -39425,7 +30015,7 @@ entry(
 )
 
 entry(
-    index = 1783,
+    index = 1397,
     label = "Cs-C=S(Cds-Cds)(Cds-Cdd-S2d)(Cds-Cdd-Cd)",
     group = 
 """
@@ -39450,7 +30040,7 @@ entry(
 )
 
 entry(
-    index = 1784,
+    index = 1398,
     label = "Cs-C=S(Cds-Cds)(Cds-Cdd-Cd)(Cds-Cdd-Cd)",
     group = 
 """
@@ -39475,7 +30065,7 @@ entry(
 )
 
 entry(
-    index = 1785,
+    index = 1399,
     label = "Cs-C=S(Cds-Cd)CtCt",
     group = 
 """
@@ -39496,7 +30086,7 @@ entry(
 )
 
 entry(
-    index = 1786,
+    index = 1400,
     label = "Cs-C=S(Cds-Cds)CtCt",
     group = 
 """
@@ -39517,7 +30107,7 @@ entry(
 )
 
 entry(
-    index = 1787,
+    index = 1401,
     label = "Cs-C=S(Cds-Cdd)CtCt",
     group = 
 """
@@ -39538,7 +30128,7 @@ entry(
 )
 
 entry(
-    index = 1788,
+    index = 1402,
     label = "Cs-C=S(Cds-Cdd-S2d)CtCt",
     group = 
 """
@@ -39560,7 +30150,7 @@ entry(
 )
 
 entry(
-    index = 1789,
+    index = 1403,
     label = "Cs-C=S(Cds-Cdd-Cd)CtCt",
     group = 
 """
@@ -39582,7 +30172,7 @@ entry(
 )
 
 entry(
-    index = 1790,
+    index = 1404,
     label = "Cs-C=S(Cds-Cd)CtCs",
     group = 
 """
@@ -39603,7 +30193,7 @@ entry(
 )
 
 entry(
-    index = 1791,
+    index = 1405,
     label = "Cs-C=S(Cds-Cds)CtCs",
     group = 
 """
@@ -39624,7 +30214,7 @@ entry(
 )
 
 entry(
-    index = 1792,
+    index = 1406,
     label = "Cs-C=S(Cds-Cdd)CtCs",
     group = 
 """
@@ -39645,7 +30235,7 @@ entry(
 )
 
 entry(
-    index = 1793,
+    index = 1407,
     label = "Cs-C=S(Cds-Cdd-S2d)CtCs",
     group = 
 """
@@ -39667,7 +30257,7 @@ entry(
 )
 
 entry(
-    index = 1794,
+    index = 1408,
     label = "Cs-C=S(Cds-Cdd-Cd)CtCs",
     group = 
 """
@@ -39689,7 +30279,7 @@ entry(
 )
 
 entry(
-    index = 1795,
+    index = 1409,
     label = "Cs-C=SCbCbCt",
     group = 
 """
@@ -39709,7 +30299,7 @@ entry(
 )
 
 entry(
-    index = 1796,
+    index = 1410,
     label = "Cs-C=SCbCsCs",
     group = 
 """
@@ -39729,7 +30319,7 @@ entry(
 )
 
 entry(
-    index = 1797,
+    index = 1411,
     label = "Cs-C=SCbCbCs",
     group = 
 """
@@ -39749,7 +30339,7 @@ entry(
 )
 
 entry(
-    index = 1798,
+    index = 1412,
     label = "Cs-C=SCtCtCt",
     group = 
 """
@@ -39769,7 +30359,7 @@ entry(
 )
 
 entry(
-    index = 1799,
+    index = 1413,
     label = "Cs-C=S(Cds-Cd)(Cds-Cd)Cs",
     group = 
 """
@@ -39791,7 +30381,7 @@ entry(
 )
 
 entry(
-    index = 1800,
+    index = 1414,
     label = "Cs-C=S(Cds-Cdd)(Cds-Cdd)Cs",
     group = 
 """
@@ -39813,7 +30403,7 @@ entry(
 )
 
 entry(
-    index = 1801,
+    index = 1415,
     label = "Cs-C=S(Cds-Cdd-S2d)(Cds-Cdd-Cd)Cs",
     group = 
 """
@@ -39837,7 +30427,7 @@ entry(
 )
 
 entry(
-    index = 1802,
+    index = 1416,
     label = "Cs-C=S(Cds-Cdd-Cd)(Cds-Cdd-Cd)Cs",
     group = 
 """
@@ -39861,7 +30451,7 @@ entry(
 )
 
 entry(
-    index = 1803,
+    index = 1417,
     label = "Cs-C=S(Cds-Cdd-S2d)(Cds-Cdd-S2d)Cs",
     group = 
 """
@@ -39885,7 +30475,7 @@ entry(
 )
 
 entry(
-    index = 1804,
+    index = 1418,
     label = "Cs-C=S(Cds-Cds)(Cds-Cds)Cs",
     group = 
 """
@@ -39907,7 +30497,7 @@ entry(
 )
 
 entry(
-    index = 1805,
+    index = 1419,
     label = "Cs-C=S(Cds-Cdd)(Cds-Cds)Cs",
     group = 
 """
@@ -39929,7 +30519,7 @@ entry(
 )
 
 entry(
-    index = 1806,
+    index = 1420,
     label = "Cs-C=S(Cds-Cdd-S2d)(Cds-Cds)Cs",
     group = 
 """
@@ -39952,7 +30542,7 @@ entry(
 )
 
 entry(
-    index = 1807,
+    index = 1421,
     label = "Cs-C=S(Cds-Cdd-Cd)(Cds-Cds)Cs",
     group = 
 """
@@ -39975,7 +30565,7 @@ entry(
 )
 
 entry(
-    index = 1808,
+    index = 1422,
     label = "Cs-C=SC=SCtCt",
     group = 
 """
@@ -39996,7 +30586,7 @@ entry(
 )
 
 entry(
-    index = 1809,
+    index = 1423,
     label = "Cs-C=SCsCsCs",
     group = 
 """
@@ -40021,7 +30611,7 @@ entry(
 )
 
 entry(
-    index = 1810,
+    index = 1424,
     label = "Cs-C=SCtCtCs",
     group = 
 """
@@ -40041,7 +30631,7 @@ entry(
 )
 
 entry(
-    index = 1811,
+    index = 1425,
     label = "Cs-C=SC=SC=SCt",
     group = 
 """
@@ -40063,7 +30653,7 @@ entry(
 )
 
 entry(
-    index = 1812,
+    index = 1426,
     label = "Cs-C=SC=SC=SCs",
     group = 
 """
@@ -40085,7 +30675,7 @@ entry(
 )
 
 entry(
-    index = 1813,
+    index = 1427,
     label = "Cs-C=SC=SC=SC=S",
     group = 
 """
@@ -40108,7 +30698,7 @@ entry(
 )
 
 entry(
-    index = 1814,
+    index = 1428,
     label = "Cs-C=SCtCsCs",
     group = 
 """
@@ -40128,7 +30718,7 @@ entry(
 )
 
 entry(
-    index = 1815,
+    index = 1429,
     label = "Cs-C=SC=SC=SCb",
     group = 
 """
@@ -40150,7 +30740,7 @@ entry(
 )
 
 entry(
-    index = 1816,
+    index = 1430,
     label = "Cs-C=SC=SC=S(Cds-Cd)",
     group = 
 """
@@ -40173,7 +30763,7 @@ entry(
 )
 
 entry(
-    index = 1817,
+    index = 1431,
     label = "Cs-C=SC=SC=S(Cds-Cdd)",
     group = 
 """
@@ -40196,7 +30786,7 @@ entry(
 )
 
 entry(
-    index = 1818,
+    index = 1432,
     label = "Cs-C=SC=SC=S(Cds-Cdd-Cd)",
     group = 
 """
@@ -40220,7 +30810,7 @@ entry(
 )
 
 entry(
-    index = 1819,
+    index = 1433,
     label = "Cs-C=SC=SC=S(Cds-Cdd-S2d)",
     group = 
 """
@@ -40244,7 +30834,7 @@ entry(
 )
 
 entry(
-    index = 1820,
+    index = 1434,
     label = "Cs-C=SC=SC=S(Cds-Cds)",
     group = 
 """
@@ -40267,7 +30857,7 @@ entry(
 )
 
 entry(
-    index = 1821,
+    index = 1435,
     label = "Cs-C=S(Cds-Cd)(Cds-Cd)Ct",
     group = 
 """
@@ -40289,7 +30879,7 @@ entry(
 )
 
 entry(
-    index = 1822,
+    index = 1436,
     label = "Cs-C=S(Cds-Cdd)(Cds-Cdd)Ct",
     group = 
 """
@@ -40311,7 +30901,7 @@ entry(
 )
 
 entry(
-    index = 1823,
+    index = 1437,
     label = "Cs-C=S(Cds-Cdd-Cd)(Cds-Cdd-Cd)Ct",
     group = 
 """
@@ -40335,7 +30925,7 @@ entry(
 )
 
 entry(
-    index = 1824,
+    index = 1438,
     label = "Cs-C=S(Cds-Cdd-S2d)(Cds-Cdd-S2d)Ct",
     group = 
 """
@@ -40359,7 +30949,7 @@ entry(
 )
 
 entry(
-    index = 1825,
+    index = 1439,
     label = "Cs-C=S(Cds-Cdd-S2d)(Cds-Cdd-Cd)Ct",
     group = 
 """
@@ -40383,7 +30973,7 @@ entry(
 )
 
 entry(
-    index = 1826,
+    index = 1440,
     label = "Cs-C=S(Cds-Cds)(Cds-Cds)Ct",
     group = 
 """
@@ -40405,7 +30995,7 @@ entry(
 )
 
 entry(
-    index = 1827,
+    index = 1441,
     label = "Cs-C=S(Cds-Cdd)(Cds-Cds)Ct",
     group = 
 """
@@ -40427,7 +31017,7 @@ entry(
 )
 
 entry(
-    index = 1828,
+    index = 1442,
     label = "Cs-C=S(Cds-Cdd-Cd)(Cds-Cds)Ct",
     group = 
 """
@@ -40450,7 +31040,7 @@ entry(
 )
 
 entry(
-    index = 1829,
+    index = 1443,
     label = "Cs-C=S(Cds-Cdd-S2d)(Cds-Cds)Ct",
     group = 
 """
@@ -40473,7 +31063,7 @@ entry(
 )
 
 entry(
-    index = 1830,
+    index = 1444,
     label = "Cs-C=SC=SCtCs",
     group = 
 """
@@ -40494,7 +31084,7 @@ entry(
 )
 
 entry(
-    index = 1831,
+    index = 1445,
     label = "Cs-C=SC=SCbCb",
     group = 
 """
@@ -40515,7 +31105,7 @@ entry(
 )
 
 entry(
-    index = 1832,
+    index = 1446,
     label = "Cs-C=S(Cds-Cd)CsCs",
     group = 
 """
@@ -40536,7 +31126,7 @@ entry(
 )
 
 entry(
-    index = 1833,
+    index = 1447,
     label = "Cs-C=S(Cds-Cds)CsCs",
     group = 
 """
@@ -40557,7 +31147,7 @@ entry(
 )
 
 entry(
-    index = 1834,
+    index = 1448,
     label = "Cs-C=S(Cds-Cdd)CsCs",
     group = 
 """
@@ -40578,7 +31168,7 @@ entry(
 )
 
 entry(
-    index = 1835,
+    index = 1449,
     label = "Cs-C=S(Cds-Cdd-Cd)CsCs",
     group = 
 """
@@ -40600,7 +31190,7 @@ entry(
 )
 
 entry(
-    index = 1836,
+    index = 1450,
     label = "Cs-C=S(Cds-Cdd-S2d)CsCs",
     group = 
 """
@@ -40622,7 +31212,7 @@ entry(
 )
 
 entry(
-    index = 1837,
+    index = 1451,
     label = "Cs-C=SC=SCbCt",
     group = 
 """
@@ -40643,7 +31233,7 @@ entry(
 )
 
 entry(
-    index = 1838,
+    index = 1452,
     label = "Cs-C=S(Cds-Cd)CbCt",
     group = 
 """
@@ -40664,7 +31254,7 @@ entry(
 )
 
 entry(
-    index = 1839,
+    index = 1453,
     label = "Cs-C=S(Cds-Cds)CbCt",
     group = 
 """
@@ -40685,7 +31275,7 @@ entry(
 )
 
 entry(
-    index = 1840,
+    index = 1454,
     label = "Cs-C=S(Cds-Cdd)CbCt",
     group = 
 """
@@ -40706,7 +31296,7 @@ entry(
 )
 
 entry(
-    index = 1841,
+    index = 1455,
     label = "Cs-C=S(Cds-Cdd-S2d)CbCt",
     group = 
 """
@@ -40728,7 +31318,7 @@ entry(
 )
 
 entry(
-    index = 1842,
+    index = 1456,
     label = "Cs-C=S(Cds-Cdd-Cd)CbCt",
     group = 
 """
@@ -40750,7 +31340,7 @@ entry(
 )
 
 entry(
-    index = 1843,
+    index = 1457,
     label = "Cs-C=SC=SCsCs",
     group = 
 """
@@ -40771,7 +31361,7 @@ entry(
 )
 
 entry(
-    index = 1844,
+    index = 1458,
     label = "Cs-C=S(Cds-Cd)CbCb",
     group = 
 """
@@ -40792,7 +31382,7 @@ entry(
 )
 
 entry(
-    index = 1845,
+    index = 1459,
     label = "Cs-C=S(Cds-Cds)CbCb",
     group = 
 """
@@ -40813,7 +31403,7 @@ entry(
 )
 
 entry(
-    index = 1846,
+    index = 1460,
     label = "Cs-C=S(Cds-Cdd)CbCb",
     group = 
 """
@@ -40834,7 +31424,7 @@ entry(
 )
 
 entry(
-    index = 1847,
+    index = 1461,
     label = "Cs-C=S(Cds-Cdd-S2d)CbCb",
     group = 
 """
@@ -40856,7 +31446,7 @@ entry(
 )
 
 entry(
-    index = 1848,
+    index = 1462,
     label = "Cs-C=S(Cds-Cdd-Cd)CbCb",
     group = 
 """
@@ -40878,7 +31468,7 @@ entry(
 )
 
 entry(
-    index = 1849,
+    index = 1463,
     label = "Cs-C=SC=S(Cds-Cd)Ct",
     group = 
 """
@@ -40900,7 +31490,7 @@ entry(
 )
 
 entry(
-    index = 1850,
+    index = 1464,
     label = "Cs-C=SC=S(Cds-Cds)Ct",
     group = 
 """
@@ -40922,7 +31512,7 @@ entry(
 )
 
 entry(
-    index = 1851,
+    index = 1465,
     label = "Cs-C=SC=S(Cds-Cdd)Ct",
     group = 
 """
@@ -40944,7 +31534,7 @@ entry(
 )
 
 entry(
-    index = 1852,
+    index = 1466,
     label = "Cs-C=SC=S(Cds-Cdd-Cd)Ct",
     group = 
 """
@@ -40967,7 +31557,7 @@ entry(
 )
 
 entry(
-    index = 1853,
+    index = 1467,
     label = "Cs-C=SC=S(Cds-Cdd-S2d)Ct",
     group = 
 """
@@ -40990,7 +31580,7 @@ entry(
 )
 
 entry(
-    index = 1854,
+    index = 1468,
     label = "Cs-C=SC=S(Cds-Cd)Cs",
     group = 
 """
@@ -41012,7 +31602,7 @@ entry(
 )
 
 entry(
-    index = 1855,
+    index = 1469,
     label = "Cs-C=SC=S(Cds-Cds)Cs",
     group = 
 """
@@ -41034,7 +31624,7 @@ entry(
 )
 
 entry(
-    index = 1856,
+    index = 1470,
     label = "Cs-C=SC=S(Cds-Cdd)Cs",
     group = 
 """
@@ -41056,7 +31646,7 @@ entry(
 )
 
 entry(
-    index = 1857,
+    index = 1471,
     label = "Cs-C=SC=S(Cds-Cdd-S2d)Cs",
     group = 
 """
@@ -41079,7 +31669,7 @@ entry(
 )
 
 entry(
-    index = 1858,
+    index = 1472,
     label = "Cs-C=SC=S(Cds-Cdd-Cd)Cs",
     group = 
 """
@@ -41102,7 +31692,7 @@ entry(
 )
 
 entry(
-    index = 1859,
+    index = 1473,
     label = "Cs-C=SC=S(Cds-Cd)(Cds-Cd)",
     group = 
 """
@@ -41125,7 +31715,7 @@ entry(
 )
 
 entry(
-    index = 1860,
+    index = 1474,
     label = "Cs-C=SC=S(Cds-Cdd)(Cds-Cds)",
     group = 
 """
@@ -41148,7 +31738,7 @@ entry(
 )
 
 entry(
-    index = 1861,
+    index = 1475,
     label = "Cs-C=SC=S(Cds-Cdd-S2d)(Cds-Cds)",
     group = 
 """
@@ -41172,7 +31762,7 @@ entry(
 )
 
 entry(
-    index = 1862,
+    index = 1476,
     label = "Cs-C=SC=S(Cds-Cdd-Cd)(Cds-Cds)",
     group = 
 """
@@ -41196,7 +31786,7 @@ entry(
 )
 
 entry(
-    index = 1863,
+    index = 1477,
     label = "Cs-C=SC=S(Cds-Cdd)(Cds-Cdd)",
     group = 
 """
@@ -41219,7 +31809,7 @@ entry(
 )
 
 entry(
-    index = 1864,
+    index = 1478,
     label = "Cs-C=SC=S(Cds-Cdd-S2d)(Cds-Cdd-S2d)",
     group = 
 """
@@ -41244,7 +31834,7 @@ entry(
 )
 
 entry(
-    index = 1865,
+    index = 1479,
     label = "Cs-C=SC=S(Cds-Cdd-S2d)(Cds-Cdd-Cd)",
     group = 
 """
@@ -41269,7 +31859,7 @@ entry(
 )
 
 entry(
-    index = 1866,
+    index = 1480,
     label = "Cs-C=SC=S(Cds-Cdd-Cd)(Cds-Cdd-Cd)",
     group = 
 """
@@ -41294,7 +31884,7 @@ entry(
 )
 
 entry(
-    index = 1867,
+    index = 1481,
     label = "Cs-C=SC=S(Cds-Cds)(Cds-Cds)",
     group = 
 """
@@ -41317,7 +31907,7 @@ entry(
 )
 
 entry(
-    index = 1868,
+    index = 1482,
     label = "Cs-C=SC=S(Cds-Cd)Cb",
     group = 
 """
@@ -41339,7 +31929,7 @@ entry(
 )
 
 entry(
-    index = 1869,
+    index = 1483,
     label = "Cs-C=SC=S(Cds-Cdd)Cb",
     group = 
 """
@@ -41361,7 +31951,7 @@ entry(
 )
 
 entry(
-    index = 1870,
+    index = 1484,
     label = "Cs-C=SC=S(Cds-Cdd-S2d)Cb",
     group = 
 """
@@ -41384,7 +31974,7 @@ entry(
 )
 
 entry(
-    index = 1871,
+    index = 1485,
     label = "Cs-C=SC=S(Cds-Cdd-Cd)Cb",
     group = 
 """
@@ -41407,7 +31997,7 @@ entry(
 )
 
 entry(
-    index = 1872,
+    index = 1486,
     label = "Cs-C=SC=S(Cds-Cds)Cb",
     group = 
 """
@@ -41429,7 +32019,7 @@ entry(
 )
 
 entry(
-    index = 1873,
+    index = 1487,
     label = "Cs-C=SCbCtCs",
     group = 
 """
@@ -41449,7 +32039,7 @@ entry(
 )
 
 entry(
-    index = 1874,
+    index = 1488,
     label = "Cs-C=S(Cds-Cd)CbCs",
     group = 
 """
@@ -41470,7 +32060,7 @@ entry(
 )
 
 entry(
-    index = 1875,
+    index = 1489,
     label = "Cs-C=S(Cds-Cds)CbCs",
     group = 
 """
@@ -41491,7 +32081,7 @@ entry(
 )
 
 entry(
-    index = 1876,
+    index = 1490,
     label = "Cs-C=S(Cds-Cdd)CbCs",
     group = 
 """
@@ -41512,7 +32102,7 @@ entry(
 )
 
 entry(
-    index = 1877,
+    index = 1491,
     label = "Cs-C=S(Cds-Cdd-S2d)CbCs",
     group = 
 """
@@ -41534,7 +32124,7 @@ entry(
 )
 
 entry(
-    index = 1878,
+    index = 1492,
     label = "Cs-C=S(Cds-Cdd-Cd)CbCs",
     group = 
 """
@@ -41556,7 +32146,7 @@ entry(
 )
 
 entry(
-    index = 1879,
+    index = 1493,
     label = "Cs-C=S(Cds-Cd)(Cds-Cd)Cb",
     group = 
 """
@@ -41578,7 +32168,7 @@ entry(
 )
 
 entry(
-    index = 1880,
+    index = 1494,
     label = "Cs-C=S(Cds-Cdd)(Cds-Cdd)Cb",
     group = 
 """
@@ -41600,7 +32190,7 @@ entry(
 )
 
 entry(
-    index = 1881,
+    index = 1495,
     label = "Cs-C=S(Cds-Cdd-S2d)(Cds-Cdd-Cd)Cb",
     group = 
 """
@@ -41624,7 +32214,7 @@ entry(
 )
 
 entry(
-    index = 1882,
+    index = 1496,
     label = "Cs-C=S(Cds-Cdd-Cd)(Cds-Cdd-Cd)Cb",
     group = 
 """
@@ -41648,7 +32238,7 @@ entry(
 )
 
 entry(
-    index = 1883,
+    index = 1497,
     label = "Cs-C=S(Cds-Cdd-S2d)(Cds-Cdd-S2d)Cb",
     group = 
 """
@@ -41672,7 +32262,7 @@ entry(
 )
 
 entry(
-    index = 1884,
+    index = 1498,
     label = "Cs-C=S(Cds-Cds)(Cds-Cds)Cb",
     group = 
 """
@@ -41694,7 +32284,7 @@ entry(
 )
 
 entry(
-    index = 1885,
+    index = 1499,
     label = "Cs-C=S(Cds-Cdd)(Cds-Cds)Cb",
     group = 
 """
@@ -41716,7 +32306,7 @@ entry(
 )
 
 entry(
-    index = 1886,
+    index = 1500,
     label = "Cs-C=S(Cds-Cdd-S2d)(Cds-Cds)Cb",
     group = 
 """
@@ -41739,7 +32329,7 @@ entry(
 )
 
 entry(
-    index = 1887,
+    index = 1501,
     label = "Cs-C=S(Cds-Cdd-Cd)(Cds-Cds)Cb",
     group = 
 """
@@ -41762,7 +32352,7 @@ entry(
 )
 
 entry(
-    index = 1888,
+    index = 1502,
     label = "Cs-C=SCbCbCb",
     group = 
 """
@@ -41782,7 +32372,7 @@ entry(
 )
 
 entry(
-    index = 1889,
+    index = 1503,
     label = "Cs-C=SC=SCbCs",
     group = 
 """
@@ -41803,7 +32393,7 @@ entry(
 )
 
 entry(
-    index = 1890,
+    index = 1504,
     label = "Cs-CCCOs",
     group = 
 """
@@ -41822,7 +32412,7 @@ entry(
 )
 
 entry(
-    index = 1891,
+    index = 1505,
     label = "Cs-CsCsCsOs",
     group = 
 """
@@ -41848,7 +32438,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 1892,
+    index = 1506,
     label = "Cs-CdsCsCsOs",
     group = 
 """
@@ -41867,7 +32457,7 @@ entry(
 )
 
 entry(
-    index = 1893,
+    index = 1507,
     label = "Cs-(Cds-O2d)CsCsOs",
     group = 
 """
@@ -41894,7 +32484,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 1894,
+    index = 1508,
     label = "Cs-(Cds-Cd)CsCsOs",
     group = 
 """
@@ -41921,7 +32511,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 1895,
+    index = 1509,
     label = "Cs-(Cds-Cds)CsCsOs",
     group = 
 """
@@ -41946,7 +32536,7 @@ entry(
 )
 
 entry(
-    index = 1896,
+    index = 1510,
     label = "Cs-(Cds-Cdd)CsCsOs",
     group = 
 """
@@ -41966,7 +32556,7 @@ entry(
 )
 
 entry(
-    index = 1897,
+    index = 1511,
     label = "Cs-(Cds-Cdd-O2d)CsCsOs",
     group = 
 """
@@ -41992,7 +32582,7 @@ entry(
 )
 
 entry(
-    index = 1898,
+    index = 1512,
     label = "Cs-(Cds-Cdd-Cd)CsCsOs",
     group = 
 """
@@ -42013,7 +32603,7 @@ entry(
 )
 
 entry(
-    index = 1899,
+    index = 1513,
     label = "Cs-OsCtCsCs",
     group = 
 """
@@ -42032,7 +32622,7 @@ entry(
 )
 
 entry(
-    index = 1900,
+    index = 1514,
     label = "Cs-CbCsCsOs",
     group = 
 """
@@ -42056,7 +32646,7 @@ entry(
 )
 
 entry(
-    index = 1901,
+    index = 1515,
     label = "Cs-CdsCdsCsOs",
     group = 
 """
@@ -42075,7 +32665,7 @@ entry(
 )
 
 entry(
-    index = 1902,
+    index = 1516,
     label = "Cs-(Cds-O2d)(Cds-O2d)CsOs",
     group = 
 """
@@ -42096,7 +32686,7 @@ entry(
 )
 
 entry(
-    index = 1903,
+    index = 1517,
     label = "Cs-(Cds-O2d)(Cds-Cd)CsOs",
     group = 
 """
@@ -42124,7 +32714,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 1904,
+    index = 1518,
     label = "Cs-(Cds-O2d)(Cds-Cds)CsOs",
     group = 
 """
@@ -42145,7 +32735,7 @@ entry(
 )
 
 entry(
-    index = 1905,
+    index = 1519,
     label = "Cs-(Cds-O2d)(Cds-Cdd)CsOs",
     group = 
 """
@@ -42166,7 +32756,7 @@ entry(
 )
 
 entry(
-    index = 1906,
+    index = 1520,
     label = "Cs-(Cds-O2d)(Cds-Cdd-O2d)CsOs",
     group = 
 """
@@ -42188,7 +32778,7 @@ entry(
 )
 
 entry(
-    index = 1907,
+    index = 1521,
     label = "Cs-(Cds-O2d)(Cds-Cdd-Cd)CsOs",
     group = 
 """
@@ -42210,7 +32800,7 @@ entry(
 )
 
 entry(
-    index = 1908,
+    index = 1522,
     label = "Cs-(Cds-Cd)(Cds-Cd)CsOs",
     group = 
 """
@@ -42231,7 +32821,7 @@ entry(
 )
 
 entry(
-    index = 1909,
+    index = 1523,
     label = "Cs-(Cds-Cds)(Cds-Cds)CsOs",
     group = 
 """
@@ -42257,7 +32847,7 @@ entry(
 )
 
 entry(
-    index = 1910,
+    index = 1524,
     label = "Cs-(Cds-Cdd)(Cds-Cds)CsOs",
     group = 
 """
@@ -42278,7 +32868,7 @@ entry(
 )
 
 entry(
-    index = 1911,
+    index = 1525,
     label = "Cs-(Cds-Cdd-O2d)(Cds-Cds)CsOs",
     group = 
 """
@@ -42300,7 +32890,7 @@ entry(
 )
 
 entry(
-    index = 1912,
+    index = 1526,
     label = "Cs-(Cds-Cdd-Cd)(Cds-Cds)CsOs",
     group = 
 """
@@ -42322,7 +32912,7 @@ entry(
 )
 
 entry(
-    index = 1913,
+    index = 1527,
     label = "Cs-(Cds-Cdd)(Cds-Cdd)CsOs",
     group = 
 """
@@ -42343,7 +32933,7 @@ entry(
 )
 
 entry(
-    index = 1914,
+    index = 1528,
     label = "Cs-(Cds-Cdd-O2d)(Cds-Cdd-O2d)CsOs",
     group = 
 """
@@ -42366,7 +32956,7 @@ entry(
 )
 
 entry(
-    index = 1915,
+    index = 1529,
     label = "Cs-(Cds-Cdd-O2d)(Cds-Cdd-Cd)CsOs",
     group = 
 """
@@ -42389,7 +32979,7 @@ entry(
 )
 
 entry(
-    index = 1916,
+    index = 1530,
     label = "Cs-(Cds-Cdd-Cd)(Cds-Cdd-Cd)CsOs",
     group = 
 """
@@ -42412,7 +33002,7 @@ entry(
 )
 
 entry(
-    index = 1917,
+    index = 1531,
     label = "Cs-CtCdsCsOs",
     group = 
 """
@@ -42431,7 +33021,7 @@ entry(
 )
 
 entry(
-    index = 1918,
+    index = 1532,
     label = "Cs-(Cds-O2d)CtCsOs",
     group = 
 """
@@ -42451,7 +33041,7 @@ entry(
 )
 
 entry(
-    index = 1919,
+    index = 1533,
     label = "Cs-(Cds-Cd)CtCsOs",
     group = 
 """
@@ -42471,7 +33061,7 @@ entry(
 )
 
 entry(
-    index = 1920,
+    index = 1534,
     label = "Cs-(Cds-Cds)CtCsOs",
     group = 
 """
@@ -42491,7 +33081,7 @@ entry(
 )
 
 entry(
-    index = 1921,
+    index = 1535,
     label = "Cs-(Cds-Cdd)CtCsOs",
     group = 
 """
@@ -42511,7 +33101,7 @@ entry(
 )
 
 entry(
-    index = 1922,
+    index = 1536,
     label = "Cs-(Cds-Cdd-O2d)CtCsOs",
     group = 
 """
@@ -42532,7 +33122,7 @@ entry(
 )
 
 entry(
-    index = 1923,
+    index = 1537,
     label = "Cs-(Cds-Cdd-Cd)CtCsOs",
     group = 
 """
@@ -42553,7 +33143,7 @@ entry(
 )
 
 entry(
-    index = 1924,
+    index = 1538,
     label = "Cs-CbCdsCsOs",
     group = 
 """
@@ -42572,7 +33162,7 @@ entry(
 )
 
 entry(
-    index = 1925,
+    index = 1539,
     label = "Cs-(Cds-O2d)CbCsOs",
     group = 
 """
@@ -42592,7 +33182,7 @@ entry(
 )
 
 entry(
-    index = 1926,
+    index = 1540,
     label = "Cs-(Cds-Cd)CbCsOs",
     group = 
 """
@@ -42612,7 +33202,7 @@ entry(
 )
 
 entry(
-    index = 1927,
+    index = 1541,
     label = "Cs-(Cds-Cds)CbCsOs",
     group = 
 """
@@ -42632,7 +33222,7 @@ entry(
 )
 
 entry(
-    index = 1928,
+    index = 1542,
     label = "Cs-(Cds-Cdd)CbCsOs",
     group = 
 """
@@ -42652,7 +33242,7 @@ entry(
 )
 
 entry(
-    index = 1929,
+    index = 1543,
     label = "Cs-(Cds-Cdd-O2d)CbCsOs",
     group = 
 """
@@ -42673,7 +33263,7 @@ entry(
 )
 
 entry(
-    index = 1930,
+    index = 1544,
     label = "Cs-(Cds-Cdd-Cd)CbCsOs",
     group = 
 """
@@ -42694,7 +33284,7 @@ entry(
 )
 
 entry(
-    index = 1931,
+    index = 1545,
     label = "Cs-CtCtCsOs",
     group = 
 """
@@ -42713,7 +33303,7 @@ entry(
 )
 
 entry(
-    index = 1932,
+    index = 1546,
     label = "Cs-CbCtCsOs",
     group = 
 """
@@ -42732,7 +33322,7 @@ entry(
 )
 
 entry(
-    index = 1933,
+    index = 1547,
     label = "Cs-CbCbCsOs",
     group = 
 """
@@ -42751,7 +33341,7 @@ entry(
 )
 
 entry(
-    index = 1934,
+    index = 1548,
     label = "Cs-CdsCdsCdsOs",
     group = 
 """
@@ -42770,7 +33360,7 @@ entry(
 )
 
 entry(
-    index = 1935,
+    index = 1549,
     label = "Cs-(Cds-O2d)(Cds-O2d)(Cds-O2d)O2s",
     group = 
 """
@@ -42792,7 +33382,7 @@ entry(
 )
 
 entry(
-    index = 1936,
+    index = 1550,
     label = "Cs-(Cds-O2d)(Cds-O2d)(Cds-Cd)O2s",
     group = 
 """
@@ -42814,7 +33404,7 @@ entry(
 )
 
 entry(
-    index = 1937,
+    index = 1551,
     label = "Cs-(Cds-O2d)(Cds-O2d)(Cds-Cds)O2s",
     group = 
 """
@@ -42836,7 +33426,7 @@ entry(
 )
 
 entry(
-    index = 1938,
+    index = 1552,
     label = "Cs-(Cds-O2d)(Cds-O2d)(Cds-Cdd)O2s",
     group = 
 """
@@ -42858,7 +33448,7 @@ entry(
 )
 
 entry(
-    index = 1939,
+    index = 1553,
     label = "Cs-(Cds-O2d)(Cds-O2d)(Cds-Cdd-O2d)O2s",
     group = 
 """
@@ -42881,7 +33471,7 @@ entry(
 )
 
 entry(
-    index = 1940,
+    index = 1554,
     label = "Cs-(Cds-O2d)(Cds-O2d)(Cds-Cdd-Cd)O2s",
     group = 
 """
@@ -42904,7 +33494,7 @@ entry(
 )
 
 entry(
-    index = 1941,
+    index = 1555,
     label = "Cs-(Cds-O2d)(Cds-Cd)(Cds-Cd)O2s",
     group = 
 """
@@ -42933,7 +33523,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 1942,
+    index = 1556,
     label = "Cs-(Cds-O2d)(Cds-Cds)(Cds-Cds)O2s",
     group = 
 """
@@ -42955,7 +33545,7 @@ entry(
 )
 
 entry(
-    index = 1943,
+    index = 1557,
     label = "Cs-(Cds-O2d)(Cds-Cdd)(Cds-Cds)O2s",
     group = 
 """
@@ -42977,7 +33567,7 @@ entry(
 )
 
 entry(
-    index = 1944,
+    index = 1558,
     label = "Cs-(Cds-O2d)(Cds-Cdd-O2d)(Cds-Cds)O2s",
     group = 
 """
@@ -43000,7 +33590,7 @@ entry(
 )
 
 entry(
-    index = 1945,
+    index = 1559,
     label = "Cs-(Cds-O2d)(Cds-Cdd-Cd)(Cds-Cds)O2s",
     group = 
 """
@@ -43023,7 +33613,7 @@ entry(
 )
 
 entry(
-    index = 1946,
+    index = 1560,
     label = "Cs-(Cds-O2d)(Cds-Cdd)(Cds-Cdd)O2s",
     group = 
 """
@@ -43045,7 +33635,7 @@ entry(
 )
 
 entry(
-    index = 1947,
+    index = 1561,
     label = "Cs-(Cds-O2d)(Cds-Cdd-O2d)(Cds-Cdd-O2d)O2s",
     group = 
 """
@@ -43069,7 +33659,7 @@ entry(
 )
 
 entry(
-    index = 1948,
+    index = 1562,
     label = "Cs-(Cds-O2d)(Cds-Cdd-O2d)(Cds-Cdd-Cd)O2s",
     group = 
 """
@@ -43093,7 +33683,7 @@ entry(
 )
 
 entry(
-    index = 1949,
+    index = 1563,
     label = "Cs-(Cds-O2d)(Cds-Cdd-Cd)(Cds-Cdd-Cd)O2s",
     group = 
 """
@@ -43117,7 +33707,7 @@ entry(
 )
 
 entry(
-    index = 1950,
+    index = 1564,
     label = "Cs-(Cds-Cd)(Cds-Cd)(Cds-Cd)O2s",
     group = 
 """
@@ -43139,7 +33729,7 @@ entry(
 )
 
 entry(
-    index = 1951,
+    index = 1565,
     label = "Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)O2s",
     group = 
 """
@@ -43161,7 +33751,7 @@ entry(
 )
 
 entry(
-    index = 1952,
+    index = 1566,
     label = "Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd)O2s",
     group = 
 """
@@ -43183,7 +33773,7 @@ entry(
 )
 
 entry(
-    index = 1953,
+    index = 1567,
     label = "Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd-O2d)O2s",
     group = 
 """
@@ -43206,7 +33796,7 @@ entry(
 )
 
 entry(
-    index = 1954,
+    index = 1568,
     label = "Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd-Cd)O2s",
     group = 
 """
@@ -43229,7 +33819,7 @@ entry(
 )
 
 entry(
-    index = 1955,
+    index = 1569,
     label = "Cs-(Cds-Cds)(Cds-Cdd)(Cds-Cdd)O2s",
     group = 
 """
@@ -43251,7 +33841,7 @@ entry(
 )
 
 entry(
-    index = 1956,
+    index = 1570,
     label = "Cs-(Cds-Cds)(Cds-Cdd-O2d)(Cds-Cdd-O2d)O2s",
     group = 
 """
@@ -43275,7 +33865,7 @@ entry(
 )
 
 entry(
-    index = 1957,
+    index = 1571,
     label = "Cs-(Cds-Cds)(Cds-Cdd-O2d)(Cds-Cdd-Cd)O2s",
     group = 
 """
@@ -43299,7 +33889,7 @@ entry(
 )
 
 entry(
-    index = 1958,
+    index = 1572,
     label = "Cs-(Cds-Cds)(Cds-Cdd-Cd)(Cds-Cdd-Cd)O2s",
     group = 
 """
@@ -43323,7 +33913,7 @@ entry(
 )
 
 entry(
-    index = 1959,
+    index = 1573,
     label = "Cs-(Cds-Cdd)(Cds-Cdd)(Cds-Cdd)O2s",
     group = 
 """
@@ -43345,7 +33935,7 @@ entry(
 )
 
 entry(
-    index = 1960,
+    index = 1574,
     label = "Cs-(Cds-Cdd-O2d)(Cds-Cdd-O2d)(Cds-Cdd-O2d)O2s",
     group = 
 """
@@ -43370,7 +33960,7 @@ entry(
 )
 
 entry(
-    index = 1961,
+    index = 1575,
     label = "Cs-(Cds-Cdd-O2d)(Cds-Cdd-O2d)(Cds-Cdd-Cd)O2s",
     group = 
 """
@@ -43395,7 +33985,7 @@ entry(
 )
 
 entry(
-    index = 1962,
+    index = 1576,
     label = "Cs-(Cds-Cdd-O2d)(Cds-Cdd-Cd)(Cds-Cdd-Cd)O2s",
     group = 
 """
@@ -43420,7 +34010,7 @@ entry(
 )
 
 entry(
-    index = 1963,
+    index = 1577,
     label = "Cs-(Cds-Cdd-Cd)(Cds-Cdd-Cd)(Cds-Cdd-Cd)O2s",
     group = 
 """
@@ -43445,7 +34035,7 @@ entry(
 )
 
 entry(
-    index = 1964,
+    index = 1578,
     label = "Cs-CtCdsCdsOs",
     group = 
 """
@@ -43464,7 +34054,7 @@ entry(
 )
 
 entry(
-    index = 1965,
+    index = 1579,
     label = "Cs-(Cds-O2d)(Cds-O2d)CtOs",
     group = 
 """
@@ -43485,7 +34075,7 @@ entry(
 )
 
 entry(
-    index = 1966,
+    index = 1580,
     label = "Cs-(Cds-O2d)(Cds-Cd)CtOs",
     group = 
 """
@@ -43506,7 +34096,7 @@ entry(
 )
 
 entry(
-    index = 1967,
+    index = 1581,
     label = "Cs-(Cds-O2d)(Cds-Cds)CtOs",
     group = 
 """
@@ -43527,7 +34117,7 @@ entry(
 )
 
 entry(
-    index = 1968,
+    index = 1582,
     label = "Cs-(Cds-O2d)(Cds-Cdd)CtOs",
     group = 
 """
@@ -43548,7 +34138,7 @@ entry(
 )
 
 entry(
-    index = 1969,
+    index = 1583,
     label = "Cs-(Cds-O2d)(Cds-Cdd-O2d)CtOs",
     group = 
 """
@@ -43570,7 +34160,7 @@ entry(
 )
 
 entry(
-    index = 1970,
+    index = 1584,
     label = "Cs-(Cds-O2d)(Cds-Cdd-Cd)CtOs",
     group = 
 """
@@ -43592,7 +34182,7 @@ entry(
 )
 
 entry(
-    index = 1971,
+    index = 1585,
     label = "Cs-(Cds-Cd)(Cds-Cd)CtOs",
     group = 
 """
@@ -43613,7 +34203,7 @@ entry(
 )
 
 entry(
-    index = 1972,
+    index = 1586,
     label = "Cs-(Cds-Cds)(Cds-Cds)CtOs",
     group = 
 """
@@ -43634,7 +34224,7 @@ entry(
 )
 
 entry(
-    index = 1973,
+    index = 1587,
     label = "Cs-(Cds-Cdd)(Cds-Cds)CtOs",
     group = 
 """
@@ -43655,7 +34245,7 @@ entry(
 )
 
 entry(
-    index = 1974,
+    index = 1588,
     label = "Cs-(Cds-Cdd-O2d)(Cds-Cds)CtOs",
     group = 
 """
@@ -43677,7 +34267,7 @@ entry(
 )
 
 entry(
-    index = 1975,
+    index = 1589,
     label = "Cs-(Cds-Cdd-Cd)(Cds-Cds)CtOs",
     group = 
 """
@@ -43699,7 +34289,7 @@ entry(
 )
 
 entry(
-    index = 1976,
+    index = 1590,
     label = "Cs-(Cds-Cdd)(Cds-Cdd)CtOs",
     group = 
 """
@@ -43720,7 +34310,7 @@ entry(
 )
 
 entry(
-    index = 1977,
+    index = 1591,
     label = "Cs-(Cds-Cdd-O2d)(Cds-Cdd-O2d)CtOs",
     group = 
 """
@@ -43743,7 +34333,7 @@ entry(
 )
 
 entry(
-    index = 1978,
+    index = 1592,
     label = "Cs-(Cds-Cdd-O2d)(Cds-Cdd-Cd)CtOs",
     group = 
 """
@@ -43766,7 +34356,7 @@ entry(
 )
 
 entry(
-    index = 1979,
+    index = 1593,
     label = "Cs-(Cds-Cdd-Cd)(Cds-Cdd-Cd)CtOs",
     group = 
 """
@@ -43789,7 +34379,7 @@ entry(
 )
 
 entry(
-    index = 1980,
+    index = 1594,
     label = "Cs-CbCdsCdsOs",
     group = 
 """
@@ -43808,7 +34398,7 @@ entry(
 )
 
 entry(
-    index = 1981,
+    index = 1595,
     label = "Cs-(Cds-O2d)(Cds-O2d)CbOs",
     group = 
 """
@@ -43829,7 +34419,7 @@ entry(
 )
 
 entry(
-    index = 1982,
+    index = 1596,
     label = "Cs-(Cds-O2d)(Cds-Cd)CbOs",
     group = 
 """
@@ -43850,7 +34440,7 @@ entry(
 )
 
 entry(
-    index = 1983,
+    index = 1597,
     label = "Cs-(Cds-O2d)(Cds-Cds)CbOs",
     group = 
 """
@@ -43871,7 +34461,7 @@ entry(
 )
 
 entry(
-    index = 1984,
+    index = 1598,
     label = "Cs-(Cds-O2d)(Cds-Cdd)CbOs",
     group = 
 """
@@ -43892,7 +34482,7 @@ entry(
 )
 
 entry(
-    index = 1985,
+    index = 1599,
     label = "Cs-(Cds-O2d)(Cds-Cdd-O2d)CbOs",
     group = 
 """
@@ -43914,7 +34504,7 @@ entry(
 )
 
 entry(
-    index = 1986,
+    index = 1600,
     label = "Cs-(Cds-O2d)(Cds-Cdd-Cd)CbOs",
     group = 
 """
@@ -43936,7 +34526,7 @@ entry(
 )
 
 entry(
-    index = 1987,
+    index = 1601,
     label = "Cs-(Cds-Cd)(Cds-Cd)CbOs",
     group = 
 """
@@ -43957,7 +34547,7 @@ entry(
 )
 
 entry(
-    index = 1988,
+    index = 1602,
     label = "Cs-(Cds-Cds)(Cds-Cds)CbOs",
     group = 
 """
@@ -43978,7 +34568,7 @@ entry(
 )
 
 entry(
-    index = 1989,
+    index = 1603,
     label = "Cs-(Cds-Cdd)(Cds-Cds)CbOs",
     group = 
 """
@@ -43999,7 +34589,7 @@ entry(
 )
 
 entry(
-    index = 1990,
+    index = 1604,
     label = "Cs-(Cds-Cdd-O2d)(Cds-Cds)CbOs",
     group = 
 """
@@ -44021,7 +34611,7 @@ entry(
 )
 
 entry(
-    index = 1991,
+    index = 1605,
     label = "Cs-(Cds-Cdd-Cd)(Cds-Cds)CbOs",
     group = 
 """
@@ -44043,7 +34633,7 @@ entry(
 )
 
 entry(
-    index = 1992,
+    index = 1606,
     label = "Cs-(Cds-Cdd)(Cds-Cdd)CbOs",
     group = 
 """
@@ -44064,7 +34654,7 @@ entry(
 )
 
 entry(
-    index = 1993,
+    index = 1607,
     label = "Cs-(Cds-Cdd-O2d)(Cds-Cdd-O2d)CbOs",
     group = 
 """
@@ -44087,7 +34677,7 @@ entry(
 )
 
 entry(
-    index = 1994,
+    index = 1608,
     label = "Cs-(Cds-Cdd-O2d)(Cds-Cdd-Cd)CbOs",
     group = 
 """
@@ -44110,7 +34700,7 @@ entry(
 )
 
 entry(
-    index = 1995,
+    index = 1609,
     label = "Cs-(Cds-Cdd-Cd)(Cds-Cdd-Cd)CbOs",
     group = 
 """
@@ -44133,7 +34723,7 @@ entry(
 )
 
 entry(
-    index = 1996,
+    index = 1610,
     label = "Cs-CtCtCdsOs",
     group = 
 """
@@ -44152,7 +34742,7 @@ entry(
 )
 
 entry(
-    index = 1997,
+    index = 1611,
     label = "Cs-(Cds-O2d)CtCtOs",
     group = 
 """
@@ -44172,7 +34762,7 @@ entry(
 )
 
 entry(
-    index = 1998,
+    index = 1612,
     label = "Cs-(Cds-Cd)CtCtOs",
     group = 
 """
@@ -44192,7 +34782,7 @@ entry(
 )
 
 entry(
-    index = 1999,
+    index = 1613,
     label = "Cs-(Cds-Cds)CtCtOs",
     group = 
 """
@@ -44212,7 +34802,7 @@ entry(
 )
 
 entry(
-    index = 2000,
+    index = 1614,
     label = "Cs-(Cds-Cdd)CtCtOs",
     group = 
 """
@@ -44232,7 +34822,7 @@ entry(
 )
 
 entry(
-    index = 2001,
+    index = 1615,
     label = "Cs-(Cds-Cdd-O2d)CtCtOs",
     group = 
 """
@@ -44253,7 +34843,7 @@ entry(
 )
 
 entry(
-    index = 2002,
+    index = 1616,
     label = "Cs-(Cds-Cdd-Cd)CtCtOs",
     group = 
 """
@@ -44274,7 +34864,7 @@ entry(
 )
 
 entry(
-    index = 2003,
+    index = 1617,
     label = "Cs-CbCtCdsOs",
     group = 
 """
@@ -44293,7 +34883,7 @@ entry(
 )
 
 entry(
-    index = 2004,
+    index = 1618,
     label = "Cs-(Cds-O2d)CbCtOs",
     group = 
 """
@@ -44313,7 +34903,7 @@ entry(
 )
 
 entry(
-    index = 2005,
+    index = 1619,
     label = "Cs-(Cds-Cd)CbCtOs",
     group = 
 """
@@ -44333,7 +34923,7 @@ entry(
 )
 
 entry(
-    index = 2006,
+    index = 1620,
     label = "Cs-(Cds-Cds)CbCtOs",
     group = 
 """
@@ -44353,7 +34943,7 @@ entry(
 )
 
 entry(
-    index = 2007,
+    index = 1621,
     label = "Cs-(Cds-Cdd)CbCtOs",
     group = 
 """
@@ -44373,7 +34963,7 @@ entry(
 )
 
 entry(
-    index = 2008,
+    index = 1622,
     label = "Cs-(Cds-Cdd-O2d)CbCtOs",
     group = 
 """
@@ -44394,7 +34984,7 @@ entry(
 )
 
 entry(
-    index = 2009,
+    index = 1623,
     label = "Cs-(Cds-Cdd-Cd)CbCtOs",
     group = 
 """
@@ -44415,7 +35005,7 @@ entry(
 )
 
 entry(
-    index = 2010,
+    index = 1624,
     label = "Cs-CbCbCdsOs",
     group = 
 """
@@ -44434,7 +35024,7 @@ entry(
 )
 
 entry(
-    index = 2011,
+    index = 1625,
     label = "Cs-(Cds-O2d)CbCbOs",
     group = 
 """
@@ -44454,7 +35044,7 @@ entry(
 )
 
 entry(
-    index = 2012,
+    index = 1626,
     label = "Cs-(Cds-Cd)CbCbOs",
     group = 
 """
@@ -44474,7 +35064,7 @@ entry(
 )
 
 entry(
-    index = 2013,
+    index = 1627,
     label = "Cs-(Cds-Cds)CbCbOs",
     group = 
 """
@@ -44494,7 +35084,7 @@ entry(
 )
 
 entry(
-    index = 2014,
+    index = 1628,
     label = "Cs-(Cds-Cdd)CbCbOs",
     group = 
 """
@@ -44514,7 +35104,7 @@ entry(
 )
 
 entry(
-    index = 2015,
+    index = 1629,
     label = "Cs-(Cds-Cdd-O2d)CbCbOs",
     group = 
 """
@@ -44535,7 +35125,7 @@ entry(
 )
 
 entry(
-    index = 2016,
+    index = 1630,
     label = "Cs-(Cds-Cdd-Cd)CbCbOs",
     group = 
 """
@@ -44556,7 +35146,7 @@ entry(
 )
 
 entry(
-    index = 2017,
+    index = 1631,
     label = "Cs-CtCtCtOs",
     group = 
 """
@@ -44575,7 +35165,7 @@ entry(
 )
 
 entry(
-    index = 2018,
+    index = 1632,
     label = "Cs-CbCtCtOs",
     group = 
 """
@@ -44594,7 +35184,7 @@ entry(
 )
 
 entry(
-    index = 2019,
+    index = 1633,
     label = "Cs-CbCbCtOs",
     group = 
 """
@@ -44613,7 +35203,7 @@ entry(
 )
 
 entry(
-    index = 2020,
+    index = 1634,
     label = "Cs-CbCbCbOs",
     group = 
 """
@@ -44632,7 +35222,7 @@ entry(
 )
 
 entry(
-    index = 2021,
+    index = 1635,
     label = "Cs-CCOsOs",
     group = 
 """
@@ -44651,7 +35241,7 @@ entry(
 )
 
 entry(
-    index = 2022,
+    index = 1636,
     label = "Cs-CsCsOsOs",
     group = 
 """
@@ -44677,7 +35267,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 2023,
+    index = 1637,
     label = "Cs-CdsCsOsOs",
     group = 
 """
@@ -44696,7 +35286,7 @@ entry(
 )
 
 entry(
-    index = 2024,
+    index = 1638,
     label = "Cs-(Cds-O2d)CsOsOs",
     group = 
 """
@@ -44716,7 +35306,7 @@ entry(
 )
 
 entry(
-    index = 2025,
+    index = 1639,
     label = "Cs-(Cds-Cd)CsOsOs",
     group = 
 """
@@ -44743,7 +35333,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 2026,
+    index = 1640,
     label = "Cs-(Cds-Cds)CsOsOs",
     group = 
 """
@@ -44763,7 +35353,7 @@ entry(
 )
 
 entry(
-    index = 2027,
+    index = 1641,
     label = "Cs-(Cds-Cdd)CsOsOs",
     group = 
 """
@@ -44783,7 +35373,7 @@ entry(
 )
 
 entry(
-    index = 2028,
+    index = 1642,
     label = "Cs-(Cds-Cdd-O2d)CsOsOs",
     group = 
 """
@@ -44804,7 +35394,7 @@ entry(
 )
 
 entry(
-    index = 2029,
+    index = 1643,
     label = "Cs-(Cds-Cdd-Cd)CsOsOs",
     group = 
 """
@@ -44825,7 +35415,7 @@ entry(
 )
 
 entry(
-    index = 2030,
+    index = 1644,
     label = "Cs-CdsCdsOsOs",
     group = 
 """
@@ -44844,7 +35434,7 @@ entry(
 )
 
 entry(
-    index = 2031,
+    index = 1645,
     label = "Cs-(Cds-O2d)(Cds-O2d)OsOs",
     group = 
 """
@@ -44865,7 +35455,7 @@ entry(
 )
 
 entry(
-    index = 2032,
+    index = 1646,
     label = "Cs-(Cds-O2d)(Cds-Cd)OsOs",
     group = 
 """
@@ -44886,7 +35476,7 @@ entry(
 )
 
 entry(
-    index = 2033,
+    index = 1647,
     label = "Cs-(Cds-O2d)(Cds-Cds)OsOs",
     group = 
 """
@@ -44907,7 +35497,7 @@ entry(
 )
 
 entry(
-    index = 2034,
+    index = 1648,
     label = "Cs-(Cds-O2d)(Cds-Cdd)OsOs",
     group = 
 """
@@ -44928,7 +35518,7 @@ entry(
 )
 
 entry(
-    index = 2035,
+    index = 1649,
     label = "Cs-(Cds-O2d)(Cds-Cdd-O2d)OsOs",
     group = 
 """
@@ -44950,7 +35540,7 @@ entry(
 )
 
 entry(
-    index = 2036,
+    index = 1650,
     label = "Cs-(Cds-O2d)(Cds-Cdd-Cd)OsOs",
     group = 
 """
@@ -44972,7 +35562,7 @@ entry(
 )
 
 entry(
-    index = 2037,
+    index = 1651,
     label = "Cs-(Cds-Cd)(Cds-Cd)OsOs",
     group = 
 """
@@ -45000,7 +35590,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 2038,
+    index = 1652,
     label = "Cs-(Cds-Cds)(Cds-Cds)OsOs",
     group = 
 """
@@ -45021,7 +35611,7 @@ entry(
 )
 
 entry(
-    index = 2039,
+    index = 1653,
     label = "Cs-(Cds-Cdd)(Cds-Cds)OsOs",
     group = 
 """
@@ -45042,7 +35632,7 @@ entry(
 )
 
 entry(
-    index = 2040,
+    index = 1654,
     label = "Cs-(Cds-Cdd-O2d)(Cds-Cds)OsOs",
     group = 
 """
@@ -45064,7 +35654,7 @@ entry(
 )
 
 entry(
-    index = 2041,
+    index = 1655,
     label = "Cs-(Cds-Cdd-Cd)(Cds-Cds)OsOs",
     group = 
 """
@@ -45086,7 +35676,7 @@ entry(
 )
 
 entry(
-    index = 2042,
+    index = 1656,
     label = "Cs-(Cds-Cdd)(Cds-Cdd)OsOs",
     group = 
 """
@@ -45107,7 +35697,7 @@ entry(
 )
 
 entry(
-    index = 2043,
+    index = 1657,
     label = "Cs-(Cds-Cdd-O2d)(Cds-Cdd-O2d)OsOs",
     group = 
 """
@@ -45130,7 +35720,7 @@ entry(
 )
 
 entry(
-    index = 2044,
+    index = 1658,
     label = "Cs-(Cds-Cdd-O2d)(Cds-Cdd-Cd)OsOs",
     group = 
 """
@@ -45153,7 +35743,7 @@ entry(
 )
 
 entry(
-    index = 2045,
+    index = 1659,
     label = "Cs-(Cds-Cdd-Cd)(Cds-Cdd-Cd)OsOs",
     group = 
 """
@@ -45176,7 +35766,7 @@ entry(
 )
 
 entry(
-    index = 2046,
+    index = 1660,
     label = "Cs-CtCsOsOs",
     group = 
 """
@@ -45195,7 +35785,7 @@ entry(
 )
 
 entry(
-    index = 2047,
+    index = 1661,
     label = "Cs-CtCdsOsOs",
     group = 
 """
@@ -45214,7 +35804,7 @@ entry(
 )
 
 entry(
-    index = 2048,
+    index = 1662,
     label = "Cs-(Cds-O2d)CtOsOs",
     group = 
 """
@@ -45234,7 +35824,7 @@ entry(
 )
 
 entry(
-    index = 2049,
+    index = 1663,
     label = "Cs-(Cds-Cd)CtOsOs",
     group = 
 """
@@ -45254,7 +35844,7 @@ entry(
 )
 
 entry(
-    index = 2050,
+    index = 1664,
     label = "Cs-(Cds-Cds)CtOsOs",
     group = 
 """
@@ -45274,7 +35864,7 @@ entry(
 )
 
 entry(
-    index = 2051,
+    index = 1665,
     label = "Cs-(Cds-Cdd)CtOsOs",
     group = 
 """
@@ -45294,7 +35884,7 @@ entry(
 )
 
 entry(
-    index = 2052,
+    index = 1666,
     label = "Cs-(Cds-Cdd-O2d)CtOsOs",
     group = 
 """
@@ -45315,7 +35905,7 @@ entry(
 )
 
 entry(
-    index = 2053,
+    index = 1667,
     label = "Cs-(Cds-Cdd-Cd)CtOsOs",
     group = 
 """
@@ -45336,7 +35926,7 @@ entry(
 )
 
 entry(
-    index = 2054,
+    index = 1668,
     label = "Cs-CtCtOsOs",
     group = 
 """
@@ -45355,7 +35945,7 @@ entry(
 )
 
 entry(
-    index = 2055,
+    index = 1669,
     label = "Cs-CbCsOsOs",
     group = 
 """
@@ -45374,7 +35964,7 @@ entry(
 )
 
 entry(
-    index = 2056,
+    index = 1670,
     label = "Cs-CbCdsOsOs",
     group = 
 """
@@ -45393,7 +35983,7 @@ entry(
 )
 
 entry(
-    index = 2057,
+    index = 1671,
     label = "Cs-(Cds-O2d)CbOsOs",
     group = 
 """
@@ -45413,7 +36003,7 @@ entry(
 )
 
 entry(
-    index = 2058,
+    index = 1672,
     label = "Cs-(Cds-Cd)CbOsOs",
     group = 
 """
@@ -45433,7 +36023,7 @@ entry(
 )
 
 entry(
-    index = 2059,
+    index = 1673,
     label = "Cs-(Cds-Cds)CbOsOs",
     group = 
 """
@@ -45453,7 +36043,7 @@ entry(
 )
 
 entry(
-    index = 2060,
+    index = 1674,
     label = "Cs-(Cds-Cdd)CbOsOs",
     group = 
 """
@@ -45473,7 +36063,7 @@ entry(
 )
 
 entry(
-    index = 2061,
+    index = 1675,
     label = "Cs-(Cds-Cdd-O2d)CbOsOs",
     group = 
 """
@@ -45494,7 +36084,7 @@ entry(
 )
 
 entry(
-    index = 2062,
+    index = 1676,
     label = "Cs-(Cds-Cdd-Cd)CbOsOs",
     group = 
 """
@@ -45515,7 +36105,7 @@ entry(
 )
 
 entry(
-    index = 2063,
+    index = 1677,
     label = "Cs-CbCtOsOs",
     group = 
 """
@@ -45534,7 +36124,7 @@ entry(
 )
 
 entry(
-    index = 2064,
+    index = 1678,
     label = "Cs-CbCbOsOs",
     group = 
 """
@@ -45553,7 +36143,7 @@ entry(
 )
 
 entry(
-    index = 2065,
+    index = 1679,
     label = "Cs-COsOsOs",
     group = 
 """
@@ -45572,7 +36162,7 @@ entry(
 )
 
 entry(
-    index = 2066,
+    index = 1680,
     label = "Cs-CsOsOsOs",
     group = 
 """
@@ -45596,7 +36186,7 @@ entry(
 )
 
 entry(
-    index = 2067,
+    index = 1681,
     label = "Cs-CdsOsOsOs",
     group = 
 """
@@ -45615,7 +36205,7 @@ entry(
 )
 
 entry(
-    index = 2068,
+    index = 1682,
     label = "Cs-(Cds-O2d)OsOsOs",
     group = 
 """
@@ -45635,7 +36225,7 @@ entry(
 )
 
 entry(
-    index = 2069,
+    index = 1683,
     label = "Cs-(Cds-Cd)OsOsOs",
     group = 
 """
@@ -45655,7 +36245,7 @@ entry(
 )
 
 entry(
-    index = 2070,
+    index = 1684,
     label = "Cs-(Cds-Cds)OsOsOs",
     group = 
 """
@@ -45675,7 +36265,7 @@ entry(
 )
 
 entry(
-    index = 2071,
+    index = 1685,
     label = "Cs-(Cds-Cdd)OsOsOs",
     group = 
 """
@@ -45695,7 +36285,7 @@ entry(
 )
 
 entry(
-    index = 2072,
+    index = 1686,
     label = "Cs-(Cds-Cdd-O2d)OsOsOs",
     group = 
 """
@@ -45716,7 +36306,7 @@ entry(
 )
 
 entry(
-    index = 2073,
+    index = 1687,
     label = "Cs-(Cds-Cdd-Cd)OsOsOs",
     group = 
 """
@@ -45737,7 +36327,7 @@ entry(
 )
 
 entry(
-    index = 2074,
+    index = 1688,
     label = "Cs-CtOsOsOs",
     group = 
 """
@@ -45756,7 +36346,7 @@ entry(
 )
 
 entry(
-    index = 2075,
+    index = 1689,
     label = "Cs-CbOsOsOs",
     group = 
 """
@@ -45775,7 +36365,7 @@ entry(
 )
 
 entry(
-    index = 2076,
+    index = 1690,
     label = "Cs-OsOsOsOs",
     group = 
 """
@@ -45799,7 +36389,7 @@ entry(
 )
 
 entry(
-    index = 2077,
+    index = 1691,
     label = "Cs-COsOsH",
     group = 
 """
@@ -45818,7 +36408,7 @@ entry(
 )
 
 entry(
-    index = 2078,
+    index = 1692,
     label = "Cs-CsOsOsH",
     group = 
 """
@@ -45842,7 +36432,7 @@ entry(
 )
 
 entry(
-    index = 2079,
+    index = 1693,
     label = "Cs-CdsOsOsH",
     group = 
 """
@@ -45861,7 +36451,7 @@ entry(
 )
 
 entry(
-    index = 2080,
+    index = 1694,
     label = "Cs-(Cds-O2d)OsOsH",
     group = 
 """
@@ -45881,7 +36471,7 @@ entry(
 )
 
 entry(
-    index = 2081,
+    index = 1695,
     label = "Cs-(Cds-Cd)OsOsH",
     group = 
 """
@@ -45901,7 +36491,7 @@ entry(
 )
 
 entry(
-    index = 2082,
+    index = 1696,
     label = "Cs-(Cds-Cds)OsOsH",
     group = 
 """
@@ -45921,7 +36511,7 @@ entry(
 )
 
 entry(
-    index = 2083,
+    index = 1697,
     label = "Cs-(Cds-Cdd)OsOsH",
     group = 
 """
@@ -45941,7 +36531,7 @@ entry(
 )
 
 entry(
-    index = 2084,
+    index = 1698,
     label = "Cs-(Cds-Cdd-O2d)OsOsH",
     group = 
 """
@@ -45962,7 +36552,7 @@ entry(
 )
 
 entry(
-    index = 2085,
+    index = 1699,
     label = "Cs-(Cds-Cdd-Cd)OsOsH",
     group = 
 """
@@ -45983,7 +36573,7 @@ entry(
 )
 
 entry(
-    index = 2086,
+    index = 1700,
     label = "Cs-CtOsOsH",
     group = 
 """
@@ -46002,7 +36592,7 @@ entry(
 )
 
 entry(
-    index = 2087,
+    index = 1701,
     label = "Cs-CbOsOsH",
     group = 
 """
@@ -46021,7 +36611,7 @@ entry(
 )
 
 entry(
-    index = 2088,
+    index = 1702,
     label = "Cs-COsSH",
     group = 
 """
@@ -46040,7 +36630,7 @@ entry(
 )
 
 entry(
-    index = 2089,
+    index = 1703,
     label = "Cs-CsOsSH",
     group = 
 """
@@ -46059,7 +36649,7 @@ entry(
 )
 
 entry(
-    index = 2090,
+    index = 1704,
     label = "Cs-CsOsS2H",
     group = 
 """
@@ -46083,7 +36673,7 @@ entry(
 )
 
 entry(
-    index = 2091,
+    index = 1705,
     label = "Cs-CsOsS4H",
     group = 
 """
@@ -46107,7 +36697,7 @@ entry(
 )
 
 entry(
-    index = 2092,
+    index = 1706,
     label = "Cs-CdsOsSsH",
     group = 
 """
@@ -46131,7 +36721,7 @@ entry(
 )
 
 entry(
-    index = 2093,
+    index = 1707,
     label = "Cs-CtOsSsH",
     group = 
 """
@@ -46150,7 +36740,7 @@ entry(
 )
 
 entry(
-    index = 2094,
+    index = 1708,
     label = "Cs-CbOsSsH",
     group = 
 """
@@ -46174,7 +36764,7 @@ entry(
 )
 
 entry(
-    index = 2095,
+    index = 1709,
     label = "Cs-CCOsSs",
     group = 
 """
@@ -46193,7 +36783,7 @@ entry(
 )
 
 entry(
-    index = 2096,
+    index = 1710,
     label = "Cs-CsCsOsSs",
     group = 
 """
@@ -46217,7 +36807,7 @@ entry(
 )
 
 entry(
-    index = 2097,
+    index = 1711,
     label = "Cs-COsOsSs",
     group = 
 """
@@ -46236,7 +36826,7 @@ entry(
 )
 
 entry(
-    index = 2098,
+    index = 1712,
     label = "Cs-CsOsOsSs",
     group = 
 """
@@ -46260,7 +36850,7 @@ entry(
 )
 
 entry(
-    index = 2099,
+    index = 1713,
     label = "Cs-CCOsH",
     group = 
 """
@@ -46279,7 +36869,7 @@ entry(
 )
 
 entry(
-    index = 2100,
+    index = 1714,
     label = "Cs-CsCsOsH",
     group = 
 """
@@ -46305,7 +36895,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 2101,
+    index = 1715,
     label = "Cs-CdsCsOsH",
     group = 
 """
@@ -46324,7 +36914,7 @@ entry(
 )
 
 entry(
-    index = 2102,
+    index = 1716,
     label = "Cs-(Cds-O2d)CsOsH",
     group = 
 """
@@ -46349,7 +36939,7 @@ entry(
 )
 
 entry(
-    index = 2103,
+    index = 1717,
     label = "Cs-(Cds-Cd)CsOsH",
     group = 
 """
@@ -46376,7 +36966,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 2104,
+    index = 1718,
     label = "Cs-(Cds-Cds)CsOsH",
     group = 
 """
@@ -46401,7 +36991,7 @@ entry(
 )
 
 entry(
-    index = 2105,
+    index = 1719,
     label = "Cs-(Cds-Cdd)CsOsH",
     group = 
 """
@@ -46421,7 +37011,7 @@ entry(
 )
 
 entry(
-    index = 2106,
+    index = 1720,
     label = "Cs-(Cds-Cdd-O2d)CsOsH",
     group = 
 """
@@ -46447,7 +37037,7 @@ entry(
 )
 
 entry(
-    index = 2107,
+    index = 1721,
     label = "Cs-(Cds-Cdd-Cd)CsOsH",
     group = 
 """
@@ -46468,7 +37058,7 @@ entry(
 )
 
 entry(
-    index = 2108,
+    index = 1722,
     label = "Cs-CdsCdsOsH",
     group = 
 """
@@ -46487,7 +37077,7 @@ entry(
 )
 
 entry(
-    index = 2109,
+    index = 1723,
     label = "Cs-(Cds-O2d)(Cds-O2d)OsH",
     group = 
 """
@@ -46508,7 +37098,7 @@ entry(
 )
 
 entry(
-    index = 2110,
+    index = 1724,
     label = "Cs-(Cds-O2d)(Cds-Cd)OsH",
     group = 
 """
@@ -46529,7 +37119,7 @@ entry(
 )
 
 entry(
-    index = 2111,
+    index = 1725,
     label = "Cs-(Cds-O2d)(Cds-Cds)OsH",
     group = 
 """
@@ -46550,7 +37140,7 @@ entry(
 )
 
 entry(
-    index = 2112,
+    index = 1726,
     label = "Cs-(Cds-O2d)(Cds-Cdd)OsH",
     group = 
 """
@@ -46571,7 +37161,7 @@ entry(
 )
 
 entry(
-    index = 2113,
+    index = 1727,
     label = "Cs-(Cds-O2d)(Cds-Cdd-O2d)OsH",
     group = 
 """
@@ -46593,7 +37183,7 @@ entry(
 )
 
 entry(
-    index = 2114,
+    index = 1728,
     label = "Cs-(Cds-O2d)(Cds-Cdd-Cd)OsH",
     group = 
 """
@@ -46615,7 +37205,7 @@ entry(
 )
 
 entry(
-    index = 2115,
+    index = 1729,
     label = "Cs-(Cds-Cd)(Cds-Cd)OsH",
     group = 
 """
@@ -46643,7 +37233,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 2116,
+    index = 1730,
     label = "Cs-(Cds-Cds)(Cds-Cds)OsH",
     group = 
 """
@@ -46669,7 +37259,7 @@ entry(
 )
 
 entry(
-    index = 2117,
+    index = 1731,
     label = "Cs-(Cds-Cdd)(Cds-Cds)OsH",
     group = 
 """
@@ -46690,7 +37280,7 @@ entry(
 )
 
 entry(
-    index = 2118,
+    index = 1732,
     label = "Cs-(Cds-Cdd-O2d)(Cds-Cds)OsH",
     group = 
 """
@@ -46712,7 +37302,7 @@ entry(
 )
 
 entry(
-    index = 2119,
+    index = 1733,
     label = "Cs-(Cds-Cdd-Cd)(Cds-Cds)OsH",
     group = 
 """
@@ -46734,7 +37324,7 @@ entry(
 )
 
 entry(
-    index = 2120,
+    index = 1734,
     label = "Cs-(Cds-Cdd)(Cds-Cdd)OsH",
     group = 
 """
@@ -46755,7 +37345,7 @@ entry(
 )
 
 entry(
-    index = 2121,
+    index = 1735,
     label = "Cs-(Cds-Cdd-O2d)(Cds-Cdd-O2d)OsH",
     group = 
 """
@@ -46778,7 +37368,7 @@ entry(
 )
 
 entry(
-    index = 2122,
+    index = 1736,
     label = "Cs-(Cds-Cdd-O2d)(Cds-Cdd-Cd)OsH",
     group = 
 """
@@ -46801,7 +37391,7 @@ entry(
 )
 
 entry(
-    index = 2123,
+    index = 1737,
     label = "Cs-(Cds-Cdd-Cd)(Cds-Cdd-Cd)OsH",
     group = 
 """
@@ -46824,7 +37414,7 @@ entry(
 )
 
 entry(
-    index = 2124,
+    index = 1738,
     label = "Cs-CtCsOsH",
     group = 
 """
@@ -46843,7 +37433,7 @@ entry(
 )
 
 entry(
-    index = 2125,
+    index = 1739,
     label = "Cs-CtCdsOsH",
     group = 
 """
@@ -46862,7 +37452,7 @@ entry(
 )
 
 entry(
-    index = 2126,
+    index = 1740,
     label = "Cs-(Cds-O2d)CtOsH",
     group = 
 """
@@ -46882,7 +37472,7 @@ entry(
 )
 
 entry(
-    index = 2127,
+    index = 1741,
     label = "Cs-(Cds-Cd)CtOsH",
     group = 
 """
@@ -46902,7 +37492,7 @@ entry(
 )
 
 entry(
-    index = 2128,
+    index = 1742,
     label = "Cs-(Cds-Cds)CtOsH",
     group = 
 """
@@ -46922,7 +37512,7 @@ entry(
 )
 
 entry(
-    index = 2129,
+    index = 1743,
     label = "Cs-(Cds-Cdd)CtOsH",
     group = 
 """
@@ -46942,7 +37532,7 @@ entry(
 )
 
 entry(
-    index = 2130,
+    index = 1744,
     label = "Cs-(Cds-Cdd-O2d)CtOsH",
     group = 
 """
@@ -46963,7 +37553,7 @@ entry(
 )
 
 entry(
-    index = 2131,
+    index = 1745,
     label = "Cs-(Cds-Cdd-Cd)CtOsH",
     group = 
 """
@@ -46984,7 +37574,7 @@ entry(
 )
 
 entry(
-    index = 2132,
+    index = 1746,
     label = "Cs-CtCtOsH",
     group = 
 """
@@ -47003,7 +37593,7 @@ entry(
 )
 
 entry(
-    index = 2133,
+    index = 1747,
     label = "Cs-CbCsOsH",
     group = 
 """
@@ -47027,7 +37617,7 @@ entry(
 )
 
 entry(
-    index = 2134,
+    index = 1748,
     label = "Cs-CbCdsOsH",
     group = 
 """
@@ -47046,7 +37636,7 @@ entry(
 )
 
 entry(
-    index = 2135,
+    index = 1749,
     label = "Cs-(Cds-O2d)CbOsH",
     group = 
 """
@@ -47066,7 +37656,7 @@ entry(
 )
 
 entry(
-    index = 2136,
+    index = 1750,
     label = "Cs-(Cds-Cd)CbOsH",
     group = 
 """
@@ -47086,7 +37676,7 @@ entry(
 )
 
 entry(
-    index = 2137,
+    index = 1751,
     label = "Cs-(Cds-Cds)CbOsH",
     group = 
 """
@@ -47106,7 +37696,7 @@ entry(
 )
 
 entry(
-    index = 2138,
+    index = 1752,
     label = "Cs-(Cds-Cdd)CbOsH",
     group = 
 """
@@ -47126,7 +37716,7 @@ entry(
 )
 
 entry(
-    index = 2139,
+    index = 1753,
     label = "Cs-(Cds-Cdd-O2d)CbOsH",
     group = 
 """
@@ -47147,7 +37737,7 @@ entry(
 )
 
 entry(
-    index = 2140,
+    index = 1754,
     label = "Cs-(Cds-Cdd-Cd)CbOsH",
     group = 
 """
@@ -47168,7 +37758,7 @@ entry(
 )
 
 entry(
-    index = 2141,
+    index = 1755,
     label = "Cs-CbCtOsH",
     group = 
 """
@@ -47187,7 +37777,7 @@ entry(
 )
 
 entry(
-    index = 2142,
+    index = 1756,
     label = "Cs-CbCbOsH",
     group = 
 """
@@ -47206,7 +37796,7 @@ entry(
 )
 
 entry(
-    index = 2143,
+    index = 1757,
     label = "Cs-COsHH",
     group = 
 """
@@ -47225,7 +37815,7 @@ entry(
 )
 
 entry(
-    index = 2144,
+    index = 1758,
     label = "Cs-CsOsHH",
     group = 
 """
@@ -47251,7 +37841,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 2145,
+    index = 1759,
     label = "Cs-CdsOsHH",
     group = 
 """
@@ -47270,58 +37860,7 @@ entry(
 )
 
 entry(
-    index = 2146,
-    label = "Cs-CdHHO2s-HHN5dc_2847",
-    group = 
-"""
-1 * Cs   u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2   Cd   u0 p0 c0 {1,S} {6,D} {7,S}
-3   O2s  u0 p2 c0 {1,S} {8,S}
-4   H    u0 p0 c0 {1,S}
-5   H    u0 p0 c0 {1,S}
-6   N5dc u0 p0 c+1 {2,D}
-7   H    u0 p0 c0 {2,S}
-8   H    u0 p0 c0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2147,
-    label = "Cs-CdHHO2s-HHN5dc-HO0sc_2846",
-    group = 
-"""
-1  * Cs   u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
-2    Cd   u0 p0 c0 {1,S} {3,D} {7,S}
-3    N5dc u0 p0 c+1 {2,D} {8,S} {9,S}
-4    O2s  u0 p2 c0 {1,S} {10,S}
-5    H    u0 p0 c0 {1,S}
-6    H    u0 p0 c0 {1,S}
-7    H    u0 p0 c0 {2,S}
-8    O0sc u0 p3 c-1 {3,S}
-9    H    u0 p0 c0 {3,S}
-10   H    u0 p0 c0 {4,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([6.12984,8.50638,10.4251,11.9091,13.7229,14.8179,16.1218],'J/(mol*K)'),
-        H298 = (10.6019,'kJ/mol'),
-        S298 = (2.29805,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2148,
+    index = 1760,
     label = "Cs-(Cds-O2d)OsHH",
     group = 
 """
@@ -47348,7 +37887,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 2149,
+    index = 1761,
     label = "Cs-(Cds-Cd)OsHH",
     group = 
 """
@@ -47375,7 +37914,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 2150,
+    index = 1762,
     label = "Cs-(Cds-Cds)OsHH",
     group = 
 """
@@ -47400,7 +37939,7 @@ entry(
 )
 
 entry(
-    index = 2151,
+    index = 1763,
     label = "Cs-(Cds-Cdd)OsHH",
     group = 
 """
@@ -47420,7 +37959,7 @@ entry(
 )
 
 entry(
-    index = 2152,
+    index = 1764,
     label = "Cs-(Cds-Cdd-O2d)OsHH",
     group = 
 """
@@ -47446,7 +37985,7 @@ entry(
 )
 
 entry(
-    index = 2153,
+    index = 1765,
     label = "Cs-(Cds-Cdd-Cd)OsHH",
     group = 
 """
@@ -47467,7 +38006,7 @@ entry(
 )
 
 entry(
-    index = 2154,
+    index = 1766,
     label = "Cs-CtOsHH",
     group = 
 """
@@ -47491,81 +38030,7 @@ entry(
 )
 
 entry(
-    index = 2155,
-    label = "Cs-CtHHO2s-HN5tc_2907",
-    group = 
-"""
-1 * Cs   u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2   O2s  u0 p2 c0 {1,S} {6,S}
-3   Ct   u0 p0 c0 {1,S} {7,T}
-4   H    u0 p0 c0 {1,S}
-5   H    u0 p0 c0 {1,S}
-6   H    u0 p0 c0 {2,S}
-7   N5tc u0 p0 c+1 {3,T}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2156,
-    label = "Cs-CtHHO2s-HN5tc-O0sc_2906",
-    group = 
-"""
-1 * Cs   u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
-2   Ct   u0 p0 c0 {1,S} {4,T}
-3   O2s  u0 p2 c0 {1,S} {7,S}
-4   N5tc u0 p0 c+1 {2,T} {8,S}
-5   H    u0 p0 c0 {1,S}
-6   H    u0 p0 c0 {1,S}
-7   H    u0 p0 c0 {3,S}
-8   O0sc u0 p3 c-1 {4,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-0.715342,1.80441,3.47029,4.54419,5.48423,5.60134,5.29643],'J/(mol*K)'),
-        H298 = (2.41314,'kJ/mol'),
-        S298 = (-31.9848,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2157,
-    label = "Cs-CtHHO2s-HN3t_2459",
-    group = 
-"""
-1 * Cs  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2   O2s u0 p2 c0 {1,S} {6,S}
-3   Ct  u0 p0 c0 {1,S} {7,T}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {1,S}
-6   H   u0 p0 c0 {2,S}
-7   N3t u0 p1 c0 {3,T}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([12.0159,14.9078,17.2486,19.1642,21.9964,23.8933,26.3039],'J/(mol*K)'),
-        H298 = (30.3135,'kJ/mol'),
-        S298 = (39.462,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2158,
+    index = 1767,
     label = "Cs-CbOsHH",
     group = 
 """
@@ -47584,7 +38049,7 @@ entry(
 )
 
 entry(
-    index = 2159,
+    index = 1768,
     label = "Cs-CCCS",
     group = 
 """
@@ -47603,7 +38068,7 @@ entry(
 )
 
 entry(
-    index = 2160,
+    index = 1769,
     label = "Cs-CsCsCsS",
     group = 
 """
@@ -47622,7 +38087,7 @@ entry(
 )
 
 entry(
-    index = 2161,
+    index = 1770,
     label = "Cs-CsCsCsS2",
     group = 
 """
@@ -47646,7 +38111,7 @@ entry(
 )
 
 entry(
-    index = 2162,
+    index = 1771,
     label = "Cs-CsCsCsS4",
     group = 
 """
@@ -47670,7 +38135,7 @@ entry(
 )
 
 entry(
-    index = 2163,
+    index = 1772,
     label = "Cs-CdsCsCsSs",
     group = 
 """
@@ -47689,7 +38154,7 @@ entry(
 )
 
 entry(
-    index = 2164,
+    index = 1773,
     label = "Cs-(Cds-Cd)CsCsSs",
     group = 
 """
@@ -47709,7 +38174,7 @@ entry(
 )
 
 entry(
-    index = 2165,
+    index = 1774,
     label = "Cs-(Cds-Cds)CsCsSs",
     group = 
 """
@@ -47729,7 +38194,7 @@ entry(
 )
 
 entry(
-    index = 2166,
+    index = 1775,
     label = "Cs-(Cds-Cdd)CsCsSs",
     group = 
 """
@@ -47749,7 +38214,7 @@ entry(
 )
 
 entry(
-    index = 2167,
+    index = 1776,
     label = "Cs-(Cds-Cdd-S2d)CsCsSs",
     group = 
 """
@@ -47770,7 +38235,7 @@ entry(
 )
 
 entry(
-    index = 2168,
+    index = 1777,
     label = "Cs-(Cds-Cdd-Cd)CsCsSs",
     group = 
 """
@@ -47791,7 +38256,7 @@ entry(
 )
 
 entry(
-    index = 2169,
+    index = 1778,
     label = "Cs-SsCtCsCs",
     group = 
 """
@@ -47810,7 +38275,7 @@ entry(
 )
 
 entry(
-    index = 2170,
+    index = 1779,
     label = "Cs-CbCsCsSs",
     group = 
 """
@@ -47829,7 +38294,7 @@ entry(
 )
 
 entry(
-    index = 2171,
+    index = 1780,
     label = "Cs-CdsCdsCsSs",
     group = 
 """
@@ -47848,7 +38313,7 @@ entry(
 )
 
 entry(
-    index = 2172,
+    index = 1781,
     label = "Cs-(Cds-Cd)(Cds-Cd)CsSs",
     group = 
 """
@@ -47869,7 +38334,7 @@ entry(
 )
 
 entry(
-    index = 2173,
+    index = 1782,
     label = "Cs-(Cds-Cds)(Cds-Cds)CsSs",
     group = 
 """
@@ -47890,7 +38355,7 @@ entry(
 )
 
 entry(
-    index = 2174,
+    index = 1783,
     label = "Cs-(Cds-Cdd)(Cds-Cds)CsSs",
     group = 
 """
@@ -47911,7 +38376,7 @@ entry(
 )
 
 entry(
-    index = 2175,
+    index = 1784,
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cds)CsSs",
     group = 
 """
@@ -47933,7 +38398,7 @@ entry(
 )
 
 entry(
-    index = 2176,
+    index = 1785,
     label = "Cs-(Cds-Cdd-Cd)(Cds-Cds)CsSs",
     group = 
 """
@@ -47955,7 +38420,7 @@ entry(
 )
 
 entry(
-    index = 2177,
+    index = 1786,
     label = "Cs-(Cds-Cdd)(Cds-Cdd)CsSs",
     group = 
 """
@@ -47976,7 +38441,7 @@ entry(
 )
 
 entry(
-    index = 2178,
+    index = 1787,
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cdd-S2d)CsSs",
     group = 
 """
@@ -47999,7 +38464,7 @@ entry(
 )
 
 entry(
-    index = 2179,
+    index = 1788,
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cdd-Cd)CsSs",
     group = 
 """
@@ -48022,7 +38487,7 @@ entry(
 )
 
 entry(
-    index = 2180,
+    index = 1789,
     label = "Cs-(Cds-Cdd-Cd)(Cds-Cdd-Cd)CsSs",
     group = 
 """
@@ -48045,7 +38510,7 @@ entry(
 )
 
 entry(
-    index = 2181,
+    index = 1790,
     label = "Cs-CtCdsCsSs",
     group = 
 """
@@ -48064,7 +38529,7 @@ entry(
 )
 
 entry(
-    index = 2182,
+    index = 1791,
     label = "Cs-(Cds-Cd)CtCsSs",
     group = 
 """
@@ -48084,7 +38549,7 @@ entry(
 )
 
 entry(
-    index = 2183,
+    index = 1792,
     label = "Cs-(Cds-Cds)CtCsSs",
     group = 
 """
@@ -48104,7 +38569,7 @@ entry(
 )
 
 entry(
-    index = 2184,
+    index = 1793,
     label = "Cs-(Cds-Cdd)CtCsSs",
     group = 
 """
@@ -48124,7 +38589,7 @@ entry(
 )
 
 entry(
-    index = 2185,
+    index = 1794,
     label = "Cs-(Cds-Cdd-S2d)CtCsSs",
     group = 
 """
@@ -48145,7 +38610,7 @@ entry(
 )
 
 entry(
-    index = 2186,
+    index = 1795,
     label = "Cs-(Cds-Cdd-Cd)CtCsSs",
     group = 
 """
@@ -48166,7 +38631,7 @@ entry(
 )
 
 entry(
-    index = 2187,
+    index = 1796,
     label = "Cs-CbCdsCsSs",
     group = 
 """
@@ -48185,7 +38650,7 @@ entry(
 )
 
 entry(
-    index = 2188,
+    index = 1797,
     label = "Cs-(Cds-Cd)CbCsSs",
     group = 
 """
@@ -48205,7 +38670,7 @@ entry(
 )
 
 entry(
-    index = 2189,
+    index = 1798,
     label = "Cs-(Cds-Cds)CbCsSs",
     group = 
 """
@@ -48225,7 +38690,7 @@ entry(
 )
 
 entry(
-    index = 2190,
+    index = 1799,
     label = "Cs-(Cds-Cdd)CbCsSs",
     group = 
 """
@@ -48245,7 +38710,7 @@ entry(
 )
 
 entry(
-    index = 2191,
+    index = 1800,
     label = "Cs-(Cds-Cdd-S2d)CbCsSs",
     group = 
 """
@@ -48266,7 +38731,7 @@ entry(
 )
 
 entry(
-    index = 2192,
+    index = 1801,
     label = "Cs-(Cds-Cdd-Cd)CbCsSs",
     group = 
 """
@@ -48287,7 +38752,7 @@ entry(
 )
 
 entry(
-    index = 2193,
+    index = 1802,
     label = "Cs-CtCtCsSs",
     group = 
 """
@@ -48306,7 +38771,7 @@ entry(
 )
 
 entry(
-    index = 2194,
+    index = 1803,
     label = "Cs-CbCtCsSs",
     group = 
 """
@@ -48325,7 +38790,7 @@ entry(
 )
 
 entry(
-    index = 2195,
+    index = 1804,
     label = "Cs-CbCbCsSs",
     group = 
 """
@@ -48344,7 +38809,7 @@ entry(
 )
 
 entry(
-    index = 2196,
+    index = 1805,
     label = "Cs-CdsCdsCdsSs",
     group = 
 """
@@ -48363,7 +38828,7 @@ entry(
 )
 
 entry(
-    index = 2197,
+    index = 1806,
     label = "Cs-(Cds-Cd)(Cds-Cd)(Cds-Cd)S2s",
     group = 
 """
@@ -48385,7 +38850,7 @@ entry(
 )
 
 entry(
-    index = 2198,
+    index = 1807,
     label = "Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)S2s",
     group = 
 """
@@ -48407,7 +38872,7 @@ entry(
 )
 
 entry(
-    index = 2199,
+    index = 1808,
     label = "Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd)S2s",
     group = 
 """
@@ -48429,7 +38894,7 @@ entry(
 )
 
 entry(
-    index = 2200,
+    index = 1809,
     label = "Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd-S2d)S2s",
     group = 
 """
@@ -48452,7 +38917,7 @@ entry(
 )
 
 entry(
-    index = 2201,
+    index = 1810,
     label = "Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd-Cd)S2s",
     group = 
 """
@@ -48475,7 +38940,7 @@ entry(
 )
 
 entry(
-    index = 2202,
+    index = 1811,
     label = "Cs-(Cds-Cds)(Cds-Cdd)(Cds-Cdd)S2s",
     group = 
 """
@@ -48497,7 +38962,7 @@ entry(
 )
 
 entry(
-    index = 2203,
+    index = 1812,
     label = "Cs-(Cds-Cds)(Cds-Cdd-S2d)(Cds-Cdd-S2d)S2s",
     group = 
 """
@@ -48521,7 +38986,7 @@ entry(
 )
 
 entry(
-    index = 2204,
+    index = 1813,
     label = "Cs-(Cds-Cds)(Cds-Cdd-S2d)(Cds-Cdd-Cd)S2s",
     group = 
 """
@@ -48545,7 +39010,7 @@ entry(
 )
 
 entry(
-    index = 2205,
+    index = 1814,
     label = "Cs-(Cds-Cds)(Cds-Cdd-Cd)(Cds-Cdd-Cd)S2s",
     group = 
 """
@@ -48569,7 +39034,7 @@ entry(
 )
 
 entry(
-    index = 2206,
+    index = 1815,
     label = "Cs-(Cds-Cdd)(Cds-Cdd)(Cds-Cdd)S2s",
     group = 
 """
@@ -48591,7 +39056,7 @@ entry(
 )
 
 entry(
-    index = 2207,
+    index = 1816,
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cdd-S2d)(Cds-Cdd-S2d)S2s",
     group = 
 """
@@ -48616,7 +39081,7 @@ entry(
 )
 
 entry(
-    index = 2208,
+    index = 1817,
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cdd-S2d)(Cds-Cdd-Cd)S2s",
     group = 
 """
@@ -48641,7 +39106,7 @@ entry(
 )
 
 entry(
-    index = 2209,
+    index = 1818,
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cdd-Cd)(Cds-Cdd-Cd)S2s",
     group = 
 """
@@ -48666,7 +39131,7 @@ entry(
 )
 
 entry(
-    index = 2210,
+    index = 1819,
     label = "Cs-(Cds-Cdd-Cd)(Cds-Cdd-Cd)(Cds-Cdd-Cd)S2s",
     group = 
 """
@@ -48691,7 +39156,7 @@ entry(
 )
 
 entry(
-    index = 2211,
+    index = 1820,
     label = "Cs-CtCdsCdsSs",
     group = 
 """
@@ -48710,7 +39175,7 @@ entry(
 )
 
 entry(
-    index = 2212,
+    index = 1821,
     label = "Cs-(Cds-Cd)(Cds-Cd)CtSs",
     group = 
 """
@@ -48731,7 +39196,7 @@ entry(
 )
 
 entry(
-    index = 2213,
+    index = 1822,
     label = "Cs-(Cds-Cds)(Cds-Cds)CtSs",
     group = 
 """
@@ -48752,7 +39217,7 @@ entry(
 )
 
 entry(
-    index = 2214,
+    index = 1823,
     label = "Cs-(Cds-Cdd)(Cds-Cds)CtSs",
     group = 
 """
@@ -48773,7 +39238,7 @@ entry(
 )
 
 entry(
-    index = 2215,
+    index = 1824,
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cds)CtSs",
     group = 
 """
@@ -48795,7 +39260,7 @@ entry(
 )
 
 entry(
-    index = 2216,
+    index = 1825,
     label = "Cs-(Cds-Cdd-Cd)(Cds-Cds)CtSs",
     group = 
 """
@@ -48817,7 +39282,7 @@ entry(
 )
 
 entry(
-    index = 2217,
+    index = 1826,
     label = "Cs-(Cds-Cdd)(Cds-Cdd)CtSs",
     group = 
 """
@@ -48838,7 +39303,7 @@ entry(
 )
 
 entry(
-    index = 2218,
+    index = 1827,
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cdd-S2d)CtSs",
     group = 
 """
@@ -48861,7 +39326,7 @@ entry(
 )
 
 entry(
-    index = 2219,
+    index = 1828,
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cdd-Cd)CtSs",
     group = 
 """
@@ -48884,7 +39349,7 @@ entry(
 )
 
 entry(
-    index = 2220,
+    index = 1829,
     label = "Cs-(Cds-Cdd-Cd)(Cds-Cdd-Cd)CtSs",
     group = 
 """
@@ -48907,7 +39372,7 @@ entry(
 )
 
 entry(
-    index = 2221,
+    index = 1830,
     label = "Cs-CbCdsCdsSs",
     group = 
 """
@@ -48926,7 +39391,7 @@ entry(
 )
 
 entry(
-    index = 2222,
+    index = 1831,
     label = "Cs-(Cds-Cd)(Cds-Cd)CbSs",
     group = 
 """
@@ -48947,7 +39412,7 @@ entry(
 )
 
 entry(
-    index = 2223,
+    index = 1832,
     label = "Cs-(Cds-Cds)(Cds-Cds)CbSs",
     group = 
 """
@@ -48968,7 +39433,7 @@ entry(
 )
 
 entry(
-    index = 2224,
+    index = 1833,
     label = "Cs-(Cds-Cdd)(Cds-Cds)CbSs",
     group = 
 """
@@ -48989,7 +39454,7 @@ entry(
 )
 
 entry(
-    index = 2225,
+    index = 1834,
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cds)CbSs",
     group = 
 """
@@ -49011,7 +39476,7 @@ entry(
 )
 
 entry(
-    index = 2226,
+    index = 1835,
     label = "Cs-(Cds-Cdd-Cd)(Cds-Cds)CbSs",
     group = 
 """
@@ -49033,7 +39498,7 @@ entry(
 )
 
 entry(
-    index = 2227,
+    index = 1836,
     label = "Cs-(Cds-Cdd)(Cds-Cdd)CbSs",
     group = 
 """
@@ -49054,7 +39519,7 @@ entry(
 )
 
 entry(
-    index = 2228,
+    index = 1837,
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cdd-S2d)CbSs",
     group = 
 """
@@ -49077,7 +39542,7 @@ entry(
 )
 
 entry(
-    index = 2229,
+    index = 1838,
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cdd-Cd)CbSs",
     group = 
 """
@@ -49100,7 +39565,7 @@ entry(
 )
 
 entry(
-    index = 2230,
+    index = 1839,
     label = "Cs-(Cds-Cdd-Cd)(Cds-Cdd-Cd)CbSs",
     group = 
 """
@@ -49123,7 +39588,7 @@ entry(
 )
 
 entry(
-    index = 2231,
+    index = 1840,
     label = "Cs-CtCtCdsSs",
     group = 
 """
@@ -49142,7 +39607,7 @@ entry(
 )
 
 entry(
-    index = 2232,
+    index = 1841,
     label = "Cs-(Cds-Cd)CtCtSs",
     group = 
 """
@@ -49162,7 +39627,7 @@ entry(
 )
 
 entry(
-    index = 2233,
+    index = 1842,
     label = "Cs-(Cds-Cds)CtCtSs",
     group = 
 """
@@ -49182,7 +39647,7 @@ entry(
 )
 
 entry(
-    index = 2234,
+    index = 1843,
     label = "Cs-(Cds-Cdd)CtCtSs",
     group = 
 """
@@ -49202,7 +39667,7 @@ entry(
 )
 
 entry(
-    index = 2235,
+    index = 1844,
     label = "Cs-(Cds-Cdd-S2d)CtCtSs",
     group = 
 """
@@ -49223,7 +39688,7 @@ entry(
 )
 
 entry(
-    index = 2236,
+    index = 1845,
     label = "Cs-(Cds-Cdd-Cd)CtCtSs",
     group = 
 """
@@ -49244,7 +39709,7 @@ entry(
 )
 
 entry(
-    index = 2237,
+    index = 1846,
     label = "Cs-CbCtCdsSs",
     group = 
 """
@@ -49263,7 +39728,7 @@ entry(
 )
 
 entry(
-    index = 2238,
+    index = 1847,
     label = "Cs-(Cds-Cd)CbCtSs",
     group = 
 """
@@ -49283,7 +39748,7 @@ entry(
 )
 
 entry(
-    index = 2239,
+    index = 1848,
     label = "Cs-(Cds-Cds)CbCtSs",
     group = 
 """
@@ -49303,7 +39768,7 @@ entry(
 )
 
 entry(
-    index = 2240,
+    index = 1849,
     label = "Cs-(Cds-Cdd)CbCtSs",
     group = 
 """
@@ -49323,7 +39788,7 @@ entry(
 )
 
 entry(
-    index = 2241,
+    index = 1850,
     label = "Cs-(Cds-Cdd-S2d)CbCtSs",
     group = 
 """
@@ -49344,7 +39809,7 @@ entry(
 )
 
 entry(
-    index = 2242,
+    index = 1851,
     label = "Cs-(Cds-Cdd-Cd)CbCtSs",
     group = 
 """
@@ -49365,7 +39830,7 @@ entry(
 )
 
 entry(
-    index = 2243,
+    index = 1852,
     label = "Cs-CbCbCdsSs",
     group = 
 """
@@ -49384,7 +39849,7 @@ entry(
 )
 
 entry(
-    index = 2244,
+    index = 1853,
     label = "Cs-(Cds-Cd)CbCbSs",
     group = 
 """
@@ -49404,7 +39869,7 @@ entry(
 )
 
 entry(
-    index = 2245,
+    index = 1854,
     label = "Cs-(Cds-Cds)CbCbSs",
     group = 
 """
@@ -49424,7 +39889,7 @@ entry(
 )
 
 entry(
-    index = 2246,
+    index = 1855,
     label = "Cs-(Cds-Cdd)CbCbSs",
     group = 
 """
@@ -49444,7 +39909,7 @@ entry(
 )
 
 entry(
-    index = 2247,
+    index = 1856,
     label = "Cs-(Cds-Cdd-S2d)CbCbSs",
     group = 
 """
@@ -49465,7 +39930,7 @@ entry(
 )
 
 entry(
-    index = 2248,
+    index = 1857,
     label = "Cs-(Cds-Cdd-Cd)CbCbSs",
     group = 
 """
@@ -49486,7 +39951,7 @@ entry(
 )
 
 entry(
-    index = 2249,
+    index = 1858,
     label = "Cs-CtCtCtSs",
     group = 
 """
@@ -49505,7 +39970,7 @@ entry(
 )
 
 entry(
-    index = 2250,
+    index = 1859,
     label = "Cs-CbCtCtSs",
     group = 
 """
@@ -49524,7 +39989,7 @@ entry(
 )
 
 entry(
-    index = 2251,
+    index = 1860,
     label = "Cs-CbCbCtSs",
     group = 
 """
@@ -49543,7 +40008,7 @@ entry(
 )
 
 entry(
-    index = 2252,
+    index = 1861,
     label = "Cs-CbCbCbSs",
     group = 
 """
@@ -49562,7 +40027,7 @@ entry(
 )
 
 entry(
-    index = 2253,
+    index = 1862,
     label = "Cs-C=SCbCsSs",
     group = 
 """
@@ -49582,7 +40047,7 @@ entry(
 )
 
 entry(
-    index = 2254,
+    index = 1863,
     label = "Cs-C=SCsCsSs",
     group = 
 """
@@ -49602,7 +40067,7 @@ entry(
 )
 
 entry(
-    index = 2255,
+    index = 1864,
     label = "Cs-C=S(Cds-Cd)(Cds-Cd)S2s",
     group = 
 """
@@ -49624,7 +40089,7 @@ entry(
 )
 
 entry(
-    index = 2256,
+    index = 1865,
     label = "Cs-C=S(Cds-Cdd)(Cds-Cdd)S2s",
     group = 
 """
@@ -49646,7 +40111,7 @@ entry(
 )
 
 entry(
-    index = 2257,
+    index = 1866,
     label = "Cs-C=S(Cds-Cdd-Cd)(Cds-Cdd-Cd)S2s",
     group = 
 """
@@ -49670,7 +40135,7 @@ entry(
 )
 
 entry(
-    index = 2258,
+    index = 1867,
     label = "Cs-C=S(Cds-Cdd-S2d)(Cds-Cdd-Cd)S2s",
     group = 
 """
@@ -49694,7 +40159,7 @@ entry(
 )
 
 entry(
-    index = 2259,
+    index = 1868,
     label = "Cs-C=S(Cds-Cdd-S2d)(Cds-Cdd-S2d)S2s",
     group = 
 """
@@ -49718,7 +40183,7 @@ entry(
 )
 
 entry(
-    index = 2260,
+    index = 1869,
     label = "Cs-C=S(Cds-Cdd)(Cds-Cds)S2s",
     group = 
 """
@@ -49740,7 +40205,7 @@ entry(
 )
 
 entry(
-    index = 2261,
+    index = 1870,
     label = "Cs-C=S(Cds-Cdd-Cd)(Cds-Cds)S2s",
     group = 
 """
@@ -49763,7 +40228,7 @@ entry(
 )
 
 entry(
-    index = 2262,
+    index = 1871,
     label = "Cs-C=S(Cds-Cdd-S2d)(Cds-Cds)S2s",
     group = 
 """
@@ -49786,7 +40251,7 @@ entry(
 )
 
 entry(
-    index = 2263,
+    index = 1872,
     label = "Cs-C=S(Cds-Cds)(Cds-Cds)S2s",
     group = 
 """
@@ -49808,7 +40273,7 @@ entry(
 )
 
 entry(
-    index = 2264,
+    index = 1873,
     label = "Cs-C=S(Cds-Cd)CtSs",
     group = 
 """
@@ -49829,7 +40294,7 @@ entry(
 )
 
 entry(
-    index = 2265,
+    index = 1874,
     label = "Cs-C=S(Cds-Cds)CtSs",
     group = 
 """
@@ -49850,7 +40315,7 @@ entry(
 )
 
 entry(
-    index = 2266,
+    index = 1875,
     label = "Cs-C=S(Cds-Cdd)CtSs",
     group = 
 """
@@ -49871,7 +40336,7 @@ entry(
 )
 
 entry(
-    index = 2267,
+    index = 1876,
     label = "Cs-C=S(Cds-Cdd-S2d)CtSs",
     group = 
 """
@@ -49893,7 +40358,7 @@ entry(
 )
 
 entry(
-    index = 2268,
+    index = 1877,
     label = "Cs-C=S(Cds-Cdd-Cd)CtSs",
     group = 
 """
@@ -49915,7 +40380,7 @@ entry(
 )
 
 entry(
-    index = 2269,
+    index = 1878,
     label = "Cs-C=SCtCsSs",
     group = 
 """
@@ -49935,7 +40400,7 @@ entry(
 )
 
 entry(
-    index = 2270,
+    index = 1879,
     label = "Cs-C=SC=SC=SSs",
     group = 
 """
@@ -49957,7 +40422,7 @@ entry(
 )
 
 entry(
-    index = 2271,
+    index = 1880,
     label = "Cs-C=SC=S(Cds-Cd)S2s",
     group = 
 """
@@ -49979,7 +40444,7 @@ entry(
 )
 
 entry(
-    index = 2272,
+    index = 1881,
     label = "Cs-C=SC=S(Cds-Cds)S2s",
     group = 
 """
@@ -50001,7 +40466,7 @@ entry(
 )
 
 entry(
-    index = 2273,
+    index = 1882,
     label = "Cs-C=SC=S(Cds-Cdd)S2s",
     group = 
 """
@@ -50023,7 +40488,7 @@ entry(
 )
 
 entry(
-    index = 2274,
+    index = 1883,
     label = "Cs-C=SC=S(Cds-Cdd-S2d)S2s",
     group = 
 """
@@ -50046,7 +40511,7 @@ entry(
 )
 
 entry(
-    index = 2275,
+    index = 1884,
     label = "Cs-C=SC=S(Cds-Cdd-Cd)S2s",
     group = 
 """
@@ -50069,7 +40534,7 @@ entry(
 )
 
 entry(
-    index = 2276,
+    index = 1885,
     label = "Cs-C=SCbCbSs",
     group = 
 """
@@ -50089,7 +40554,7 @@ entry(
 )
 
 entry(
-    index = 2277,
+    index = 1886,
     label = "Cs-C=SC=SCbSs",
     group = 
 """
@@ -50110,7 +40575,7 @@ entry(
 )
 
 entry(
-    index = 2278,
+    index = 1887,
     label = "Cs-C=SC=SCsSs",
     group = 
 """
@@ -50131,7 +40596,7 @@ entry(
 )
 
 entry(
-    index = 2279,
+    index = 1888,
     label = "Cs-C=SCtCtSs",
     group = 
 """
@@ -50151,7 +40616,7 @@ entry(
 )
 
 entry(
-    index = 2280,
+    index = 1889,
     label = "Cs-C=S(Cds-Cd)CbSs",
     group = 
 """
@@ -50172,7 +40637,7 @@ entry(
 )
 
 entry(
-    index = 2281,
+    index = 1890,
     label = "Cs-C=S(Cds-Cdd)CbSs",
     group = 
 """
@@ -50193,7 +40658,7 @@ entry(
 )
 
 entry(
-    index = 2282,
+    index = 1891,
     label = "Cs-C=S(Cds-Cdd-Cd)CbSs",
     group = 
 """
@@ -50215,7 +40680,7 @@ entry(
 )
 
 entry(
-    index = 2283,
+    index = 1892,
     label = "Cs-C=S(Cds-Cdd-S2d)CbSs",
     group = 
 """
@@ -50237,7 +40702,7 @@ entry(
 )
 
 entry(
-    index = 2284,
+    index = 1893,
     label = "Cs-C=S(Cds-Cds)CbSs",
     group = 
 """
@@ -50258,7 +40723,7 @@ entry(
 )
 
 entry(
-    index = 2285,
+    index = 1894,
     label = "Cs-C=SCbCtSs",
     group = 
 """
@@ -50278,7 +40743,7 @@ entry(
 )
 
 entry(
-    index = 2286,
+    index = 1895,
     label = "Cs-C=SC=SCtSs",
     group = 
 """
@@ -50299,7 +40764,7 @@ entry(
 )
 
 entry(
-    index = 2287,
+    index = 1896,
     label = "Cs-C=S(Cds-Cd)CsSs",
     group = 
 """
@@ -50320,7 +40785,7 @@ entry(
 )
 
 entry(
-    index = 2288,
+    index = 1897,
     label = "Cs-C=S(Cds-Cds)CsSs",
     group = 
 """
@@ -50341,7 +40806,7 @@ entry(
 )
 
 entry(
-    index = 2289,
+    index = 1898,
     label = "Cs-C=S(Cds-Cdd)CsSs",
     group = 
 """
@@ -50362,7 +40827,7 @@ entry(
 )
 
 entry(
-    index = 2290,
+    index = 1899,
     label = "Cs-C=S(Cds-Cdd-S2d)CsSs",
     group = 
 """
@@ -50384,7 +40849,7 @@ entry(
 )
 
 entry(
-    index = 2291,
+    index = 1900,
     label = "Cs-C=S(Cds-Cdd-Cd)CsSs",
     group = 
 """
@@ -50406,7 +40871,7 @@ entry(
 )
 
 entry(
-    index = 2292,
+    index = 1901,
     label = "Cs-CCSS",
     group = 
 """
@@ -50425,7 +40890,7 @@ entry(
 )
 
 entry(
-    index = 2293,
+    index = 1902,
     label = "Cs-CsCsSS",
     group = 
 """
@@ -50444,7 +40909,7 @@ entry(
 )
 
 entry(
-    index = 2294,
+    index = 1903,
     label = "Cs-CsCsS2S2",
     group = 
 """
@@ -50468,7 +40933,7 @@ entry(
 )
 
 entry(
-    index = 2295,
+    index = 1904,
     label = "Cs-CsCsS6S2",
     group = 
 """
@@ -50492,7 +40957,7 @@ entry(
 )
 
 entry(
-    index = 2296,
+    index = 1905,
     label = "Cs-CdsCsSsSs",
     group = 
 """
@@ -50511,7 +40976,7 @@ entry(
 )
 
 entry(
-    index = 2297,
+    index = 1906,
     label = "Cs-(Cds-Cd)CsSsSs",
     group = 
 """
@@ -50531,7 +40996,7 @@ entry(
 )
 
 entry(
-    index = 2298,
+    index = 1907,
     label = "Cs-(Cds-Cds)CsSsSs",
     group = 
 """
@@ -50551,7 +41016,7 @@ entry(
 )
 
 entry(
-    index = 2299,
+    index = 1908,
     label = "Cs-(Cds-Cdd)CsSsSs",
     group = 
 """
@@ -50571,7 +41036,7 @@ entry(
 )
 
 entry(
-    index = 2300,
+    index = 1909,
     label = "Cs-(Cds-Cdd-S2d)CsSsSs",
     group = 
 """
@@ -50592,7 +41057,7 @@ entry(
 )
 
 entry(
-    index = 2301,
+    index = 1910,
     label = "Cs-(Cds-Cdd-Cd)CsSsSs",
     group = 
 """
@@ -50613,7 +41078,7 @@ entry(
 )
 
 entry(
-    index = 2302,
+    index = 1911,
     label = "Cs-CdsCdsSsSs",
     group = 
 """
@@ -50632,7 +41097,7 @@ entry(
 )
 
 entry(
-    index = 2303,
+    index = 1912,
     label = "Cs-(Cds-Cd)(Cds-Cd)SsSs",
     group = 
 """
@@ -50653,7 +41118,7 @@ entry(
 )
 
 entry(
-    index = 2304,
+    index = 1913,
     label = "Cs-(Cds-Cds)(Cds-Cds)SsSs",
     group = 
 """
@@ -50674,7 +41139,7 @@ entry(
 )
 
 entry(
-    index = 2305,
+    index = 1914,
     label = "Cs-(Cds-Cdd)(Cds-Cds)SsSs",
     group = 
 """
@@ -50695,7 +41160,7 @@ entry(
 )
 
 entry(
-    index = 2306,
+    index = 1915,
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cds)SsSs",
     group = 
 """
@@ -50717,7 +41182,7 @@ entry(
 )
 
 entry(
-    index = 2307,
+    index = 1916,
     label = "Cs-(Cds-Cdd-Cd)(Cds-Cds)SsSs",
     group = 
 """
@@ -50739,7 +41204,7 @@ entry(
 )
 
 entry(
-    index = 2308,
+    index = 1917,
     label = "Cs-(Cds-Cdd)(Cds-Cdd)SsSs",
     group = 
 """
@@ -50760,7 +41225,7 @@ entry(
 )
 
 entry(
-    index = 2309,
+    index = 1918,
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cdd-S2d)SsSs",
     group = 
 """
@@ -50783,7 +41248,7 @@ entry(
 )
 
 entry(
-    index = 2310,
+    index = 1919,
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cdd-Cd)SsSs",
     group = 
 """
@@ -50806,7 +41271,7 @@ entry(
 )
 
 entry(
-    index = 2311,
+    index = 1920,
     label = "Cs-(Cds-Cdd-Cd)(Cds-Cdd-Cd)SsSs",
     group = 
 """
@@ -50829,7 +41294,7 @@ entry(
 )
 
 entry(
-    index = 2312,
+    index = 1921,
     label = "Cs-CtCsSsSs",
     group = 
 """
@@ -50848,7 +41313,7 @@ entry(
 )
 
 entry(
-    index = 2313,
+    index = 1922,
     label = "Cs-CtCdsSsSs",
     group = 
 """
@@ -50867,7 +41332,7 @@ entry(
 )
 
 entry(
-    index = 2314,
+    index = 1923,
     label = "Cs-(Cds-Cd)CtSsSs",
     group = 
 """
@@ -50887,7 +41352,7 @@ entry(
 )
 
 entry(
-    index = 2315,
+    index = 1924,
     label = "Cs-(Cds-Cds)CtSsSs",
     group = 
 """
@@ -50907,7 +41372,7 @@ entry(
 )
 
 entry(
-    index = 2316,
+    index = 1925,
     label = "Cs-(Cds-Cdd)CtSsSs",
     group = 
 """
@@ -50927,7 +41392,7 @@ entry(
 )
 
 entry(
-    index = 2317,
+    index = 1926,
     label = "Cs-(Cds-Cdd-S2d)CtSsSs",
     group = 
 """
@@ -50948,7 +41413,7 @@ entry(
 )
 
 entry(
-    index = 2318,
+    index = 1927,
     label = "Cs-(Cds-Cdd-Cd)CtSsSs",
     group = 
 """
@@ -50969,7 +41434,7 @@ entry(
 )
 
 entry(
-    index = 2319,
+    index = 1928,
     label = "Cs-CtCtSsSs",
     group = 
 """
@@ -50988,7 +41453,7 @@ entry(
 )
 
 entry(
-    index = 2320,
+    index = 1929,
     label = "Cs-CbCsSsSs",
     group = 
 """
@@ -51007,7 +41472,7 @@ entry(
 )
 
 entry(
-    index = 2321,
+    index = 1930,
     label = "Cs-CbCdsSsSs",
     group = 
 """
@@ -51026,7 +41491,7 @@ entry(
 )
 
 entry(
-    index = 2322,
+    index = 1931,
     label = "Cs-(Cds-Cd)CbSsSs",
     group = 
 """
@@ -51046,7 +41511,7 @@ entry(
 )
 
 entry(
-    index = 2323,
+    index = 1932,
     label = "Cs-(Cds-Cds)CbSsSs",
     group = 
 """
@@ -51066,7 +41531,7 @@ entry(
 )
 
 entry(
-    index = 2324,
+    index = 1933,
     label = "Cs-(Cds-Cdd)CbSsSs",
     group = 
 """
@@ -51086,7 +41551,7 @@ entry(
 )
 
 entry(
-    index = 2325,
+    index = 1934,
     label = "Cs-(Cds-Cdd-S2d)CbSsSs",
     group = 
 """
@@ -51107,7 +41572,7 @@ entry(
 )
 
 entry(
-    index = 2326,
+    index = 1935,
     label = "Cs-(Cds-Cdd-Cd)CbSsSs",
     group = 
 """
@@ -51128,7 +41593,7 @@ entry(
 )
 
 entry(
-    index = 2327,
+    index = 1936,
     label = "Cs-CbCtSsSs",
     group = 
 """
@@ -51147,7 +41612,7 @@ entry(
 )
 
 entry(
-    index = 2328,
+    index = 1937,
     label = "Cs-CbCbSsSs",
     group = 
 """
@@ -51166,7 +41631,7 @@ entry(
 )
 
 entry(
-    index = 2329,
+    index = 1938,
     label = "Cs-C=SCsSsSs",
     group = 
 """
@@ -51186,7 +41651,7 @@ entry(
 )
 
 entry(
-    index = 2330,
+    index = 1939,
     label = "Cs-C=S(Cds-Cd)SsSs",
     group = 
 """
@@ -51207,7 +41672,7 @@ entry(
 )
 
 entry(
-    index = 2331,
+    index = 1940,
     label = "Cs-C=S(Cds-Cdd)SsSs",
     group = 
 """
@@ -51228,7 +41693,7 @@ entry(
 )
 
 entry(
-    index = 2332,
+    index = 1941,
     label = "Cs-C=S(Cds-Cdd-Cd)SsSs",
     group = 
 """
@@ -51250,7 +41715,7 @@ entry(
 )
 
 entry(
-    index = 2333,
+    index = 1942,
     label = "Cs-C=S(Cds-Cdd-S2d)SsSs",
     group = 
 """
@@ -51272,7 +41737,7 @@ entry(
 )
 
 entry(
-    index = 2334,
+    index = 1943,
     label = "Cs-C=S(Cds-Cds)SsSs",
     group = 
 """
@@ -51293,7 +41758,7 @@ entry(
 )
 
 entry(
-    index = 2335,
+    index = 1944,
     label = "Cs-C=SC=SSsSs",
     group = 
 """
@@ -51314,7 +41779,7 @@ entry(
 )
 
 entry(
-    index = 2336,
+    index = 1945,
     label = "Cs-C=SCbSsSs",
     group = 
 """
@@ -51334,7 +41799,7 @@ entry(
 )
 
 entry(
-    index = 2337,
+    index = 1946,
     label = "Cs-C=SCtSsSs",
     group = 
 """
@@ -51354,7 +41819,7 @@ entry(
 )
 
 entry(
-    index = 2338,
+    index = 1947,
     label = "Cs-CSsSsSs",
     group = 
 """
@@ -51373,7 +41838,7 @@ entry(
 )
 
 entry(
-    index = 2339,
+    index = 1948,
     label = "Cs-CsSsSsSs",
     group = 
 """
@@ -51397,7 +41862,7 @@ entry(
 )
 
 entry(
-    index = 2340,
+    index = 1949,
     label = "Cs-CdsSsSsSs",
     group = 
 """
@@ -51416,7 +41881,7 @@ entry(
 )
 
 entry(
-    index = 2341,
+    index = 1950,
     label = "Cs-(Cds-Cd)SsSsSs",
     group = 
 """
@@ -51436,7 +41901,7 @@ entry(
 )
 
 entry(
-    index = 2342,
+    index = 1951,
     label = "Cs-(Cds-Cds)SsSsSs",
     group = 
 """
@@ -51456,7 +41921,7 @@ entry(
 )
 
 entry(
-    index = 2343,
+    index = 1952,
     label = "Cs-(Cds-Cdd)SsSsSs",
     group = 
 """
@@ -51476,7 +41941,7 @@ entry(
 )
 
 entry(
-    index = 2344,
+    index = 1953,
     label = "Cs-(Cds-Cdd-S2d)SsSsSs",
     group = 
 """
@@ -51497,7 +41962,7 @@ entry(
 )
 
 entry(
-    index = 2345,
+    index = 1954,
     label = "Cs-(Cds-Cdd-Cd)SsSsSs",
     group = 
 """
@@ -51518,7 +41983,7 @@ entry(
 )
 
 entry(
-    index = 2346,
+    index = 1955,
     label = "Cs-CtSsSsSs",
     group = 
 """
@@ -51537,7 +42002,7 @@ entry(
 )
 
 entry(
-    index = 2347,
+    index = 1956,
     label = "Cs-CbSsSsSs",
     group = 
 """
@@ -51556,7 +42021,7 @@ entry(
 )
 
 entry(
-    index = 2348,
+    index = 1957,
     label = "Cs-C=SSsSsSs",
     group = 
 """
@@ -51576,7 +42041,7 @@ entry(
 )
 
 entry(
-    index = 2349,
+    index = 1958,
     label = "Cs-SsSsSsSs",
     group = 
 """
@@ -51600,7 +42065,7 @@ entry(
 )
 
 entry(
-    index = 2350,
+    index = 1959,
     label = "Cs-CSSH",
     group = 
 """
@@ -51619,7 +42084,7 @@ entry(
 )
 
 entry(
-    index = 2351,
+    index = 1960,
     label = "Cs-CsSSH",
     group = 
 """
@@ -51638,7 +42103,7 @@ entry(
 )
 
 entry(
-    index = 2352,
+    index = 1961,
     label = "Cs-CsS2S2H",
     group = 
 """
@@ -51662,7 +42127,7 @@ entry(
 )
 
 entry(
-    index = 2353,
+    index = 1962,
     label = "Cs-CsS4S2H",
     group = 
 """
@@ -51686,7 +42151,7 @@ entry(
 )
 
 entry(
-    index = 2354,
+    index = 1963,
     label = "Cs-CsS6S2H",
     group = 
 """
@@ -51710,7 +42175,7 @@ entry(
 )
 
 entry(
-    index = 2355,
+    index = 1964,
     label = "Cs-CdsSsSsH",
     group = 
 """
@@ -51729,7 +42194,7 @@ entry(
 )
 
 entry(
-    index = 2356,
+    index = 1965,
     label = "Cs-(Cds-Cd)SsSsH",
     group = 
 """
@@ -51749,7 +42214,7 @@ entry(
 )
 
 entry(
-    index = 2357,
+    index = 1966,
     label = "Cs-(Cds-Cds)SsSsH",
     group = 
 """
@@ -51769,7 +42234,7 @@ entry(
 )
 
 entry(
-    index = 2358,
+    index = 1967,
     label = "Cs-(Cds-Cdd)SsSsH",
     group = 
 """
@@ -51789,7 +42254,7 @@ entry(
 )
 
 entry(
-    index = 2359,
+    index = 1968,
     label = "Cs-(Cds-Cdd-S2d)SsSsH",
     group = 
 """
@@ -51810,7 +42275,7 @@ entry(
 )
 
 entry(
-    index = 2360,
+    index = 1969,
     label = "Cs-(Cds-Cdd-Cd)SsSsH",
     group = 
 """
@@ -51831,7 +42296,7 @@ entry(
 )
 
 entry(
-    index = 2361,
+    index = 1970,
     label = "Cs-CtSsSsH",
     group = 
 """
@@ -51850,7 +42315,7 @@ entry(
 )
 
 entry(
-    index = 2362,
+    index = 1971,
     label = "Cs-CbSsSsH",
     group = 
 """
@@ -51869,7 +42334,7 @@ entry(
 )
 
 entry(
-    index = 2363,
+    index = 1972,
     label = "Cs-C=SSsSsH",
     group = 
 """
@@ -51889,7 +42354,7 @@ entry(
 )
 
 entry(
-    index = 2364,
+    index = 1973,
     label = "Cs-CCSH",
     group = 
 """
@@ -51908,7 +42373,7 @@ entry(
 )
 
 entry(
-    index = 2365,
+    index = 1974,
     label = "Cs-CsCsSH",
     group = 
 """
@@ -51927,7 +42392,7 @@ entry(
 )
 
 entry(
-    index = 2366,
+    index = 1975,
     label = "Cs-CsCsS2H",
     group = 
 """
@@ -51951,7 +42416,7 @@ entry(
 )
 
 entry(
-    index = 2367,
+    index = 1976,
     label = "Cs-CsCsS4H",
     group = 
 """
@@ -51975,7 +42440,7 @@ entry(
 )
 
 entry(
-    index = 2368,
+    index = 1977,
     label = "Cs-CsCsS6H",
     group = 
 """
@@ -51999,7 +42464,7 @@ entry(
 )
 
 entry(
-    index = 2369,
+    index = 1978,
     label = "Cs-CdsCsSH",
     group = 
 """
@@ -52018,7 +42483,7 @@ entry(
 )
 
 entry(
-    index = 2370,
+    index = 1979,
     label = "Cs-CdsCsS4H",
     group = 
 """
@@ -52042,7 +42507,7 @@ entry(
 )
 
 entry(
-    index = 2371,
+    index = 1980,
     label = "Cs-(Cds-Cd)CsSsH",
     group = 
 """
@@ -52062,7 +42527,7 @@ entry(
 )
 
 entry(
-    index = 2372,
+    index = 1981,
     label = "Cs-(Cds-Cds)CsSsH",
     group = 
 """
@@ -52087,7 +42552,7 @@ entry(
 )
 
 entry(
-    index = 2373,
+    index = 1982,
     label = "Cs-(Cds-Cdd)CsSsH",
     group = 
 """
@@ -52107,7 +42572,7 @@ entry(
 )
 
 entry(
-    index = 2374,
+    index = 1983,
     label = "Cs-(Cds-Cdd-S2d)CsSsH",
     group = 
 """
@@ -52128,7 +42593,7 @@ entry(
 )
 
 entry(
-    index = 2375,
+    index = 1984,
     label = "Cs-(Cds-Cdd-Cd)CsSsH",
     group = 
 """
@@ -52149,7 +42614,7 @@ entry(
 )
 
 entry(
-    index = 2376,
+    index = 1985,
     label = "Cs-CdsCdsSsH",
     group = 
 """
@@ -52168,7 +42633,7 @@ entry(
 )
 
 entry(
-    index = 2377,
+    index = 1986,
     label = "Cs-(Cds-Cd)(Cds-Cd)SsH",
     group = 
 """
@@ -52189,7 +42654,7 @@ entry(
 )
 
 entry(
-    index = 2378,
+    index = 1987,
     label = "Cs-(Cds-Cds)(Cds-Cds)SsH",
     group = 
 """
@@ -52210,7 +42675,7 @@ entry(
 )
 
 entry(
-    index = 2379,
+    index = 1988,
     label = "Cs-(Cds-Cdd)(Cds-Cds)SsH",
     group = 
 """
@@ -52231,7 +42696,7 @@ entry(
 )
 
 entry(
-    index = 2380,
+    index = 1989,
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cds)SsH",
     group = 
 """
@@ -52253,7 +42718,7 @@ entry(
 )
 
 entry(
-    index = 2381,
+    index = 1990,
     label = "Cs-(Cds-Cdd-Cd)(Cds-Cds)SsH",
     group = 
 """
@@ -52275,7 +42740,7 @@ entry(
 )
 
 entry(
-    index = 2382,
+    index = 1991,
     label = "Cs-(Cds-Cdd)(Cds-Cdd)SsH",
     group = 
 """
@@ -52296,7 +42761,7 @@ entry(
 )
 
 entry(
-    index = 2383,
+    index = 1992,
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cdd-S2d)SsH",
     group = 
 """
@@ -52319,7 +42784,7 @@ entry(
 )
 
 entry(
-    index = 2384,
+    index = 1993,
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cdd-Cd)SsH",
     group = 
 """
@@ -52342,7 +42807,7 @@ entry(
 )
 
 entry(
-    index = 2385,
+    index = 1994,
     label = "Cs-(Cds-Cdd-Cd)(Cds-Cdd-Cd)SsH",
     group = 
 """
@@ -52365,7 +42830,7 @@ entry(
 )
 
 entry(
-    index = 2386,
+    index = 1995,
     label = "Cs-CtCsSsH",
     group = 
 """
@@ -52389,7 +42854,7 @@ entry(
 )
 
 entry(
-    index = 2387,
+    index = 1996,
     label = "Cs-CtCdsSsH",
     group = 
 """
@@ -52408,7 +42873,7 @@ entry(
 )
 
 entry(
-    index = 2388,
+    index = 1997,
     label = "Cs-(Cds-Cd)CtSsH",
     group = 
 """
@@ -52428,7 +42893,7 @@ entry(
 )
 
 entry(
-    index = 2389,
+    index = 1998,
     label = "Cs-(Cds-Cds)CtSsH",
     group = 
 """
@@ -52448,7 +42913,7 @@ entry(
 )
 
 entry(
-    index = 2390,
+    index = 1999,
     label = "Cs-(Cds-Cdd)CtSsH",
     group = 
 """
@@ -52468,7 +42933,7 @@ entry(
 )
 
 entry(
-    index = 2391,
+    index = 2000,
     label = "Cs-(Cds-Cdd-S2d)CtSsH",
     group = 
 """
@@ -52489,7 +42954,7 @@ entry(
 )
 
 entry(
-    index = 2392,
+    index = 2001,
     label = "Cs-(Cds-Cdd-Cd)CtSsH",
     group = 
 """
@@ -52510,7 +42975,7 @@ entry(
 )
 
 entry(
-    index = 2393,
+    index = 2002,
     label = "Cs-CtCtSsH",
     group = 
 """
@@ -52529,7 +42994,7 @@ entry(
 )
 
 entry(
-    index = 2394,
+    index = 2003,
     label = "Cs-CbCsSsH",
     group = 
 """
@@ -52553,7 +43018,7 @@ entry(
 )
 
 entry(
-    index = 2395,
+    index = 2004,
     label = "Cs-CbCdsSsH",
     group = 
 """
@@ -52572,7 +43037,7 @@ entry(
 )
 
 entry(
-    index = 2396,
+    index = 2005,
     label = "Cs-(Cds-Cd)CbSsH",
     group = 
 """
@@ -52592,7 +43057,7 @@ entry(
 )
 
 entry(
-    index = 2397,
+    index = 2006,
     label = "Cs-(Cds-Cds)CbSsH",
     group = 
 """
@@ -52612,7 +43077,7 @@ entry(
 )
 
 entry(
-    index = 2398,
+    index = 2007,
     label = "Cs-(Cds-Cdd)CbSsH",
     group = 
 """
@@ -52632,7 +43097,7 @@ entry(
 )
 
 entry(
-    index = 2399,
+    index = 2008,
     label = "Cs-(Cds-Cdd-S2d)CbSsH",
     group = 
 """
@@ -52653,7 +43118,7 @@ entry(
 )
 
 entry(
-    index = 2400,
+    index = 2009,
     label = "Cs-(Cds-Cdd-Cd)CbSsH",
     group = 
 """
@@ -52674,7 +43139,7 @@ entry(
 )
 
 entry(
-    index = 2401,
+    index = 2010,
     label = "Cs-CbCtSsH",
     group = 
 """
@@ -52693,7 +43158,7 @@ entry(
 )
 
 entry(
-    index = 2402,
+    index = 2011,
     label = "Cs-CbCbSsH",
     group = 
 """
@@ -52712,7 +43177,7 @@ entry(
 )
 
 entry(
-    index = 2403,
+    index = 2012,
     label = "Cs-C=SCbSsH",
     group = 
 """
@@ -52732,7 +43197,7 @@ entry(
 )
 
 entry(
-    index = 2404,
+    index = 2013,
     label = "Cs-C=SC=SSsH",
     group = 
 """
@@ -52753,7 +43218,7 @@ entry(
 )
 
 entry(
-    index = 2405,
+    index = 2014,
     label = "Cs-C=SCsSsH",
     group = 
 """
@@ -52778,7 +43243,7 @@ entry(
 )
 
 entry(
-    index = 2406,
+    index = 2015,
     label = "Cs-C=SCtSsH",
     group = 
 """
@@ -52798,7 +43263,7 @@ entry(
 )
 
 entry(
-    index = 2407,
+    index = 2016,
     label = "Cs-C=S(Cds-Cd)SsH",
     group = 
 """
@@ -52819,7 +43284,7 @@ entry(
 )
 
 entry(
-    index = 2408,
+    index = 2017,
     label = "Cs-C=S(Cds-Cdd)SsH",
     group = 
 """
@@ -52840,7 +43305,7 @@ entry(
 )
 
 entry(
-    index = 2409,
+    index = 2018,
     label = "Cs-C=S(Cds-Cdd-Cd)SsH",
     group = 
 """
@@ -52862,7 +43327,7 @@ entry(
 )
 
 entry(
-    index = 2410,
+    index = 2019,
     label = "Cs-C=S(Cds-Cdd-S2d)SsH",
     group = 
 """
@@ -52884,7 +43349,7 @@ entry(
 )
 
 entry(
-    index = 2411,
+    index = 2020,
     label = "Cs-C=S(Cds-Cds)SsH",
     group = 
 """
@@ -52905,7 +43370,7 @@ entry(
 )
 
 entry(
-    index = 2412,
+    index = 2021,
     label = "Cs-CSHH",
     group = 
 """
@@ -52924,7 +43389,7 @@ entry(
 )
 
 entry(
-    index = 2413,
+    index = 2022,
     label = "Cs-CsSHH",
     group = 
 """
@@ -52943,7 +43408,7 @@ entry(
 )
 
 entry(
-    index = 2414,
+    index = 2023,
     label = "Cs-CsS2HH",
     group = 
 """
@@ -52967,7 +43432,7 @@ entry(
 )
 
 entry(
-    index = 2415,
+    index = 2024,
     label = "Cs-CsS4HH",
     group = 
 """
@@ -52991,7 +43456,7 @@ entry(
 )
 
 entry(
-    index = 2416,
+    index = 2025,
     label = "Cs-CsS6HH",
     group = 
 """
@@ -53015,7 +43480,7 @@ entry(
 )
 
 entry(
-    index = 2417,
+    index = 2026,
     label = "Cs-CdsSsHH",
     group = 
 """
@@ -53039,7 +43504,7 @@ entry(
 )
 
 entry(
-    index = 2418,
+    index = 2027,
     label = "Cs-(Cds-Cd)SsHH",
     group = 
 """
@@ -53059,7 +43524,7 @@ entry(
 )
 
 entry(
-    index = 2419,
+    index = 2028,
     label = "Cs-(Cds-Cds)SsHH",
     group = 
 """
@@ -53079,7 +43544,7 @@ entry(
 )
 
 entry(
-    index = 2420,
+    index = 2029,
     label = "Cs-(Cds-Cdd)SsHH",
     group = 
 """
@@ -53099,7 +43564,7 @@ entry(
 )
 
 entry(
-    index = 2421,
+    index = 2030,
     label = "Cs-(Cds-Cdd-S2d)SsHH",
     group = 
 """
@@ -53120,7 +43585,7 @@ entry(
 )
 
 entry(
-    index = 2422,
+    index = 2031,
     label = "Cs-(Cds-Cdd-Cd)SsHH",
     group = 
 """
@@ -53141,7 +43606,7 @@ entry(
 )
 
 entry(
-    index = 2423,
+    index = 2032,
     label = "Cs-CtSsHH",
     group = 
 """
@@ -53165,7 +43630,7 @@ entry(
 )
 
 entry(
-    index = 2424,
+    index = 2033,
     label = "Cs-CbSsHH",
     group = 
 """
@@ -53189,7 +43654,7 @@ entry(
 )
 
 entry(
-    index = 2425,
+    index = 2034,
     label = "Cs-C=SSsHH",
     group = 
 """
@@ -53214,7 +43679,7 @@ entry(
 )
 
 entry(
-    index = 2426,
+    index = 2035,
     label = "Cs-ClClHH",
     group = 
 """
@@ -53238,7 +43703,7 @@ Thermochemical Kinetics 2nd Ed., by Sidney Benson
 )
 
 entry(
-    index = 2427,
+    index = 2036,
     label = "Cs-ClClClH",
     group = 
 """
@@ -53262,7 +43727,7 @@ Thermochemical Kinetics 2nd Ed., by Sidney Benson
 )
 
 entry(
-    index = 2428,
+    index = 2037,
     label = "Cs-ClClClCl",
     group = 
 """
@@ -53286,7 +43751,7 @@ Thermochemical Kinetics 2nd Ed., by Sidney Benson
 )
 
 entry(
-    index = 2429,
+    index = 2038,
     label = "Cs-CClHH",
     group = 
 """
@@ -53312,7 +43777,7 @@ JPCA, 1998, 102, 4551-4558
 )
 
 entry(
-    index = 2430,
+    index = 2039,
     label = "Cs-CIHH",
     group = 
 """
@@ -53337,7 +43802,7 @@ Cpdata at 1500K = Cpdata at 1000K + 1.4
 )
 
 entry(
-    index = 2431,
+    index = 2040,
     label = "Cs-CClClH",
     group = 
 """
@@ -53363,7 +43828,7 @@ JPCA, 1998, 102, 4551-4558
 )
 
 entry(
-    index = 2432,
+    index = 2041,
     label = "Cs-CIIH",
     group = 
 """
@@ -53388,7 +43853,7 @@ Cpdata from 600 to 1500K estimated (base on entry 2088)
 )
 
 entry(
-    index = 2433,
+    index = 2042,
     label = "Cs-CClClCl",
     group = 
 """
@@ -53414,7 +43879,7 @@ JPCA, 1998, 102, 4551-4558
 )
 
 entry(
-    index = 2434,
+    index = 2043,
     label = "Cs-CCClH",
     group = 
 """
@@ -53440,7 +43905,7 @@ JPCA, 1998, 102, 4551-4558
 )
 
 entry(
-    index = 2435,
+    index = 2044,
     label = "Cs-CCIH",
     group = 
 """
@@ -53465,7 +43930,7 @@ Cpdata at 1500K = Cpdata at 1000K + 0.6
 )
 
 entry(
-    index = 2436,
+    index = 2045,
     label = "Cs-CCClCl",
     group = 
 """
@@ -53491,7 +43956,7 @@ JPCA, 1998, 102, 4551-4558
 )
 
 entry(
-    index = 2437,
+    index = 2046,
     label = "Cs-CCCCl",
     group = 
 """
@@ -53517,7 +43982,7 @@ JPCA, 1998, 102, 4551-4558
 )
 
 entry(
-    index = 2438,
+    index = 2047,
     label = "Cs-CCCI",
     group = 
 """
@@ -53542,7 +44007,7 @@ Cpdata from 400 to 1500K estimated (base on entry 2092)
 )
 
 entry(
-    index = 2439,
+    index = 2048,
     label = "O",
     group = 
 """
@@ -53557,20 +44022,15 @@ entry(
 )
 
 entry(
-    index = 2440,
-    label = "O0sc-N3s_3255",
+    index = 2049,
+    label = "O0sc-(N3s)",
     group = 
 """
 1   N3s  u0 p1 c0 {2,S}
 2 * O0sc u0 p3 c-1 {1,S}
 """,
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([12.1026,14.4968,16.62,18.3997,21.2027,23.2347,26.1146],'J/(mol*K)'),
-        H298 = (13.2406,'kJ/mol'),
-        S298 = (43.0464,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
+    thermo = None,
+    shortDesc = """""",
     longDesc = 
 """
 
@@ -53578,21 +44038,15 @@ entry(
 )
 
 entry(
-    index = 2441,
-    label = "O0sc-N5tc-Ct_2636",
+    index = 2050,
+    label = "O0sc-(N5dc)",
     group = 
 """
-1   N5tc u0 p0 c+1 {2,S} {3,T}
-2 * O0sc u0 p3 c-1 {1,S}
-3   Ct   u0 p0 c0 {1,T}
+1   [N5sc,N5dc] u0 p0 c+1 {2,S}
+2 * O0sc        u0 p3 c-1 {1,S}
 """,
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([12.3777,12.6478,13.008,13.2921,13.6231,13.9109,14.398],'J/(mol*K)'),
-        H298 = (-10.9063,'kJ/mol'),
-        S298 = (76.5336,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
+    thermo = None,
+    shortDesc = """""",
     longDesc = 
 """
 
@@ -53600,145 +44054,7 @@ entry(
 )
 
 entry(
-    index = 2442,
-    label = "O0sc-N5tc-Ct-Cd_3088",
-    group = 
-"""
-1   N5tc u0 p0 c+1 {2,T} {3,S}
-2   Ct   u0 p0 c0 {1,T} {4,S}
-3 * O0sc u0 p3 c-1 {1,S}
-4   Cd   u0 p0 c0 {2,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([3.15267,3.57983,3.87794,4.13955,4.43087,4.47671,4.21886],'J/(mol*K)'),
-        H298 = (24.4497,'kJ/mol'),
-        S298 = (0.475104,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2443,
-    label = "O0sc-N5tc-Ct-N3s_2893",
-    group = 
-"""
-1   N5tc u0 p0 c+1 {2,T} {3,S}
-2   Ct   u0 p0 c0 {1,T} {4,S}
-3 * O0sc u0 p3 c-1 {1,S}
-4   N3s  u0 p1 c0 {2,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([9.73605,10.8743,11.7375,12.4506,13.6245,14.7403,16.9699],'J/(mol*K)'),
-        H298 = (23.1757,'kJ/mol'),
-        S298 = (39.8869,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2444,
-    label = "O0sc-N5tc-Ct-O2s_2851",
-    group = 
-"""
-1   N5tc u0 p0 c+1 {2,T} {3,S}
-2   Ct   u0 p0 c0 {1,T} {4,S}
-3 * O0sc u0 p3 c-1 {1,S}
-4   O2s  u0 p2 c0 {2,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([3.76867,3.04361,2.87317,2.91058,3.61423,4.26979,5.29337],'J/(mol*K)'),
-        H298 = (34.6413,'kJ/mol'),
-        S298 = (19.1421,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2445,
-    label = "O0sc-N5tc-Ct-Cs_2790",
-    group = 
-"""
-1   N5tc u0 p0 c+1 {2,T} {3,S}
-2   Ct   u0 p0 c0 {1,T} {4,S}
-3 * O0sc u0 p3 c-1 {1,S}
-4   Cs   u0 p0 c0 {2,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([6.93681,9.31994,11.5058,13.3851,16.2646,18.2267,21.2523],'J/(mol*K)'),
-        H298 = (-8.86716,'kJ/mol'),
-        S298 = (9.95532,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2446,
-    label = "O0sc-N5tc-Ct-N3d_2710",
-    group = 
-"""
-1   N5tc u0 p0 c+1 {2,T} {3,S}
-2   Ct   u0 p0 c0 {1,T} {4,S}
-3 * O0sc u0 p3 c-1 {1,S}
-4   N3d  u0 p1 c0 {2,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-0.967057,-1.62035,-2.21147,-2.80365,-3.99529,-4.94433,-6.55248],'J/(mol*K)'),
-        H298 = (56.0953,'kJ/mol'),
-        S298 = (4.28149,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2447,
-    label = "O0sc-N5tc-Ct-Ct_2635",
-    group = 
-"""
-1   N5tc u0 p0 c+1 {2,T} {3,S}
-2   Ct   u0 p0 c0 {1,T} {4,S}
-3 * O0sc u0 p3 c-1 {1,S}
-4   Ct   u0 p0 c0 {2,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([5.53183,5.81946,5.6314,5.58525,5.40808,5.19077,4.51843],'J/(mol*K)'),
-        H298 = (37.2897,'kJ/mol'),
-        S298 = (16.1638,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2448,
+    index = 2051,
     label = "Oa(S)",
     group = 
 """
@@ -53760,365 +44076,7 @@ level of theory frequency: B3LYP/6-311++g(d,p)//B3LYP/6-311++g(d,p)
 )
 
 entry(
-    index = 2449,
-    label = "O0sc-N5dc",
-    group = 
-"""
-1 * O0sc u0 {2,S}
-2   N5dc u0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([18.3166,21.5675,24.2859,26.528,30.0237,32.4479,35.7939],'J/(mol*K)'),
-        H298 = (-11.9653,'kJ/mol'),
-        S298 = (102.065,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2450,
-    label = "O0sc-N5dc-Cs_2929",
-    group = 
-"""
-1   N5dc u0 p0 c+1 {2,S} {3,S}
-2 * O0sc u0 p3 c-1 {1,S}
-3   Cs   u0 p0 c0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([20.8943,25.539,29.6266,33.1897,38.9773,43.2906,49.6181],'J/(mol*K)'),
-        H298 = (8.70561,'kJ/mol'),
-        S298 = (85.1139,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2451,
-    label = "O0sc-N5dc-N3d_2660",
-    group = 
-"""
-1   N5dc u0 p0 c+1 {2,S} {3,D}
-2 * O0sc u0 p3 c-1 {1,S}
-3   N3d  u0 p1 c0 {1,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([8.31716,10.4901,12.0579,13.21,15.0454,16.3607,18.2104],'J/(mol*K)'),
-        H298 = (24.1919,'kJ/mol'),
-        S298 = (36.2394,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2452,
-    label = "O0sc-N5dc-HN3d_2357",
-    group = 
-"""
-1   N5dc u0 p0 c+1 {2,S} {3,D} {4,S}
-2 * O0sc u0 p3 c-1 {1,S}
-3   N3d  u0 p1 c0 {1,D}
-4   H    u0 p0 c0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([5.46078,5.90108,6.69369,7.49974,8.63921,9.48308,10.7781],'J/(mol*K)'),
-        H298 = (29.03,'kJ/mol'),
-        S298 = (50.2969,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2453,
-    label = "O0sc-N5dc-HN3d-N3s_2356",
-    group = 
-"""
-1   N5dc u0 p0 c+1 {2,D} {3,S} {4,S}
-2   N3d  u0 p1 c0 {1,D} {5,S}
-3 * O0sc u0 p3 c-1 {1,S}
-4   H    u0 p0 c0 {1,S}
-5   N3s  u0 p1 c0 {2,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2454,
-    label = "O0sc-N5dc-N3d-N3s_3274",
-    group = 
-"""
-1   N5dc u0 p0 c+1 {2,D} {3,S}
-2   N3d  u0 p1 c0 {1,D} {4,S}
-3 * O0sc u0 p3 c-1 {1,S}
-4   N3s  u0 p1 c0 {2,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([6.76267,8.20697,9.13861,9.78261,10.7049,11.4201,12.3546],'J/(mol*K)'),
-        H298 = (45.5024,'kJ/mol'),
-        S298 = (25.3157,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2455,
-    label = "O0sc-N5dc-N3d-Cs_3031",
-    group = 
-"""
-1   N5dc u0 p0 c+1 {2,D} {3,S}
-2   N3d  u0 p1 c0 {1,D} {4,S}
-3 * O0sc u0 p3 c-1 {1,S}
-4   Cs   u0 p0 c0 {2,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([11.3329,14.0072,16.626,19.0512,23.0246,25.8533,30.1147],'J/(mol*K)'),
-        H298 = (-20.571,'kJ/mol'),
-        S298 = (33.433,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2456,
-    label = "O0sc-N5dc-Cd_2517",
-    group = 
-"""
-1   N5dc u0 p0 c+1 {2,S} {3,D}
-2 * O0sc u0 p3 c-1 {1,S}
-3   Cd   u0 p0 c0 {1,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([25.0918,29.8546,34.0143,37.5613,43.2181,47.4766,53.8253],'J/(mol*K)'),
-        H298 = (52.0326,'kJ/mol'),
-        S298 = (115.666,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2457,
-    label = "O0sc-N5dc-Cd-N3d_3136",
-    group = 
-"""
-1   N5dc u0 p0 c+1 {2,D} {3,S}
-2   Cd   u0 p0 c0 {1,D} {4,S}
-3 * O0sc u0 p3 c-1 {1,S}
-4   N3d  u0 p1 c0 {2,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([18.7516,22.7791,26.0927,28.9105,33.3604,36.4995,40.7321],'J/(mol*K)'),
-        H298 = (44.7032,'kJ/mol'),
-        S298 = (66.902,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2458,
-    label = "O0sc-N5dc-Cd-N3s_2977",
-    group = 
-"""
-1   N5dc u0 p0 c+1 {2,D} {3,S}
-2   Cd   u0 p0 c0 {1,D} {4,S}
-3 * O0sc u0 p3 c-1 {1,S}
-4   N3s  u0 p1 c0 {2,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([31.6081,38.6396,44.4823,49.3949,57.2068,62.7908,70.5685],'J/(mol*K)'),
-        H298 = (21.1889,'kJ/mol'),
-        S298 = (90.2845,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2459,
-    label = "O0sc-N5dc-Cd-O2s_2884",
-    group = 
-"""
-1   N5dc u0 p0 c+1 {2,D} {3,S}
-2   Cd   u0 p0 c0 {1,D} {4,S}
-3 * O0sc u0 p3 c-1 {1,S}
-4   O2s  u0 p2 c0 {2,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([23.6863,28.6852,33.8425,38.6346,46.667,52.4045,60.5789],'J/(mol*K)'),
-        H298 = (27.8649,'kJ/mol'),
-        S298 = (100.039,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2460,
-    label = "O0sc-N5dc-Cd-Cs_2827",
-    group = 
-"""
-1   N5dc u0 p0 c+1 {2,D} {3,S}
-2   Cd   u0 p0 c0 {1,D} {4,S}
-3 * O0sc u0 p3 c-1 {1,S}
-4   Cs   u0 p0 c0 {2,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([27.9345,34.4501,40.5548,46.1061,54.92,61.0497,70.1748],'J/(mol*K)'),
-        H298 = (17.6943,'kJ/mol'),
-        S298 = (92.9429,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2461,
-    label = "O0sc-N5dc-Cdd_2507",
-    group = 
-"""
-1   N5dc u0 p0 c+1 {2,S} {3,D}
-2 * O0sc u0 p3 c-1 {1,S}
-3   Cdd  u0 p0 c0 {1,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([14.9954,17.4055,19.1657,20.4611,22.2822,23.6072,25.4358],'J/(mol*K)'),
-        H298 = (45.2198,'kJ/mol'),
-        S298 = (67.5085,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2462,
-    label = "O0sc-N5dc-Cdd-N3d_3048",
-    group = 
-"""
-1   N5dc u0 p0 c+1 {2,D} {3,S}
-2   Cdd  u0 p0 c0 {1,D} {4,D}
-3 * O0sc u0 p3 c-1 {1,S}
-4   N3d  u0 p1 c0 {2,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([24.1543,27.9873,31.2298,34.0153,38.4064,41.5395,45.8977],'J/(mol*K)'),
-        H298 = (106.096,'kJ/mol'),
-        S298 = (94.7309,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2463,
-    label = "O0sc-N5dc-Cdd-Cdd_2862",
-    group = 
-"""
-1   N5dc u0 p0 c+1 {2,D} {3,S}
-2   Cdd  u0 p0 c0 {1,D} {4,D}
-3 * O0sc u0 p3 c-1 {1,S}
-4   Cdd  u0 p0 c0 {2,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([17.1824,20.2466,22.7804,24.9024,28.2125,30.5326,33.6413],'J/(mol*K)'),
-        H298 = (75.6431,'kJ/mol'),
-        S298 = (67.6771,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2464,
-    label = "O0sc-N5dc-Cdd-Cd_2783",
-    group = 
-"""
-1   N5dc u0 p0 c+1 {2,D} {3,S}
-2   Cdd  u0 p0 c0 {1,D} {4,D}
-3 * O0sc u0 p3 c-1 {1,S}
-4   Cd   u0 p0 c0 {2,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([17.0292,19.9734,23.0487,25.8257,30.0133,32.9185,37.3656],'J/(mol*K)'),
-        H298 = (99.1811,'kJ/mol'),
-        S298 = (68.0196,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2465,
+    index = 2052,
     label = "O2d",
     group = 
 """
@@ -54133,8 +44091,8 @@ entry(
 )
 
 entry(
-    index = 2466,
-    label = "O2d-N5ddc_2840",
+    index = 2053,
+    label = "O2d-(N5ddc)",
     group = 
 """
 1   N5ddc u0 p0 c+1 {2,D}
@@ -54149,96 +44107,7 @@ entry(
 )
 
 entry(
-    index = 2467,
-    label = "O2d-N5ddc-N1dc_2839",
-    group = 
-"""
-1   N5ddc u0 p0 c+1 {2,D} {3,D}
-2 * O2d   u0 p2 c0 {1,D}
-3   N1dc  u0 p2 c-1 {1,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([12.6561,14.031,15.0746,15.9349,17.2617,18.1738,19.3504],'J/(mol*K)'),
-        H298 = (26.9643,'kJ/mol'),
-        S298 = (73.1465,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2468,
-    label = "O2d-Cdd-N3d_2595",
-    group = 
-"""
-1   Cdd u0 p0 c0 {2,D} {3,D}
-2 * O2d u0 p2 c0 {1,D}
-3   N3d u0 p1 c0 {1,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([15.1509,17.238,19.1598,20.8216,23.4834,25.4333,28.2982],'J/(mol*K)'),
-        H298 = (-58.7365,'kJ/mol'),
-        S298 = (75.5886,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2469,
-    label = "O2d-Cdd-N3d-N3s_2597",
-    group = 
-"""
-1   Cdd u0 p0 c0 {2,D} {3,D}
-2   N3d u0 p1 c0 {1,D} {4,S}
-3 * O2d u0 p2 c0 {1,D}
-4   N3s u0 p1 c0 {2,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([8.63075,9.30859,9.92189,10.4443,11.2846,11.9105,12.7734],'J/(mol*K)'),
-        H298 = (19.1416,'kJ/mol'),
-        S298 = (43.42,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2470,
-    label = "O2d-Cdd-N5dc_2448",
-    group = 
-"""
-1   Cdd  u0 p0 c0 {2,D} {3,D}
-2 * O2d  u0 p2 c0 {1,D}
-3   N5dc u0 p0 c+1 {1,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([9.01172,9.3092,9.17206,9.00811,8.7712,8.60826,8.377],'J/(mol*K)'),
-        H298 = (-26.0181,'kJ/mol'),
-        S298 = (47.6672,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2471,
+    index = 2054,
     label = "O2d-Cd",
     group = 
 """
@@ -54259,51 +44128,7 @@ entry(
 )
 
 entry(
-    index = 2472,
-    label = "O2d-CO-N3d_3197",
-    group = 
-"""
-1   CO  u0 p0 c0 {2,D} {3,S}
-2 * O2d u0 p2 c0 {1,D}
-3   N3d u0 p1 c0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([29.885,34.5166,38.8207,42.6557,48.6787,52.7526,58.76],'J/(mol*K)'),
-        H298 = (12.6068,'kJ/mol'),
-        S298 = (139.004,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2473,
-    label = "O2d-CO-N3s_3011",
-    group = 
-"""
-1   CO  u0 p0 c0 {2,D} {3,S}
-2 * O2d u0 p2 c0 {1,D}
-3   N3s u0 p1 c0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([25.083,29.3652,32.8166,35.6751,40.4333,43.7749,44.0277],'J/(mol*K)'),
-        H298 = (-75.1383,'kJ/mol'),
-        S298 = (163.297,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2474,
+    index = 2055,
     label = "O2d-O2d",
     group = 
 """
@@ -54324,187 +44149,19 @@ entry(
 )
 
 entry(
-    index = 2475,
+    index = 2056,
     label = "O2d-N3d",
     group = 
 """
 1 * O2d u0 {2,D}
 2   N3d u0 {1,D}
 """,
-    thermo = None,
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2476,
-    label = "O2d-N3d-CO_3198",
-    group = 
-"""
-1   N3d u0 p1 c0 {2,D} {3,S}
-2 * O2d u0 p2 c0 {1,D}
-3   CO  u0 p0 c0 {1,S}
-""",
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([9.25317,10.109,10.7964,11.3457,12.1318,12.6332,13.2847],'J/(mol*K)'),
-        H298 = (-1.69554,'kJ/mol'),
-        S298 = (46.0182,'J/(mol*K)'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (0,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
     ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2477,
-    label = "O2d-N3d-H_2716",
-    group = 
-"""
-1   N3d u0 p1 c0 {2,D} {3,S}
-2 * O2d u0 p2 c0 {1,D}
-3   H   u0 p0 c0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([12.1177,11.7237,11.8032,12.2216,13.3837,14.4436,16.3749],'J/(mol*K)'),
-        H298 = (39.6365,'kJ/mol'),
-        S298 = (95.3288,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2478,
-    label = "O2d-N3d-Ct_2712",
-    group = 
-"""
-1   N3d u0 p1 c0 {2,D} {3,S}
-2 * O2d u0 p2 c0 {1,D}
-3   Ct  u0 p0 c0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([10.8519,12.3884,13.4391,14.3372,15.7884,16.8399,18.3753],'J/(mol*K)'),
-        H298 = (58.2045,'kJ/mol'),
-        S298 = (47.1407,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2479,
-    label = "O2d-N3d-Ct-N3t_2946",
-    group = 
-"""
-1   N3d u0 p1 c0 {2,S} {3,D}
-2   Ct  u0 p0 c0 {1,S} {4,T}
-3 * O2d u0 p2 c0 {1,D}
-4   N3t u0 p1 c0 {2,T}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([3.55951,2.83906,2.23867,1.72551,0.776022,0.00274787,-1.39833],'J/(mol*K)'),
-        H298 = (60.5079,'kJ/mol'),
-        S298 = (20.3879,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2480,
-    label = "O2d-N3d-Ct-N5tc_2711",
-    group = 
-"""
-1   N3d  u0 p1 c0 {2,S} {3,D}
-2   Ct   u0 p0 c0 {1,S} {4,T}
-3 * O2d  u0 p2 c0 {1,D}
-4   N5tc u0 p0 c+1 {2,T}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-0.402093,-0.936599,-1.42612,-1.92486,-2.83336,-3.57846,-4.85073],'J/(mol*K)'),
-        H298 = (-0.152257,'kJ/mol'),
-        S298 = (6.54291,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2481,
-    label = "O2d-N3d-N3s_2697",
-    group = 
-"""
-1   N3d u0 p1 c0 {2,D} {3,S}
-2 * O2d u0 p2 c0 {1,D}
-3   N3s u0 p1 c0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([17.7894,20.5181,22.9065,24.8791,27.9727,30.2453,33.5926],'J/(mol*K)'),
-        H298 = (23.4602,'kJ/mol'),
-        S298 = (91.4265,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2482,
-    label = "O2d-N3d-Cd_2602",
-    group = 
-"""
-1   N3d u0 p1 c0 {2,D} {3,S}
-2 * O2d u0 p2 c0 {1,D}
-3   Cd  u0 p0 c0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([9.59888,11.7859,13.5076,14.8238,16.5647,17.6865,19.0423],'J/(mol*K)'),
-        H298 = (26.3507,'kJ/mol'),
-        S298 = (29.9387,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2483,
-    label = "O2d-N3d-N3d_2566",
-    group = 
-"""
-1   N3d u0 p1 c0 {2,D} {3,S}
-2 * O2d u0 p2 c0 {1,D}
-3   N3d u0 p1 c0 {1,S}
-""",
-    thermo = None,
     shortDesc = """""",
     longDesc = 
 """
@@ -54513,208 +44170,7 @@ entry(
 )
 
 entry(
-    index = 2484,
-    label = "O2d-N3d-N3d-O2d_2664",
-    group = 
-"""
-1   N3d u0 p1 c0 {2,S} {3,D}
-2   N3d u0 p1 c0 {1,S} {4,D}
-3 * O2d u0 p2 c0 {1,D}
-4   O2d u0 p2 c0 {2,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([7.66487,7.41645,7.2149,7.10806,6.99165,6.9196,6.74833],'J/(mol*K)'),
-        H298 = (17.6038,'kJ/mol'),
-        S298 = (37.3074,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2485,
-    label = "O2d-N3d-N3d-N3d_2660",
-    group = 
-"""
-1   N3d u0 p1 c0 {2,S} {3,D}
-2   N3d u0 p1 c0 {1,S} {4,D}
-3 * O2d u0 p2 c0 {1,D}
-4   N3d u0 p1 c0 {2,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([1.76881,0.950085,0.14754,-0.544074,-1.51559,-2.25108,-3.5282],'J/(mol*K)'),
-        H298 = (25.4587,'kJ/mol'),
-        S298 = (11.9766,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2486,
-    label = "O2d-N3d-N3d-Cd_2565",
-    group = 
-"""
-1   N3d u0 p1 c0 {2,S} {3,D}
-2   N3d u0 p1 c0 {1,S} {4,D}
-3 * O2d u0 p2 c0 {1,D}
-4   Cd  u0 p0 c0 {2,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([12.5535,15.4629,18.1023,20.3418,23.6468,26.0056,29.5787],'J/(mol*K)'),
-        H298 = (40.7144,'kJ/mol'),
-        S298 = (54.4757,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2487,
-    label = "O2d-N3d-N1sc_2533",
-    group = 
-"""
-1   N3d  u0 p1 c0 {2,D} {3,S}
-2 * O2d  u0 p2 c0 {1,D}
-3   N1sc u0 p2 c-1 {1,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2488,
-    label = "O2d-N3d-N1sc-N5dc_2532",
-    group = 
-"""
-1   N3d  u0 p1 c0 {2,S} {3,D}
-2   N1sc u0 p2 c-1 {1,S} {4,S}
-3 * O2d  u0 p2 c0 {1,D}
-4   N5dc u0 p0 c+1 {2,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([16.4334,15.8972,15.798,15.9514,16.1593,16.3177,16.4751],'J/(mol*K)'),
-        H298 = (-18.3997,'kJ/mol'),
-        S298 = (111.577,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2489,
-    label = "O2d-N3d-O2s_2436",
-    group = 
-"""
-1   N3d u0 p1 c0 {2,D} {3,S}
-2 * O2d u0 p2 c0 {1,D}
-3   O2s u0 p2 c0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([12.7858,13.9146,14.8357,15.6589,16.7404,17.6433,18.4657],'J/(mol*K)'),
-        H298 = (-5.59184,'kJ/mol'),
-        S298 = (69.8515,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2490,
-    label = "O2d-N3d-O2s-Cs_2435",
-    group = 
-"""
-1   N3d u0 p1 c0 {2,S} {3,D}
-2   O2s u0 p2 c0 {1,S} {4,S}
-3 * O2d u0 p2 c0 {1,D}
-4   Cs  u0 p0 c0 {2,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([3.44255,5.67394,7.82516,9.53911,12.6477,14.873,18.9786],'J/(mol*K)'),
-        H298 = (-12.3179,'kJ/mol'),
-        S298 = (13.2512,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2491,
-    label = "O2d-N3d-Cs_2424",
-    group = 
-"""
-1   N3d u0 p1 c0 {2,D} {3,S}
-2 * O2d u0 p2 c0 {1,D}
-3   Cs  u0 p0 c0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0.0888713,0.947587,1.67993,2.01184,2.60761,3.09835,3.72538],'J/(mol*K)'),
-        H298 = (-37.7486,'kJ/mol'),
-        S298 = (1.40791,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2492,
-    label = "O2d-N3d-Cs-HHH_2925",
-    group = 
-"""
-1   Cs  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2   N3d u0 p1 c0 {1,S} {6,D}
-3   H   u0 p0 c0 {1,S}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {1,S}
-6 * O2d u0 p2 c0 {2,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([17.7967,20.5815,23.1522,25.5224,29.3911,32.302,36.7705],'J/(mol*K)'),
-        H298 = (35.7795,'kJ/mol'),
-        S298 = (83.0184,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2493,
+    index = 2057,
     label = "O2d-N5dc",
     group = 
 """
@@ -54723,11 +44179,11 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([15.0723,17.0683,18.9497,20.614,23.217,25.0321,27.5941],'J/(mol*K)'),
-        H298 = (-52.977,'kJ/mol'),
-        S298 = (88.0422,'J/(mol*K)'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (0,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
     ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
+    shortDesc = """""",
     longDesc = 
 """
 
@@ -54735,121 +44191,7 @@ entry(
 )
 
 entry(
-    index = 2494,
-    label = "O2d-N5dc-N3s_3255",
-    group = 
-"""
-1   N5dc u0 p0 c+1 {2,D} {3,S}
-2 * O2d  u0 p2 c0 {1,D}
-3   N3s  u0 p1 c0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([21.1485,25.6349,29.2151,32.0662,36.5461,39.7693,44.277],'J/(mol*K)'),
-        H298 = (13.3192,'kJ/mol'),
-        S298 = (84.1639,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2495,
-    label = "O2d-N5dc-N1sc_2539",
-    group = 
-"""
-1   N5dc u0 p0 c+1 {2,D} {3,S}
-2 * O2d  u0 p2 c0 {1,D}
-3   N1sc u0 p2 c-1 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([13.9293,16.9258,19.3424,21.2949,24.3832,26.5987,29.7764],'J/(mol*K)'),
-        H298 = (26.8112,'kJ/mol'),
-        S298 = (66.5052,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2496,
-    label = "O2d-N5dc-HN1sc_2531",
-    group = 
-"""
-1   N5dc u0 p0 c+1 {2,D} {3,S} {4,S}
-2 * O2d  u0 p2 c0 {1,D}
-3   N1sc u0 p2 c-1 {1,S}
-4   H    u0 p0 c0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([18.9264,23.2501,26.939,30.1209,34.9489,38.2751,42.7002],'J/(mol*K)'),
-        H298 = (37.2825,'kJ/mol'),
-        S298 = (75.4935,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2497,
-    label = "O2d-N5dc-HN1sc-N3d_2530",
-    group = 
-"""
-1   N5dc u0 p0 c+1 {2,S} {3,D} {4,S}
-2   N1sc u0 p2 c-1 {1,S} {5,S}
-3 * O2d  u0 p2 c0 {1,D}
-4   H    u0 p0 c0 {1,S}
-5   N3d  u0 p1 c0 {2,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([6.97513,8.45237,9.43837,10.167,11.1676,11.8866,12.7061],'J/(mol*K)'),
-        H298 = (77.1022,'kJ/mol'),
-        S298 = (27.233,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2498,
-    label = "O2d-N5dc-N1sc-O2s_3160",
-    group = 
-"""
-1   N5dc u0 p0 c+1 {2,S} {3,D}
-2   N1sc u0 p2 c-1 {1,S} {4,S}
-3 * O2d  u0 p2 c0 {1,D}
-4   O2s  u0 p2 c0 {2,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([16.8479,19.5511,21.7278,23.3482,26.2491,28.259,30.9681],'J/(mol*K)'),
-        H298 = (32.8977,'kJ/mol'),
-        S298 = (69.8329,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2499,
+    index = 2058,
     label = "O2d-Sd",
     group = 
 """
@@ -54871,7 +44213,7 @@ Inferred from a least squares fit from 40 species mostly calculated at cbsqb3, 4
 )
 
 entry(
-    index = 2500,
+    index = 2059,
     label = "O2s",
     group = 
 """
@@ -54886,351 +44228,7 @@ entry(
 )
 
 entry(
-    index = 2501,
-    label = "O2s-Cs-N3d_3287",
-    group = 
-"""
-1   Cs  u0 p0 c0 {2,S} {3,S}
-2 * O2s u0 p2 c0 {1,S}
-3   N3d u0 p1 c0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([28.7011,34.5144,39.353,43.6168,50.25,54.8911,61.352],'J/(mol*K)'),
-        H298 = (-39.356,'kJ/mol'),
-        S298 = (110.149,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2502,
-    label = "O2s-O2s-N3d_3266",
-    group = 
-"""
-1   O2s u0 p2 c0 {2,S} {3,S}
-2 * O2s u0 p2 c0 {1,S}
-3   N3d u0 p1 c0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([25.0683,29.3782,32.5251,34.7651,38.0544,40.1382,42.698],'J/(mol*K)'),
-        H298 = (26.8015,'kJ/mol'),
-        S298 = (102.854,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2503,
-    label = "O2s-Ct-Ct-N3s_3260",
-    group = 
-"""
-1   Ct  u0 p0 c0 {2,T} {3,S}
-2   Ct  u0 p0 c0 {1,T} {4,S}
-3 * O2s u0 p2 c0 {1,S}
-4   N3s u0 p1 c0 {2,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([8.14942,8.63853,8.81173,9.03462,9.38713,9.64307,10.051],'J/(mol*K)'),
-        H298 = (-31.2657,'kJ/mol'),
-        S298 = (25.6015,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2504,
-    label = "O2s-O2s-O2s-N3s_3191",
-    group = 
-"""
-1   O2s u0 p2 c0 {2,S} {3,S}
-2   O2s u0 p2 c0 {1,S} {4,S}
-3 * O2s u0 p2 c0 {1,S}
-4   N3s u0 p1 c0 {2,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([8.9961,10.596,11.3429,11.8031,12.4357,12.7913,13.1187],'J/(mol*K)'),
-        H298 = (11.7399,'kJ/mol'),
-        S298 = (30.3999,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2505,
-    label = "O2s-Cd-Cd-HN3s_2957",
-    group = 
-"""
-1   Cd  u0 p0 c0 {2,D} {3,S} {4,S}
-2   Cd  u0 p0 c0 {1,D} {5,S}
-3   N3s u0 p1 c0 {1,S}
-4   H   u0 p0 c0 {1,S}
-5 * O2s u0 p2 c0 {2,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([15.5609,19.4362,22.691,25.06,28.6208,30.8081,33.7447],'J/(mol*K)'),
-        H298 = (-78.3524,'kJ/mol'),
-        S298 = (26.9455,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2506,
-    label = "O2s-O2s-Cd-HN3d_2683",
-    group = 
-"""
-1   Cd  u0 p0 c0 {2,S} {3,D} {4,S}
-2   O2s u0 p2 c0 {1,S} {5,S}
-3   N3d u0 p1 c0 {1,D}
-4   H   u0 p0 c0 {1,S}
-5 * O2s u0 p2 c0 {2,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([8.69727,10.4563,11.7376,12.6775,14.0691,14.98,15.9405],'J/(mol*K)'),
-        H298 = (9.7054,'kJ/mol'),
-        S298 = (28.3785,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2507,
-    label = "O2s-Cs-N3s_2571",
-    group = 
-"""
-1   Cs  u0 p0 c0 {2,S} {3,S}
-2 * O2s u0 p2 c0 {1,S}
-3   N3s u0 p1 c0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([20.5545,25.1398,28.8552,32.0478,37.27,41.0657,46.6836],'J/(mol*K)'),
-        H298 = (-66.7193,'kJ/mol'),
-        S298 = (56.0462,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2508,
-    label = "O2s-Cs-HHN3s_3075",
-    group = 
-"""
-1   Cs  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2 * O2s u0 p2 c0 {1,S}
-3   N3s u0 p1 c0 {1,S}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([35.4168,43.4214,50.631,56.9113,67.2214,74.8373,86.3356],'J/(mol*K)'),
-        H298 = (-108.164,'kJ/mol'),
-        S298 = (136.598,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2509,
-    label = "O2s-Cd-N3d_2548",
-    group = 
-"""
-1   Cd  u0 p0 c0 {2,S} {3,D}
-2 * O2s u0 p2 c0 {1,S}
-3   N3d u0 p1 c0 {1,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([16.0011,19.3544,21.9308,23.7926,26.5026,28.241,29.9279],'J/(mol*K)'),
-        H298 = (-158.666,'kJ/mol'),
-        S298 = (64.7867,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2510,
-    label = "O2s-Cd-N3d-Cs_3178",
-    group = 
-"""
-1   Cd  u0 p0 c0 {2,D} {3,S}
-2   N3d u0 p1 c0 {1,D} {4,S}
-3 * O2s u0 p2 c0 {1,S}
-4   Cs  u0 p0 c0 {2,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([14.7916,17.9556,20.7124,23.0396,26.8096,29.7403,34.0463],'J/(mol*K)'),
-        H298 = (-108.747,'kJ/mol'),
-        S298 = (62.161,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2511,
-    label = "O2s-Cd-HN3d_2584",
-    group = 
-"""
-1   Cd  u0 p0 c0 {2,S} {3,D} {4,S}
-2 * O2s u0 p2 c0 {1,S}
-3   N3d u0 p1 c0 {1,D}
-4   H   u0 p0 c0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([25.4461,30.5398,35.1109,38.9865,45.0969,49.5297,55.9506],'J/(mol*K)'),
-        H298 = (-85.204,'kJ/mol'),
-        S298 = (117.707,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2512,
-    label = "O2s-O2s-N3s_2482",
-    group = 
-"""
-1   O2s u0 p2 c0 {2,S} {3,S}
-2 * O2s u0 p2 c0 {1,S}
-3   N3s u0 p1 c0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([11.6214,13.398,14.2521,14.639,15.0617,15.3061,15.4294],'J/(mol*K)'),
-        H298 = (-1.36804,'kJ/mol'),
-        S298 = (39.6427,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2513,
-    label = "O2s-O2s-N3s-HH_3148",
-    group = 
-"""
-1   N3s u0 p1 c0 {2,S} {3,S} {4,S}
-2   O2s u0 p2 c0 {1,S} {5,S}
-3   H   u0 p0 c0 {1,S}
-4   H   u0 p0 c0 {1,S}
-5 * O2s u0 p2 c0 {2,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([32.2008,37.634,41.9922,45.7136,51.7195,56.1788,62.9494],'J/(mol*K)'),
-        H298 = (29.6005,'kJ/mol'),
-        S298 = (125.403,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2514,
-    label = "O2s-O2s-N3s-N3s_3038",
-    group = 
-"""
-1   O2s u0 p2 c0 {2,S} {3,S}
-2   N3s u0 p1 c0 {1,S} {4,S}
-3 * O2s u0 p2 c0 {1,S}
-4   N3s u0 p1 c0 {2,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([5.67259,6.4762,6.50494,6.29247,5.85657,5.5478,5.00327],'J/(mol*K)'),
-        H298 = (20.8951,'kJ/mol'),
-        S298 = (18.97,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2515,
-    label = "O2s-Cs-Cs-N3s_2376",
-    group = 
-"""
-1   Cs  u0 p0 c0 {2,S} {3,S}
-2   Cs  u0 p0 c0 {1,S} {4,S}
-3 * O2s u0 p2 c0 {1,S}
-4   N3s u0 p1 c0 {2,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([17.1204,22.3388,26.2511,29.2681,33.7948,36.9353,42.4755],'J/(mol*K)'),
-        H298 = (-93.9913,'kJ/mol'),
-        S298 = (34.9441,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2516,
+    index = 2060,
     label = "O2s-N",
     group = 
 """
@@ -55239,50 +44237,10 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([40.6766,49.081,56.6285,63.2788,74.1651,82.1356,94.1416],'J/(mol*K)'),
-        H298 = (-6.57568,'kJ/mol'),
-        S298 = (149.261,'J/(mol*K)'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (0,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
     ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2517,
-    label = "O2s-HN3s_3210",
-    group = 
-"""
-1 * O2s u0 p2 c0 {2,S} {3,S}
-2   N3s u0 p1 c0 {1,S}
-3   H   u0 p0 c0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([22.2173,26.0679,28.7021,30.8138,34.0941,36.4948,40.0079],'J/(mol*K)'),
-        H298 = (-46.5638,'kJ/mol'),
-        S298 = (78.6426,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2518,
-    label = "O2s-N3s-HN3s_3244",
-    group = 
-"""
-1   N3s u0 p1 c0 {2,S} {3,S} {4,S}
-2 * O2s u0 p2 c0 {1,S}
-3   N3s u0 p1 c0 {1,S}
-4   H   u0 p0 c0 {1,S}
-""",
-    thermo = None,
     shortDesc = """""",
     longDesc = 
 """
@@ -55291,328 +44249,13 @@ entry(
 )
 
 entry(
-    index = 2519,
-    label = "O2s-N3s-N3s_2391",
-    group = 
-"""
-1   N3s u0 p1 c0 {2,S} {3,S}
-2 * O2s u0 p2 c0 {1,S}
-3   N3s u0 p1 c0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([25.3953,30.5646,35.0814,38.931,45.149,49.8206,56.8341],'J/(mol*K)'),
-        H298 = (1.6481,'kJ/mol'),
-        S298 = (107.114,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2520,
-    label = "O2s-N3s-CtH_3068",
-    group = 
-"""
-1   N3s u0 p1 c0 {2,S} {3,S} {4,S}
-2 * O2s u0 p2 c0 {1,S}
-3   Ct  u0 p0 c0 {1,S}
-4   H   u0 p0 c0 {1,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2521,
-    label = "O2s-N3s-Ct_3056",
-    group = 
-"""
-1   N3s u0 p1 c0 {2,S} {3,S}
-2 * O2s u0 p2 c0 {1,S}
-3   Ct  u0 p0 c0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([15.4898,17.7693,19.2648,20.3946,21.9954,23.0092,24.2054],'J/(mol*K)'),
-        H298 = (32.0064,'kJ/mol'),
-        S298 = (61.1669,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2522,
-    label = "O2s-N3s-Cs-CsHH_3062",
-    group = 
-"""
-1   Cs  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2   N3s u0 p1 c0 {1,S} {6,S}
-3   Cs  u0 p0 c0 {1,S}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {1,S}
-6 * O2s u0 p2 c0 {2,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([14.215,17.8587,20.8203,23.1407,26.7525,29.4518,33.8933],'J/(mol*K)'),
-        H298 = (-18.6283,'kJ/mol'),
-        S298 = (34.0026,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2523,
-    label = "O2s-N3s-HO2s_3046",
-    group = 
-"""
-1   N3s u0 p1 c0 {2,S} {3,S} {4,S}
-2 * O2s u0 p2 c0 {1,S}
-3   O2s u0 p2 c0 {1,S}
-4   H   u0 p0 c0 {1,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2524,
-    label = "O2s-N3s-O2s_2616",
-    group = 
-"""
-1   N3s u0 p1 c0 {2,S} {3,S}
-2 * O2s u0 p2 c0 {1,S}
-3   O2s u0 p2 c0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([23.6666,27.7138,30.9653,33.5321,37.5508,40.5094,44.9623],'J/(mol*K)'),
-        H298 = (-43.4485,'kJ/mol'),
-        S298 = (105.807,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2525,
-    label = "O2s-N3s-HN3d_2767",
-    group = 
-"""
-1   N3s u0 p1 c0 {2,S} {3,S} {4,S}
-2 * O2s u0 p2 c0 {1,S}
-3   N3d u0 p1 c0 {1,S}
-4   H   u0 p0 c0 {1,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2526,
-    label = "O2s-N3s-N3d_2924",
-    group = 
-"""
-1   N3s u0 p1 c0 {2,S} {3,S}
-2 * O2s u0 p2 c0 {1,S}
-3   N3d u0 p1 c0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([22.4269,27.408,31.3771,34.4966,39.2626,42.5062,46.7672],'J/(mol*K)'),
-        H298 = (25.3554,'kJ/mol'),
-        S298 = (80.9676,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2527,
-    label = "O2s-N3s-Cd_2544",
-    group = 
-"""
-1   N3s u0 p1 c0 {2,S} {3,S}
-2 * O2s u0 p2 c0 {1,S}
-3   Cd  u0 p0 c0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([12.5403,15.1463,16.9919,18.1959,19.9102,21.0304,22.2059],'J/(mol*K)'),
-        H298 = (15.175,'kJ/mol'),
-        S298 = (51.0028,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2528,
-    label = "O2s-N3s-Cs-HHH_2426",
-    group = 
-"""
-1   Cs  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2   N3s u0 p1 c0 {1,S} {6,S}
-3   H   u0 p0 c0 {1,S}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {1,S}
-6 * O2s u0 p2 c0 {2,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([24.6651,29.8906,34.1187,37.6249,43.2844,47.5159,53.8406],'J/(mol*K)'),
-        H298 = (-46.1391,'kJ/mol'),
-        S298 = (90.4815,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2529,
-    label = "O2s-N3s-CsH-HHH_2621",
-    group = 
-"""
-1   Cs  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2   N3s u0 p1 c0 {1,S} {6,S} {7,S}
-3   H   u0 p0 c0 {1,S}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {1,S}
-6 * O2s u0 p2 c0 {2,S}
-7   H   u0 p0 c0 {2,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2530,
-    label = "O2s-N3s-CsH_2481",
-    group = 
-"""
-1   N3s u0 p1 c0 {2,S} {3,S} {4,S}
-2 * O2s u0 p2 c0 {1,S}
-3   Cs  u0 p0 c0 {1,S}
-4   H   u0 p0 c0 {1,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2531,
-    label = "O2s-N3s-Cs_2400",
-    group = 
-"""
-1   N3s u0 p1 c0 {2,S} {3,S}
-2 * O2s u0 p2 c0 {1,S}
-3   Cs  u0 p0 c0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([20.9492,25.5586,29.9373,33.8031,40.4804,45.6959,53.8167],'J/(mol*K)'),
-        H298 = (-68.4003,'kJ/mol'),
-        S298 = (112.24,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2532,
-    label = "O2s-HN3s-HH_3209",
-    group = 
-"""
-1   N3s u0 p1 c0 {2,S} {3,S} {4,S}
-2 * O2s u0 p2 c0 {1,S} {5,S}
-3   H   u0 p0 c0 {1,S}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {2,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([18.5873,19.2767,20.9008,22.3553,26.1232,28.8683,33.2476],'J/(mol*K)'),
-        H298 = (-91.5185,'kJ/mol'),
-        S298 = (113.216,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2533,
-    label = "O2s-N1sc_2988",
-    group = 
-"""
-1   N1sc u0 p2 c-1 {2,S}
-2 * O2s  u0 p2 c0 {1,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2534,
-    label = "O2s-N1scO2s_3159",
+    index = 2061,
+    label = "O2s-(HN1sc)",
     group = 
 """
 1 * O2s  u0 p2 c0 {2,S} {3,S}
-2   O2s  u0 p2 c0 {1,S}
-3   N1sc u0 p2 c-1 {1,S}
+2   N1sc u0 p2 c-1 {1,S}
+3   H    u0 p0 c0 {1,S}
 """,
     thermo = None,
     shortDesc = """""",
@@ -55623,106 +44266,15 @@ entry(
 )
 
 entry(
-    index = 2535,
-    label = "O2s-N1scO2s-HN5dc_3158",
+    index = 2062,
+    label = "O2s-(N5sc)",
     group = 
 """
-1 * O2s  u0 p2 c0 {2,S} {3,S}
-2   O2s  u0 p2 c0 {1,S} {4,S}
-3   N1sc u0 p2 c-1 {1,S} {5,S}
-4   H    u0 p0 c0 {2,S}
-5   N5dc u0 p0 c+1 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2536,
-    label = "O2s-N1scO2s-HN5dc-HO2d_3157",
-    group = 
-"""
-1   N5dc u0 p0 c+1 {2,S} {5,D} {6,S}
-2   N1sc u0 p2 c-1 {1,S} {3,S}
-3 * O2s  u0 p2 c0 {2,S} {4,S}
-4   O2s  u0 p2 c0 {3,S} {7,S}
-5   O2d  u0 p2 c0 {1,D}
-6   H    u0 p0 c0 {1,S}
-7   H    u0 p0 c0 {4,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([1.49315,1.25104,0.47571,-0.584788,-1.63033,-2.6128,-4.63901],'J/(mol*K)'),
-        H298 = (48.7153,'kJ/mol'),
-        S298 = (-5.03078,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2537,
-    label = "O2s-N1sc-N5dc_2987",
-    group = 
-"""
-1   N1sc u0 p2 c-1 {2,S} {3,S}
-2 * O2s  u0 p2 c0 {1,S}
-3   N5dc u0 p0 c+1 {1,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2538,
-    label = "O2s-N1sc-N5dc-HO2d_2986",
-    group = 
-"""
-1   N5dc u0 p0 c+1 {2,S} {3,D} {4,S}
-2   N1sc u0 p2 c-1 {1,S} {5,S}
-3   O2d  u0 p2 c0 {1,D}
-4   H    u0 p0 c0 {1,S}
-5 * O2s  u0 p2 c0 {2,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([15.3548,18.3001,21.2521,23.933,27.8794,30.8718,35.6071],'J/(mol*K)'),
-        H298 = (-15.8176,'kJ/mol'),
-        S298 = (74.8636,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2539,
-    label = "O2s-N5dc_2575",
-    group = 
-"""
-1   N5dc u0 p0 c+1 {2,S}
+1   N5sc u0 p0 c+1 {2,S}
 2 * O2s  u0 p2 c0 {1,S}
 """,
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([15.7615,19.0817,21.3013,22.6979,24.7026,25.9914,27.3131],'J/(mol*K)'),
-        H298 = (-42.0472,'kJ/mol'),
-        S298 = (68.5925,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
+    thermo = None,
+    shortDesc = """""",
     longDesc = 
 """
 
@@ -55730,7 +44282,23 @@ entry(
 )
 
 entry(
-    index = 2540,
+    index = 2063,
+    label = "O2s-(N5dc)",
+    group = 
+"""
+1   [N5sc,N5dc] u0 {2,S}
+2 * O2s         u0 {1,S}
+""",
+    thermo = None,
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 2064,
     label = "O2s-CdN5dc",
     group = 
 """
@@ -55747,7 +44315,24 @@ entry(
 )
 
 entry(
-    index = 2541,
+    index = 2065,
+    label = "O2s-CsN5dc",
+    group = 
+"""
+1 * O2s  u0 {2,S} {3,S}
+2   Cs   u0 {1,S}
+3   N5dc u0 {1,S}
+""",
+    thermo = None,
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 2066,
     label = "O2s-(Cd-CdHH)(N5dcOdOs)",
     group = 
 """
@@ -55773,24 +44358,7 @@ entry(
 )
 
 entry(
-    index = 2542,
-    label = "O2s-CsN5dc",
-    group = 
-"""
-1 * O2s  u0 {2,S} {3,S}
-2   Cs   u0 {1,S}
-3   N5dc u0 {1,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2543,
+    index = 2067,
     label = "O2s-Cs(N5dcOdOs)",
     group = 
 """
@@ -55814,39 +44382,12 @@ entry(
 )
 
 entry(
-    index = 2544,
-    label = "O2s-N3s-HH_2403",
+    index = 2068,
+    label = "O2s-(N3d)",
     group = 
 """
-1   N3s u0 p1 c0 {2,S} {3,S} {4,S}
-2 * O2s u0 p2 c0 {1,S}
-3   H   u0 p0 c0 {1,S}
-4   H   u0 p0 c0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([40.7164,48.9968,56.2945,62.6003,72.6531,80.0326,90.8544],'J/(mol*K)'),
-        H298 = (-27.6384,'kJ/mol'),
-        S298 = (137.562,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2545,
-    label = "O2s-CsN3s-HHH_2833",
-    group = 
-"""
-1   Cs  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2 * O2s u0 p2 c0 {1,S} {6,S}
-3   H   u0 p0 c0 {1,S}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {1,S}
-6   N3s u0 p1 c0 {2,S}
+1   N3d u0 {2,S}
+2 * O2s u0 {1,S}
 """,
     thermo = None,
     shortDesc = """""",
@@ -55857,177 +44398,7 @@ entry(
 )
 
 entry(
-    index = 2546,
-    label = "O2s-CsN3s",
-    group = 
-"""
-1 * O2s u0 {2,S} {3,S}
-2   N3s u0 {1,S}
-3   Cs  u0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([3.5,3.6,4,4.3,4.7,4.8,4.2],'cal/(mol*K)','+|-',[1,1,1,1,1,1,1]),
-        H298 = (-9.2,'kcal/mol','+|-',1.3),
-        S298 = (7.2,'cal/(mol*K)','+|-',1.2),
-    ),
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2547,
-    label = "O2s-CN",
-    group = 
-"""
-1 * O2s u0 {2,S} {3,S}
-2   C   u0 {1,S}
-3   N   u0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([21.1841,25.2083,29.2573,32.8714,38.8463,43.4225,50.5738],'J/(mol*K)'),
-        H298 = (-8.70852,'kJ/mol'),
-        S298 = (88.274,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2548,
-    label = "O2s-N3sN3s",
-    group = 
-"""
-1 * O2s u0 {2,S} {3,S}
-2   N3s u0 {1,S}
-3   N3s u0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([3.8,4.6,5.1,5.2,5.2,4.9,4.3],'cal/(mol*K)','+|-',[1.6,1.6,1.6,1.6,1.6,1.6,1.6]),
-        H298 = (5.7,'kcal/mol','+|-',2.2),
-        S298 = (6.8,'cal/(mol*K)','+|-',2.1),
-    ),
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2549,
-    label = "O2s-NN",
-    group = 
-"""
-1 * O2s u0 {2,S} {3,S}
-2   N   u0 {1,S}
-3   N   u0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([32.1669,38.9612,44.9167,50.109,58.7491,65.3271,75.4068],'J/(mol*K)'),
-        H298 = (53.4901,'kJ/mol'),
-        S298 = (127.028,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2550,
-    label = "O2s-N3sO2s-HH_3191",
-    group = 
-"""
-1   N3s u0 p1 c0 {2,S} {3,S} {4,S}
-2 * O2s u0 p2 c0 {1,S} {5,S}
-3   H   u0 p0 c0 {1,S}
-4   H   u0 p0 c0 {1,S}
-5   O2s u0 p2 c0 {2,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2551,
-    label = "O2s-OsN3s",
-    group = 
-"""
-1 * O2s u0 {2,S} {3,S}
-2   N3s u0 {1,S}
-3   O2s u0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([4.3,4.9,5.6,6.3,7,7.1,6.5],'cal/(mol*K)','+|-',[1,1,1,1,1,1,1]),
-        H298 = (5.3,'kcal/mol','+|-',1.3),
-        S298 = (6.9,'cal/(mol*K)','+|-',1.2),
-    ),
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2552,
-    label = "O2s-ON",
-    group = 
-"""
-1 * O2s u0 {2,S} {3,S}
-2   O2s u0 {1,S}
-3   N   u0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([24.2255,28.3375,31.7722,34.6451,39.2795,42.7157,47.9021],'J/(mol*K)'),
-        H298 = (-7.07889,'kJ/mol'),
-        S298 = (102.581,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2553,
-    label = "O2s-N3dN3s-HH_3077",
-    group = 
-"""
-1   N3s u0 p1 c0 {2,S} {3,S} {4,S}
-2 * O2s u0 p2 c0 {1,S} {5,S}
-3   H   u0 p0 c0 {1,S}
-4   H   u0 p0 c0 {1,S}
-5   N3d u0 p1 c0 {2,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2554,
+    index = 2069,
     label = "O2s-N3sN3d",
     group = 
 """
@@ -56035,13 +44406,8 @@ entry(
 2   N3s u0 {1,S}
 3   N3d u0 {1,S}
 """,
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([23.2739,27.6456,31.3483,34.5088,39.573,43.2834,48.7252],'J/(mol*K)'),
-        H298 = (72.834,'kJ/mol'),
-        S298 = (94.3379,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
+    thermo = None,
+    shortDesc = """""",
     longDesc = 
 """
 
@@ -56049,7 +44415,58 @@ entry(
 )
 
 entry(
-    index = 2555,
+    index = 2070,
+    label = "O2s-OsN3d",
+    group = 
+"""
+1 * O2s u0 {2,S} {3,S}
+2   O2s u0 {1,S}
+3   N3d u0 {1,S}
+""",
+    thermo = None,
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 2071,
+    label = "O2s-CdN3d",
+    group = 
+"""
+1 * O2s u0 {2,S} {3,S}
+2   Cd  u0 {1,S}
+3   N3d u0 {1,S}
+""",
+    thermo = None,
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 2072,
+    label = "O2s-CsN3d",
+    group = 
+"""
+1 * O2s u0 {2,S} {3,S}
+2   Cs  u0 {1,S}
+3   N3d u0 {1,S}
+""",
+    thermo = None,
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 2073,
     label = "O2s-N3s(N3dOd)",
     group = 
 """
@@ -56072,55 +44489,21 @@ entry(
 )
 
 entry(
-    index = 2556,
-    label = "O2s-CtN3s-HH_2865",
+    index = 2074,
+    label = "O2s-O2s(N3dOd)",
     group = 
 """
-1   N3s u0 p1 c0 {2,S} {3,S} {4,S}
-2 * O2s u0 p2 c0 {1,S} {5,S}
-3   H   u0 p0 c0 {1,S}
-4   H   u0 p0 c0 {1,S}
-5   Ct  u0 p0 c0 {2,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2557,
-    label = "O2s-CtN3s_2866",
-    group = 
-"""
-1 * O2s u0 p2 c0 {2,S} {3,S}
-2   N3s u0 p1 c0 {1,S}
-3   Ct  u0 p0 c0 {1,S}
+1 * O2s u0 {2,S} {4,S}
+2   N3d u0 {1,S} {3,D}
+3   O2d u0 {2,D}
+4   O2s u0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([22.7309,25.8628,28.3051,30.308,33.1812,35.2792,38.4989],'J/(mol*K)'),
-        H298 = (70.7288,'kJ/mol'),
-        S298 = (91.2777,'J/(mol*K)'),
+        Cpdata = ([11.7,12.9,13.6,14.2,15,15.5,16],'cal/(mol*K)','+|-',[1,1,1,1,1,1,1]),
+        H298 = (15.2,'kcal/mol','+|-',1.3),
+        S298 = (40.7,'cal/(mol*K)','+|-',1.2),
     ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2558,
-    label = "O2s-N3d_2344",
-    group = 
-"""
-1   N3d u0 p1 c0 {2,S}
-2 * O2s u0 p2 c0 {1,S}
-""",
-    thermo = None,
     shortDesc = """""",
     longDesc = 
 """
@@ -56129,24 +44512,7 @@ entry(
 )
 
 entry(
-    index = 2559,
-    label = "O2s-CdN3d",
-    group = 
-"""
-1 * O2s u0 {2,S} {3,S}
-2   Cd  u0 {1,S}
-3   N3d u0 {1,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2560,
+    index = 2075,
     label = "O2s-(Cd-Cd)(N3dOd)",
     group = 
 """
@@ -56171,361 +44537,7 @@ entry(
 )
 
 entry(
-    index = 2561,
-    label = "O2s-OsN3d",
-    group = 
-"""
-1 * O2s u0 {2,S} {3,S}
-2   O2s u0 {1,S}
-3   N3d u0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([12.3932,14.8967,16.8502,18.4784,21.142,23.1442,26.179],'J/(mol*K)'),
-        H298 = (8.35278,'kJ/mol'),
-        S298 = (45.7492,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2562,
-    label = "O2s-N3dO2s-HN3d-H_3287",
-    group = 
-"""
-1   N3d u0 p1 c0 {2,S} {4,D}
-2 * O2s u0 p2 c0 {1,S} {3,S}
-3   O2s u0 p2 c0 {2,S} {5,S}
-4   N3d u0 p1 c0 {1,D} {6,S}
-5   H   u0 p0 c0 {3,S}
-6   H   u0 p0 c0 {4,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2563,
-    label = "O2s-N3dO2s-HN3d_3288",
-    group = 
-"""
-1 * O2s u0 p2 c0 {2,S} {3,S}
-2   O2s u0 p2 c0 {1,S} {4,S}
-3   N3d u0 p1 c0 {1,S} {5,D}
-4   H   u0 p0 c0 {2,S}
-5   N3d u0 p1 c0 {3,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([8.05205,9.5267,10.897,12.0048,13.6447,14.7861,16.2712],'J/(mol*K)'),
-        H298 = (35.3868,'kJ/mol'),
-        S298 = (41.3198,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2564,
-    label = "O2s-O2s(N3dOd)",
-    group = 
-"""
-1 * O2s u0 {2,S} {4,S}
-2   N3d u0 {1,S} {3,D}
-3   O2d u0 {2,D}
-4   O2s u0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([11.7,12.9,13.6,14.2,15,15.5,16],'cal/(mol*K)','+|-',[1,1,1,1,1,1,1]),
-        H298 = (15.2,'kcal/mol','+|-',1.3),
-        S298 = (40.7,'cal/(mol*K)','+|-',1.2),
-    ),
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2565,
-    label = "O2s-N3dO2s-HO2d_3265",
-    group = 
-"""
-1 * O2s u0 p2 c0 {2,S} {3,S}
-2   O2s u0 p2 c0 {1,S} {4,S}
-3   N3d u0 p1 c0 {1,S} {5,D}
-4   H   u0 p0 c0 {2,S}
-5   O2d u0 p2 c0 {3,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([4.62308,4.95474,4.77784,4.28183,3.2677,2.20787,0.247836],'J/(mol*K)'),
-        H298 = (-16.9381,'kJ/mol'),
-        S298 = (15.7848,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2566,
-    label = "O2s-HN3d_2967",
-    group = 
-"""
-1 * O2s u0 p2 c0 {2,S} {3,S}
-2   N3d u0 p1 c0 {1,S}
-3   H   u0 p0 c0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([15.3379,17.1074,18.0338,18.6487,19.502,20.0373,20.6135],'J/(mol*K)'),
-        H298 = (16.0345,'kJ/mol'),
-        S298 = (60.0537,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2567,
-    label = "O2s-N3d-N3d_2433",
-    group = 
-"""
-1   N3d u0 p1 c0 {2,S} {3,D}
-2 * O2s u0 p2 c0 {1,S}
-3   N3d u0 p1 c0 {1,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([21.2186,25.0924,28.2827,30.7473,34.4496,37.0591,40.7388],'J/(mol*K)'),
-        H298 = (12.6276,'kJ/mol'),
-        S298 = (102.536,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2568,
-    label = "O2s-N3d-N3d-N3s_2495",
-    group = 
-"""
-1   N3d u0 p1 c0 {2,D} {3,S}
-2   N3d u0 p1 c0 {1,D} {4,S}
-3 * O2s u0 p2 c0 {1,S}
-4   N3s u0 p1 c0 {2,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([17.6,20.7531,23.0872,24.8678,27.6255,29.5509,32.2505],'J/(mol*K)'),
-        H298 = (22.2711,'kJ/mol'),
-        S298 = (72.0121,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2569,
-    label = "O2s-N3d-N3d-Cs_3257",
-    group = 
-"""
-1   N3d u0 p1 c0 {2,D} {3,S}
-2   N3d u0 p1 c0 {1,D} {4,S}
-3 * O2s u0 p2 c0 {1,S}
-4   Cs  u0 p0 c0 {2,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([11.8411,15.0993,18.1416,20.6852,24.6888,27.6491,32.2906],'J/(mol*K)'),
-        H298 = (-30.7139,'kJ/mol'),
-        S298 = (55.4146,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2570,
-    label = "O2s-N3d-Cd_2343",
-    group = 
-"""
-1   N3d u0 p1 c0 {2,S} {3,D}
-2 * O2s u0 p2 c0 {1,S}
-3   Cd  u0 p0 c0 {1,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([20.9065,24.787,27.8127,30.1152,33.7228,36.2812,39.9824],'J/(mol*K)'),
-        H298 = (-18.8461,'kJ/mol'),
-        S298 = (92.828,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2571,
-    label = "O2s-N3d-Cd-CsH_2786",
-    group = 
-"""
-1   Cd  u0 p0 c0 {2,D} {3,S} {4,S}
-2   N3d u0 p1 c0 {1,D} {5,S}
-3   Cs  u0 p0 c0 {1,S}
-4   H   u0 p0 c0 {1,S}
-5 * O2s u0 p2 c0 {2,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([16.4684,20.4528,23.7885,26.7787,31.68,35.4926,41.2311],'J/(mol*K)'),
-        H298 = (-0.121229,'kJ/mol'),
-        S298 = (58.8703,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2572,
-    label = "O2s-N3d-Cdd-Cd_3141",
-    group = 
-"""
-1   N3d u0 p1 c0 {2,D} {3,S}
-2   Cdd u0 p0 c0 {1,D} {4,D}
-3 * O2s u0 p2 c0 {1,S}
-4   Cd  u0 p0 c0 {2,D}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2573,
-    label = "O2s-N3d-Cdd_2593",
-    group = 
-"""
-1   N3d u0 p1 c0 {2,S} {3,D}
-2 * O2s u0 p2 c0 {1,S}
-3   Cdd u0 p0 c0 {1,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([14.7548,17.4306,19.3815,20.8795,23.1732,24.8581,27.2698],'J/(mol*K)'),
-        H298 = (37.4346,'kJ/mol'),
-        S298 = (55.6752,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2574,
-    label = "O2s-HN3d-O2d_2966",
-    group = 
-"""
-1   N3d u0 p1 c0 {2,S} {4,D}
-2 * O2s u0 p2 c0 {1,S} {3,S}
-3   H   u0 p0 c0 {2,S}
-4   O2d u0 p2 c0 {1,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([14.3183,15.9713,17.091,17.6507,18.3349,18.5409,18.6611],'J/(mol*K)'),
-        H298 = (-54.1935,'kJ/mol'),
-        S298 = (94.045,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2575,
-    label = "O2s-CsN3d-HHH_2435",
-    group = 
-"""
-1   Cs  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2 * O2s u0 p2 c0 {1,S} {6,S}
-3   H   u0 p0 c0 {1,S}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {1,S}
-6   N3d u0 p1 c0 {2,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2576,
-    label = "O2s-CsN3d",
-    group = 
-"""
-1 * O2s u0 {2,S} {3,S}
-2   Cs  u0 {1,S}
-3   N3d u0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([20.8372,24.8007,28.6905,32.3029,38.2959,42.618,49.0225],'J/(mol*K)'),
-        H298 = (23.6364,'kJ/mol'),
-        S298 = (73.4258,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2577,
+    index = 2076,
     label = "O2s-Cs(N3dOd)",
     group = 
 """
@@ -56548,7 +44560,190 @@ entry(
 )
 
 entry(
-    index = 2578,
+    index = 2077,
+    label = "O2s-(HN3d)",
+    group = 
+"""
+1 * O2s u0 p2 c0 {2,S} {3,S}
+2   N3d u0 p1 c0 {1,S}
+3   H   u0 p0 c0 {1,S}
+""",
+    thermo = None,
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 2078,
+    label = "O2s-(HN3s)",
+    group = 
+"""
+1 * O2s u0 p2 c0 {2,S} {3,S}
+2   N3s u0 p1 c0 {1,S}
+3   H   u0 p0 c0 {1,S}
+""",
+    thermo = None,
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 2079,
+    label = "O2s-CN",
+    group = 
+"""
+1 * O2s u0 {2,S} {3,S}
+2   C   u0 {1,S}
+3   N   u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (0,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
+    ),
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 2080,
+    label = "O2s-CsN3s",
+    group = 
+"""
+1 * O2s u0 {2,S} {3,S}
+2   N3s u0 {1,S}
+3   Cs  u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([3.5,3.6,4,4.3,4.7,4.8,4.2],'cal/(mol*K)','+|-',[1,1,1,1,1,1,1]),
+        H298 = (-9.2,'kcal/mol','+|-',1.3),
+        S298 = (7.2,'cal/(mol*K)','+|-',1.2),
+    ),
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 2081,
+    label = "O2s-ON",
+    group = 
+"""
+1 * O2s u0 {2,S} {3,S}
+2   O2s u0 {1,S}
+3   N   u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (0,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
+    ),
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 2082,
+    label = "O2s-(N1scO2s)",
+    group = 
+"""
+1 * O2s  u0 p2 c0 {2,S} {3,S}
+2   O2s  u0 p2 c0 {1,S}
+3   N1sc u0 p2 c-1 {1,S}
+""",
+    thermo = None,
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 2083,
+    label = "O2s-OsN3s",
+    group = 
+"""
+1 * O2s u0 {2,S} {3,S}
+2   N3s u0 {1,S}
+3   O2s u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([4.3,4.9,5.6,6.3,7,7.1,6.5],'cal/(mol*K)','+|-',[1,1,1,1,1,1,1]),
+        H298 = (5.3,'kcal/mol','+|-',1.3),
+        S298 = (6.9,'cal/(mol*K)','+|-',1.2),
+    ),
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 2084,
+    label = "O2s-NN",
+    group = 
+"""
+1 * O2s u0 {2,S} {3,S}
+2   N   u0 {1,S}
+3   N   u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (0,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
+    ),
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 2085,
+    label = "O2s-N3sN3s",
+    group = 
+"""
+1 * O2s u0 {2,S} {3,S}
+2   N3s u0 {1,S}
+3   N3s u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([3.8,4.6,5.1,5.2,5.2,4.9,4.3],'cal/(mol*K)','+|-',[1.6,1.6,1.6,1.6,1.6,1.6,1.6]),
+        H298 = (5.7,'kcal/mol','+|-',2.2),
+        S298 = (6.8,'cal/(mol*K)','+|-',2.1),
+    ),
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 2086,
     label = "O2s-HH",
     group = 
 """
@@ -56570,7 +44765,7 @@ entry(
 )
 
 entry(
-    index = 2579,
+    index = 2087,
     label = "O2s-OsH",
     group = 
 """
@@ -56592,7 +44787,7 @@ entry(
 )
 
 entry(
-    index = 2580,
+    index = 2088,
     label = "O2s-OsOs",
     group = 
 """
@@ -56614,7 +44809,7 @@ entry(
 )
 
 entry(
-    index = 2581,
+    index = 2089,
     label = "O2s-SsOs",
     group = 
 """
@@ -56636,7 +44831,7 @@ entry(
 )
 
 entry(
-    index = 2582,
+    index = 2090,
     label = "O2s-CH",
     group = 
 """
@@ -56653,7 +44848,7 @@ entry(
 )
 
 entry(
-    index = 2583,
+    index = 2091,
     label = "O2s-CtH",
     group = 
 """
@@ -56675,30 +44870,7 @@ entry(
 )
 
 entry(
-    index = 2584,
-    label = "O2s-CtH-N3t_2641",
-    group = 
-"""
-1   Ct  u0 p0 c0 {2,S} {4,T}
-2 * O2s u0 p2 c0 {1,S} {3,S}
-3   H   u0 p0 c0 {2,S}
-4   N3t u0 p1 c0 {1,T}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([11.5226,12.2114,12.8594,13.3148,13.9585,14.4767,15.2487],'J/(mol*K)'),
-        H298 = (-18.622,'kJ/mol'),
-        S298 = (69.3851,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2585,
+    index = 2092,
     label = "O2s-CdsH",
     group = 
 """
@@ -56715,7 +44887,7 @@ entry(
 )
 
 entry(
-    index = 2586,
+    index = 2093,
     label = "O2s-(Cds-O2d)H",
     group = 
 """
@@ -56740,7 +44912,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 2587,
+    index = 2094,
     label = "O2s-(Cds-Cd)H",
     group = 
 """
@@ -56765,7 +44937,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 2588,
+    index = 2095,
     label = "O2s-CsH",
     group = 
 """
@@ -56789,7 +44961,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 2589,
+    index = 2096,
     label = "O2s-CbH",
     group = 
 """
@@ -56811,7 +44983,7 @@ entry(
 )
 
 entry(
-    index = 2590,
+    index = 2097,
     label = "O2s-CSH",
     group = 
 """
@@ -56834,7 +45006,7 @@ entry(
 )
 
 entry(
-    index = 2591,
+    index = 2098,
     label = "O2s-OsC",
     group = 
 """
@@ -56851,7 +45023,7 @@ entry(
 )
 
 entry(
-    index = 2592,
+    index = 2099,
     label = "O2s-OsCt",
     group = 
 """
@@ -56873,75 +45045,7 @@ entry(
 )
 
 entry(
-    index = 2593,
-    label = "O2s-CtO2s-HN5tc_2850",
-    group = 
-"""
-1 * O2s  u0 p2 c0 {2,S} {3,S}
-2   O2s  u0 p2 c0 {1,S} {4,S}
-3   Ct   u0 p0 c0 {1,S} {5,T}
-4   H    u0 p0 c0 {2,S}
-5   N5tc u0 p0 c+1 {3,T}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2594,
-    label = "O2s-CtO2s-HN5tc-O0sc_2849",
-    group = 
-"""
-1   Ct   u0 p0 c0 {2,S} {4,T}
-2 * O2s  u0 p2 c0 {1,S} {3,S}
-3   O2s  u0 p2 c0 {2,S} {5,S}
-4   N5tc u0 p0 c+1 {1,T} {6,S}
-5   H    u0 p0 c0 {3,S}
-6   O0sc u0 p3 c-1 {4,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0.357725,-1.15501,-3.25299,-5.87393,-9.95262,-13.6855,-20.1512],'J/(mol*K)'),
-        H298 = (33.6207,'kJ/mol'),
-        S298 = (-29.7052,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2595,
-    label = "O2s-CtO2s-HN3t_2472",
-    group = 
-"""
-1 * O2s u0 p2 c0 {2,S} {3,S}
-2   O2s u0 p2 c0 {1,S} {4,S}
-3   Ct  u0 p0 c0 {1,S} {5,T}
-4   H   u0 p0 c0 {2,S}
-5   N3t u0 p1 c0 {3,T}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([9.001,9.74701,9.99615,9.94564,10.3254,10.3381,9.79538],'J/(mol*K)'),
-        H298 = (71.3252,'kJ/mol'),
-        S298 = (29.6071,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2596,
+    index = 2100,
     label = "O2s-OsCds",
     group = 
 """
@@ -56958,54 +45062,7 @@ entry(
 )
 
 entry(
-    index = 2597,
-    label = "O2s-CdO2s-HHN5dc_2883",
-    group = 
-"""
-1   Cd   u0 p0 c0 {2,S} {4,D} {5,S}
-2 * O2s  u0 p2 c0 {1,S} {3,S}
-3   O2s  u0 p2 c0 {2,S} {6,S}
-4   N5dc u0 p0 c+1 {1,D}
-5   H    u0 p0 c0 {1,S}
-6   H    u0 p0 c0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2598,
-    label = "O2s-CdO2s-HHN5dc-HO0sc_2882",
-    group = 
-"""
-1   Cd   u0 p0 c0 {2,D} {3,S} {5,S}
-2   N5dc u0 p0 c+1 {1,D} {6,S} {7,S}
-3 * O2s  u0 p2 c0 {1,S} {4,S}
-4   O2s  u0 p2 c0 {3,S} {8,S}
-5   H    u0 p0 c0 {1,S}
-6   O0sc u0 p3 c-1 {2,S}
-7   H    u0 p0 c0 {2,S}
-8   H    u0 p0 c0 {4,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([3.95039,6.02739,6.44891,5.9107,5.09338,4.19506,2.22466],'J/(mol*K)'),
-        H298 = (-8.63273,'kJ/mol'),
-        S298 = (-9.60027,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2599,
+    index = 2101,
     label = "O2s-O2s(Cds-O2d)",
     group = 
 """
@@ -57028,7 +45085,7 @@ entry(
 )
 
 entry(
-    index = 2600,
+    index = 2102,
     label = "O2s-O2s(Cds-Cd)",
     group = 
 """
@@ -57051,7 +45108,7 @@ entry(
 )
 
 entry(
-    index = 2601,
+    index = 2103,
     label = "O2s-OsCs",
     group = 
 """
@@ -57073,7 +45130,7 @@ entry(
 )
 
 entry(
-    index = 2602,
+    index = 2104,
     label = "O2s-OsCb",
     group = 
 """
@@ -57090,7 +45147,7 @@ entry(
 )
 
 entry(
-    index = 2603,
+    index = 2105,
     label = "O2s-CC",
     group = 
 """
@@ -57107,7 +45164,7 @@ entry(
 )
 
 entry(
-    index = 2604,
+    index = 2106,
     label = "O2s-CtCt",
     group = 
 """
@@ -57124,7 +45181,7 @@ entry(
 )
 
 entry(
-    index = 2605,
+    index = 2107,
     label = "O2s-CtCds",
     group = 
 """
@@ -57141,7 +45198,7 @@ entry(
 )
 
 entry(
-    index = 2606,
+    index = 2108,
     label = "O2s-Ct(Cds-O2d)",
     group = 
 """
@@ -57159,7 +45216,7 @@ entry(
 )
 
 entry(
-    index = 2607,
+    index = 2109,
     label = "O2s-Ct(Cds-Cd)",
     group = 
 """
@@ -57177,7 +45234,7 @@ entry(
 )
 
 entry(
-    index = 2608,
+    index = 2110,
     label = "O2s-CtCs",
     group = 
 """
@@ -57194,7 +45251,7 @@ entry(
 )
 
 entry(
-    index = 2609,
+    index = 2111,
     label = "O2s-Cs(CtN3t)",
     group = 
 """
@@ -57217,7 +45274,7 @@ entry(
 )
 
 entry(
-    index = 2610,
+    index = 2112,
     label = "O2s-CtCb",
     group = 
 """
@@ -57234,7 +45291,7 @@ entry(
 )
 
 entry(
-    index = 2611,
+    index = 2113,
     label = "O2s-CdsCds",
     group = 
 """
@@ -57251,7 +45308,7 @@ entry(
 )
 
 entry(
-    index = 2612,
+    index = 2114,
     label = "O2s-(Cds-O2d)(Cds-O2d)",
     group = 
 """
@@ -57277,7 +45334,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 2613,
+    index = 2115,
     label = "O2s-(Cds-O2d)(Cds-Cd)",
     group = 
 """
@@ -57303,7 +45360,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 2614,
+    index = 2116,
     label = "O2s-(Cds-Cd)(Cds-Cd)",
     group = 
 """
@@ -57325,7 +45382,7 @@ entry(
 )
 
 entry(
-    index = 2615,
+    index = 2117,
     label = "O2s-CdsCs",
     group = 
 """
@@ -57342,7 +45399,7 @@ entry(
 )
 
 entry(
-    index = 2616,
+    index = 2118,
     label = "O2s-Cs(Cds-O2d)",
     group = 
 """
@@ -57367,7 +45424,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 2617,
+    index = 2119,
     label = "O2s-Cs(Cds-Cd)",
     group = 
 """
@@ -57392,7 +45449,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 2618,
+    index = 2120,
     label = "O2s-CdsCb",
     group = 
 """
@@ -57409,7 +45466,7 @@ entry(
 )
 
 entry(
-    index = 2619,
+    index = 2121,
     label = "O2s-Cb(Cds-O2d)",
     group = 
 """
@@ -57427,7 +45484,7 @@ entry(
 )
 
 entry(
-    index = 2620,
+    index = 2122,
     label = "O2s-Cb(Cds-Cd)",
     group = 
 """
@@ -57445,7 +45502,7 @@ entry(
 )
 
 entry(
-    index = 2621,
+    index = 2123,
     label = "O2s-CsCs",
     group = 
 """
@@ -57469,7 +45526,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 2622,
+    index = 2124,
     label = "O2s-CsCb",
     group = 
 """
@@ -57491,7 +45548,7 @@ entry(
 )
 
 entry(
-    index = 2623,
+    index = 2125,
     label = "O2s-CbCb",
     group = 
 """
@@ -57513,7 +45570,7 @@ entry(
 )
 
 entry(
-    index = 2624,
+    index = 2126,
     label = "O2s-Cs(Cds-S2d)",
     group = 
 """
@@ -57536,7 +45593,7 @@ entry(
 )
 
 entry(
-    index = 2625,
+    index = 2127,
     label = "O2s-CS",
     group = 
 """
@@ -57553,7 +45610,7 @@ entry(
 )
 
 entry(
-    index = 2626,
+    index = 2128,
     label = "O2s-CS2",
     group = 
 """
@@ -57575,7 +45632,7 @@ entry(
 )
 
 entry(
-    index = 2627,
+    index = 2129,
     label = "O2s-CS4",
     group = 
 """
@@ -57597,7 +45654,7 @@ entry(
 )
 
 entry(
-    index = 2628,
+    index = 2130,
     label = "O2s-CS6",
     group = 
 """
@@ -57619,7 +45676,7 @@ entry(
 )
 
 entry(
-    index = 2629,
+    index = 2131,
     label = "O2s-SH",
     group = 
 """
@@ -57636,7 +45693,7 @@ entry(
 )
 
 entry(
-    index = 2630,
+    index = 2132,
     label = "O2s-S_nonDeH",
     group = 
 """
@@ -57658,7 +45715,7 @@ entry(
 )
 
 entry(
-    index = 2631,
+    index = 2133,
     label = "O2s-S_DeH",
     group = 
 """
@@ -57680,7 +45737,7 @@ entry(
 )
 
 entry(
-    index = 2632,
+    index = 2134,
     label = "Si",
     group = 
 """
@@ -57695,7 +45752,7 @@ entry(
 )
 
 entry(
-    index = 2633,
+    index = 2135,
     label = "SiJ2(S)",
     group = 
 """
@@ -57710,7 +45767,7 @@ entry(
 )
 
 entry(
-    index = 2634,
+    index = 2136,
     label = "S",
     group = 
 """
@@ -57725,7 +45782,7 @@ entry(
 )
 
 entry(
-    index = 2635,
+    index = 2137,
     label = "Sc",
     group = 
 """
@@ -57745,7 +45802,7 @@ entry(
 )
 
 entry(
-    index = 2636,
+    index = 2138,
     label = "Sa(S)",
     group = 
 """
@@ -57766,7 +45823,7 @@ Singlet sulfur, thermo data copied from triplet sulfur, likely very incorrect (t
 )
 
 entry(
-    index = 2637,
+    index = 2139,
     label = "S2d",
     group = 
 """
@@ -57781,7 +45838,7 @@ entry(
 )
 
 entry(
-    index = 2638,
+    index = 2140,
     label = "S2d-C",
     group = 
 """
@@ -57802,7 +45859,7 @@ entry(
 )
 
 entry(
-    index = 2639,
+    index = 2141,
     label = "S2d-S",
     group = 
 """
@@ -57823,7 +45880,7 @@ entry(
 )
 
 entry(
-    index = 2640,
+    index = 2142,
     label = "S2d-O",
     group = 
 """
@@ -57844,7 +45901,7 @@ entry(
 )
 
 entry(
-    index = 2641,
+    index = 2143,
     label = "S2s",
     group = 
 """
@@ -57859,7 +45916,7 @@ entry(
 )
 
 entry(
-    index = 2642,
+    index = 2144,
     label = "S2s-HH",
     group = 
 """
@@ -57881,7 +45938,7 @@ entry(
 )
 
 entry(
-    index = 2643,
+    index = 2145,
     label = "S2s-CH",
     group = 
 """
@@ -57898,7 +45955,7 @@ entry(
 )
 
 entry(
-    index = 2644,
+    index = 2146,
     label = "S2s-CsH",
     group = 
 """
@@ -57920,7 +45977,7 @@ entry(
 )
 
 entry(
-    index = 2645,
+    index = 2147,
     label = "S2s-CdH",
     group = 
 """
@@ -57942,7 +45999,7 @@ entry(
 )
 
 entry(
-    index = 2646,
+    index = 2148,
     label = "S2s-CtH",
     group = 
 """
@@ -57964,7 +46021,7 @@ entry(
 )
 
 entry(
-    index = 2647,
+    index = 2149,
     label = "S2s-CbH",
     group = 
 """
@@ -57986,7 +46043,7 @@ entry(
 )
 
 entry(
-    index = 2648,
+    index = 2150,
     label = "S2s-(C=O)H",
     group = 
 """
@@ -58009,7 +46066,7 @@ entry(
 )
 
 entry(
-    index = 2649,
+    index = 2151,
     label = "S2s-(C=S2d)H",
     group = 
 """
@@ -58032,7 +46089,7 @@ entry(
 )
 
 entry(
-    index = 2650,
+    index = 2152,
     label = "S2s-SH",
     group = 
 """
@@ -58049,7 +46106,7 @@ entry(
 )
 
 entry(
-    index = 2651,
+    index = 2153,
     label = "S2s-S2sH",
     group = 
 """
@@ -58071,7 +46128,7 @@ entry(
 )
 
 entry(
-    index = 2652,
+    index = 2154,
     label = "S2s-S_DeH",
     group = 
 """
@@ -58093,7 +46150,7 @@ entry(
 )
 
 entry(
-    index = 2653,
+    index = 2155,
     label = "S2s-SS",
     group = 
 """
@@ -58110,7 +46167,7 @@ entry(
 )
 
 entry(
-    index = 2654,
+    index = 2156,
     label = "S2s-SsSs",
     group = 
 """
@@ -58132,7 +46189,7 @@ entry(
 )
 
 entry(
-    index = 2655,
+    index = 2157,
     label = "S2s-SO",
     group = 
 """
@@ -58149,7 +46206,7 @@ entry(
 )
 
 entry(
-    index = 2656,
+    index = 2158,
     label = "S2s-S2O",
     group = 
 """
@@ -58171,7 +46228,7 @@ entry(
 )
 
 entry(
-    index = 2657,
+    index = 2159,
     label = "S2s-S4O",
     group = 
 """
@@ -58193,7 +46250,7 @@ entry(
 )
 
 entry(
-    index = 2658,
+    index = 2160,
     label = "S2s-S6O",
     group = 
 """
@@ -58215,7 +46272,7 @@ entry(
 )
 
 entry(
-    index = 2659,
+    index = 2161,
     label = "S2s-SC",
     group = 
 """
@@ -58232,7 +46289,7 @@ entry(
 )
 
 entry(
-    index = 2660,
+    index = 2162,
     label = "S2s-S2sC",
     group = 
 """
@@ -58249,7 +46306,7 @@ entry(
 )
 
 entry(
-    index = 2661,
+    index = 2163,
     label = "S2s-S2sCs",
     group = 
 """
@@ -58271,7 +46328,7 @@ entry(
 )
 
 entry(
-    index = 2662,
+    index = 2164,
     label = "S2s-S2sCd",
     group = 
 """
@@ -58293,7 +46350,7 @@ entry(
 )
 
 entry(
-    index = 2663,
+    index = 2165,
     label = "S2s-S2sCt",
     group = 
 """
@@ -58315,7 +46372,7 @@ entry(
 )
 
 entry(
-    index = 2664,
+    index = 2166,
     label = "S2s-S2sCb",
     group = 
 """
@@ -58337,7 +46394,7 @@ entry(
 )
 
 entry(
-    index = 2665,
+    index = 2167,
     label = "S2s-S46C",
     group = 
 """
@@ -58359,7 +46416,7 @@ entry(
 )
 
 entry(
-    index = 2666,
+    index = 2168,
     label = "S2s-CC",
     group = 
 """
@@ -58376,7 +46433,7 @@ entry(
 )
 
 entry(
-    index = 2667,
+    index = 2169,
     label = "S2s-CsCs",
     group = 
 """
@@ -58398,7 +46455,7 @@ entry(
 )
 
 entry(
-    index = 2668,
+    index = 2170,
     label = "S2s-CsCd",
     group = 
 """
@@ -58420,7 +46477,7 @@ entry(
 )
 
 entry(
-    index = 2669,
+    index = 2171,
     label = "S2s-Cs(C=O)",
     group = 
 """
@@ -58443,7 +46500,7 @@ entry(
 )
 
 entry(
-    index = 2670,
+    index = 2172,
     label = "S2s-CsCt",
     group = 
 """
@@ -58465,7 +46522,7 @@ entry(
 )
 
 entry(
-    index = 2671,
+    index = 2173,
     label = "S2s-CsCb",
     group = 
 """
@@ -58487,7 +46544,7 @@ entry(
 )
 
 entry(
-    index = 2672,
+    index = 2174,
     label = "S2s-CdCd",
     group = 
 """
@@ -58509,7 +46566,7 @@ entry(
 )
 
 entry(
-    index = 2673,
+    index = 2175,
     label = "S2s-CdCt",
     group = 
 """
@@ -58531,7 +46588,7 @@ entry(
 )
 
 entry(
-    index = 2674,
+    index = 2176,
     label = "S2s-CdCb",
     group = 
 """
@@ -58553,7 +46610,7 @@ entry(
 )
 
 entry(
-    index = 2675,
+    index = 2177,
     label = "S2s-CtCt",
     group = 
 """
@@ -58575,7 +46632,7 @@ entry(
 )
 
 entry(
-    index = 2676,
+    index = 2178,
     label = "S2s-CtCb",
     group = 
 """
@@ -58597,7 +46654,7 @@ entry(
 )
 
 entry(
-    index = 2677,
+    index = 2179,
     label = "S2s-CbCb",
     group = 
 """
@@ -58619,7 +46676,7 @@ entry(
 )
 
 entry(
-    index = 2678,
+    index = 2180,
     label = "S2s-(C=S2d)Cs",
     group = 
 """
@@ -58642,7 +46699,7 @@ entry(
 )
 
 entry(
-    index = 2679,
+    index = 2181,
     label = "S2s-(C=S2d)(C=S2d)",
     group = 
 """
@@ -58666,7 +46723,7 @@ entry(
 )
 
 entry(
-    index = 2680,
+    index = 2182,
     label = "S2s-(C=S2d)Cmb",
     group = 
 """
@@ -58689,7 +46746,7 @@ entry(
 )
 
 entry(
-    index = 2681,
+    index = 2183,
     label = "S2s-OH",
     group = 
 """
@@ -58711,7 +46768,7 @@ entry(
 )
 
 entry(
-    index = 2682,
+    index = 2184,
     label = "S2s-OO",
     group = 
 """
@@ -58733,7 +46790,7 @@ entry(
 )
 
 entry(
-    index = 2683,
+    index = 2185,
     label = "S2s-OC",
     group = 
 """
@@ -58750,7 +46807,7 @@ entry(
 )
 
 entry(
-    index = 2684,
+    index = 2186,
     label = "S2s-OCs",
     group = 
 """
@@ -58772,7 +46829,7 @@ entry(
 )
 
 entry(
-    index = 2685,
+    index = 2187,
     label = "S4dd",
     group = 
 """
@@ -58787,7 +46844,7 @@ entry(
 )
 
 entry(
-    index = 2686,
+    index = 2188,
     label = "S4dd-OdOd",
     group = 
 """
@@ -58809,7 +46866,7 @@ entry(
 )
 
 entry(
-    index = 2687,
+    index = 2189,
     label = "S4dd-CdOd",
     group = 
 """
@@ -58831,7 +46888,7 @@ entry(
 )
 
 entry(
-    index = 2688,
+    index = 2190,
     label = "S4dd-CdCd",
     group = 
 """
@@ -58853,7 +46910,7 @@ entry(
 )
 
 entry(
-    index = 2689,
+    index = 2191,
     label = "S4dd-OdSd",
     group = 
 """
@@ -58870,7 +46927,7 @@ entry(
 )
 
 entry(
-    index = 2690,
+    index = 2192,
     label = "S4dd-OdS4d",
     group = 
 """
@@ -58892,7 +46949,7 @@ entry(
 )
 
 entry(
-    index = 2691,
+    index = 2193,
     label = "S4dd-OdS6d",
     group = 
 """
@@ -58914,7 +46971,7 @@ entry(
 )
 
 entry(
-    index = 2692,
+    index = 2194,
     label = "S4dd-SdCd",
     group = 
 """
@@ -58931,7 +46988,7 @@ entry(
 )
 
 entry(
-    index = 2693,
+    index = 2195,
     label = "S4dd-S2dCd",
     group = 
 """
@@ -58953,7 +47010,7 @@ entry(
 )
 
 entry(
-    index = 2694,
+    index = 2196,
     label = "S4dd-S46dCd",
     group = 
 """
@@ -58975,7 +47032,7 @@ entry(
 )
 
 entry(
-    index = 2695,
+    index = 2197,
     label = "S4d",
     group = 
 """
@@ -58990,7 +47047,7 @@ entry(
 )
 
 entry(
-    index = 2696,
+    index = 2198,
     label = "S4d-Od",
     group = 
 """
@@ -59006,7 +47063,7 @@ entry(
 )
 
 entry(
-    index = 2697,
+    index = 2199,
     label = "S4d-OdHH",
     group = 
 """
@@ -59029,7 +47086,7 @@ entry(
 )
 
 entry(
-    index = 2698,
+    index = 2200,
     label = "S4d-OdCC",
     group = 
 """
@@ -59048,7 +47105,7 @@ Inferred from a least squares fit from 40 species mostly calculated at cbsqb3, 4
 )
 
 entry(
-    index = 2699,
+    index = 2201,
     label = "S4d-OdCsCs",
     group = 
 """
@@ -59071,7 +47128,7 @@ entry(
 )
 
 entry(
-    index = 2700,
+    index = 2202,
     label = "S4d-OdCdCd",
     group = 
 """
@@ -59094,7 +47151,7 @@ entry(
 )
 
 entry(
-    index = 2701,
+    index = 2203,
     label = "S4d-OdCH",
     group = 
 """
@@ -59113,7 +47170,7 @@ Inferred from a least squares fit from 40 species mostly calculated at cbsqb3, 4
 )
 
 entry(
-    index = 2702,
+    index = 2204,
     label = "S4d-OdCsH",
     group = 
 """
@@ -59136,7 +47193,7 @@ entry(
 )
 
 entry(
-    index = 2703,
+    index = 2205,
     label = "S4d-OdCdH",
     group = 
 """
@@ -59159,7 +47216,7 @@ entry(
 )
 
 entry(
-    index = 2704,
+    index = 2206,
     label = "S4d-OdCS",
     group = 
 """
@@ -59182,7 +47239,7 @@ entry(
 )
 
 entry(
-    index = 2705,
+    index = 2207,
     label = "S4d-OdCO",
     group = 
 """
@@ -59200,7 +47257,7 @@ entry(
 )
 
 entry(
-    index = 2706,
+    index = 2208,
     label = "S4d-OdOsCs",
     group = 
 """
@@ -59223,7 +47280,7 @@ entry(
 )
 
 entry(
-    index = 2707,
+    index = 2209,
     label = "S4d-OdOsCd",
     group = 
 """
@@ -59246,7 +47303,7 @@ entry(
 )
 
 entry(
-    index = 2708,
+    index = 2210,
     label = "S4d-OdOO",
     group = 
 """
@@ -59269,7 +47326,7 @@ entry(
 )
 
 entry(
-    index = 2709,
+    index = 2211,
     label = "S4d-OdOH",
     group = 
 """
@@ -59292,7 +47349,7 @@ entry(
 )
 
 entry(
-    index = 2710,
+    index = 2212,
     label = "S4d-OdOS",
     group = 
 """
@@ -59315,7 +47372,7 @@ entry(
 )
 
 entry(
-    index = 2711,
+    index = 2213,
     label = "S4d-OdSS",
     group = 
 """
@@ -59338,7 +47395,7 @@ entry(
 )
 
 entry(
-    index = 2712,
+    index = 2214,
     label = "S4d-OdSH",
     group = 
 """
@@ -59361,7 +47418,7 @@ entry(
 )
 
 entry(
-    index = 2713,
+    index = 2215,
     label = "S4d-Cd",
     group = 
 """
@@ -59377,7 +47434,7 @@ entry(
 )
 
 entry(
-    index = 2714,
+    index = 2216,
     label = "S4d-CdCC",
     group = 
 """
@@ -59400,7 +47457,7 @@ entry(
 )
 
 entry(
-    index = 2715,
+    index = 2217,
     label = "S4d-CdCH",
     group = 
 """
@@ -59423,7 +47480,7 @@ entry(
 )
 
 entry(
-    index = 2716,
+    index = 2218,
     label = "S4d-CdHH",
     group = 
 """
@@ -59446,7 +47503,7 @@ entry(
 )
 
 entry(
-    index = 2717,
+    index = 2219,
     label = "S4d-CdOC",
     group = 
 """
@@ -59469,7 +47526,7 @@ entry(
 )
 
 entry(
-    index = 2718,
+    index = 2220,
     label = "S4d-CdOH",
     group = 
 """
@@ -59492,7 +47549,7 @@ entry(
 )
 
 entry(
-    index = 2719,
+    index = 2221,
     label = "S4d-Sd",
     group = 
 """
@@ -59508,7 +47565,7 @@ entry(
 )
 
 entry(
-    index = 2720,
+    index = 2222,
     label = "S4d-SdOC",
     group = 
 """
@@ -59531,7 +47588,7 @@ entry(
 )
 
 entry(
-    index = 2721,
+    index = 2223,
     label = "S4d-SdOH",
     group = 
 """
@@ -59554,7 +47611,7 @@ entry(
 )
 
 entry(
-    index = 2722,
+    index = 2224,
     label = "S4d-SdCH",
     group = 
 """
@@ -59577,7 +47634,7 @@ entry(
 )
 
 entry(
-    index = 2723,
+    index = 2225,
     label = "S4d-SdSC",
     group = 
 """
@@ -59600,7 +47657,7 @@ entry(
 )
 
 entry(
-    index = 2724,
+    index = 2226,
     label = "S4s",
     group = 
 """
@@ -59616,7 +47673,7 @@ Couldn't converge these geometries to calculate values and so I copied the S6s v
 )
 
 entry(
-    index = 2725,
+    index = 2227,
     label = "S4s-OCCH",
     group = 
 """
@@ -59640,7 +47697,7 @@ entry(
 )
 
 entry(
-    index = 2726,
+    index = 2228,
     label = "S4s-CCCH",
     group = 
 """
@@ -59664,7 +47721,7 @@ entry(
 )
 
 entry(
-    index = 2727,
+    index = 2229,
     label = "S4s-OOCC",
     group = 
 """
@@ -59688,7 +47745,7 @@ entry(
 )
 
 entry(
-    index = 2728,
+    index = 2230,
     label = "S4s-SOCH",
     group = 
 """
@@ -59712,7 +47769,7 @@ entry(
 )
 
 entry(
-    index = 2729,
+    index = 2231,
     label = "S4s-SOOH",
     group = 
 """
@@ -59736,7 +47793,7 @@ entry(
 )
 
 entry(
-    index = 2730,
+    index = 2232,
     label = "S4t",
     group = 
 """
@@ -59751,7 +47808,7 @@ entry(
 )
 
 entry(
-    index = 2731,
+    index = 2233,
     label = "S4t-CtC",
     group = 
 """
@@ -59773,7 +47830,7 @@ entry(
 )
 
 entry(
-    index = 2732,
+    index = 2234,
     label = "S4t-CtH",
     group = 
 """
@@ -59795,7 +47852,7 @@ entry(
 )
 
 entry(
-    index = 2733,
+    index = 2235,
     label = "S4t-CtO",
     group = 
 """
@@ -59817,7 +47874,7 @@ entry(
 )
 
 entry(
-    index = 2734,
+    index = 2236,
     label = "S6s",
     group = 
 """
@@ -59832,7 +47889,7 @@ entry(
 )
 
 entry(
-    index = 2735,
+    index = 2237,
     label = "S6s-CCCCCH",
     group = 
 """
@@ -59859,7 +47916,7 @@ Calculated at CBS-QB3, June 2017
 )
 
 entry(
-    index = 2736,
+    index = 2238,
     label = "S6s-OCCCCH",
     group = 
 """
@@ -59885,7 +47942,7 @@ entry(
 )
 
 entry(
-    index = 2737,
+    index = 2239,
     label = "S6s-SOOCCH",
     group = 
 """
@@ -59912,7 +47969,7 @@ Calculated at CBS-QB3, June 2017
 )
 
 entry(
-    index = 2738,
+    index = 2240,
     label = "S6d",
     group = 
 """
@@ -59927,7 +47984,7 @@ entry(
 )
 
 entry(
-    index = 2739,
+    index = 2241,
     label = "S6d-OdOCCH",
     group = 
 """
@@ -59952,7 +48009,7 @@ entry(
 )
 
 entry(
-    index = 2740,
+    index = 2242,
     label = "S6d-OdCCCH",
     group = 
 """
@@ -59977,7 +48034,7 @@ entry(
 )
 
 entry(
-    index = 2741,
+    index = 2243,
     label = "S6dd",
     group = 
 """
@@ -59992,7 +48049,7 @@ entry(
 )
 
 entry(
-    index = 2742,
+    index = 2244,
     label = "S6dd-OdOd",
     group = 
 """
@@ -60009,7 +48066,7 @@ entry(
 )
 
 entry(
-    index = 2743,
+    index = 2245,
     label = "S6dd-OdOdHH",
     group = 
 """
@@ -60033,7 +48090,7 @@ entry(
 )
 
 entry(
-    index = 2744,
+    index = 2246,
     label = "S6dd-OdOdCC",
     group = 
 """
@@ -60053,7 +48110,7 @@ Inferred from a least squares fit from 40 species mostly calculated at cbsqb3, 4
 )
 
 entry(
-    index = 2745,
+    index = 2247,
     label = "S6dd-OdOdCsCs",
     group = 
 """
@@ -60077,7 +48134,7 @@ entry(
 )
 
 entry(
-    index = 2746,
+    index = 2248,
     label = "S6dd-OdOdCdCd",
     group = 
 """
@@ -60101,7 +48158,7 @@ entry(
 )
 
 entry(
-    index = 2747,
+    index = 2249,
     label = "S6dd-OdOdCH",
     group = 
 """
@@ -60121,7 +48178,7 @@ Inferred from a least squares fit from 40 species mostly calculated at cbsqb3, 4
 )
 
 entry(
-    index = 2748,
+    index = 2250,
     label = "S6dd-OdOdCsH",
     group = 
 """
@@ -60145,7 +48202,7 @@ entry(
 )
 
 entry(
-    index = 2749,
+    index = 2251,
     label = "S6dd-OdOdCdH",
     group = 
 """
@@ -60169,7 +48226,7 @@ entry(
 )
 
 entry(
-    index = 2750,
+    index = 2252,
     label = "S6dd-OdOdCS",
     group = 
 """
@@ -60193,7 +48250,7 @@ entry(
 )
 
 entry(
-    index = 2751,
+    index = 2253,
     label = "S6dd-OdOdCO",
     group = 
 """
@@ -60213,7 +48270,7 @@ Inferred from a least squares fit from 40 species mostly calculated at cbsqb3, 4
 )
 
 entry(
-    index = 2752,
+    index = 2254,
     label = "S6dd-OdOdCsOs",
     group = 
 """
@@ -60237,7 +48294,7 @@ entry(
 )
 
 entry(
-    index = 2753,
+    index = 2255,
     label = "S6dd-OdOdCdOs",
     group = 
 """
@@ -60261,7 +48318,7 @@ entry(
 )
 
 entry(
-    index = 2754,
+    index = 2256,
     label = "S6dd-OdOdOO",
     group = 
 """
@@ -60285,7 +48342,7 @@ entry(
 )
 
 entry(
-    index = 2755,
+    index = 2257,
     label = "S6dd-OdOdOH",
     group = 
 """
@@ -60309,7 +48366,7 @@ entry(
 )
 
 entry(
-    index = 2756,
+    index = 2258,
     label = "S6dd-OdOdOS",
     group = 
 """
@@ -60333,7 +48390,7 @@ entry(
 )
 
 entry(
-    index = 2757,
+    index = 2259,
     label = "S6dd-OdOdSS",
     group = 
 """
@@ -60357,7 +48414,7 @@ entry(
 )
 
 entry(
-    index = 2758,
+    index = 2260,
     label = "S6dd-OdOdSH",
     group = 
 """
@@ -60381,7 +48438,7 @@ entry(
 )
 
 entry(
-    index = 2759,
+    index = 2261,
     label = "S6dd-OdCd",
     group = 
 """
@@ -60398,7 +48455,7 @@ entry(
 )
 
 entry(
-    index = 2760,
+    index = 2262,
     label = "S6dd-OdCdCC",
     group = 
 """
@@ -60422,7 +48479,7 @@ entry(
 )
 
 entry(
-    index = 2761,
+    index = 2263,
     label = "S6dd-OdCdCH",
     group = 
 """
@@ -60446,7 +48503,7 @@ entry(
 )
 
 entry(
-    index = 2762,
+    index = 2264,
     label = "S6dd-OdCdOC",
     group = 
 """
@@ -60470,7 +48527,7 @@ entry(
 )
 
 entry(
-    index = 2763,
+    index = 2265,
     label = "S6dd-OdCdOO",
     group = 
 """
@@ -60494,7 +48551,7 @@ entry(
 )
 
 entry(
-    index = 2764,
+    index = 2266,
     label = "S6dd-OdCdOH",
     group = 
 """
@@ -60518,7 +48575,7 @@ entry(
 )
 
 entry(
-    index = 2765,
+    index = 2267,
     label = "S6dd-OdCdSH",
     group = 
 """
@@ -60542,7 +48599,7 @@ entry(
 )
 
 entry(
-    index = 2766,
+    index = 2268,
     label = "S6dd-OdCdOS",
     group = 
 """
@@ -60566,7 +48623,7 @@ entry(
 )
 
 entry(
-    index = 2767,
+    index = 2269,
     label = "S6dd-CdCd",
     group = 
 """
@@ -60583,7 +48640,7 @@ entry(
 )
 
 entry(
-    index = 2768,
+    index = 2270,
     label = "S6dd-CdCdCC",
     group = 
 """
@@ -60607,7 +48664,7 @@ entry(
 )
 
 entry(
-    index = 2769,
+    index = 2271,
     label = "S6dd-CdCdCH",
     group = 
 """
@@ -60631,7 +48688,7 @@ entry(
 )
 
 entry(
-    index = 2770,
+    index = 2272,
     label = "S6dd-CdCdOC",
     group = 
 """
@@ -60655,7 +48712,7 @@ entry(
 )
 
 entry(
-    index = 2771,
+    index = 2273,
     label = "S6dd-OdSd",
     group = 
 """
@@ -60672,7 +48729,7 @@ entry(
 )
 
 entry(
-    index = 2772,
+    index = 2274,
     label = "S6dd-OdSdOC",
     group = 
 """
@@ -60696,7 +48753,7 @@ entry(
 )
 
 entry(
-    index = 2773,
+    index = 2275,
     label = "S6dd-OdSdOH",
     group = 
 """
@@ -60720,7 +48777,7 @@ entry(
 )
 
 entry(
-    index = 2774,
+    index = 2276,
     label = "S6dd-OdSdCH",
     group = 
 """
@@ -60744,7 +48801,7 @@ entry(
 )
 
 entry(
-    index = 2775,
+    index = 2277,
     label = "S6ddd",
     group = 
 """
@@ -60759,7 +48816,7 @@ entry(
 )
 
 entry(
-    index = 2776,
+    index = 2278,
     label = "S6ddd-OdOdOd",
     group = 
 """
@@ -60782,7 +48839,7 @@ entry(
 )
 
 entry(
-    index = 2777,
+    index = 2279,
     label = "S6ddd-OdOdXd",
     group = 
 """
@@ -60805,7 +48862,7 @@ entry(
 )
 
 entry(
-    index = 2778,
+    index = 2280,
     label = "S6ddd-OdXdXd",
     group = 
 """
@@ -60828,7 +48885,7 @@ entry(
 )
 
 entry(
-    index = 2779,
+    index = 2281,
     label = "S6t",
     group = 
 """
@@ -60843,7 +48900,7 @@ entry(
 )
 
 entry(
-    index = 2780,
+    index = 2282,
     label = "S6t-CtCCC",
     group = 
 """
@@ -60867,7 +48924,7 @@ entry(
 )
 
 entry(
-    index = 2781,
+    index = 2283,
     label = "S6t-CtHHH",
     group = 
 """
@@ -60891,7 +48948,7 @@ entry(
 )
 
 entry(
-    index = 2782,
+    index = 2284,
     label = "S6t-CtOCC",
     group = 
 """
@@ -60915,7 +48972,7 @@ entry(
 )
 
 entry(
-    index = 2783,
+    index = 2285,
     label = "S6t-CtOCH",
     group = 
 """
@@ -60939,7 +48996,7 @@ entry(
 )
 
 entry(
-    index = 2784,
+    index = 2286,
     label = "S6td",
     group = 
 """
@@ -60954,7 +49011,7 @@ entry(
 )
 
 entry(
-    index = 2785,
+    index = 2287,
     label = "S6td-CtCdC",
     group = 
 """
@@ -60977,7 +49034,7 @@ entry(
 )
 
 entry(
-    index = 2786,
+    index = 2288,
     label = "S6td-CtOdC",
     group = 
 """
@@ -61000,7 +49057,7 @@ entry(
 )
 
 entry(
-    index = 2787,
+    index = 2289,
     label = "S6td-CtOdH",
     group = 
 """
@@ -61023,14 +49080,14 @@ entry(
 )
 
 entry(
-    index = 2788,
+    index = 2290,
     label = "N",
     group = 
 """
 1 * N u0
 """,
-    thermo = None,
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
+    thermo = 'N3s',
+    shortDesc = """""",
     longDesc = 
 """
 
@@ -61038,8 +49095,8 @@ entry(
 )
 
 entry(
-    index = 2789,
-    label = "N1dc_2844",
+    index = 2291,
+    label = "N1dc",
     group = 
 """
 1 * N1dc u0 p2 c-1
@@ -61053,24 +49110,8 @@ entry(
 )
 
 entry(
-    index = 2790,
-    label = "N1dc",
-    group = 
-"""
-1 * N1dc u0 p2 {2,D}
-2   R!H  ux {1,D}
-""",
-    thermo = None,
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2791,
-    label = "N1dc-Cdd_3101",
+    index = 2293,
+    label = "N1dc-(Cdd)",
     group = 
 """
 1   Cdd  u0 p0 c0 {2,D}
@@ -61085,55 +49126,13 @@ entry(
 )
 
 entry(
-    index = 2792,
-    label = "N1dc-Cdd-N5dc_3100",
-    group = 
-"""
-1   Cdd  u0 p0 c0 {2,D} {3,D}
-2 * N1dc u0 p2 c-1 {1,D}
-3   N5dc u0 p0 c+1 {1,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([16.9764,19.2877,21.2162,22.835,25.4765,27.479,30.6593],'J/(mol*K)'),
-        H298 = (44.5717,'kJ/mol'),
-        S298 = (80.5763,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2793,
-    label = "N1dc-N5ddc_2843",
+    index = 2294,
+    label = "N1dc-(N5ddc)",
     group = 
 """
 1   N5ddc u0 p0 c+1 {2,D}
 2 * N1dc  u0 p2 c-1 {1,D}
 """,
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([12.6561,14.031,15.0746,15.9349,17.2617,18.1738,19.3504],'J/(mol*K)'),
-        H298 = (26.9643,'kJ/mol'),
-        S298 = (73.1465,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2794,
-    label = "N5tc_2580",
-    group = 
-"""
-1 * N5tc u0 p0 c+1
-""",
     thermo = None,
     shortDesc = """""",
     longDesc = 
@@ -61143,326 +49142,8 @@ entry(
 )
 
 entry(
-    index = 2795,
-    label = "N5tc-O0sc_2583",
-    group = 
-"""
-1 * N5tc u0 p0 c+1 {2,S}
-2 * O0sc u0 p3 c-1 {1,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2796,
-    label = "N5tc-CtO0sc_3043",
-    group = 
-"""
-1 * N5tc u0 p0 c+1 {2,S} {3,T}
-2   O0sc u0 p3 c-1 {1,S}
-3   Ct   u0 p0 c0 {1,T}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([23.9736,27.7048,31.1327,34.0409,38.6366,41.8617,46.3471],'J/(mol*K)'),
-        H298 = (51.7557,'kJ/mol'),
-        S298 = (93.5136,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2797,
-    label = "N5tc-CtO0sc-H_3165",
-    group = 
-"""
-1   Ct   u0 p0 c0 {2,T} {4,S}
-2 * N5tc u0 p0 c+1 {1,T} {3,S}
-3   O0sc u0 p3 c-1 {2,S}
-4   H    u0 p0 c0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([11.0313,10.1404,9.65825,9.33342,8.92534,8.81835,9.2329],'J/(mol*K)'),
-        H298 = (66.8327,'kJ/mol'),
-        S298 = (56.7609,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2798,
-    label = "N5tc-CtO0sc-Ct_3042",
-    group = 
-"""
-1   Ct   u0 p0 c0 {2,T} {4,S}
-2 * N5tc u0 p0 c+1 {1,T} {3,S}
-3   O0sc u0 p3 c-1 {2,S}
-4   Ct   u0 p0 c0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([5.53183,5.81946,5.6314,5.58525,5.40808,5.19077,4.51843],'J/(mol*K)'),
-        H298 = (37.2897,'kJ/mol'),
-        S298 = (16.1638,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2799,
-    label = "N5tc-Ct_2579",
-    group = 
-"""
-1   Ct   u0 p0 c0 {2,T}
-2 * N5tc u0 p0 c+1 {1,T}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2800,
-    label = "N5tc-Ct-CO_3115",
-    group = 
-"""
-1   Ct   u0 p0 c0 {2,T} {3,S}
-2 * N5tc u0 p0 c+1 {1,T}
-3   CO   u0 p0 c0 {1,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2801,
-    label = "N5tc-Ct-CO-HO2d_3114",
-    group = 
-"""
-1   CO   u0 p0 c0 {2,S} {3,D} {4,S}
-2   Ct   u0 p0 c0 {1,S} {5,T}
-3   O2d  u0 p2 c0 {1,D}
-4   H    u0 p0 c0 {1,S}
-5 * N5tc u0 p0 c+1 {2,T}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2802,
-    label = "N5tc-Ct-O2s_2830",
-    group = 
-"""
-1   Ct   u0 p0 c0 {2,T} {3,S}
-2 * N5tc u0 p0 c+1 {1,T}
-3   O2s  u0 p2 c0 {1,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2803,
-    label = "N5tc-Ct-O2s-Cs_2829",
-    group = 
-"""
-1   Ct   u0 p0 c0 {2,S} {3,T}
-2   O2s  u0 p2 c0 {1,S} {4,S}
-3 * N5tc u0 p0 c+1 {1,T}
-4   Cs   u0 p0 c0 {2,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2804,
-    label = "N5tc-Ct-N3d_2803",
-    group = 
-"""
-1   Ct   u0 p0 c0 {2,T} {3,S}
-2 * N5tc u0 p0 c+1 {1,T}
-3   N3d  u0 p1 c0 {1,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2805,
-    label = "N5tc-Ct-Cs_2741",
-    group = 
-"""
-1   Ct   u0 p0 c0 {2,T} {3,S}
-2 * N5tc u0 p0 c+1 {1,T}
-3   Cs   u0 p0 c0 {1,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2806,
-    label = "N5tc-Ct-Cs-HHO2s_2908",
-    group = 
-"""
-1   Cs   u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2   Ct   u0 p0 c0 {1,S} {6,T}
-3   O2s  u0 p2 c0 {1,S}
-4   H    u0 p0 c0 {1,S}
-5   H    u0 p0 c0 {1,S}
-6 * N5tc u0 p0 c+1 {2,T}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2807,
-    label = "N5tc-Ct-Cs-HHH_2789",
-    group = 
-"""
-1   Cs   u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2   Ct   u0 p0 c0 {1,S} {6,T}
-3   H    u0 p0 c0 {1,S}
-4   H    u0 p0 c0 {1,S}
-5   H    u0 p0 c0 {1,S}
-6 * N5tc u0 p0 c+1 {2,T}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2808,
-    label = "N5tc-Ct-Cs-CsHH_2740",
-    group = 
-"""
-1   Cs   u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2   Ct   u0 p0 c0 {1,S} {6,T}
-3   Cs   u0 p0 c0 {1,S}
-4   H    u0 p0 c0 {1,S}
-5   H    u0 p0 c0 {1,S}
-6 * N5tc u0 p0 c+1 {2,T}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2809,
-    label = "N5tc-Ct-N3s_2650",
-    group = 
-"""
-1   Ct   u0 p0 c0 {2,T} {3,S}
-2 * N5tc u0 p0 c+1 {1,T}
-3   N3s  u0 p1 c0 {1,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2810,
-    label = "N5tc-Ct-Cd_2578",
-    group = 
-"""
-1   Ct   u0 p0 c0 {2,T} {3,S}
-2 * N5tc u0 p0 c+1 {1,T}
-3   Cd   u0 p0 c0 {1,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2811,
-    label = "N5tc-Ct-Cd-CdH_2577",
-    group = 
-"""
-1   Cd   u0 p0 c0 {2,S} {3,D} {4,S}
-2   Ct   u0 p0 c0 {1,S} {5,T}
-3   Cd   u0 p0 c0 {1,D}
-4   H    u0 p0 c0 {1,S}
-5 * N5tc u0 p0 c+1 {2,T}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2812,
-    label = "N1sc_2468",
+    index = 2295,
+    label = "N1sc",
     group = 
 """
 1 * N1sc u0 p2 c-1
@@ -61476,98 +49157,12 @@ entry(
 )
 
 entry(
-    index = 2813,
-    label = "N1sc",
-    group = 
-"""
-1 * N1sc u0 p2 {2,S} {3,S}
-2   R    ux {1,S}
-3   R    ux {1,S}
-""",
-    thermo = None,
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-Nitrogen with two lone pairs and two single bonds
-""",
-)
-
-entry(
-    index = 2814,
-    label = "N1sc-N5dc_2576",
+    index = 2297,
+    label = "N1sc-(N5dc)",
     group = 
 """
 1   N5dc u0 p0 c+1 {2,S}
 2 * N1sc u0 p2 c-1 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([13.9293,16.9258,19.3424,21.2949,24.3832,26.5987,29.7764],'J/(mol*K)'),
-        H298 = (26.8112,'kJ/mol'),
-        S298 = (66.5052,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2815,
-    label = "N1sc-N5dc-HO2d_2609",
-    group = 
-"""
-1   N5dc u0 p0 c+1 {2,S} {3,D} {4,S}
-2 * N1sc u0 p2 c-1 {1,S}
-3   O2d  u0 p2 c0 {1,D}
-4   H    u0 p0 c0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([28.8527,34.9952,40.1254,44.3061,50.8875,55.4821,61.6425],'J/(mol*K)'),
-        H298 = (50.1652,'kJ/mol'),
-        S298 = (117.84,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2816,
-    label = "N1sc-CtN5dc-HO2d_3071",
-    group = 
-"""
-1   N5dc u0 p0 c+1 {2,S} {3,D} {4,S}
-2 * N1sc u0 p2 c-1 {1,S} {5,S}
-3   O2d  u0 p2 c0 {1,D}
-4   H    u0 p0 c0 {1,S}
-5   Ct   u0 p0 c0 {2,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([13.8967,16.2584,17.9798,19.3301,21.478,22.9387,24.7319],'J/(mol*K)'),
-        H298 = (97.1173,'kJ/mol'),
-        S298 = (54.7192,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2817,
-    label = "N1sc-CtN5dc_3072",
-    group = 
-"""
-1 * N1sc u0 p2 c-1 {2,S} {3,S}
-2   N5dc u0 p0 c+1 {1,S}
-3   Ct   u0 p0 c0 {1,S}
 """,
     thermo = None,
     shortDesc = """""",
@@ -61578,8 +49173,8 @@ entry(
 )
 
 entry(
-    index = 2818,
-    label = "N1sc-O2s_3176",
+    index = 2298,
+    label = "N1sc-(O2s)",
     group = 
 """
 1   O2s  u0 p2 c0 {2,S}
@@ -61594,12 +49189,13 @@ entry(
 )
 
 entry(
-    index = 2819,
-    label = "N1sc-Cd_3121",
+    index = 2299,
+    label = "N1sc-(N3dN5dc)",
     group = 
 """
-1   Cd   u0 p0 c0 {2,S}
-2 * N1sc u0 p2 c-1 {1,S}
+1 * N1sc u0 p2 c-1 {2,S} {3,S}
+2   N5dc u0 p0 c+1 {1,S}
+3   N3d  u0 p1 c0 {1,S}
 """,
     thermo = None,
     shortDesc = """""",
@@ -61610,372 +49206,7 @@ entry(
 )
 
 entry(
-    index = 2820,
-    label = "N1sc-N3d_2921",
-    group = 
-"""
-1   N3d  u0 p1 c0 {2,S}
-2 * N1sc u0 p2 c-1 {1,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2821,
-    label = "N3t_2430",
-    group = 
-"""
-1 * N3t u0 p1 c0
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([8.78388,9.98371,11.1515,12.1815,13.8929,15.1229,16.8334],'J/(mol*K)'),
-        H298 = (14.5249,'kJ/mol'),
-        S298 = (45.8965,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2822,
-    label = "N3t-CtC",
-    group = 
-"""
-1   Ct  u0 {2,T} {3,S}
-2 * N3t u0 p1 {1,T}
-3   C   u0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([6.6319,7.85407,8.91885,9.96613,11.695,12.7308,14.4736],'J/(mol*K)'),
-        H298 = (6.28508,'kJ/mol'),
-        S298 = (29.1307,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2823,
-    label = "N3t-Ct-Cd_2350",
-    group = 
-"""
-1   Ct  u0 p0 c0 {2,T} {3,S}
-2 * N3t u0 p1 c0 {1,T}
-3   Cd  u0 p0 c0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([12.0111,13.502,14.9162,16.1506,18.1003,19.5413,21.5771],'J/(mol*K)'),
-        H298 = (34.5681,'kJ/mol'),
-        S298 = (61.4452,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2824,
-    label = "N3t-Ct-Cd-CdH_2816",
-    group = 
-"""
-1   Cd  u0 p0 c0 {2,S} {3,D} {4,S}
-2   Ct  u0 p0 c0 {1,S} {5,T}
-3   Cd  u0 p0 c0 {1,D}
-4   H   u0 p0 c0 {1,S}
-5 * N3t u0 p1 c0 {2,T}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([14.086,16.4214,18.321,19.9442,22.5573,24.3923,26.8502],'J/(mol*K)'),
-        H298 = (53.9745,'kJ/mol'),
-        S298 = (52.4275,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2825,
-    label = "N3t-Ct-CO_2352",
-    group = 
-"""
-1   Ct  u0 p0 c0 {2,T} {3,S}
-2 * N3t u0 p1 c0 {1,T}
-3   CO  u0 p0 c0 {1,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2826,
-    label = "N3t-Ct-CO-HO2d_2351",
-    group = 
-"""
-1   CO  u0 p0 c0 {2,S} {3,D} {4,S}
-2   Ct  u0 p0 c0 {1,S} {5,T}
-3   O2d u0 p2 c0 {1,D}
-4   H   u0 p0 c0 {1,S}
-5 * N3t u0 p1 c0 {2,T}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([21.6756,24.1989,26.3732,28.3183,31.4293,33.7612,37.135],'J/(mol*K)'),
-        H298 = (1.48397,'kJ/mol'),
-        S298 = (99.5828,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2827,
-    label = "N3t-Ct-Ct_2354",
-    group = 
-"""
-1   Ct  u0 p0 c0 {2,T} {3,S}
-2 * N3t u0 p1 c0 {1,T}
-3   Ct  u0 p0 c0 {1,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2828,
-    label = "N3t-Ct-Ct-Ct_2353",
-    group = 
-"""
-1   Ct  u0 p0 c0 {2,S} {3,T}
-2   Ct  u0 p0 c0 {1,S} {4,T}
-3 * N3t u0 p1 c0 {1,T}
-4   Ct  u0 p0 c0 {2,T}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-23.2306,-24.1262,-25.4301,-26.4391,-27.8605,-29.207,-31.6336],'J/(mol*K)'),
-        H298 = (-54.0817,'kJ/mol'),
-        S298 = (-81.4749,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2829,
-    label = "N3t-Ct-Ct-N5tc_3043",
-    group = 
-"""
-1   Ct   u0 p0 c0 {2,S} {3,T}
-2   Ct   u0 p0 c0 {1,S} {4,T}
-3 * N3t  u0 p1 c0 {1,T}
-4   N5tc u0 p0 c+1 {2,T}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([14.4094,14.6306,15.4012,15.753,16.1116,16.4785,17.4026],'J/(mol*K)'),
-        H298 = (99.778,'kJ/mol'),
-        S298 = (53.3068,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2830,
-    label = "N3t-Ct-Cs-CsHH_3132",
-    group = 
-"""
-1   Cs  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2   Ct  u0 p0 c0 {1,S} {6,T}
-3   Cs  u0 p0 c0 {1,S}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {1,S}
-6 * N3t u0 p1 c0 {2,T}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([11.5515,13.5376,15.3098,16.8962,19.6841,21.8022,25.0376],'J/(mol*K)'),
-        H298 = (22.9219,'kJ/mol'),
-        S298 = (36.3606,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2831,
-    label = "N3t-Ct-Cs-HHO2s_2459",
-    group = 
-"""
-1   Cs  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2   Ct  u0 p0 c0 {1,S} {6,T}
-3   O2s u0 p2 c0 {1,S}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {1,S}
-6 * N3t u0 p1 c0 {2,T}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([12.0159,14.9078,17.2486,19.1642,21.9964,23.8933,26.3039],'J/(mol*K)'),
-        H298 = (30.3135,'kJ/mol'),
-        S298 = (39.462,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2832,
-    label = "N3t-CtN",
-    group = 
-"""
-1   Ct  u0 {2,T} {3,S}
-2 * N3t u0 p1 {1,T}
-3   N   u0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([22.6625,26.2635,29.2653,31.8503,36.2471,39.5749,44.8613],'J/(mol*K)'),
-        H298 = (45.8631,'kJ/mol'),
-        S298 = (101.447,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2833,
-    label = "N3t-Ct-N3d-Cd_3235",
-    group = 
-"""
-1   Ct  u0 p0 c0 {2,S} {3,T}
-2   N3d u0 p1 c0 {1,S} {4,D}
-3 * N3t u0 p1 c0 {1,T}
-4   Cd  u0 p0 c0 {2,D}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2834,
-    label = "N3t-Ct-N3d_2945",
-    group = 
-"""
-1   Ct  u0 p0 c0 {2,T} {3,S}
-2 * N3t u0 p1 c0 {1,T}
-3   N3d u0 p1 c0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([11.2796,13.4118,15.2506,16.8517,19.4524,21.3588,24.1632],'J/(mol*K)'),
-        H298 = (36.7073,'kJ/mol'),
-        S298 = (53.2068,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2835,
-    label = "N3t-Ct-N1sc_3073",
-    group = 
-"""
-1   Ct   u0 p0 c0 {2,T} {3,S}
-2 * N3t  u0 p1 c0 {1,T}
-3   N1sc u0 p2 c-1 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([9.03004,9.81243,10.4839,11.116,12.1088,12.8534,13.9553],'J/(mol*K)'),
-        H298 = (40.7706,'kJ/mol'),
-        S298 = (50.9833,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2836,
-    label = "N3t-Ct-N3d-N3d_2944",
-    group = 
-"""
-1   Ct  u0 p0 c0 {2,S} {3,T}
-2   N3d u0 p1 c0 {1,S} {4,D}
-3 * N3t u0 p1 c0 {1,T}
-4   N3d u0 p1 c0 {2,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([11.4164,12.805,13.9813,15.0444,16.7511,17.9824,19.7082],'J/(mol*K)'),
-        H298 = (62.4937,'kJ/mol'),
-        S298 = (57.8271,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2837,
+    index = 2301,
     label = "N3t-CtH",
     group = 
 """
@@ -61997,54 +49228,20 @@ Calculated by subtracting the data for the Ct-CtCs group (Ct-Cs STEIN and FAHR; 
 )
 
 entry(
-    index = 2838,
-    label = "N3t-Ct",
-    group = 
-"""
-1 * N3t u0 p1 {2,T}
-2   Ct  u0 {1,T}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2839,
+    index = 2302,
     label = "N3t",
     group = 
 """
 1 * N3t u0 p1 {2,T}
 2   R!H u0 {1,T}
 """,
-    thermo = None,
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2840,
-    label = "N3t-Ct-O2s-Cs_3111",
-    group = 
-"""
-1   Ct  u0 p0 c0 {2,S} {3,T}
-2   O2s u0 p2 c0 {1,S} {4,S}
-3 * N3t u0 p1 c0 {1,T}
-4   Cs  u0 p0 c0 {2,S}
-""",
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([2.03169,4.14843,6.06508,8.10314,11.1315,13.4927,17.6644],'J/(mol*K)'),
-        H298 = (-29.3113,'kJ/mol'),
-        S298 = (3.44713,'J/(mol*K)'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (0,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
     ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
+    shortDesc = """""",
     longDesc = 
 """
 
@@ -62052,14 +49249,12 @@ entry(
 )
 
 entry(
-    index = 2841,
-    label = "N3t-Ct-O2s-H_2641",
+    index = 2303,
+    label = "N3t-(N3t)",
     group = 
 """
-1   Ct  u0 p0 c0 {2,S} {3,T}
-2   O2s u0 p2 c0 {1,S} {4,S}
-3 * N3t u0 p1 c0 {1,T}
-4   H   u0 p0 c0 {2,S}
+1   N3t u0 p1 c0 {2,T}
+2 * N3t u0 p1 c0 {1,T}
 """,
     thermo = None,
     shortDesc = """""",
@@ -62070,21 +49265,14 @@ entry(
 )
 
 entry(
-    index = 2842,
-    label = "N3t-CtO",
+    index = 2304,
+    label = "N5tc",
     group = 
 """
-1   Ct  u0 {2,T} {3,S}
-2 * N3t u0 p1 {1,T}
-3   O2s u0 {1,S}
+1 * N5tc u0
 """,
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([11.5226,12.2114,12.8594,13.3148,13.9585,14.4767,15.2487],'J/(mol*K)'),
-        H298 = (-18.622,'kJ/mol'),
-        S298 = (69.3851,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
+    thermo = None,
+    shortDesc = """""",
     longDesc = 
 """
 
@@ -62092,22 +49280,16 @@ entry(
 )
 
 entry(
-    index = 2843,
-    label = "N3t-Ct-O2s-O2s_2472",
+    index = 2306,
+    label = "N5tc-(CtO0sc)",
     group = 
 """
-1   Ct  u0 p0 c0 {2,S} {3,T}
-2   O2s u0 p2 c0 {1,S} {4,S}
-3 * N3t u0 p1 c0 {1,T}
-4   O2s u0 p2 c0 {2,S}
+1 * N5tc u0 p0 c+1 {2,T} {3,S}
+2   Ct   u0 p0 c0 {1,T}
+3   O0sc u0 p3 c-1 {1,S}
 """,
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([9.001,9.74701,9.99615,9.94564,10.3254,10.3381,9.79538],'J/(mol*K)'),
-        H298 = (71.3252,'kJ/mol'),
-        S298 = (29.6071,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
+    thermo = None,
+    shortDesc = """""",
     longDesc = 
 """
 
@@ -62115,20 +49297,14 @@ entry(
 )
 
 entry(
-    index = 2844,
-    label = "N3t-N3t_2429",
+    index = 2307,
+    label = "N5sc",
     group = 
 """
-1   N3t u0 p1 c0 {2,T}
-2 * N3t u0 p1 c0 {1,T}
+1 * N5sc u0 p0 c+1
 """,
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([14.5119,14.6168,14.7937,15.0348,15.6304,16.2048,17.2752],'J/(mol*K)'),
-        H298 = (6.40558e-05,'kJ/mol'),
-        S298 = (95.7267,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
+    thermo = None,
+    shortDesc = """""",
     longDesc = 
 """
 
@@ -62136,7 +49312,232 @@ entry(
 )
 
 entry(
-    index = 2845,
+    index = 2308,
+    label = "N5sc-(O0sc)",
+    group = 
+"""
+1 * N5sc u0 p0 c+1 {2,S}
+2 * O0sc u0 p3 c-1 {1,S}
+""",
+    thermo = None,
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 2309,
+    label = "N5sc-(CtHHO0sc)",
+    group = 
+"""
+1 * N5sc u0 p0 c+1 {2,S} {3,S} {4,S} {5,S}
+2   O0sc u0 p3 c-1 {1,S}
+3   Ct   u0 p0 c0 {1,S}
+4   H    u0 p0 c0 {1,S}
+5   H    u0 p0 c0 {1,S}
+""",
+    thermo = None,
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 2310,
+    label = "N5sc-(HHHO0sc)",
+    group = 
+"""
+1 * N5sc u0 p0 c+1 {2,S} {3,S} {4,S} {5,S}
+2   O0sc u0 p3 c-1 {1,S}
+3   H    u0 p0 c0 {1,S}
+4   H    u0 p0 c0 {1,S}
+5   H    u0 p0 c0 {1,S}
+""",
+    thermo = None,
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 2311,
+    label = "N5sc-(CsHO0scO2s)",
+    group = 
+"""
+1 * N5sc u0 p0 c+1 {2,S} {3,S} {4,S} {5,S}
+2   O2s  u0 p2 c0 {1,S}
+3   O0sc u0 p3 c-1 {1,S}
+4   Cs   u0 p0 c0 {1,S}
+5   H    u0 p0 c0 {1,S}
+""",
+    thermo = None,
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 2312,
+    label = "N5sc-(HHN1scO0sc)",
+    group = 
+"""
+1 * N5sc u0 p0 c+1 {2,S} {3,S} {4,S} {5,S}
+2   O0sc u0 p3 c-1 {1,S}
+3   N1sc u0 p2 c-1 {1,S}
+4   H    u0 p0 c0 {1,S}
+5   H    u0 p0 c0 {1,S}
+""",
+    thermo = None,
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 2313,
+    label = "N5sc-(HHN3dO0sc)",
+    group = 
+"""
+1 * N5sc u0 p0 c+1 {2,S} {3,S} {4,S} {5,S}
+2   O0sc u0 p3 c-1 {1,S}
+3   N3d  u0 p1 c0 {1,S}
+4   H    u0 p0 c0 {1,S}
+5   H    u0 p0 c0 {1,S}
+""",
+    thermo = None,
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 2314,
+    label = "N5sc-(HHO0scO2s)",
+    group = 
+"""
+1 * N5sc u0 p0 c+1 {2,S} {3,S} {4,S} {5,S}
+2   O2s  u0 p2 c0 {1,S}
+3   O0sc u0 p3 c-1 {1,S}
+4   H    u0 p0 c0 {1,S}
+5   H    u0 p0 c0 {1,S}
+""",
+    thermo = None,
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 2315,
+    label = "N5sc-(HN3sN3sO0sc)",
+    group = 
+"""
+1 * N5sc u0 p0 c+1 {2,S} {3,S} {4,S} {5,S}
+2   O0sc u0 p3 c-1 {1,S}
+3   N3s  u0 p1 c0 {1,S}
+4   N3s  u0 p1 c0 {1,S}
+5   H    u0 p0 c0 {1,S}
+""",
+    thermo = None,
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 2316,
+    label = "N5sc-(CdHHO0sc)",
+    group = 
+"""
+1 * N5sc u0 p0 c+1 {2,S} {3,S} {4,S} {5,S}
+2   O0sc u0 p3 c-1 {1,S}
+3   Cd   u0 p0 c0 {1,S}
+4   H    u0 p0 c0 {1,S}
+5   H    u0 p0 c0 {1,S}
+""",
+    thermo = None,
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 2317,
+    label = "N5sc-(COHHO0sc)",
+    group = 
+"""
+1 * N5sc u0 p0 c+1 {2,S} {3,S} {4,S} {5,S}
+2   O0sc u0 p3 c-1 {1,S}
+3   CO   u0 p0 c0 {1,S}
+4   H    u0 p0 c0 {1,S}
+5   H    u0 p0 c0 {1,S}
+""",
+    thermo = None,
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 2318,
+    label = "N5sc-(CsHHO0sc)",
+    group = 
+"""
+1 * N5sc u0 p0 c+1 {2,S} {3,S} {4,S} {5,S}
+2   O0sc u0 p3 c-1 {1,S}
+3   Cs   u0 p0 c0 {1,S}
+4   H    u0 p0 c0 {1,S}
+5   H    u0 p0 c0 {1,S}
+""",
+    thermo = None,
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 2319,
+    label = "N5sc-(HHN3sO0sc)",
+    group = 
+"""
+1 * N5sc u0 p0 c+1 {2,S} {3,S} {4,S} {5,S}
+2   O0sc u0 p3 c-1 {1,S}
+3   N3s  u0 p1 c0 {1,S}
+4   H    u0 p0 c0 {1,S}
+5   H    u0 p0 c0 {1,S}
+""",
+    thermo = None,
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 2320,
     label = "N0sc",
     group = 
 """
@@ -62152,7 +49553,7 @@ Nitrogen with three lone pairs and a single bond (e.g., [NH+]#[N+][N-2])
 )
 
 entry(
-    index = 2846,
+    index = 2321,
     label = "N1s",
     group = 
 """
@@ -62167,7 +49568,7 @@ Nitrogen with two lone pairs and a single bond
 )
 
 entry(
-    index = 2847,
+    index = 2322,
     label = "N1s-H",
     group = 
 """
@@ -62188,7 +49589,7 @@ Data base on species NH(S), source: GRIMech3.0-N
 )
 
 entry(
-    index = 2848,
+    index = 2323,
     label = "N1s-N1s",
     group = 
 """
@@ -62204,7 +49605,7 @@ Pointing to NH(S), so far no better alternative
 )
 
 entry(
-    index = 2849,
+    index = 2324,
     label = "N1s-Cs",
     group = 
 """
@@ -62228,7 +49629,7 @@ subtracting the Cs-N2sHHH group
 )
 
 entry(
-    index = 2850,
+    index = 2325,
     label = "N1s-N3s",
     group = 
 """
@@ -62251,7 +49652,7 @@ subtracting the N3s-N3sFF group
 )
 
 entry(
-    index = 2851,
+    index = 2326,
     label = "N1s-O2s",
     group = 
 """
@@ -62267,14 +49668,14 @@ Pointing to NH(S), so far no better alternative
 )
 
 entry(
-    index = 2852,
+    index = 2327,
     label = "N3s",
     group = 
 """
 1 * N3s u0
 """,
-    thermo = None,
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
+    thermo = 'N3s-CsHH',
+    shortDesc = """""",
     longDesc = 
 """
 
@@ -62282,12 +49683,14 @@ entry(
 )
 
 entry(
-    index = 2853,
-    label = "N3s-CO_3029",
+    index = 2328,
+    label = "N3s-(HHH)",
     group = 
 """
-1   CO  u0 p0 c0 {2,S}
-2 * N3s u0 p1 c0 {1,S}
+1 * N3s u0 p1 c0 {2,S} {3,S} {4,S}
+2   H   u0 p0 c0 {1,S}
+3   H   u0 p0 c0 {1,S}
+4   H   u0 p0 c0 {1,S}
 """,
     thermo = None,
     shortDesc = """""",
@@ -62298,7 +49701,41 @@ entry(
 )
 
 entry(
-    index = 2854,
+    index = 2329,
+    label = "N3s-(HN1scO2s)",
+    group = 
+"""
+1 * N3s  u0 p1 c0 {2,S} {3,S} {4,S}
+2   O2s  u0 p2 c0 {1,S}
+3   N1sc u0 p2 c-1 {1,S}
+4   H    u0 p0 c0 {1,S}
+""",
+    thermo = None,
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 2330,
+    label = "N3s-(CO)",
+    group = 
+"""
+1   CO  u0 {2,S}
+2 * N3s u0 {1,S}
+""",
+    thermo = None,
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 2331,
     label = "N3s-(CO)(CO)Cb",
     group = 
 """
@@ -62323,7 +49760,7 @@ entry(
 )
 
 entry(
-    index = 2855,
+    index = 2332,
     label = "N3s-(CO)(CO)Cs",
     group = 
 """
@@ -62348,7 +49785,7 @@ entry(
 )
 
 entry(
-    index = 2856,
+    index = 2333,
     label = "N3s-(CO)CsCs",
     group = 
 """
@@ -62372,7 +49809,7 @@ entry(
 )
 
 entry(
-    index = 2857,
+    index = 2334,
     label = "N3s-(CO)(CO)H",
     group = 
 """
@@ -62397,7 +49834,7 @@ entry(
 )
 
 entry(
-    index = 2858,
+    index = 2335,
     label = "N3s-(CO)CbH",
     group = 
 """
@@ -62421,7 +49858,7 @@ entry(
 )
 
 entry(
-    index = 2859,
+    index = 2336,
     label = "N3s-(CO)CsH",
     group = 
 """
@@ -62445,7 +49882,7 @@ entry(
 )
 
 entry(
-    index = 2860,
+    index = 2337,
     label = "N3s-(CO)HH",
     group = 
 """
@@ -62469,51 +49906,8 @@ entry(
 )
 
 entry(
-    index = 2861,
-    label = "N3s-COHH-HO2d_3009",
-    group = 
-"""
-1   CO  u0 p0 c0 {2,S} {5,D} {6,S}
-2 * N3s u0 p1 c0 {1,S} {3,S} {4,S}
-3   H   u0 p0 c0 {2,S}
-4   H   u0 p0 c0 {2,S}
-5   O2d u0 p2 c0 {1,D}
-6   H   u0 p0 c0 {1,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2862,
-    label = "N3s-COHH_3010",
-    group = 
-"""
-1 * N3s u0 p1 c0 {2,S} {3,S} {4,S}
-2   CO  u0 p0 c0 {1,S}
-3   H   u0 p0 c0 {1,S}
-4   H   u0 p0 c0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0.323672,1.07938,1.62697,2.2574,2.83906,3.91636,6.41359],'J/(mol*K)'),
-        H298 = (9.41662,'kJ/mol'),
-        S298 = (-48.4477,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2863,
-    label = "N3s-COHN3s_3249",
+    index = 2339,
+    label = "N3s-(COHN3s)",
     group = 
 """
 1 * N3s u0 p1 c0 {2,S} {3,S} {4,S}
@@ -62530,35 +49924,8 @@ entry(
 )
 
 entry(
-    index = 2864,
-    label = "N3s-COHN3s-HHHO2d_3248",
-    group = 
-"""
-1 * N3s u0 p1 c0 {2,S} {3,S} {4,S}
-2   N3s u0 p1 c0 {1,S} {5,S} {6,S}
-3   CO  u0 p0 c0 {1,S} {7,D} {8,S}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {2,S}
-6   H   u0 p0 c0 {2,S}
-7   O2d u0 p2 c0 {3,D}
-8   H   u0 p0 c0 {3,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-8.85252,-9.44066,-9.59156,-9.03045,-8.07359,-7.44346,-6.45085],'J/(mol*K)'),
-        H298 = (77.4358,'kJ/mol'),
-        S298 = (-139.202,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2865,
-    label = "N3s-COHO2s_3080",
+    index = 2340,
+    label = "N3s-(COHO2s)",
     group = 
 """
 1 * N3s u0 p1 c0 {2,S} {3,S} {4,S}
@@ -62575,1200 +49942,8 @@ entry(
 )
 
 entry(
-    index = 2866,
-    label = "N3s-COHO2s-HHO2d_3079",
-    group = 
-"""
-1 * N3s u0 p1 c0 {2,S} {3,S} {4,S}
-2   CO  u0 p0 c0 {1,S} {5,D} {6,S}
-3   O2s u0 p2 c0 {1,S} {7,S}
-4   H   u0 p0 c0 {1,S}
-5   O2d u0 p2 c0 {2,D}
-6   H   u0 p0 c0 {2,S}
-7   H   u0 p0 c0 {3,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-10.2886,-9.3992,-9.18308,-9.13908,-9.64283,-9.75088,-9.84677],'J/(mol*K)'),
-        H298 = (53.6978,'kJ/mol'),
-        S298 = (-109.955,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2867,
-    label = "N3s-O2s_2477",
-    group = 
-"""
-1   O2s u0 p2 c0 {2,S}
-2 * N3s u0 p1 c0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([26.9218,33.33,38.8927,43.7458,51.5228,57.2881,66.0966],'J/(mol*K)'),
-        H298 = (-11.7343,'kJ/mol'),
-        S298 = (89.7954,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2868,
-    label = "N3s-OsHH",
-    group = 
-"""
-1 * N3s u0 {2,S} {3,S} {4,S}
-2   O2s u0 {1,S}
-3   H   u0 {1,S}
-4   H   u0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([6.1,7.4,8.4,9.3,10.5,11.5,13.2],'cal/(mol*K)'),
-        H298 = (11.4,'kcal/mol'),
-        S298 = (29.1,'cal/(mol*K)'),
-    ),
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2869,
-    label = "N3s-O2s-N3s-Cs_2475",
-    group = 
-"""
-1   O2s u0 p2 c0 {2,S} {3,S}
-2   N3s u0 p1 c0 {1,S} {4,S}
-3 * N3s u0 p1 c0 {1,S}
-4   Cs  u0 p0 c0 {2,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([14.3086,17.6215,20.7504,23.5277,28.3294,32.0646,37.7409],'J/(mol*K)'),
-        H298 = (-11.4285,'kJ/mol'),
-        S298 = (62.9478,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2870,
-    label = "N3s-O2s-N3s-HN3s_3163",
-    group = 
-"""
-1   N3s u0 p1 c0 {2,S} {3,S} {4,S}
-2   O2s u0 p2 c0 {1,S} {5,S}
-3   N3s u0 p1 c0 {1,S}
-4   H   u0 p0 c0 {1,S}
-5 * N3s u0 p1 c0 {2,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([10.3262,12.8557,14.8202,16.4555,19.0147,20.8586,23.5979],'J/(mol*K)'),
-        H298 = (47.2016,'kJ/mol'),
-        S298 = (30.1012,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2871,
-    label = "N3s-O2s-O2s-Cs_2806",
-    group = 
-"""
-1   O2s u0 p2 c0 {2,S} {3,S}
-2   O2s u0 p2 c0 {1,S} {4,S}
-3 * N3s u0 p1 c0 {1,S}
-4   Cs  u0 p0 c0 {2,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([11.5688,14.1548,17.1282,19.8567,24.3224,27.6796,32.6696],'J/(mol*K)'),
-        H298 = (-4.08422,'kJ/mol'),
-        S298 = (34.641,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2872,
-    label = "N3s-HHO2s-O2s-N3s_3226",
-    group = 
-"""
-1 * N3s u0 p1 c0 {2,S} {4,S} {5,S}
-2   O2s u0 p2 c0 {1,S} {3,S}
-3   O2s u0 p2 c0 {2,S} {6,S}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {1,S}
-6   N3s u0 p1 c0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2873,
-    label = "N3s-O2s-O2s-N3s_3227",
-    group = 
-"""
-1   O2s u0 p2 c0 {2,S} {3,S}
-2   O2s u0 p2 c0 {1,S} {4,S}
-3 * N3s u0 p1 c0 {1,S}
-4   N3s u0 p1 c0 {2,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([7.97531,9.29648,10.22,11.0685,12.4399,13.4631,15.0473],'J/(mol*K)'),
-        H298 = (36.6794,'kJ/mol'),
-        S298 = (22.822,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2874,
-    label = "N3s-HHO2s-Ct_2401",
-    group = 
-"""
-1 * N3s u0 p1 c0 {2,S} {3,S} {4,S}
-2   O2s u0 p2 c0 {1,S} {5,S}
-3   H   u0 p0 c0 {1,S}
-4   H   u0 p0 c0 {1,S}
-5   Ct  u0 p0 c0 {2,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2875,
-    label = "N3s-HHO2s-Ct-N3t_2400",
-    group = 
-"""
-1 * N3s u0 p1 c0 {2,S} {4,S} {5,S}
-2   O2s u0 p2 c0 {1,S} {3,S}
-3   Ct  u0 p0 c0 {2,S} {6,T}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {1,S}
-6   N3t u0 p1 c0 {3,T}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([8.78388,9.98371,11.1515,12.1815,13.8929,15.1229,16.8334],'J/(mol*K)'),
-        H298 = (14.5249,'kJ/mol'),
-        S298 = (45.8965,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2876,
-    label = "N3s-HHO2s-Ct-Ct_3223",
-    group = 
-"""
-1 * N3s u0 p1 c0 {2,S} {4,S} {5,S}
-2   O2s u0 p2 c0 {1,S} {3,S}
-3   Ct  u0 p0 c0 {2,S} {6,T}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {1,S}
-6   Ct  u0 p0 c0 {3,T}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([14.6682,16.6754,18.309,19.761,22.2027,24.0373,26.8732],'J/(mol*K)'),
-        H298 = (67.4564,'kJ/mol'),
-        S298 = (51.3958,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2877,
-    label = "N3s-HHO2s-Ct-N5tc_2863",
-    group = 
-"""
-1 * N3s  u0 p1 c0 {2,S} {4,S} {5,S}
-2   O2s  u0 p2 c0 {1,S} {3,S}
-3   Ct   u0 p0 c0 {2,S} {6,T}
-4   H    u0 p0 c0 {1,S}
-5   H    u0 p0 c0 {1,S}
-6   N5tc u0 p0 c+1 {3,T}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-0.721183,-0.796356,-1.15535,-1.63454,-2.91437,-3.88094,-5.20765],'J/(mol*K)'),
-        H298 = (-11.2525,'kJ/mol'),
-        S298 = (-6.01464,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2878,
-    label = "N3s-HHO2s-N1sc_3172",
-    group = 
-"""
-1 * N3s  u0 p1 c0 {2,S} {3,S} {4,S}
-2   O2s  u0 p2 c0 {1,S} {5,S}
-3   H    u0 p0 c0 {1,S}
-4   H    u0 p0 c0 {1,S}
-5   N1sc u0 p2 c-1 {2,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2879,
-    label = "N3s-HHO2s-N1sc-N5dc_3171",
-    group = 
-"""
-1 * N3s  u0 p1 c0 {2,S} {4,S} {5,S}
-2   O2s  u0 p2 c0 {1,S} {3,S}
-3   N1sc u0 p2 c-1 {2,S} {6,S}
-4   H    u0 p0 c0 {1,S}
-5   H    u0 p0 c0 {1,S}
-6   N5dc u0 p0 c+1 {3,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([9.42602,10.3285,10.9941,11.3632,11.6094,12.2346,13.5731],'J/(mol*K)'),
-        H298 = (89.6233,'kJ/mol'),
-        S298 = (37.6453,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2880,
-    label = "N3s-O2s-Cs-HHN3s_3292",
-    group = 
-"""
-1   Cs  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2   O2s u0 p2 c0 {1,S} {6,S}
-3   N3s u0 p1 c0 {1,S}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {1,S}
-6 * N3s u0 p1 c0 {2,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([8.44463,9.9531,11.1534,12.2202,13.8704,15.3069,17.6631],'J/(mol*K)'),
-        H298 = (36.5715,'kJ/mol'),
-        S298 = (35.4434,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2881,
-    label = "N3s-O2s-Cs-HHO2s_3263",
-    group = 
-"""
-1   Cs  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2   O2s u0 p2 c0 {1,S} {6,S}
-3   O2s u0 p2 c0 {1,S}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {1,S}
-6 * N3s u0 p1 c0 {2,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([8.36242,11.7153,14.4891,16.7938,20.372,22.8513,26.1649],'J/(mol*K)'),
-        H298 = (-12.4008,'kJ/mol'),
-        S298 = (14.7069,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2882,
-    label = "N3s-HHO2s-O2s-O2s_3189",
-    group = 
-"""
-1 * N3s u0 p1 c0 {2,S} {4,S} {5,S}
-2   O2s u0 p2 c0 {1,S} {3,S}
-3   O2s u0 p2 c0 {2,S} {6,S}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {1,S}
-6   O2s u0 p2 c0 {3,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([8.9961,10.596,11.3429,11.8031,12.4357,12.7913,13.1187],'J/(mol*K)'),
-        H298 = (11.7399,'kJ/mol'),
-        S298 = (30.3999,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2883,
-    label = "N3s-HHO2s-N3s-HH_3179",
-    group = 
-"""
-1 * N3s u0 p1 c0 {3,S} {4,S} {5,S}
-2   N3s u0 p1 c0 {3,S} {6,S} {7,S}
-3   O2s u0 p2 c0 {1,S} {2,S}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {1,S}
-6   H   u0 p0 c0 {2,S}
-7   H   u0 p0 c0 {2,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2884,
-    label = "N3s-HHO2s-N3s_3180",
-    group = 
-"""
-1 * N3s u0 p1 c0 {2,S} {3,S} {4,S}
-2   O2s u0 p2 c0 {1,S} {5,S}
-3   H   u0 p0 c0 {1,S}
-4   H   u0 p0 c0 {1,S}
-5   N3s u0 p1 c0 {2,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([15.0642,16.9682,18.6923,20.2514,22.8102,24.8079,28.1361],'J/(mol*K)'),
-        H298 = (35.434,'kJ/mol'),
-        S298 = (67.9585,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2885,
-    label = "N3s-HHO2s-O2s-H_3146",
-    group = 
-"""
-1 * N3s u0 p1 c0 {2,S} {4,S} {5,S}
-2   O2s u0 p2 c0 {1,S} {3,S}
-3   O2s u0 p2 c0 {2,S} {6,S}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {1,S}
-6   H   u0 p0 c0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2886,
-    label = "N3s-HHO2s-O2s_3147",
-    group = 
-"""
-1 * N3s u0 p1 c0 {2,S} {3,S} {4,S}
-2   O2s u0 p2 c0 {1,S} {5,S}
-3   H   u0 p0 c0 {1,S}
-4   H   u0 p0 c0 {1,S}
-5   O2s u0 p2 c0 {2,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([3.66059,3.58676,3.3011,2.98529,2.5214,2.24482,2.11388],'J/(mol*K)'),
-        H298 = (-14.7346,'kJ/mol'),
-        S298 = (37.5405,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2887,
-    label = "N3s-HHO2s-N3d-N3d_3123",
-    group = 
-"""
-1 * N3s u0 p1 c0 {2,S} {4,S} {5,S}
-2   O2s u0 p2 c0 {1,S} {3,S}
-3   N3d u0 p1 c0 {2,S} {6,D}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {1,S}
-6   N3d u0 p1 c0 {3,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([10.0023,11.9291,13.3835,14.5322,16.3242,17.589,19.3659],'J/(mol*K)'),
-        H298 = (51.1873,'kJ/mol'),
-        S298 = (45.285,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2888,
-    label = "N3s-HHO2s-N3d-O2d_3075",
-    group = 
-"""
-1 * N3s u0 p1 c0 {2,S} {4,S} {5,S}
-2   O2s u0 p2 c0 {1,S} {3,S}
-3   N3d u0 p1 c0 {2,S} {6,D}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {1,S}
-6   O2d u0 p2 c0 {3,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-6.15558,-7.01147,-7.03314,-6.27357,-4.86221,-3.10541,-0.443205],'J/(mol*K)'),
-        H298 = (65.5397,'kJ/mol'),
-        S298 = (-39.9783,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2889,
-    label = "N3s-O2s-Cd-N5dc_2970",
-    group = 
-"""
-1   O2s  u0 p2 c0 {2,S} {3,S}
-2   Cd   u0 p0 c0 {1,S} {4,D}
-3 * N3s  u0 p1 c0 {1,S}
-4   N5dc u0 p0 c+1 {2,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([3.96035,4.25603,4.00033,3.76793,3.13941,2.74184,2.42012],'J/(mol*K)'),
-        H298 = (29.8128,'kJ/mol'),
-        S298 = (14.9017,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2890,
-    label = "N3s-O2s-Cd-CdH_2938",
-    group = 
-"""
-1   Cd  u0 p0 c0 {2,S} {3,D} {4,S}
-2   O2s u0 p2 c0 {1,S} {5,S}
-3   Cd  u0 p0 c0 {1,D}
-4   H   u0 p0 c0 {1,S}
-5 * N3s u0 p1 c0 {2,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2891,
-    label = "N3s-O2s-Cd_2745",
-    group = 
-"""
-1   O2s u0 p2 c0 {2,S} {3,S}
-2 * N3s u0 p1 c0 {1,S}
-3   Cd  u0 p0 c0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([7.23877,8.37849,9.47858,10.4364,11.9367,13.068,14.6945],'J/(mol*K)'),
-        H298 = (30.7135,'kJ/mol'),
-        S298 = (20.6775,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2892,
-    label = "N3s-O2s-Cs-CsHH_2877",
-    group = 
-"""
-1   Cs  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2   O2s u0 p2 c0 {1,S} {6,S}
-3   Cs  u0 p0 c0 {1,S}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {1,S}
-6 * N3s u0 p1 c0 {2,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([9.28182,11.0452,13.2082,15.1538,18.5757,21.1336,24.9941],'J/(mol*K)'),
-        H298 = (5.29347,'kJ/mol'),
-        S298 = (16.0505,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2893,
-    label = "N3s-HHO2s-CO-HO2d_2775",
-    group = 
-"""
-1 * N3s u0 p1 c0 {3,S} {4,S} {5,S}
-2   CO  u0 p0 c0 {3,S} {6,D} {7,S}
-3   O2s u0 p2 c0 {1,S} {2,S}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {1,S}
-6   O2d u0 p2 c0 {2,D}
-7   H   u0 p0 c0 {2,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2894,
-    label = "N3s-HHO2s-CO_2776",
-    group = 
-"""
-1 * N3s u0 p1 c0 {2,S} {3,S} {4,S}
-2   O2s u0 p2 c0 {1,S} {5,S}
-3   H   u0 p0 c0 {1,S}
-4   H   u0 p0 c0 {1,S}
-5   CO  u0 p0 c0 {2,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([11.8731,13.6018,15.1182,16.4484,18.6293,20.2378,22.5807],'J/(mol*K)'),
-        H298 = (-81.0573,'kJ/mol'),
-        S298 = (71.2256,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2895,
-    label = "N3s-O2s-Cd-HN3d_2744",
-    group = 
-"""
-1   Cd  u0 p0 c0 {2,S} {3,D} {4,S}
-2   O2s u0 p2 c0 {1,S} {5,S}
-3   N3d u0 p1 c0 {1,D}
-4   H   u0 p0 c0 {1,S}
-5 * N3s u0 p1 c0 {2,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([11.234,12.9171,14.7285,16.6384,19.8829,22.005,25.3357],'J/(mol*K)'),
-        H298 = (62.1393,'kJ/mol'),
-        S298 = (39.2731,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2896,
-    label = "N3s-O2s-Cs-HHH_2613",
-    group = 
-"""
-1   Cs  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2   O2s u0 p2 c0 {1,S} {6,S}
-3   H   u0 p0 c0 {1,S}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {1,S}
-6 * N3s u0 p1 c0 {2,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2897,
-    label = "N3s-O2s-Cs_2614",
-    group = 
-"""
-1   O2s u0 p2 c0 {2,S} {3,S}
-2 * N3s u0 p1 c0 {1,S}
-3   Cs  u0 p0 c0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([21.1841,25.2083,29.2573,32.8714,38.8463,43.4225,50.5738],'J/(mol*K)'),
-        H298 = (-8.70852,'kJ/mol'),
-        S298 = (88.274,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2898,
-    label = "N3s-HHO2s-N3d-Cd_2525",
-    group = 
-"""
-1 * N3s u0 p1 c0 {2,S} {4,S} {5,S}
-2   O2s u0 p2 c0 {1,S} {3,S}
-3   N3d u0 p1 c0 {2,S} {6,D}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {1,S}
-6   Cd  u0 p0 c0 {3,D}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2899,
-    label = "N3s-HHO2s-N3d_2526",
-    group = 
-"""
-1 * N3s u0 p1 c0 {2,S} {3,S} {4,S}
-2   O2s u0 p2 c0 {1,S} {5,S}
-3   H   u0 p0 c0 {1,S}
-4   H   u0 p0 c0 {1,S}
-5   N3d u0 p1 c0 {2,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([13.2716,15.7165,17.9648,19.9766,23.2488,25.6944,29.3593],'J/(mol*K)'),
-        H298 = (21.6467,'kJ/mol'),
-        S298 = (49.0529,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2900,
-    label = "N3s-HN3sO2s-HHO2s-H_2387",
-    group = 
-"""
-1   N3s u0 p1 c0 {2,S} {4,S} {6,S}
-2 * N3s u0 p1 c0 {1,S} {3,S} {5,S}
-3   O2s u0 p2 c0 {2,S} {7,S}
-4   O2s u0 p2 c0 {1,S} {8,S}
-5   H   u0 p0 c0 {2,S}
-6   H   u0 p0 c0 {1,S}
-7   H   u0 p0 c0 {3,S}
-8   H   u0 p0 c0 {4,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2901,
-    label = "N3s-HN3sO2s-HHO2s_2388",
-    group = 
-"""
-1 * N3s u0 p1 c0 {2,S} {3,S} {4,S}
-2   N3s u0 p1 c0 {1,S} {5,S} {6,S}
-3   O2s u0 p2 c0 {1,S} {7,S}
-4   H   u0 p0 c0 {1,S}
-5   O2s u0 p2 c0 {2,S}
-6   H   u0 p0 c0 {2,S}
-7   H   u0 p0 c0 {3,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([11.3556,13.9385,15.7115,16.852,18.4481,19.4118,20.6412],'J/(mol*K)'),
-        H298 = (-5.04101,'kJ/mol'),
-        S298 = (31.9836,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2902,
-    label = "N3s-CsCsOs",
-    group = 
-"""
-1 * N3s u0 {2,S} {3,S} {4,S}
-2   Cs  u0 {1,S}
-3   Cs  u0 {1,S}
-4   O2s u0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([4.3,5.1,5.7,6.2,7,7.3,7.5],'cal/(mol*K)','+|-',[0.8,0.8,0.8,0.8,0.8,0.8,0.8]),
-        H298 = (26.6,'kcal/mol','+|-',1.2),
-        S298 = (-12.7,'cal/(mol*K)','+|-',1.1),
-    ),
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2903,
-    label = "N3s-HN3sO2s-HHH_3243",
-    group = 
-"""
-1 * N3s u0 p1 c0 {2,S} {3,S} {4,S}
-2   N3s u0 p1 c0 {1,S} {5,S} {6,S}
-3   O2s u0 p2 c0 {1,S} {7,S}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {2,S}
-6   H   u0 p0 c0 {2,S}
-7   H   u0 p0 c0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2904,
-    label = "N3s-HN3sO2s_2389",
-    group = 
-"""
-1 * N3s u0 p1 c0 {2,S} {3,S} {4,S}
-2   O2s u0 p2 c0 {1,S}
-3   N3s u0 p1 c0 {1,S}
-4   H   u0 p0 c0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([9.60853,11.1328,12.9032,14.5779,17.3588,19.421,22.7483],'J/(mol*K)'),
-        H298 = (-16.2353,'kJ/mol'),
-        S298 = (53.471,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2905,
-    label = "N3s-HN1scO2s_3230",
-    group = 
-"""
-1 * N3s  u0 p1 c0 {2,S} {3,S} {4,S}
-2   O2s  u0 p2 c0 {1,S}
-3   N1sc u0 p2 c-1 {1,S}
-4   H    u0 p0 c0 {1,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2906,
-    label = "N3s-HN1scO2s-HN5dc_3229",
-    group = 
-"""
-1 * N3s  u0 p1 c0 {2,S} {3,S} {4,S}
-2   O2s  u0 p2 c0 {1,S} {5,S}
-3   N1sc u0 p2 c-1 {1,S} {6,S}
-4   H    u0 p0 c0 {1,S}
-5   H    u0 p0 c0 {2,S}
-6   N5dc u0 p0 c+1 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2907,
-    label = "N3s-HN1scO2s-HN5dc-HO2d_3228",
-    group = 
-"""
-1 * N3s  u0 p1 c0 {3,S} {4,S} {5,S}
-2   N5dc u0 p0 c+1 {3,S} {6,D} {7,S}
-3   N1sc u0 p2 c-1 {1,S} {2,S}
-4   O2s  u0 p2 c0 {1,S} {8,S}
-5   H    u0 p0 c0 {1,S}
-6   O2d  u0 p2 c0 {2,D}
-7   H    u0 p0 c0 {2,S}
-8   H    u0 p0 c0 {4,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0.0949913,-0.640394,-1.37686,-1.99581,-2.85682,-3.13067,-3.03298],'J/(mol*K)'),
-        H298 = (37.0751,'kJ/mol'),
-        S298 = (22.3831,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2908,
-    label = "N3s-CdHO2s_3122",
-    group = 
-"""
-1 * N3s u0 p1 c0 {2,S} {3,S} {4,S}
-2   O2s u0 p2 c0 {1,S}
-3   Cd  u0 p0 c0 {1,S}
-4   H   u0 p0 c0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([12.3059,14.8439,16.9487,18.7102,21.5951,23.6126,26.6007],'J/(mol*K)'),
-        H298 = (-2.1658,'kJ/mol'),
-        S298 = (40.3582,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2909,
-    label = "N3s-CdHO2s-HHN3d_3121",
-    group = 
-"""
-1 * N3s u0 p1 c0 {2,S} {3,S} {4,S}
-2   Cd  u0 p0 c0 {1,S} {5,D} {6,S}
-3   O2s u0 p2 c0 {1,S} {7,S}
-4   H   u0 p0 c0 {1,S}
-5   N3d u0 p1 c0 {2,D}
-6   H   u0 p0 c0 {2,S}
-7   H   u0 p0 c0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2910,
-    label = "N3s-CdHO2s-HHN3d-H_3120",
-    group = 
-"""
-1   Cd  u0 p0 c0 {2,S} {4,D} {6,S}
-2 * N3s u0 p1 c0 {1,S} {3,S} {5,S}
-3   O2s u0 p2 c0 {2,S} {7,S}
-4   N3d u0 p1 c0 {1,D} {8,S}
-5   H   u0 p0 c0 {2,S}
-6   H   u0 p0 c0 {1,S}
-7   H   u0 p0 c0 {3,S}
-8   H   u0 p0 c0 {4,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0.234419,0.302323,0.0431903,-0.514326,-1.68491,-2.58222,-4.39482],'J/(mol*K)'),
-        H298 = (17.3408,'kJ/mol'),
-        S298 = (10.6445,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2911,
-    label = "N3s-O2s-O2s_2807",
-    group = 
-"""
-1   O2s u0 p2 c0 {2,S} {3,S}
-2 * N3s u0 p1 c0 {1,S}
-3   O2s u0 p2 c0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([14.7405,17.385,19.9281,22.2655,26.0422,28.9028,33.2446],'J/(mol*K)'),
-        H298 = (3.04327,'kJ/mol'),
-        S298 = (48.9135,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2912,
-    label = "N3s-HO2sO2s-HO2s-H_2630",
-    group = 
-"""
-1 * N3s u0 p1 c0 {2,S} {3,S} {5,S}
-2   O2s u0 p2 c0 {1,S} {4,S}
-3   O2s u0 p2 c0 {1,S} {6,S}
-4   O2s u0 p2 c0 {2,S} {7,S}
-5   H   u0 p0 c0 {1,S}
-6   H   u0 p0 c0 {3,S}
-7   H   u0 p0 c0 {4,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2913,
-    label = "N3s-HO2sO2s-HO2s_2631",
-    group = 
-"""
-1 * N3s u0 p1 c0 {2,S} {3,S} {4,S}
-2   O2s u0 p2 c0 {1,S} {5,S}
-3   O2s u0 p2 c0 {1,S} {6,S}
-4   H   u0 p0 c0 {1,S}
-5   O2s u0 p2 c0 {2,S}
-6   H   u0 p0 c0 {3,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-3.11915,-3.98705,-5.67603,-7.62658,-10.9805,-13.5967,-17.8153],'J/(mol*K)'),
-        H298 = (-4.41131,'kJ/mol'),
-        S298 = (-9.27086,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2914,
-    label = "N3s-HN3sO2s-HHO2s_3036",
-    group = 
-"""
-1 * N3s u0 p1 c0 {2,S} {3,S} {4,S}
-2   N3s u0 p1 c0 {1,S} {5,S} {6,S}
-3   O2s u0 p2 c0 {1,S} {7,S}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {2,S}
-6   H   u0 p0 c0 {2,S}
-7   O2s u0 p2 c0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2915,
-    label = "N3s-HN3sO2s-HHO2s-H_3035",
-    group = 
-"""
-1 * N3s u0 p1 c0 {2,S} {3,S} {5,S}
-2   N3s u0 p1 c0 {1,S} {6,S} {7,S}
-3   O2s u0 p2 c0 {1,S} {4,S}
-4   O2s u0 p2 c0 {3,S} {8,S}
-5   H   u0 p0 c0 {1,S}
-6   H   u0 p0 c0 {2,S}
-7   H   u0 p0 c0 {2,S}
-8   H   u0 p0 c0 {4,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([5.67259,6.4762,6.50494,6.29247,5.85657,5.5478,5.00327],'J/(mol*K)'),
-        H298 = (20.8951,'kJ/mol'),
-        S298 = (18.97,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2916,
-    label = "N3s-N3sN3sO2s_2798",
-    group = 
-"""
-1 * N3s u0 p1 c0 {2,S} {3,S} {4,S}
-2   O2s u0 p2 c0 {1,S}
-3   N3s u0 p1 c0 {1,S}
-4   N3s u0 p1 c0 {1,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2917,
-    label = "N3s-N3sN3sO2s-HHHHH_2797",
-    group = 
-"""
-1 * N3s u0 p1 c0 {2,S} {3,S} {4,S}
-2   N3s u0 p1 c0 {1,S} {5,S} {6,S}
-3   N3s u0 p1 c0 {1,S} {7,S} {8,S}
-4   O2s u0 p2 c0 {1,S} {9,S}
-5   H   u0 p0 c0 {2,S}
-6   H   u0 p0 c0 {2,S}
-7   H   u0 p0 c0 {3,S}
-8   H   u0 p0 c0 {3,S}
-9   H   u0 p0 c0 {4,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([8.79525,10.893,12.572,13.8769,15.9673,17.5044,19.8746],'J/(mol*K)'),
-        H298 = (25.1317,'kJ/mol'),
-        S298 = (36.1574,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2918,
-    label = "N3s-HN3dO2s_2764",
+    index = 2341,
+    label = "N3s-(HN3dO2s)",
     group = 
 """
 1 * N3s u0 p1 c0 {2,S} {3,S} {4,S}
@@ -63785,126 +49960,8 @@ entry(
 )
 
 entry(
-    index = 2919,
-    label = "N3s-HN3dO2s-CdH_2921",
-    group = 
-"""
-1 * N3s u0 p1 c0 {2,S} {3,S} {4,S}
-2   O2s u0 p2 c0 {1,S} {5,S}
-3   N3d u0 p1 c0 {1,S} {6,D}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {2,S}
-6   Cd  u0 p0 c0 {3,D}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2920,
-    label = "N3s-HN3dO2s-CdH-HH_2920",
-    group = 
-"""
-1 * N3s u0 p1 c0 {3,S} {4,S} {5,S}
-2   Cd  u0 p0 c0 {3,D} {6,S} {7,S}
-3   N3d u0 p1 c0 {1,S} {2,D}
-4   O2s u0 p2 c0 {1,S} {8,S}
-5   H   u0 p0 c0 {1,S}
-6   H   u0 p0 c0 {2,S}
-7   H   u0 p0 c0 {2,S}
-8   H   u0 p0 c0 {4,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([14.266,17.1972,19.8555,22.1526,25.8654,28.6358,32.8197],'J/(mol*K)'),
-        H298 = (31.104,'kJ/mol'),
-        S298 = (62.6515,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2921,
-    label = "N3s-HN3dO2s-HO2d_2766",
-    group = 
-"""
-1 * N3s u0 p1 c0 {2,S} {3,S} {4,S}
-2   O2s u0 p2 c0 {1,S} {5,S}
-3   N3d u0 p1 c0 {1,S} {6,D}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {2,S}
-6   O2d u0 p2 c0 {3,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([3.50682,4.05582,4.2515,4.25168,4.17428,3.99506,3.42098],'J/(mol*K)'),
-        H298 = (-23.1277,'kJ/mol'),
-        S298 = (9.56642,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2922,
-    label = "N3s-HN3dO2s-HN3d_2763",
-    group = 
-"""
-1 * N3s u0 p1 c0 {2,S} {3,S} {4,S}
-2   O2s u0 p2 c0 {1,S} {5,S}
-3   N3d u0 p1 c0 {1,S} {6,D}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {2,S}
-6   N3d u0 p1 c0 {3,D}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2923,
-    label = "N3s-HN3dO2s-HN3d-H_2762",
-    group = 
-"""
-1 * N3s u0 p1 c0 {2,S} {3,S} {5,S}
-2   N3d u0 p1 c0 {1,S} {4,D}
-3   O2s u0 p2 c0 {1,S} {6,S}
-4   N3d u0 p1 c0 {2,D} {7,S}
-5   H   u0 p0 c0 {1,S}
-6   H   u0 p0 c0 {3,S}
-7   H   u0 p0 c0 {4,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([4.65404,6.15499,7.27008,8.09236,9.22294,9.87531,10.5265],'J/(mol*K)'),
-        H298 = (17.3792,'kJ/mol'),
-        S298 = (8.7497,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2924,
-    label = "N3s-O2sO2sO2s_2715",
+    index = 2342,
+    label = "N3s-(O2sO2sO2s)",
     group = 
 """
 1 * N3s u0 p1 c0 {2,S} {3,S} {4,S}
@@ -63921,34 +49978,8 @@ entry(
 )
 
 entry(
-    index = 2925,
-    label = "N3s-O2sO2sO2s-HHH_2714",
-    group = 
-"""
-1 * N3s u0 p1 c0 {2,S} {3,S} {4,S}
-2   O2s u0 p2 c0 {1,S} {5,S}
-3   O2s u0 p2 c0 {1,S} {6,S}
-4   O2s u0 p2 c0 {1,S} {7,S}
-5   H   u0 p0 c0 {2,S}
-6   H   u0 p0 c0 {3,S}
-7   H   u0 p0 c0 {4,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([10.82,11.7795,12.6513,13.4629,14.8729,15.7316,16.9094],'J/(mol*K)'),
-        H298 = (-35.286,'kJ/mol'),
-        S298 = (48.2191,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2926,
-    label = "N3s-HO2sO2s_2632",
+    index = 2343,
+    label = "N3s-(HO2sO2s)",
     group = 
 """
 1 * N3s u0 p1 c0 {2,S} {3,S} {4,S}
@@ -63956,13 +49987,8 @@ entry(
 3   O2s u0 p2 c0 {1,S}
 4   H   u0 p0 c0 {1,S}
 """,
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([6.27311,7.8993,9.59292,11.1317,13.5093,15.4067,18.3],'J/(mol*K)'),
-        H298 = (-14.3689,'kJ/mol'),
-        S298 = (14.9014,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
+    thermo = None,
+    shortDesc = """""",
     longDesc = 
 """
 
@@ -63970,33 +49996,8 @@ entry(
 )
 
 entry(
-    index = 2927,
-    label = "N3s-HO2sO2s-HH_3045",
-    group = 
-"""
-1 * N3s u0 p1 c0 {2,S} {3,S} {4,S}
-2   O2s u0 p2 c0 {1,S} {5,S}
-3   O2s u0 p2 c0 {1,S} {6,S}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {2,S}
-6   H   u0 p0 c0 {3,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([10.2563,11.9008,13.5242,15.0135,17.511,19.3497,22.2388],'J/(mol*K)'),
-        H298 = (-12.3341,'kJ/mol'),
-        S298 = (50.0881,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2928,
-    label = "N3s-CtHO2s_2604",
+    index = 2344,
+    label = "N3s-(CtHO2s)",
     group = 
 """
 1 * N3s u0 p1 c0 {2,S} {3,S} {4,S}
@@ -64013,41 +50014,12 @@ entry(
 )
 
 entry(
-    index = 2929,
-    label = "N3s-CtHO2s-HN3t_3067",
+    index = 2345,
+    label = "N3s-(N5dc)",
     group = 
 """
-1 * N3s u0 p1 c0 {2,S} {3,S} {4,S}
-2   O2s u0 p2 c0 {1,S} {5,S}
-3   Ct  u0 p0 c0 {1,S} {6,T}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {2,S}
-6   N3t u0 p1 c0 {3,T}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([11.3168,12.897,14.1788,15.2734,16.9406,18.1658,19.8946],'J/(mol*K)'),
-        H298 = (24.8527,'kJ/mol'),
-        S298 = (51.4821,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2930,
-    label = "N3s-CtHO2s-HN5tc_3053",
-    group = 
-"""
-1 * N3s  u0 p1 c0 {2,S} {3,S} {4,S}
-2   O2s  u0 p2 c0 {1,S} {5,S}
-3   Ct   u0 p0 c0 {1,S} {6,T}
-4   H    u0 p0 c0 {1,S}
-5   H    u0 p0 c0 {2,S}
-6   N5tc u0 p0 c+1 {3,T}
+1   [N5sc,N5dc] u0 {2,S}
+2 * N3s         u0 {1,S}
 """,
     thermo = None,
     shortDesc = """""",
@@ -64058,1590 +50030,7 @@ entry(
 )
 
 entry(
-    index = 2931,
-    label = "N3s-CtHO2s-HN5tc-O0sc_3052",
-    group = 
-"""
-1 * N3s  u0 p1 c0 {2,S} {3,S} {5,S}
-2   Ct   u0 p0 c0 {1,S} {4,T}
-3   O2s  u0 p2 c0 {1,S} {6,S}
-4   N5tc u0 p0 c+1 {2,T} {7,S}
-5   H    u0 p0 c0 {1,S}
-6   H    u0 p0 c0 {3,S}
-7   O0sc u0 p3 c-1 {4,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0.703185,0.305311,-0.0424947,-0.30308,-0.905966,-1.50646,-2.70378],'J/(mol*K)'),
-        H298 = (-12.9458,'kJ/mol'),
-        S298 = (-1.34998,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2932,
-    label = "N3s-CtHO2s-CtH_2603",
-    group = 
-"""
-1 * N3s u0 p1 c0 {2,S} {3,S} {4,S}
-2   O2s u0 p2 c0 {1,S} {5,S}
-3   Ct  u0 p0 c0 {1,S} {6,T}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {2,S}
-6   Ct  u0 p0 c0 {3,T}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2933,
-    label = "N3s-CtHO2s-CtH-H_2602",
-    group = 
-"""
-1 * N3s u0 p1 c0 {2,S} {3,S} {5,S}
-2   Ct  u0 p0 c0 {1,S} {4,T}
-3   O2s u0 p2 c0 {1,S} {6,S}
-4   Ct  u0 p0 c0 {2,T} {7,S}
-5   H   u0 p0 c0 {1,S}
-6   H   u0 p0 c0 {3,S}
-7   H   u0 p0 c0 {4,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([3.46984,4.56694,5.12856,5.42423,5.9607,6.34984,7.01458],'J/(mol*K)'),
-        H298 = (20.0996,'kJ/mol'),
-        S298 = (11.0348,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2934,
-    label = "N3s-CsHO2s-HHH_2480",
-    group = 
-"""
-1   Cs  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2 * N3s u0 p1 c0 {1,S} {6,S} {7,S}
-3   H   u0 p0 c0 {1,S}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {1,S}
-6   O2s u0 p2 c0 {2,S}
-7   H   u0 p0 c0 {2,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2935,
-    label = "N3s-CsHOs",
-    group = 
-"""
-1 * N3s u0 {2,S} {3,S} {4,S}
-2   Cs  u0 {1,S}
-3   H   u0 {1,S}
-4   O2s u0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([5.2,6.2,7,7.7,8.7,9.4,10.5],'cal/(mol*K)','+|-',[1,1,1,1,1,1,1]),
-        H298 = (20.4,'kcal/mol','+|-',1.4),
-        S298 = (8.1,'cal/(mol*K)','+|-',1.3),
-    ),
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2936,
-    label = "N3s-O2s-N3s_2476",
-    group = 
-"""
-1   O2s u0 p2 c0 {2,S} {3,S}
-2 * N3s u0 p1 c0 {1,S}
-3   N3s u0 p1 c0 {1,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2937,
-    label = "N3s-HN3sO2s-HHN3s_3162",
-    group = 
-"""
-1 * N3s u0 p1 c0 {2,S} {3,S} {4,S}
-2   N3s u0 p1 c0 {1,S} {5,S} {6,S}
-3   O2s u0 p2 c0 {1,S} {7,S}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {2,S}
-6   H   u0 p0 c0 {2,S}
-7   N3s u0 p1 c0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2938,
-    label = "N3s-HN3sO2s-HHN3s-HH_3161",
-    group = 
-"""
-1 * N3s u0 p1 c0 {2,S} {4,S} {5,S}
-2   N3s u0 p1 c0 {1,S} {6,S} {7,S}
-3   N3s u0 p1 c0 {4,S} {8,S} {9,S}
-4   O2s u0 p2 c0 {1,S} {3,S}
-5   H   u0 p0 c0 {1,S}
-6   H   u0 p0 c0 {2,S}
-7   H   u0 p0 c0 {2,S}
-8   H   u0 p0 c0 {3,S}
-9   H   u0 p0 c0 {3,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([10.3262,12.8557,14.8202,16.4555,19.0147,20.8586,23.5979],'J/(mol*K)'),
-        H298 = (47.2016,'kJ/mol'),
-        S298 = (30.1012,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2939,
-    label = "N3s-Ct_2457",
-    group = 
-"""
-1   Ct  u0 p0 c0 {2,S}
-2 * N3s u0 p1 c0 {1,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2940,
-    label = "N3s-(CtN3t)CsCs",
-    group = 
-"""
-1 * N3s u0 {2,S} {3,S} {4,S}
-2   Ct  u0 {1,S} {5,T}
-3   Cs  u0 {1,S}
-4   Cs  u0 {1,S}
-5   N3t u0 {2,T}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([8.6,9.6,10.5,11.4,12.9,13.8,14.8],'cal/(mol*K)','+|-',[1,1,1,1,1,1,1]),
-        H298 = (53.3,'kcal/mol','+|-',1.3),
-        S298 = (21,'cal/(mol*K)','+|-',1.2),
-    ),
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2941,
-    label = "N3s-CtHN3s_2814",
-    group = 
-"""
-1 * N3s u0 p1 c0 {2,S} {3,S} {4,S}
-2   N3s u0 p1 c0 {1,S}
-3   Ct  u0 p0 c0 {1,S}
-4   H   u0 p0 c0 {1,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2942,
-    label = "N3s-CtHN3s-HHN5tc_3033",
-    group = 
-"""
-1 * N3s  u0 p1 c0 {2,S} {3,S} {4,S}
-2   N3s  u0 p1 c0 {1,S} {5,S} {6,S}
-3   Ct   u0 p0 c0 {1,S} {7,T}
-4   H    u0 p0 c0 {1,S}
-5   H    u0 p0 c0 {2,S}
-6   H    u0 p0 c0 {2,S}
-7   N5tc u0 p0 c+1 {3,T}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2943,
-    label = "N3s-CtHN3s-HHN5tc-O0sc_3032",
-    group = 
-"""
-1 * N3s  u0 p1 c0 {2,S} {3,S} {5,S}
-2   N3s  u0 p1 c0 {1,S} {6,S} {7,S}
-3   Ct   u0 p0 c0 {1,S} {4,T}
-4   N5tc u0 p0 c+1 {3,T} {8,S}
-5   H    u0 p0 c0 {1,S}
-6   H    u0 p0 c0 {2,S}
-7   H    u0 p0 c0 {2,S}
-8   O0sc u0 p3 c-1 {4,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([1.71044,2.07716,2.55523,2.96163,3.50339,3.82803,4.21037],'J/(mol*K)'),
-        H298 = (35.3378,'kJ/mol'),
-        S298 = (-1.13704,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2944,
-    label = "N3s-CtHN3s-HHN3t_2873",
-    group = 
-"""
-1 * N3s u0 p1 c0 {2,S} {3,S} {4,S}
-2   N3s u0 p1 c0 {1,S} {5,S} {6,S}
-3   Ct  u0 p0 c0 {1,S} {7,T}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {2,S}
-6   H   u0 p0 c0 {2,S}
-7   N3t u0 p1 c0 {3,T}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([11.9697,13.6348,15.0742,16.3834,18.4223,19.9513,22.1985],'J/(mol*K)'),
-        H298 = (37.0377,'kJ/mol'),
-        S298 = (52.2766,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2945,
-    label = "N3s-CtHN3s-CtHH_2813",
-    group = 
-"""
-1 * N3s u0 p1 c0 {2,S} {3,S} {4,S}
-2   N3s u0 p1 c0 {1,S} {5,S} {6,S}
-3   Ct  u0 p0 c0 {1,S} {7,T}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {2,S}
-6   H   u0 p0 c0 {2,S}
-7   Ct  u0 p0 c0 {3,T}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2946,
-    label = "N3s-CtHN3s-CtHH-H_2812",
-    group = 
-"""
-1 * N3s u0 p1 c0 {2,S} {3,S} {5,S}
-2   N3s u0 p1 c0 {1,S} {6,S} {7,S}
-3   Ct  u0 p0 c0 {1,S} {4,T}
-4   Ct  u0 p0 c0 {3,T} {8,S}
-5   H   u0 p0 c0 {1,S}
-6   H   u0 p0 c0 {2,S}
-7   H   u0 p0 c0 {2,S}
-8   H   u0 p0 c0 {4,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([3.83653,5.10831,5.84137,6.38451,7.3498,8.08699,9.33773],'J/(mol*K)'),
-        H298 = (37.8479,'kJ/mol'),
-        S298 = (11.3223,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2947,
-    label = "N3s-CsCtH_2678",
-    group = 
-"""
-1 * N3s u0 p1 c0 {2,S} {3,S} {4,S}
-2   Cs  u0 p0 c0 {1,S}
-3   Ct  u0 p0 c0 {1,S}
-4   H   u0 p0 c0 {1,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2948,
-    label = "N3s-CsCtH-HHH_2677",
-    group = 
-"""
-1   Cs  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2 * N3s u0 p1 c0 {1,S} {6,S} {7,S}
-3   H   u0 p0 c0 {1,S}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {1,S}
-6   Ct  u0 p0 c0 {2,S}
-7   H   u0 p0 c0 {2,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([17.8097,21.5378,25.0064,28.1287,33.157,36.9735,42.7507],'J/(mol*K)'),
-        H298 = (46.6811,'kJ/mol'),
-        S298 = (55.2383,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2949,
-    label = "N3s-(CtN3t)CsH",
-    group = 
-"""
-1 * N3s u0 {2,S} {3,S} {4,S}
-2   Ct  u0 {1,S} {5,T}
-3   Cs  u0 {1,S}
-4   H   u0 {1,S}
-5   N3t u0 {2,T}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([10.3,11.6,12.8,13.9,15.5,16.7,18.3],'cal/(mol*K)','+|-',[1,1,1,1,1,1,1]),
-        H298 = (44.1,'kcal/mol','+|-',1.3),
-        S298 = (40.7,'cal/(mol*K)','+|-',1.2),
-    ),
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2950,
-    label = "N3s-CtHH_2484",
-    group = 
-"""
-1 * N3s u0 p1 c0 {2,S} {3,S} {4,S}
-2   Ct  u0 p0 c0 {1,S}
-3   H   u0 p0 c0 {1,S}
-4   H   u0 p0 c0 {1,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2951,
-    label = "N3s-CtHH-N5tc_2891",
-    group = 
-"""
-1 * N3s  u0 p1 c0 {2,S} {3,S} {4,S}
-2   Ct   u0 p0 c0 {1,S} {5,T}
-3   H    u0 p0 c0 {1,S}
-4   H    u0 p0 c0 {1,S}
-5   N5tc u0 p0 c+1 {2,T}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2952,
-    label = "N3s-CtHH-N5tc-O0sc_2890",
-    group = 
-"""
-1 * N3s  u0 p1 c0 {2,S} {4,S} {5,S}
-2   Ct   u0 p0 c0 {1,S} {3,T}
-3   N5tc u0 p0 c+1 {2,T} {6,S}
-4   H    u0 p0 c0 {1,S}
-5   H    u0 p0 c0 {1,S}
-6   O0sc u0 p3 c-1 {3,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([3.02933,2.19451,1.20031,0.23625,-1.16462,-1.84761,-2.1968],'J/(mol*K)'),
-        H298 = (21.3403,'kJ/mol'),
-        S298 = (37.7361,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2953,
-    label = "N3s-CtHH-Ct_2483",
-    group = 
-"""
-1 * N3s u0 p1 c0 {2,S} {3,S} {4,S}
-2   Ct  u0 p0 c0 {1,S} {5,T}
-3   H   u0 p0 c0 {1,S}
-4   H   u0 p0 c0 {1,S}
-5   Ct  u0 p0 c0 {2,T}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2954,
-    label = "N3s-Ct-Ct-Cs_2455",
-    group = 
-"""
-1   Ct  u0 p0 c0 {2,T} {3,S}
-2   Ct  u0 p0 c0 {1,T} {4,S}
-3 * N3s u0 p1 c0 {1,S}
-4   Cs  u0 p0 c0 {2,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([10.9688,13.0121,15.4847,17.9404,22.0259,25.1449,29.8785],'J/(mol*K)'),
-        H298 = (12.4556,'kJ/mol'),
-        S298 = (36.7245,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2955,
-    label = "N3s-CtHH-Ct-N3s_3293",
-    group = 
-"""
-1 * N3s u0 p1 c0 {2,S} {4,S} {5,S}
-2   Ct  u0 p0 c0 {1,S} {3,T}
-3   Ct  u0 p0 c0 {2,T} {6,S}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {1,S}
-6   N3s u0 p1 c0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2956,
-    label = "N3s-Ct-Ct-N3s_3294",
-    group = 
-"""
-1   Ct  u0 p0 c0 {2,T} {3,S}
-2   Ct  u0 p0 c0 {1,T} {4,S}
-3 * N3s u0 p1 c0 {1,S}
-4   N3s u0 p1 c0 {2,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0.0887249,-0.191374,-0.499831,-0.640808,-0.818508,-0.893911,-0.835922],'J/(mol*K)'),
-        H298 = (-13.0348,'kJ/mol'),
-        S298 = (-7.93564,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2957,
-    label = "N3s-CtHH-Ct-O2s_3258",
-    group = 
-"""
-1 * N3s u0 p1 c0 {2,S} {4,S} {5,S}
-2   Ct  u0 p0 c0 {1,S} {3,T}
-3   Ct  u0 p0 c0 {2,T} {6,S}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {1,S}
-6   O2s u0 p2 c0 {3,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([8.14942,8.63853,8.81173,9.03462,9.38713,9.64307,10.051],'J/(mol*K)'),
-        H298 = (-31.2657,'kJ/mol'),
-        S298 = (25.6015,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2958,
-    label = "N3s-CtHH-Ct-H_2482",
-    group = 
-"""
-1 * N3s u0 p1 c0 {2,S} {4,S} {5,S}
-2   Ct  u0 p0 c0 {1,S} {3,T}
-3   Ct  u0 p0 c0 {2,T} {6,S}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {1,S}
-6   H   u0 p0 c0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2959,
-    label = "N3s-Ct-Ct_2456",
-    group = 
-"""
-1   Ct  u0 p0 c0 {2,S} {3,T}
-2 * N3s u0 p1 c0 {1,S}
-3   Ct  u0 p0 c0 {1,T}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0.472645,0.670009,0.426594,-0.173059,-1.18531,-1.93379,-2.85969],'J/(mol*K)'),
-        H298 = (57.807,'kJ/mol'),
-        S298 = (21.4043,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2960,
-    label = "N3s-Cd_2374",
-    group = 
-"""
-1   Cd  u0 p0 c0 {2,S}
-2 * N3s u0 p1 c0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([16.1703,19.6065,22.2277,24.3285,27.7792,30.3046,34.0893],'J/(mol*K)'),
-        H298 = (5.35022,'kJ/mol'),
-        S298 = (50.7185,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2961,
-    label = "N3s-Cd-N3d_3151",
-    group = 
-"""
-1   Cd  u0 p0 c0 {2,S} {3,D}
-2 * N3s u0 p1 c0 {1,S}
-3   N3d u0 p1 c0 {1,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([20.6555,25.7259,29.6693,32.6893,37.4539,40.8745,45.5057],'J/(mol*K)'),
-        H298 = (-4.12637,'kJ/mol'),
-        S298 = (68.6436,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2962,
-    label = "N3s-Cd-HN3d_2973",
-    group = 
-"""
-1   Cd  u0 p0 c0 {2,S} {3,D} {4,S}
-2 * N3s u0 p1 c0 {1,S}
-3   N3d u0 p1 c0 {1,D}
-4   H   u0 p0 c0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([26.5364,32.2634,37.2696,41.5569,48.5037,53.6366,61.6487],'J/(mol*K)'),
-        H298 = (37.5723,'kJ/mol'),
-        S298 = (102.855,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2963,
-    label = "N3s-CdHN3s-HHHN3d-H_3297",
-    group = 
-"""
-1 * N3s u0 p1 c0 {2,S} {3,S} {5,S}
-2   Cd  u0 p0 c0 {1,S} {4,D} {6,S}
-3   N3s u0 p1 c0 {1,S} {7,S} {8,S}
-4   N3d u0 p1 c0 {2,D} {9,S}
-5   H   u0 p0 c0 {1,S}
-6   H   u0 p0 c0 {2,S}
-7   H   u0 p0 c0 {3,S}
-8   H   u0 p0 c0 {3,S}
-9   H   u0 p0 c0 {4,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2964,
-    label = "N3s-CdHN3s-HHHN3d_3298",
-    group = 
-"""
-1 * N3s u0 p1 c0 {2,S} {3,S} {4,S}
-2   N3s u0 p1 c0 {1,S} {5,S} {6,S}
-3   Cd  u0 p0 c0 {1,S} {7,D} {8,S}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {2,S}
-6   H   u0 p0 c0 {2,S}
-7   N3d u0 p1 c0 {3,D}
-8   H   u0 p0 c0 {3,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([6.4227,7.64731,8.68101,9.53228,10.8329,11.8745,13.4773],'J/(mol*K)'),
-        H298 = (41.2052,'kJ/mol'),
-        S298 = (33.5627,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2965,
-    label = "N3s-Cd-N3d-Cs_3150",
-    group = 
-"""
-1   Cd  u0 p0 c0 {2,D} {3,S}
-2   N3d u0 p1 c0 {1,D} {4,S}
-3 * N3s u0 p1 c0 {1,S}
-4   Cs  u0 p0 c0 {2,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([18.3339,22.3595,25.7654,28.7013,33.5821,37.4794,43.584],'J/(mol*K)'),
-        H298 = (-14.345,'kJ/mol'),
-        S298 = (64.5034,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2966,
-    label = "N3s-Cd-HN5dc_3008",
-    group = 
-"""
-1   Cd   u0 p0 c0 {2,S} {3,D} {4,S}
-2 * N3s  u0 p1 c0 {1,S}
-3   N5dc u0 p0 c+1 {1,D}
-4   H    u0 p0 c0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([12.9164,15.6,18.4837,21.0112,24.9215,27.6863,32.0165],'J/(mol*K)'),
-        H298 = (-0.125583,'kJ/mol'),
-        S298 = (55.5496,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2967,
-    label = "N3s-CdHN3s-HHHN5dc_2974",
-    group = 
-"""
-1 * N3s  u0 p1 c0 {2,S} {3,S} {4,S}
-2   N3s  u0 p1 c0 {1,S} {5,S} {6,S}
-3   Cd   u0 p0 c0 {1,S} {7,D} {8,S}
-4   H    u0 p0 c0 {1,S}
-5   H    u0 p0 c0 {2,S}
-6   H    u0 p0 c0 {2,S}
-7   N5dc u0 p0 c+1 {3,D}
-8   H    u0 p0 c0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2968,
-    label = "N3s-CdHN3s-HHHN5dc-HO0sc_2973",
-    group = 
-"""
-1    Cd   u0 p0 c0 {2,S} {4,D} {6,S}
-2  * N3s  u0 p1 c0 {1,S} {3,S} {5,S}
-3    N3s  u0 p1 c0 {2,S} {7,S} {8,S}
-4    N5dc u0 p0 c+1 {1,D} {9,S} {10,S}
-5    H    u0 p0 c0 {2,S}
-6    H    u0 p0 c0 {1,S}
-7    H    u0 p0 c0 {3,S}
-8    H    u0 p0 c0 {3,S}
-9    O0sc u0 p3 c-1 {4,S}
-10   H    u0 p0 c0 {4,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([2.43518,2.8092,2.77332,2.74226,2.81159,2.92404,2.88651],'J/(mol*K)'),
-        H298 = (22.8047,'kJ/mol'),
-        S298 = (12.3274,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2969,
-    label = "N3s-Cd-CddH_2782",
-    group = 
-"""
-1   Cd  u0 p0 c0 {2,S} {3,D} {4,S}
-2 * N3s u0 p1 c0 {1,S}
-3   Cdd u0 p0 c0 {1,D}
-4   H   u0 p0 c0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([27.3324,32.3031,36.339,39.7511,45.194,49.1981,55.2157],'J/(mol*K)'),
-        H298 = (56.1095,'kJ/mol'),
-        S298 = (101.689,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2970,
-    label = "N3s-CdCsH_2700",
-    group = 
-"""
-1 * N3s u0 p1 c0 {2,S} {3,S} {4,S}
-2   Cs  u0 p0 c0 {1,S}
-3   Cd  u0 p0 c0 {1,S}
-4   H   u0 p0 c0 {1,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2971,
-    label = "N3s-CdCsH-HHH_2699",
-    group = 
-"""
-1   Cs  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2 * N3s u0 p1 c0 {1,S} {6,S} {7,S}
-3   H   u0 p0 c0 {1,S}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {1,S}
-6   Cd  u0 p0 c0 {2,S}
-7   H   u0 p0 c0 {2,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2972,
-    label = "N3s-(CdCd)CsH",
-    group = 
-"""
-1 * N3s u0 {2,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {3,D} {4,S}
-3   Cd  u0 {2,D}
-4   R   u0 {2,S}
-5   Cs  u0 {1,S}
-6   H   u0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([5.8,6.1,6.4,6.7,7.5,8.1,9.1],'cal/(mol*K)','+|-',[1.3,1.3,1.3,1.3,1.3,1.3,1.3]),
-        H298 = (15.3,'kcal/mol','+|-',1.9),
-        S298 = (8.7,'cal/(mol*K)','+|-',1.7),
-    ),
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2973,
-    label = "N3s-Cd-Cs_2692",
-    group = 
-"""
-1   Cd  u0 p0 c0 {2,S} {3,S}
-2 * N3s u0 p1 c0 {1,S}
-3   Cs  u0 p0 c0 {1,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2974,
-    label = "N3s-Cd-Cs-HHH_2691",
-    group = 
-"""
-1   Cs  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 p0 c0 {1,S} {6,S}
-3   H   u0 p0 c0 {1,S}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {1,S}
-6 * N3s u0 p1 c0 {2,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([21.5772,25.8917,29.4734,33.1128,39.4025,44.676,53.3643],'J/(mol*K)'),
-        H298 = (-10.6545,'kJ/mol'),
-        S298 = (113.163,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2975,
-    label = "N3s-Cd-Cd_2668",
-    group = 
-"""
-1   Cd  u0 p0 c0 {2,S} {3,D}
-2 * N3s u0 p1 c0 {1,S}
-3   Cd  u0 p0 c0 {1,D}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2976,
-    label = "N3s-(CdCd)CsN3s",
-    group = 
-"""
-1 * N3s u0 {2,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {3,D} {4,S}
-3   Cd  u0 {2,D}
-4   R   u0 {2,S}
-5   Cs  u0 {1,S}
-6   N3s u0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([4.2,4.2,4.4,4.8,5.4,5.7,6],'cal/(mol*K)','+|-',[1.1,1.1,1.1,1.1,1.1,1.1,1.1]),
-        H298 = (30.3,'kcal/mol','+|-',1.5),
-        S298 = (-13.2,'cal/(mol*K)','+|-',1.4),
-    ),
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2977,
-    label = "N3s-NCdCs",
-    group = 
-"""
-1 * N3s u0 {2,S} {3,S} {4,S}
-2   N   u0 {1,S}
-3   Cd  u0 {1,S}
-4   Cs  u0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
-        H298 = (0,'kcal/mol'),
-        S298 = (0,'cal/(mol*K)'),
-    ),
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2978,
-    label = "N3s-(CdCd)HN3s",
-    group = 
-"""
-1 * N3s u0 {2,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {3,D} {4,S}
-3   Cd  u0 {2,D}
-4   R   u0 {2,S}
-5   H   u0 {1,S}
-6   N3s u0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([4.5,5.4,6.5,7.3,8.5,9.1,9.9],'cal/(mol*K)','+|-',[1.1,1.1,1.1,1.1,1.1,1.1,1.1]),
-        H298 = (20.5,'kcal/mol','+|-',1.5),
-        S298 = (6.6,'cal/(mol*K)','+|-',1.4),
-    ),
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2979,
-    label = "N3s-CdHN3s-CdHHH-HH_2315",
-    group = 
-"""
-1    Cd  u0 p0 c0 {2,S} {4,D} {6,S}
-2  * N3s u0 p1 c0 {1,S} {3,S} {5,S}
-3    N3s u0 p1 c0 {2,S} {7,S} {8,S}
-4    Cd  u0 p0 c0 {1,D} {9,S} {10,S}
-5    H   u0 p0 c0 {2,S}
-6    H   u0 p0 c0 {1,S}
-7    H   u0 p0 c0 {3,S}
-8    H   u0 p0 c0 {3,S}
-9    H   u0 p0 c0 {4,S}
-10   H   u0 p0 c0 {4,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2980,
-    label = "N3s-CdHN3s-CdHHH_2316",
-    group = 
-"""
-1 * N3s u0 p1 c0 {2,S} {3,S} {4,S}
-2   N3s u0 p1 c0 {1,S} {5,S} {6,S}
-3   Cd  u0 p0 c0 {1,S} {7,D} {8,S}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {2,S}
-6   H   u0 p0 c0 {2,S}
-7   Cd  u0 p0 c0 {3,D}
-8   H   u0 p0 c0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2981,
-    label = "N3s-CdHN3s_2317",
-    group = 
-"""
-1 * N3s u0 p1 c0 {2,S} {3,S} {4,S}
-2   N3s u0 p1 c0 {1,S}
-3   Cd  u0 p0 c0 {1,S}
-4   H   u0 p0 c0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([9.35641,11.6674,13.7401,15.462,18.2095,20.0997,22.9265],'J/(mol*K)'),
-        H298 = (25.6071,'kJ/mol'),
-        S298 = (21.9781,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2982,
-    label = "N3s-(CdCd)CsCs",
-    group = 
-"""
-1 * N3s u0 {2,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {3,D} {4,S}
-3   Cd  u0 {2,D}
-4   R   u0 {2,S}
-5   Cs  u0 {1,S}
-6   Cs  u0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([2.8,2.9,3.3,3.7,4.6,5,5.5],'cal/(mol*K)','+|-',[1.3,1.3,1.3,1.3,1.3,1.3,1.3]),
-        H298 = (25.9,'kcal/mol','+|-',1.9),
-        S298 = (-11,'cal/(mol*K)','+|-',1.7),
-    ),
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2983,
-    label = "N3s-CdHH",
-    group = 
-"""
-1 * N3s u0 {2,S} {3,S} {4,S}
-2   Cd  u0 {1,S}
-3   H   u0 {1,S}
-4   H   u0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([5.7,6.5,7.3,8.1,9.4,10.5,12.3],'cal/(mol*K)'),
-        H298 = (4.8,'kcal/mol'),
-        S298 = (29.7,'cal/(mol*K)'),
-    ),
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2984,
-    label = "N3s-Cd-CdH_2542",
-    group = 
-"""
-1   Cd  u0 p0 c0 {2,S} {3,D} {4,S}
-2 * N3s u0 p1 c0 {1,S}
-3   Cd  u0 p0 c0 {1,D}
-4   H   u0 p0 c0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0.907368,-0.219897,-1.23332,-1.65518,-2.01529,-1.84764,-1.52589],'J/(mol*K)'),
-        H298 = (18.3683,'kJ/mol'),
-        S298 = (56.5544,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2985,
-    label = "N3s-Cd-Cd-HN3s_2896",
-    group = 
-"""
-1   Cd  u0 p0 c0 {2,D} {3,S} {4,S}
-2   Cd  u0 p0 c0 {1,D} {5,S}
-3   N3s u0 p1 c0 {1,S}
-4   H   u0 p0 c0 {1,S}
-5 * N3s u0 p1 c0 {2,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([21.0482,25.5902,29.3915,32.6978,38.0689,42.094,48.2817],'J/(mol*K)'),
-        H298 = (17.7792,'kJ/mol'),
-        S298 = (73.3847,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2986,
-    label = "N3s-Cd-Cd-CsH_2667",
-    group = 
-"""
-1   Cd  u0 p0 c0 {2,D} {3,S} {4,S}
-2   Cd  u0 p0 c0 {1,D} {5,S}
-3   Cs  u0 p0 c0 {1,S}
-4   H   u0 p0 c0 {1,S}
-5 * N3s u0 p1 c0 {2,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([14.3053,17.52,20.4449,22.9893,27.2155,30.3788,35.2285],'J/(mol*K)'),
-        H298 = (0.937504,'kJ/mol'),
-        S298 = (38.7291,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2987,
-    label = "N3s-Cs_2334",
-    group = 
-"""
-1   Cs  u0 p0 c0 {2,S}
-2 * N3s u0 p1 c0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([24.2183,29.1803,33.8796,38.2211,45.4391,50.5808,58.7871],'J/(mol*K)'),
-        H298 = (-4.16251,'kJ/mol'),
-        S298 = (74.1832,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2988,
-    label = "N3s-Cs-CtHH_2942",
-    group = 
-"""
-1   Cs  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2 * N3s u0 p1 c0 {1,S}
-3   Ct  u0 p0 c0 {1,S}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([24.8452,29.8489,34.1424,37.8699,43.906,48.4852,55.3901],'J/(mol*K)'),
-        H298 = (50.659,'kJ/mol'),
-        S298 = (92.6266,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2989,
-    label = "N3s-Cs-Cd_2882",
-    group = 
-"""
-1   Cs  u0 p0 c0 {2,S} {3,S}
-2 * N3s u0 p1 c0 {1,S}
-3   Cd  u0 p0 c0 {1,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2990,
-    label = "N3s-Cs-CdHH_2964",
-    group = 
-"""
-1   Cs  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2 * N3s u0 p1 c0 {1,S}
-3   Cd  u0 p0 c0 {1,S}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([24.7249,30.8122,36.2716,41.0544,48.7452,54.444,62.8691],'J/(mol*K)'),
-        H298 = (16.3906,'kJ/mol'),
-        S298 = (86.7465,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2991,
-    label = "N3s-CsHN3d_2872",
-    group = 
-"""
-1 * N3s u0 p1 c0 {2,S} {3,S} {4,S}
-2   Cs  u0 p0 c0 {1,S}
-3   N3d u0 p1 c0 {1,S}
-4   H   u0 p0 c0 {1,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2992,
-    label = "N3s-CsHN3d-HHH_2871",
-    group = 
-"""
-1   Cs  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2 * N3s u0 p1 c0 {1,S} {6,S} {7,S}
-3   H   u0 p0 c0 {1,S}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {1,S}
-6   N3d u0 p1 c0 {2,S}
-7   H   u0 p0 c0 {2,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([24.6949,30.5464,36.1927,41.2739,49.3002,55.1562,64.1218],'J/(mol*K)'),
-        H298 = (50.4654,'kJ/mol'),
-        S298 = (72.8015,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2993,
-    label = "N3s-CsH(N3dOd)",
-    group = 
-"""
-1 * N3s u0 {2,S} {3,S} {4,S}
-2   N3d u0 {1,S} {5,D}
-3   Cs  u0 {1,S}
-4   H   u0 {1,S}
-5   O2d u0 {2,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([10.4,11.9,13.4,14.7,16.6,17.9,19.2],'cal/(mol*K)','+|-',[1,1,1,1,1,1,1]),
-        H298 = (25.2,'kcal/mol','+|-',1.3),
-        S298 = (41.7,'cal/(mol*K)','+|-',1.2),
-    ),
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2994,
-    label = "N3s-Cs-O2s_2710",
-    group = 
-"""
-1   Cs  u0 p0 c0 {2,S} {3,S}
-2 * N3s u0 p1 c0 {1,S}
-3   O2s u0 p2 c0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([29.0275,35.6834,41.6954,46.9879,55.8029,62.2472,72.016],'J/(mol*K)'),
-        H298 = (3.7841,'kJ/mol'),
-        S298 = (87.7839,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2995,
-    label = "N3s-Cs(OH)HH",
-    group = 
-"""
-1 * N3s u0 {2,S} {4,S} {5,S}
-2   Cs  u0 {1,S} {3,S}
-3   O2s u0 {2,S} {6,S}
-4   H   u0 {1,S}
-5   H   u0 {1,S}
-6   H   u0 {3,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([27.4067,33.8919,39.3073,43.7909,50.973,56.2718,64.292],'J/(mol*K)'),
-        H298 = (-73.0387,'kJ/mol'),
-        S298 = (96.1951,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2996,
-    label = "N3s-Cs-HHO2s_2591",
-    group = 
-"""
-1   Cs  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2 * N3s u0 p1 c0 {1,S}
-3   O2s u0 p2 c0 {1,S}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([13.931,16.7015,19.2391,21.4744,25.0644,27.8231,32.1952],'J/(mol*K)'),
-        H298 = (-46.9219,'kJ/mol'),
-        S298 = (64.4032,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2997,
-    label = "N3s-Cs-HHN3d_2562",
-    group = 
-"""
-1   Cs  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2 * N3s u0 p1 c0 {1,S}
-3   N3d u0 p1 c0 {1,S}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([32.2445,38.9962,44.8952,50.0858,58.378,64.523,73.6039],'J/(mol*K)'),
-        H298 = (66.7145,'kJ/mol'),
-        S298 = (117.301,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2998,
-    label = "N3s-Cs-N3s_2554",
-    group = 
-"""
-1   Cs  u0 p0 c0 {2,S} {3,S}
-2 * N3s u0 p1 c0 {1,S}
-3   N3s u0 p1 c0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([30.3437,37.8351,44.4153,50.1699,59.5469,66.6017,77.48],'J/(mol*K)'),
-        H298 = (-15.5692,'kJ/mol'),
-        S298 = (96.1314,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2999,
-    label = "N3s-Cs-HHN3s_3002",
-    group = 
-"""
-1   Cs  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2 * N3s u0 p1 c0 {1,S}
-3   N3s u0 p1 c0 {1,S}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([33.758,42.0146,49.4384,55.9639,66.6272,74.6887,87.1544],'J/(mol*K)'),
-        H298 = (9.9099,'kJ/mol'),
-        S298 = (123.177,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3000,
-    label = "N3s-Cs-HHH_2399",
-    group = 
-"""
-1   Cs  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2 * N3s u0 p1 c0 {1,S}
-3   H   u0 p0 c0 {1,S}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([24.3799,29.7425,34.4727,38.5488,45.1179,50.0025,57.3196],'J/(mol*K)'),
-        H298 = (40.9124,'kJ/mol'),
-        S298 = (83.192,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3001,
+    index = 2346,
     label = "N3s-CsCs(N5dcOdOs)",
     group = 
 """
@@ -65666,100 +50055,7 @@ entry(
 )
 
 entry(
-    index = 3002,
-    label = "N3s-CsCs(N3dOd)",
-    group = 
-"""
-1 * N3s u0 {2,S} {3,S} {4,S}
-2   N3d u0 {1,S} {5,D}
-3   Cs  u0 {1,S}
-4   Cs  u0 {1,S}
-5   O2d u0 {2,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([9.4,10.5,11.5,12.4,13.8,14.6,15.3],'cal/(mol*K)','+|-',[1,1,1,1,1,1,1]),
-        H298 = (32.6,'kcal/mol','+|-',1.3),
-        S298 = (19.3,'cal/(mol*K)','+|-',1.2),
-    ),
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3003,
-    label = "N3s-CsCsN3s",
-    group = 
-"""
-1 * N3s u0 {2,S} {3,S} {4,S}
-2   Cs  u0 {1,S}
-3   Cs  u0 {1,S}
-4   N3s u0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([3.7,4.9,5.8,6.3,6.8,6.8,6.7],'cal/(mol*K)','+|-',[1,1,1,1,1,1,1]),
-        H298 = (26.8,'kcal/mol','+|-',1.3),
-        S298 = (-14.5,'cal/(mol*K)','+|-',1.2),
-    ),
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3004,
-    label = "N3s-NCsCs",
-    group = 
-"""
-1 * N3s u0 {2,S} {3,S} {4,S}
-2   N   u0 {1,S}
-3   Cs  u0 {1,S}
-4   Cs  u0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
-        H298 = (29.2,'kcal/mol'),
-        S298 = (-13.8,'cal/(mol*K)'),
-    ),
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3005,
-    label = "N3s-NCC",
-    group = 
-"""
-1 * N3s u0 {2,S} {3,S} {4,S}
-2   N   u0 {1,S}
-3   C   u0 {1,S}
-4   C   u0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([14.6113,18.3252,21.6542,24.5963,29.4618,33.1878,38.9878],'J/(mol*K)'),
-        H298 = (13.3921,'kJ/mol'),
-        S298 = (46.1432,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3006,
+    index = 2347,
     label = "N3s-CsH(N5dcOdOs)",
     group = 
 """
@@ -65784,132 +50080,14 @@ entry(
 )
 
 entry(
-    index = 3007,
-    label = "N3s-CbCsCs",
+    index = 2348,
+    label = "N3s-(HHN5dc)",
     group = 
 """
-1 * N3s u0 {2,S} {3,S} {4,S}
-2   Cb  u0 {1,S}
-3   Cs  u0 {1,S}
-4   Cs  u0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
-        H298 = (26.2,'kcal/mol'),
-        S298 = (0,'cal/(mol*K)'),
-    ),
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3008,
-    label = "N3s-CsCsCs",
-    group = 
-"""
-1 * N3s u0 {2,S} {3,S} {4,S}
-2   Cs  u0 {1,S}
-3   Cs  u0 {1,S}
-4   Cs  u0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([3.48,4.56,5.43,5.97,6.56,6.67,6.5],'cal/(mol*K)'),
-        H298 = (24.4,'kcal/mol'),
-        S298 = (-13.46,'cal/(mol*K)'),
-    ),
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3009,
-    label = "N3s-CCC",
-    group = 
-"""
-1 * N3s u0 {2,S} {3,S} {4,S}
-2   C   u0 {1,S}
-3   C   u0 {1,S}
-4   C   u0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
-        H298 = (0,'kcal/mol'),
-        S298 = (0,'cal/(mol*K)'),
-    ),
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3010,
-    label = "N3s-CbCsH",
-    group = 
-"""
-1 * N3s u0 {2,S} {3,S} {4,S}
-2   Cb  u0 {1,S}
-3   Cs  u0 {1,S}
-4   H   u0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
-        H298 = (14.9,'kcal/mol'),
-        S298 = (0,'cal/(mol*K)'),
-    ),
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3011,
-    label = "N3s-CsCsH",
-    group = 
-"""
-1 * N3s u0 {2,S} {3,S} {4,S}
-2   Cs  u0 {1,S}
-3   Cs  u0 {1,S}
-4   H   u0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([4.2,5.21,6.13,6.83,7.9,8.65,9.55],'cal/(mol*K)'),
-        H298 = (15.4,'kcal/mol'),
-        S298 = (8.94,'cal/(mol*K)'),
-    ),
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3012,
-    label = "N3s-CsHH-HHH_3094",
-    group = 
-"""
-1   Cs  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2 * N3s u0 p1 c0 {1,S} {6,S} {7,S}
-3   H   u0 p0 c0 {1,S}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {1,S}
-6   H   u0 p0 c0 {2,S}
-7   H   u0 p0 c0 {2,S}
+1 * N3s         u0 p1 c0 {2,S} {3,S} {4,S}
+2   [N5sc,N5dc] u0 p0 c+1 {1,S}
+3   H           u0 p0 c0 {1,S}
+4   H           u0 p0 c0 {1,S}
 """,
     thermo = None,
     shortDesc = """""",
@@ -65920,20 +50098,154 @@ entry(
 )
 
 entry(
-    index = 3013,
-    label = "N3s-CsHH",
+    index = 2350,
+    label = "N3s-(Cd)",
+    group = 
+"""
+1   Cd  u0 {2,S}
+2 * N3s u0 {1,S}
+""",
+    thermo = None,
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 2351,
+    label = "N3s-(CdCd)CsN3s",
+    group = 
+"""
+1 * N3s u0 {2,S} {5,S} {6,S}
+2   Cd  u0 {1,S} {3,D} {4,S}
+3   Cd  u0 {2,D}
+4   R   u0 {2,S}
+5   Cs  u0 {1,S}
+6   N3s u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([4.2,4.2,4.4,4.8,5.4,5.7,6],'cal/(mol*K)','+|-',[1.1,1.1,1.1,1.1,1.1,1.1,1.1]),
+        H298 = (30.3,'kcal/mol','+|-',1.5),
+        S298 = (-13.2,'cal/(mol*K)','+|-',1.4),
+    ),
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 2353,
+    label = "N3s-(CdCd)HN3s",
+    group = 
+"""
+1 * N3s u0 {2,S} {5,S} {6,S}
+2   Cd  u0 {1,S} {3,D} {4,S}
+3   Cd  u0 {2,D}
+4   R   u0 {2,S}
+5   H   u0 {1,S}
+6   N3s u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([4.5,5.4,6.5,7.3,8.5,9.1,9.9],'cal/(mol*K)','+|-',[1.1,1.1,1.1,1.1,1.1,1.1,1.1]),
+        H298 = (20.5,'kcal/mol','+|-',1.5),
+        S298 = (6.6,'cal/(mol*K)','+|-',1.4),
+    ),
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 2354,
+    label = "N3s-(CdHN3s)",
     group = 
 """
 1 * N3s u0 {2,S} {3,S} {4,S}
-2   Cs  u0 {1,S}
+2   N3s u0 {1,S}
+3   Cd  u0 {1,S}
+4   H   u0 {1,S}
+""",
+    thermo = None,
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 2355,
+    label = "N3s-(CdCd)CsCs",
+    group = 
+"""
+1 * N3s u0 {2,S} {5,S} {6,S}
+2   Cd  u0 {1,S} {3,D} {4,S}
+3   Cd  u0 {2,D}
+4   R   u0 {2,S}
+5   Cs  u0 {1,S}
+6   Cs  u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([2.8,2.9,3.3,3.7,4.6,5,5.5],'cal/(mol*K)','+|-',[1.3,1.3,1.3,1.3,1.3,1.3,1.3]),
+        H298 = (25.9,'kcal/mol','+|-',1.9),
+        S298 = (-11,'cal/(mol*K)','+|-',1.7),
+    ),
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 2356,
+    label = "N3s-(CdCd)CsH",
+    group = 
+"""
+1 * N3s u0 {2,S} {5,S} {6,S}
+2   Cd  u0 {1,S} {3,D} {4,S}
+3   Cd  u0 {2,D}
+4   R   u0 {2,S}
+5   Cs  u0 {1,S}
+6   H   u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([5.8,6.1,6.4,6.7,7.5,8.1,9.1],'cal/(mol*K)','+|-',[1.3,1.3,1.3,1.3,1.3,1.3,1.3]),
+        H298 = (15.3,'kcal/mol','+|-',1.9),
+        S298 = (8.7,'cal/(mol*K)','+|-',1.7),
+    ),
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 2357,
+    label = "N3s-CdHH",
+    group = 
+"""
+1 * N3s u0 {2,S} {3,S} {4,S}
+2   Cd  u0 {1,S}
 3   H   u0 {1,S}
 4   H   u0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([5.72,6.51,7.32,8.07,9.41,10.47,12.28],'cal/(mol*K)'),
+        Cpdata = ([5.7,6.5,7.3,8.1,9.4,10.5,12.3],'cal/(mol*K)'),
         H298 = (4.8,'kcal/mol'),
-        S298 = (29.71,'cal/(mol*K)'),
+        S298 = (29.7,'cal/(mol*K)'),
     ),
     shortDesc = """""",
     longDesc = 
@@ -65943,17 +50255,14 @@ entry(
 )
 
 entry(
-    index = 3014,
-    label = "N3s-CsHN3s-HHH_2419",
+    index = 2358,
+    label = "N3s-(CdHO2s)",
     group = 
 """
-1   Cs  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2 * N3s u0 p1 c0 {1,S} {6,S} {7,S}
-3   H   u0 p0 c0 {1,S}
+1 * N3s u0 p1 c0 {2,S} {3,S} {4,S}
+2   O2s u0 p2 c0 {1,S}
+3   Cd  u0 p0 c0 {1,S}
 4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {1,S}
-6   N3s u0 p1 c0 {2,S}
-7   H   u0 p0 c0 {2,S}
 """,
     thermo = None,
     shortDesc = """""",
@@ -65964,7 +50273,163 @@ entry(
 )
 
 entry(
-    index = 3015,
+    index = 2359,
+    label = "N3s-(Cs)",
+    group = 
+"""
+1   Cs  u0 {2,S}
+2 * N3s u0 {1,S}
+""",
+    thermo = None,
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 2360,
+    label = "N3s-CsCsOs",
+    group = 
+"""
+1 * N3s u0 {2,S} {3,S} {4,S}
+2   Cs  u0 {1,S}
+3   Cs  u0 {1,S}
+4   O2s u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([4.3,5.1,5.7,6.2,7,7.3,7.5],'cal/(mol*K)','+|-',[0.8,0.8,0.8,0.8,0.8,0.8,0.8]),
+        H298 = (26.6,'kcal/mol','+|-',1.2),
+        S298 = (-12.7,'cal/(mol*K)','+|-',1.1),
+    ),
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 2361,
+    label = "N3s-CsHOs",
+    group = 
+"""
+1 * N3s u0 {2,S} {3,S} {4,S}
+2   Cs  u0 {1,S}
+3   H   u0 {1,S}
+4   O2s u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([5.2,6.2,7,7.7,8.7,9.4,10.5],'cal/(mol*K)','+|-',[1,1,1,1,1,1,1]),
+        H298 = (20.4,'kcal/mol','+|-',1.4),
+        S298 = (8.1,'cal/(mol*K)','+|-',1.3),
+    ),
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 2362,
+    label = "N3s-CsCs(N3dOd)",
+    group = 
+"""
+1 * N3s u0 {2,S} {3,S} {4,S}
+2   N3d u0 {1,S} {5,D}
+3   Cs  u0 {1,S}
+4   Cs  u0 {1,S}
+5   O2d u0 {2,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([9.4,10.5,11.5,12.4,13.8,14.6,15.3],'cal/(mol*K)','+|-',[1,1,1,1,1,1,1]),
+        H298 = (32.6,'kcal/mol','+|-',1.3),
+        S298 = (19.3,'cal/(mol*K)','+|-',1.2),
+    ),
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 2363,
+    label = "N3s-CsCsN3s",
+    group = 
+"""
+1 * N3s u0 {2,S} {3,S} {4,S}
+2   Cs  u0 {1,S}
+3   Cs  u0 {1,S}
+4   N3s u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([3.7,4.9,5.8,6.3,6.8,6.8,6.7],'cal/(mol*K)','+|-',[1,1,1,1,1,1,1]),
+        H298 = (26.8,'kcal/mol','+|-',1.3),
+        S298 = (-14.5,'cal/(mol*K)','+|-',1.2),
+    ),
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 2364,
+    label = "N3s-NCsCs",
+    group = 
+"""
+1 * N3s u0 {2,S} {3,S} {4,S}
+2   N   u0 {1,S}
+3   Cs  u0 {1,S}
+4   Cs  u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (29.2,'kcal/mol'),
+        S298 = (-13.8,'cal/(mol*K)'),
+    ),
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 2366,
+    label = "N3s-CsH(N3dOd)",
+    group = 
+"""
+1 * N3s u0 {2,S} {3,S} {4,S}
+2   N3d u0 {1,S} {5,D}
+3   Cs  u0 {1,S}
+4   H   u0 {1,S}
+5   O2d u0 {2,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([10.4,11.9,13.4,14.7,16.6,17.9,19.2],'cal/(mol*K)','+|-',[1,1,1,1,1,1,1]),
+        H298 = (25.2,'kcal/mol','+|-',1.3),
+        S298 = (41.7,'cal/(mol*K)','+|-',1.2),
+    ),
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 2367,
     label = "N3s-N3sCsH",
     group = 
 """
@@ -65987,15 +50452,22 @@ entry(
 )
 
 entry(
-    index = 3016,
-    label = "N3s-Cs-Cs_2333",
+    index = 2369,
+    label = "N3s-(CtN3t)CsCs",
     group = 
 """
-1   Cs  u0 p0 c0 {2,S} {3,S}
-2 * N3s u0 p1 c0 {1,S}
-3   Cs  u0 p0 c0 {1,S}
+1 * N3s u0 {2,S} {3,S} {4,S}
+2   Ct  u0 {1,S} {5,T}
+3   Cs  u0 {1,S}
+4   Cs  u0 {1,S}
+5   N3t u0 {2,T}
 """,
-    thermo = None,
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([8.6,9.6,10.5,11.4,12.9,13.8,14.8],'cal/(mol*K)','+|-',[1,1,1,1,1,1,1]),
+        H298 = (53.3,'kcal/mol','+|-',1.3),
+        S298 = (21,'cal/(mol*K)','+|-',1.2),
+    ),
     shortDesc = """""",
     longDesc = 
 """
@@ -66004,79 +50476,128 @@ entry(
 )
 
 entry(
-    index = 3017,
-    label = "N3s-Cs-Cs-CsHH_2960",
-    group = 
-"""
-1   Cs  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2   Cs  u0 p0 c0 {1,S} {6,S}
-3   Cs  u0 p0 c0 {1,S}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {1,S}
-6 * N3s u0 p1 c0 {2,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([21.6321,27.2817,32.655,37.5064,45.3109,51.0487,59.8145],'J/(mol*K)'),
-        H298 = (-9.29235,'kJ/mol'),
-        S298 = (55.5147,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3018,
-    label = "N3s-Cs-CsHH_2376",
-    group = 
-"""
-1   Cs  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2 * N3s u0 p1 c0 {1,S}
-3   Cs  u0 p0 c0 {1,S}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([18.5382,22.5435,26.5911,30.3059,36.5301,41.4942,48.1071],'J/(mol*K)'),
-        H298 = (8.01534,'kJ/mol'),
-        S298 = (91.6958,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3019,
-    label = "N3s-CHH",
-    group = 
-"""
-1 * N3s u0 {2,S} {3,S} {4,S}
-2   C   u0 {1,S}
-3   H   u0 {1,S}
-4   H   u0 {1,S}
-""",
-    thermo = None,
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3020,
-    label = "N3s-CbHH",
+    index = 2370,
+    label = "N3s-CbCsCs",
     group = 
 """
 1 * N3s u0 {2,S} {3,S} {4,S}
 2   Cb  u0 {1,S}
+3   Cs  u0 {1,S}
+4   Cs  u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (26.2,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
+    ),
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 2371,
+    label = "N3s-CsCsCs",
+    group = 
+"""
+1 * N3s u0 {2,S} {3,S} {4,S}
+2   Cs  u0 {1,S}
+3   Cs  u0 {1,S}
+4   Cs  u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([3.48,4.56,5.43,5.97,6.56,6.67,6.5],'cal/(mol*K)'),
+        H298 = (24.4,'kcal/mol'),
+        S298 = (-13.46,'cal/(mol*K)'),
+    ),
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 2373,
+    label = "N3s-(CtN3t)CsH",
+    group = 
+"""
+1 * N3s u0 {2,S} {3,S} {4,S}
+2   Ct  u0 {1,S} {5,T}
+3   Cs  u0 {1,S}
+4   H   u0 {1,S}
+5   N3t u0 {2,T}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([10.3,11.6,12.8,13.9,15.5,16.7,18.3],'cal/(mol*K)','+|-',[1,1,1,1,1,1,1]),
+        H298 = (44.1,'kcal/mol','+|-',1.3),
+        S298 = (40.7,'cal/(mol*K)','+|-',1.2),
+    ),
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 2374,
+    label = "N3s-CbCsH",
+    group = 
+"""
+1 * N3s u0 {2,S} {3,S} {4,S}
+2   Cb  u0 {1,S}
+3   Cs  u0 {1,S}
+4   H   u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (14.9,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
+    ),
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 2375,
+    label = "N3s-CsCsH",
+    group = 
+"""
+1 * N3s u0 {2,S} {3,S} {4,S}
+2   Cs  u0 {1,S}
+3   Cs  u0 {1,S}
+4   H   u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([4.2,5.21,6.13,6.83,7.9,8.65,9.55],'cal/(mol*K)'),
+        H298 = (15.4,'kcal/mol'),
+        S298 = (8.94,'cal/(mol*K)'),
+    ),
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 2376,
+    label = "N3s-CsHH",
+    group = 
+"""
+1 * N3s u0 {2,S} {3,S} {4,S}
+2   Cs  u0 {1,S}
 3   H   u0 {1,S}
 4   H   u0 {1,S}
 """,
@@ -66094,73 +50615,12 @@ entry(
 )
 
 entry(
-    index = 3021,
-    label = "N3s-CCH",
+    index = 2377,
+    label = "N3s-(N3s)",
     group = 
 """
-1 * N3s u0 {2,S} {3,S} {4,S}
-2   C   u0 {1,S}
-3   C   u0 {1,S}
-4   H   u0 {1,S}
-""",
-    thermo = None,
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3022,
-    label = "N3s-CbCbH",
-    group = 
-"""
-1 * N3s u0 {2,S} {3,S} {4,S}
-2   Cb  u0 {1,S}
-3   Cb  u0 {1,S}
-4   H   u0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
-        H298 = (16.3,'kcal/mol'),
-        S298 = (0,'cal/(mol*K)'),
-    ),
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3023,
-    label = "N3s-N",
-    group = 
-"""
-1 * N3s u0 {2,S}
-2   N   u0 {1,S}
-""",
-    thermo = None,
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-Currently points to N3s-N3sCsH.
-This was r.west's guess of an appropriate surrogate,
-but it's not based on much evidence.
-In almost all the child nodes the N is an N3s but one (N3s-NCC) it is just 'N'
-""",
-)
-
-entry(
-    index = 3024,
-    label = "N3s-N3s-Cd_2977",
-    group = 
-"""
-1   N3s u0 p1 c0 {2,S} {3,S}
-2 * N3s u0 p1 c0 {1,S}
-3   Cd  u0 p0 c0 {1,S}
+1   N3s u0 {2,S}
+2 * N3s u0 {1,S}
 """,
     thermo = None,
     shortDesc = """""",
@@ -66171,1276 +50631,7 @@ entry(
 )
 
 entry(
-    index = 3025,
-    label = "N3s-N3s-CdH_3300",
-    group = 
-"""
-1   N3s u0 p1 c0 {2,S} {3,S} {4,S}
-2 * N3s u0 p1 c0 {1,S}
-3   Cd  u0 p0 c0 {1,S}
-4   H   u0 p0 c0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([18.2143,22.1239,25.1945,27.7366,31.854,34.8982,39.2903],'J/(mol*K)'),
-        H298 = (89.6171,'kJ/mol'),
-        S298 = (67.8682,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3026,
-    label = "N3s-N3s-CtH_2874",
-    group = 
-"""
-1   N3s u0 p1 c0 {2,S} {3,S} {4,S}
-2 * N3s u0 p1 c0 {1,S}
-3   Ct  u0 p0 c0 {1,S}
-4   H   u0 p0 c0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([17.5166,20.8203,23.4708,25.7296,29.2755,31.8663,35.7466],'J/(mol*K)'),
-        H298 = (110.223,'kJ/mol'),
-        S298 = (62.4618,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3027,
-    label = "N3s-HN3sN3s_2854",
-    group = 
-"""
-1 * N3s u0 p1 c0 {2,S} {3,S} {4,S}
-2   N3s u0 p1 c0 {1,S}
-3   N3s u0 p1 c0 {1,S}
-4   H   u0 p0 c0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([17.6184,21.9003,26.5,30.8595,37.9212,43.4957,52.2231],'J/(mol*K)'),
-        H298 = (11.3878,'kJ/mol'),
-        S298 = (66.5071,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3028,
-    label = "N3s-HN3sN3s-HHHH_3187",
-    group = 
-"""
-1 * N3s u0 p1 c0 {2,S} {3,S} {4,S}
-2   N3s u0 p1 c0 {1,S} {5,S} {6,S}
-3   N3s u0 p1 c0 {1,S} {7,S} {8,S}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {2,S}
-6   H   u0 p0 c0 {2,S}
-7   H   u0 p0 c0 {3,S}
-8   H   u0 p0 c0 {3,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([3.00993,3.60764,4.09803,4.57792,5.44821,6.13444,7.33673],'J/(mol*K)'),
-        H298 = (-3.93071,'kJ/mol'),
-        S298 = (26.5785,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3029,
-    label = "N3s-HN3sN3s-HHHO2s_2867",
-    group = 
-"""
-1 * N3s u0 p1 c0 {2,S} {3,S} {4,S}
-2   N3s u0 p1 c0 {1,S} {5,S} {6,S}
-3   N3s u0 p1 c0 {1,S} {7,S} {8,S}
-4   H   u0 p0 c0 {1,S}
-5   O2s u0 p2 c0 {2,S}
-6   H   u0 p0 c0 {2,S}
-7   H   u0 p0 c0 {3,S}
-8   H   u0 p0 c0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3030,
-    label = "N3s-HN3sN3s-HHHO2s-H_2866",
-    group = 
-"""
-1 * N3s u0 p1 c0 {2,S} {3,S} {5,S}
-2   N3s u0 p1 c0 {1,S} {4,S} {6,S}
-3   N3s u0 p1 c0 {1,S} {7,S} {8,S}
-4   O2s u0 p2 c0 {2,S} {9,S}
-5   H   u0 p0 c0 {1,S}
-6   H   u0 p0 c0 {2,S}
-7   H   u0 p0 c0 {3,S}
-8   H   u0 p0 c0 {3,S}
-9   H   u0 p0 c0 {4,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-4.25572,-5.61376,-7.57244,-9.68172,-13.1827,-16.0042,-20.5535],'J/(mol*K)'),
-        H298 = (47.7929,'kJ/mol'),
-        S298 = (-25.8755,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3031,
-    label = "N3s-HN3sN3s-HHHN3s_2853",
-    group = 
-"""
-1 * N3s u0 p1 c0 {2,S} {3,S} {4,S}
-2   N3s u0 p1 c0 {1,S} {5,S} {6,S}
-3   N3s u0 p1 c0 {1,S} {7,S} {8,S}
-4   H   u0 p0 c0 {1,S}
-5   N3s u0 p1 c0 {2,S}
-6   H   u0 p0 c0 {2,S}
-7   H   u0 p0 c0 {3,S}
-8   H   u0 p0 c0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3032,
-    label = "N3s-HN3sN3s-HHHN3s-HH_2852",
-    group = 
-"""
-1    N3s u0 p1 c0 {2,S} {4,S} {6,S}
-2  * N3s u0 p1 c0 {1,S} {3,S} {5,S}
-3    N3s u0 p1 c0 {2,S} {7,S} {8,S}
-4    N3s u0 p1 c0 {1,S} {9,S} {10,S}
-5    H   u0 p0 c0 {2,S}
-6    H   u0 p0 c0 {1,S}
-7    H   u0 p0 c0 {3,S}
-8    H   u0 p0 c0 {3,S}
-9    H   u0 p0 c0 {4,S}
-10   H   u0 p0 c0 {4,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([10.5267,13.1308,15.2638,17.0509,19.8964,21.9382,24.9352],'J/(mol*K)'),
-        H298 = (46.9736,'kJ/mol'),
-        S298 = (24.5567,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3033,
-    label = "N3s-N3s-HN3d_2695",
-    group = 
-"""
-1   N3s u0 p1 c0 {2,S} {3,S} {4,S}
-2 * N3s u0 p1 c0 {1,S}
-3   N3d u0 p1 c0 {1,S}
-4   H   u0 p0 c0 {1,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3034,
-    label = "N3s-HHN3s-N3d_2361",
-    group = 
-"""
-1 * N3s u0 p1 c0 {2,S} {3,S} {4,S}
-2   N3s u0 p1 c0 {1,S} {5,S}
-3   H   u0 p0 c0 {1,S}
-4   H   u0 p0 c0 {1,S}
-5   N3d u0 p1 c0 {2,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([25.6316,30.9002,35.2757,39.1298,45.3537,49.8425,56.3081],'J/(mol*K)'),
-        H298 = (114.052,'kJ/mol'),
-        S298 = (81.6216,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3035,
-    label = "N3s-N3s-O2s_2673",
-    group = 
-"""
-1   N3s u0 p1 c0 {2,S} {3,S}
-2 * N3s u0 p1 c0 {1,S}
-3   O2s u0 p2 c0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([25.2656,30.7377,35.233,39.0637,45.3128,49.9797,57.1809],'J/(mol*K)'),
-        H298 = (71.0102,'kJ/mol'),
-        S298 = (88.1371,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3036,
-    label = "N3s-N3s-HO2s_3038",
-    group = 
-"""
-1   N3s u0 p1 c0 {2,S} {3,S} {4,S}
-2 * N3s u0 p1 c0 {1,S}
-3   O2s u0 p2 c0 {1,S}
-4   H   u0 p0 c0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([25.6073,30.4646,34.2284,37.3259,42.23,45.8274,51.3495],'J/(mol*K)'),
-        H298 = (51.8614,'kJ/mol'),
-        S298 = (102.542,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3037,
-    label = "N3s-N3s-O2s-Cs_2672",
-    group = 
-"""
-1   N3s u0 p1 c0 {2,S} {3,S}
-2   O2s u0 p2 c0 {1,S} {4,S}
-3 * N3s u0 p1 c0 {1,S}
-4   Cs  u0 p0 c0 {2,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([6.45948,7.6169,9.06845,10.5016,12.7107,14.2958,17.0624],'J/(mol*K)'),
-        H298 = (36.7468,'kJ/mol'),
-        S298 = (25.5974,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3038,
-    label = "N3s-N5dc_2525",
-    group = 
-"""
-1   N5dc u0 p0 c+1 {2,S}
-2 * N3s  u0 p1 c0 {1,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3039,
-    label = "N3s-HHN5dc_2757",
-    group = 
-"""
-1 * N3s  u0 p1 c0 {2,S} {3,S} {4,S}
-2   N5dc u0 p0 c+1 {1,S}
-3   H    u0 p0 c0 {1,S}
-4   H    u0 p0 c0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([13.2285,16.2955,18.5099,20.1546,22.8183,24.7406,27.4078],'J/(mol*K)'),
-        H298 = (50.5948,'kJ/mol'),
-        S298 = (53.1318,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3040,
-    label = "N3s-HHN5dc-O0scO2d_2756",
-    group = 
-"""
-1   N5dc u0 p0 c+1 {2,S} {5,S} {6,D}
-2 * N3s  u0 p1 c0 {1,S} {3,S} {4,S}
-3   H    u0 p0 c0 {2,S}
-4   H    u0 p0 c0 {2,S}
-5   O0sc u0 p3 c-1 {1,S}
-6   O2d  u0 p2 c0 {1,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([9.04595,11.1381,12.5951,13.6666,15.3434,16.5346,18.1624],'J/(mol*K)'),
-        H298 = (0.0785795,'kJ/mol'),
-        S298 = (41.1175,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3041,
-    label = "N3s-N3s-N3s_2421",
-    group = 
-"""
-1   N3s u0 p1 c0 {2,S} {3,S}
-2 * N3s u0 p1 c0 {1,S}
-3   N3s u0 p1 c0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([24.5547,30.4914,35.7055,40.2983,47.8305,53.5355,62.4099],'J/(mol*K)'),
-        H298 = (55.3437,'kJ/mol'),
-        S298 = (80.2912,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3042,
-    label = "N3s-N3s-HN3s_2869",
-    group = 
-"""
-1   N3s u0 p1 c0 {2,S} {3,S} {4,S}
-2 * N3s u0 p1 c0 {1,S}
-3   N3s u0 p1 c0 {1,S}
-4   H   u0 p0 c0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([29.9093,36.6326,42.3874,47.3846,55.5313,61.6986,71.2782],'J/(mol*K)'),
-        H298 = (98.2929,'kJ/mol'),
-        S298 = (118.345,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3043,
-    label = "N3s-N3s-Cs_2412",
-    group = 
-"""
-1   N3s u0 p1 c0 {2,S} {3,S}
-2 * N3s u0 p1 c0 {1,S}
-3   Cs  u0 p0 c0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([14.6113,18.3252,21.6542,24.5963,29.4618,33.1878,38.9878],'J/(mol*K)'),
-        H298 = (13.3921,'kJ/mol'),
-        S298 = (46.1432,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3044,
-    label = "N3s-N3s-Cs-CsHH_3018",
-    group = 
-"""
-1   Cs  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2   N3s u0 p1 c0 {1,S} {6,S}
-3   Cs  u0 p0 c0 {1,S}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {1,S}
-6 * N3s u0 p1 c0 {2,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([19.7046,25.2658,30.0498,34.0611,40.1121,44.4972,52.3087],'J/(mol*K)'),
-        H298 = (43.5176,'kJ/mol'),
-        S298 = (34.2428,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3045,
-    label = "N3s-N3s-Cs-HHO2s_2983",
-    group = 
-"""
-1   Cs  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2   N3s u0 p1 c0 {1,S} {6,S}
-3   O2s u0 p2 c0 {1,S}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {1,S}
-6 * N3s u0 p1 c0 {2,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([7.99064,9.78439,11.1553,12.3192,14.0035,15.3473,17.4131],'J/(mol*K)'),
-        H298 = (7.4414,'kJ/mol'),
-        S298 = (34.0849,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3046,
-    label = "N3s-N3s-CsH_2420",
-    group = 
-"""
-1   N3s u0 p1 c0 {2,S} {3,S} {4,S}
-2 * N3s u0 p1 c0 {1,S}
-3   Cs  u0 p0 c0 {1,S}
-4   H   u0 p0 c0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([8.18861,10.1601,11.733,13.0645,15.1751,16.6913,18.9139],'J/(mol*K)'),
-        H298 = (41.8097,'kJ/mol'),
-        S298 = (23.3877,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3047,
-    label = "N3s-N3s-CsH-HHH_2654",
-    group = 
-"""
-1   Cs  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2   N3s u0 p1 c0 {1,S} {6,S} {7,S}
-3   H   u0 p0 c0 {1,S}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {1,S}
-6 * N3s u0 p1 c0 {2,S}
-7   H   u0 p0 c0 {2,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3048,
-    label = "N3s-N3s-Cs-HHH_2411",
-    group = 
-"""
-1   Cs  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2   N3s u0 p1 c0 {1,S} {6,S}
-3   H   u0 p0 c0 {1,S}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {1,S}
-6 * N3s u0 p1 c0 {2,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([23.0306,28.6268,34.246,39.4904,48.2379,55.2047,66.3876],'J/(mol*K)'),
-        H298 = (3.9118,'kJ/mol'),
-        S298 = (109.916,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3049,
-    label = "N3s-N3d_2329",
-    group = 
-"""
-1   N3d u0 p1 c0 {2,S}
-2 * N3s u0 p1 c0 {1,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3050,
-    label = "N3s-HN3dN3s_2680",
-    group = 
-"""
-1 * N3s u0 p1 c0 {2,S} {3,S} {4,S}
-2   N3s u0 p1 c0 {1,S}
-3   N3d u0 p1 c0 {1,S}
-4   H   u0 p0 c0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-0.442561,-1.10695,-1.81509,-2.31822,-3.01714,-3.57407,-4.57486],'J/(mol*K)'),
-        H298 = (22.9796,'kJ/mol'),
-        S298 = (-10.1284,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3051,
-    label = "N3s-HN3dN3s-CdHH_2992",
-    group = 
-"""
-1 * N3s u0 p1 c0 {2,S} {3,S} {4,S}
-2   N3s u0 p1 c0 {1,S} {5,S} {6,S}
-3   N3d u0 p1 c0 {1,S} {7,D}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {2,S}
-6   H   u0 p0 c0 {2,S}
-7   Cd  u0 p0 c0 {3,D}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3052,
-    label = "N3s-HN3dN3s-CdHH-HH_2991",
-    group = 
-"""
-1 * N3s u0 p1 c0 {2,S} {4,S} {5,S}
-2   N3s u0 p1 c0 {1,S} {6,S} {7,S}
-3   Cd  u0 p0 c0 {4,D} {8,S} {9,S}
-4   N3d u0 p1 c0 {1,S} {3,D}
-5   H   u0 p0 c0 {1,S}
-6   H   u0 p0 c0 {2,S}
-7   H   u0 p0 c0 {2,S}
-8   H   u0 p0 c0 {3,S}
-9   H   u0 p0 c0 {3,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([13.9193,17.1642,20.2313,22.892,27.0949,30.1509,34.6219],'J/(mol*K)'),
-        H298 = (39.6378,'kJ/mol'),
-        S298 = (61.688,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3053,
-    label = "N3s-HN3dN3s-HHO2d_2694",
-    group = 
-"""
-1 * N3s u0 p1 c0 {2,S} {3,S} {4,S}
-2   N3s u0 p1 c0 {1,S} {5,S} {6,S}
-3   N3d u0 p1 c0 {1,S} {7,D}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {2,S}
-6   H   u0 p0 c0 {2,S}
-7   O2d u0 p2 c0 {3,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([6.31033,7.10409,7.87704,8.65121,9.92855,10.8718,12.2578],'J/(mol*K)'),
-        H298 = (17.858,'kJ/mol'),
-        S298 = (17.5423,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3054,
-    label = "N3s-HN3dN3s-HHN3d_2679",
-    group = 
-"""
-1 * N3s u0 p1 c0 {2,S} {3,S} {4,S}
-2   N3s u0 p1 c0 {1,S} {5,S} {6,S}
-3   N3d u0 p1 c0 {1,S} {7,D}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {2,S}
-6   H   u0 p0 c0 {2,S}
-7   N3d u0 p1 c0 {3,D}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3055,
-    label = "N3s-HN3dN3s-HHN3d-H_2678",
-    group = 
-"""
-1 * N3s u0 p1 c0 {2,S} {3,S} {5,S}
-2   N3s u0 p1 c0 {1,S} {6,S} {7,S}
-3   N3d u0 p1 c0 {1,S} {4,D}
-4   N3d u0 p1 c0 {3,D} {8,S}
-5   H   u0 p0 c0 {1,S}
-6   H   u0 p0 c0 {2,S}
-7   H   u0 p0 c0 {2,S}
-8   H   u0 p0 c0 {4,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([5.84454,7.73884,8.98244,9.90481,11.3474,12.3939,14.0033],'J/(mol*K)'),
-        H298 = (33.5762,'kJ/mol'),
-        S298 = (12.5197,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3056,
-    label = "N3s-HHN3d-Cdd_2508",
-    group = 
-"""
-1 * N3s u0 p1 c0 {2,S} {3,S} {4,S}
-2   N3d u0 p1 c0 {1,S} {5,D}
-3   H   u0 p0 c0 {1,S}
-4   H   u0 p0 c0 {1,S}
-5   Cdd u0 p0 c0 {2,D}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3057,
-    label = "N3s-HHN3d-Cdd-Cd_3137",
-    group = 
-"""
-1 * N3s u0 p1 c0 {2,S} {4,S} {5,S}
-2   N3d u0 p1 c0 {1,S} {3,D}
-3   Cdd u0 p0 c0 {2,D} {6,D}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {1,S}
-6   Cd  u0 p0 c0 {3,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([18.3319,22.0004,24.9585,27.431,31.4108,34.3547,38.7989],'J/(mol*K)'),
-        H298 = (75.7257,'kJ/mol'),
-        S298 = (70.2025,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3058,
-    label = "N3s-HHN3d-Cdd-N5dc_2626",
-    group = 
-"""
-1 * N3s  u0 p1 c0 {2,S} {4,S} {5,S}
-2   N3d  u0 p1 c0 {1,S} {3,D}
-3   Cdd  u0 p0 c0 {2,D} {6,D}
-4   H    u0 p0 c0 {1,S}
-5   H    u0 p0 c0 {1,S}
-6   N5dc u0 p0 c+1 {3,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([2.98901,3.05712,2.72637,2.31827,1.49444,0.72955,-0.693],'J/(mol*K)'),
-        H298 = (79.1372,'kJ/mol'),
-        S298 = (12.4245,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3059,
-    label = "N3s-HHN3d-Cdd-O2d_2595",
-    group = 
-"""
-1 * N3s u0 p1 c0 {2,S} {4,S} {5,S}
-2   N3d u0 p1 c0 {1,S} {3,D}
-3   Cdd u0 p0 c0 {2,D} {6,D}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {1,S}
-6   O2d u0 p2 c0 {3,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([8.63075,9.30859,9.92189,10.4443,11.2846,11.9105,12.7734],'J/(mol*K)'),
-        H298 = (19.1416,'kJ/mol'),
-        S298 = (43.42,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3060,
-    label = "N3s-HHN3d-Cdd-N3d_2507",
-    group = 
-"""
-1 * N3s u0 p1 c0 {2,S} {4,S} {5,S}
-2   N3d u0 p1 c0 {1,S} {3,D}
-3   Cdd u0 p0 c0 {2,D} {6,D}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {1,S}
-6   N3d u0 p1 c0 {3,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-1.03572,-1.39596,-2.73206,-4.09994,-6.38032,-7.93234,-10.249],'J/(mol*K)'),
-        H298 = (79.8199,'kJ/mol'),
-        S298 = (-1.44514,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3061,
-    label = "N3s-N3d-N3d_2453",
-    group = 
-"""
-1   N3d u0 p1 c0 {2,S} {3,D}
-2 * N3s u0 p1 c0 {1,S}
-3   N3d u0 p1 c0 {1,D}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3062,
-    label = "N3s-HHN3d-N3d-H_2361",
-    group = 
-"""
-1 * N3s u0 p1 c0 {2,S} {4,S} {5,S}
-2   N3d u0 p1 c0 {1,S} {3,D}
-3   N3d u0 p1 c0 {2,D} {6,S}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {1,S}
-6   H   u0 p0 c0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3063,
-    label = "N3s-HHN3d-N3d_2362",
-    group = 
-"""
-1 * N3s u0 p1 c0 {2,S} {3,S} {4,S}
-2   N3d u0 p1 c0 {1,S} {5,D}
-3   H   u0 p0 c0 {1,S}
-4   H   u0 p0 c0 {1,S}
-5   N3d u0 p1 c0 {2,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([25.8741,31.0211,35.3814,39.0099,44.885,49.273,55.9449],'J/(mol*K)'),
-        H298 = (65.0016,'kJ/mol'),
-        S298 = (125.763,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3064,
-    label = "N3s-N3d-N3d-Cs_3296",
-    group = 
-"""
-1   N3d u0 p1 c0 {2,D} {3,S}
-2   N3d u0 p1 c0 {1,D} {4,S}
-3 * N3s u0 p1 c0 {1,S}
-4   Cs  u0 p0 c0 {2,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([30.7231,38.2636,45.0391,50.7256,59.8182,66.6244,77.2531],'J/(mol*K)'),
-        H298 = (1.76222,'kJ/mol'),
-        S298 = (122.733,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3065,
-    label = "N3s-HHN3d-N3d-O2s_2493",
-    group = 
-"""
-1 * N3s u0 p1 c0 {2,S} {4,S} {5,S}
-2   N3d u0 p1 c0 {1,S} {3,D}
-3   N3d u0 p1 c0 {2,D} {6,S}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {1,S}
-6   O2s u0 p2 c0 {3,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([17.6,20.7531,23.0872,24.8678,27.6255,29.5509,32.2505],'J/(mol*K)'),
-        H298 = (22.2711,'kJ/mol'),
-        S298 = (72.0121,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3066,
-    label = "N3s-N3d-N3d-N3s_2452",
-    group = 
-"""
-1   N3d u0 p1 c0 {2,D} {3,S}
-2   N3d u0 p1 c0 {1,D} {4,S}
-3 * N3s u0 p1 c0 {1,S}
-4   N3s u0 p1 c0 {2,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3067,
-    label = "N3s-HHN3d-N3d-N3s_2451",
-    group = 
-"""
-1 * N3s u0 p1 c0 {2,S} {4,S} {5,S}
-2   N3d u0 p1 c0 {1,S} {3,D}
-3   N3d u0 p1 c0 {2,D} {6,S}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {1,S}
-6   N3s u0 p1 c0 {3,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([36.1297,43.5379,49.5761,54.5482,62.5106,68.3701,77.176],'J/(mol*K)'),
-        H298 = (50.9911,'kJ/mol'),
-        S298 = (136.512,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3068,
-    label = "N3s-N3d-N5dc_2359",
-    group = 
-"""
-1   N3d  u0 p1 c0 {2,S} {3,D}
-2 * N3s  u0 p1 c0 {1,S}
-3   N5dc u0 p0 c+1 {1,D}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3069,
-    label = "N3s-HHN3d-N5dc_2656",
-    group = 
-"""
-1 * N3s  u0 p1 c0 {2,S} {3,S} {4,S}
-2   N3d  u0 p1 c0 {1,S} {5,D}
-3   H    u0 p0 c0 {1,S}
-4   H    u0 p0 c0 {1,S}
-5   N5dc u0 p0 c+1 {2,D}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3070,
-    label = "N3s-HHN3d-N5dc-HO0sc_2655",
-    group = 
-"""
-1 * N3s  u0 p1 c0 {3,S} {4,S} {5,S}
-2   N5dc u0 p0 c+1 {3,D} {6,S} {7,S}
-3   N3d  u0 p1 c0 {1,S} {2,D}
-4   H    u0 p0 c0 {1,S}
-5   H    u0 p0 c0 {1,S}
-6   O0sc u0 p3 c-1 {2,S}
-7   H    u0 p0 c0 {2,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3071,
-    label = "N3s-N3d-N5dc-O0sc_2358",
-    group = 
-"""
-1   N3d  u0 p1 c0 {2,D} {3,S}
-2   N5dc u0 p0 c+1 {1,D} {4,S}
-3 * N3s  u0 p1 c0 {1,S}
-4   O0sc u0 p3 c-1 {2,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([5.23645,6.79337,7.44892,7.70659,8.31437,8.69724,9.09575],'J/(mol*K)'),
-        H298 = (23.0549,'kJ/mol'),
-        S298 = (41.5286,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3072,
-    label = "N3s-HHN3d-O2d_2345",
-    group = 
-"""
-1 * N3s u0 p1 c0 {2,S} {3,S} {4,S}
-2   N3d u0 p1 c0 {1,S} {5,D}
-3   H   u0 p0 c0 {1,S}
-4   H   u0 p0 c0 {1,S}
-5   O2d u0 p2 c0 {2,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([7.9722,9.35814,10.7779,11.9762,13.8699,15.3784,17.9139],'J/(mol*K)'),
-        H298 = (28.73,'kJ/mol'),
-        S298 = (64.3177,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3073,
-    label = "N3s-N3d-Cd_2328",
-    group = 
-"""
-1   N3d u0 p1 c0 {2,S} {3,D}
-2 * N3s u0 p1 c0 {1,S}
-3   Cd  u0 p0 c0 {1,D}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3074,
-    label = "N3s-HHN3d-Cd_3270",
-    group = 
-"""
-1 * N3s u0 p1 c0 {2,S} {3,S} {4,S}
-2   N3d u0 p1 c0 {1,S} {5,D}
-3   H   u0 p0 c0 {1,S}
-4   H   u0 p0 c0 {1,S}
-5   Cd  u0 p0 c0 {2,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([10.9028,13.2061,15.3625,17.1564,19.89,21.9545,24.8218],'J/(mol*K)'),
-        H298 = (-3.66594,'kJ/mol'),
-        S298 = (49.7011,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3075,
-    label = "N3s-N3d-Cd-CsH_2721",
-    group = 
-"""
-1   Cd  u0 p0 c0 {2,D} {3,S} {4,S}
-2   N3d u0 p1 c0 {1,D} {5,S}
-3   Cs  u0 p0 c0 {1,S}
-4   H   u0 p0 c0 {1,S}
-5 * N3s u0 p1 c0 {2,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([16.7615,20.6137,24.176,27.3081,32.3735,36.2388,42.1224],'J/(mol*K)'),
-        H298 = (16.1476,'kJ/mol'),
-        S298 = (61.2261,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3076,
-    label = "N3s-HHN3d-Cd-HH_3269",
-    group = 
-"""
-1 * N3s u0 p1 c0 {3,S} {4,S} {5,S}
-2   Cd  u0 p0 c0 {3,D} {6,S} {7,S}
-3   N3d u0 p1 c0 {1,S} {2,D}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {1,S}
-6   H   u0 p0 c0 {2,S}
-7   H   u0 p0 c0 {2,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3077,
-    label = "N3s-N3dHH",
-    group = 
-"""
-1 * N3s u0 {2,S} {3,S} {4,S}
-2   H   u0 {1,S}
-3   H   u0 {1,S}
-4   N3d u0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([1.52835,2.20644,1.96629,1.7667,1.7313,1.39437,1.09446],'J/(mol*K)'),
-        H298 = (67.5925,'kJ/mol'),
-        S298 = (-13.3518,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-Currently points to N3s-N3sHH with no better estimate available
-""",
-)
-
-entry(
-    index = 3078,
-    label = "N3s-N3sHH",
-    group = 
-"""
-1 * N3s u0 {2,S} {3,S} {4,S}
-2   H   u0 {1,S}
-3   H   u0 {1,S}
-4   N3s u0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([6.1,7.38,8.43,9.27,10.54,11.52,13.19],'cal/(mol*K)'),
-        H298 = (11.4,'kcal/mol'),
-        S298 = (29.13,'cal/(mol*K)'),
-    ),
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3079,
-    label = "N3s-HHN3s-HH_3211",
-    group = 
-"""
-1   N3s u0 p1 c0 {2,S} {5,S} {6,S}
-2 * N3s u0 p1 c0 {1,S} {3,S} {4,S}
-3   H   u0 p0 c0 {2,S}
-4   H   u0 p0 c0 {2,S}
-5   H   u0 p0 c0 {1,S}
-6   H   u0 p0 c0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([23.2548,27.4546,31.4582,35.0423,41.0634,45.7942,53.5837],'J/(mol*K)'),
-        H298 = (48.515,'kJ/mol'),
-        S298 = (115.335,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3080,
-    label = "N3s-NCH",
-    group = 
-"""
-1 * N3s u0 {2,S} {3,S} {4,S}
-2   N   u0 {1,S}
-3   C   u0 {1,S}
-4   H   u0 {1,S}
-""",
-    thermo = None,
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3081,
+    index = 2378,
     label = "N3s-N3sCbH",
     group = 
 """
@@ -67463,14 +50654,22 @@ entry(
 )
 
 entry(
-    index = 3082,
-    label = "N3d",
+    index = 2379,
+    label = "N3s-N3sHH",
     group = 
 """
-1 * N3d u0
+1 * N3s u0 {2,S} {3,S} {4,S}
+2   H   u0 {1,S}
+3   H   u0 {1,S}
+4   N3s u0 {1,S}
 """,
-    thermo = None,
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([6.1,7.38,8.43,9.27,10.54,11.52,13.19],'cal/(mol*K)'),
+        H298 = (11.4,'kcal/mol'),
+        S298 = (29.13,'cal/(mol*K)'),
+    ),
+    shortDesc = """""",
     longDesc = 
 """
 
@@ -67478,8 +50677,323 @@ entry(
 )
 
 entry(
-    index = 3083,
-    label = "N3d-N1sc_2761",
+    index = 2380,
+    label = "N3s-(CtHN3s)",
+    group = 
+"""
+1 * N3s u0 p1 c0 {2,S} {3,S} {4,S}
+2   N3s u0 p1 c0 {1,S}
+3   Ct  u0 p0 c0 {1,S}
+4   H   u0 p0 c0 {1,S}
+""",
+    thermo = None,
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 2381,
+    label = "N3s-(N3sN3sO2s)",
+    group = 
+"""
+1 * N3s u0 p1 c0 {2,S} {3,S} {4,S}
+2   O2s u0 p2 c0 {1,S}
+3   N3s u0 p1 c0 {1,S}
+4   N3s u0 p1 c0 {1,S}
+""",
+    thermo = None,
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 2382,
+    label = "N3s-(HN3sN3s)",
+    group = 
+"""
+1 * N3s u0 p1 c0 {2,S} {3,S} {4,S}
+2   N3s u0 p1 c0 {1,S}
+3   N3s u0 p1 c0 {1,S}
+4   H   u0 p0 c0 {1,S}
+""",
+    thermo = None,
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 2383,
+    label = "N3s-(HN3sO2s)",
+    group = 
+"""
+1 * N3s u0 p1 c0 {2,S} {3,S} {4,S}
+2   O2s u0 p2 c0 {1,S}
+3   N3s u0 p1 c0 {1,S}
+4   H   u0 p0 c0 {1,S}
+""",
+    thermo = None,
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 2384,
+    label = "N3s-(HN3dN3s)",
+    group = 
+"""
+1 * N3s u0 p1 c0 {2,S} {3,S} {4,S}
+2   N3s u0 p1 c0 {1,S}
+3   N3d u0 p1 c0 {1,S}
+4   H   u0 p0 c0 {1,S}
+""",
+    thermo = None,
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 2386,
+    label = "N3s-(CtHH)",
+    group = 
+"""
+1 * N3s u0 p1 c0 {2,S} {3,S} {4,S}
+2   Ct  u0 p0 c0 {1,S}
+3   H   u0 p0 c0 {1,S}
+4   H   u0 p0 c0 {1,S}
+""",
+    thermo = None,
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 2387,
+    label = "N3s-CbHH",
+    group = 
+"""
+1 * N3s u0 {2,S} {3,S} {4,S}
+2   Cb  u0 {1,S}
+3   H   u0 {1,S}
+4   H   u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([5.72,6.51,7.32,8.07,9.41,10.47,12.28],'cal/(mol*K)'),
+        H298 = (4.8,'kcal/mol'),
+        S298 = (29.71,'cal/(mol*K)'),
+    ),
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 2389,
+    label = "N3s-CbCbH",
+    group = 
+"""
+1 * N3s u0 {2,S} {3,S} {4,S}
+2   Cb  u0 {1,S}
+3   Cb  u0 {1,S}
+4   H   u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (16.3,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
+    ),
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 2390,
+    label = "N3s-N3dHH",
+    group = 
+"""
+1 * N3s u0 {2,S} {3,S} {4,S}
+2   H   u0 {1,S}
+3   H   u0 {1,S}
+4   N3d u0 {1,S}
+""",
+    thermo = 'N3s-N3sHH',
+    shortDesc = """""",
+    longDesc = 
+"""
+Currently points to N3s-N3sHH with no better estimate available
+""",
+)
+
+entry(
+    index = 2391,
+    label = "N3s-OsHH",
+    group = 
+"""
+1 * N3s u0 {2,S} {3,S} {4,S}
+2   O2s u0 {1,S}
+3   H   u0 {1,S}
+4   H   u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([6.1,7.4,8.4,9.3,10.5,11.5,13.2],'cal/(mol*K)'),
+        H298 = (11.4,'kcal/mol'),
+        S298 = (29.1,'cal/(mol*K)'),
+    ),
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 2392,
+    label = "N3d",
+    group = 
+"""
+1 * N3d u0
+""",
+    thermo = None,
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 2393,
+    label = "N3d-(CO)",
+    group = 
+"""
+1   CO  u0 p0 c0 {2,S}
+2 * N3d u0 p1 c0 {1,S}
+""",
+    thermo = None,
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 2394,
+    label = "N3d-(O2s)",
+    group = 
+"""
+1   O2s u0 {2,S}
+2 * N3d u0 {1,S}
+""",
+    thermo = None,
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 2395,
+    label = "N3d-(CdO2s)",
+    group = 
+"""
+1 * N3d u0 p1 c0 {2,D} {3,S}
+2   Cd  u0 p0 c0 {1,D}
+3   O2s u0 p2 c0 {1,S}
+""",
+    thermo = None,
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 2396,
+    label = "N3d-(CddO2s)",
+    group = 
+"""
+1 * N3d u0 p1 c0 {2,S} {3,D}
+2   O2s u0 p2 c0 {1,S}
+3   Cdd u0 p0 c0 {1,D}
+""",
+    thermo = None,
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 2397,
+    label = "N3d-(N3dO2s)",
+    group = 
+"""
+1 * N3d u0 p1 c0 {2,S} {3,D}
+2   O2s u0 p2 c0 {1,S}
+3   N3d u0 p1 c0 {1,D}
+""",
+    thermo = None,
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 2398,
+    label = "N3d-OdOs",
+    group = 
+"""
+1 * N3d u0 {2,D} {3,S}
+2   O2d u0 {1,D}
+3   O2s u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (0,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
+    ),
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 2399,
+    label = "N3d-(N1sc)",
     group = 
 """
 1   N1sc u0 p2 c-1 {2,S}
@@ -67494,49 +51008,8 @@ entry(
 )
 
 entry(
-    index = 3084,
-    label = "N3d-N1sc-N5dc_2760",
-    group = 
-"""
-1   N1sc u0 p2 c-1 {2,S} {3,S}
-2 * N3d  u0 p1 c0 {1,S}
-3   N5dc u0 p0 c+1 {1,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3085,
-    label = "N3d-N1sc-N5dc-HO2d_2759",
-    group = 
-"""
-1   N5dc u0 p0 c+1 {2,S} {3,D} {4,S}
-2   N1sc u0 p2 c-1 {1,S} {5,S}
-3   O2d  u0 p2 c0 {1,D}
-4   H    u0 p0 c0 {1,S}
-5 * N3d  u0 p1 c0 {2,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([6.97513,8.45237,9.43837,10.167,11.1676,11.8866,12.7061],'J/(mol*K)'),
-        H298 = (77.1022,'kJ/mol'),
-        S298 = (27.233,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3086,
-    label = "N3d-Ct_2738",
+    index = 2400,
+    label = "N3d-(Ct)",
     group = 
 """
 1   Ct  u0 p0 c0 {2,S}
@@ -67551,60 +51024,16 @@ entry(
 )
 
 entry(
-    index = 3087,
-    label = "N3d-CtN3d-CtH-H_2730",
-    group = 
-"""
-1   Ct  u0 p0 c0 {2,S} {4,T}
-2 * N3d u0 p1 c0 {1,S} {3,D}
-3   N3d u0 p1 c0 {2,D} {5,S}
-4   Ct  u0 p0 c0 {1,T} {6,S}
-5   H   u0 p0 c0 {3,S}
-6   H   u0 p0 c0 {4,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3088,
-    label = "N3d-CtN3d-CtH_2731",
-    group = 
-"""
-1 * N3d u0 p1 c0 {2,D} {3,S}
-2   N3d u0 p1 c0 {1,D} {4,S}
-3   Ct  u0 p0 c0 {1,S} {5,T}
-4   H   u0 p0 c0 {2,S}
-5   Ct  u0 p0 c0 {3,T}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3089,
-    label = "N3d-CtN3d_2732",
+    index = 2401,
+    label = "N3d-(CtN3d)",
     group = 
 """
 1 * N3d u0 p1 c0 {2,D} {3,S}
 2   N3d u0 p1 c0 {1,D}
 3   Ct  u0 p0 c0 {1,S}
 """,
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([4.92401,6.00234,6.7957,7.37081,8.28785,8.96019,9.987],'J/(mol*K)'),
-        H298 = (49.5163,'kJ/mol'),
-        S298 = (16.1545,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
+    thermo = None,
+    shortDesc = """""",
     longDesc = 
 """
 
@@ -67612,59 +51041,12 @@ entry(
 )
 
 entry(
-    index = 3090,
-    label = "N3d-CtO2d_2949",
+    index = 2402,
+    label = "N3d-(O2d)",
     group = 
 """
-1 * N3d u0 p1 c0 {2,D} {3,S}
-2   O2d u0 p2 c0 {1,D}
-3   Ct  u0 p0 c0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([14.0093,14.2909,14.2517,14.1378,13.731,13.2642,12.1263],'J/(mol*K)'),
-        H298 = (118.56,'kJ/mol'),
-        S298 = (74.0715,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3091,
-    label = "N3d-CtN3d-HN3t_2944",
-    group = 
-"""
-1 * N3d u0 p1 c0 {2,D} {3,S}
-2   N3d u0 p1 c0 {1,D} {4,S}
-3   Ct  u0 p0 c0 {1,S} {5,T}
-4   H   u0 p0 c0 {2,S}
-5   N3t u0 p1 c0 {3,T}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([11.4164,12.805,13.9813,15.0444,16.7511,17.9824,19.7082],'J/(mol*K)'),
-        H298 = (62.4937,'kJ/mol'),
-        S298 = (57.8271,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3092,
-    label = "N3d-CdCt_2888",
-    group = 
-"""
-1 * N3d u0 p1 c0 {2,D} {3,S}
-2   Cd  u0 p0 c0 {1,D}
-3   Ct  u0 p0 c0 {1,S}
+1   O2d u0 {2,D}
+2 * N3d u0 {1,D}
 """,
     thermo = None,
     shortDesc = """""",
@@ -67675,39 +51057,13 @@ entry(
 )
 
 entry(
-    index = 3093,
-    label = "N3d-CdCt-HH_2887",
+    index = 2403,
+    label = "N3d-(N3dO2d)",
     group = 
 """
-1   Cd  u0 p0 c0 {2,D} {3,S} {4,S}
-2 * N3d u0 p1 c0 {1,D} {5,S}
-3   H   u0 p0 c0 {1,S}
-4   H   u0 p0 c0 {1,S}
-5   Ct  u0 p0 c0 {2,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([21.2584,25.4028,28.8816,31.8383,36.5684,40.0682,45.2845],'J/(mol*K)'),
-        H298 = (93.6145,'kJ/mol'),
-        S298 = (88.6165,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3094,
-    label = "N3d-CtN3d-HN5tc_2799",
-    group = 
-"""
-1 * N3d  u0 p1 c0 {2,D} {3,S}
-2   N3d  u0 p1 c0 {1,D} {4,S}
-3   Ct   u0 p0 c0 {1,S} {5,T}
-4   H    u0 p0 c0 {2,S}
-5   N5tc u0 p0 c+1 {3,T}
+1 * N3d u0 p1 c0 {2,S} {3,D}
+2   N3d u0 p1 c0 {1,S}
+3   O2d u0 p2 c0 {1,D}
 """,
     thermo = None,
     shortDesc = """""",
@@ -67718,75 +51074,7 @@ entry(
 )
 
 entry(
-    index = 3095,
-    label = "N3d-CtN3d-HN5tc-O0sc_2798",
-    group = 
-"""
-1   Ct   u0 p0 c0 {2,S} {4,T}
-2 * N3d  u0 p1 c0 {1,S} {3,D}
-3   N3d  u0 p1 c0 {2,D} {5,S}
-4   N5tc u0 p0 c+1 {1,T} {6,S}
-5   H    u0 p0 c0 {3,S}
-6   O0sc u0 p3 c-1 {4,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-0.234904,-0.417839,-0.581001,-0.740142,-1.09328,-1.38961,-1.92421],'J/(mol*K)'),
-        H298 = (53.4411,'kJ/mol'),
-        S298 = (3.03615,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3096,
-    label = "N3d-O2d_2718",
-    group = 
-"""
-1   O2d u0 p2 c0 {2,D}
-2 * N3d u0 p1 c0 {1,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([21.7166,23.5096,25.3109,27.0455,29.9484,32.1301,35.4172],'J/(mol*K)'),
-        H298 = (65.9872,'kJ/mol'),
-        S298 = (125.267,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3097,
-    label = "N3d-N3dO2d_2667",
-    group = 
-"""
-1 * N3d u0 p1 c0 {2,D} {3,S}
-2   O2d u0 p2 c0 {1,D}
-3   N3d u0 p1 c0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([21.9872,23.8295,25.4647,26.9058,29.1229,30.6741,32.7989],'J/(mol*K)'),
-        H298 = (83.777,'kJ/mol'),
-        S298 = (103.76,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3098,
+    index = 2404,
     label = "N3d-OdC",
     group = 
 """
@@ -67796,970 +51084,8 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([17.8856,21.5291,24.8321,27.5342,31.9987,35.4003,40.4959],'J/(mol*K)'),
-        H298 = (-1.96908,'kJ/mol'),
-        S298 = (84.4263,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3099,
-    label = "N3d-COO2d",
-    group = 
-"""
-1 * N3d u0 {2,S} {3,D}
-2   CO  u0 {1,S}
-3   O2d u0 {1,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([9.25317,10.109,10.7964,11.3457,12.1318,12.6332,13.2847],'J/(mol*K)'),
-        H298 = (-1.69554,'kJ/mol'),
-        S298 = (46.0182,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3100,
-    label = "N3d-OdN3s",
-    group = 
-"""
-1 * N3d u0 {2,D} {3,S}
-2   O2d u0 {1,D}
-3   N3s u0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([17.7894,20.5181,22.9065,24.8791,27.9727,30.2453,33.5926],'J/(mol*K)'),
-        H298 = (23.4602,'kJ/mol'),
-        S298 = (91.4265,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3101,
-    label = "N3d-OdOs",
-    group = 
-"""
-1 * N3d u0 {2,D} {3,S}
-2   O2d u0 {1,D}
-3   O2s u0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([16.2284,19.5885,22.6608,25.1981,29.3881,32.5163,37.4443],'J/(mol*K)'),
-        H298 = (-17.9097,'kJ/mol'),
-        S298 = (83.1027,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3102,
-    label = "N3d-N3d_2558",
-    group = 
-"""
-1   N3d u0 p1 c0 {2,S}
-2 * N3d u0 p1 c0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([13.5096,16.431,18.9924,21.2214,24.7999,27.4041,31.1698],'J/(mol*K)'),
-        H298 = (65.2039,'kJ/mol'),
-        S298 = (58.2056,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3103,
-    label = "N3d-N3d-O2d_2662",
-    group = 
-"""
-1   N3d u0 p1 c0 {2,S} {3,D}
-2 * N3d u0 p1 c0 {1,S}
-3   O2d u0 p2 c0 {1,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([14.3223,16.413,18.2498,19.7977,22.1313,23.7545,26.0505],'J/(mol*K)'),
-        H298 = (66.1731,'kJ/mol'),
-        S298 = (66.4523,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3104,
-    label = "N3d-N3dN3d_2618",
-    group = 
-"""
-1 * N3d u0 p1 c0 {2,S} {3,D}
-2   N3d u0 p1 c0 {1,S}
-3   N3d u0 p1 c0 {1,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([13.5096,16.431,18.9924,21.2214,24.7999,27.4041,31.1698],'J/(mol*K)'),
-        H298 = (65.2039,'kJ/mol'),
-        S298 = (58.2056,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3105,
-    label = "N3d-N3dN3d-HN3d_2617",
-    group = 
-"""
-1 * N3d u0 p1 c0 {2,S} {3,D}
-2   N3d u0 p1 c0 {1,S} {4,D}
-3   N3d u0 p1 c0 {1,D} {5,S}
-4   N3d u0 p1 c0 {2,D}
-5   H   u0 p0 c0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3106,
-    label = "N3d-N3dN3d-HN3d-H_2616",
-    group = 
-"""
-1   N3d u0 p1 c0 {2,S} {4,D}
-2 * N3d u0 p1 c0 {1,S} {3,D}
-3   N3d u0 p1 c0 {2,D} {5,S}
-4   N3d u0 p1 c0 {1,D} {6,S}
-5   H   u0 p0 c0 {3,S}
-6   H   u0 p0 c0 {4,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([7.21327,8.64881,9.98022,11.0649,12.5801,13.7019,15.4379],'J/(mol*K)'),
-        H298 = (68.6263,'kJ/mol'),
-        S298 = (32.1878,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3107,
-    label = "N3d-N3d-Cd_2557",
-    group = 
-"""
-1   N3d u0 p1 c0 {2,S} {3,D}
-2 * N3d u0 p1 c0 {1,S}
-3   Cd  u0 p0 c0 {1,D}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3108,
-    label = "N3d-N3d-Cd-HH_2556",
-    group = 
-"""
-1   Cd  u0 p0 c0 {2,D} {3,S} {4,S}
-2   N3d u0 p1 c0 {1,D} {5,S}
-3   H   u0 p0 c0 {1,S}
-4   H   u0 p0 c0 {1,S}
-5 * N3d u0 p1 c0 {2,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([16.9827,20.6218,23.8273,26.606,31.0654,34.3357,39.1095],'J/(mol*K)'),
-        H298 = (66.2925,'kJ/mol'),
-        S298 = (68.6523,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3109,
-    label = "N3d-N5dc_2526",
-    group = 
-"""
-1   N5dc u0 p0 c+1 {2,D}
-2 * N3d  u0 p1 c0 {1,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([31.8735,38.6053,44.5162,49.5436,57.4141,63.1172,71.4577],'J/(mol*K)'),
-        H298 = (78.1534,'kJ/mol'),
-        S298 = (145.285,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3110,
-    label = "N3d-N5dc-Cs_3130",
-    group = 
-"""
-1   N5dc u0 p0 c+1 {2,D} {3,S}
-2 * N3d  u0 p1 c0 {1,D}
-3   Cs   u0 p0 c0 {1,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3111,
-    label = "N3d-N5dc-Cs-HHH_3129",
-    group = 
-"""
-1   Cs   u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2   N5dc u0 p0 c+1 {1,S} {6,D}
-3   H    u0 p0 c0 {1,S}
-4   H    u0 p0 c0 {1,S}
-5   H    u0 p0 c0 {1,S}
-6 * N3d  u0 p1 c0 {2,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([11.8381,14.4698,16.8987,19.0001,22.3301,24.7275,28.2093],'J/(mol*K)'),
-        H298 = (34.9969,'kJ/mol'),
-        S298 = (50.2677,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3112,
-    label = "N3d-Cd_2517",
-    group = 
-"""
-1   Cd  u0 p0 c0 {2,S}
-2 * N3d u0 p1 c0 {1,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3113,
-    label = "N3d-Cd-N3d_3155",
-    group = 
-"""
-1   Cd  u0 p0 c0 {2,S} {3,D}
-2 * N3d u0 p1 c0 {1,S}
-3   N3d u0 p1 c0 {1,D}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3114,
-    label = "N3d-Cd-HN3d_3222",
-    group = 
-"""
-1   Cd  u0 p0 c0 {2,S} {3,D} {4,S}
-2 * N3d u0 p1 c0 {1,S}
-3   N3d u0 p1 c0 {1,D}
-4   H   u0 p0 c0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([15.362,18.5011,21.2745,23.7241,27.7953,30.8039,35.1738],'J/(mol*K)'),
-        H298 = (56.7231,'kJ/mol'),
-        S298 = (68.1809,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3115,
-    label = "N3d-Cd-Cd_2998",
-    group = 
-"""
-1   Cd  u0 p0 c0 {2,S} {3,D}
-2 * N3d u0 p1 c0 {1,S}
-3   Cd  u0 p0 c0 {1,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([20.0329,24.7123,28.9034,32.5268,38.3131,42.5422,48.7133],'J/(mol*K)'),
-        H298 = (58.2535,'kJ/mol'),
-        S298 = (79.0058,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3116,
-    label = "N3d-Cd-N5dc_2601",
-    group = 
-"""
-1   Cd   u0 p0 c0 {2,S} {3,D}
-2 * N3d  u0 p1 c0 {1,S}
-3   N5dc u0 p0 c+1 {1,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([15.9219,19.1568,22.0373,24.5396,28.4965,31.3916,35.6273],'J/(mol*K)'),
-        H298 = (43.9519,'kJ/mol'),
-        S298 = (63.2462,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3117,
-    label = "N3d-Cdd_2506",
-    group = 
-"""
-1   Cdd u0 p0 c0 {2,D}
-2 * N3d u0 p1 c0 {1,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([21.6298,25.717,29.5402,32.9438,38.4947,42.6374,49.0545],'J/(mol*K)'),
-        H298 = (44.7328,'kJ/mol'),
-        S298 = (78.2718,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3118,
-    label = "N3d-Cdd-Cd_2935",
-    group = 
-"""
-1   Cdd u0 p0 c0 {2,D} {3,D}
-2 * N3d u0 p1 c0 {1,D}
-3   Cd  u0 p0 c0 {1,D}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3119,
-    label = "N3d-Cdd-Cd-HN3s_3246",
-    group = 
-"""
-1   Cd  u0 p0 c0 {2,D} {3,S} {4,S}
-2   Cdd u0 p0 c0 {1,D} {5,D}
-3   N3s u0 p1 c0 {1,S}
-4   H   u0 p0 c0 {1,S}
-5 * N3d u0 p1 c0 {2,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([9.38916,11.6306,13.4193,14.9469,17.4658,19.3601,22.2537],'J/(mol*K)'),
-        H298 = (61.0737,'kJ/mol'),
-        S298 = (40.1293,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3120,
-    label = "N3d-Cdd-Cd-HO2s_3241",
-    group = 
-"""
-1   Cd  u0 p0 c0 {2,D} {3,S} {4,S}
-2   Cdd u0 p0 c0 {1,D} {5,D}
-3   O2s u0 p2 c0 {1,S}
-4   H   u0 p0 c0 {1,S}
-5 * N3d u0 p1 c0 {2,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([9.02347,9.75164,11.2173,12.9503,16.0433,18.2353,20.9523],'J/(mol*K)'),
-        H298 = (74.7688,'kJ/mol'),
-        S298 = (35.2946,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3121,
-    label = "N3d-Cdd-Cd-HH_2980",
-    group = 
-"""
-1   Cd  u0 p0 c0 {2,D} {3,S} {4,S}
-2   Cdd u0 p0 c0 {1,D} {5,D}
-3   H   u0 p0 c0 {1,S}
-4   H   u0 p0 c0 {1,S}
-5 * N3d u0 p1 c0 {2,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([25.5217,30.388,34.5639,38.1362,44.0607,48.3016,54.7083],'J/(mol*K)'),
-        H298 = (57.7745,'kJ/mol'),
-        S298 = (111.57,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3122,
-    label = "N3d-CddCs-HHH_2652",
-    group = 
-"""
-1   Cs  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2 * N3d u0 p1 c0 {1,S} {6,D}
-3   H   u0 p0 c0 {1,S}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {1,S}
-6   Cdd u0 p0 c0 {2,D}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3123,
-    label = "N3d-CddCs_2653",
-    group = 
-"""
-1 * N3d u0 p1 c0 {2,S} {3,D}
-2   Cs  u0 p0 c0 {1,S}
-3   Cdd u0 p0 c0 {1,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([19.2062,23.1189,26.5749,29.6038,34.5494,38.2704,43.9257],'J/(mol*K)'),
-        H298 = (46.9489,'kJ/mol'),
-        S298 = (69.9188,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3124,
-    label = "N3d-CddN3s",
-    group = 
-"""
-1 * N3d u0 {2,D} {3,S}
-2   Cdd u0 {1,D}
-3   N3s u0 {1,S}
-""",
-    thermo = None,
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3125,
-    label = "N3d-CddN3s-HH_2597",
-    group = 
-"""
-1   N3s u0 p1 c0 {2,S} {3,S} {4,S}
-2 * N3d u0 p1 c0 {1,S} {5,D}
-3   H   u0 p0 c0 {1,S}
-4   H   u0 p0 c0 {1,S}
-5   Cdd u0 p0 c0 {2,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([18.3319,22.0004,24.9585,27.431,31.4108,34.3547,38.7989],'J/(mol*K)'),
-        H298 = (75.7257,'kJ/mol'),
-        S298 = (70.2025,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3126,
-    label = "N3d-Cdd-Cd-CsH_2934",
-    group = 
-"""
-1   Cd  u0 p0 c0 {2,D} {3,S} {4,S}
-2   Cdd u0 p0 c0 {1,D} {5,D}
-3   Cs  u0 p0 c0 {1,S}
-4   H   u0 p0 c0 {1,S}
-5 * N3d u0 p1 c0 {2,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([16.0423,19.7265,22.9901,25.7923,30.2919,33.6791,38.7885],'J/(mol*K)'),
-        H298 = (20.2357,'kJ/mol'),
-        S298 = (57.7195,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3127,
-    label = "N3d-Cdd-Cdd_2862",
-    group = 
-"""
-1   Cdd u0 p0 c0 {2,D} {3,D}
-2 * N3d u0 p1 c0 {1,D}
-3   Cdd u0 p0 c0 {1,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([21.0473,23.6883,25.7876,27.5963,30.4607,32.5217,35.4554],'J/(mol*K)'),
-        H298 = (109.775,'kJ/mol'),
-        S298 = (89.7867,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3128,
-    label = "N3d-Cdd-Cdd-Cd_3278",
-    group = 
-"""
-1   Cdd u0 p0 c0 {2,D} {3,D}
-2   Cdd u0 p0 c0 {1,D} {4,D}
-3 * N3d u0 p1 c0 {1,D}
-4   Cd  u0 p0 c0 {2,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([14.9579,17.5544,19.8275,21.8043,25.0016,27.3787,30.9628],'J/(mol*K)'),
-        H298 = (83.0544,'kJ/mol'),
-        S298 = (57.3983,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3129,
-    label = "N3d-CddH_2805",
-    group = 
-"""
-1 * N3d u0 p1 c0 {2,D} {3,S}
-2   Cdd u0 p0 c0 {1,D}
-3   H   u0 p0 c0 {1,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3130,
-    label = "N3d-Cdd-N3d_2521",
-    group = 
-"""
-1   Cdd u0 p0 c0 {2,D} {3,D}
-2 * N3d u0 p1 c0 {1,D}
-3   N3d u0 p1 c0 {1,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([20.8866,24.0381,26.5725,28.5801,31.651,33.8318,37.0887],'J/(mol*K)'),
-        H298 = (60.3705,'kJ/mol'),
-        S298 = (97.844,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3131,
-    label = "N3d-Cdd-N5dc_2505",
-    group = 
-"""
-1   Cdd  u0 p0 c0 {2,D} {3,D}
-2 * N3d  u0 p1 c0 {1,D}
-3   N5dc u0 p0 c+1 {1,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([7.21841,8.40244,9.18462,9.82029,10.84,11.5901,12.722],'J/(mol*K)'),
-        H298 = (37.3922,'kJ/mol'),
-        S298 = (43.2347,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3132,
-    label = "N3d-CddH-O2d_2804",
-    group = 
-"""
-1   Cdd u0 p0 c0 {2,D} {4,D}
-2 * N3d u0 p1 c0 {1,D} {3,S}
-3   H   u0 p0 c0 {2,S}
-4   O2d u0 p2 c0 {1,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([6.15732,6.34544,6.23692,5.96957,5.38593,4.85499,4.05184],'J/(mol*K)'),
-        H298 = (-21.0918,'kJ/mol'),
-        S298 = (43.89,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3133,
-    label = "N3d-CddO2s_2519",
-    group = 
-"""
-1 * N3d u0 p1 c0 {2,S} {3,D}
-2   O2s u0 p2 c0 {1,S}
-3   Cdd u0 p0 c0 {1,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([7.4437,8.52116,9.53635,10.4566,11.8779,12.8356,14.082],'J/(mol*K)'),
-        H298 = (15.3676,'kJ/mol'),
-        S298 = (26.3185,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3134,
-    label = "N3d-CddO2s-HO2d_2592",
-    group = 
-"""
-1 * N3d u0 p1 c0 {2,S} {3,D}
-2   O2s u0 p2 c0 {1,S} {4,S}
-3   Cdd u0 p0 c0 {1,D} {5,D}
-4   H   u0 p0 c0 {2,S}
-5   O2d u0 p2 c0 {3,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([6.13829,6.30878,6.30685,6.45356,6.69046,6.80712,6.95564],'J/(mol*K)'),
-        H298 = (15.4318,'kJ/mol'),
-        S298 = (20.2314,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3135,
-    label = "N3d-CddO2s-HN3d_2518",
-    group = 
-"""
-1 * N3d u0 p1 c0 {2,S} {3,D}
-2   O2s u0 p2 c0 {1,S} {4,S}
-3   Cdd u0 p0 c0 {1,D} {5,D}
-4   H   u0 p0 c0 {2,S}
-5   N3d u0 p1 c0 {3,D}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3136,
-    label = "N3d-CddO2s-HN3d-H_2517",
-    group = 
-"""
-1   Cdd u0 p0 c0 {2,D} {4,D}
-2 * N3d u0 p1 c0 {1,D} {3,S}
-3   O2s u0 p2 c0 {2,S} {5,S}
-4   N3d u0 p1 c0 {1,D} {6,S}
-5   H   u0 p0 c0 {3,S}
-6   H   u0 p0 c0 {4,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([1.75589,2.2775,2.1906,1.73847,0.933718,0.394646,-0.424139],'J/(mol*K)'),
-        H298 = (-14.7648,'kJ/mol'),
-        S298 = (13.5038,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3137,
-    label = "N3d-Cs_2409",
-    group = 
-"""
-1   Cs  u0 p0 c0 {2,S}
-2 * N3d u0 p1 c0 {1,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3138,
-    label = "N3d-Cs-HHO2s_3286",
-    group = 
-"""
-1   Cs  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2 * N3d u0 p1 c0 {1,S}
-3   O2s u0 p2 c0 {1,S}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([10.4224,13.7572,16.6148,18.9882,22.7946,25.5638,29.5548],'J/(mol*K)'),
-        H298 = (-20.8336,'kJ/mol'),
-        S298 = (28.423,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3139,
-    label = "N3d-Cs-HHN3s_3097",
-    group = 
-"""
-1   Cs  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2 * N3d u0 p1 c0 {1,S}
-3   N3s u0 p1 c0 {1,S}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([21.3018,26.6452,31.5181,35.7162,42.5571,47.6664,55.4164],'J/(mol*K)'),
-        H298 = (39.2684,'kJ/mol'),
-        S298 = (84.2498,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3140,
-    label = "N3d-Cs-HHH_2625",
-    group = 
-"""
-1   Cs  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2 * N3d u0 p1 c0 {1,S}
-3   H   u0 p0 c0 {1,S}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {1,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3141,
-    label = "N3d-CdCs-HHH_3178",
-    group = 
-"""
-1   Cs  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2 * N3d u0 p1 c0 {1,S} {6,D}
-3   H   u0 p0 c0 {1,S}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {1,S}
-6   Cd  u0 p0 c0 {2,D}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3142,
-    label = "N3d-CdCs",
-    group = 
-"""
-1 * N3d      u0 {2,D} {3,S}
-2   [Cd,Cdd] u0 {1,D}
-3   Cs       u0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([2,2.2,2.2,2.3,2.5,2.7,2.9],'cal/(mol*K)'),
-        H298 = (21.3,'kcal/mol'),
-        S298 = (-6.3,'cal/(mol*K)'),
-    ),
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3143,
-    label = "N3d-CsR",
-    group = 
-"""
-1 * N3d u0 {2,S} {3,D}
-2   Cs  u0 {1,S}
-3   R!H u0 {1,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
         Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
-        H298 = (21.3,'kcal/mol'),
+        H298 = (0,'kcal/mol'),
         S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = """""",
@@ -68770,16 +51096,34 @@ entry(
 )
 
 entry(
-    index = 3144,
-    label = "N3d-CsN3d-HHH_2915",
+    index = 2405,
+    label = "N3d-OdN3s",
     group = 
 """
-1   Cs  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2 * N3d u0 p1 c0 {1,S} {6,D}
-3   H   u0 p0 c0 {1,S}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {1,S}
-6   N3d u0 p1 c0 {2,D}
+1 * N3d u0 {2,D} {3,S}
+2   O2d u0 {1,D}
+3   N3s u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (0,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
+    ),
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 2406,
+    label = "N3d-(N5dc)",
+    group = 
+"""
+1   N5dc u0 p0 c+1 {2,D}
+2 * N3d  u0 p1 c0 {1,D}
 """,
     thermo = None,
     shortDesc = """""",
@@ -68790,7 +51134,39 @@ entry(
 )
 
 entry(
-    index = 3145,
+    index = 2408,
+    label = "N3d-(Cdd)",
+    group = 
+"""
+1   Cdd u0 p0 c0 {2,D}
+2 * N3d u0 p1 c0 {1,D}
+""",
+    thermo = None,
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 2410,
+    label = "N3d-(N3d)",
+    group = 
+"""
+1   N3d u0 {2,D}
+2 * N3d u0 {1,D}
+""",
+    thermo = None,
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 2411,
     label = "N3d-N3dCs",
     group = 
 """
@@ -68812,464 +51188,7 @@ entry(
 )
 
 entry(
-    index = 3146,
-    label = "N3d-Cs-Cs_2408",
-    group = 
-"""
-1   Cs  u0 p0 c0 {2,S} {3,S}
-2 * N3d u0 p1 c0 {1,S}
-3   Cs  u0 p0 c0 {1,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3147,
-    label = "N3d-Cs-CsHH_2423",
-    group = 
-"""
-1   Cs  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2 * N3d u0 p1 c0 {1,S}
-3   Cs  u0 p0 c0 {1,S}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([28.4489,33.182,37.6966,42.5038,50.4876,56.073,64.1398],'J/(mol*K)'),
-        H298 = (74.075,'kJ/mol'),
-        S298 = (122.098,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3148,
-    label = "N3d-O2s_2395",
-    group = 
-"""
-1   O2s u0 p2 c0 {2,S}
-2 * N3d u0 p1 c0 {1,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3149,
-    label = "N3d-O2s-O2s_3267",
-    group = 
-"""
-1   O2s u0 p2 c0 {2,S} {3,S}
-2 * N3d u0 p1 c0 {1,S}
-3   O2s u0 p2 c0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([20.4452,24.4234,27.7472,30.4832,34.7867,37.9303,42.4502],'J/(mol*K)'),
-        H298 = (43.7395,'kJ/mol'),
-        S298 = (87.069,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3150,
-    label = "N3d-O2s-N3s_3078",
-    group = 
-"""
-1   O2s u0 p2 c0 {2,S} {3,S}
-2 * N3d u0 p1 c0 {1,S}
-3   N3s u0 p1 c0 {1,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3151,
-    label = "N3d-O2s-N3s-HH_3124",
-    group = 
-"""
-1   N3s u0 p1 c0 {2,S} {3,S} {4,S}
-2   O2s u0 p2 c0 {1,S} {5,S}
-3   H   u0 p0 c0 {1,S}
-4   H   u0 p0 c0 {1,S}
-5 * N3d u0 p1 c0 {2,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([23.2739,27.6456,31.3483,34.5088,39.573,43.2834,48.7252],'J/(mol*K)'),
-        H298 = (72.834,'kJ/mol'),
-        S298 = (94.3379,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3152,
-    label = "N3d-CdO2s_2796",
-    group = 
-"""
-1 * N3d u0 p1 c0 {2,D} {3,S}
-2   Cd  u0 p0 c0 {1,D}
-3   O2s u0 p2 c0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([21.353,25.8752,29.3235,32.1213,36.5715,39.887,44.7063],'J/(mol*K)'),
-        H298 = (-36.8912,'kJ/mol'),
-        S298 = (71.5405,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3153,
-    label = "N3d-CdO2s-HH_2795",
-    group = 
-"""
-1   Cd  u0 p0 c0 {2,D} {3,S} {4,S}
-2 * N3d u0 p1 c0 {1,D} {5,S}
-3   H   u0 p0 c0 {1,S}
-4   H   u0 p0 c0 {1,S}
-5   O2s u0 p2 c0 {2,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3154,
-    label = "N3d-O2s-Cs-HHH_2393",
-    group = 
-"""
-1   Cs  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2   O2s u0 p2 c0 {1,S} {6,S}
-3   H   u0 p0 c0 {1,S}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {1,S}
-6 * N3d u0 p1 c0 {2,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3155,
-    label = "N3d-O2s-Cs_2394",
-    group = 
-"""
-1   O2s u0 p2 c0 {2,S} {3,S}
-2 * N3d u0 p1 c0 {1,S}
-3   Cs  u0 p0 c0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([17.9176,21.5901,25.0475,28.1963,33.3435,36.9439,42.3448],'J/(mol*K)'),
-        H298 = (3.6461,'kJ/mol'),
-        S298 = (69.5081,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3156,
-    label = "N3d-CdOH",
-    group = 
-"""
-1 * N3d      u0 {2,S} {3,D}
-2   O2s      u0 {1,S} {4,S}
-3   [Cd,Cdd] u0 {1,D}
-4   H        u0 {2,S}
-""",
-    thermo = None,
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3157,
-    label = "N3d-CdO",
-    group = 
-"""
-1 * N3d      u0 {2,D} {3,S}
-2   [Cd,Cdd] u0 {1,D}
-3   O2s      u0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([16.0219,19.3646,22.2777,24.7726,28.8312,31.8869,36.5072],'J/(mol*K)'),
-        H298 = (17.9239,'kJ/mol'),
-        S298 = (80.1579,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3158,
-    label = "N3d-N3dO2s_2431",
-    group = 
-"""
-1 * N3d u0 p1 c0 {2,S} {3,D}
-2   O2s u0 p2 c0 {1,S}
-3   N3d u0 p1 c0 {1,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([32.3607,39.063,44.8718,49.6595,57.2667,62.874,71.2187],'J/(mol*K)'),
-        H298 = (11.5475,'kJ/mol'),
-        S298 = (131.344,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3159,
-    label = "N3d-N3dO2s-HH_2889",
-    group = 
-"""
-1 * N3d u0 p1 c0 {2,S} {3,D}
-2   O2s u0 p2 c0 {1,S} {4,S}
-3   N3d u0 p1 c0 {1,D} {5,S}
-4   H   u0 p0 c0 {2,S}
-5   H   u0 p0 c0 {3,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([10.7675,12.8662,14.785,16.3411,18.668,20.3704,22.9485],'J/(mol*K)'),
-        H298 = (22.5728,'kJ/mol'),
-        S298 = (70.6767,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3160,
-    label = "N3d-N3dO2s-HO2s_2430",
-    group = 
-"""
-1 * N3d u0 p1 c0 {2,S} {3,D}
-2   O2s u0 p2 c0 {1,S} {4,S}
-3   N3d u0 p1 c0 {1,D} {5,S}
-4   H   u0 p0 c0 {2,S}
-5   O2s u0 p2 c0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3161,
-    label = "N3d-N3dO2s-HO2s-H_2429",
-    group = 
-"""
-1   N3d u0 p1 c0 {2,D} {4,S}
-2 * N3d u0 p1 c0 {1,D} {3,S}
-3   O2s u0 p2 c0 {2,S} {5,S}
-4   O2s u0 p2 c0 {1,S} {6,S}
-5   H   u0 p0 c0 {3,S}
-6   H   u0 p0 c0 {4,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([10.4511,12.2262,13.4977,14.4062,15.7816,16.6886,17.7903],'J/(mol*K)'),
-        H298 = (-9.94515,'kJ/mol'),
-        S298 = (31.8597,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3162,
-    label = "N3d-N3s_2347",
-    group = 
-"""
-1   N3s u0 p1 c0 {2,S}
-2 * N3d u0 p1 c0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([22.7262,28.0258,32.6879,36.8796,43.8925,48.8593,56.2881],'J/(mol*K)'),
-        H298 = (50.9975,'kJ/mol'),
-        S298 = (78.886,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3163,
-    label = "N3d-N3s-O2s_2768",
-    group = 
-"""
-1   N3s u0 p1 c0 {2,S} {3,S}
-2 * N3d u0 p1 c0 {1,S}
-3   O2s u0 p2 c0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([18.9201,23.3522,27.1256,30.2449,35.0883,38.5111,43.3462],'J/(mol*K)'),
-        H298 = (48.4831,'kJ/mol'),
-        S298 = (71.4012,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3164,
-    label = "N3d-N3s-N3s_2696",
-    group = 
-"""
-1   N3s u0 p1 c0 {2,S} {3,S}
-2 * N3d u0 p1 c0 {1,S}
-3   N3s u0 p1 c0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([19.7639,24.9031,29.2137,32.7968,38.4423,42.5448,48.6252],'J/(mol*K)'),
-        H298 = (73.2141,'kJ/mol'),
-        S298 = (74.2077,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3165,
-    label = "N3d-N3s-HH_2346",
-    group = 
-"""
-1   N3s u0 p1 c0 {2,S} {3,S} {4,S}
-2 * N3d u0 p1 c0 {1,S}
-3   H   u0 p0 c0 {1,S}
-4   H   u0 p0 c0 {1,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3166,
-    label = "N3d-CdN3s",
-    group = 
-"""
-1 * N3d u0 {2,D} {3,S}
-2   Cd  u0 {1,D}
-3   N3s u0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([29.1927,36.0262,41.5048,46.2313,53.9948,59.5876,68.0386],'J/(mol*K)'),
-        H298 = (80.0741,'kJ/mol'),
-        S298 = (97.5754,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-Currently references to N3d-CdH with no better data
-""",
-)
-
-entry(
-    index = 3167,
-    label = "N3d-N3dN3s-HH_2495",
-    group = 
-"""
-1   N3s u0 p1 c0 {2,S} {3,S} {4,S}
-2 * N3d u0 p1 c0 {1,S} {5,D}
-3   H   u0 p0 c0 {1,S}
-4   H   u0 p0 c0 {1,S}
-5   N3d u0 p1 c0 {2,D}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3168,
+    index = 2412,
     label = "N3d-N3dN3s",
     group = 
 """
@@ -69291,583 +51210,7 @@ entry(
 )
 
 entry(
-    index = 3169,
-    label = "N3d-Cd_2338",
-    group = 
-"""
-1   Cd  u0 p0 c0 {2,D}
-2 * N3d u0 p1 c0 {1,D}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3170,
-    label = "N3d-CbR",
-    group = 
-"""
-1 * N3d u0 {2,S} {3,D}
-2   Cb  u0 {1,S}
-3   R!H u0 {1,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
-        H298 = (16.7,'kcal/mol'),
-        S298 = (0,'cal/(mol*K)'),
-    ),
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3171,
-    label = "N3d-CO-HO2d_3196",
-    group = 
-"""
-1   CO  u0 p0 c0 {2,S} {3,D} {4,S}
-2 * N3d u0 p1 c0 {1,S}
-3   O2d u0 p2 c0 {1,D}
-4   H   u0 p0 c0 {1,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3172,
-    label = "N3d-CO",
-    group = 
-"""
-1 * N3d u0 {2,S}
-2   CO  u0 {1,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3173,
-    label = "N3d-COCd",
-    group = 
-"""
-1 * N3d u0 {2,S} {3,D}
-2   CO  u0 {1,S}
-3   Cd  u0 {1,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([10.9772,13.1606,15.2835,17.2458,20.4577,22.6731,25.979],'J/(mol*K)'),
-        H298 = (-13.3177,'kJ/mol'),
-        S298 = (47.3502,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3174,
-    label = "N3d-Cd-N3d_3223",
-    group = 
-"""
-1   Cd  u0 p0 c0 {2,D} {3,S}
-2 * N3d u0 p1 c0 {1,D}
-3   N3d u0 p1 c0 {1,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3175,
-    label = "N3d-Cd-HN3d_3154",
-    group = 
-"""
-1   Cd  u0 p0 c0 {2,D} {3,S} {4,S}
-2 * N3d u0 p1 c0 {1,D}
-3   N3d u0 p1 c0 {1,S}
-4   H   u0 p0 c0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([22.1312,26.6646,30.7267,34.1772,39.4961,43.3825,49.1114],'J/(mol*K)'),
-        H298 = (82.3225,'kJ/mol'),
-        S298 = (94.4638,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3176,
-    label = "N3d-CdH_3093",
-    group = 
-"""
-1 * N3d u0 p1 c0 {2,D} {3,S}
-2   Cd  u0 p0 c0 {1,D}
-3   H   u0 p0 c0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([25.5558,30.5898,35.4811,39.8288,46.613,51.6967,60.4827],'J/(mol*K)'),
-        H298 = (37.8254,'kJ/mol'),
-        S298 = (111.654,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3177,
-    label = "N3d-Cd-CtH_3282",
-    group = 
-"""
-1   Cd  u0 p0 c0 {2,D} {3,S} {4,S}
-2 * N3d u0 p1 c0 {1,D}
-3   Ct  u0 p0 c0 {1,S}
-4   H   u0 p0 c0 {1,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3178,
-    label = "N3d-Cd-Ct_3088",
-    group = 
-"""
-1   Cd  u0 p0 c0 {2,D} {3,S}
-2 * N3d u0 p1 c0 {1,D}
-3   Ct  u0 p0 c0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([21.206,24.7869,27.7882,30.3666,34.491,37.4746,41.8943],'J/(mol*K)'),
-        H298 = (93.9584,'kJ/mol'),
-        S298 = (92.8964,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3179,
-    label = "N3d-Cd-Cs-CsHH_3065",
-    group = 
-"""
-1   Cs  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 p0 c0 {1,S} {6,D}
-3   Cs  u0 p0 c0 {1,S}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {1,S}
-6 * N3d u0 p1 c0 {2,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([5.42058,6.80114,8.47331,10.2159,13.1085,14.6299,16.8436],'J/(mol*K)'),
-        H298 = (39.0396,'kJ/mol'),
-        S298 = (4.31549,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3180,
-    label = "N3d-Cd-HN3s_3022",
-    group = 
-"""
-1   Cd  u0 p0 c0 {2,D} {3,S} {4,S}
-2 * N3d u0 p1 c0 {1,D}
-3   N3s u0 p1 c0 {1,S}
-4   H   u0 p0 c0 {1,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3181,
-    label = "N3d-Cd-N3s_2445",
-    group = 
-"""
-1   Cd  u0 p0 c0 {2,D} {3,S}
-2 * N3d u0 p1 c0 {1,D}
-3   N3s u0 p1 c0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([13.2518,15.9946,18.4268,20.5527,23.9418,26.389,30.089],'J/(mol*K)'),
-        H298 = (15.7822,'kJ/mol'),
-        S298 = (65.3218,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3182,
-    label = "N3d-Cd-N3s-N3s_3300",
-    group = 
-"""
-1   Cd  u0 p0 c0 {2,S} {3,D}
-2   N3s u0 p1 c0 {1,S} {4,S}
-3 * N3d u0 p1 c0 {1,D}
-4   N3s u0 p1 c0 {2,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([6.4227,7.64731,8.68101,9.53228,10.8329,11.8745,13.4773],'J/(mol*K)'),
-        H298 = (41.2052,'kJ/mol'),
-        S298 = (33.5627,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3183,
-    label = "N3d-Cd-HO2s_2547",
-    group = 
-"""
-1   Cd  u0 p0 c0 {2,D} {3,S} {4,S}
-2 * N3d u0 p1 c0 {1,D}
-3   O2s u0 p2 c0 {1,S}
-4   H   u0 p0 c0 {1,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3184,
-    label = "N3d-Cd-O2s_2585",
-    group = 
-"""
-1   Cd  u0 p0 c0 {2,D} {3,S}
-2 * N3d u0 p1 c0 {1,D}
-3   O2s u0 p2 c0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([22.0241,26.5622,30.6147,34.0164,39.354,43.1517,48.7989],'J/(mol*K)'),
-        H298 = (5.87063,'kJ/mol'),
-        S298 = (100.211,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3185,
-    label = "N3d-Cd-O2s-Cs_3057",
-    group = 
-"""
-1   Cd  u0 p0 c0 {2,S} {3,D}
-2   O2s u0 p2 c0 {1,S} {4,S}
-3 * N3d u0 p1 c0 {1,D}
-4   Cs  u0 p0 c0 {2,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([1.15352,1.92026,2.48485,2.96087,3.8384,4.6945,6.0196],'J/(mol*K)'),
-        H298 = (-11.5078,'kJ/mol'),
-        S298 = (3.30173,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3186,
-    label = "N3d-Cd-Cs-HHH_2367",
-    group = 
-"""
-1   Cs  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 p0 c0 {1,S} {6,D}
-3   H   u0 p0 c0 {1,S}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {1,S}
-6 * N3d u0 p1 c0 {2,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([15.0144,18.6691,21.7667,24.5943,29.1042,32.6449,38.3888],'J/(mol*K)'),
-        H298 = (6.91023,'kJ/mol'),
-        S298 = (58.4254,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3187,
-    label = "N3d-Cd-CsH-HHH_2785",
-    group = 
-"""
-1   Cs  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 p0 c0 {1,S} {6,D} {7,S}
-3   H   u0 p0 c0 {1,S}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {1,S}
-6 * N3d u0 p1 c0 {2,D}
-7   H   u0 p0 c0 {2,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3188,
-    label = "N3d-Cd-CsH_2588",
-    group = 
-"""
-1   Cd  u0 p0 c0 {2,D} {3,S} {4,S}
-2 * N3d u0 p1 c0 {1,D}
-3   Cs  u0 p0 c0 {1,S}
-4   H   u0 p0 c0 {1,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3189,
-    label = "N3d-Cd-Cs_2368",
-    group = 
-"""
-1   Cd  u0 p0 c0 {2,D} {3,S}
-2 * N3d u0 p1 c0 {1,D}
-3   Cs  u0 p0 c0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([18.2442,23.3485,27.8779,31.918,38.5798,43.8071,51.7871],'J/(mol*K)'),
-        H298 = (12.8603,'kJ/mol'),
-        S298 = (82.0774,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3190,
-    label = "N3d-Cd-Cd-CdH_2336",
-    group = 
-"""
-1   Cd  u0 p0 c0 {2,S} {3,D} {4,S}
-2   Cd  u0 p0 c0 {1,S} {5,D}
-3   Cd  u0 p0 c0 {1,D}
-4   H   u0 p0 c0 {1,S}
-5 * N3d u0 p1 c0 {2,D}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3191,
-    label = "N3d-Cd-Cd_2337",
-    group = 
-"""
-1   Cd  u0 p0 c0 {2,D} {3,S}
-2 * N3d u0 p1 c0 {1,D}
-3   Cd  u0 p0 c0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([16.5925,20.4395,23.8651,26.8494,31.6664,35.1377,40.0205],'J/(mol*K)'),
-        H298 = (36.8119,'kJ/mol'),
-        S298 = (54.6443,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3192,
-    label = "N3d-CdH-HH_3092",
-    group = 
-"""
-1   Cd  u0 p0 c0 {2,D} {3,S} {4,S}
-2 * N3d u0 p1 c0 {1,D} {5,S}
-3   H   u0 p0 c0 {1,S}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {2,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3193,
-    label = "N3d-CdH",
-    group = 
-"""
-1 * N3d      u0 {2,D} {3,S}
-2   [Cd,Cdd] u0 {1,D}
-3   H        u0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([3,3.5,3.9,4.3,5,5.5,6.4],'cal/(mol*K)'),
-        H298 = (16.3,'kcal/mol'),
-        S298 = (13.3,'cal/(mol*K)'),
-    ),
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3194,
-    label = "N3d-Cd-HH_2342",
-    group = 
-"""
-1   Cd  u0 p0 c0 {2,D} {3,S} {4,S}
-2 * N3d u0 p1 c0 {1,D}
-3   H   u0 p0 c0 {1,S}
-4   H   u0 p0 c0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([12.7855,13.6583,14.6697,16.4335,20.2822,22.5607,26.6347],'J/(mol*K)'),
-        H298 = (67.7929,'kJ/mol'),
-        S298 = (56.3191,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3195,
-    label = "N3d-N3d_2325",
-    group = 
-"""
-1   N3d u0 p1 c0 {2,D}
-2 * N3d u0 p1 c0 {1,D}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3196,
-    label = "N3d-CON3d",
-    group = 
-"""
-1 * N3d u0 {2,S} {3,D}
-2   CO  u0 {1,S}
-3   N3d u0 {1,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([9.65466,11.247,12.7408,14.0642,16.0892,17.4463,19.4962],'J/(mol*K)'),
-        H298 = (27.62,'kJ/mol'),
-        S298 = (45.6361,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3197,
+    index = 2413,
     label = "N3d-N3dH",
     group = 
 """
@@ -69889,84 +51232,13 @@ entry(
 )
 
 entry(
-    index = 3198,
-    label = "N3d-N3d-O2s_2890",
+    index = 2414,
+    label = "N3d-(N3dN3d)",
     group = 
 """
-1   N3d u0 p1 c0 {2,D} {3,S}
-2 * N3d u0 p1 c0 {1,D}
-3   O2s u0 p2 c0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([13.687,16.0769,18.428,20.4476,23.6204,26.0445,29.6261],'J/(mol*K)'),
-        H298 = (42.5631,'kJ/mol'),
-        S298 = (74.5944,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3199,
-    label = "N3d-N3d-O2s-N3s_3125",
-    group = 
-"""
-1   N3d u0 p1 c0 {2,S} {3,D}
-2   O2s u0 p2 c0 {1,S} {4,S}
-3 * N3d u0 p1 c0 {1,D}
-4   N3s u0 p1 c0 {2,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([10.0023,11.9291,13.3835,14.5322,16.3242,17.589,19.3659],'J/(mol*K)'),
-        H298 = (51.1873,'kJ/mol'),
-        S298 = (45.285,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3200,
-    label = "N3d-N3d-O2s-O2s_3289",
-    group = 
-"""
-1   N3d u0 p1 c0 {2,S} {3,D}
-2   O2s u0 p2 c0 {1,S} {4,S}
-3 * N3d u0 p1 c0 {1,D}
-4   O2s u0 p2 c0 {2,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([8.05205,9.5267,10.897,12.0048,13.6447,14.7861,16.2712],'J/(mol*K)'),
-        H298 = (35.3868,'kJ/mol'),
-        S298 = (41.3198,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3201,
-    label = "N3d-N3d-Cs-HHH_3256",
-    group = 
-"""
-1   Cs  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2   N3d u0 p1 c0 {1,S} {6,D}
-3   H   u0 p0 c0 {1,S}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {1,S}
-6 * N3d u0 p1 c0 {2,D}
+1 * N3d u0 p1 c0 {2,S} {3,D}
+2   N3d u0 p1 c0 {1,S}
+3   N3d u0 p1 c0 {1,D}
 """,
     thermo = None,
     shortDesc = """""",
@@ -69977,37 +51249,12 @@ entry(
 )
 
 entry(
-    index = 3202,
-    label = "N3d-N3d-Cs_2916",
+    index = 2415,
+    label = "N3d-(N3s)",
     group = 
 """
-1   N3d u0 p1 c0 {2,D} {3,S}
-2 * N3d u0 p1 c0 {1,D}
-3   Cs  u0 p0 c0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([15.5236,18.3116,21.9017,24.8401,29.3984,33.064,38.5197],'J/(mol*K)'),
-        H298 = (99.7413,'kJ/mol'),
-        S298 = (93.0192,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3203,
-    label = "N3d-N3d-CO-HO2d_3200",
-    group = 
-"""
-1   CO  u0 p0 c0 {2,S} {3,D} {4,S}
-2   N3d u0 p1 c0 {1,S} {5,D}
-3   O2d u0 p2 c0 {1,D}
-4   H   u0 p0 c0 {1,S}
-5 * N3d u0 p1 c0 {2,D}
+1   N3s u0 {2,S}
+2 * N3d u0 {1,S}
 """,
     thermo = None,
     shortDesc = """""",
@@ -70018,130 +51265,37 @@ entry(
 )
 
 entry(
-    index = 3204,
-    label = "N3d-N3d-CO_3201",
+    index = 2416,
+    label = "N3d-CdN3s",
     group = 
 """
-1   N3d u0 p1 c0 {2,D} {3,S}
-2 * N3d u0 p1 c0 {1,D}
-3   CO  u0 p0 c0 {1,S}
+1 * N3d u0 {2,D} {3,S}
+2   Cd  u0 {1,D}
+3   N3s u0 {1,S}
 """,
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([9.65466,11.247,12.7408,14.0642,16.0892,17.4463,19.4962],'J/(mol*K)'),
-        H298 = (27.62,'kJ/mol'),
-        S298 = (45.6361,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
+    thermo = 'N3d-CdH',
+    shortDesc = """""",
     longDesc = 
 """
-
+Currently references to N3d-CdH with no better data
 """,
 )
 
 entry(
-    index = 3205,
-    label = "N3d-N3d-Cs-HHN3s_3103",
+    index = 2419,
+    label = "N3d-CdH",
     group = 
 """
-1   Cs  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2   N3d u0 p1 c0 {1,S} {6,D}
-3   N3s u0 p1 c0 {1,S}
-4   H   u0 p0 c0 {1,S}
-5   H   u0 p0 c0 {1,S}
-6 * N3d u0 p1 c0 {2,D}
+1 * N3d      u0 {2,D} {3,S}
+2   [Cd,Cdd] u0 {1,D}
+3   H        u0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([9.76754,11.7456,13.6136,15.2015,17.8052,19.7814,22.8127],'J/(mol*K)'),
-        H298 = (43.3461,'kJ/mol'),
-        S298 = (42.6724,'J/(mol*K)'),
+        Cpdata = ([3,3.5,3.9,4.3,5,5.5,6.4],'cal/(mol*K)'),
+        H298 = (16.3,'kcal/mol'),
+        S298 = (13.3,'cal/(mol*K)'),
     ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3206,
-    label = "N3d-N3d-Cd_2999",
-    group = 
-"""
-1   N3d u0 p1 c0 {2,D} {3,S}
-2 * N3d u0 p1 c0 {1,D}
-3   Cd  u0 p0 c0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([18.2289,21.6308,24.5648,27.1042,31.1585,34.0837,38.2362],'J/(mol*K)'),
-        H298 = (111.534,'kJ/mol'),
-        S298 = (81.524,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3207,
-    label = "N3d-N3d-Ct_2802",
-    group = 
-"""
-1   N3d u0 p1 c0 {2,D} {3,S}
-2 * N3d u0 p1 c0 {1,D}
-3   Ct  u0 p0 c0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([16.1055,18.3895,20.196,21.6751,23.9457,25.553,27.771],'J/(mol*K)'),
-        H298 = (165.451,'kJ/mol'),
-        S298 = (77.0178,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3208,
-    label = "N3d-N3d-N3d_2620",
-    group = 
-"""
-1   N3d u0 p1 c0 {2,D} {3,S}
-2 * N3d u0 p1 c0 {1,D}
-3   N3d u0 p1 c0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([22.4917,26.0299,29.1201,31.7422,35.8645,38.8549,43.0795],'J/(mol*K)'),
-        H298 = (159.289,'kJ/mol'),
-        S298 = (102.37,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3209,
-    label = "N3d-N3d-N3s-HH_2363",
-    group = 
-"""
-1   N3s u0 p1 c0 {2,S} {3,S} {4,S}
-2   N3d u0 p1 c0 {1,S} {5,D}
-3   H   u0 p0 c0 {1,S}
-4   H   u0 p0 c0 {1,S}
-5 * N3d u0 p1 c0 {2,D}
-""",
-    thermo = None,
     shortDesc = """""",
     longDesc = 
 """
@@ -70150,21 +51304,21 @@ entry(
 )
 
 entry(
-    index = 3210,
-    label = "N3d-N3d-N3s_2364",
+    index = 2420,
+    label = "N3d-CbR",
     group = 
 """
-1   N3d u0 p1 c0 {2,D} {3,S}
-2 * N3d u0 p1 c0 {1,D}
-3   N3s u0 p1 c0 {1,S}
+1 * N3d u0 {2,S} {3,D}
+2   Cb  u0 {1,S}
+3   R!H u0 {1,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([25.8741,31.0211,35.3814,39.0099,44.885,49.273,55.9449],'J/(mol*K)'),
-        H298 = (65.0016,'kJ/mol'),
-        S298 = (125.763,'J/(mol*K)'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (16.7,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
     ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
+    shortDesc = """""",
     longDesc = 
 """
 
@@ -70172,53 +51326,55 @@ entry(
 )
 
 entry(
-    index = 3211,
+    index = 2421,
+    label = "N3d-CdCs",
+    group = 
+"""
+1 * N3d      u0 {2,D} {3,S}
+2   [Cd,Cdd] u0 {1,D}
+3   Cs       u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([2,2.2,2.2,2.3,2.5,2.7,2.9],'cal/(mol*K)'),
+        H298 = (21.3,'kcal/mol'),
+        S298 = (-6.3,'cal/(mol*K)'),
+    ),
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 2423,
+    label = "N3d-CsR",
+    group = 
+"""
+1 * N3d u0 {2,S} {3,D}
+2   Cs  u0 {1,S}
+3   R!H u0 {1,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (21.3,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
+    ),
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 2424,
     label = "N5dc",
     group = 
 """
-1 * N5dc u0
-""",
-    thermo = None,
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3212,
-    label = "N5dc-N3s_2759",
-    group = 
-"""
-1   N3s  u0 p1 c0 {2,S}
-2 * N5dc u0 p0 c+1 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([9.04595,11.1381,12.5951,13.6666,15.3434,16.5346,18.1624],'J/(mol*K)'),
-        H298 = (0.0785795,'kJ/mol'),
-        S298 = (41.1175,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3213,
-    label = "N5dc-N3dN3sO0sc-HHH_2522",
-    group = 
-"""
-1 * N5dc u0 p0 c+1 {2,S} {3,D} {4,S}
-2   N3s  u0 p1 c0 {1,S} {5,S} {6,S}
-3   N3d  u0 p1 c0 {1,D} {7,S}
-4   O0sc u0 p3 c-1 {1,S}
-5   H    u0 p0 c0 {2,S}
-6   H    u0 p0 c0 {2,S}
-7   H    u0 p0 c0 {3,S}
+1 * [N5sc,N5dc] u0
 """,
     thermo = None,
     shortDesc = """""",
@@ -70229,8 +51385,42 @@ entry(
 )
 
 entry(
-    index = 3214,
-    label = "N5dc-N3dN3sO0sc_2523",
+    index = 2425,
+    label = "N5dc-(CddHH)",
+    group = 
+"""
+1 * N5dc u0 p0 c+1 {2,D} {3,S} {4,S}
+2   Cdd  u0 p0 c0 {1,D}
+3   H    u0 p0 c0 {1,S}
+4   H    u0 p0 c0 {1,S}
+""",
+    thermo = None,
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 2426,
+    label = "N5dc-(N3s)",
+    group = 
+"""
+1   N3s         u0 {2,S}
+2 * [N5sc,N5dc] u0 {1,S}
+""",
+    thermo = None,
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 2427,
+    label = "N5dc-(N3dN3sO0sc)",
     group = 
 """
 1 * N5dc u0 p0 c+1 {2,S} {3,S} {4,D}
@@ -70238,13 +51428,8 @@ entry(
 3   N3s  u0 p1 c0 {1,S}
 4   N3d  u0 p1 c0 {1,D}
 """,
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([8.31716,10.4901,12.0579,13.21,15.0454,16.3607,18.2104],'J/(mol*K)'),
-        H298 = (24.1919,'kJ/mol'),
-        S298 = (36.2394,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
+    thermo = None,
+    shortDesc = """""",
     longDesc = 
 """
 
@@ -70252,7 +51437,7 @@ entry(
 )
 
 entry(
-    index = 3215,
+    index = 2428,
     label = "N5dc-OdOsN3s",
     group = 
 """
@@ -70275,13 +51460,14 @@ entry(
 )
 
 entry(
-    index = 3216,
-    label = "N5dc-N3s-Cs_3252",
+    index = 2429,
+    label = "N5dc-(HN3sO2d)",
     group = 
 """
-1   N3s  u0 p1 c0 {2,S} {3,S}
-2 * N5dc u0 p0 c+1 {1,S}
-3   Cs   u0 p0 c0 {1,S}
+1 * N5dc u0 p0 c+1 {2,S} {3,D} {4,S}
+2   N3s  u0 p1 c0 {1,S}
+3   O2d  u0 p2 c0 {1,D}
+4   H    u0 p0 c0 {1,S}
 """,
     thermo = None,
     shortDesc = """""",
@@ -70292,33 +51478,8 @@ entry(
 )
 
 entry(
-    index = 3217,
-    label = "N5dc-N3s-Cs-HHH_3251",
-    group = 
-"""
-1   Cs   u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2   N3s  u0 p1 c0 {1,S} {6,S}
-3   H    u0 p0 c0 {1,S}
-4   H    u0 p0 c0 {1,S}
-5   H    u0 p0 c0 {1,S}
-6 * N5dc u0 p0 c+1 {2,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([12.1026,14.4968,16.62,18.3997,21.2027,23.2347,26.1146],'J/(mol*K)'),
-        H298 = (13.2406,'kJ/mol'),
-        S298 = (43.0464,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3218,
-    label = "N5dc-CdN3sO0sc_2931",
+    index = 2430,
+    label = "N5dc-(CdN3sO0sc)",
     group = 
 """
 1 * N5dc u0 p0 c+1 {2,S} {3,S} {4,D}
@@ -70335,39 +51496,12 @@ entry(
 )
 
 entry(
-    index = 3219,
-    label = "N5dc-CdN3sO0sc-HHHH_2930",
+    index = 2431,
+    label = "N5dc-(Cs)",
     group = 
 """
-1 * N5dc u0 p0 c+1 {2,S} {3,D} {4,S}
-2   N3s  u0 p1 c0 {1,S} {5,S} {6,S}
-3   Cd   u0 p0 c0 {1,D} {7,S} {8,S}
-4   O0sc u0 p3 c-1 {1,S}
-5   H    u0 p0 c0 {2,S}
-6   H    u0 p0 c0 {2,S}
-7   H    u0 p0 c0 {3,S}
-8   H    u0 p0 c0 {3,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([4.91135,5.80544,6.45202,6.9446,7.7729,8.37991,9.19745],'J/(mol*K)'),
-        H298 = (26.4029,'kJ/mol'),
-        S298 = (16.8924,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3220,
-    label = "N5dc-Cs_2756",
-    group = 
-"""
-1   Cs   u0 p0 c0 {2,S}
-2 * N5dc u0 p0 c+1 {1,S}
+1   Cs          u0 {2,S}
+2 * [N5sc,N5dc] u0 {1,S}
 """,
     thermo = None,
     shortDesc = """""",
@@ -70378,31 +51512,7 @@ entry(
 )
 
 entry(
-    index = 3221,
-    label = "N5dc-Cs-HHH_2928",
-    group = 
-"""
-1   Cs   u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2 * N5dc u0 p0 c+1 {1,S}
-3   H    u0 p0 c0 {1,S}
-4   H    u0 p0 c0 {1,S}
-5   H    u0 p0 c0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([20.8943,25.539,29.6266,33.1897,38.9773,43.2906,49.6181],'J/(mol*K)'),
-        H298 = (8.70561,'kJ/mol'),
-        S298 = (85.1139,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3222,
+    index = 2432,
     label = "N5dc-OdOsCs",
     group = 
 """
@@ -70425,12 +51535,12 @@ entry(
 )
 
 entry(
-    index = 3223,
-    label = "N5dc-Cdd_2629",
+    index = 2433,
+    label = "N5dc-(O2d)",
     group = 
 """
-1   Cdd  u0 p0 c0 {2,D}
-2 * N5dc u0 p0 c+1 {1,D}
+1   O2d  u0 {2,D}
+2 * N5dc u0 {1,D}
 """,
     thermo = None,
     shortDesc = """""",
@@ -70441,82 +51551,13 @@ entry(
 )
 
 entry(
-    index = 3224,
-    label = "N5dc-CddHO0sc-N5dc_2952",
+    index = 2434,
+    label = "N5dc-(HN1scO2d)",
     group = 
 """
 1 * N5dc u0 p0 c+1 {2,D} {3,S} {4,S}
-2   Cdd  u0 p0 c0 {1,D} {5,D}
-3   O0sc u0 p3 c-1 {1,S}
-4   H    u0 p0 c0 {1,S}
-5   N5dc u0 p0 c+1 {2,D}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3225,
-    label = "N5dc-CddHO0sc-N5dc-HO0sc_2951",
-    group = 
-"""
-1 * N5dc u0 p0 c+1 {3,D} {4,S} {5,S}
-2   N5dc u0 p0 c+1 {3,D} {6,S} {7,S}
-3   Cdd  u0 p0 c0 {1,D} {2,D}
-4   O0sc u0 p3 c-1 {1,S}
-5   H    u0 p0 c0 {1,S}
-6   O0sc u0 p3 c-1 {2,S}
-7   H    u0 p0 c0 {2,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([5.98372,8.09627,9.9936,11.453,13.511,14.999,17.0588],'J/(mol*K)'),
-        H298 = (71.2379,'kJ/mol'),
-        S298 = (19.8413,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3226,
-    label = "N5dc-CddHO0sc-O2d_2446",
-    group = 
-"""
-1 * N5dc u0 p0 c+1 {2,D} {3,S} {4,S}
-2   Cdd  u0 p0 c0 {1,D} {5,D}
-3   O0sc u0 p3 c-1 {1,S}
-4   H    u0 p0 c0 {1,S}
-5   O2d  u0 p2 c0 {2,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([9.01172,9.3092,9.17206,9.00811,8.7712,8.60826,8.377],'J/(mol*K)'),
-        H298 = (-26.0181,'kJ/mol'),
-        S298 = (47.6672,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3227,
-    label = "N5dc-CddHH_3099",
-    group = 
-"""
-1 * N5dc u0 p0 c+1 {2,D} {3,S} {4,S}
-2   Cdd  u0 p0 c0 {1,D}
-3   H    u0 p0 c0 {1,S}
+2   O2d  u0 p2 c0 {1,D}
+3   N1sc u0 p2 c-1 {1,S}
 4   H    u0 p0 c0 {1,S}
 """,
     thermo = None,
@@ -70528,1437 +51569,7 @@ entry(
 )
 
 entry(
-    index = 3228,
-    label = "N5dc-Cdd-N5dc_2954",
-    group = 
-"""
-1   Cdd  u0 p0 c0 {2,D} {3,D}
-2 * N5dc u0 p0 c+1 {1,D}
-3   N5dc u0 p0 c+1 {1,D}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3229,
-    label = "N5dc-Cdd-N5dc-HO0sc_2953",
-    group = 
-"""
-1   N5dc u0 p0 c+1 {2,D} {3,S} {4,S}
-2   Cdd  u0 p0 c0 {1,D} {5,D}
-3   O0sc u0 p3 c-1 {1,S}
-4   H    u0 p0 c0 {1,S}
-5 * N5dc u0 p0 c+1 {2,D}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3230,
-    label = "N5dc-Cdd-N3d-Cs_3047",
-    group = 
-"""
-1   Cdd  u0 p0 c0 {2,D} {3,D}
-2   N3d  u0 p1 c0 {1,D} {4,S}
-3 * N5dc u0 p0 c+1 {1,D}
-4   Cs   u0 p0 c0 {2,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3231,
-    label = "N5dc-Cdd-Cd-CsH_2905",
-    group = 
-"""
-1   Cd   u0 p0 c0 {2,D} {3,S} {4,S}
-2   Cdd  u0 p0 c0 {1,D} {5,D}
-3   Cs   u0 p0 c0 {1,S}
-4   H    u0 p0 c0 {1,S}
-5 * N5dc u0 p0 c+1 {2,D}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3232,
-    label = "N5dc-Cdd-Cd-N3s_2782",
-    group = 
-"""
-1   Cdd  u0 p0 c0 {2,D} {3,D}
-2   Cd   u0 p0 c0 {1,D} {4,S}
-3 * N5dc u0 p0 c+1 {1,D}
-4   N3s  u0 p1 c0 {2,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3233,
-    label = "N5dc-Cdd-Cd-HO2s_2728",
-    group = 
-"""
-1   Cd   u0 p0 c0 {2,D} {3,S} {4,S}
-2   Cdd  u0 p0 c0 {1,D} {5,D}
-3   O2s  u0 p2 c0 {1,S}
-4   H    u0 p0 c0 {1,S}
-5 * N5dc u0 p0 c+1 {2,D}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3234,
-    label = "N5dc-Cdd-N3d-N3s_2627",
-    group = 
-"""
-1   Cdd  u0 p0 c0 {2,D} {3,D}
-2   N3d  u0 p1 c0 {1,D} {4,S}
-3 * N5dc u0 p0 c+1 {1,D}
-4   N3s  u0 p1 c0 {2,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3235,
-    label = "N5dc-CddHH-N1dc_3098",
-    group = 
-"""
-1 * N5dc u0 p0 c+1 {2,D} {3,S} {4,S}
-2   Cdd  u0 p0 c0 {1,D} {5,D}
-3   H    u0 p0 c0 {1,S}
-4   H    u0 p0 c0 {1,S}
-5   N1dc u0 p2 c-1 {2,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([16.9764,19.2877,21.2162,22.835,25.4765,27.479,30.6593],'J/(mol*K)'),
-        H298 = (44.5717,'kJ/mol'),
-        S298 = (80.5763,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3236,
-    label = "N5dc-CddHO0sc-Cdd_2834",
-    group = 
-"""
-1 * N5dc u0 p0 c+1 {2,D} {3,S} {4,S}
-2   Cdd  u0 p0 c0 {1,D} {5,D}
-3   O0sc u0 p3 c-1 {1,S}
-4   H    u0 p0 c0 {1,S}
-5   Cdd  u0 p0 c0 {2,D}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3237,
-    label = "N5dc-CddHO0sc-Cdd-N3d_2858",
-    group = 
-"""
-1 * N5dc u0 p0 c+1 {2,D} {4,S} {5,S}
-2   Cdd  u0 p0 c0 {1,D} {3,D}
-3   Cdd  u0 p0 c0 {2,D} {6,D}
-4   O0sc u0 p3 c-1 {1,S}
-5   H    u0 p0 c0 {1,S}
-6   N3d  u0 p1 c0 {3,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-4.67453,-4.8656,-5.04643,-5.19276,-5.45491,-5.68135,-6.10917],'J/(mol*K)'),
-        H298 = (31.6039,'kJ/mol'),
-        S298 = (-27.7142,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3238,
-    label = "N5dc-CddHO0sc-Cdd-O2d_2855",
-    group = 
-"""
-1 * N5dc u0 p0 c+1 {2,D} {4,S} {5,S}
-2   Cdd  u0 p0 c0 {1,D} {3,D}
-3   Cdd  u0 p0 c0 {2,D} {6,D}
-4   O0sc u0 p3 c-1 {1,S}
-5   H    u0 p0 c0 {1,S}
-6   O2d  u0 p2 c0 {3,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([9.3618,10.4394,11.1795,11.6758,12.4168,12.8922,13.3302],'J/(mol*K)'),
-        H298 = (-48.4072,'kJ/mol'),
-        S298 = (60.0319,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3239,
-    label = "N5dc-CddHO0sc-Cdd-Cd_2833",
-    group = 
-"""
-1 * N5dc u0 p0 c+1 {2,D} {4,S} {5,S}
-2   Cdd  u0 p0 c0 {1,D} {3,D}
-3   Cdd  u0 p0 c0 {2,D} {6,D}
-4   O0sc u0 p3 c-1 {1,S}
-5   H    u0 p0 c0 {1,S}
-6   Cd   u0 p0 c0 {3,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([12.4951,14.6728,16.6473,18.4193,21.2505,23.3218,26.4202],'J/(mol*K)'),
-        H298 = (92.4464,'kJ/mol'),
-        S298 = (35.3594,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3240,
-    label = "N5dc-Cdd-Cd_2729",
-    group = 
-"""
-1   Cdd  u0 p0 c0 {2,D} {3,D}
-2 * N5dc u0 p0 c+1 {1,D}
-3   Cd   u0 p0 c0 {1,D}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3241,
-    label = "N5dc-CddHO0sc-Cd_3143",
-    group = 
-"""
-1 * N5dc u0 p0 c+1 {2,D} {3,S} {4,S}
-2   Cdd  u0 p0 c0 {1,D} {5,D}
-3   O0sc u0 p3 c-1 {1,S}
-4   H    u0 p0 c0 {1,S}
-5   Cd   u0 p0 c0 {2,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([13.0408,15.4691,18.1711,20.7888,25.1767,28.2448,32.5167],'J/(mol*K)'),
-        H298 = (47.1119,'kJ/mol'),
-        S298 = (32.5562,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3242,
-    label = "N5dc-CddHO0sc-Cd-HH_3142",
-    group = 
-"""
-1 * N5dc u0 p0 c+1 {3,D} {4,S} {5,S}
-2   Cd   u0 p0 c0 {3,D} {6,S} {7,S}
-3   Cdd  u0 p0 c0 {1,D} {2,D}
-4   O0sc u0 p3 c-1 {1,S}
-5   H    u0 p0 c0 {1,S}
-6   H    u0 p0 c0 {2,S}
-7   H    u0 p0 c0 {2,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3243,
-    label = "N5dc-CddHO0sc_2447",
-    group = 
-"""
-1 * N5dc u0 p0 c+1 {2,S} {3,D} {4,S}
-2   O0sc u0 p3 c-1 {1,S}
-3   Cdd  u0 p0 c0 {1,D}
-4   H    u0 p0 c0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([3.98835,4.50428,4.87765,5.03686,4.83653,4.67367,4.84899],'J/(mol*K)'),
-        H298 = (52.0693,'kJ/mol'),
-        S298 = (35.4633,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3244,
-    label = "N5dc-Cdd-N3d_2628",
-    group = 
-"""
-1   Cdd  u0 p0 c0 {2,D} {3,D}
-2 * N5dc u0 p0 c+1 {1,D}
-3   N3d  u0 p1 c0 {1,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([9.49215,11.0637,12.5088,13.7384,15.6885,17.1139,19.0937],'J/(mol*K)'),
-        H298 = (53.3363,'kJ/mol'),
-        S298 = (25.1776,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3245,
-    label = "N5dc-CddHO0sc-N3d-H_2501",
-    group = 
-"""
-1 * N5dc u0 p0 c+1 {2,D} {4,S} {5,S}
-2   Cdd  u0 p0 c0 {1,D} {3,D}
-3   N3d  u0 p1 c0 {2,D} {6,S}
-4   O0sc u0 p3 c-1 {1,S}
-5   H    u0 p0 c0 {1,S}
-6   H    u0 p0 c0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3246,
-    label = "N5dc-CddHO0sc-N3d_2502",
-    group = 
-"""
-1 * N5dc u0 p0 c+1 {2,D} {3,S} {4,S}
-2   Cdd  u0 p0 c0 {1,D} {5,D}
-3   O0sc u0 p3 c-1 {1,S}
-4   H    u0 p0 c0 {1,S}
-5   N3d  u0 p1 c0 {2,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([7.21841,8.40244,9.18462,9.82029,10.84,11.5901,12.722],'J/(mol*K)'),
-        H298 = (37.3922,'kJ/mol'),
-        S298 = (43.2347,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3247,
-    label = "N5dc-CddHO0sc-N3d-O2s_2642",
-    group = 
-"""
-1 * N5dc u0 p0 c+1 {2,D} {4,S} {5,S}
-2   Cdd  u0 p0 c0 {1,D} {3,D}
-3   N3d  u0 p1 c0 {2,D} {6,S}
-4   O0sc u0 p3 c-1 {1,S}
-5   H    u0 p0 c0 {1,S}
-6   O2s  u0 p2 c0 {3,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([7.4437,8.52116,9.53635,10.4566,11.8779,12.8356,14.082],'J/(mol*K)'),
-        H298 = (15.3676,'kJ/mol'),
-        S298 = (26.3185,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3248,
-    label = "N5dc-N3d_2471",
-    group = 
-"""
-1   N3d  u0 p1 c0 {2,D}
-2 * N5dc u0 p0 c+1 {1,D}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3249,
-    label = "N5dc-HN3dO0sc_3157",
-    group = 
-"""
-1 * N5dc u0 p0 c+1 {2,S} {3,D} {4,S}
-2   O0sc u0 p3 c-1 {1,S}
-3   N3d  u0 p1 c0 {1,D}
-4   H    u0 p0 c0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([18.0955,22.2141,25.7646,28.8339,33.7295,37.2734,42.4693],'J/(mol*K)'),
-        H298 = (24.9314,'kJ/mol'),
-        S298 = (58.7487,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3250,
-    label = "N5dc-HN3dO0sc-H_3156",
-    group = 
-"""
-1 * N5dc u0 p0 c+1 {2,D} {3,S} {4,S}
-2   N3d  u0 p1 c0 {1,D} {5,S}
-3   O0sc u0 p3 c-1 {1,S}
-4   H    u0 p0 c0 {1,S}
-5   H    u0 p0 c0 {2,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([5.46078,5.90108,6.69369,7.49974,8.63921,9.48308,10.7781],'J/(mol*K)'),
-        H298 = (29.03,'kJ/mol'),
-        S298 = (50.2969,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3251,
-    label = "N5dc-N3d-N3s_2658",
-    group = 
-"""
-1   N3d  u0 p1 c0 {2,D} {3,S}
-2 * N5dc u0 p0 c+1 {1,D}
-3   N3s  u0 p1 c0 {1,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3252,
-    label = "N5dc-N3d-N3s-CsH_3273",
-    group = 
-"""
-1   N3s  u0 p1 c0 {2,S} {3,S} {4,S}
-2   N3d  u0 p1 c0 {1,S} {5,D}
-3   Cs   u0 p0 c0 {1,S}
-4   H    u0 p0 c0 {1,S}
-5 * N5dc u0 p0 c+1 {2,D}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3253,
-    label = "N5dc-N3d-N3s-HH_2657",
-    group = 
-"""
-1   N3s  u0 p1 c0 {2,S} {3,S} {4,S}
-2   N3d  u0 p1 c0 {1,S} {5,D}
-3   H    u0 p0 c0 {1,S}
-4   H    u0 p0 c0 {1,S}
-5 * N5dc u0 p0 c+1 {2,D}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3254,
-    label = "N5dc-N3d-Cs_2470",
-    group = 
-"""
-1   N3d  u0 p1 c0 {2,D} {3,S}
-2 * N5dc u0 p0 c+1 {1,D}
-3   Cs   u0 p0 c0 {1,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3255,
-    label = "N5dc-N3d-Cs-CsHH_3170",
-    group = 
-"""
-1   Cs   u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2   N3d  u0 p1 c0 {1,S} {6,D}
-3   Cs   u0 p0 c0 {1,S}
-4   H    u0 p0 c0 {1,S}
-5   H    u0 p0 c0 {1,S}
-6 * N5dc u0 p0 c+1 {2,D}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3256,
-    label = "N5dc-N3d-Cs-HHH_3030",
-    group = 
-"""
-1   Cs   u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2   N3d  u0 p1 c0 {1,S} {6,D}
-3   H    u0 p0 c0 {1,S}
-4   H    u0 p0 c0 {1,S}
-5   H    u0 p0 c0 {1,S}
-6 * N5dc u0 p0 c+1 {2,D}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3257,
-    label = "N5dc-N1sc_2464",
-    group = 
-"""
-1   N1sc u0 p2 c-1 {2,S}
-2 * N5dc u0 p0 c+1 {1,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3258,
-    label = "N5dc-OdN1scH",
-    group = 
-"""
-1 * N5dc u0 {2,D} {3,S} {4,S}
-2   O2d  u0 {1,D}
-3   N1sc u0 {1,S}
-4   H    u0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([8.30519,10.1285,11.5852,12.9474,15.1672,16.5124,18.1303],'J/(mol*K)'),
-        H298 = (80.3345,'kJ/mol'),
-        S298 = (4.25938,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3259,
-    label = "N5dc-HN1scO2d-Ct-N3t_3069",
-    group = 
-"""
-1 * N5dc u0 p0 c+1 {2,S} {4,D} {5,S}
-2   N1sc u0 p2 c-1 {1,S} {3,S}
-3   Ct   u0 p0 c0 {2,S} {6,T}
-4   O2d  u0 p2 c0 {1,D}
-5   H    u0 p0 c0 {1,S}
-6   N3t  u0 p1 c0 {3,T}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([9.03004,9.81243,10.4839,11.116,12.1088,12.8534,13.9553],'J/(mol*K)'),
-        H298 = (40.7706,'kJ/mol'),
-        S298 = (50.9833,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3260,
-    label = "N5dc-HN1scO2d-O2s-H_2984",
-    group = 
-"""
-1 * N5dc u0 p0 c+1 {2,S} {4,D} {5,S}
-2   N1sc u0 p2 c-1 {1,S} {3,S}
-3   O2s  u0 p2 c0 {2,S} {6,S}
-4   O2d  u0 p2 c0 {1,D}
-5   H    u0 p0 c0 {1,S}
-6   H    u0 p0 c0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3261,
-    label = "N5dc-HN1scO2d-O2s_2985",
-    group = 
-"""
-1 * N5dc u0 p0 c+1 {2,S} {3,D} {4,S}
-2   N1sc u0 p2 c-1 {1,S} {5,S}
-3   O2d  u0 p2 c0 {1,D}
-4   H    u0 p0 c0 {1,S}
-5   O2s  u0 p2 c0 {2,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-5.35398,-5.1952,-5.574,-6.36119,-7.93729,-9.12965,-11.212],'J/(mol*K)'),
-        H298 = (-32.2819,'kJ/mol'),
-        S298 = (4.70024,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3262,
-    label = "N5dc-HN1scO2d-N3d-Cd_2916",
-    group = 
-"""
-1 * N5dc u0 p0 c+1 {2,S} {4,D} {5,S}
-2   N1sc u0 p2 c-1 {1,S} {3,S}
-3   N3d  u0 p1 c0 {2,S} {6,D}
-4   O2d  u0 p2 c0 {1,D}
-5   H    u0 p0 c0 {1,S}
-6   Cd   u0 p0 c0 {3,D}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3263,
-    label = "N5dc-HN1scO2d-N3d_2759",
-    group = 
-"""
-1 * N5dc u0 p0 c+1 {2,S} {3,D} {4,S}
-2   N1sc u0 p2 c-1 {1,S} {5,S}
-3   O2d  u0 p2 c0 {1,D}
-4   H    u0 p0 c0 {1,S}
-5   N3d  u0 p1 c0 {2,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([15.5927,18.7489,21.786,24.4141,28.7023,31.8624,36.615],'J/(mol*K)'),
-        H298 = (41.6908,'kJ/mol'),
-        S298 = (60.0517,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3264,
-    label = "N5dc-HN1scO2d-CO-HO2d_2684",
-    group = 
-"""
-1 * N5dc u0 p0 c+1 {3,S} {4,D} {5,S}
-2   CO   u0 p0 c0 {3,S} {6,D} {7,S}
-3   N1sc u0 p2 c-1 {1,S} {2,S}
-4   O2d  u0 p2 c0 {1,D}
-5   H    u0 p0 c0 {1,S}
-6   O2d  u0 p2 c0 {2,D}
-7   H    u0 p0 c0 {2,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3265,
-    label = "N5dc-HN1scO2d-CO_2685",
-    group = 
-"""
-1 * N5dc u0 p0 c+1 {2,S} {3,D} {4,S}
-2   N1sc u0 p2 c-1 {1,S} {5,S}
-3   O2d  u0 p2 c0 {1,D}
-4   H    u0 p0 c0 {1,S}
-5   CO   u0 p0 c0 {2,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([10.3088,11.3129,12.3282,13.3057,14.9554,16.2369,18.1092],'J/(mol*K)'),
-        H298 = (-39.5782,'kJ/mol'),
-        S298 = (48.8289,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3266,
-    label = "N5dc-HN1scO2d-Ct-Ct_2606",
-    group = 
-"""
-1 * N5dc u0 p0 c+1 {2,S} {4,D} {5,S}
-2   N1sc u0 p2 c-1 {1,S} {3,S}
-3   Ct   u0 p0 c0 {2,S} {6,T}
-4   O2d  u0 p2 c0 {1,D}
-5   H    u0 p0 c0 {1,S}
-6   Ct   u0 p0 c0 {3,T}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3267,
-    label = "N5dc-HN1scO2d-Ct_2607",
-    group = 
-"""
-1 * N5dc u0 p0 c+1 {2,S} {3,D} {4,S}
-2   N1sc u0 p2 c-1 {1,S} {5,S}
-3   O2d  u0 p2 c0 {1,D}
-4   H    u0 p0 c0 {1,S}
-5   Ct   u0 p0 c0 {2,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([4.8667,6.44594,7.49596,8.21409,9.36922,10.0852,10.7766],'J/(mol*K)'),
-        H298 = (56.3467,'kJ/mol'),
-        S298 = (3.73588,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3268,
-    label = "N5dc-N1sc-N3s_3232",
-    group = 
-"""
-1   N1sc u0 p2 c-1 {2,S} {3,S}
-2 * N5dc u0 p0 c+1 {1,S}
-3   N3s  u0 p1 c0 {1,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3269,
-    label = "N5dc-N1sc-Cs_3084",
-    group = 
-"""
-1   N1sc u0 p2 c-1 {2,S} {3,S}
-2 * N5dc u0 p0 c+1 {1,S}
-3   Cs   u0 p0 c0 {1,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3270,
-    label = "N5dc-N1scO2dO2s_2573",
-    group = 
-"""
-1 * N5dc u0 p0 c+1 {2,S} {3,D} {4,S}
-2   O2s  u0 p2 c0 {1,S}
-3   O2d  u0 p2 c0 {1,D}
-4   N1sc u0 p2 c-1 {1,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3271,
-    label = "N5dc-N1scO2dO2s-HH_2572",
-    group = 
-"""
-1 * N5dc u0 p0 c+1 {2,S} {3,S} {4,D}
-2   O2s  u0 p2 c0 {1,S} {5,S}
-3   N1sc u0 p2 c-1 {1,S} {6,S}
-4   O2d  u0 p2 c0 {1,D}
-5   H    u0 p0 c0 {2,S}
-6   H    u0 p0 c0 {3,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([13.9293,16.9258,19.3424,21.2949,24.3832,26.5987,29.7764],'J/(mol*K)'),
-        H298 = (26.8112,'kJ/mol'),
-        S298 = (66.5052,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3272,
-    label = "N5dc-N1sc-Cd_2538",
-    group = 
-"""
-1   N1sc u0 p2 c-1 {2,S} {3,S}
-2 * N5dc u0 p0 c+1 {1,S}
-3   Cd   u0 p0 c0 {1,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3273,
-    label = "N5dc-N1sc-O2s_2463",
-    group = 
-"""
-1   N1sc u0 p2 c-1 {2,S} {3,S}
-2 * N5dc u0 p0 c+1 {1,S}
-3   O2s  u0 p2 c0 {1,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3274,
-    label = "N5dc-N1sc-O2s-N3s_3173",
-    group = 
-"""
-1   N1sc u0 p2 c-1 {2,S} {3,S}
-2   O2s  u0 p2 c0 {1,S} {4,S}
-3 * N5dc u0 p0 c+1 {1,S}
-4   N3s  u0 p1 c0 {2,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3275,
-    label = "N5dc-N1sc-O2s-Cs_2462",
-    group = 
-"""
-1   N1sc u0 p2 c-1 {2,S} {3,S}
-2   O2s  u0 p2 c0 {1,S} {4,S}
-3 * N5dc u0 p0 c+1 {1,S}
-4   Cs   u0 p0 c0 {2,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3276,
-    label = "N5dc-Cd_2418",
-    group = 
-"""
-1   Cd   u0 p0 c0 {2,D}
-2 * N5dc u0 p0 c+1 {1,D}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3277,
-    label = "N5dc-Cd-CtH_3215",
-    group = 
-"""
-1   Cd   u0 p0 c0 {2,D} {3,S} {4,S}
-2 * N5dc u0 p0 c+1 {1,D}
-3   Ct   u0 p0 c0 {1,S}
-4   H    u0 p0 c0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([13.601,16.2315,18.216,19.9185,22.5876,24.3602,26.5656],'J/(mol*K)'),
-        H298 = (52.6765,'kJ/mol'),
-        S298 = (38.3306,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3278,
-    label = "N5dc-CdO0scO2s_2913",
-    group = 
-"""
-1 * N5dc u0 p0 c+1 {2,S} {3,S} {4,D}
-2   O2s  u0 p2 c0 {1,S}
-3   O0sc u0 p3 c-1 {1,S}
-4   Cd   u0 p0 c0 {1,D}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3279,
-    label = "N5dc-CdO0scO2s-HHH_2912",
-    group = 
-"""
-1 * N5dc u0 p0 c+1 {2,D} {3,S} {4,S}
-2   Cd   u0 p0 c0 {1,D} {5,S} {6,S}
-3   O2s  u0 p2 c0 {1,S} {7,S}
-4   O0sc u0 p3 c-1 {1,S}
-5   H    u0 p0 c0 {2,S}
-6   H    u0 p0 c0 {2,S}
-7   H    u0 p0 c0 {3,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-1.99357,-3.07675,-3.96094,-4.78236,-6.23487,-7.42073,-9.45058],'J/(mol*K)'),
-        H298 = (-38.2268,'kJ/mol'),
-        S298 = (-5.07792,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3280,
-    label = "N5dc-Cd-Cs_2811",
-    group = 
-"""
-1   Cd   u0 p0 c0 {2,D} {3,S}
-2 * N5dc u0 p0 c+1 {1,D}
-3   Cs   u0 p0 c0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([5.79519,7.03495,7.81682,8.31832,9.16492,9.90547,10.8271],'J/(mol*K)'),
-        H298 = (2.60441,'kJ/mol'),
-        S298 = (20.7422,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3281,
-    label = "N5dc-Cd-Cs-HHO2s_2848",
-    group = 
-"""
-1   Cs   u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2   Cd   u0 p0 c0 {1,S} {6,D}
-3   O2s  u0 p2 c0 {1,S}
-4   H    u0 p0 c0 {1,S}
-5   H    u0 p0 c0 {1,S}
-6 * N5dc u0 p0 c+1 {2,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([6.12984,8.50638,10.4251,11.9091,13.7229,14.8179,16.1218],'J/(mol*K)'),
-        H298 = (10.6019,'kJ/mol'),
-        S298 = (2.29805,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3282,
-    label = "N5dc-Cd-Cs-HHH_2826",
-    group = 
-"""
-1   Cs   u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2   Cd   u0 p0 c0 {1,S} {6,D}
-3   H    u0 p0 c0 {1,S}
-4   H    u0 p0 c0 {1,S}
-5   H    u0 p0 c0 {1,S}
-6 * N5dc u0 p0 c+1 {2,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([12.0824,14.5302,16.7251,18.7371,22.2439,24.7754,28.686],'J/(mol*K)'),
-        H298 = (-13.2616,'kJ/mol'),
-        S298 = (37.8153,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3283,
-    label = "N5dc-Cd-Cs-CsHH_2810",
-    group = 
-"""
-1   Cs   u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2   Cd   u0 p0 c0 {1,S} {6,D}
-3   Cs   u0 p0 c0 {1,S}
-4   H    u0 p0 c0 {1,S}
-5   H    u0 p0 c0 {1,S}
-6 * N5dc u0 p0 c+1 {2,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([5.61,6.96821,8.33951,9.65085,11.6319,12.8199,14.7035],'J/(mol*K)'),
-        H298 = (7.84212,'kJ/mol'),
-        S298 = (-4.60235,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3284,
-    label = "N5dc-Cd-O2s_2705",
-    group = 
-"""
-1   Cd   u0 p0 c0 {2,D} {3,S}
-2 * N5dc u0 p0 c+1 {1,D}
-3   O2s  u0 p2 c0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([7.10577,8.10643,9.68992,11.42,14.5022,16.6544,19.3706],'J/(mol*K)'),
-        H298 = (15.1854,'kJ/mol'),
-        S298 = (26.9322,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3285,
-    label = "N5dc-Cd-HO2s_2970",
-    group = 
-"""
-1   Cd   u0 p0 c0 {2,D} {3,S} {4,S}
-2 * N5dc u0 p0 c+1 {1,D}
-3   O2s  u0 p2 c0 {1,S}
-4   H    u0 p0 c0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([10.6633,13.5316,15.7189,17.2462,19.7088,21.2962,22.7665],'J/(mol*K)'),
-        H298 = (19.633,'kJ/mol'),
-        S298 = (35.4089,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3286,
-    label = "N5dc-Cd-O2s-Cs_2704",
-    group = 
-"""
-1   Cd   u0 p0 c0 {2,S} {3,D}
-2   O2s  u0 p2 c0 {1,S} {4,S}
-3 * N5dc u0 p0 c+1 {1,D}
-4   Cs   u0 p0 c0 {2,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([13.023,15.1536,18.1236,21.3884,26.9581,31.1083,37.8123],'J/(mol*K)'),
-        H298 = (8.23193,'kJ/mol'),
-        S298 = (64.6303,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3287,
-    label = "N5dc-Cd-N3s_2701",
-    group = 
-"""
-1   Cd   u0 p0 c0 {2,D} {3,S}
-2 * N5dc u0 p0 c+1 {1,D}
-3   N3s  u0 p1 c0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([22.8194,27.9436,32.0407,35.4655,40.861,44.8674,51.0342],'J/(mol*K)'),
-        H298 = (15.911,'kJ/mol'),
-        S298 = (100.042,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3288,
-    label = "N5dc-Cd-HN3d_2600",
-    group = 
-"""
-1   Cd   u0 p0 c0 {2,D} {3,S} {4,S}
-2 * N5dc u0 p0 c+1 {1,D}
-3   N3d  u0 p1 c0 {1,S}
-4   H    u0 p0 c0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([18.7516,22.7791,26.0927,28.9105,33.3604,36.4995,40.7321],'J/(mol*K)'),
-        H298 = (44.7032,'kJ/mol'),
-        S298 = (66.902,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3289,
-    label = "N5dc-CdHO0sc_2488",
-    group = 
-"""
-1 * N5dc u0 p0 c+1 {2,S} {3,D} {4,S}
-2   O0sc u0 p3 c-1 {1,S}
-3   Cd   u0 p0 c0 {1,D}
-4   H    u0 p0 c0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([11.5637,14.6027,17.4623,20.1433,24.4832,27.8014,33.3256],'J/(mol*K)'),
-        H298 = (8.91436,'kJ/mol'),
-        S298 = (25.9713,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3290,
-    label = "N5dc-CdHO0sc-HH_2487",
-    group = 
-"""
-1   Cd   u0 p0 c0 {2,D} {5,S} {6,S}
-2 * N5dc u0 p0 c+1 {1,D} {3,S} {4,S}
-3   O0sc u0 p3 c-1 {2,S}
-4   H    u0 p0 c0 {2,S}
-5   H    u0 p0 c0 {1,S}
-6   H    u0 p0 c0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-2.9907,-3.70824,-4.15521,-4.66265,-5.39077,-5.64416,-5.81282],'J/(mol*K)'),
-        H298 = (2.26565,'kJ/mol'),
-        S298 = (39.55,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3291,
-    label = "N5dc-O0sc",
-    group = 
-"""
-1 * N5dc u0 {2,S}
-2   O0sc u0 {1,S}
-""",
-    thermo = None,
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3292,
-    label = "N5dc-HO0scO2d_3177",
-    group = 
-"""
-1 * N5dc u0 p0 c+1 {2,S} {3,D} {4,S}
-2   O0sc u0 p3 c-1 {1,S}
-3   O2d  u0 p2 c0 {1,D}
-4   H    u0 p0 c0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([5.44488,5.19678,5.7709,6.6761,8.12597,9.09987,10.6441],'J/(mol*K)'),
-        H298 = (18.5877,'kJ/mol'),
-        S298 = (53.7824,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3293,
-    label = "N5dc-O0scO2dO2s_2773",
-    group = 
-"""
-1 * N5dc u0 p0 c+1 {2,S} {3,S} {4,D}
-2   O2s  u0 p2 c0 {1,S}
-3   O0sc u0 p3 c-1 {1,S}
-4   O2d  u0 p2 c0 {1,D}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3294,
-    label = "N5dc-O0scO2dO2s-H_2772",
-    group = 
-"""
-1 * N5dc u0 p0 c+1 {2,S} {3,S} {4,D}
-2   O2s  u0 p2 c0 {1,S} {5,S}
-3   O0sc u0 p3 c-1 {1,S}
-4   O2d  u0 p2 c0 {1,D}
-5   H    u0 p0 c0 {2,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([3.82573,5.23262,5.91989,6.18528,6.5543,6.8134,6.98735],'J/(mol*K)'),
-        H298 = (-30.6316,'kJ/mol'),
-        S298 = (7.16521,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3295,
-    label = "N5dc-OdOsCd",
-    group = 
-"""
-1 * N5dc u0 {2,D} {3,S} {4,S}
-2   O2d  u0 {1,D}
-3   O2s  u0 {1,S}
-4   Cd   u0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
-        H298 = (0,'kcal/mol'),
-        S298 = (0,'cal/(mol*K)'),
-    ),
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 3296,
+    index = 2435,
     label = "N5dc-OdOsOs",
     group = 
 """
@@ -71981,14 +51592,195 @@ entry(
 )
 
 entry(
-    index = 3297,
+    index = 2436,
+    label = "N5dc-OdOsCd",
+    group = 
+"""
+1 * N5dc u0 {2,D} {3,S} {4,S}
+2   O2d  u0 {1,D}
+3   O2s  u0 {1,S}
+4   Cd   u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (0,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
+    ),
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 2437,
+    label = "N5dc-(HO0scO2d)",
+    group = 
+"""
+1 * N5dc u0 p0 c+1 {2,S} {3,D} {4,S}
+2   O0sc u0 p3 c-1 {1,S}
+3   O2d  u0 p2 c0 {1,D}
+4   H    u0 p0 c0 {1,S}
+""",
+    thermo = None,
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 2438,
+    label = "N5dc-(O0scO2dO2s)",
+    group = 
+"""
+1 * N5dc u0 p0 c+1 {2,S} {3,S} {4,D}
+2   O2s  u0 p2 c0 {1,S}
+3   O0sc u0 p3 c-1 {1,S}
+4   O2d  u0 p2 c0 {1,D}
+""",
+    thermo = None,
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 2439,
+    label = "N5dc-(N1scO2dO2s)",
+    group = 
+"""
+1 * N5dc u0 p0 c+1 {2,S} {3,D} {4,S}
+2   O2s  u0 p2 c0 {1,S}
+3   O2d  u0 p2 c0 {1,D}
+4   N1sc u0 p2 c-1 {1,S}
+""",
+    thermo = None,
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 2440,
+    label = "N5dc-(Cd)",
+    group = 
+"""
+1   Cd   u0 p0 c0 {2,D}
+2 * N5dc u0 p0 c+1 {1,D}
+""",
+    thermo = None,
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 2441,
+    label = "N5dc-(CdO0scO2s)",
+    group = 
+"""
+1 * N5dc u0 p0 c+1 {2,S} {3,S} {4,D}
+2   O2s  u0 p2 c0 {1,S}
+3   O0sc u0 p3 c-1 {1,S}
+4   Cd   u0 p0 c0 {1,D}
+""",
+    thermo = None,
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 2442,
+    label = "N5dc-(CdHO0sc)",
+    group = 
+"""
+1 * N5dc u0 p0 c+1 {2,S} {3,D} {4,S}
+2   O0sc u0 p3 c-1 {1,S}
+3   Cd   u0 p0 c0 {1,D}
+4   H    u0 p0 c0 {1,S}
+""",
+    thermo = None,
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 2443,
+    label = "N5dc-(O0sc)",
+    group = 
+"""
+1   O0sc        u0 p3 c-1 {2,S}
+2 * [N5sc,N5dc] u0 p0 c+1 {1,S}
+""",
+    thermo = None,
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 2444,
+    label = "N5dc-(HN3dO0sc)",
+    group = 
+"""
+1 * N5dc u0 p0 c+1 {2,S} {3,D} {4,S}
+2   O0sc u0 p3 c-1 {1,S}
+3   N3d  u0 p1 c0 {1,D}
+4   H    u0 p0 c0 {1,S}
+""",
+    thermo = None,
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 2445,
+    label = "N5dc-(CddHO0sc)",
+    group = 
+"""
+1 * N5dc u0 p0 c+1 {2,S} {3,D} {4,S}
+2   O0sc u0 p3 c-1 {1,S}
+3   Cdd  u0 p0 c0 {1,D}
+4   H    u0 p0 c0 {1,S}
+""",
+    thermo = None,
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 2446,
     label = "N5ddc",
     group = 
 """
 1 * N5ddc u0 p0 c+1
 """,
     thermo = None,
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
+    shortDesc = """""",
     longDesc = 
 """
 
@@ -71996,20 +51788,15 @@ entry(
 )
 
 entry(
-    index = 3298,
-    label = "N5ddc-O2d_2842",
+    index = 2447,
+    label = "N5ddc-(O2d)",
     group = 
 """
 1   O2d   u0 p2 c0 {2,D}
 2 * N5ddc u0 p0 c+1 {1,D}
 """,
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([12.6561,14.031,15.0746,15.9349,17.2617,18.1738,19.3504],'J/(mol*K)'),
-        H298 = (26.9643,'kJ/mol'),
-        S298 = (73.1465,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
+    thermo = None,
+    shortDesc = """""",
     longDesc = 
 """
 
@@ -72017,7 +51804,7 @@ entry(
 )
 
 entry(
-    index = 3299,
+    index = 2448,
     label = "Cl1s",
     group = 
 """
@@ -72037,7 +51824,7 @@ Dummy group for singly-bonded chlorine. Benson groups for chloroalkanes already 
 )
 
 entry(
-    index = 3300,
+    index = 2449,
     label = "I1s",
     group = 
 """
@@ -72101,53 +51888,32 @@ L1: R
             L4: Cb-Cl
             L4: Cb-I
         L3: Ct
-            L4: Ct-Ct-Cd-N3d_3282
-            L4: Ct-Ct-O2s-N3s_3225
-            L4: Ct-Cd-N5dc_3216
-            L4: Ct-Cd-HN3d_3087
-            L4: Ct-Cs-N3s_2943
-                L5: Ct-Cs-HHN3s_3239
-            L4: Ct-Ct-N3d_2734
-            L4: Ct-N5tc_2639
-                L5: Ct-N5tc-O0sc_3166
-            L4: Ct-N1sc_2611
-                L5: Ct-N1sc-N5dc_2610
-            L4: Ct-Ct-N3s_2606
-            L4: Ct-N3s_2487
-                L5: Ct-N3s-O2s_3069
-                    L6: Ct-N3s-HO2s_3055
-                L5: Ct-N3s-HH_2893
-                    L6: Ct-N3tN3s
-                    L6: Ct-CtN3s-HH_3260
-                        L7: Ct-CtN3s
-                L5: Ct-N3s-N3s_2875
-                    L6: Ct-N3s-HN3s_3035
-                L5: Ct-N3s-Cs_2648
-                    L6: Ct-N3s-CsH_3004
-                        L7: Ct-N3s-CsH-HHH_3003
-                            L8: Ct-N3s-Cs-HHH_2647
-            L4: Ct-O2s-N3s_2404
-                L5: Ct-O2s-N3s-HH_3224
-            L4: Ct-N3d_2386
-                L5: Ct-N3d-N3d_2801
-                L5: Ct-CtN3d_2736
-                    L6: Ct-N3d-Cd-HH_2384
-                        L7: Ct-N3d-Cd_2385
-                    L6: Ct-CtN3d-HO2d_2735
-            L4: Ct-Ct-N3t_2356
-                L5: Ct-Ct(CtN3t)
+            L4: Ct-(N5tc)
+                L5: Ct-(N5tcO2s)
+                L5: Ct-(N3dN5tc)
+                L5: Ct-(N3sN5tc)
+                L5: Ct-(CtN5tc)
+            L4: Ct-(N3t)
+                L5: Ct-N3tC
+                    L6: Ct-N3tCd
+                    L6: Ct-N3tCs
+                L5: Ct-N3tOs
+                L5: Ct-N3tN3s
+                L5: Ct-(N3dN3t)
+                L5: Ct-(N1scN3t)
+            L4: Ct-(N5sc)
+            L4: Ct-(N3d)
+                L5: Ct-(CtN3d)
+            L4: Ct-(CtN1sc)
+            L4: Ct-(N3s)
+                L5: Ct-CtN3s
             L4: Ct-CtH
             L4: Ct-StH
             L4: Ct-CtOs
-            L4: Ct-N3tOs
             L4: Ct-CtS
                 L5: Ct-CtS2
                 L5: Ct-CtS4
                 L5: Ct-CtS6
-            L4: Ct-N3tC
-                L5: Ct-N3tCs
-                    L6: Ct-CsN3t-HHH_2675
-                L5: Ct-N3tCd
             L4: Ct-CtC
                 L5: Ct-CtCs
                 L5: Ct-CtCds
@@ -72159,35 +51925,15 @@ L1: R
                             L8: Ct-Ct(Cds-Cdd-S2d)
                             L8: Ct-Ct(Cds-Cdd-Cd)
                 L5: Ct-CtCt
+                    L6: Ct-Ct(CtN3t)
                 L5: Ct-CtCb
         L3: Cdd
-            L4: Cdd-Cdd-N3d_3213
-                L5: Cdd-CddN3d-HN3d-H_3202
-                    L6: Cdd-CddN3d-HN3d_3203
-            L4: Cdd-Cd-HN3s_3186
-            L4: Cdd-Cdd-N5dc_2860
-                L5: Cdd-Cdd-N5dc-HO0sc_2859
-            L4: Cdd-N3d_2511
-                L5: Cdd-N3dOd
-                L5: Cdd-CddN3d_3204
-                    L6: Cdd-CddN3d-HO2d_3212
-                L5: Cdd-CdN3d-HH_3141
-                    L6: Cdd-N3dCd
-                        L7: Cdd-N3d-Cs_2626
-                        L7: Cdd-N3d-O2s_2594
-                        L7: Cdd-N3d-N3s-HH_2509
-                            L8: Cdd-N3d-N3s_2510
-                L5: Cdd-N3dN3d-HH_2846
-                    L6: Cdd-N3dN3d
-                L5: Cdd-N3dN5dc_2645
-                    L6: Cdd-N3dN5dc-HO0sc_2644
-            L4: Cdd-N5dc
-                L5: Cdd-CddN5dc_2858
-                    L6: Cdd-CddN5dc-HO0sc_2857
-                L5: Cdd-N5dc-HO0sc_2504
-                L5: Cdd-N5dcN5dc
-                L5: Cdd-N5dcO2d
-                L5: Cdd-N5dcCd
+            L4: Cdd-(N3d)
+                L5: Cdd-(N3dN3d)
+                L5: Cdd-N3dCd
+                L5: Cdd-(CddN3d)
+                L5: Cdd-(N3dO2d)
+            L4: Cdd-(N5dc)
             L4: Cdd-OdOd
             L4: Cdd-OdSd
             L4: Cdd-SdSd
@@ -72220,180 +51966,43 @@ L1: R
                     L6: Cdd-(Cdd-Cd)Cds
                 L5: Cdd-CdsCds
         L3: Cds
-            L4: Cd-Cdd-N5dc_3145
-                L5: Cd-CddHN3s-HHN5dc_2780
-                    L6: Cd-CddHN3s-HHN5dc-HO0sc_2779
-                L5: Cd-CddHO2s-HN5dc_2727
-                    L6: Cd-CddHO2s-HN5dc-HO0sc_2726
-                L5: Cd-Cdd-N5dc-HO0sc_3144
-            L4: Cd-Cdd-N3d_3051
-                L5: Cd-CddHH-N3d-H_2978
-                    L6: Cd-CddHH-N3d_2979
-                L5: Cd-CddHN3s-HHN3d_3245
-                    L6: Cd-CddHN3s-HHN3d-H_3244
-                L5: Cd-CddHO2s-HN3d_3240
-                    L6: Cd-CddHO2s-HN3d-H_3239
-                L5: Cd-CddHH-N3d-O2s_3139
-                L5: Cd-Cdd-N3d-N3s_3138
-                L5: Cd-Cdd-N3d-Cs_3050
-            L4: Cd-Cd-HN3d_2997
-            L4: Cd-Cd-Cs-N3s_2964
-            L4: CO-N3d_2903
-                L5: CO-HN3dO2d-N3d_3199
-                    L6: CO-HN3dO2d-N3d-H_3198
-                L5: CO-HN3dO2d-O2d_3195
-                L5: CO-N3d-Cd_2902
-                    L6: CO-N3d-Cd-HH_2901
-                        L7: Cds-OdN3dCs
-                        L7: Cds-OdN3dH
-            L4: Cd-Cs-HHN3s_2881
-            L4: Cd-Cdd-Cdd-N5dc_2835
-            L4: CO-O2s-N3s_2778
-                L5: CO-O2s-N3s-HH_2777
-            L4: CO-N1sc_2688
-                L5: Cds-OdN1sc
-                    L6: CO-N1sc-N5dc_2687
-                        L7: CO-N1sc-N5dc-HO2d_2686
-            L4: Cd-Cd-N3s_2543
-                L5: Cd-Cd-HN3s_2703
-                    L6: Cd-CdHN3s-HHHN3s_2895
-                        L7: Cd-CdHN3s-HHHN3s-HH_2894
-            L4: Cd-N3d_2529
+            L4: Cd-(N3d)
+                L5: Cd-(N3dO2sO2s)
+                L5: Cd-(HN3dN3d)
+                L5: Cd-(COHN3d)
+                L5: Cd-(HN3dN3s)
+                L5: Cd-(CtHN3d)
+                L5: Cd-(HN3dO2s)
                 L5: Cd-N3dHH
-                    L6: Cd-HHN3d-O2s_2340
-                        L7: Cd-HHN3d-O2s-O2s_2339
-                        L7: Cd-HHN3d-O2s-H_2793
-                        L7: Cd-N3d-O2s-N3s_2527
-                        L7: Cd-N3d-O2s-Cs_3233
-                    L6: Cd-HHN3d-N3d_2555
-                        L7: Cd-HHN3d-N3d-O2d_2564
-                        L7: Cd-HHN3d-N3d-N3d_2554
-                        L7: Cd-HHN3d-N3d-Cd_3104
-                            L8: Cd-N3d-N3d-Cd_3105
-                                L9: Cd-N3d-N3d_3106
-                    L6: Cd-HHN3d-Ct_2383
-                        L7: Cd-HHN3d-Ct-Ct_2382
-                        L7: Cd-HHN3d-Ct-N5tc_2885
-                        L7: Cd-HHN3d-Ct-N3t_3234
-                    L6: Cd-N3d-N1sc_2918
-                        L7: Cd-N3d-N1sc-N5dc_2917
-                    L6: Cd-N3d-Cd_2726
-                        L7: Cd-N3d-Cd-HN5dc_3135
-                    L6: Cd-N3d-Cs-CsHH_3218
-                    L6: Cd-N3d-N3s-HN3s_2993
-                    L6: Cd-N3d-N3s-HO2s_2922
-                    L6: Cd-HHN3d-CO-HO2d_2899
-                        L7: Cd-HHN3d-CO_2900
-                    L6: Cd-N3d-N3s-Cs_2822
-                    L6: Cd-N3d-Cs-HHH_2770
-                        L7: Cd-N3d-Cs_2563
-                    L6: Cd-N3d-Cs-N3s_2562
-                L5: Cd-CtHN3d-HN3t_2348
+                L5: Cd-N3dCsH
                 L5: Cd-N3dCsCs
-                L5: Cd-CtHN3d-CtH_3280
-                    L6: Cd-CtHN3d-CtH-H_3279
-                        L7: Cd-CtHN3d_2349
-                L5: Cd-N3dN3sN3s_3189
-                    L6: Cd-N3dN3sN3s-HHHHH_3188
-                L5: Cd-HN1scN3d_3118
-                    L6: Cd-HN1scN3d-HN5dc_3117
-                        L7: Cd-HN1scN3d-HN5dc-HO2d_3116
-                L5: Cd-CtHN3d-HN5tc_3085
-                    L6: Cd-CtHN3d-HN5tc-O0sc_3084
-                L5: Cd-N3dO2sO2s_2991
-                    L6: Cd-N3dO2sO2s-HHH_2990
-                L5: Cd-HN3dN3s-HHH_2972
-                    L6: Cd-N3dN3s
-                        L7: Cd-HN3dN3s_2371
-                L5: Cd-HN3dN3d_2950
-                    L6: Cd-HN3dN3d-HN3d_3220
-                        L7: Cd-HN3dN3d-HN3d-H_3219
-                    L6: Cd-HN3dN3d-HO2d_3153
-                    L6: Cd-HN3dN3d-CdH_2949
-                        L7: Cd-HN3dN3d-CdH-HH_2948
-                L5: Cd-COHN3d_2838
-                    L6: Cd-COHN3d-HHO2d_2837
-                L5: Cd-N3d-N3s_2823
-                    L6: Cd-N3d-N3s-HH_3271
-                        L7: Cd-HN3dN3s-HHN3s-HH_2369
-                            L8: Cd-HN3dN3s-HHN3s_2370
-                        L7: Cd-HN3dO2s-HN3s-HH_2324
-                            L8: Cd-HN3dO2s-HN3s_2325
-                L5: Cd-CdHN3d_2819
-                    L6: Cd-CdHN3d-HHN3d_2818
-                        L7: Cd-CdHN3d-HHN3d-H_2817
-                L5: Cd-HN3dO2s-HN3s_2743
-                    L6: Cd-HN3dO2s-HN3s-HH_2742
-                L5: Cd-HN3dO2s-HO2s_2682
-                    L6: Cd-HN3dO2s-HO2s-H_2681
-                L5: Cd-CsHN3d-HHH_2587
-                    L6: Cd-N3dCsH
-                L5: Cd-HN3dO2s-HH_2583
-                    L6: Cd-HN3dO2s_2326
-                        L7: Cd-N3dO2s
-                L5: Cd-N3d-O2s_2528
-                    L6: Cd-HN3dN3s-HHO2s_3020
-                        L7: Cd-HN3dN3s-HHO2s-H_3019
-                    L6: Cd-HN3dO2s-HO2s_2545
-                        L7: Cd-HN3dO2s-HO2s-H_2544
-            L4: CO-N3s_2500
+                L5: Cd-(N3dN3sN3s)
+                L5: Cd-(HN1scN3d)
+            L4: CO-(N3s)
                 L5: Cds-OdN3sCs
                 L5: Cds-OdN3sH
-                    L6: CO-N3s-Cs-HHH_2498
-                        L7: CO-N3s-Cs_2499
-                L5: CO-N3sO2dO2s_3060
-                    L6: CO-N3sO2dO2s-HHH_3059
-                L5: CO-N3sN3sO2d_3027
-                    L6: CO-N3sN3sO2d-HHHH_3026
-            L4: Cd-N5dc_2490
-                L5: Cd-CtHN5dc_2415
-                    L6: Cd-CtHN5dc-CtHO0sc_2414
-                        L7: Cd-CtHN5dc-CtHO0sc-H_2413
-                    L6: Cd-CtHN5dc-HN3tO0sc_3214
-                L5: Cd-N3sN5dcO2s_3168
-                    L6: Cd-N3sN5dcO2s-HHHHO0sc_3167
-                L5: Cd-COHN5dc_2911
-                    L6: Cd-COHN5dc-HHO0scO2d_2910
-                L5: Cd-HN5dcO2s_2775
-                    L6: Cd-HN5dcO2s-HN3sO0sc_2968
-                        L7: Cd-HN5dcO2s-HN3sO0sc-HH_2967
-                    L6: Cd-HN5dcO2s-HHO0sc_2774
-                L5: Cd-CdHN5dc_2750
-                    L6: Cd-CdHN5dc-CdHHO0sc_2749
-                        L7: Cd-CdHN5dc-CdHHO0sc-HH_2748
-                L5: Cd-HN3sN5dc_2748
-                    L6: Cd-HN3sN5dc-HHO0scO2s_3006
-                        L7: Cd-HN3sN5dc-HHO0scO2s-H_3005
-                    L6: Cd-HN3sN5dc-HHHO0sc_2747
-                L5: Cd-N3sN3sN5dc_2671
-                    L6: Cd-N3sN3sN5dc-HHHHHO0sc_2670
-                L5: Cd-HN3dN5dc_2514
-                    L6: Cd-HN3dN5dc-CdHO0sc_3134
-                        L7: Cd-HN3dN5dc-CdHO0sc-HH_3133
-                    L6: Cd-HN3dN5dc-HO0scO2d_2599
-                    L6: Cd-HN3dN5dc-HN3dO0sc_2513
-                        L7: Cd-HN3dN5dc-HN3dO0sc-H_2512
-            L4: Cd-N3s_2320
+                L5: CO-(N3sO2dO2s)
+                L5: CO-(N3sN3sO2d)
+            L4: CO-(HN3dO2d)
+            L4: CO-(HN1scO2d)
+            L4: Cd-(N5dc)
+                L5: Cd-(CtHN5dc)
+                L5: Cd-(N3sN5dcO2s)
+                L5: Cd-(COHN5dc)
+                L5: Cd-(HHN5dc)
+                L5: Cd-(CdHN5dc)
+                L5: Cd-(HN5dcO2s)
+                L5: Cd-(HN3sN5dc)
+                L5: Cd-(N3sN3sN5dc)
+                L5: Cd-(HN3dN5dc)
+            L4: Cd-(N5sc)
+            L4: CO-(N5sc)
+            L4: Cd-(N3s)
                 L5: Cd-CdCsN3s
-                L5: Cd-N3s-HN3s_2976
-                L5: Cd-CdHN3s-HHHO2s_2956
-                    L6: Cd-CdHN3s-HHHO2s-H_2955
-                L5: Cd-CdHN3s-HHHH_2702
-                    L6: Cd-CdHN3s
-                L5: Cd-CdN3sN3s_2640
-                    L6: Cd-CdN3sN3s-HHHHHH_2639
-                L5: Cd-CdN3sO2s_2635
-                    L6: Cd-CdN3sO2s-HHHHH_2634
-                L5: Cd-CdHN3s-HHHO2s_2540
-                    L6: Cd-CdHN3s-HHHO2s-H_2539
-                L5: Cd-N3s-Cs_2443
-                    L6: Cd-N3s-CsH_3183
-                        L7: Cd-N3s-CsH-HHH_3182
-                            L8: Cd-N3s-Cs-HHH_2442
-                L5: Cd-CddHN3s_2379
-                    L6: Cd-CddHN3s-HHO2d_3185
-                    L6: Cd-CddHN3s-CdHH_2378
-                        L7: Cd-CddHN3s-CdHH-HH_2377
+                L5: Cd-CdHN3s
+                L5: Cd-(CdN3sN3s)
+                L5: Cd-(CdN3sO2s)
+                L5: Cd-(CddHN3s)
             L4: Cds-OdHH
             L4: Cds-OdOsH
             L4: CO-SH
@@ -72413,9 +52022,6 @@ L1: R
                             L8: Cds-O2d(Cds-Cdd-O2d)H
                             L8: Cds-O2d(Cds-Cdd-Cd)H
                 L5: Cds-OdCtH
-                    L6: CO-CtHO2d-N5tc_3113
-                        L7: CO-CtHO2d-N5tc-O0sc_3112
-                    L6: CO-CtHO2d-N3t_2351
                 L5: Cds-OdCbH
             L4: Cds-OdCOs
                 L5: Cds-OdCsOs
@@ -72478,11 +52084,8 @@ L1: R
                     L6: Cds-(Cdd-O2d)HH
                     L6: Cds-(Cdd-S2d)HH
                     L6: Cds-(Cdd-Cd)HH
-                        L7: Cd-CddHH-Cdd-N3d_3277
             L4: Cds-CdOsH
                 L5: Cds-CdsOsH
-                    L6: Cd-CdHO2s-HHN3s_2937
-                        L7: Cd-CdHO2s-HHN3s-HH_2936
                 L5: Cds-CddOsH
                     L6: Cds-(Cdd-O2d)OsH
                     L6: Cds-(Cdd-Cd)OsH
@@ -72507,8 +52110,6 @@ L1: R
             L4: Cds-CdCH
                 L5: Cds-CdsCsH
                 L5: Cds-CdsCdsH
-                    L6: Cd-CdCdH-HHHN3d_2335
-                        L7: Cd-CdCdH-HHHN3d-H_2334
                     L6: Cd-Cd(CO)H
                     L6: Cds-Cds(Cds-Cd)H
                         L7: Cds-Cds(Cds-Cds)H
@@ -72517,10 +52118,7 @@ L1: R
                             L8: Cds-Cds(Cds-Cdd-S2d)H
                             L8: Cds-Cds(Cds-Cdd-Cd)H
                 L5: Cds-CdsCtH
-                    L6: Cd-CdCtH-HHN5tc_2576
-                        L7: Cd-CdCtH-HHN5tc-O0sc_2575
                     L6: Cds-CdsH(CtN3t)
-                        L7: Cd-CdCtH-HHN3t_2816
                 L5: Cds-CdsCbH
                     L6: Cds-(Cds-Os)CbH
                 L5: Cds-CddCsH
@@ -72823,14 +52421,8 @@ L1: R
                         L7: Cds-CdsC=S(Cds-Cdd-S2d)
                 L5: Cds-(Cdd-S2d)C=SC=S
             L4: Cds-CNH
-                L5: Cd-CdHN3d_2724
-                    L6: Cd-CdHN3d-HHN3d_2995
-                        L7: Cd-CdHN3d-HHN3d-H_2994
-                    L6: Cd-CdHN3d-CdHH_2723
-                        L7: Cd-CdHN3d-CdHH-HH_2722
-                L5: Cd-CdHN1sc_2536
-                    L6: Cd-CdHN1sc-HHN5dc_2535
-                        L7: Cd-CdHN1sc-HHN5dc-HO2d_2534
+                L5: Cd-(CdHN3d)
+                L5: Cd-(CdHN1sc)
                 L5: Cd-CdH(N5dcOdOs)
             L4: Cds-CCN
                 L5: Cd-CdCs(N5dcOdOs)
@@ -72925,253 +52517,66 @@ L1: R
             L4: C=S-OsOs
             L4: C=S-OsS
         L3: Cs
-            L4: Cs-HHN1scO2s_3082
-                L5: Cs-HHN1scO2s-HN5dc_3081
-                    L6: Cs-HHN1scO2s-HN5dc-HO2d_3080
-            L4: Cs-O2s-N3s_3015
-                L5: Cs-CsHHO2s-HHHN3s-HH_2875
-                    L6: Cs-CsHHO2s-HHHN3s_2876
-                L5: Cs-HHHO2s-N3s-HH_2831
-                    L6: Cs-HHHO2s-N3s_2612
-                L5: Cs-HHHO2s-N3s-HN3s_2671
-                L5: Cs-HHHO2s-N3s-HO2s_2611
-                L5: Cs-HHN3sO2s-HHN3s_3291
-                    L6: Cs-HHN3sO2s-HHN3s-HH_3290
-                L5: Cs-HHO2sO2s-HN3s_3262
-                    L6: Cs-HHO2sO2s-HN3s-HH_3261
-                L5: Cs-O2s-N3s-CsH_3014
-            L4: Cs-Cs-HN3sN3s_2899
-            L4: Cs-O2s-Cs-HHN3s_2708
-            L4: Cs-N3s_2552
-                L5: Cs-HHHN3s-COH-HO2d_2496
-                    L6: Cs-HHHN3s-COH_2497
-                L5: Cs-HHHN3s-HO2s-O2s_2478
-                L5: Cs-HHHN3s-HO2s-N3s_2473
-                L5: Cs-HHHN3s-CdH-HN3d_2440
-                L5: Cs-HHHN3s-O2sO2s-HH_2396
-                    L6: Cs-HHHN3s-O2sO2s_2397
-                L5: Cs-HHHN3s-N5dcO0sc_3250
-                    L6: Cs-HHHN3s-N5dcO0sc-HO2d_3249
-                L5: Cs-N3s-N3s_3207
-                    L6: Cs-HHHN3s-CsN3s-HHHHH_3022
-                        L7: Cs-HHHN3s-CsN3s_3023
-                    L6: Cs-CsHHN3s-HHHHN3s-HH_3016
-                        L7: Cs-CsHHN3s-HHHHN3s_3017
-                    L6: Cs-HHN3sN3s-HHHN3s-HH_2999
-                        L7: Cs-HHN3sN3s-HHHN3s_3000
-                    L6: Cs-HHN3sO2s-HHN3s-HH_2981
-                        L7: Cs-HHN3sO2s-HHN3s_2982
-                    L6: Cs-HHHN3s-N3sN3s-HHHH_2662
-                        L7: Cs-HHHN3s-N3sN3s_2663
-                    L6: Cs-HHHN3s-HN3s-HH_2653
-                        L7: Cs-HHHN3s-HN3s_2410
-                    L6: Cs-HHHN3s-N3sO2s-HHH_2424
-                        L7: Cs-HHHN3s-N3sO2s_2425
-                    L6: Cs-HHHN3s-HN3s-HN3s_2417
-                    L6: Cs-HHHN3s-HN3s-HO2s_2409
-                    L6: Cs-N3s-N3s-CsH_3206
-                        L7: Cs-HHHN3s-HN3s-CsH_3205
-                L5: Cs-HHHN3s-CdH-CdH_3181
-                    L6: Cs-HHHN3s-CdH_2441
-                L5: Cs-N3s-HH_3095
-                    L6: Cs-N3sHHH
-                    L6: Cs-CtHHN3s-HHN5tc_2940
-                        L7: Cs-CtHHN3s-HHN5tc-O0sc_2939
-                    L6: Cs-CdHHN3s-HHHN5dc_2879
-                        L7: Cs-CdHHN3s-HHHN5dc-HO0sc_2878
-                    L6: Cs-HHN3dN3s-HHN5dc_2467
-                        L7: Cs-HHN3dN3s-HHN5dc-HO0sc_2466
-                    L6: Cs-CsHN3sO2s-HHHHHH_3090
-                        L7: Cs-CsHN3sO2s_3091
-                    L6: Cs-HHN3sO2s-HHH_3074
-                        L7: Cs-HHN3sO2s_2439
-                    L6: Cs-HN3sN3sO2s-HHHHH_3012
-                        L7: Cs-HN3sN3sO2s_3013
-                    L6: Cs-CdHHN3s-CdHHH-HH_2961
-                        L7: Cs-CdHHN3s-CdHHH_2962
-                            L8: Cs-CdHHN3s_2719
-                    L6: Cs-CsHN3sN3s-HHHHHHH_2898
-                    L6: Cs-COHHN3s-HHHO2d_2792
-                        L7: Cs-COHHN3s_2793
-                    L6: Cs-CsHHN3s-HHHHH_2738
-                        L7: Cs-N3sCsHH
-                    L6: Cs-CdHHN3s-HHHN3d-H_2717
-                        L7: Cs-CdHHN3s-HHHN3d_2718
-                    L6: Cs-HHN3sO2s-CsHH-HHH_2706
-                        L7: Cs-HHN3sO2s-CsHH_2707
-                    L6: Cs-HHN3dN3s-CdHH-HH_2559
-                        L7: Cs-HHN3dN3s-CdHH_2560
-                            L8: Cs-HHN3dN3s_2468
-                    L6: Cs-HHN3sN3s-CsHHH-HHH_2548
-                        L7: Cs-HHN3sN3s-CsHHH_2549
-                    L6: Cs-HHN3sN3s-HHHO2s-H_2448
-                        L7: Cs-HHN3sN3s-HHHO2s_2449
-                    L6: Cs-HHN3sO2s-HHO2s-H_2437
-                        L7: Cs-HHN3sO2s-HHO2s_2438
-                    L6: Cs-CtHHN3s-HHN3t_2381
-                    L6: Cs-CsHHN3s-HHHHO2s-H_2373
-                        L7: Cs-CsHHN3s-HHHHO2s_2374
-                    L6: Cs-CsHHN3s-HHHHN3s-HH_2329
-                        L7: Cs-CsHHN3s-HHHHN3s_2330
-                    L6: Cs-N3sCsCsCs
-                    L6: Cs-N3sCsCsH
-                    L6: Cs-CtHHN3s-CtHH_3237
-                        L7: Cs-CtHHN3s-CtHH-H_3236
-                            L8: Cs-CtHHN3s_2382
-                    L6: Cs-HHN3sN3s-HHHH_3127
-                        L7: Cs-HHN3sN3s_2450
-                    L6: Cs-HHN3dN3s-HHN3d_3102
-                        L7: Cs-HHN3dN3s-HHN3d-H_3101
-                    L6: Cs-HHN3dN3s-HHO2d_3096
-                L5: Cs-CsHHN3s-HHHHO2s_3061
-                    L6: Cs-CsHHN3s-HHHHO2s-H_3060
-                L5: Cs-HHHN3s-HO2s-Cs_3013
-                L5: Cs-HHHN3s-HN3d_2821
-                    L6: Cs-HHHN3s-HN3d-N5dc_3272
-                    L6: Cs-HHHN3s-HN3d-N3d_2869
-                    L6: Cs-HHHN3s-HN3d-Cd_2820
-                L5: Cs-HHHN3s-CdH-HN5dc_2697
-                L5: Cs-HHHN3s-CtH_2646
-                    L6: Cs-HHHN3s-CtH-Ct_3002
-                    L6: Cs-HHHN3s-CtH-N3t_2675
-                    L6: Cs-HHHN3s-CtH-N5tc_2645
-                L5: Cs-HHHN3s-HO2s-H_2620
-                    L6: Cs-HHHN3s-HO2s_2474
-                L5: Cs-HHN3sO2s-HHO2s_2589
-                    L6: Cs-HHN3sO2s-HHO2s-H_2588
-                L5: Cs-N3s-Cs_2551
-                    L6: Cs-HHHN3s-CsO2s_3193
-                        L7: Cs-HHHN3s-CsO2s-HHHH_3192
-                    L6: Cs-N3s-Cs-CsHH_3109
-                    L6: Cs-CsHHN3s-CsHHHH_3108
-                        L7: Cs-CsHHN3s-CsHHHH-HHH_3107
-                    L6: Cs-HHHN3s-CsH_3040
-                        L7: Cs-N3s-Cs-HHO2s_2569
-                        L7: Cs-N3s-Cs-HHN3s_2550
-                        L7: Cs-HHHN3s-CsH-HHH_3039
-                            L8: Cs-N3s-Cs-HHH_3024
-                    L6: Cs-HHN3sO2s-CsHH_2568
-                        L7: Cs-HHN3sO2s-CsHH-HHH_2567
-            L4: Cs-Cs-HHN3d_2407
-            L4: Cs-Cs-HHN3s_2332
-                L5: Cs-CsCsHH-HHHHHN3s_2959
-                    L6: Cs-CsCsHH-HHHHHN3s-HH_2958
-            L4: Cs-N3d_2322
-                L5: Cs-(N3dOd)CsCsCs
-                L5: Cs-(N3dOd)CsCsH
-                L5: Cs-HHN3dO2s_3277
-                    L6: Cs-HHN3dO2s-HN3d_3284
-                        L7: Cs-HHN3dO2s-HN3d-H_3283
-                    L6: Cs-HHN3dO2s-HO2d_3276
-                L5: Cs-CsHHN3d-HHHN5dc_3169
-                    L6: Cs-CsHHN3d-HHHN5dc-HO0sc_3168
-                L5: Cs-HHHN3d-N5dc_3029
-                    L6: Cs-HHHN3d-N5dc-HO0sc_3028
-                L5: Cs-HHHN3d-O2d_2925
-                L5: Cs-HHHN3d-Cdd_2623
-                    L6: Cs-HHHN3d-Cdd-Cd_3049
-                    L6: Cs-HHHN3d-Cdd-N5dc_3046
-                    L6: Cs-HHHN3d-Cdd-O2d_2650
-                    L6: Cs-HHHN3d-Cdd-N3d_2622
-                L5: Cs-N3d-Cd_2492
-                    L6: Cs-N3dCsCsCs
-                    L6: Cs-N3dCsCsH
-                    L6: Cs-CsHHN3d-CdHHH_3217
-                        L7: Cs-CsHHN3d-CdHHH-HH_3216
-                            L8: Cs-(N3dCd)CsHH
-                                L9: Cs-N3dCHH
-                    L6: Cs-HHHN3d-Cd_2769
-                        L7: Cs-N3d-Cd-Cs_2491
-                        L7: Cs-HHHN3d-Cd-HO2s_3176
-                        L7: Cs-HHHN3d-Cd-HN3s_3149
-                        L7: Cs-HHHN3d-Cd-HH_2768
-                            L8: Cs-(N3dCd)HHH
-                                L9: Cs-N3dHHH
-                L5: Cs-CsHHN3d-HHHO2d_2422
-                    L6: Cs-(N3dOd)CHH
-                L5: Cs-N3d-N3d_2321
-                    L6: Cs-(N3dN3d)CsCsCs
-                    L6: Cs-(N3dN3d)CsCsH
-                    L6: Cs-HHHN3d-N3d-N3s_3295
-                    L6: Cs-HHHN3d-N3d-O2s_3255
-                    L6: Cs-HHHN3d-N3d-H_2913
-                        L7: Cs-(N3dN3d)HHH
-                    L6: Cs-CsHHN3d-HHHN3d_2405
-                        L7: Cs-CsHHN3d-HHHN3d-H_2404
-                            L8: Cs-(N3dN3d)CsHH
-                    L6: Cs-N3d-N3d-Cs_2320
-                        L7: Cs-HHHN3d-N3d-Cs_2319
-            L4: Cs-NHHH
-                L5: Cs-HHHN5dc_2753
-                    L6: Cs-HHHN5dc-N3dO0sc_3128
-                        L7: Cs-HHHN5dc-N3dO0sc-H_3127
-                    L6: Cs-HHHN5dc-O0scO2d_2927
-                    L6: Cs-HHHN5dc-CdO0sc_2752
-                        L7: Cs-HHHN5dc-CdO0sc-HH_2751
-            L4: Cs-NCsHH
-                L5: Cs-N5dcCsHH
-                    L6: Cs-(N5dcOdOs)CsHH
-            L4: Cs-NCsCsH
-                L5: Cs-N5dcCsCsH
-                    L6: Cs-(N5dcOdOs)CsCsH
-            L4: Cs-NCsCsCs
+            L4: Cs-(N3s)
+                L5: Cs-NNCsCs
+                L5: Cs-(CsHN3sO2s)
+                L5: Cs-(HN3sN3sO2s)
+                L5: Cs-(COHHN3s)
+                L5: Cs-(CdHHN3s)
+                L5: Cs-(HHN3dN3s)
+                L5: Cs-(HHN3sN3s)
+                L5: Cs-(HHN3sO2s)
+                L5: Cs-(CtHHN3s)
+                L5: Cs-N3sCsCsCs
+                L5: Cs-N3sCsCsH
+                L5: Cs-N3sCsHH
+                L5: Cs-N3sHHH
+            L4: Cs-(HHN1scO2s)
+            L4: Cs-(N5sc)
+                L5: Cs-(N5dcOdOs)(N5dcOdOs)CsH
                 L5: Cs-N5dcCsCsCs
                     L6: Cs-(N5dcOdOs)CsCsCs
-            L4: Cs-NNCsCs
+                L5: Cs-N5dcCsCsH
+                    L6: Cs-(N5dcOdOs)CsCsH
+                L5: Cs-N5dcCsHH
+                    L6: Cs-(N5dcOdOs)CsHH
+                L5: Cs-(HHHN5dc)
                 L5: Cs-N5dcN5dcCsCs
-            L4: Cs-NNCsH
-                L5: Cs-(N5dcOdOs)(N5dcOdOs)CsH
+            L4: Cs-(HHN3dO2s)
+            L4: Cs-NHHH
+                L5: Cs-N3dHHH
+                    L6: Cs-(N3dCd)HHH
+                    L6: Cs-(N3dN3d)HHH
+            L4: Cs-NCsHH
+                L5: Cs-N3dCHH
+                    L6: Cs-(N3dN3d)CsHH
+                    L6: Cs-(N3dOd)CHH
+                    L6: Cs-(N3dCd)CsHH
+            L4: Cs-NCsCsH
+                L5: Cs-N3dCsCsH
+                    L6: Cs-(N3dOd)CsCsH
+                    L6: Cs-(N3dN3d)CsCsH
+            L4: Cs-NCsCsCs
+                L5: Cs-N3dCsCsCs
+                    L6: Cs-(N3dOd)CsCsCs
+                    L6: Cs-(N3dN3d)CsCsCs
             L4: Cs-HHHH
             L4: Cs-CHHH
                 L5: Cs-CsHHH
                 L5: Cs-CdsHHH
-                    L6: Cs-CdHHH-HN5dc_2932
-                        L7: Cs-CdHHH-HN5dc-HO0sc_2931
-                    L6: Cs-CdHHH-N3sN5dc_2844
-                        L7: Cs-CdHHH-N3sN5dc-HHHO0sc_2843
-                    L6: Cs-CdHHH-CsN5dc_2825
-                        L7: Cs-CdHHH-CsN5dc-HHHHO0sc_2824
                     L6: Cs-(Cds-O2d)HHH
                     L6: Cs-(Cds-Cd)HHH
                         L7: Cs-(Cds-Cds)HHH
-                            L8: Cs-CdHHH-CdN3s_2690
-                                L9: Cs-CdHHH-CdN3s-HHHH_2689
-                            L8: Cs-CdHHH-CdH-HN3s_2666
                         L7: Cs-(Cds-Cdd)HHH
-                            L8: Cs-CdHHH-CddH-N3d_2933
-                            L8: Cs-CdHHH-CddH-N5dc_2904
                             L8: Cs-(Cds-Cdd-O2d)HHH
                             L8: Cs-(Cds-Cdd-S2d)HHH
                             L8: Cs-(Cds-Cdd-Cd)HHH
                     L6: Cs-(CdN3d)HHH
-                        L7: Cs-CdHHH-N3dN3s_3268
-                            L8: Cs-CdHHH-N3dN3s-HHH_3267
-                        L7: Cs-CdHHH-HN3d_2490
-                            L8: Cs-CdHHH-HN3d-O2s_2784
-                            L8: Cs-CdHHH-HN3d-N3s_2720
-                            L8: Cs-CdHHH-HN3d-H_2585
-                            L8: Cs-CdHHH-HN3d-Cs_2489
-                        L7: Cs-CdHHH-CsN3d_2366
-                            L8: Cs-CdHHH-CsN3d-HHHH_2365
                 L5: Cs-CtHHH
-                    L6: Cs-CtHHH-N5tc_2788
-                        L7: Cs-CtHHH-N5tc-O0sc_2787
-                    L6: Cs-CtHHH-Ct-N3s_2454
                     L6: Cs-(CtN3t)HHH
                 L5: Cs-CbHHH
                 L5: Cs-C=SHHH
             L4: Cs-OsHHH
-                L5: Cs-HHHO2s-Ct-N3t_3110
-                L5: Cs-HHHO2s-Cd-HN3d_3056
-                L5: Cs-HHHO2s-Ct-N5tc_2828
-                L5: Cs-HHHO2s-O2s-N3s_2805
-                L5: Cs-HHHO2s-Cd-HN5dc_2703
-                L5: Cs-HHHO2s-N1sc_2461
-                    L6: Cs-HHHO2s-N1sc-N5dc_2460
-                L5: Cs-HHHO2s-N3d_2392
-                    L6: Cs-HHHO2s-N3d-Cd_3232
-                    L6: Cs-HHHO2s-N3d-O2d_2433
-                    L6: Cs-HHHO2s-N3d-N3d_2391
             L4: Cs-OsOsHH
             L4: Cs-OsOsOsH
             L4: Cs-OsSHH
@@ -73192,8 +52597,6 @@ L1: R
             L4: Cs-CCHH
                 L5: Cs-CsCsHH
                 L5: Cs-CdsCsHH
-                    L6: Cs-CdCsHH-HHHHN5dc_2809
-                        L7: Cs-CdCsHH-HHHHN5dc-HO0sc_2808
                     L6: Cs-(Cds-O2d)CsHH
                     L6: Cs-(Cds-Cd)CsHH
                         L7: Cs-(Cds-Cds)CsHH
@@ -73202,8 +52605,6 @@ L1: R
                             L8: Cs-(Cds-Cdd-S2d)CsHH
                             L8: Cs-(Cds-Cdd-Cd)CsHH
                     L6: Cs-(CdN3d)CsHH
-                        L7: Cs-CdCsHH-HHHHN3d_3064
-                            L8: Cs-CdCsHH-HHHHN3d-H_3063
                 L5: Cs-CdsCdsHH
                     L6: Cs-(Cds-O2d)(Cds-O2d)HH
                     L6: Cs-(Cds-O2d)(Cds-Cd)HH
@@ -73224,10 +52625,7 @@ L1: R
                             L8: Cs-(Cds-Cdd-S2d)(Cds-Cdd-Cd)HH
                             L8: Cs-(Cds-Cdd-Cd)(Cds-Cdd-Cd)HH
                 L5: Cs-CtCsHH
-                    L6: Cs-CsCtHH-HHHN5tc_2739
-                        L7: Cs-CsCtHH-HHHN5tc-O0sc_2738
                     L6: Cs-(CtN3t)CsHH
-                        L7: Cs-CsCtHH-HHHN3t_3132
                 L5: Cs-CtCdsHH
                     L6: Cs-(Cds-O2d)CtHH
                     L6: Cs-(Cds-Cd)CtHH
@@ -74205,8 +53603,6 @@ L1: R
             L4: Cs-COsHH
                 L5: Cs-CsOsHH
                 L5: Cs-CdsOsHH
-                    L6: Cs-CdHHO2s-HHN5dc_2847
-                        L7: Cs-CdHHO2s-HHN5dc-HO0sc_2846
                     L6: Cs-(Cds-O2d)OsHH
                     L6: Cs-(Cds-Cd)OsHH
                         L7: Cs-(Cds-Cds)OsHH
@@ -74214,9 +53610,6 @@ L1: R
                             L8: Cs-(Cds-Cdd-O2d)OsHH
                             L8: Cs-(Cds-Cdd-Cd)OsHH
                 L5: Cs-CtOsHH
-                    L6: Cs-CtHHO2s-HN5tc_2907
-                        L7: Cs-CtHHO2s-HN5tc-O0sc_2906
-                    L6: Cs-CtHHO2s-HN3t_2459
                 L5: Cs-CbOsHH
             L4: Cs-CCCS
                 L5: Cs-CsCsCsS
@@ -74499,151 +53892,49 @@ L1: R
             L4: Cs-CCCCl
             L4: Cs-CCCI
     L2: O
-        L3: O0sc-N3s_3255
-        L3: O0sc-N5tc-Ct_2636
-            L4: O0sc-N5tc-Ct-Cd_3088
-            L4: O0sc-N5tc-Ct-N3s_2893
-            L4: O0sc-N5tc-Ct-O2s_2851
-            L4: O0sc-N5tc-Ct-Cs_2790
-            L4: O0sc-N5tc-Ct-N3d_2710
-            L4: O0sc-N5tc-Ct-Ct_2635
+        L3: O0sc-(N3s)
+        L3: O0sc-(N5dc)
         L3: Oa(S)
-        L3: O0sc-N5dc
-            L4: O0sc-N5dc-Cs_2929
-            L4: O0sc-N5dc-N3d_2660
-                L5: O0sc-N5dc-HN3d_2357
-                    L6: O0sc-N5dc-HN3d-N3s_2356
-                        L7: O0sc-N5dc-N3d-N3s_3274
-                    L6: O0sc-N5dc-N3d-Cs_3031
-            L4: O0sc-N5dc-Cd_2517
-                L5: O0sc-N5dc-Cd-N3d_3136
-                L5: O0sc-N5dc-Cd-N3s_2977
-                L5: O0sc-N5dc-Cd-O2s_2884
-                L5: O0sc-N5dc-Cd-Cs_2827
-            L4: O0sc-N5dc-Cdd_2507
-                L5: O0sc-N5dc-Cdd-N3d_3048
-                L5: O0sc-N5dc-Cdd-Cdd_2862
-                L5: O0sc-N5dc-Cdd-Cd_2783
         L3: O2d
-            L4: O2d-N5ddc_2840
-                L5: O2d-N5ddc-N1dc_2839
-            L4: O2d-Cdd-N3d_2595
-                L5: O2d-Cdd-N3d-N3s_2597
-            L4: O2d-Cdd-N5dc_2448
+            L4: O2d-(N5ddc)
             L4: O2d-Cd
-                L5: O2d-CO-N3d_3197
-                L5: O2d-CO-N3s_3011
             L4: O2d-O2d
             L4: O2d-N3d
-                L5: O2d-N3d-CO_3198
-                L5: O2d-N3d-H_2716
-                L5: O2d-N3d-Ct_2712
-                    L6: O2d-N3d-Ct-N3t_2946
-                    L6: O2d-N3d-Ct-N5tc_2711
-                L5: O2d-N3d-N3s_2697
-                L5: O2d-N3d-Cd_2602
-                L5: O2d-N3d-N3d_2566
-                    L6: O2d-N3d-N3d-O2d_2664
-                    L6: O2d-N3d-N3d-N3d_2660
-                    L6: O2d-N3d-N3d-Cd_2565
-                L5: O2d-N3d-N1sc_2533
-                    L6: O2d-N3d-N1sc-N5dc_2532
-                L5: O2d-N3d-O2s_2436
-                    L6: O2d-N3d-O2s-Cs_2435
-                L5: O2d-N3d-Cs_2424
-                    L6: O2d-N3d-Cs-HHH_2925
             L4: O2d-N5dc
-                L5: O2d-N5dc-N3s_3255
-                L5: O2d-N5dc-N1sc_2539
-                    L6: O2d-N5dc-HN1sc_2531
-                        L7: O2d-N5dc-HN1sc-N3d_2530
-                        L7: O2d-N5dc-N1sc-O2s_3160
             L4: O2d-Sd
         L3: O2s
-            L4: O2s-Cs-N3d_3287
-            L4: O2s-O2s-N3d_3266
-            L4: O2s-Ct-Ct-N3s_3260
-            L4: O2s-O2s-O2s-N3s_3191
-            L4: O2s-Cd-Cd-HN3s_2957
-            L4: O2s-O2s-Cd-HN3d_2683
-            L4: O2s-Cs-N3s_2571
-                L5: O2s-Cs-HHN3s_3075
-            L4: O2s-Cd-N3d_2548
-                L5: O2s-Cd-N3d-Cs_3178
-                L5: O2s-Cd-HN3d_2584
-            L4: O2s-O2s-N3s_2482
-                L5: O2s-O2s-N3s-HH_3148
-                L5: O2s-O2s-N3s-N3s_3038
-            L4: O2s-Cs-Cs-N3s_2376
             L4: O2s-N
-                L5: O2s-HN3s_3210
-                    L6: O2s-N3s-HN3s_3244
-                        L7: O2s-N3s-N3s_2391
-                    L6: O2s-N3s-CtH_3068
-                        L7: O2s-N3s-Ct_3056
-                    L6: O2s-N3s-Cs-CsHH_3062
-                    L6: O2s-N3s-HO2s_3046
-                        L7: O2s-N3s-O2s_2616
-                    L6: O2s-N3s-HN3d_2767
-                        L7: O2s-N3s-N3d_2924
-                    L6: O2s-N3s-Cd_2544
-                    L6: O2s-N3s-Cs-HHH_2426
-                        L7: O2s-N3s-CsH-HHH_2621
-                            L8: O2s-N3s-CsH_2481
-                                L9: O2s-N3s-Cs_2400
-                    L6: O2s-HN3s-HH_3209
-                L5: O2s-N1sc_2988
-                    L6: O2s-N1scO2s_3159
-                        L7: O2s-N1scO2s-HN5dc_3158
-                            L8: O2s-N1scO2s-HN5dc-HO2d_3157
-                    L6: O2s-N1sc-N5dc_2987
-                        L7: O2s-N1sc-N5dc-HO2d_2986
-                L5: O2s-N5dc_2575
+                L5: O2s-(HN1sc)
+                L5: O2s-(N5sc)
+                L5: O2s-(N5dc)
                     L6: O2s-CdN5dc
                         L7: O2s-(Cd-CdHH)(N5dcOdOs)
                     L6: O2s-CsN5dc
                         L7: O2s-Cs(N5dcOdOs)
-                L5: O2s-N3s-HH_2403
-                    L6: O2s-CsN3s-HHH_2833
-                        L7: O2s-CsN3s
-                            L8: O2s-CN
-                    L6: O2s-N3sN3s
-                        L7: O2s-NN
-                    L6: O2s-N3sO2s-HH_3191
-                        L7: O2s-OsN3s
-                            L8: O2s-ON
-                    L6: O2s-N3dN3s-HH_3077
-                        L7: O2s-N3sN3d
-                            L8: O2s-N3s(N3dOd)
-                    L6: O2s-CtN3s-HH_2865
-                        L7: O2s-CtN3s_2866
-                L5: O2s-N3d_2344
+                L5: O2s-(N3d)
+                    L6: O2s-N3sN3d
+                        L7: O2s-N3s(N3dOd)
+                    L6: O2s-OsN3d
+                        L7: O2s-O2s(N3dOd)
                     L6: O2s-CdN3d
                         L7: O2s-(Cd-Cd)(N3dOd)
-                    L6: O2s-OsN3d
-                        L7: O2s-N3dO2s-HN3d-H_3287
-                            L8: O2s-N3dO2s-HN3d_3288
-                        L7: O2s-O2s(N3dOd)
-                            L8: O2s-N3dO2s-HO2d_3265
-                    L6: O2s-HN3d_2967
-                        L7: O2s-N3d-N3d_2433
-                            L8: O2s-N3d-N3d-N3s_2495
-                            L8: O2s-N3d-N3d-Cs_3257
-                        L7: O2s-N3d-Cd_2343
-                            L8: O2s-N3d-Cd-CsH_2786
-                        L7: O2s-N3d-Cdd-Cd_3141
-                            L8: O2s-N3d-Cdd_2593
-                        L7: O2s-HN3d-O2d_2966
-                    L6: O2s-CsN3d-HHH_2435
-                        L7: O2s-CsN3d
-                            L8: O2s-Cs(N3dOd)
+                    L6: O2s-CsN3d
+                        L7: O2s-Cs(N3dOd)
+                    L6: O2s-(HN3d)
+                L5: O2s-(HN3s)
+                L5: O2s-CN
+                    L6: O2s-CsN3s
+                L5: O2s-ON
+                    L6: O2s-(N1scO2s)
+                    L6: O2s-OsN3s
+                L5: O2s-NN
+                    L6: O2s-N3sN3s
             L4: O2s-HH
             L4: O2s-OsH
             L4: O2s-OsOs
             L4: O2s-SsOs
             L4: O2s-CH
                 L5: O2s-CtH
-                    L6: O2s-CtH-N3t_2641
                 L5: O2s-CdsH
                     L6: O2s-(Cds-O2d)H
                     L6: O2s-(Cds-Cd)H
@@ -74652,12 +53943,7 @@ L1: R
                 L5: O2s-CSH
             L4: O2s-OsC
                 L5: O2s-OsCt
-                    L6: O2s-CtO2s-HN5tc_2850
-                        L7: O2s-CtO2s-HN5tc-O0sc_2849
-                    L6: O2s-CtO2s-HN3t_2472
                 L5: O2s-OsCds
-                    L6: O2s-CdO2s-HHN5dc_2883
-                        L7: O2s-CdO2s-HHN5dc-HO0sc_2882
                     L6: O2s-O2s(Cds-O2d)
                     L6: O2s-O2s(Cds-Cd)
                 L5: O2s-OsCs
@@ -74848,62 +54134,33 @@ L1: R
             L4: S6td-CtOdC
             L4: S6td-CtOdH
     L2: N
-        L3: N1dc_2844
-            L4: N1dc
-                L5: N1dc-Cdd_3101
-                    L6: N1dc-Cdd-N5dc_3100
-                L5: N1dc-N5ddc_2843
-        L3: N5tc_2580
-            L4: N5tc-O0sc_2583
-                L5: N5tc-CtO0sc_3043
-                    L6: N5tc-CtO0sc-H_3165
-                    L6: N5tc-CtO0sc-Ct_3042
-            L4: N5tc-Ct_2579
-                L5: N5tc-Ct-CO_3115
-                    L6: N5tc-Ct-CO-HO2d_3114
-                L5: N5tc-Ct-O2s_2830
-                    L6: N5tc-Ct-O2s-Cs_2829
-                L5: N5tc-Ct-N3d_2803
-                L5: N5tc-Ct-Cs_2741
-                    L6: N5tc-Ct-Cs-HHO2s_2908
-                    L6: N5tc-Ct-Cs-HHH_2789
-                    L6: N5tc-Ct-Cs-CsHH_2740
-                L5: N5tc-Ct-N3s_2650
-                L5: N5tc-Ct-Cd_2578
-                    L6: N5tc-Ct-Cd-CdH_2577
-        L3: N1sc_2468
-            L4: N1sc
-                L5: N1sc-N5dc_2576
-                    L6: N1sc-N5dc-HO2d_2609
-                        L7: N1sc-CtN5dc-HO2d_3071
-                    L6: N1sc-CtN5dc_3072
-                L5: N1sc-O2s_3176
-                L5: N1sc-Cd_3121
-                L5: N1sc-N3d_2921
-        L3: N3t_2430
-            L4: N3t-CtC
-                L5: N3t-Ct-Cd_2350
-                    L6: N3t-Ct-Cd-CdH_2816
-                L5: N3t-Ct-CO_2352
-                    L6: N3t-Ct-CO-HO2d_2351
-                L5: N3t-Ct-Ct_2354
-                    L6: N3t-Ct-Ct-Ct_2353
-                    L6: N3t-Ct-Ct-N5tc_3043
-                L5: N3t-Ct-Cs-CsHH_3132
-                L5: N3t-Ct-Cs-HHO2s_2459
-            L4: N3t-CtN
-                L5: N3t-Ct-N3d-Cd_3235
-                    L6: N3t-Ct-N3d_2945
-                L5: N3t-Ct-N1sc_3073
-                L5: N3t-Ct-N3d-N3d_2944
+        L3: N1dc
+            L4: N1dc-(Cdd)
+            L4: N1dc-(N5ddc)
+        L3: N1sc
+            L4: N1sc-(N5dc)
+                L5: N1sc-(N3dN5dc)
+            L4: N1sc-(O2s)
+        L3: N3t
             L4: N3t-CtH
-                L5: N3t-Ct
-                    L6: N3t
-            L4: N3t-Ct-O2s-Cs_3111
-            L4: N3t-Ct-O2s-H_2641
-                L5: N3t-CtO
-            L4: N3t-Ct-O2s-O2s_2472
-            L4: N3t-N3t_2429
+            L4: N3t-(N3t)
+        L3: N5tc
+            L4: N5tc-(O0sc)
+                L5: N5tc-(CtO0sc)
+        L3: N5sc
+            L4: N5sc-(O0sc)
+                L5: N5sc-(CtHHO0sc)
+                L5: N5sc-(HHHO0sc)
+                L5: N5sc-(CsHO0scO2s)
+                L5: N5sc-(HHN1scO0sc)
+                L5: N5sc-(HHN3dO0sc)
+                L5: N5sc-(HHO0scO2s)
+                L5: N5sc-(HN3sN3sO0sc)
+                L5: N5sc-(CdHHO0sc)
+                L5: N5sc-(COHHO0sc)
+                L5: N5sc-(CsHHO0sc)
+                L5: N5sc-(HHN3sO0sc)
+            L4: N5sc-(Ct)
         L3: N0sc
         L3: N1s
             L4: N1s-H
@@ -74912,7 +54169,9 @@ L1: R
             L4: N1s-N3s
             L4: N1s-O2s
         L3: N3s
-            L4: N3s-CO_3029
+            L4: N3s-(HHH)
+            L4: N3s-(HN1scO2s)
+            L4: N3s-(CO)
                 L5: N3s-(CO)(CO)Cb
                 L5: N3s-(CO)(CO)Cs
                 L5: N3s-(CO)CsCs
@@ -74920,444 +54179,103 @@ L1: R
                 L5: N3s-(CO)CbH
                 L5: N3s-(CO)CsH
                 L5: N3s-(CO)HH
-                    L6: N3s-COHH-HO2d_3009
-                        L7: N3s-COHH_3010
-                L5: N3s-COHN3s_3249
-                    L6: N3s-COHN3s-HHHO2d_3248
-                L5: N3s-COHO2s_3080
-                    L6: N3s-COHO2s-HHO2d_3079
-            L4: N3s-O2s_2477
-                L5: N3s-OsHH
-                    L6: N3s-O2s-N3s-Cs_2475
-                    L6: N3s-O2s-N3s-HN3s_3163
-                    L6: N3s-O2s-O2s-Cs_2806
-                    L6: N3s-HHO2s-O2s-N3s_3226
-                        L7: N3s-O2s-O2s-N3s_3227
-                    L6: N3s-HHO2s-Ct_2401
-                        L7: N3s-HHO2s-Ct-N3t_2400
-                        L7: N3s-HHO2s-Ct-Ct_3223
-                        L7: N3s-HHO2s-Ct-N5tc_2863
-                    L6: N3s-HHO2s-N1sc_3172
-                        L7: N3s-HHO2s-N1sc-N5dc_3171
-                    L6: N3s-O2s-Cs-HHN3s_3292
-                    L6: N3s-O2s-Cs-HHO2s_3263
-                    L6: N3s-HHO2s-O2s-O2s_3189
-                    L6: N3s-HHO2s-N3s-HH_3179
-                        L7: N3s-HHO2s-N3s_3180
-                    L6: N3s-HHO2s-O2s-H_3146
-                        L7: N3s-HHO2s-O2s_3147
-                    L6: N3s-HHO2s-N3d-N3d_3123
-                    L6: N3s-HHO2s-N3d-O2d_3075
-                    L6: N3s-O2s-Cd-N5dc_2970
-                    L6: N3s-O2s-Cd-CdH_2938
-                        L7: N3s-O2s-Cd_2745
-                    L6: N3s-O2s-Cs-CsHH_2877
-                    L6: N3s-HHO2s-CO-HO2d_2775
-                        L7: N3s-HHO2s-CO_2776
-                    L6: N3s-O2s-Cd-HN3d_2744
-                    L6: N3s-O2s-Cs-HHH_2613
-                        L7: N3s-O2s-Cs_2614
-                    L6: N3s-HHO2s-N3d-Cd_2525
-                        L7: N3s-HHO2s-N3d_2526
-                L5: N3s-HN3sO2s-HHO2s-H_2387
-                    L6: N3s-HN3sO2s-HHO2s_2388
-                L5: N3s-CsCsOs
-                L5: N3s-HN3sO2s-HHH_3243
-                    L6: N3s-HN3sO2s_2389
-                L5: N3s-HN1scO2s_3230
-                    L6: N3s-HN1scO2s-HN5dc_3229
-                        L7: N3s-HN1scO2s-HN5dc-HO2d_3228
-                L5: N3s-CdHO2s_3122
-                    L6: N3s-CdHO2s-HHN3d_3121
-                        L7: N3s-CdHO2s-HHN3d-H_3120
-                L5: N3s-O2s-O2s_2807
-                    L6: N3s-HO2sO2s-HO2s-H_2630
-                        L7: N3s-HO2sO2s-HO2s_2631
-                    L6: N3s-HN3sO2s-HHO2s_3036
-                        L7: N3s-HN3sO2s-HHO2s-H_3035
-                L5: N3s-N3sN3sO2s_2798
-                    L6: N3s-N3sN3sO2s-HHHHH_2797
-                L5: N3s-HN3dO2s_2764
-                    L6: N3s-HN3dO2s-CdH_2921
-                        L7: N3s-HN3dO2s-CdH-HH_2920
-                    L6: N3s-HN3dO2s-HO2d_2766
-                    L6: N3s-HN3dO2s-HN3d_2763
-                        L7: N3s-HN3dO2s-HN3d-H_2762
-                L5: N3s-O2sO2sO2s_2715
-                    L6: N3s-O2sO2sO2s-HHH_2714
-                L5: N3s-HO2sO2s_2632
-                    L6: N3s-HO2sO2s-HH_3045
-                L5: N3s-CtHO2s_2604
-                    L6: N3s-CtHO2s-HN3t_3067
-                    L6: N3s-CtHO2s-HN5tc_3053
-                        L7: N3s-CtHO2s-HN5tc-O0sc_3052
-                    L6: N3s-CtHO2s-CtH_2603
-                        L7: N3s-CtHO2s-CtH-H_2602
-                L5: N3s-CsHO2s-HHH_2480
-                    L6: N3s-CsHOs
-                L5: N3s-O2s-N3s_2476
-                    L6: N3s-HN3sO2s-HHN3s_3162
-                        L7: N3s-HN3sO2s-HHN3s-HH_3161
-            L4: N3s-Ct_2457
-                L5: N3s-(CtN3t)CsCs
-                L5: N3s-CtHN3s_2814
-                    L6: N3s-CtHN3s-HHN5tc_3033
-                        L7: N3s-CtHN3s-HHN5tc-O0sc_3032
-                    L6: N3s-CtHN3s-HHN3t_2873
-                    L6: N3s-CtHN3s-CtHH_2813
-                        L7: N3s-CtHN3s-CtHH-H_2812
-                L5: N3s-CsCtH_2678
-                    L6: N3s-CsCtH-HHH_2677
-                        L7: N3s-(CtN3t)CsH
-                L5: N3s-CtHH_2484
-                    L6: N3s-CtHH-N5tc_2891
-                        L7: N3s-CtHH-N5tc-O0sc_2890
-                    L6: N3s-CtHH-Ct_2483
-                        L7: N3s-Ct-Ct-Cs_2455
-                        L7: N3s-CtHH-Ct-N3s_3293
-                            L8: N3s-Ct-Ct-N3s_3294
-                        L7: N3s-CtHH-Ct-O2s_3258
-                        L7: N3s-CtHH-Ct-H_2482
-                            L8: N3s-Ct-Ct_2456
-            L4: N3s-Cd_2374
-                L5: N3s-Cd-N3d_3151
-                    L6: N3s-Cd-HN3d_2973
-                        L7: N3s-CdHN3s-HHHN3d-H_3297
-                            L8: N3s-CdHN3s-HHHN3d_3298
-                        L7: N3s-Cd-N3d-Cs_3150
-                L5: N3s-Cd-HN5dc_3008
-                    L6: N3s-CdHN3s-HHHN5dc_2974
-                        L7: N3s-CdHN3s-HHHN5dc-HO0sc_2973
-                L5: N3s-Cd-CddH_2782
-                L5: N3s-CdCsH_2700
-                    L6: N3s-CdCsH-HHH_2699
-                        L7: N3s-(CdCd)CsH
-                L5: N3s-Cd-Cs_2692
-                    L6: N3s-Cd-Cs-HHH_2691
-                L5: N3s-Cd-Cd_2668
-                    L6: N3s-(CdCd)CsN3s
-                        L7: N3s-NCdCs
+                L5: N3s-(COHN3s)
+                L5: N3s-(COHO2s)
+            L4: N3s-(HN3dO2s)
+            L4: N3s-(O2sO2sO2s)
+            L4: N3s-(HO2sO2s)
+            L4: N3s-(CtHO2s)
+            L4: N3s-(N5dc)
+                L5: N3s-CsCs(N5dcOdOs)
+                L5: N3s-CsH(N5dcOdOs)
+                L5: N3s-(HHN5dc)
+            L4: N3s-(Cd)
+                L5: N3s-(CdCd)CsN3s
+                L5: N3s-(CdHN3s)
                     L6: N3s-(CdCd)HN3s
-                        L7: N3s-CdHN3s-CdHHH-HH_2315
-                            L8: N3s-CdHN3s-CdHHH_2316
-                                L9: N3s-CdHN3s_2317
-                    L6: N3s-(CdCd)CsCs
-                    L6: N3s-CdHH
-                        L7: N3s-Cd-CdH_2542
-                            L8: N3s-Cd-Cd-HN3s_2896
-                            L8: N3s-Cd-Cd-CsH_2667
-            L4: N3s-Cs_2334
-                L5: N3s-Cs-CtHH_2942
-                L5: N3s-Cs-Cd_2882
-                    L6: N3s-Cs-CdHH_2964
-                L5: N3s-CsHN3d_2872
-                    L6: N3s-CsHN3d-HHH_2871
-                        L7: N3s-CsH(N3dOd)
-                L5: N3s-Cs-O2s_2710
-                    L6: N3s-Cs(OH)HH
-                        L7: N3s-Cs-HHO2s_2591
-                L5: N3s-Cs-HHN3d_2562
-                L5: N3s-Cs-N3s_2554
-                    L6: N3s-Cs-HHN3s_3002
-                L5: N3s-Cs-HHH_2399
-                    L6: N3s-CsCs(N5dcOdOs)
-                    L6: N3s-CsCs(N3dOd)
+                L5: N3s-(CdCd)CsCs
+                L5: N3s-(CdCd)CsH
+                L5: N3s-CdHH
+                L5: N3s-(CdHO2s)
+            L4: N3s-(Cs)
+                L5: N3s-CsCsOs
+                L5: N3s-CsHOs
+                L5: N3s-CsCs(N3dOd)
+                L5: N3s-NCsCs
                     L6: N3s-CsCsN3s
-                        L7: N3s-NCsCs
-                            L8: N3s-NCC
-                    L6: N3s-CsH(N5dcOdOs)
-                    L6: N3s-CbCsCs
-                    L6: N3s-CsCsCs
-                        L7: N3s-CCC
-                    L6: N3s-CbCsH
-                    L6: N3s-CsCsH
-                    L6: N3s-CsHH-HHH_3094
-                        L7: N3s-CsHH
-                    L6: N3s-CsHN3s-HHH_2419
-                        L7: N3s-N3sCsH
-                L5: N3s-Cs-Cs_2333
-                    L6: N3s-Cs-Cs-CsHH_2960
-                    L6: N3s-Cs-CsHH_2376
-            L4: N3s-CHH
-                L5: N3s-CbHH
-            L4: N3s-CCH
-                L5: N3s-CbCbH
-            L4: N3s-N
-                L5: N3s-N3s-Cd_2977
-                    L6: N3s-N3s-CdH_3300
-                L5: N3s-N3s-CtH_2874
-                L5: N3s-HN3sN3s_2854
-                    L6: N3s-HN3sN3s-HHHH_3187
-                    L6: N3s-HN3sN3s-HHHO2s_2867
-                        L7: N3s-HN3sN3s-HHHO2s-H_2866
-                    L6: N3s-HN3sN3s-HHHN3s_2853
-                        L7: N3s-HN3sN3s-HHHN3s-HH_2852
-                L5: N3s-N3s-HN3d_2695
-                    L6: N3s-HHN3s-N3d_2361
-                L5: N3s-N3s-O2s_2673
-                    L6: N3s-N3s-HO2s_3038
-                        L7: N3s-N3s-O2s-Cs_2672
-                L5: N3s-N5dc_2525
-                    L6: N3s-HHN5dc_2757
-                        L7: N3s-HHN5dc-O0scO2d_2756
-                L5: N3s-N3s-N3s_2421
-                    L6: N3s-N3s-HN3s_2869
-                L5: N3s-N3s-Cs_2412
-                    L6: N3s-N3s-Cs-CsHH_3018
-                    L6: N3s-N3s-Cs-HHO2s_2983
-                    L6: N3s-N3s-CsH_2420
-                        L7: N3s-N3s-CsH-HHH_2654
-                            L8: N3s-N3s-Cs-HHH_2411
-                L5: N3s-N3d_2329
-                    L6: N3s-HN3dN3s_2680
-                        L7: N3s-HN3dN3s-CdHH_2992
-                            L8: N3s-HN3dN3s-CdHH-HH_2991
-                        L7: N3s-HN3dN3s-HHO2d_2694
-                        L7: N3s-HN3dN3s-HHN3d_2679
-                            L8: N3s-HN3dN3s-HHN3d-H_2678
-                    L6: N3s-HHN3d-Cdd_2508
-                        L7: N3s-HHN3d-Cdd-Cd_3137
-                        L7: N3s-HHN3d-Cdd-N5dc_2626
-                        L7: N3s-HHN3d-Cdd-O2d_2595
-                        L7: N3s-HHN3d-Cdd-N3d_2507
-                    L6: N3s-N3d-N3d_2453
-                        L7: N3s-HHN3d-N3d-H_2361
-                            L8: N3s-HHN3d-N3d_2362
-                        L7: N3s-N3d-N3d-Cs_3296
-                        L7: N3s-HHN3d-N3d-O2s_2493
-                        L7: N3s-N3d-N3d-N3s_2452
-                            L8: N3s-HHN3d-N3d-N3s_2451
-                    L6: N3s-N3d-N5dc_2359
-                        L7: N3s-HHN3d-N5dc_2656
-                            L8: N3s-HHN3d-N5dc-HO0sc_2655
-                                L9: N3s-N3d-N5dc-O0sc_2358
-                    L6: N3s-HHN3d-O2d_2345
-                    L6: N3s-N3d-Cd_2328
-                        L7: N3s-HHN3d-Cd_3270
-                            L8: N3s-N3d-Cd-CsH_2721
-                            L8: N3s-HHN3d-Cd-HH_3269
-                                L9: N3s-N3dHH
+                L5: N3s-CsH(N3dOd)
+                L5: N3s-N3sCsH
+                L5: N3s-(CtN3t)CsCs
+                L5: N3s-CbCsCs
+                L5: N3s-CsCsCs
+                L5: N3s-(CtN3t)CsH
+                L5: N3s-CbCsH
+                L5: N3s-CsCsH
+                L5: N3s-CsHH
+            L4: N3s-(N3s)
+                L5: N3s-N3sCbH
                 L5: N3s-N3sHH
-                    L6: N3s-HHN3s-HH_3211
-                L5: N3s-NCH
-                    L6: N3s-N3sCbH
+                L5: N3s-(CtHN3s)
+                L5: N3s-(N3sN3sO2s)
+                L5: N3s-(HN3sN3s)
+                L5: N3s-(HN3sO2s)
+                L5: N3s-(HN3dN3s)
+            L4: N3s-(CtHH)
+            L4: N3s-CbHH
+            L4: N3s-CbCbH
+            L4: N3s-N3dHH
+            L4: N3s-OsHH
         L3: N3d
-            L4: N3d-N1sc_2761
-                L5: N3d-N1sc-N5dc_2760
-                    L6: N3d-N1sc-N5dc-HO2d_2759
-            L4: N3d-Ct_2738
-                L5: N3d-CtN3d-CtH-H_2730
-                    L6: N3d-CtN3d-CtH_2731
-                        L7: N3d-CtN3d_2732
-                L5: N3d-CtO2d_2949
-                L5: N3d-CtN3d-HN3t_2944
-                L5: N3d-CdCt_2888
-                    L6: N3d-CdCt-HH_2887
-                L5: N3d-CtN3d-HN5tc_2799
-                    L6: N3d-CtN3d-HN5tc-O0sc_2798
-            L4: N3d-O2d_2718
-                L5: N3d-N3dO2d_2667
-                L5: N3d-OdC
-                L5: N3d-COO2d
-                L5: N3d-OdN3s
+            L4: N3d-(O2s)
+                L5: N3d-(CdO2s)
+                L5: N3d-(CddO2s)
+                L5: N3d-(N3dO2s)
                 L5: N3d-OdOs
-            L4: N3d-N3d_2558
-                L5: N3d-N3d-O2d_2662
-                L5: N3d-N3dN3d_2618
-                    L6: N3d-N3dN3d-HN3d_2617
-                        L7: N3d-N3dN3d-HN3d-H_2616
-                L5: N3d-N3d-Cd_2557
-                    L6: N3d-N3d-Cd-HH_2556
-            L4: N3d-N5dc_2526
-                L5: N3d-N5dc-Cs_3130
-                    L6: N3d-N5dc-Cs-HHH_3129
-            L4: N3d-Cd_2517
-                L5: N3d-Cd-N3d_3155
-                    L6: N3d-Cd-HN3d_3222
-                L5: N3d-Cd-Cd_2998
-                L5: N3d-Cd-N5dc_2601
-            L4: N3d-Cdd_2506
-                L5: N3d-Cdd-Cd_2935
-                    L6: N3d-Cdd-Cd-HN3s_3246
-                    L6: N3d-Cdd-Cd-HO2s_3241
-                    L6: N3d-Cdd-Cd-HH_2980
-                        L7: N3d-CddCs-HHH_2652
-                            L8: N3d-CddCs_2653
-                        L7: N3d-CddN3s
-                            L8: N3d-CddN3s-HH_2597
-                    L6: N3d-Cdd-Cd-CsH_2934
-                L5: N3d-Cdd-Cdd_2862
-                    L6: N3d-Cdd-Cdd-Cd_3278
-                L5: N3d-CddH_2805
-                    L6: N3d-Cdd-N3d_2521
-                    L6: N3d-Cdd-N5dc_2505
-                    L6: N3d-CddH-O2d_2804
-                L5: N3d-CddO2s_2519
-                    L6: N3d-CddO2s-HO2d_2592
-                    L6: N3d-CddO2s-HN3d_2518
-                        L7: N3d-CddO2s-HN3d-H_2517
-            L4: N3d-Cs_2409
-                L5: N3d-Cs-HHO2s_3286
-                L5: N3d-Cs-HHN3s_3097
-                L5: N3d-Cs-HHH_2625
-                    L6: N3d-CdCs-HHH_3178
-                        L7: N3d-CdCs
-                            L8: N3d-CsR
-                    L6: N3d-CsN3d-HHH_2915
-                        L7: N3d-N3dCs
-                L5: N3d-Cs-Cs_2408
-                    L6: N3d-Cs-CsHH_2423
-            L4: N3d-O2s_2395
-                L5: N3d-O2s-O2s_3267
-                L5: N3d-O2s-N3s_3078
-                    L6: N3d-O2s-N3s-HH_3124
-                L5: N3d-CdO2s_2796
-                    L6: N3d-CdO2s-HH_2795
-                        L7: N3d-O2s-Cs-HHH_2393
-                            L8: N3d-O2s-Cs_2394
-                        L7: N3d-CdOH
-                            L8: N3d-CdO
-                L5: N3d-N3dO2s_2431
-                    L6: N3d-N3dO2s-HH_2889
-                    L6: N3d-N3dO2s-HO2s_2430
-                        L7: N3d-N3dO2s-HO2s-H_2429
-            L4: N3d-N3s_2347
-                L5: N3d-N3s-O2s_2768
-                L5: N3d-N3s-N3s_2696
-                L5: N3d-N3s-HH_2346
-                    L6: N3d-CdN3s
-                    L6: N3d-N3dN3s-HH_2495
-                        L7: N3d-N3dN3s
-            L4: N3d-Cd_2338
-                L5: N3d-CbR
-                L5: N3d-CO-HO2d_3196
-                    L6: N3d-CO
-                        L7: N3d-COCd
-                L5: N3d-Cd-N3d_3223
-                    L6: N3d-Cd-HN3d_3154
-                L5: N3d-CdH_3093
-                    L6: N3d-Cd-CtH_3282
-                        L7: N3d-Cd-Ct_3088
-                    L6: N3d-Cd-Cs-CsHH_3065
-                    L6: N3d-Cd-HN3s_3022
-                        L7: N3d-Cd-N3s_2445
-                            L8: N3d-Cd-N3s-N3s_3300
-                    L6: N3d-Cd-HO2s_2547
-                        L7: N3d-Cd-O2s_2585
-                            L8: N3d-Cd-O2s-Cs_3057
-                    L6: N3d-Cd-Cs-HHH_2367
-                        L7: N3d-Cd-CsH-HHH_2785
-                            L8: N3d-Cd-CsH_2588
-                                L9: N3d-Cd-Cs_2368
-                    L6: N3d-Cd-Cd-CdH_2336
-                        L7: N3d-Cd-Cd_2337
-                    L6: N3d-CdH-HH_3092
-                        L7: N3d-CdH
-                            L8: N3d-Cd-HH_2342
-            L4: N3d-N3d_2325
-                L5: N3d-CON3d
+            L4: N3d-(N1sc)
+            L4: N3d-(O2d)
+                L5: N3d-(N3dO2d)
+                L5: N3d-OdC
+                L5: N3d-OdN3s
+            L4: N3d-(N5dc)
+            L4: N3d-(N3d)
+                L5: N3d-N3dCs
+                L5: N3d-N3dN3s
+                L5: N3d-(CtN3d)
                 L5: N3d-N3dH
-                    L6: N3d-N3d-O2s_2890
-                        L7: N3d-N3d-O2s-N3s_3125
-                        L7: N3d-N3d-O2s-O2s_3289
-                    L6: N3d-N3d-Cs-HHH_3256
-                        L7: N3d-N3d-Cs_2916
-                    L6: N3d-N3d-CO-HO2d_3200
-                        L7: N3d-N3d-CO_3201
-                    L6: N3d-N3d-Cs-HHN3s_3103
-                    L6: N3d-N3d-Cd_2999
-                    L6: N3d-N3d-Ct_2802
-                    L6: N3d-N3d-N3d_2620
-                    L6: N3d-N3d-N3s-HH_2363
-                        L7: N3d-N3d-N3s_2364
+                L5: N3d-(N3dN3d)
+            L4: N3d-(N3s)
+                L5: N3d-CdN3s
+            L4: N3d-(Cdd)
+            L4: N3d-(CO)
+            L4: N3d-(Ct)
+            L4: N3d-CdH
+            L4: N3d-CbR
+            L4: N3d-CsR
+                L5: N3d-CdCs
         L3: N5dc
-            L4: N5dc-N3s_2759
-                L5: N5dc-N3dN3sO0sc-HHH_2522
-                    L6: N5dc-N3dN3sO0sc_2523
+            L4: N5dc-(CddHH)
+            L4: N5dc-(N3s)
+                L5: N5dc-(N3dN3sO0sc)
                 L5: N5dc-OdOsN3s
-                L5: N5dc-N3s-Cs_3252
-                    L6: N5dc-N3s-Cs-HHH_3251
-                L5: N5dc-CdN3sO0sc_2931
-                    L6: N5dc-CdN3sO0sc-HHHH_2930
-            L4: N5dc-Cs_2756
-                L5: N5dc-Cs-HHH_2928
-                    L6: N5dc-OdOsCs
-            L4: N5dc-Cdd_2629
-                L5: N5dc-CddHO0sc-N5dc_2952
-                    L6: N5dc-CddHO0sc-N5dc-HO0sc_2951
-                L5: N5dc-CddHO0sc-O2d_2446
-                L5: N5dc-CddHH_3099
-                    L6: N5dc-Cdd-N5dc_2954
-                        L7: N5dc-Cdd-N5dc-HO0sc_2953
-                    L6: N5dc-Cdd-N3d-Cs_3047
-                    L6: N5dc-Cdd-Cd-CsH_2905
-                    L6: N5dc-Cdd-Cd-N3s_2782
-                    L6: N5dc-Cdd-Cd-HO2s_2728
-                    L6: N5dc-Cdd-N3d-N3s_2627
-                    L6: N5dc-CddHH-N1dc_3098
-                L5: N5dc-CddHO0sc-Cdd_2834
-                    L6: N5dc-CddHO0sc-Cdd-N3d_2858
-                    L6: N5dc-CddHO0sc-Cdd-O2d_2855
-                    L6: N5dc-CddHO0sc-Cdd-Cd_2833
-                L5: N5dc-Cdd-Cd_2729
-                    L6: N5dc-CddHO0sc-Cd_3143
-                        L7: N5dc-CddHO0sc-Cd-HH_3142
-                            L8: N5dc-CddHO0sc_2447
-                L5: N5dc-Cdd-N3d_2628
-                    L6: N5dc-CddHO0sc-N3d-H_2501
-                        L7: N5dc-CddHO0sc-N3d_2502
-                    L6: N5dc-CddHO0sc-N3d-O2s_2642
-            L4: N5dc-N3d_2471
-                L5: N5dc-HN3dO0sc_3157
-                    L6: N5dc-HN3dO0sc-H_3156
-                L5: N5dc-N3d-N3s_2658
-                    L6: N5dc-N3d-N3s-CsH_3273
-                    L6: N5dc-N3d-N3s-HH_2657
-                L5: N5dc-N3d-Cs_2470
-                    L6: N5dc-N3d-Cs-CsHH_3170
-                    L6: N5dc-N3d-Cs-HHH_3030
-            L4: N5dc-N1sc_2464
-                L5: N5dc-OdN1scH
-                    L6: N5dc-HN1scO2d-Ct-N3t_3069
-                    L6: N5dc-HN1scO2d-O2s-H_2984
-                        L7: N5dc-HN1scO2d-O2s_2985
-                    L6: N5dc-HN1scO2d-N3d-Cd_2916
-                        L7: N5dc-HN1scO2d-N3d_2759
-                    L6: N5dc-HN1scO2d-CO-HO2d_2684
-                        L7: N5dc-HN1scO2d-CO_2685
-                    L6: N5dc-HN1scO2d-Ct-Ct_2606
-                        L7: N5dc-HN1scO2d-Ct_2607
-                L5: N5dc-N1sc-N3s_3232
-                L5: N5dc-N1sc-Cs_3084
-                L5: N5dc-N1scO2dO2s_2573
-                    L6: N5dc-N1scO2dO2s-HH_2572
-                L5: N5dc-N1sc-Cd_2538
-                L5: N5dc-N1sc-O2s_2463
-                    L6: N5dc-N1sc-O2s-N3s_3173
-                    L6: N5dc-N1sc-O2s-Cs_2462
-            L4: N5dc-Cd_2418
-                L5: N5dc-Cd-CtH_3215
-                L5: N5dc-CdO0scO2s_2913
-                    L6: N5dc-CdO0scO2s-HHH_2912
-                L5: N5dc-Cd-Cs_2811
-                    L6: N5dc-Cd-Cs-HHO2s_2848
-                    L6: N5dc-Cd-Cs-HHH_2826
-                    L6: N5dc-Cd-Cs-CsHH_2810
-                L5: N5dc-Cd-O2s_2705
-                    L6: N5dc-Cd-HO2s_2970
-                        L7: N5dc-Cd-O2s-Cs_2704
-                L5: N5dc-Cd-N3s_2701
-                L5: N5dc-Cd-HN3d_2600
-                L5: N5dc-CdHO0sc_2488
-                    L6: N5dc-CdHO0sc-HH_2487
-            L4: N5dc-O0sc
-                L5: N5dc-HO0scO2d_3177
-                L5: N5dc-O0scO2dO2s_2773
-                    L6: N5dc-O0scO2dO2s-H_2772
-            L4: N5dc-OdOsCd
-            L4: N5dc-OdOsOs
+                L5: N5dc-(HN3sO2d)
+                L5: N5dc-(CdN3sO0sc)
+            L4: N5dc-(Cs)
+                L5: N5dc-OdOsCs
+            L4: N5dc-(O2d)
+                L5: N5dc-(HN1scO2d)
+                L5: N5dc-OdOsOs
+                L5: N5dc-OdOsCd
+                L5: N5dc-(HO0scO2d)
+                L5: N5dc-(O0scO2dO2s)
+                L5: N5dc-(N1scO2dO2s)
+            L4: N5dc-(Cd)
+                L5: N5dc-(CdO0scO2s)
+                L5: N5dc-(CdHO0sc)
+            L4: N5dc-(O0sc)
+                L5: N5dc-(HN3dO0sc)
+                L5: N5dc-(CddHO0sc)
         L3: N5ddc
-            L4: N5ddc-O2d_2842
+            L4: N5ddc-(O2d)
     L2: Cl1s
     L2: I1s
 """
