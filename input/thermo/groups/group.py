@@ -49186,6 +49186,27 @@ Dummy group for singly-bonded chlorine. Benson groups for chloroalkanes already 
 """,
 )
 
+
+entry(
+    index = 2082000,
+    label = "F",
+    group = 
+"""
+1 *  F u0
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.0,0.0,0.0,0.0,0.0,0.0,0.0],'cal/(mol*K)'),
+        H298 = (0.0,'kcal/mol'),
+        S298 = (0.0,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""Dummy Fluroine group""",
+    longDesc = 
+u"""
+Dummy group for singly-bonded chlorine. Benson groups for chloroalkanes already account for Cl in the Carbon-centered groups.
+""",
+)
+
 entry(
     index = 2083,
     label = "Cds-CdClC",
@@ -51718,6 +51739,7 @@ L1: R
             L4: N5dc-OdOsN3s
         L3: N5ddc
     L2: Cl1s
+    L2: F
     L2: I1s
 """
 )
