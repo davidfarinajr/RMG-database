@@ -13,7 +13,7 @@ Identifiers:
   inchi: InChI=1S/C3H5/c1-3-2/h3H2,1H3
   inchi_key: KURVGVOUITVZSK-UHFFFAOYSA-N
   label: '351'
-  smiles: '[C]CC'
+  smiles: '[CH2]CC'
 Properties:
   charge: 0
   molecular_weight:
@@ -67,9 +67,9 @@ calculated_data:
         value:
           class: np_array
           object:
-          - 12.000000000000005
-          - 12.000000000000005
-          - 12.000000000000005
+          - 12.00000000000001
+          - 12.00000000000001
+          - 12.00000000000001
           - 1.00782503224
           - 1.00782503224
           - 1.00782503224
@@ -89,9 +89,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 11.496721167371577
-            - 51.91312687787567
-            - 57.38527999908463
+            - 11.496718280277378
+            - 51.913113841281564
+            - 57.38526558830555
         quantum: false
         rotationalConstant:
           class: ArrayQuantity
@@ -99,9 +99,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 1.466298852336396
-            - 0.32472767616186254
-            - 0.293762251462699
+            - 1.4662992205582492
+            - 0.3247277577085585
+            - 0.29376232523325435
         symmetry: 3
       - class: HarmonicOscillator
         frequencies:
@@ -541,12 +541,12 @@ calculated_data:
         inertia:
           class: ScalarQuantity
           units: amu*angstrom^2
-          value: 2.3382891601727924
+          value: 2.338288572973975
         quantum: true
         rotationalConstant:
           class: ScalarQuantity
           units: cm^-1
-          value: 7.209385964951728
+          value: 7.209387775396753
         semiclassical: false
         symmetry: 3
       number:
@@ -711,9 +711,9 @@ calculated_data:
         value:
           class: np_array
           object:
-          - 12.000000000000005
-          - 12.000000000000005
-          - 12.000000000000005
+          - 12.00000000000001
+          - 12.00000000000001
+          - 12.00000000000001
           - 1.00782503224
           - 1.00782503224
           - 1.00782503224
@@ -733,9 +733,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 11.496721167371577
-            - 51.91312687787567
-            - 57.38527999908463
+            - 11.496718280277378
+            - 51.913113841281564
+            - 57.38526558830555
         quantum: false
         rotationalConstant:
           class: ArrayQuantity
@@ -743,9 +743,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 1.466298852336396
-            - 0.32472767616186254
-            - 0.293762251462699
+            - 1.4662992205582492
+            - 0.3247277577085585
+            - 0.29376232523325435
         symmetry: 3
       - class: HarmonicOscillator
         frequencies:
@@ -1185,12 +1185,12 @@ calculated_data:
         inertia:
           class: ScalarQuantity
           units: amu*angstrom^2
-          value: 2.3382891601727924
+          value: 2.338288572973975
         quantum: true
         rotationalConstant:
           class: ScalarQuantity
           units: cm^-1
-          value: 7.209385964951728
+          value: 7.209387775396753
         semiclassical: false
         symmetry: 3
       number:

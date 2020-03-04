@@ -17,190 +17,6 @@ Properties:
   multiplicity: 1
 RMG_version: 2.4.1
 calculated_data:
-  g4:
-    class: CalculatedDataEntry
-    conformer:
-      E0:
-        class: ScalarQuantity
-        units: kJ/mol
-        value: -299318.61916769476
-      class: Conformer
-      coordinates:
-        class: ArrayQuantity
-        units: angstroms
-        value:
-          class: np_array
-          object:
-          - - 0.0
-            - 1.289885
-            - -0.012785
-          - - 0.0
-            - -0.0
-            - 0.025569
-          - - -0.0
-            - -1.289885
-            - -0.012785
-      mass:
-        class: ArrayQuantity
-        units: amu
-        value:
-          class: np_array
-          object:
-          - 12.00000000000001
-          - 12.00000000000001
-          - 12.00000000000001
-      modes:
-      - class: IdealGasTranslation
-        mass:
-          class: ScalarQuantity
-          units: amu
-          value: 36.0
-        quantum: false
-      - class: NonlinearRotor
-        inertia:
-          class: ArrayQuantity
-          units: amu*angstrom^2
-          value:
-            class: np_array
-            object:
-            - 0.011768090812967796
-            - 39.93124184001095
-            - 39.94301371511721
-        quantum: false
-        rotationalConstant:
-          class: ArrayQuantity
-          units: cm^-1
-          value:
-            class: np_array
-            object:
-            - 1432.4863158578198
-            - 0.4221664109744069
-            - 0.42204199146266214
-        symmetry: 6
-      - class: HarmonicOscillator
-        frequencies:
-          class: ArrayQuantity
-          units: cm^-1
-          value:
-            class: np_array
-            object:
-            - 151.67836096999997
-            - 1248.83217442
-            - 2168.41047376
-        quantum: true
-      number:
-        class: ArrayQuantity
-        value:
-          class: np_array
-          object:
-          - 6.0
-          - 6.0
-          - 6.0
-      optical_isomers: 1
-      spin_multiplicity: 1
-    thermo:
-      Cp0:
-        class: ScalarQuantity
-        units: J/(mol*K)
-        value: 33.257888
-      CpInf:
-        class: ScalarQuantity
-        units: J/(mol*K)
-        value: 58.201304
-      E0:
-        class: ScalarQuantity
-        units: kJ/mol
-        value: -299318.6415452827
-      Tmax:
-        class: ScalarQuantity
-        units: K
-        value: 3000.0
-      Tmin:
-        class: ScalarQuantity
-        units: K
-        value: 10.0
-      class: NASA
-      polynomials:
-        polynomial1:
-          Tmax:
-            class: ScalarQuantity
-            units: K
-            value: 498.54457322897025
-          Tmin:
-            class: ScalarQuantity
-            units: K
-            value: 10.0
-          class: NASAPolynomial
-          coeffs:
-            class: np_array
-            object:
-            - 3.8808338132366056
-            - 0.011126542082404264
-            - -4.4058899835709435e-05
-            - 8.377944312625068e-08
-            - -5.543161775024909e-11
-            - -35999717.1035856
-            - 1.2148643257577705
-        polynomial2:
-          Tmax:
-            class: ScalarQuantity
-            units: K
-            value: 3000.0
-          Tmin:
-            class: ScalarQuantity
-            units: K
-            value: 498.54457322897025
-          class: NASAPolynomial
-          coeffs:
-            class: np_array
-            object:
-            - 3.930383658102322
-            - 0.003966546827328163
-            - -2.169662829868947e-06
-            - 5.561514848729378e-10
-            - -5.481662201769901e-14
-            - -35999638.00505152
-            - 1.8531490945443971
-    thermo_data:
-      Cpdata:
-        class: ArrayQuantity
-        units: cal/(mol*K)
-        value:
-          class: np_array
-          object:
-          - 10.06826979692213
-          - 10.38287897420011
-          - 10.805105991394058
-          - 11.212331027034594
-          - 11.878196149999901
-          - 12.377519416468875
-          - 13.111518234372046
-          - 13.427498526167874
-          - 13.557502354228125
-      H298:
-        class: ScalarQuantity
-        units: kcal/mol
-        value: -71536.08778927836
-      S298:
-        class: ScalarQuantity
-        units: cal/(mol*K)
-        value: 50.303138083724804
-      Tdata:
-        class: ArrayQuantity
-        units: K
-        value:
-          class: np_array
-          object:
-          - 300.0
-          - 400.0
-          - 500.0
-          - 600.0
-          - 800.0
-          - 1000.0
-          - 1500.0
-          - 2000.0
-          - 2400.0
-      class: ThermoData
   m062x-gd3_jun-cc-pvtz:
     class: CalculatedDataEntry
     conformer:
@@ -244,12 +60,12 @@ calculated_data:
         inertia:
           class: ScalarQuantity
           units: amu*angstrom^2
-          value: 39.68546963394084
+          value: 39.685459667995985
         quantum: false
         rotationalConstant:
           class: ScalarQuantity
           units: cm^-1
-          value: 0.42478088854292084
+          value: 0.4247809952153128
         symmetry: 6
       - class: HarmonicOscillator
         frequencies:
@@ -418,12 +234,12 @@ calculated_data:
         inertia:
           class: ScalarQuantity
           units: amu*angstrom^2
-          value: 39.70770165636873
+          value: 39.7076916848409
         quantum: false
         rotationalConstant:
           class: ScalarQuantity
           units: cm^-1
-          value: 0.4245430571437946
+          value: 0.42454316375646145
         symmetry: 6
       - class: HarmonicOscillator
         frequencies:
@@ -591,12 +407,12 @@ calculated_data:
         inertia:
           class: ScalarQuantity
           units: amu*angstrom^2
-          value: 39.786571628341406
+          value: 39.78656163700747
         quantum: false
         rotationalConstant:
           class: ScalarQuantity
           units: cm^-1
-          value: 0.4237014742265503
+          value: 0.42370158062787633
         symmetry: 6
       - class: HarmonicOscillator
         frequencies:

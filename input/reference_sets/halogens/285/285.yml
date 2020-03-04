@@ -8,7 +8,7 @@ Identifiers:
   inchi: InChI=1S/CO2/c1-3-2
   inchi_key: ZJFBWEQTQFKLRL-UHFFFAOYSA-N
   label: '285'
-  smiles: '[C]O[O]'
+  smiles: '[CH2]O[O]'
 Properties:
   charge: 0
   molecular_weight:
@@ -64,9 +64,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 7.833184561623505
-            - 92.18468757303278
-            - 100.01772878498899
+            - 7.833182594528595
+            - 92.18466442331271
+            - 100.01770366820999
         quantum: false
         rotationalConstant:
           class: ArrayQuantity
@@ -74,9 +74,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 2.1520786240551164
-            - 0.18286799572860882
-            - 0.16854640930297296
+            - 2.1520791644922705
+            - 0.18286804165102916
+            - 0.16854645162890886
         symmetry: 1
       - class: HarmonicOscillator
         frequencies:
@@ -249,9 +249,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 8.267001465522792
-            - 88.82622463764655
-            - 97.09333604870302
+            - 8.266999389486362
+            - 88.82620233131466
+            - 97.09331166630713
         quantum: false
         rotationalConstant:
           class: ArrayQuantity
@@ -259,9 +259,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 2.039146735808936
-            - 0.18978211808637255
-            - 0.17362292552078482
+            - 2.039147247886259
+            - 0.1897821657450904
+            - 0.17362296912155226
         symmetry: 1
       - class: HarmonicOscillator
         frequencies:

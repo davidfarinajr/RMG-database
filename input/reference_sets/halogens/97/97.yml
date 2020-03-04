@@ -165,7 +165,7 @@ calculated_data:
       E0:
         class: ScalarQuantity
         units: kJ/mol
-        value: -6756944.241074785
+        value: -6756947.958782585
       class: Conformer
       coordinates:
         class: ArrayQuantity
@@ -198,7 +198,6 @@ calculated_data:
           - 35.0
       optical_isomers: 1
       spin_multiplicity: 2
-    fod: 1.333329
     thermo:
       Cp0:
         class: ScalarQuantity
@@ -211,7 +210,7 @@ calculated_data:
       E0:
         class: ScalarQuantity
         units: kJ/mol
-        value: -6756944.244171925
+        value: -6756947.958782585
       Tmax:
         class: ScalarQuantity
         units: K
@@ -226,7 +225,7 @@ calculated_data:
           Tmax:
             class: ScalarQuantity
             units: K
-            value: 1363.4652887478705
+            value: 794.0052767277472
           Tmin:
             class: ScalarQuantity
             units: K
@@ -235,13 +234,13 @@ calculated_data:
           coeffs:
             class: np_array
             object:
-            - 2.5000000000000555
-            - -1.5265972914655244e-15
-            - 6.3225999208744214e-18
-            - -7.593551936347149e-21
-            - 2.6735871637221006e-24
-            - -812672680.140448
-            - 6.079641871515173
+            - 2.499999999999943
+            - 1.9905116267340987e-15
+            - -1.1908950787142343e-17
+            - 2.1080565543331694e-20
+            - -1.1101769869538897e-23
+            - -812673127.277416
+            - 6.0796418715153475
         polynomial2:
           Tmax:
             class: ScalarQuantity
@@ -250,18 +249,18 @@ calculated_data:
           Tmin:
             class: ScalarQuantity
             units: K
-            value: 1363.4652887478705
+            value: 794.0052767277472
           class: NASAPolynomial
           coeffs:
             class: np_array
             object:
-            - 2.5000000000444205
-            - -1.0179714088898542e-13
-            - 8.375796652371075e-17
-            - -2.938083003518031e-20
-            - 3.72101314634023e-24
-            - -812672680.1404481
-            - 6.0796418712771985
+            - 2.4999999999950866
+            - 1.5266723492529308e-14
+            - -1.5844528484947367e-17
+            - 6.6308859992095015e-21
+            - -9.621116744914839e-25
+            - -812673127.2774159
+            - 6.079641871539877
     thermo_data:
       Cpdata:
         class: ArrayQuantity
@@ -269,19 +268,19 @@ calculated_data:
         value:
           class: np_array
           object:
-          - 4.968016252390023
-          - 4.968016252390135
-          - 4.968016252390235
-          - 4.9680162523903
-          - 4.968016252390233
-          - 4.968016252389922
-          - 4.968016252389774
-          - 4.968016252390749
-          - 4.968016252389753
+          - 4.968016252389953
+          - 4.968016252389856
+          - 4.968016252389863
+          - 4.968016252389988
+          - 4.968016252390376
+          - 4.9680162523904094
+          - 4.9680162523897495
+          - 4.968016252389849
+          - 4.968016252390467
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: -1614946.9526556097
+        value: -1614947.8412090992
       S298:
         class: ScalarQuantity
         units: cal/(mol*K)
