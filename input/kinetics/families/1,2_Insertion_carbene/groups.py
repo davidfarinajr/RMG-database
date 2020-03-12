@@ -85,7 +85,7 @@ entry(
     group = 
 """
 1 *1 C2s u0 p1 {2,S} {3,S}
-2    F  u0 p3 {1,S}
+2    F1s u0 p3 {1,S}
 3    H  u0 p0 {1,S}
 """,
     kinetics = None,
@@ -97,8 +97,8 @@ entry(
     group = 
 """
 1 *1 C2s u0 p1 {2,S} {3,S}
-2    F  u0 p3 {1,S}
-3    F  u0 p3 {1,S}
+2    F1s u0 p3 {1,S}
+3    F1s u0 p3 {1,S}
 """,
     kinetics = None,
 )
@@ -109,7 +109,7 @@ entry(
     group = 
 """
 1 *1 C2s u0 p1 {2,S} {3,S}
-2    Cl  u0 p3 {1,S}
+2    Cl1s u0 p3 {1,S}
 3    H  u0 p0 {1,S}
 """,
     kinetics = None,
@@ -121,8 +121,8 @@ entry(
     group = 
 """
 1 *1 C2s u0 p1 {2,S} {3,S}
-2    Cl  u0 p3 {1,S}
-3    Cl  u0 p3 {1,S}
+2    Cl1s u0 p3 {1,S}
+3    Cl1s u0 p3 {1,S}
 """,
     kinetics = None,
 )
@@ -133,7 +133,7 @@ entry(
     group = 
 """
 1 *1 C2s u0 p1 {2,S} {3,S}
-2    Br  u0 p3 {1,S}
+2    Br1s  u0 p3 {1,S}
 3    H  u0 p0 {1,S}
 """,
     kinetics = None,
@@ -145,8 +145,8 @@ entry(
     group = 
 """
 1 *1 C2s u0 p1 {2,S} {3,S}
-2    Br  u0 p3 {1,S}
-3    Br  u0 p3 {1,S}
+2    Br1s  u0 p3 {1,S}
+3    Br1s  u0 p3 {1,S}
 """,
     kinetics = None,
 )
@@ -207,7 +207,7 @@ entry(
     label = "FH",
     group = 
 """
-1 *2 F u0 p3 {2,S}
+1 *2 F1s u0 p3 {2,S}
 2 *3 H u0 p0 {1,S}
 """,
     kinetics = None,
@@ -218,7 +218,7 @@ entry(
     label = "ClH",
     group = 
 """
-1 *2 Cl u0 p3 {2,S}
+1 *2 Cl1s u0 p3 {2,S}
 2 *3 H u0 p0 {1,S}
 """,
     kinetics = None,
@@ -229,7 +229,7 @@ entry(
     label = "BrH",
     group = 
 """
-1 *2 Br u0 p3 {2,S}
+1 *2 Br1s u0 p3 {2,S}
 2 *3 H u0 {1,S}
 """,
     kinetics = None,
@@ -240,8 +240,8 @@ entry(
     label = "FF",
     group = 
 """
-1 *2 F u0 p3 {2,S}
-2 *3 F u0 p3 {1,S}
+1 *2 F1s u0 p3 {2,S}
+2 *3 F1s u0 p3 {1,S}
 """,
     kinetics = None,
 )
@@ -251,8 +251,8 @@ entry(
     label = "ClCl",
     group = 
 """
-1 *2 Cl u0 p3 {2,S}
-2 *3 Cl u0 p3 {1,S}
+1 *2 Cl1s u0 p3 {2,S}
+2 *3 Cl1s u0 p3 {1,S}
 """,
     kinetics = None,
 )
@@ -262,8 +262,8 @@ entry(
     label = "BrBr",
     group = 
 """
-1 *2 Br u0 p3 {2,S}
-2 *3 Br u0 p3 {1,S}
+1 *2 Br1s u0 p3 {2,S}
+2 *3 Br1s u0 p3 {1,S}
 """,
     kinetics = None,
 )
@@ -313,7 +313,7 @@ entry(
 1 *2 Ct u0 {2,S} {3,T}
 2 *3 H  u0 {1,S}
 3    Ct u0 {1,T} {4,S}
-4    F  u0 {3,S}
+4    F1s u0 {3,S}
 """,
     kinetics = None,
 )
@@ -326,7 +326,7 @@ entry(
 1 *2 Ct u0 {2,S} {3,T}
 2 *3 H  u0 {1,S}
 3    Ct u0 {1,T} {4,S}
-4    Cl  u0 {3,S}
+4    Cl1s  u0 {3,S}
 """,
     kinetics = None,
 )
@@ -339,7 +339,7 @@ entry(
 1 *2 Ct u0 {2,S} {3,T}
 2 *3 H  u0 {1,S}
 3    Ct u0 {1,T} {4,S}
-4    Br  u0 {3,S}
+4    Br1s  u0 {3,S}
 """,
     kinetics = None,
 )
@@ -439,7 +439,7 @@ entry(
 1 *2 Cd u0 {2,D} {3,S} {4,S}
 2    C  u0 {1,D}
 3 *3 H  u0 {1,S}
-4    F  u0 {1,S}
+4    F1s u0 {1,S}
 """,
     kinetics = None,
 )
@@ -452,7 +452,7 @@ entry(
 1 *2 Cd u0 {2,D} {3,S} {4,S}
 2    C  u0 {1,D}
 3 *3 H  u0 {1,S}
-4    Cl  u0 {1,S}
+4    Cl1s u0 {1,S}
 """,
     kinetics = None,
 )
@@ -465,7 +465,7 @@ entry(
 1 *2 Cd u0 {2,D} {3,S} {4,S}
 2    C  u0 {1,D}
 3 *3 H  u0 {1,S}
-4    Br  u0 {1,S}
+4    Br1s  u0 {1,S}
 """,
     kinetics = None,
 )
@@ -612,9 +612,9 @@ entry(
 """
 1 *2 Cs u0 {2,S} {3,S} {4,S} {5,S}
 2 *3 H  u0 {1,S}
-3    F  u0 {1,S}
-4    F  u0 {1,S}
-5    F  u0 {1,S}
+3    F1s u0 {1,S}
+4    F1s u0 {1,S}
+5    F1s u0 {1,S}
 """,
     kinetics = None,
 )
@@ -626,9 +626,9 @@ entry(
 """
 1 *2 Cs u0 {2,S} {3,S} {4,S} {5,S}
 2 *3 H  u0 {1,S}
-3    Cl  u0 {1,S}
-4    Cl  u0 {1,S}
-5    Cl  u0 {1,S}
+3    Cl1s  u0 {1,S}
+4    Cl1s  u0 {1,S}
+5    Cl1s  u0 {1,S}
 """,
     kinetics = None,
 )
@@ -640,9 +640,9 @@ entry(
 """
 1 *2 Cs u0 {2,S} {3,S} {4,S} {5,S}
 2 *3 H  u0 {1,S}
-3    Br  u0 {1,S}
-4    Br  u0 {1,S}
-5    Br  u0 {1,S}
+3    Br1s  u0 {1,S}
+4    Br1s  u0 {1,S}
+5    Br1s  u0 {1,S}
 """,
     kinetics = None,
 )
@@ -682,8 +682,8 @@ entry(
 """
 1 *2 Cs  u0 {2,S} {3,S} {4,S} {5,S}
 2 *3 H   u0 {1,S}
-3    F   u0 {1,S}
-4    F    u0 {1,S}
+3    F1s    u0 {1,S}
+4    F1s    u0 {1,S}
 5    R!H u0 {1,S}
 """,
     kinetics = None,
@@ -696,8 +696,8 @@ entry(
 """
 1 *2 Cs  u0 {2,S} {3,S} {4,S} {5,S}
 2 *3 H   u0 {1,S}
-3    Cl   u0 {1,S}
-4    Cl   u0 {1,S}
+3    Cl1s   u0 {1,S}
+4    Cl1s   u0 {1,S}
 5    R!H u0 {1,S}
 """,
     kinetics = None,
@@ -710,8 +710,8 @@ entry(
 """
 1 *2 Cs  u0 {2,S} {3,S} {4,S} {5,S}
 2 *3 H   u0 {1,S}
-3    Br  u0 {1,S}
-4    Br    u0 {1,S}
+3    Br1s  u0 {1,S}
+4    Br1s  u0 {1,S}
 5    R!H u0 {1,S}
 """,
     kinetics = None,
@@ -836,7 +836,7 @@ entry(
 """
 1 *2 Cs  u0 {2,S} {3,S} {4,S} {5,S}
 2 *3 H   u0 {1,S}
-3    F   u0 {1,S}
+3    F1s u0 {1,S}
 4    R!H u0 {1,S}
 5    R!H u0 {1,S}
 """,
@@ -850,7 +850,7 @@ entry(
 """
 1 *2 Cs  u0 {2,S} {3,S} {4,S} {5,S}
 2 *3 H   u0 {1,S}
-3    Cl   u0 {1,S}
+3    Cl1s   u0 {1,S}
 4    R!H u0 {1,S}
 5    R!H u0 {1,S}
 """,
@@ -864,7 +864,7 @@ entry(
 """
 1 *2 Cs  u0 {2,S} {3,S} {4,S} {5,S}
 2 *3 H   u0 {1,S}
-3    Br   u0 {1,S}
+3    Br1s   u0 {1,S}
 4    R!H u0 {1,S}
 5    R!H u0 {1,S}
 """,
@@ -1284,9 +1284,9 @@ entry(
 """
 1 *2 Cs u0 c0 {2,S} {3,S} {4,S} {5,S}
 2 *3 Cs u0 c0 {1,S}
-3    F  u0 {1,S}
-4    F  u0 {1,S}
-5    F  u0 {1,S}
+3    F1s u0 {1,S}
+4    F1s u0 {1,S}
+5    F1s u0 {1,S}
 """,
     kinetics = None,
 )
@@ -1298,9 +1298,9 @@ entry(
 """
 1 *2 Cs u0 c0 {2,S} {3,S} {4,S} {5,S}
 2 *3 Cs u0 c0 {1,S}
-3    Cl  u0 {1,S}
-4    Cl  u0 {1,S}
-5    Cl  u0 {1,S}
+3    Cl1s  u0 {1,S}
+4    Cl1s  u0 {1,S}
+5    Cl1s  u0 {1,S}
 """,
     kinetics = None,
 )
@@ -1312,9 +1312,9 @@ entry(
 """
 1 *2 Cs u0 c0 {2,S} {3,S} {4,S} {5,S}
 2 *3 Cs u0 c0 {1,S}
-3    Br  u0 {1,S}
-4    Br  u0 {1,S}
-5    Br  u0 {1,S}
+3    Br1s  u0 {1,S}
+4    Br1s  u0 {1,S}
+5    Br1s  u0 {1,S}
 """,
     kinetics = None,
 )
@@ -1422,9 +1422,9 @@ entry(
 """
 1 *2 Cs u0 c0 {2,S} {3,S} {4,S} {5,S}
 2 *3 Cd u0 c0 {1,S}
-3    F  u0 {1,S}
-4    F  u0 {1,S}
-5    F  u0 {1,S}
+3    F1s u0 {1,S}
+4    F1s u0 {1,S}
+5    F1s u0 {1,S}
 """,
     kinetics = None,
 )
@@ -1436,9 +1436,9 @@ entry(
 """
 1 *2 Cs u0 c0 {2,S} {3,S} {4,S} {5,S}
 2 *3 Cd u0 c0 {1,S}
-3    Cl  u0 {1,S}
-4    Cl  u0 {1,S}
-5    Cl  u0 {1,S}
+3    Cl1s  u0 {1,S}
+4    Cl1s  u0 {1,S}
+5    Cl1s  u0 {1,S}
 """,
     kinetics = None,
 )
@@ -1450,9 +1450,9 @@ entry(
 """
 1 *2 Cs u0 c0 {2,S} {3,S} {4,S} {5,S}
 2 *3 Cd u0 c0 {1,S}
-3    Br  u0 {1,S}
-4    Br  u0 {1,S}
-5    Br  u0 {1,S}
+3    Br1s  u0 {1,S}
+4    Br1s  u0 {1,S}
+5    Br1s  u0 {1,S}
 """,
     kinetics = None,
 )
