@@ -737,7 +737,7 @@ entry(
     group =
 """
 1 *3 H u0 {2,S}
-2 *4 F u0 {1,S}
+2 *4 F1s u0 {1,S}
 """,
     kinetics = None,
 )

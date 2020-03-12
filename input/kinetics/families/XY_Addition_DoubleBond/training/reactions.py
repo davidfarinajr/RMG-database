@@ -2,8 +2,8 @@
 # encoding: utf-8
 
 name = "XY-Addition_DoubleBond/training"
-shortDesc = u"Kinetics used to train group additivity values"
-longDesc = u"""
+shortDesc = "Kinetics used to train group additivity values"
+longDesc = """
 Put kinetic parameters for reactions to use as a training set for fitting
 group additivity values in this file.
 """
@@ -13,7 +13,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(7.94e+13,'s^-1'), n=0, Ea=(61900,'cal/mol'), T0=(1,'K')),
     rank = 10,
-    shortDesc = u"""From NIST CH2F2 model""",
+    shortDesc = """From NIST CH2F2 model""",
 )
 
 entry(
@@ -22,7 +22,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1e+14,'s^-1'), n=0, Ea=(68700,'cal/mol'), T0=(1,'K')),
     rank = 10,
-    shortDesc = u"""From NIST CH2F2 model""",
+    shortDesc = """From NIST CH2F2 model""",
 )
 
 entry(
@@ -31,7 +31,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.5e+13,'s^-1'), n=0, Ea=(62900,'cal/mol'), T0=(1,'K')),
     rank = 10,
-    shortDesc = u"""From NIST CH2F2 model""",
+    shortDesc = """From NIST CH2F2 model""",
 )
 
 entry(
@@ -40,7 +40,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.26e+14,'s^-1'), n=0, Ea=(69100,'cal/mol'), T0=(1,'K')),
     rank = 10,
-    shortDesc = u"""From NIST CH2F2 model""",
+    shortDesc = """From NIST CH2F2 model""",
 )
 
 entry(
@@ -49,7 +49,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1e+13,'s^-1'), n=0, Ea=(65400,'cal/mol'), T0=(1,'K')),
     rank = 10,
-    shortDesc = u"""From NIST CH2F2 model""",
+    shortDesc = """From NIST CH2F2 model""",
 )
 
 entry(
@@ -58,7 +58,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(2e+11,'s^-1'), n=0, Ea=(62690,'cal/mol'), T0=(1,'K')),
     rank = 10,
-    shortDesc = u"""From NIST 2019 CH2F2 model""",
+    shortDesc = """From NIST 2019 CH2F2 model""",
 )
 
 entry(
@@ -67,7 +67,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(2e+13,'s^-1'), n=0, Ea=(69400,'cal/mol'), T0=(1,'K')),
     rank = 10,
-    shortDesc = u"""From NIST CH2F2 model""",
+    shortDesc = """From NIST CH2F2 model""",
 )
 
 entry(
@@ -76,6 +76,6 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(4e+13,'s^-1'), n=0, Ea=(71600,'cal/mol'), T0=(1,'K')),
     rank = 10,
-    shortDesc = u"""From NIST CH2F2 model""",
+    shortDesc = """From NIST CH2F2 model""",
 )
 
