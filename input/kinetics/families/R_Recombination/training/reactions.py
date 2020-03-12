@@ -2,8 +2,8 @@
 # encoding: utf-8
 
 name = "R_Recombination/training"
-shortDesc = u"Reaction kinetics used to generate rate rules"
-longDesc = u"""
+shortDesc = "Reaction kinetics used to generate rate rules"
+longDesc = """
 Put kinetic parameters for specific reactions in this file to use as a
 training set for generating rate rules to populate this kinetics family.
 """
@@ -13,9 +13,9 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.09e+14,'s^-1'), n=0.25, Ea=(33.3,'kcal/mol'), T0=(1,'K')),
     rank = 10,
-    shortDesc = u"""Method CBS-QB3 w/ 1-d Hindered rotor corrections""",
+    shortDesc = """Method CBS-QB3 w/ 1-d Hindered rotor corrections""",
     longDesc = 
-u"""
+"""
 High-Pressure Rate Rules for Alkyl + O2 Reactions. 1. The Dissociation, Concerted Elimination, and Isomerization Channels of the Alkyl Peroxy Radical
 Stephanie M. Villano, Lam K. Huynh, Hans-Heinrich Carstensen, and Anthony M. Dean
 The Journal of Physical Chemistry A 2011 115 (46), 13425-13442
@@ -31,9 +31,9 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(9.49e+21,'s^-1'), n=-2.41, Ea=(35.8,'kcal/mol'), T0=(1,'K')),
     rank = 10,
-    shortDesc = u"""Method CBS-QB3 w/ 1-d Hindered rotor corrections""",
+    shortDesc = """Method CBS-QB3 w/ 1-d Hindered rotor corrections""",
     longDesc = 
-u"""
+"""
 High-Pressure Rate Rules for Alkyl + O2 Reactions. 1. The Dissociation, Concerted Elimination, and Isomerization Channels of the Alkyl Peroxy Radical
 Stephanie M. Villano, Lam K. Huynh, Hans-Heinrich Carstensen, and Anthony M. Dean
 The Journal of Physical Chemistry A 2011 115 (46), 13425-13442
@@ -49,9 +49,9 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.52e+23,'s^-1'), n=-2.71, Ea=(36.4,'kcal/mol'), T0=(1,'K')),
     rank = 10,
-    shortDesc = u"""Method CBS-QB3 w/ 1-d Hindered rotor corrections""",
+    shortDesc = """Method CBS-QB3 w/ 1-d Hindered rotor corrections""",
     longDesc = 
-u"""
+"""
 High-Pressure Rate Rules for Alkyl + O2 Reactions. 1. The Dissociation, Concerted Elimination, and Isomerization Channels of the Alkyl Peroxy Radical
 Stephanie M. Villano, Lam K. Huynh, Hans-Heinrich Carstensen, and Anthony M. Dean
 The Journal of Physical Chemistry A 2011 115 (46), 13425-13442
@@ -67,9 +67,9 @@ entry(
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(8.36e+12,'cm^3/(mol*s)'), n=-0.085, Ea=(-567.2,'cal/mol'), T0=(1,'K')),
     rank = 10,
-    shortDesc = u"""CBS-QB3 w/ 1-d HR""",
+    shortDesc = """CBS-QB3 w/ 1-d HR""",
     longDesc = 
-u"""
+"""
 Reference: Low-Temperature Combustion Chemistry of n-Butanol: Principal Oxidation Pathways of Hydroxybutyl Radicals
 DOI: 10.1021/jp403792t
 """,
@@ -81,19 +81,19 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.63e+08,'m^3/(mol*s)','+|-',3.16e+07), n=-1.1, Ea=(0,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(600,'K'), Pmin=(101000,'Pa'), Pmax=(2.09e+07,'Pa')),
     reference = Article(
-        authors = ['Borrell, P.', 'Cobos, C.J.', 'Luther, K.'],
-        title = 'Falloff curve and specific rate constants for the reaction NO2 + NO2 N2O4',
-        journal = 'J. Phys. Chem.',
-        volume = '92',
-        pages = '4377-4384',
-        year = '1988',
-        url = 'http://kinetics.nist.gov/kinetics/Detail?id=1988BOR/COB4377-4384:1',
+        authors = [b'Borrell, P.', b'Cobos, C.J.', b'Luther, K.'],
+        title = b'Falloff curve and specific rate constants for the reaction NO2 + NO2 N2O4',
+        journal = b'J. Phys. Chem.',
+        volume = b'92',
+        pages = b'4377-4384',
+        year = b'1988',
+        url = b'http://kinetics.nist.gov/kinetics/Detail?id=1988BOR/COB4377-4384:1',
     ),
     referenceType = "experiment",
     rank = 10,
-    shortDesc = u"""High or low pressure extrapolation""",
+    shortDesc = """High or low pressure extrapolation""",
     longDesc = 
-u"""
+"""
 Bath gas: N2
 Excitation technique: Flash photolysis (laser or conventional)
 Analytical technique: Vis-UV absorption
@@ -106,19 +106,19 @@ entry(
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(117000,'m^3/(mol*s)','*|/',-1), n=0, Ea=(13.386,'kJ/mol','+|-',-0.001), T0=(1,'K'), Tmin=(473,'K'), Tmax=(703,'K'), Pmin=(1333,'Pa'), Pmax=(33600,'Pa')),
     reference = Article(
-        authors = ['Ashmore, P.G.', 'Burnett, M.G.'],
-        title = 'Concurrent molecular and free radical mechanisms in the thermal decomposition of nitrogen dioxide',
-        journal = 'J. Chem. Soc. Faraday Trans. 2',
-        volume = '58',
-        pages = '253',
-        year = '1962',
-        url = 'http://kinetics.nist.gov/kinetics/Detail?id=1962ASH/BUR253:5',
+        authors = [b'Ashmore, P.G.', b'Burnett, M.G.'],
+        title = b'Concurrent molecular and free radical mechanisms in the thermal decomposition of nitrogen dioxide',
+        journal = b'J. Chem. Soc. Faraday Trans. 2',
+        volume = b'58',
+        pages = b'253',
+        year = b'1962',
+        url = b'http://kinetics.nist.gov/kinetics/Detail?id=1962ASH/BUR253:5',
     ),
     referenceType = "experiment",
     rank = 10,
-    shortDesc = u"""Derived from fitting to a complex mechanism""",
+    shortDesc = """Derived from fitting to a complex mechanism""",
     longDesc = 
-u"""
+"""
 Uncertainty: 3.0
 Bath gas: NO2
 Excitation technique: Thermal
@@ -132,18 +132,18 @@ entry(
     degeneracy = 3.0,
     kinetics = Arrhenius(A=(366000,'m^3/(mol*s)','+|-',57700), n=0.2, Ea=(0,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(400,'K'), Pmin=(100000,'Pa'), Pmax=(9e+07,'Pa')),
     reference = Article(
-        authors = ['Hahn, J.', 'Luther, K.', 'Troe, J.'],
-        title = 'Experimental and Theoretical Study of the Temperature and Pressure Dependences of the Recombination Reactions O+NO2(+M) = NO3(+M) and NO2+NO3(+M)=N2O5(+M)',
-        journal = 'Phys. Chem. Chem. Phys.',
-        pages = '5098-5104',
-        year = '2000',
-        url = 'http://kinetics.nist.gov/kinetics/Detail?id=2000HAH/LUT5098-5104:4',
+        authors = [b'Hahn, J.', b'Luther, K.', b'Troe, J.'],
+        title = b'Experimental and Theoretical Study of the Temperature and Pressure Dependences of the Recombination Reactions O+NO2(+M) = NO3(+M) and NO2+NO3(+M)=N2O5(+M)',
+        journal = b'Phys. Chem. Chem. Phys.',
+        pages = b'5098-5104',
+        year = b'2000',
+        url = b'http://kinetics.nist.gov/kinetics/Detail?id=2000HAH/LUT5098-5104:4',
     ),
     referenceType = "experiment",
     rank = 10,
-    shortDesc = u"""Absolute value measured directly""",
+    shortDesc = """Absolute value measured directly""",
     longDesc = 
-u"""
+"""
 Pressure dependence: Rate constant is high pressure limit
 Experimental procedure: Static or low flow - Data taken vs time
 Excitation technique: Flash photolysis (laser or conventional)
@@ -160,9 +160,9 @@ entry(
     degeneracy = 5.0,
     kinetics = Arrhenius(A=(8.34e+15,'cm^3/(mol*s)'), n=-0.7, Ea=(-0.5,'kcal/mol'), T0=(1,'K')),
     rank = 5,
-    shortDesc = u"""Training reaction from kinetics library: vinylCPD_H""",
+    shortDesc = """Training reaction from kinetics library: vinylCPD_H""",
     longDesc = 
-u"""
+"""
 Taken from entry: ethyl + CPDyl <=> ethylCPD
 """,
 )
@@ -173,9 +173,9 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(5.88e+24,'s^-1'), n=-2.35, Ea=(62398,'cal/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(3000,'K')),
     rank = 4,
-    shortDesc = u"""Training reaction from kinetics library: primaryNitrogenLibrary""",
+    shortDesc = """Training reaction from kinetics library: primaryNitrogenLibrary""",
     longDesc = 
-u"""
+"""
 R.S. Zhu, P. Raghunath, M.C. Lin, J. Phys. Chem. A, 2013, 117, 7308-7313, doi: 10.1021/jp401148q
 p. 7311
 calculations done at the UCCSD(T)/CBS//UB3LYP/6-311+G(3df,2p) level of theory
@@ -199,9 +199,9 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(9.45e+14,'cm^3/(mol*s)'), n=-0.538, Ea=(135.1,'cal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(2000,'K')),
     rank = 4,
-    shortDesc = u"""CASPT2/cc-pvdz""",
+    shortDesc = """CASPT2/cc-pvdz""",
     longDesc = 
-u"""
+"""
 S.J. Klippenstein, Y. Georgievskiia, L.B. Hardingb
 Predictive theory for the combination kinetics of two alkyl radicals
 Phys. Chem. Chem. Phys., 2006, 8, 1133-1147
@@ -215,9 +215,9 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.23e+15,'cm^3/(mol*s)'), n=-0.562, Ea=(20.5,'cal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(2000,'K')),
     rank = 4,
-    shortDesc = u"""CASPT2/cc-pvdz""",
+    shortDesc = """CASPT2/cc-pvdz""",
     longDesc = 
-u"""
+"""
 S.J. Klippenstein, Y. Georgievskiia, L.B. Hardingb
 Predictive theory for the combination kinetics of two alkyl radicals
 Phys. Chem. Chem. Phys., 2006, 8, 1133-1147
@@ -231,9 +231,9 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(8.73e+14,'cm^3/(mol*s)'), n=-0.699, Ea=(-3.2,'cal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(2000,'K')),
     rank = 4,
-    shortDesc = u"""CASPT2/cc-pvdz""",
+    shortDesc = """CASPT2/cc-pvdz""",
     longDesc = 
-u"""
+"""
 S.J. Klippenstein, Y. Georgievskiia, L.B. Hardingb
 Predictive theory for the combination kinetics of two alkyl radicals
 Phys. Chem. Chem. Phys., 2006, 8, 1133-1147
@@ -247,17 +247,17 @@ entry(
     degeneracy = 5.0,
     kinetics = Arrhenius(A=(1.623e+17,'cm^3/(mol*s)'), n=-1.07, Ea=(0.002,'kcal/mol'), T0=(1,'K')),
     reference = Article(
-        authors = ['Krasnoukhov, V. S.', 'Porfiriev, D. P.', 'Zavershinskiy, I. P.', 'Azyazov, V. N.', 'Mebel, A. M.'],
-        title = 'Kinetics of the CH3 + C5H5 Reaction: A Theoretical Study',
-        journal = 'The Journal of Physical Chemistry A',
-        volume = '121 (48)',
-        pages = '9191-9200',
-        year = '2017',
+        authors = [b'Krasnoukhov, V. S.', b'Porfiriev, D. P.', b'Zavershinskiy, I. P.', b'Azyazov, V. N.', b'Mebel, A. M.'],
+        title = b'Kinetics of the CH3 + C5H5 Reaction: A Theoretical Study',
+        journal = b'The Journal of Physical Chemistry A',
+        volume = b'121 (48)',
+        pages = b'9191-9200',
+        year = b'2017',
     ),
     referenceType = "theory",
     rank = 4,
     longDesc = 
-u"""
+"""
 CCSD(T)-F12/cc-pVTZ-f12//B2PLYPD3/aug-cc-pVDZ
 """,
 )
@@ -268,17 +268,17 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(3.62e+13,'cm^3/(mol*s)'), n=0.228, Ea=(-0.022,'kcal/mol'), T0=(1,'K')),
     reference = Article(
-        authors = ['Krasnoukhov, V. S.', 'Porfiriev, D. P.', 'Zavershinskiy, I. P.', 'Azyazov, V. N.', 'Mebel, A. M.'],
-        title = 'Kinetics of the CH3 + C5H5 Reaction: A Theoretical Study',
-        journal = 'The Journal of Physical Chemistry A',
-        volume = '121 (48)',
-        pages = '9191-9200',
-        year = '2017',
+        authors = [b'Krasnoukhov, V. S.', b'Porfiriev, D. P.', b'Zavershinskiy, I. P.', b'Azyazov, V. N.', b'Mebel, A. M.'],
+        title = b'Kinetics of the CH3 + C5H5 Reaction: A Theoretical Study',
+        journal = b'The Journal of Physical Chemistry A',
+        volume = b'121 (48)',
+        pages = b'9191-9200',
+        year = b'2017',
     ),
     referenceType = "theory",
     rank = 4,
     longDesc = 
-u"""
+"""
 CCSD(T)-F12/cc-pVTZ-f12//B2PLYPD3/aug-cc-pVDZ
 """,
 )
@@ -289,17 +289,17 @@ entry(
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(1.884e+13,'cm^3/(mol*s)'), n=0.408, Ea=(0.002,'kcal/mol'), T0=(1,'K')),
     reference = Article(
-        authors = ['Krasnoukhov, V. S.', 'Porfiriev, D. P.', 'Zavershinskiy, I. P.', 'Azyazov, V. N.', 'Mebel, A. M.'],
-        title = 'Kinetics of the CH3 + C5H5 Reaction: A Theoretical Study',
-        journal = 'The Journal of Physical Chemistry A',
-        volume = '121 (48)',
-        pages = '9191-9200',
-        year = '2017',
+        authors = [b'Krasnoukhov, V. S.', b'Porfiriev, D. P.', b'Zavershinskiy, I. P.', b'Azyazov, V. N.', b'Mebel, A. M.'],
+        title = b'Kinetics of the CH3 + C5H5 Reaction: A Theoretical Study',
+        journal = b'The Journal of Physical Chemistry A',
+        volume = b'121 (48)',
+        pages = b'9191-9200',
+        year = b'2017',
     ),
     referenceType = "theory",
     rank = 4,
     longDesc = 
-u"""
+"""
 CCSD(T)-F12/cc-pVTZ-f12//B2PLYPD3/aug-cc-pVDZ
 """,
 )
@@ -310,17 +310,17 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(3.156e+12,'cm^3/(mol*s)'), n=0.461, Ea=(-0.001,'kcal/mol'), T0=(1,'K')),
     reference = Article(
-        authors = ['Krasnoukhov, V. S.', 'Porfiriev, D. P.', 'Zavershinskiy, I. P.', 'Azyazov, V. N.', 'Mebel, A. M.'],
-        title = 'Kinetics of the CH3 + C5H5 Reaction: A Theoretical Study',
-        journal = 'The Journal of Physical Chemistry A',
-        volume = '121 (48)',
-        pages = '9191-9200',
-        year = '2017',
+        authors = [b'Krasnoukhov, V. S.', b'Porfiriev, D. P.', b'Zavershinskiy, I. P.', b'Azyazov, V. N.', b'Mebel, A. M.'],
+        title = b'Kinetics of the CH3 + C5H5 Reaction: A Theoretical Study',
+        journal = b'The Journal of Physical Chemistry A',
+        volume = b'121 (48)',
+        pages = b'9191-9200',
+        year = b'2017',
     ),
     referenceType = "theory",
     rank = 4,
     longDesc = 
-u"""
+"""
 CCSD(T)-F12/cc-pVTZ-f12//B2PLYPD3/aug-cc-pVDZ
 """,
 )
@@ -331,17 +331,17 @@ entry(
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(5.871e+13,'cm^3/(mol*s)'), n=0.158, Ea=(-0.004,'kcal/mol'), T0=(1,'K')),
     reference = Article(
-        authors = ['Krasnoukhov, V. S.', 'Porfiriev, D. P.', 'Zavershinskiy, I. P.', 'Azyazov, V. N.', 'Mebel, A. M.'],
-        title = 'Kinetics of the CH3 + C5H5 Reaction: A Theoretical Study',
-        journal = 'The Journal of Physical Chemistry A',
-        volume = '121 (48)',
-        pages = '9191-9200',
-        year = '2017',
+        authors = [b'Krasnoukhov, V. S.', b'Porfiriev, D. P.', b'Zavershinskiy, I. P.', b'Azyazov, V. N.', b'Mebel, A. M.'],
+        title = b'Kinetics of the CH3 + C5H5 Reaction: A Theoretical Study',
+        journal = b'The Journal of Physical Chemistry A',
+        volume = b'121 (48)',
+        pages = b'9191-9200',
+        year = b'2017',
     ),
     referenceType = "theory",
     rank = 4,
     longDesc = 
-u"""
+"""
 CCSD(T)-F12/cc-pVTZ-f12//B2PLYPD3/aug-cc-pVDZ
 """,
 )
@@ -352,17 +352,17 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(7.09e+12,'cm^3/(mol*s)'), n=0.412, Ea=(0.009,'kcal/mol'), T0=(1,'K')),
     reference = Article(
-        authors = ['Krasnoukhov, V. S.', 'Porfiriev, D. P.', 'Zavershinskiy, I. P.', 'Azyazov, V. N.', 'Mebel, A. M.'],
-        title = 'Kinetics of the CH3 + C5H5 Reaction: A Theoretical Study',
-        journal = 'The Journal of Physical Chemistry A',
-        volume = '121 (48)',
-        pages = '9191-9200',
-        year = '2017',
+        authors = [b'Krasnoukhov, V. S.', b'Porfiriev, D. P.', b'Zavershinskiy, I. P.', b'Azyazov, V. N.', b'Mebel, A. M.'],
+        title = b'Kinetics of the CH3 + C5H5 Reaction: A Theoretical Study',
+        journal = b'The Journal of Physical Chemistry A',
+        volume = b'121 (48)',
+        pages = b'9191-9200',
+        year = b'2017',
     ),
     referenceType = "theory",
     rank = 4,
     longDesc = 
-u"""
+"""
 CCSD(T)-F12/cc-pVTZ-f12//B2PLYPD3/aug-cc-pVDZ
 """,
 )
@@ -373,9 +373,9 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(3.48677e-12,'cm^3/(molecule*s)'), n=0.6, Ea=(-0.8,'kcal/mol'), T0=(1,'K')),
     rank = 5,
-    shortDesc = u"""Training reaction from kinetics library: 2009_Sharma_C5H5_CH3_highP""",
+    shortDesc = """Training reaction from kinetics library: 2009_Sharma_C5H5_CH3_highP""",
     longDesc = 
-u"""
+"""
 Taken from entry: R4 + H <=> C5H5CH3-5
 """,
 )
@@ -386,9 +386,9 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(7.9e+22,'s^-1'), n=-2.18, Ea=(41930,'cal/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
     rank = 4,
-    shortDesc = u"""Training reaction from kinetics library: primaryNitrogenLibrary""",
+    shortDesc = """Training reaction from kinetics library: primaryNitrogenLibrary""",
     longDesc = 
-u"""
+"""
 R.S. Zhu, P. Raghunath, M.C. Lin, J. Phys. Chem. A, 2013, 117, 7308-7313, doi: 10.1021/jp401148q
 p. 7311
 calculations done at the UCCSD(T)/CBS//UB3LYP/6-311+G(3df,2p) level of theory
@@ -403,9 +403,9 @@ entry(
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(1.01e+09,'cm^3/(mol*s)'), n=0, Ea=(-34691,'cal/mol'), T0=(1,'K'), Tmin=(2000,'K'), Tmax=(4000,'K')),
     rank = 4,
-    shortDesc = u"""Training reaction from kinetics library: primaryNitrogenLibrary""",
+    shortDesc = """Training reaction from kinetics library: primaryNitrogenLibrary""",
     longDesc = 
-u"""
+"""
 See Table 1 on p. 2397 in L.V Moskaleva, M.C. Lin, Proceedings of the Combustion Institute, 2000, 28(2), 2393-2401, doi: 10.1016/S0082-0784(00)80652-9
 Done at the G2M(RCC2)//B3LYP/6-311G(d,p) level of theory
 """,
@@ -417,9 +417,9 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(4.41e+18,'s^-1'), n=-1.07, Ea=(7750,'cal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(2000,'K')),
     rank = 4,
-    shortDesc = u"""Training reaction from kinetics library: primarySulfurLibrary""",
+    shortDesc = """Training reaction from kinetics library: primarySulfurLibrary""",
     longDesc = 
-u"""
+"""
 A. Goumri, J-D.R. Rocha, D. Laakso, C.E. Smith, P. Marshall, J. Phys. Chem. A, 1999, 103(51), 11328-11335 doi: 10.1021/jp9924070
 Table 7 on p. 11333
 calculations done at the QCISD(T)/6-311+G(3df,2p)//MP2=FULL/6-31G(d) level of theory
@@ -438,9 +438,9 @@ entry(
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(1.03e+14,'cm^3/(mol*s)'), n=-0.24, Ea=(-200,'cal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(2000,'K')),
     rank = 5,
-    shortDesc = u"""Training reaction from kinetics library: primaryNitrogenLibrary""",
+    shortDesc = """Training reaction from kinetics library: primaryNitrogenLibrary""",
     longDesc = 
-u"""
+"""
 R.S. Zhu, M.C. Lin, J. Chem. Phys., 2003, 119, 10667, doi: 10.1063/1.1619373
 
 Lindemann expression given, only k_inf taken here:
@@ -475,9 +475,9 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.57e+21,'s^-1'), n=-1.04, Ea=(66565,'cal/mol'), T0=(1,'K'), Tmin=(700,'K'), Tmax=(2000,'K')),
     rank = 4,
-    shortDesc = u"""Training reaction from kinetics library: primaryNitrogenLibrary""",
+    shortDesc = """Training reaction from kinetics library: primaryNitrogenLibrary""",
     longDesc = 
-u"""
+"""
 P. Raghunath, N.T. Nghia, M.C. Lin, Advances in Quantum Chemistry, 2014, 69, 253-301, doi: 10.1016/B978-0-12-800345-9.00007-6
 p. 264
 Calculations done at the RCCSD(T)/6-311+G(3df,2p)//B3LYP/6-311G(d,p) level of theoty
@@ -498,9 +498,9 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.8e+12,'cm^3/(mol*s)'), n=0.493, Ea=(-294,'cal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(2500,'K')),
     rank = 4,
-    shortDesc = u"""Training reaction from kinetics library: primaryNitrogenLibrary""",
+    shortDesc = """Training reaction from kinetics library: primaryNitrogenLibrary""",
     longDesc = 
-u"""
+"""
 S.J. Klippenstein, L.B. Harding, Proc. Comb. Inst., 2009, 32, 149-155, doi: 10.1016/j.proci.2008.06.135
 Table 2, p. 154
 The reported branching ratio is 80% HNCO 20% NCOH; the original rates were multiplied here by 80%.
@@ -517,9 +517,9 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(7e+11,'cm^3/(mol*s)'), n=0.493, Ea=(-294,'cal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(2500,'K')),
     rank = 4,
-    shortDesc = u"""Training reaction from kinetics library: primaryNitrogenLibrary""",
+    shortDesc = """Training reaction from kinetics library: primaryNitrogenLibrary""",
     longDesc = 
-u"""
+"""
 S.J. Klippenstein, L.B. Harding, Proc. Comb. Inst., 2009, 32, 149-155, doi: 10.1016/j.proci.2008.06.135
 Table 2, p. 154
 The reported branching ratio is 80% HNCO 20% NCOH; the original rates were multiplied here by 20%.
@@ -536,9 +536,9 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.5e+13,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(1900,'K')),
     rank = 9,
-    shortDesc = u"""QRRK""",
+    shortDesc = """QRRK""",
     longDesc = 
-u"""
+"""
 J.W. Bozzeli, A.M Dean, J. Phys. Chem., 1989, 93, 1058-1065, doi: 10.1021/j100340a009
 Table 1, k1
 P range: 0.001-10 atm
@@ -551,9 +551,9 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.6e+19,'cm^3/(mol*s)'), n=-3.683, Ea=(1630,'cal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(1900,'K')),
     rank = 9,
-    shortDesc = u"""QRRK""",
+    shortDesc = """QRRK""",
     longDesc = 
-u"""
+"""
 J.W. Bozzeli, A.M Dean, J. Phys. Chem., 1989, 93, 1058-1065, doi: 10.1021/j100340a009
 Table 1, k1
 P range: 0.001-10 atm
@@ -567,9 +567,9 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(5.02e+14,'cm^3/(mol*s)'), n=-0.429, Ea=(40,'cal/mol'), T0=(1,'K'), Tmin=(400,'K'), Tmax=(2500,'K')),
     rank = 4,
-    shortDesc = u"""QRRK""",
+    shortDesc = """QRRK""",
     longDesc = 
-u"""
+"""
 P. Zhang, S.J. Klippenstein, H. Sun, C.K. Law, Proc. Comb. Inst., 2011, 33(1), 425-432, doi: 10.1016/j.proci.2010.05.010
 (-R1)
 Calculated at the QCISD(T)/CBS//B3LYP/6-311++G(d,p) level
@@ -582,9 +582,9 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.4e+12,'cm^3/(mol*s)'), n=0.085, Ea=(803,'cal/mol'), T0=(1,'K'), Tmin=(400,'K'), Tmax=(2500,'K')),
     rank = 4,
-    shortDesc = u"""QRRK""",
+    shortDesc = """QRRK""",
     longDesc = 
-u"""
+"""
 P. Zhang, S.J. Klippenstein, H. Sun, C.K. Law, Proc. Comb. Inst., 2011, 33(1), 425-432, doi: 10.1016/j.proci.2010.05.010
 (-R2)
 Calculated at the QCISD(T)/CBS//B3LYP/6-311++G(d,p) level
@@ -597,9 +597,9 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.59e+18,'s^-1'), n=-0.957, Ea=(267,'kJ/mol'), T0=(1,'K')),
     rank = 4,
-    shortDesc = u"""Sendt2009b""",
+    shortDesc = """Sendt2009b""",
     longDesc = 
-u"""
+"""
 C.R. Zhou, K. Sendt, B.S. Haynes, J. Phys. Chem. A, 2009, 113, 8299-8306, doi: 10.1021/jp903185k
 Table 1, R2
 calculations done at the MRCI/aug-cc-pV(Q+d)Z//CASSCF/cc-pVTZ level of theory
@@ -612,9 +612,9 @@ entry(
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(4.7e+17,'s^-1'), n=-0.076, Ea=(310,'kJ/mol'), T0=(1,'K')),
     rank = 4,
-    shortDesc = u"""Sendt2009b""",
+    shortDesc = """Sendt2009b""",
     longDesc = 
-u"""
+"""
 C.R. Zhou, K. Sendt, B.S. Haynes, J. Phys. Chem. A, 2009, 113, 8299-8306, doi: 10.1021/jp903185k
 Table 1, R3
 calculations done at the MRCI/aug-cc-pV(Q+d)Z//CASSCF/cc-pVTZ level of theory
@@ -627,9 +627,9 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.89e+16,'s^-1'), n=-0.28, Ea=(68.378,'kcal/mol'), T0=(1,'K')),
     rank = 5,
-    shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring/2016_Mebel_C10H9_highP""",
+    shortDesc = """Training reaction from kinetics library: First_to_Second_Aromatic_Ring/2016_Mebel_C10H9_highP""",
     longDesc = 
-u"""
+"""
 Taken from entry: W111 <=> P114 + H
 """,
 )
@@ -640,9 +640,9 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(5.781e+17,'cm^3/(mol*s)'), n=-1.568, Ea=(0.4547,'kcal/mol'), T0=(1,'K')),
     rank = 5,
-    shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring/2012_Matsugi_C3H3_C7H7_highP""",
+    shortDesc = """Training reaction from kinetics library: First_to_Second_Aromatic_Ring/2012_Matsugi_C3H3_C7H7_highP""",
     longDesc = 
-u"""
+"""
 Taken from entry: C3H3 + C7H7 <=> W1
 """,
 )
@@ -653,9 +653,9 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(3.144e+19,'cm^3/(mol*s)'), n=-2.163, Ea=(1.195,'kcal/mol'), T0=(1,'K')),
     rank = 5,
-    shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring/2012_Matsugi_C3H3_C7H7_highP""",
+    shortDesc = """Training reaction from kinetics library: First_to_Second_Aromatic_Ring/2012_Matsugi_C3H3_C7H7_highP""",
     longDesc = 
-u"""
+"""
 Taken from entry: C3H3 + C7H7 <=> W2
 """,
 )
@@ -666,9 +666,9 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(9.431e+15,'s^-1'), n=-0.34, Ea=(77.615,'kcal/mol'), T0=(1,'K')),
     rank = 5,
-    shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring/2012_Matsugi_C3H3_C7H7_highP""",
+    shortDesc = """Training reaction from kinetics library: First_to_Second_Aromatic_Ring/2012_Matsugi_C3H3_C7H7_highP""",
     longDesc = 
-u"""
+"""
 Taken from entry: W10 <=> P5 + H
 """,
 )
@@ -679,9 +679,9 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(5.081e+15,'s^-1'), n=-0.263, Ea=(86.584,'kcal/mol'), T0=(1,'K')),
     rank = 5,
-    shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring/2012_Matsugi_C3H3_C7H7_highP""",
+    shortDesc = """Training reaction from kinetics library: First_to_Second_Aromatic_Ring/2012_Matsugi_C3H3_C7H7_highP""",
     longDesc = 
-u"""
+"""
 Taken from entry: W17 <=> P9 + H
 """,
 )
@@ -692,9 +692,9 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.899e+16,'s^-1'), n=-0.42, Ea=(88.738,'kcal/mol'), T0=(1,'K')),
     rank = 5,
-    shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring/2012_Matsugi_C3H3_C7H7_highP""",
+    shortDesc = """Training reaction from kinetics library: First_to_Second_Aromatic_Ring/2012_Matsugi_C3H3_C7H7_highP""",
     longDesc = 
-u"""
+"""
 Taken from entry: W17 <=> P10 + H
 """,
 )
@@ -705,9 +705,9 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1e+13,'cm^3/(mol*s)'), n=0, Ea=(0,'kcal/mol'), T0=(1,'K')),
     rank = 5,
-    shortDesc = u"""Training reaction from kinetics library: kislovB""",
+    shortDesc = """Training reaction from kinetics library: kislovB""",
     longDesc = 
-u"""
+"""
 Taken from entry: phenyl_16 + C3H3_9 <=> C9H8_20
 """,
 )
@@ -718,9 +718,9 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1e+13,'cm^3/(mol*s)'), n=0, Ea=(0,'kcal/mol'), T0=(1,'K')),
     rank = 5,
-    shortDesc = u"""Training reaction from kinetics library: kislovB""",
+    shortDesc = """Training reaction from kinetics library: kislovB""",
     longDesc = 
-u"""
+"""
 Taken from entry: phenyl_16 + C3H3_9 <=> C9H8_21
 """,
 )
@@ -731,9 +731,9 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1e+13,'cm^3/(mol*s)'), n=0, Ea=(0,'kcal/mol'), T0=(1,'K')),
     rank = 5,
-    shortDesc = u"""Training reaction from kinetics library: kislovB""",
+    shortDesc = """Training reaction from kinetics library: kislovB""",
     longDesc = 
-u"""
+"""
 Taken from entry: C9H7_19 + H_15 <=> indene_25
 """,
 )
@@ -744,17 +744,17 @@ entry(
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(47800,'cm^3/(mol*s)'), n=2.243, Ea=(-1.064,'kcal/mol'), T0=(1,'K')),
     reference = Article(
-        authors = ['Hahn, D. K.', 'Klippenstein, S. J.', 'Miller, J. A.'],
-        title = 'A theoretical analysis of the reaction between propargyl and molecular oxygen',
-        journal = 'Faraday Discussions',
-        volume = '119 (0)',
-        pages = '79-100',
-        year = '2002',
+        authors = [b'Hahn, D. K.', b'Klippenstein, S. J.', b'Miller, J. A.'],
+        title = b'A theoretical analysis of the reaction between propargyl and molecular oxygen',
+        journal = b'Faraday Discussions',
+        volume = b'119 (0)',
+        pages = b'79-100',
+        year = b'2002',
     ),
     referenceType = "theory",
     rank = 5,
     longDesc = 
-u"""
+"""
 approximate QCISD(T,Full)/6-311&&G(3df,2pd)//B3LYP
 """,
 )
@@ -765,17 +765,17 @@ entry(
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(8270,'cm^3/(mol*s)'), n=2.525, Ea=(1.989,'kcal/mol'), T0=(1,'K')),
     reference = Article(
-        authors = ['Hahn, D. K.', 'Klippenstein, S. J.', 'Miller, J. A.'],
-        title = 'A theoretical analysis of the reaction between propargyl and molecular oxygen',
-        journal = 'Faraday Discussions',
-        volume = '119 (0)',
-        pages = '79-100',
-        year = '2002',
+        authors = [b'Hahn, D. K.', b'Klippenstein, S. J.', b'Miller, J. A.'],
+        title = b'A theoretical analysis of the reaction between propargyl and molecular oxygen',
+        journal = b'Faraday Discussions',
+        volume = b'119 (0)',
+        pages = b'79-100',
+        year = b'2002',
     ),
     referenceType = "theory",
     rank = 5,
     longDesc = 
-u"""
+"""
 approximate QCISD(T,Full)/6-311&&G(3df,2pd)//B3LYP
 """,
 )
@@ -786,17 +786,17 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(6.398e+13,'cm^3/(mol*s)'), n=0.102, Ea=(-130.54,'J/mol'), T0=(1,'K')),
     reference = Article(
-        authors = ['Harding, L. B.', 'Klippenstein, S. J.', 'Georgievskii, Y.'],
-        title = 'On the Combination Reactions of Hydrogen Atoms with Resonance-Stabilized Hydrocarbon Radicals',
-        journal = 'The Journal of Physical Chemistry A',
-        volume = '111 (19)',
-        pages = '3789-3801',
-        year = '2007',
+        authors = [b'Harding, L. B.', b'Klippenstein, S. J.', b'Georgievskii, Y.'],
+        title = b'On the Combination Reactions of Hydrogen Atoms with Resonance-Stabilized Hydrocarbon Radicals',
+        journal = b'The Journal of Physical Chemistry A',
+        volume = b'111 (19)',
+        pages = b'3789-3801',
+        year = b'2007',
     ),
     referenceType = "theory",
     rank = 9,
     longDesc = 
-u"""
+"""
 CASPT2/cc-pvdz (VRC-TST)
 """,
 )
@@ -807,17 +807,17 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.048e+13,'cm^3/(mol*s)'), n=0.206, Ea=(-724.19,'J/mol'), T0=(1,'K')),
     reference = Article(
-        authors = ['Harding, L. B.', 'Klippenstein, S. J.', 'Georgievskii, Y.'],
-        title = 'On the Combination Reactions of Hydrogen Atoms with Resonance-Stabilized Hydrocarbon Radicals',
-        journal = 'The Journal of Physical Chemistry A',
-        volume = '111 (19)',
-        pages = '3789-3801',
-        year = '2007',
+        authors = [b'Harding, L. B.', b'Klippenstein, S. J.', b'Georgievskii, Y.'],
+        title = b'On the Combination Reactions of Hydrogen Atoms with Resonance-Stabilized Hydrocarbon Radicals',
+        journal = b'The Journal of Physical Chemistry A',
+        volume = b'111 (19)',
+        pages = b'3789-3801',
+        year = b'2007',
     ),
     referenceType = "theory",
     rank = 9,
     longDesc = 
-u"""
+"""
 CASPT2/cc-pvdz (VRC-TST)
 """,
 )
@@ -828,17 +828,17 @@ entry(
     degeneracy = 0.5,
     kinetics = Arrhenius(A=(4.288e+09,'cm^3/(mol*s)'), n=0.795, Ea=(-4303.6,'J/mol'), T0=(1,'K')),
     reference = Article(
-        authors = ['Georgievskii, Y.', 'Miller, J. A.', 'Klippenstein, S. J.'],
-        title = 'Association rate constants for reactions between resonance-stabilized radicals: C3H3 + C3H3, C3H3 + C3H5, and C3H5 + C3H5',
-        journal = 'Physical Chemistry Chemical Physics',
-        volume = '9 (31)',
-        pages = '4259-4268',
-        year = '2007',
+        authors = [b'Georgievskii, Y.', b'Miller, J. A.', b'Klippenstein, S. J.'],
+        title = b'Association rate constants for reactions between resonance-stabilized radicals: C3H3 + C3H3, C3H3 + C3H5, and C3H5 + C3H5',
+        journal = b'Physical Chemistry Chemical Physics',
+        volume = b'9 (31)',
+        pages = b'4259-4268',
+        year = b'2007',
     ),
     referenceType = "theory",
     rank = 9,
     longDesc = 
-u"""
+"""
 CASPT2/cc-pvdz (VRC-TST)
 """,
 )
@@ -849,17 +849,17 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.307e+12,'cm^3/(mol*s)'), n=0.192, Ea=(-2807,'J/mol'), T0=(1,'K')),
     reference = Article(
-        authors = ['Georgievskii, Y.', 'Miller, J. A.', 'Klippenstein, S. J.'],
-        title = 'Association rate constants for reactions between resonance-stabilized radicals: C3H3 + C3H3, C3H3 + C3H5, and C3H5 + C3H5',
-        journal = 'Physical Chemistry Chemical Physics',
-        volume = '9 (31)',
-        pages = '4259-4268',
-        year = '2007',
+        authors = [b'Georgievskii, Y.', b'Miller, J. A.', b'Klippenstein, S. J.'],
+        title = b'Association rate constants for reactions between resonance-stabilized radicals: C3H3 + C3H3, C3H3 + C3H5, and C3H5 + C3H5',
+        journal = b'Physical Chemistry Chemical Physics',
+        volume = b'9 (31)',
+        pages = b'4259-4268',
+        year = b'2007',
     ),
     referenceType = "theory",
     rank = 9,
     longDesc = 
-u"""
+"""
 CASPT2/cc-pvdz (VRC-TST)
 """,
 )
@@ -870,17 +870,17 @@ entry(
     degeneracy = 0.5,
     kinetics = Arrhenius(A=(2.945e+13,'cm^3/(mol*s)'), n=-0.278, Ea=(-1268.8,'J/mol'), T0=(1,'K')),
     reference = Article(
-        authors = ['Georgievskii, Y.', 'Miller, J. A.', 'Klippenstein, S. J.'],
-        title = 'Association rate constants for reactions between resonance-stabilized radicals: C3H3 + C3H3, C3H3 + C3H5, and C3H5 + C3H5',
-        journal = 'Physical Chemistry Chemical Physics',
-        volume = '9 (31)',
-        pages = '4259-4268',
-        year = '2007',
+        authors = [b'Georgievskii, Y.', b'Miller, J. A.', b'Klippenstein, S. J.'],
+        title = b'Association rate constants for reactions between resonance-stabilized radicals: C3H3 + C3H3, C3H3 + C3H5, and C3H5 + C3H5',
+        journal = b'Physical Chemistry Chemical Physics',
+        volume = b'9 (31)',
+        pages = b'4259-4268',
+        year = b'2007',
     ),
     referenceType = "theory",
     rank = 9,
     longDesc = 
-u"""
+"""
 CASPT2/cc-pvdz (VRC-TST)
 """,
 )
@@ -891,17 +891,17 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.705e+09,'cm^3/(mol*s)'), n=1.07, Ea=(-2.268,'kcal/mol'), T0=(1,'K')),
     reference = Article(
-        authors = ['Huang, C.', 'Yang, B.', 'Zhang, F.'],
-        title = 'Initiation mechanism of 1,3-butadiene combustion and its effect on soot precursors',
-        journal = 'Combustion and Flame',
-        volume = '184',
-        pages = '167-175',
-        year = '2017',
+        authors = [b'Huang, C.', b'Yang, B.', b'Zhang, F.'],
+        title = b'Initiation mechanism of 1,3-butadiene combustion and its effect on soot precursors',
+        journal = b'Combustion and Flame',
+        volume = b'184',
+        pages = b'167-175',
+        year = b'2017',
     ),
     referenceType = "theory",
     rank = 4,
     longDesc = 
-u"""
+"""
 CCSD(T)-F12/cc-pVTZ-F12//QCISD/6-311++G(2df,2p)
 """,
 )
@@ -912,17 +912,17 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(6.117e+14,'cm^3/(mol*s)'), n=-0.152, Ea=(1.003,'kcal/mol'), T0=(1,'K')),
     reference = Article(
-        authors = ['Huang, C.', 'Yang, B.', 'Zhang, F.'],
-        title = 'Initiation mechanism of 1,3-butadiene combustion and its effect on soot precursors',
-        journal = 'Combustion and Flame',
-        volume = '184',
-        pages = '167-175',
-        year = '2017',
+        authors = [b'Huang, C.', b'Yang, B.', b'Zhang, F.'],
+        title = b'Initiation mechanism of 1,3-butadiene combustion and its effect on soot precursors',
+        journal = b'Combustion and Flame',
+        volume = b'184',
+        pages = b'167-175',
+        year = b'2017',
     ),
     referenceType = "theory",
     rank = 4,
     longDesc = 
-u"""
+"""
 CCSD(T)-F12/cc-pVTZ-F12//QCISD/6-311++G(2df,2p)
 """,
 )
@@ -933,17 +933,17 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.25e+14,'cm^3/(mol*s)'), n=-0.119, Ea=(-1.012,'kcal/mol'), T0=(1,'K')),
     reference = Article(
-        authors = ['Huang, C.', 'Yang, B.', 'Zhang, F.'],
-        title = 'Initiation mechanism of 1,3-butadiene combustion and its effect on soot precursors',
-        journal = 'Combustion and Flame',
-        volume = '184',
-        pages = '167-175',
-        year = '2017',
+        authors = [b'Huang, C.', b'Yang, B.', b'Zhang, F.'],
+        title = b'Initiation mechanism of 1,3-butadiene combustion and its effect on soot precursors',
+        journal = b'Combustion and Flame',
+        volume = b'184',
+        pages = b'167-175',
+        year = b'2017',
     ),
     referenceType = "theory",
     rank = 4,
     longDesc = 
-u"""
+"""
 CCSD(T)-F12/cc-pVTZ-F12//QCISD/6-311++G(2df,2p)
 """,
 )
@@ -954,17 +954,17 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(3.87e-10,'cm^3/(molecule*s)'), n=-0.283, Ea=(-0.191,'kcal/mol'), T0=(1,'K')),
     reference = Article(
-        authors = ['Klippenstein, S. J.', 'Harding, L. B.', 'Georgievskii, Y.'],
-        title = 'On the formation and decomposition of C7H8',
-        journal = 'Proceedings of the Combustion Institute',
-        volume = '31 (1)',
-        pages = '221-229',
-        year = '2007',
+        authors = [b'Klippenstein, S. J.', b'Harding, L. B.', b'Georgievskii, Y.'],
+        title = b'On the formation and decomposition of C7H8',
+        journal = b'Proceedings of the Combustion Institute',
+        volume = b'31 (1)',
+        pages = b'221-229',
+        year = b'2007',
     ),
     referenceType = "theory",
     rank = 5,
     longDesc = 
-u"""
+"""
 CCSD(T)/aug-cc-pvdz//B3LYP/6-31G* (VRC-TST)
 """,
 )
@@ -975,17 +975,17 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.2e-10,'cm^3/(molecule*s)'), n=0.062, Ea=(-0.044,'kcal/mol'), T0=(1,'K')),
     reference = Article(
-        authors = ['Klippenstein, S. J.', 'Harding, L. B.', 'Georgievskii, Y.'],
-        title = 'On the formation and decomposition of C7H8',
-        journal = 'Proceedings of the Combustion Institute',
-        volume = '31 (1)',
-        pages = '221-229',
-        year = '2007',
+        authors = [b'Klippenstein, S. J.', b'Harding, L. B.', b'Georgievskii, Y.'],
+        title = b'On the formation and decomposition of C7H8',
+        journal = b'Proceedings of the Combustion Institute',
+        volume = b'31 (1)',
+        pages = b'221-229',
+        year = b'2007',
     ),
     referenceType = "theory",
     rank = 5,
     longDesc = 
-u"""
+"""
 CCSD(T)/aug-cc-pvdz//B3LYP/6-31G* (VRC-TST)
 """,
 )
@@ -996,17 +996,17 @@ entry(
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(8.28e-13,'cm^3/(molecule*s)'), n=0.611, Ea=(-0.436,'kcal/mol'), T0=(1,'K')),
     reference = Article(
-        authors = ['Klippenstein, S. J.', 'Harding, L. B.', 'Georgievskii, Y.'],
-        title = 'On the formation and decomposition of C7H8',
-        journal = 'Proceedings of the Combustion Institute',
-        volume = '31 (1)',
-        pages = '221-229',
-        year = '2007',
+        authors = [b'Klippenstein, S. J.', b'Harding, L. B.', b'Georgievskii, Y.'],
+        title = b'On the formation and decomposition of C7H8',
+        journal = b'Proceedings of the Combustion Institute',
+        volume = b'31 (1)',
+        pages = b'221-229',
+        year = b'2007',
     ),
     referenceType = "theory",
     rank = 5,
     longDesc = 
-u"""
+"""
 CCSD(T)/aug-cc-pvdz//B3LYP/6-31G* (VRC-TST)
 """,
 )
@@ -1017,17 +1017,17 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.07e-11,'cm^3/(molecule*s)'), n=0.245, Ea=(-0.333,'kcal/mol'), T0=(1,'K')),
     reference = Article(
-        authors = ['Klippenstein, S. J.', 'Harding, L. B.', 'Georgievskii, Y.'],
-        title = 'On the formation and decomposition of C7H8',
-        journal = 'Proceedings of the Combustion Institute',
-        volume = '31 (1)',
-        pages = '221-229',
-        year = '2007',
+        authors = [b'Klippenstein, S. J.', b'Harding, L. B.', b'Georgievskii, Y.'],
+        title = b'On the formation and decomposition of C7H8',
+        journal = b'Proceedings of the Combustion Institute',
+        volume = b'31 (1)',
+        pages = b'221-229',
+        year = b'2007',
     ),
     referenceType = "theory",
     rank = 5,
     longDesc = 
-u"""
+"""
 CCSD(T)/aug-cc-pvdz//B3LYP/6-31G* (VRC-TST)
 """,
 )
@@ -1038,9 +1038,9 @@ entry(
     degeneracy = 0.5,
     kinetics = Arrhenius(A=(5e+12,'cm^3/(mol*s)'), n=0, Ea=(0,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
-    shortDesc = u"""Default""",
+    shortDesc = """Default""",
     longDesc = 
-u"""
+"""
 Converted to training reaction from rate rule: Y_rad;Y_rad
 """,
 )
@@ -1051,9 +1051,9 @@ entry(
     degeneracy = 0.5,
     kinetics = Arrhenius(A=(5.45e+10,'cm^3/(mol*s)'), n=0, Ea=(6.276,'kJ/mol'), T0=(1,'K'), Tmin=(278,'K'), Tmax=(372,'K')),
     rank = 11,
-    shortDesc = u"""Dingle et al. [167]""",
+    shortDesc = """Dingle et al. [167]""",
     longDesc = 
-u"""
+"""
 [167] Dingle, J.R.; Le Roy, D.J.; J. Chem. Phys. 1950, 18, 1632.
 
 Absolute value measured directly. Excitation: thermal. H + H --> H2 Bath gas: C2H2
@@ -1072,9 +1072,9 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.93e+14,'cm^3/(mol*s)'), n=0, Ea=(1.12968,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K')),
     rank = 6,
-    shortDesc = u"""Takahashi et al. [168] Transition state theory.""",
+    shortDesc = """Takahashi et al. [168] Transition state theory.""",
     longDesc = 
-u"""
+"""
 [168] Takahashi, J.; Momose, T.; Shida, T. Bull. Chem. Soc. Jpn. 1994, 67, 74.
 
 H + CH3 --> CH4
@@ -1093,9 +1093,9 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1e+14,'cm^3/(mol*s)','+|-',1e+13), n=0, Ea=(0,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K')),
     rank = 11,
-    shortDesc = u"""Sillensen et al [169]""",
+    shortDesc = """Sillensen et al [169]""",
     longDesc = 
-u"""
+"""
 [169] Sillesen , A.; Ratajczak, E.; Pagsberg, P. Chem. Phys. Lett. 1993, 201, 171.
 Data derived from fitting to a complex mechanism. Excitation: radiolysis, analysis: IR absroption. Pressure 0.10 bar
 
@@ -1114,9 +1114,9 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(2e+13,'cm^3/(mol*s)','*|/',3.16), n=0, Ea=(0,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K')),
     rank = 10,
-    shortDesc = u"""Warnatz [134] literature review.""",
+    shortDesc = """Warnatz [134] literature review.""",
     longDesc = 
-u"""
+"""
 [134] Warnatz, J. Rate coefficeints in the C/H/O system. In Combustion Chemistry, 1984; pp 197.
 
 Converted to training reaction from rate rule: H_rad;C_rad/H/NonDeC
@@ -1129,9 +1129,9 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.21e+14,'cm^3/(mol*s)','+|-',4.82e+13), n=0, Ea=(0,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K')),
     rank = 6,
-    shortDesc = u"""Fahr et al. [171]""",
+    shortDesc = """Fahr et al. [171]""",
     longDesc = 
-u"""
+"""
 [171] Fahr, A.; Laufer, A.; Klein, R.; Braun, W. J. Phys. Chem. 1991, 95, 3218.
 Absolute value measured directly. Excitation: flash photolysis, analysis : Vis-UV absorption. Pressure 0.13 atm. Original uncertainty 4.8E+13
 
@@ -1150,9 +1150,9 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.81e+14,'cm^3/(mol*s)','*|/',3), n=0, Ea=(0,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2500,'K')),
     rank = 10,
-    shortDesc = u"""Tsang [89] literature review.""",
+    shortDesc = """Tsang [89] literature review.""",
     longDesc = 
-u"""
+"""
 [89] Tsang, W.; Hampson, R. F. J. Phys. Chem. Ref. Data 1986, 15, 1087.
 H + C2H --> C2H2
 
@@ -1180,9 +1180,9 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.2e+14,'cm^3/(mol*s)','+|-',8e+13), n=0, Ea=(0,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1200,'K')),
     rank = 6,
-    shortDesc = u"""Davis et al. [172] Ackermann et al. [173] Emdee et al. [172b]""",
+    shortDesc = """Davis et al. [172] Ackermann et al. [173] Emdee et al. [172b]""",
     longDesc = 
-u"""
+"""
 [172] Davis, S. G.; Wang, H.; Brezinsky K.; Law C. K. Symp. Int. Combust. Proc. 1996, 26, 1025.
 (1000-1200K, excitation : thermal, pressure 1.0 atm)
 
@@ -1206,9 +1206,9 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(4.68e+10,'cm^3/(mol*s)'), n=0, Ea=(-18.9535,'kJ/mol'), T0=(1,'K'), Tmin=(1500,'K'), Tmax=(1900,'K')),
     rank = 10,
-    shortDesc = u"""Tsuboi et al. [174]""",
+    shortDesc = """Tsuboi et al. [174]""",
     longDesc = 
-u"""
+"""
 [174] Tsuboi, T.; Katoh, M.; Kikuchi, S.; Hashimoto, K. Jpn J. Appl. Phys. 1981, 20, 985.
 Data is estimated. Pressure 7.0 atm. 
 
@@ -1227,9 +1227,9 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.62e+14,'cm^3/(mol*s)'), n=0, Ea=(0.6276,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2100,'K')),
     rank = 6,
-    shortDesc = u"""Cobos et al. [106]""",
+    shortDesc = """Cobos et al. [106]""",
     longDesc = 
-u"""
+"""
 [106] Cobos, C. J.; Troe, J. J. Chem. Phys. 1985, 83, 1010. 
 Transition State Theory
 
@@ -1245,9 +1245,9 @@ entry(
     degeneracy = 0.5,
     kinetics = Arrhenius(A=(4.13e+17,'cm^3/(mol*s)'), n=-1.4, Ea=(4.184,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K')),
     rank = 6,
-    shortDesc = u"""Pesa et al. [175]""",
+    shortDesc = """Pesa et al. [175]""",
     longDesc = 
-u"""
+"""
 [175] Pesa, M. ; Pilling, M. J.; Robertson, S. H.; Wardlaw. J. Phys. Chem. A 1998, 102, 8526.
 Canonical Flexible Transition State Theory 
 
@@ -1266,9 +1266,9 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(3.37e+13,'cm^3/(mol*s)','*|/',2), n=0, Ea=(0,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K')),
     rank = 10,
-    shortDesc = u"""Baulch et al. [94] literature review.""",
+    shortDesc = """Baulch et al. [94] literature review.""",
     longDesc = 
-u"""
+"""
 [94] Baulch, D. L.; Cobos, C. J.; Cox, R. A.; Frank, P.; Hayman, G.; Just, T.; Kerr, J. A.;
 Murrells, T.; Pilling, M. J.; Troe, J.; Walker, R. W.; Warnatz, J. J. Phys. Chem. Ref. Data 1994, 23, 847.
 
@@ -1299,9 +1299,9 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(6.64e+14,'cm^3/(mol*s)'), n=-0.57, Ea=(0,'kJ/mol'), T0=(1,'K'), Tmin=(713,'K'), Tmax=(1800,'K')),
     rank = 10,
-    shortDesc = u"""Tsang [176] RRK(M) extrapolation.""",
+    shortDesc = """Tsang [176] RRK(M) extrapolation.""",
     longDesc = 
-u"""
+"""
 [176] Tsang, W. Combust. Flame 1989, 78, 71. 
 RRK(M) extrapolation. 
 
@@ -1325,9 +1325,9 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(4.88e+15,'cm^3/(mol*s)','*|/',2), n=-1, Ea=(0,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2500,'K')),
     rank = 10,
-    shortDesc = u"""Tsang [92] literature review.""",
+    shortDesc = """Tsang [92] literature review.""",
     longDesc = 
-u"""
+"""
 [92] Tsang, W. J. Phys. Chem. Ref. Data 1990, 19, 1.
 
 CH3 + tert-C4H9 --> neo-C5H12
@@ -1368,9 +1368,9 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(7.23e+13,'cm^3/(mol*s)','+|-',1.81e+13), n=0, Ea=(0,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K')),
     rank = 6,
-    shortDesc = u"""Fahr et al. [171]""",
+    shortDesc = """Fahr et al. [171]""",
     longDesc = 
-u"""
+"""
 [171] Fahr, A.; Laufer, A.; Klein, R.; Braun, W. J. Phys. Chem. 1991, 95, 3218.
 Absolute value measured directly. Excitation: flash photolysis, analysis : Vis-UV absorption. Pressure 0.13 atm. Original Uncertainty 1.8E+13
 
@@ -1389,9 +1389,9 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.38e+13,'cm^3/(mol*s)','+|-',8e+11), n=0, Ea=(0.192464,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(980,'K')),
     rank = 6,
-    shortDesc = u"""Tokmakov et al. [177]""",
+    shortDesc = """Tokmakov et al. [177]""",
     longDesc = 
-u"""
+"""
 [177] Tokmakov, I. V.; Park, J.; Gheyas, S. I.; Lin, M. C. J. Phys. Chem. A. 1999, 103, 3636.
 Data Derived from detailed balance/reverse rate. Uncertainty 8.0E-2. 
 
@@ -1410,9 +1410,9 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.81e+13,'cm^3/(mol*s)','*|/',2), n=0, Ea=(0,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2500,'K')),
     rank = 10,
-    shortDesc = u"""Tsang [89] literature review.""",
+    shortDesc = """Tsang [89] literature review.""",
     longDesc = 
-u"""
+"""
 [89] Tsang, W.; Hampson, R. F. J. Phys. Chem. Ref. Data 1986, 15, 1087.
 CH3 + HCO --> CH3CHO 
 
@@ -1438,9 +1438,9 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(4.2e+13,'cm^3/(mol*s)','+|-',8.4e+12), n=0, Ea=(0,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K')),
     rank = 10,
-    shortDesc = u"""Hassinen et al [179]""",
+    shortDesc = """Hassinen et al [179]""",
     longDesc = 
-u"""
+"""
 [179] Hassinen, E.; Kalliorinne, K; Koskikallio, J. Int. J. Chem. Kinet. 1990, 22, 741
 Data derived from fitting to a complex mechanism. Excitation : direct photolysis, analysis : GC. Pressure 96? and 99 kPa with He, 5.5 kPa and 25 kPa with CO2. 
 
@@ -1459,9 +1459,9 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(6.03e+13,'cm^3/(mol*s)','*|/',2), n=0, Ea=(0,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K')),
     rank = 10,
-    shortDesc = u"""Baulch et al. [94] literature review.""",
+    shortDesc = """Baulch et al. [94] literature review.""",
     longDesc = 
-u"""
+"""
 [94] Baulch, D. L.; Cobos, C. J.; Cox, R. A.; Frank, P.; Hayman, G.; Just, T.; Kerr, J. A.;
 Murrells, T.; Pilling, M. J.; Troe, J.; Walker, R. W.; Warnatz, J. J. Phys. Chem. Ref. Data 1994, 23, 847.
 
@@ -1491,9 +1491,9 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.21e+13,'cm^3/(mol*s)','*|/',5), n=0, Ea=(0,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2500,'K')),
     rank = 10,
-    shortDesc = u"""Tsang [89] literature review.""",
+    shortDesc = """Tsang [89] literature review.""",
     longDesc = 
-u"""
+"""
 [89] Tsang, W.; Hampson, R. F. J. Phys. Chem. Ref. Data 1986, 15, 1087.
 CH3 + CH3O --> (CH3)2O
 
@@ -1518,9 +1518,9 @@ entry(
     degeneracy = 0.5,
     kinetics = Arrhenius(A=(5.75e+12,'cm^3/(mol*s)','*|/',2), n=0, Ea=(0,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1200,'K')),
     rank = 10,
-    shortDesc = u"""Baulch et al. [95] literature review.""",
+    shortDesc = """Baulch et al. [95] literature review.""",
     longDesc = 
-u"""
+"""
 [95] Baulch, D. L.; Cobos, C. J.; Cox, R. A.; Esser, C.; Frank, P.; Just, T.; Kerr, 
 J. A.; Pilling, M. J.; Troe, J.; Walker, R. W.; Warnatz, J. J. Phys. Chem. Ref. Data 1992, 21, 411.
 
@@ -1545,9 +1545,9 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.15e+14,'cm^3/(mol*s)','*|/',2), n=-0.35, Ea=(0,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2500,'K')),
     rank = 10,
-    shortDesc = u"""Tsang [91] literature review.""",
+    shortDesc = """Tsang [91] literature review.""",
     longDesc = 
-u"""
+"""
 [91] Tsang, W. J. Phys. Chem. Ref. Data 1988, 17, 887.
 C2H5 + iso-C3H7 --> iso-C5H12
 
@@ -1573,9 +1573,9 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(6.91e+14,'cm^3/(mol*s)','*|/',2), n=-0.75, Ea=(0,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2500,'K')),
     rank = 10,
-    shortDesc = u"""Tsang [92] literature review.""",
+    shortDesc = """Tsang [92] literature review.""",
     longDesc = 
-u"""
+"""
 [92] Tsang, W. J Phys. Chem. Ref. Data 1990, 19, 1.
 C2H5 + tert-C4H9 --> (CH3)3CCH2CH3
 
@@ -1613,9 +1613,9 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.81e+13,'cm^3/(mol*s)','*|/',3), n=0, Ea=(0,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2500,'K')),
     rank = 10,
-    shortDesc = u"""Tsang [89] literature review.""",
+    shortDesc = """Tsang [89] literature review.""",
     longDesc = 
-u"""
+"""
 [89] Tsang, W.; Hampson, R. F. J. Phys. Chem. Ref. Data 1986, 15, 1087.
 C2H5 + HCO --> C2H5CHO
 
@@ -1639,9 +1639,9 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(3.12e+14,'cm^3/(mol*s)','*|/',3), n=-0.5, Ea=(0,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2500,'K')),
     rank = 10,
-    shortDesc = u"""Tsang [89] literature review.""",
+    shortDesc = """Tsang [89] literature review.""",
     longDesc = 
-u"""
+"""
 [89] Tsang, W.; Hampson, R. F. J. Phys. Chem. Ref. Data 1986, 15, 1087.
 C2H5 + CH3CO --> C2H5COCH3
 
@@ -1665,9 +1665,9 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(7.7e+13,'cm^3/(mol*s)','+|-',1e+13), n=0, Ea=(0,'kJ/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(400,'K')),
     rank = 10,
-    shortDesc = u"""Fagerstrom et al. [180]""",
+    shortDesc = """Fagerstrom et al. [180]""",
     longDesc = 
-u"""
+"""
 [180] Fagerstrom, K.; Lund, A.; Mahmoud, G.; Jodkowski, J. T.; Ratajczak, E. Chem. Phys. Lett. 1993, 208, 321
 Excitation : radiolysis, analysis : VIS-UV absorption. Pressure 0.25-0.99 bar SF6. Original Uncertainty 1.0E+13. 
 
@@ -1685,9 +1685,9 @@ entry(
     degeneracy = 0.5,
     kinetics = Arrhenius(A=(1.625e+14,'cm^3/(mol*s)','*|/',2), n=-0.7, Ea=(0,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2500,'K')),
     rank = 10,
-    shortDesc = u"""Tsang [91] literature review.""",
+    shortDesc = """Tsang [91] literature review.""",
     longDesc = 
-u"""
+"""
 [91] Tsang, W. J. Phys. Chem. Ref. Data 1988, 17, 887.
 Iso-C3H7 + iso-C3H7 --> (CH3)2CHCH(CH3)2
 
@@ -1718,9 +1718,9 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(4.12e+15,'cm^3/(mol*s)','*|/',1.5), n=-1.1, Ea=(0,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2500,'K')),
     rank = 10,
-    shortDesc = u"""Tsang [92] literature review.""",
+    shortDesc = """Tsang [92] literature review.""",
     longDesc = 
-u"""
+"""
 [92] Tsang, W. J Phys. Chem. Ref. Data 1990, 19, 1.
 Iso-C3H7 + tert-C4H9 --> 2,2,3-trimethyl-butane
 
@@ -1756,9 +1756,9 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(6.64e+13,'cm^3/(mol*s)','*|/',2), n=-0.35, Ea=(0,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2500,'K')),
     rank = 10,
-    shortDesc = u"""Tsang [91] literature review.""",
+    shortDesc = """Tsang [91] literature review.""",
     longDesc = 
-u"""
+"""
 [91] Tsang, W. J. Phys. Chem. Ref. Data 1988, 17, 887.
 Iso-C3H7 + CH3CO --> iso-C3H7COCH3
 
@@ -1788,9 +1788,9 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(6.03e+12,'cm^3/(mol*s)','*|/',5), n=0, Ea=(0,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2500,'K')),
     rank = 10,
-    shortDesc = u"""Tsang [91] literature review.""",
+    shortDesc = """Tsang [91] literature review.""",
     longDesc = 
-u"""
+"""
 [91] Tsang, W. J. Phys. Chem. Ref. Data 1988, 17, 887.
 Iso-C3H7 + CH3O --> i-C3H7OCH3
 
@@ -1815,9 +1815,9 @@ entry(
     degeneracy = 0.5,
     kinetics = Arrhenius(A=(6.2e+15,'cm^3/(mol*s)','*|/',2), n=-1.5, Ea=(0,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2500,'K')),
     rank = 10,
-    shortDesc = u"""Tsang [92] literature review.""",
+    shortDesc = """Tsang [92] literature review.""",
     longDesc = 
-u"""
+"""
 [92] Tsang, W. J Phys. Chem. Ref. Data 1990, 19, 1.
 Tert-C4H9 + tert- C4H9 --> (CH3)3CC(CH3)3
 
@@ -1852,9 +1852,9 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.21e+13,'cm^3/(mol*s)','*|/',5), n=0, Ea=(0,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2500,'K')),
     rank = 10,
-    shortDesc = u"""Tsang [92] literature review.""",
+    shortDesc = """Tsang [92] literature review.""",
     longDesc = 
-u"""
+"""
 [92] Tsang, W. J Phys. Chem. Ref. Data 1990, 19, 1.
 Tert-C4H9 + HCO --> tert-C4H9CHO
 
@@ -1881,9 +1881,9 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(7.75e+14,'cm^3/(mol*s)','*|/',2), n=-0.75, Ea=(0,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2500,'K')),
     rank = 10,
-    shortDesc = u"""Tsang [92] literature review.""",
+    shortDesc = """Tsang [92] literature review.""",
     longDesc = 
-u"""
+"""
 [92] Tsang, W. J Phys. Chem. Ref. Data 1990, 19, 1.
 Tert-C4H9 + CH3CO --> tert-C4H9COCH3
 
@@ -1919,9 +1919,9 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(9.04e+12,'cm^3/(mol*s)','*|/',3), n=0, Ea=(0,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2500,'K')),
     rank = 10,
-    shortDesc = u"""Tsang [92] literature review.""",
+    shortDesc = """Tsang [92] literature review.""",
     longDesc = 
-u"""
+"""
 [92] Tsang, W. J Phys. Chem. Ref. Data 1990, 19, 1.
 Tert-C4H9 + CH3O --> tert-C4H9OCH3
 
@@ -1948,9 +1948,9 @@ entry(
     degeneracy = 0.5,
     kinetics = Arrhenius(A=(3.615e+13,'cm^3/(mol*s)','+|-',1.2e+13), n=0, Ea=(0,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K')),
     rank = 10,
-    shortDesc = u"""Fahr et al. [171]""",
+    shortDesc = """Fahr et al. [171]""",
     longDesc = 
-u"""
+"""
 [171] Fahr, A.; Laufer, A.; Klein, R.; Braun, W. J. Phys. Chem. 1991, 95, 3218.
 Absolute value measured directly. Excitation: flash photolysis, analysis : Vis-UV absorption. Original Uncertainty 1.2E+13. 
 
@@ -1968,9 +1968,9 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1e+14,'cm^3/(mol*s)'), n=0, Ea=(0,'kJ/mol'), T0=(1,'K'), Tmin=(700,'K'), Tmax=(1300,'K')),
     rank = 6,
-    shortDesc = u"""Duran et al. [165]""",
+    shortDesc = """Duran et al. [165]""",
     longDesc = 
-u"""
+"""
 [165] Duran, R. P.; Amorebieta, V. T.; Colussi, A. J. J. Phys. Chem. 1988, 92, 636.
 Ab initio. Pressure 0.10-1.0 atm. 
 
@@ -1989,9 +1989,9 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.81e+13,'cm^3/(mol*s)','*|/',3), n=0, Ea=(0,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2500,'K')),
     rank = 10,
-    shortDesc = u"""Tsang [89] literature review.""",
+    shortDesc = """Tsang [89] literature review.""",
     longDesc = 
-u"""
+"""
 [89] Tsang, W.; Hampson, R. F. J. Phys. Chem. Ref. Data 1986, 15, 1087.
 C2H3 + HCO --> CH2=CHCHO
 
@@ -2016,9 +2016,9 @@ entry(
     degeneracy = 0.5,
     kinetics = Arrhenius(A=(2.85e+12,'cm^3/(mol*s)'), n=0, Ea=(0,'kJ/mol'), T0=(1,'K'), Tmin=(1100,'K'), Tmax=(1400,'K')),
     rank = 6,
-    shortDesc = u"""Heckmann et al. [124]""",
+    shortDesc = """Heckmann et al. [124]""",
     longDesc = 
-u"""
+"""
 [124] Heckmann, E.; Hippler, H.; Troe, J. Symp. Int. Combust. Proc.1996, 26, 543.
 Absolute value measured directly. Excitation : thermal, analysis : Vis-UV absorption. 
 
@@ -2034,9 +2034,9 @@ entry(
     degeneracy = 0.5,
     kinetics = Arrhenius(A=(7.55e+12,'cm^3/(mol*s)','+|-',6.02e+12), n=0, Ea=(0,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K')),
     rank = 6,
-    shortDesc = u"""Stoeckel et al. [182]""",
+    shortDesc = """Stoeckel et al. [182]""",
     longDesc = 
-u"""
+"""
 [182] Stoeckel, F.; Schuh, M. D.; Goldstein, N.; Atkinson, G.H. Chem. Phys. 1985, 95, 135
 Absolute value measured directly. Excitation : flash photolysis, abalysis : VIS-UV absorption. Original uncertainty 1.2E+13. Pressure: 10 Torr (this is total pressure; see p. 141)
 
@@ -2055,9 +2055,9 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.81e+13,'cm^3/(mol*s)','*|/',3), n=0, Ea=(0,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2500,'K')),
     rank = 10,
-    shortDesc = u"""Tsang [89] literature review.""",
+    shortDesc = """Tsang [89] literature review.""",
     longDesc = 
-u"""
+"""
 [89] Tsang, W.; Hampson, R. F. J. Phys. Chem. Ref. Data 1986, 15, 1087.
 HCO + CH3CO --> CH3COCHO
 
@@ -2082,9 +2082,9 @@ entry(
     degeneracy = 0.5,
     kinetics = Arrhenius(A=(6.05e+12,'cm^3/(mol*s)','*|/',2), n=0, Ea=(0,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2500,'K')),
     rank = 10,
-    shortDesc = u"""Tsang [89] literature review.""",
+    shortDesc = """Tsang [89] literature review.""",
     longDesc = 
-u"""
+"""
 [89] Tsang, W.; Hampson, R. F. J. Phys. Chem. Ref. Data 1986, 15, 1087.
 CH3CO + CH3CO --> (CH3CO)2
 
@@ -2108,9 +2108,9 @@ entry(
     degeneracy = 0.5,
     kinetics = Arrhenius(A=(7.85e+12,'cm^3/(mol*s)','+|-',6.02e+12), n=(0,'','+|-',0.5), Ea=(0,'kJ/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(400,'K')),
     rank = 10,
-    shortDesc = u"""DeMore et al. [183] literature review.""",
+    shortDesc = """DeMore et al. [183] literature review.""",
     longDesc = 
-u"""
+"""
 [183] DeMore, W. B.; Sander, S. P.; Golden, D. M.; Hampson, R. F.; Kurylo, M.J.; 
 Howard, C. J.; Ravishankara, A. R.; Kolb, C. E.; Molina, M .J. JPL publication 97-4 1997, 1.
 
@@ -2145,9 +2145,9 @@ entry(
     degeneracy = 0.5,
     kinetics = Arrhenius(A=(9.05e+11,'cm^3/(mol*s)','*|/',5), n=0, Ea=(0,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2500,'K')),
     rank = 10,
-    shortDesc = u"""Tsang [89] literature review.""",
+    shortDesc = """Tsang [89] literature review.""",
     longDesc = 
-u"""
+"""
 [89] Tsang, W.; Hampson, R. F. J. Phys. Chem. Ref. Data 1986, 15, 1087.
 CH3O + CH3O --> CH3OOCH3
 
@@ -2173,9 +2173,9 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(5e+13,'cm^3/(mol*s)'), n=0, Ea=(0,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 11,
-    shortDesc = u"""Curran's [8] estimation.""",
+    shortDesc = """Curran's [8] estimation.""",
     longDesc = 
-u"""
+"""
 [8] Curran, H.J.; Gaffuri, P.; Pit z, W.J.; Westbrook, C.K. Combust. Flame 2002, 129, 253. 
 Curran's estimation, based on half that recommended by Allara and Shaw [146] for H (rad) and R (rad) recombination reactions
 
@@ -2189,9 +2189,9 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.63e+13,'cm^3/(mol*s)'), n=0, Ea=(2.49366,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 11,
-    shortDesc = u"""Curran's [8] estimation.""",
+    shortDesc = """Curran's [8] estimation.""",
     longDesc = 
-u"""
+"""
 [8] Curran, H.J.; Gaffuri, P.; Pit z, W.J.; Westbrook, C.K. Combust. Flame 2002, 129, 253.
 Curran's estimation, based on recommendations of Tsang [92] for CH3 + tC4H9
 
@@ -2205,9 +2205,9 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(6.8e+14,'cm^3/(mol*s)'), n=-0.68, Ea=(0,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 11,
-    shortDesc = u"""Curran's [8] estimation.""",
+    shortDesc = """Curran's [8] estimation.""",
     longDesc = 
-u"""
+"""
 [8] Curran, H.J.; Gaffuri, P.; Pit z, W.J.; Westbrook, C.K. Combust. Flame 2002, 129, 253.
 Curran's estimation based on half Tsang's [91] recommendation for CH3 + iC3H7
 
@@ -2221,9 +2221,9 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(4.79e+14,'cm^3/(mol*s)'), n=-0.75, Ea=(0,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 11,
-    shortDesc = u"""Curran's [8] estimation.""",
+    shortDesc = """Curran's [8] estimation.""",
     longDesc = 
-u"""
+"""
 [8] Curran, H.J.; Gaffuri, P.; Pit z, W.J.; Westbrook, C.K. Combust. Flame 2002, 129, 253.
 Curran's estimation for neoC5H11 + iC3H7, similar to tC4H9 + iC4H9
 
@@ -2237,9 +2237,9 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(3.59e+14,'cm^3/(mol*s)'), n=-0.75, Ea=(0,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 11,
-    shortDesc = u"""Curran's [8] estimation.""",
+    shortDesc = """Curran's [8] estimation.""",
     longDesc = 
-u"""
+"""
 [8] Curran, H.J.; Gaffuri, P.; Pit z, W.J.; Westbrook, C.K. Combust. Flame 2002, 129, 253.
 Curran's estimation based on Tsang's [92] reccomendation for tC4H9 Curran's estimation. About a factor of 2 slower than other 
 
@@ -2255,9 +2255,9 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(2e+13,'cm^3/(mol*s)'), n=0, Ea=(0,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 11,
-    shortDesc = u"""Curran's [159] estimation.""",
+    shortDesc = """Curran's [159] estimation.""",
     longDesc = 
-u"""
+"""
 [159] Curran, H.J.; Pitz, W.J.; Westbrook, C.K.; Dagaut, P.; Boettner, J.-C.; Cathonnet, M. Int. J. Chem. Kinet. 1998, 30, 229.
 Curran's estimation in DME modeling for ketohydroperoxide decomposition 
 
@@ -2276,9 +2276,9 @@ entry(
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(8.79e+10,'cm^3/(mol*s)'), n=1, Ea=(1.8828,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(6000,'K')),
     rank = 10,
-    shortDesc = u"""Duchovic et al. [142] RRK(M) extrapolation. Probably could do better.""",
+    shortDesc = """Duchovic et al. [142] RRK(M) extrapolation. Probably could do better.""",
     longDesc = 
-u"""
+"""
 [142] Duchovic,R.J; Pettigrew,J D; Welling B; Shipchandler,T. *J. Chem Phys.* **105**, 10367 (1996) http://dx.doi.org/10.1063/1.472992
 
 RRK(M) extrapolation. H + O2 --> OH + O
@@ -2327,9 +2327,9 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(3.94e+09,'cm^3/(mol*s)'), n=1.25, Ea=(-3.09616,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 2,
-    shortDesc = u"""A.G. Vandeputte""",
+    shortDesc = """A.G. Vandeputte""",
     longDesc = 
-u"""
+"""
 Converted to training reaction from rate rule: SsJ-S2s;C_methyl
 """,
 )
@@ -2340,9 +2340,9 @@ entry(
     degeneracy = 0.5,
     kinetics = Arrhenius(A=(5.3e+10,'cm^3/(mol*s)'), n=1.21, Ea=(-3.9748,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 2,
-    shortDesc = u"""A.G. Vandeputte""",
+    shortDesc = """A.G. Vandeputte""",
     longDesc = 
-u"""
+"""
 Converted to training reaction from rate rule: SsJ-Cs;SsJ-Cs
 """,
 )
@@ -2353,9 +2353,9 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(5e+11,'cm^3/(mol*s)'), n=0.65, Ea=(-1.54808,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 2,
-    shortDesc = u"""A.G. Vandeputte""",
+    shortDesc = """A.G. Vandeputte""",
     longDesc = 
-u"""
+"""
 Converted to training reaction from rate rule: C_rad/H2/S;H_rad
 """,
 )
@@ -2366,9 +2366,9 @@ entry(
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(4.52e+12,'cm^3/(mol*s)','+|-',4.2e+11), n=0, Ea=(0,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 11,
-    shortDesc = u"""Curran et al. [8] From Lenhardt et al. [143]. (Measured at 300K) (n-butyl not methyl)""",
+    shortDesc = """Curran et al. [8] From Lenhardt et al. [143]. (Measured at 300K) (n-butyl not methyl)""",
     longDesc = 
-u"""
+"""
 We are using a primary R. radical as a methyl radical. The rate comes from n-butyl.
 
 [8]   Curran, H.J.; Gaffuri, P.; Pit z, W.J.; Westbrook, C.K. *Combust. Flame* 2002, 129, 253-280. http://dx.doi.org/10.1016/S0010-2180(01)00373-X
@@ -2413,9 +2413,9 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(7.07e+12,'cm^3/(mol*s)'), n=0.56, Ea=(-0.33472,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 2,
-    shortDesc = u"""A.G. Vandeputte""",
+    shortDesc = """A.G. Vandeputte""",
     longDesc = 
-u"""
+"""
 Converted to training reaction from rate rule: SsJ-H;H_rad
 """,
 )
@@ -2426,9 +2426,9 @@ entry(
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(4.52e+12,'cm^3/(mol*s)','+|-',4.2e+11), n=0, Ea=(0,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 11,
-    shortDesc = u"""Curran et al. [8] From Lenhardt et al. [143]. (Measured at 300K)""",
+    shortDesc = """Curran et al. [8] From Lenhardt et al. [143]. (Measured at 300K)""",
     longDesc = 
-u"""
+"""
 [8]   Curran, H.J.; Gaffuri, P.; Pit z, W.J.; Westbrook, C.K. *Combust. Flame* 2002, 129, 253-280. http://dx.doi.org/10.1016/S0010-2180(01)00373-X
 
 In their study modelling iso-octane oxidation, Curran et al [8] chose to use the rate measured by Lenhardt et al [143] described below.
@@ -2471,9 +2471,9 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(3.94e+09,'cm^3/(mol*s)'), n=1.25, Ea=(-3.09616,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 2,
-    shortDesc = u"""A.G. Vandeputte""",
+    shortDesc = """A.G. Vandeputte""",
     longDesc = 
-u"""
+"""
 Converted to training reaction from rate rule: SsJ-S2s;C_rad/Cs3
 """,
 )
@@ -2484,9 +2484,9 @@ entry(
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(7.54e+12,'cm^3/(mol*s)','+|-',1e+12), n=0, Ea=(0,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 11,
-    shortDesc = u"""Curran et al. [8]. (Estimated at 300K)""",
+    shortDesc = """Curran et al. [8]. (Estimated at 300K)""",
     longDesc = 
-u"""
+"""
 Lenhardt [143] measured (10.01.3)E12 cm3/mole/sec (at 300K, high pressure limit, from flash photolysis experiments.)
 Atkinson [96], in their review, recommend 6.62E12 cm3/mole/sec. (according to Curran [8]).
 Curran [8], in their modelling paper, refer to both these and chose and "intermediate" value of 7.54E12 cm3/mol/sec.
@@ -2515,9 +2515,9 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(8.94e+07,'cm^3/(mol*s)'), n=1.54, Ea=(-5.52288,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 2,
-    shortDesc = u"""A.G. Vandeputte, calculated""",
+    shortDesc = """A.G. Vandeputte, calculated""",
     longDesc = 
-u"""
+"""
 Converted to training reaction from rate rule: SsJ-Cs;C_rad/H2/Cs
 """,
 )
@@ -2528,9 +2528,9 @@ entry(
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(1.41e+13,'cm^3/(mol*s)','+|-',1.17e+12), n=0, Ea=(0,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 11,
-    shortDesc = u"""Curran et al. [8] From Lenhardt et al. [143]. (Measured at 300K)""",
+    shortDesc = """Curran et al. [8] From Lenhardt et al. [143]. (Measured at 300K)""",
     longDesc = 
-u"""
+"""
 [8]   Curran, H.J.; Gaffuri, P.; Pit z, W.J.; Westbrook, C.K. *Combust. Flame* 2002, 129, 253-280. http://dx.doi.org/10.1016/S0010-2180(01)00373-X
 
 In their study modelling iso-octane oxidation, Curran et al [8] chose to use the rate measured by Lenhardt et al [143] described below.
@@ -2573,9 +2573,9 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(8.94e+07,'cm^3/(mol*s)'), n=1.54, Ea=(-5.52288,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 2,
-    shortDesc = u"""A.G. Vandeputte, calculated""",
+    shortDesc = """A.G. Vandeputte, calculated""",
     longDesc = 
-u"""
+"""
 Converted to training reaction from rate rule: SsJ-Cs;C_methyl
 """,
 )
@@ -2586,9 +2586,9 @@ entry(
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(6e+12,'cm^3/(mol*s)'), n=0, Ea=(0,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 10,
-    shortDesc = u"""Bozzelli et al. [144] RRKM extrapolation ( adjusted to match data).""",
+    shortDesc = """Bozzelli et al. [144] RRKM extrapolation ( adjusted to match data).""",
     longDesc = 
-u"""
+"""
 [144] Bozzelli,J.W. J phys. Chem 1993, 97,4427.
 RRKM extrapolation (adjusted to match data).O2 +CH = CH2CHOO. C.D.W. divided rate expression by 2, to get rate of addition per site
 
@@ -2604,9 +2604,9 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(8.94e+07,'cm^3/(mol*s)'), n=1.54, Ea=(-5.52288,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 2,
-    shortDesc = u"""A.G. Vandeputte, calculated""",
+    shortDesc = """A.G. Vandeputte, calculated""",
     longDesc = 
-u"""
+"""
 Converted to training reaction from rate rule: SsJ-Cs;C_rad/Cs3
 """,
 )
@@ -2617,9 +2617,9 @@ entry(
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(6.03e+12,'cm^3/(mol*s)','*|/',1.2), n=0, Ea=(1.33888,'kJ/mol'), T0=(1,'K'), Tmin=(297,'K'), Tmax=(473,'K')),
     rank = 6,
-    shortDesc = u"""Yu, T. and Lin, M.C. [145]""",
+    shortDesc = """Yu, T. and Lin, M.C. [145]""",
     longDesc = 
-u"""
+"""
 [145] Yu,T.; Lin, M.C.J. Am. Chem.Soc.1994,116,9571.
 O2+ phenyl --> phenyl dioxy. Absolute value measured directly. Pressure 0.03-0.11 atm. Excitation: Flash photolysis, analysis: Vis- UV absorption. C.D.W. divided rate epxression by 2, to get rate of addition per site
 
@@ -2635,9 +2635,9 @@ entry(
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(7e+12,'cm^3/(mol*s)'), n=0, Ea=(0,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2500,'K')),
     rank = 10,
-    shortDesc = u"""Bozzelli et al. [144] RRKM extrapolation.""",
+    shortDesc = """Bozzelli et al. [144] RRKM extrapolation.""",
     longDesc = 
-u"""
+"""
 [144] Bozzelli,J.W. J Phys. Chem. 1993, 97 , 4427.
 RRKM extrapolation. O2 +HCO -->HC(O)O2. C.D.W. divided rate expression by 2, to get rate of addition per site
 
@@ -2653,9 +2653,9 @@ entry(
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(3.01e+12,'cm^3/(mol*s)','*|/',3.16), n=0, Ea=(0,'kJ/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(300,'K')),
     rank = 10,
-    shortDesc = u"""Atkinson et al [96] literature review.""",
+    shortDesc = """Atkinson et al [96] literature review.""",
     longDesc = 
-u"""
+"""
 [96] Atkinson,R; Baulch,D. L.; Cox R.A.;Hampson,R.F.,Jr.;Kerr,J.A;Rossi,M.J.;Troe,J.J Phys. Chem. Ref. Data 1997,26,521.
 literature review. Rate constant is high pressure limit. O2+ CH3CO --> CH3C(O)OO C.D.W. divided rate expression by 2, to get rate of addition per site
 
@@ -2671,9 +2671,9 @@ entry(
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(5.84e+13,'cm^3/(mol*s)'), n=0.18, Ea=(0.518816,'kJ/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(2000,'K')),
     rank = 6,
-    shortDesc = u"""Harding et al. (2007HAR/KLI3789-3801), value devided by 2 to account for two addition sites""",
+    shortDesc = """Harding et al. (2007HAR/KLI3789-3801), value devided by 2 to account for two addition sites""",
     longDesc = 
-u"""
+"""
 Converted to training reaction from rate rule: H_rad;C_rad/H2/Cd
 """,
 )
@@ -2684,9 +2684,9 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.92e+13,'cm^3/(mol*s)'), n=0.18, Ea=(0.518816,'kJ/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(2000,'K')),
     rank = 11,
-    shortDesc = u"""Estimated by 495""",
+    shortDesc = """Estimated by 495""",
     longDesc = 
-u"""
+"""
 Converted to training reaction from rate rule: H_rad;C_rad/H/OneDeC
 """,
 )
@@ -2697,9 +2697,9 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.92e+13,'cm^3/(mol*s)'), n=0.18, Ea=(0.518816,'kJ/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(2000,'K')),
     rank = 11,
-    shortDesc = u"""Estimated by 495""",
+    shortDesc = """Estimated by 495""",
     longDesc = 
-u"""
+"""
 Converted to training reaction from rate rule: H_rad;C_rad/OneDe
 """,
 )
@@ -2710,9 +2710,9 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.92e+13,'cm^3/(mol*s)'), n=0.18, Ea=(0.518816,'kJ/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(2000,'K')),
     rank = 11,
-    shortDesc = u"""Estimated by 495""",
+    shortDesc = """Estimated by 495""",
     longDesc = 
-u"""
+"""
 Converted to training reaction from rate rule: H_rad;C_rad/TwoDe
 """,
 )
@@ -2723,9 +2723,9 @@ entry(
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(2.04e+13,'cm^3/(mol*s)'), n=0, Ea=(-1.08784,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2500,'K')),
     rank = 10,
-    shortDesc = u"""Tsang (1991) Chemical kinetic data base for combustion chemistry. Part V. Propene Literature review""",
+    shortDesc = """Tsang (1991) Chemical kinetic data base for combustion chemistry. Part V. Propene Literature review""",
     longDesc = 
-u"""
+"""
 Converted to training reaction from rate rule: C_rad/H2/Cd;C_rad/H2/Cd
 """,
 )
@@ -2736,9 +2736,9 @@ entry(
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(4.1e+13,'cm^3/(mol*s)'), n=0, Ea=(-0.54392,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2500,'K')),
     rank = 10,
-    shortDesc = u"""Tsang (1991) Chemical kinetic data base for combustion chemistry. Part V. Propene Literature review""",
+    shortDesc = """Tsang (1991) Chemical kinetic data base for combustion chemistry. Part V. Propene Literature review""",
     longDesc = 
-u"""
+"""
 Converted to training reaction from rate rule: C_rad/H2/Cd;C_rad/H2/Cs
 """,
 )
@@ -2749,9 +2749,9 @@ entry(
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(2.04e+14,'cm^3/(mol*s)'), n=-0.32, Ea=(-0.54392,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2500,'K')),
     rank = 10,
-    shortDesc = u"""Tsang (1991) Chemical kinetic data base for combustion chemistry. Part V. Propene Literature review""",
+    shortDesc = """Tsang (1991) Chemical kinetic data base for combustion chemistry. Part V. Propene Literature review""",
     longDesc = 
-u"""
+"""
 Converted to training reaction from rate rule: C_rad/H2/Cd;C_methyl
 """,
 )
@@ -2762,9 +2762,9 @@ entry(
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(2.3e+14,'cm^3/(mol*s)'), n=-0.35, Ea=(-0.54392,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2500,'K')),
     rank = 10,
-    shortDesc = u"""Tsang (1991) Chemical kinetic data base for combustion chemistry. Part V. Propene Literature review""",
+    shortDesc = """Tsang (1991) Chemical kinetic data base for combustion chemistry. Part V. Propene Literature review""",
     longDesc = 
-u"""
+"""
 Converted to training reaction from rate rule: C_rad/H2/Cd;C_rad/H/NonDeC
 """,
 )
@@ -2775,9 +2775,9 @@ entry(
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(1.448e+15,'cm^3/(mol*s)'), n=-0.75, Ea=(-0.54392,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2500,'K')),
     rank = 10,
-    shortDesc = u"""Tsang (1991) Chemical kinetic data base for combustion chemistry. Part V. Propene Literature review""",
+    shortDesc = """Tsang (1991) Chemical kinetic data base for combustion chemistry. Part V. Propene Literature review""",
     longDesc = 
-u"""
+"""
 Converted to training reaction from rate rule: C_rad/H2/Cd;C_rad/Cs3
 """,
 )
@@ -2788,9 +2788,9 @@ entry(
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(2.04e+13,'cm^3/(mol*s)'), n=0, Ea=(-1.08784,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2500,'K')),
     rank = 11,
-    shortDesc = u"""Better estimate then averaging out, Tsang (1991) Chemical kinetic data base for combustion chemistry. Part V. Propene Literature review""",
+    shortDesc = """Better estimate then averaging out, Tsang (1991) Chemical kinetic data base for combustion chemistry. Part V. Propene Literature review""",
     longDesc = 
-u"""
+"""
 Converted to training reaction from rate rule: C_rad/H2/Cd;C_rad/H/CdCd
 """,
 )
@@ -2801,9 +2801,9 @@ entry(
     degeneracy = 0.5,
     kinetics = Arrhenius(A=(2.145e+09,'cm^3/(mol*s)'), n=0.8, Ea=(-4.30952,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2500,'K')),
     rank = 6,
-    shortDesc = u"""2007GEO/MIL4259-4268""",
+    shortDesc = """2007GEO/MIL4259-4268""",
     longDesc = 
-u"""
+"""
 A. G. Vandeputte
 Some estimated values for propyne recombination reactions
 
@@ -2817,9 +2817,9 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(5e+12,'cm^3/(mol*s)'), n=0, Ea=(0,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2500,'K')),
     rank = 11,
-    shortDesc = u"""1987WU/KER6291""",
+    shortDesc = """1987WU/KER6291""",
     longDesc = 
-u"""
+"""
 Estimated value, agrees with 1987WU/KER6291
 
 Converted to training reaction from rate rule: Cd_allenic;C_methyl
@@ -2832,9 +2832,9 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1e+13,'cm^3/(mol*s)'), n=0, Ea=(0,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2500,'K')),
     rank = 11,
-    shortDesc = u"""A. G. Vandeputte estimated value""",
+    shortDesc = """A. G. Vandeputte estimated value""",
     longDesc = 
-u"""
+"""
 Converted to training reaction from rate rule: Cd_allenic;H_rad
 """,
 )
@@ -2845,9 +2845,9 @@ entry(
     degeneracy = 5.0,
     kinetics = Arrhenius(A=(2.5e+15,'cm^3/(mol*s)'), n=0, Ea=(0,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2500,'K')),
     rank = 6,
-    shortDesc = u"""From 2001 Roy IJCK high-P value""",
+    shortDesc = """From 2001 Roy IJCK high-P value""",
     longDesc = 
-u"""
+"""
 Converted to training reaction from rate rule: C_rad_cyclopentadiene;H_rad
 """,
 )
@@ -2858,9 +2858,9 @@ entry(
     degeneracy = 5.0,
     kinetics = Arrhenius(A=(4.17e+16,'cm^3/(mol*s)'), n=-0.7, Ea=(2.092,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K')),
     rank = 6,
-    shortDesc = u"""Sharma J. Phys. Chem. A 113 8871 - 8882 (2009)""",
+    shortDesc = """Sharma J. Phys. Chem. A 113 8871 - 8882 (2009)""",
     longDesc = 
-u"""
+"""
 Converted to training reaction from rate rule: C_rad_cyclopentadiene;C_methyl
 """,
 )
@@ -2871,9 +2871,9 @@ entry(
     degeneracy = 12.5,
     kinetics = Arrhenius(A=(6.25e+14,'cm^3/(mol*s)'), n=0, Ea=(0,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K')),
     rank = 11,
-    shortDesc = u"""A. G. Vandeputte estimated value""",
+    shortDesc = """A. G. Vandeputte estimated value""",
     longDesc = 
-u"""
+"""
 Converted to training reaction from rate rule: C_rad_cyclopentadiene;C_rad_cyclopentadiene
 """,
 )
@@ -2884,9 +2884,9 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(2e+13,'cm^3/(mol*s)'), n=0, Ea=(0,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2500,'K')),
     rank = 11,
-    shortDesc = u"""A. G. Vandeputte estimated value""",
+    shortDesc = """A. G. Vandeputte estimated value""",
     longDesc = 
-u"""
+"""
 Converted to training reaction from rate rule: H_rad;C_rad/H/CdCd
 """,
 )
@@ -2897,9 +2897,9 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(3.5e+12,'cm^3/(mol*s)'), n=0.24, Ea=(0,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2500,'K')),
     rank = 2,
-    shortDesc = u"""Experimental, J. Hahn, K. Luther and J. Troe""",
+    shortDesc = """Experimental, J. Hahn, K. Luther and J. Troe""",
     longDesc = 
-u"""
+"""
 J. Hahn, K. Luther and J. Troe
 Experimental and theoretical study of the temperature and pressure dependences of the recombination reactions O + NO2 (+M) = NO2 (+M) and NO2 + NO3 (+M) = N2O5 (+M)
 Phys. Chem. Chem. Phys., 2000, 2, 5098-5104
@@ -2931,9 +2931,9 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(3e+13,'cm^3/(mol*s)'), n=0, Ea=(0,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2500,'K')),
     rank = 6,
-    shortDesc = u"""J. Troe""",
+    shortDesc = """J. Troe""",
     longDesc = 
-u"""
+"""
 J. Troe
 Analysis of the temperature and pressure dependence of the reaction HO + NO2 + M = HONO2 + M
 International Journal of Chemical Kinetics, Volume 33, Issue 12 December 2001 Pages 878-889
@@ -2965,9 +2965,9 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(5.77e+15,'cm^3/(mol*s)'), n=0, Ea=(1.79912,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 6,
-    shortDesc = u"""GA Jonas x 3 for spinorbit""",
+    shortDesc = """GA Jonas x 3 for spinorbit""",
     longDesc = 
-u"""
+"""
 Converted to training reaction from rate rule: H_rad;SsJ-H
 """,
 )
@@ -2978,17 +2978,17 @@ entry(
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(1.95e+11,'cm^3/(mol*s)'), n=0.42, Ea=(-631.06,'cal/mol'), T0=(1,'K')),
     reference = Article(
-        authors = ['Zhang, F.', 'Nicolle, A.', 'Xing, L.', 'Klippenstein, S. J.'],
-        title = 'Recombination of aromatic radicals with molecular oxygen',
-        journal = 'Proceedings of the Combustion Institute',
-        volume = '36 (1)',
-        pages = '169-177',
-        year = '2017',
+        authors = [b'Zhang, F.', b'Nicolle, A.', b'Xing, L.', b'Klippenstein, S. J.'],
+        title = b'Recombination of aromatic radicals with molecular oxygen',
+        journal = b'Proceedings of the Combustion Institute',
+        volume = b'36 (1)',
+        pages = b'169-177',
+        year = b'2017',
     ),
     referenceType = "theory",
     rank = 3,
     longDesc = 
-u"""
+"""
 VRC-TST, the CCSD(T)/CBS limit for the quartet state interaction energy is obtained from CCSD(T)-F12/VDZ-F12, MP2-F12/VDZ-F12 and MP2-F12/VTZ-F12
 E = E(CCSD(T)F12/VDZF12) + E(MP2F12/VTZF12)  E(MP2F12/VDZF12)
 """,
@@ -3000,17 +3000,17 @@ entry(
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(5.44e+10,'cm^3/(mol*s)'), n=0.504, Ea=(-1045.45,'cal/mol'), T0=(1,'K')),
     reference = Article(
-        authors = ['Zhang, F.', 'Nicolle, A.', 'Xing, L.', 'Klippenstein, S. J.'],
-        title = 'Recombination of aromatic radicals with molecular oxygen',
-        journal = 'Proceedings of the Combustion Institute',
-        volume = '36 (1)',
-        pages = '169-177',
-        year = '2017',
+        authors = [b'Zhang, F.', b'Nicolle, A.', b'Xing, L.', b'Klippenstein, S. J.'],
+        title = b'Recombination of aromatic radicals with molecular oxygen',
+        journal = b'Proceedings of the Combustion Institute',
+        volume = b'36 (1)',
+        pages = b'169-177',
+        year = b'2017',
     ),
     referenceType = "theory",
     rank = 3,
     longDesc = 
-u"""
+"""
 VRC-TST, the CCSD(T)/CBS limit for the quartet state interaction energy is obtained from CCSD(T)-F12/VDZ-F12, MP2-F12/VDZ-F12 and MP2-F12/VTZ-F12
 E = E(CCSD(T)F12/VDZF12) + E(MP2F12/VTZF12)  E(MP2F12/VDZF12)
 """,
@@ -3022,17 +3022,17 @@ entry(
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(5.04e+11,'cm^3/(mol*s)'), n=0.34, Ea=(-705.29,'cal/mol'), T0=(1,'K')),
     reference = Article(
-        authors = ['Zhang, F.', 'Nicolle, A.', 'Xing, L.', 'Klippenstein, S. J.'],
-        title = 'Recombination of aromatic radicals with molecular oxygen',
-        journal = 'Proceedings of the Combustion Institute',
-        volume = '36 (1)',
-        pages = '169-177',
-        year = '2017',
+        authors = [b'Zhang, F.', b'Nicolle, A.', b'Xing, L.', b'Klippenstein, S. J.'],
+        title = b'Recombination of aromatic radicals with molecular oxygen',
+        journal = b'Proceedings of the Combustion Institute',
+        volume = b'36 (1)',
+        pages = b'169-177',
+        year = b'2017',
     ),
     referenceType = "theory",
     rank = 3,
     longDesc = 
-u"""
+"""
 VRC-TST, the CCSD(T)/CBS limit for the quartet state interaction energy is obtained from CCSD(T)-F12/VDZ-F12, MP2-F12/VDZ-F12 and MP2-F12/VTZ-F12
 E = E(CCSD(T)F12/VDZF12) + E(MP2F12/VTZF12)  E(MP2F12/VDZF12)
 """,
@@ -3044,17 +3044,17 @@ entry(
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(7.69e+06,'cm^3/(mol*s)'), n=1.52, Ea=(-1070,'cal/mol'), T0=(1,'K')),
     reference = Article(
-        authors = ['Zhang, F.', 'Nicolle, A.', 'Xing, L.', 'Klippenstein, S. J.'],
-        title = 'Recombination of aromatic radicals with molecular oxygen',
-        journal = 'Proceedings of the Combustion Institute',
-        volume = '36 (1)',
-        pages = '169-177',
-        year = '2017',
+        authors = [b'Zhang, F.', b'Nicolle, A.', b'Xing, L.', b'Klippenstein, S. J.'],
+        title = b'Recombination of aromatic radicals with molecular oxygen',
+        journal = b'Proceedings of the Combustion Institute',
+        volume = b'36 (1)',
+        pages = b'169-177',
+        year = b'2017',
     ),
     referenceType = "theory",
     rank = 3,
     longDesc = 
-u"""
+"""
 VRC-TST, the CCSD(T)/CBS limit for the quartet state interaction energy is obtained from CCSD(T)-F12/VDZ-F12, MP2-F12/VDZ-F12 and MP2-F12/VTZ-F12
 E = E(CCSD(T)F12/VDZF12) + E(MP2F12/VTZF12)  E(MP2F12/VDZF12)
 """,
@@ -3066,7 +3066,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(3.03e+21,'cm^3/(mol*s)'), n=-3.38, Ea=(3460,'cal/mol'), T0=(1,'K')),
     rank = 5,
-    shortDesc = u"""From NIST CH2F2 model""",
+    shortDesc = """From NIST CH2F2 model""",
 )
 
 entry(
@@ -3075,7 +3075,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.75e+06,'cm^3/(mol*s)'), n=-0.32, Ea=(7690,'cal/mol'), T0=(1,'K')),
     rank = 5,
-    shortDesc = u"""From NIST CH2F2 model""",
+    shortDesc = """From NIST CH2F2 model""",
 )
 
 entry(
@@ -3084,7 +3084,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1e+12,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
     rank = 5,
-    shortDesc = u"""From NIST 2019 CH2F2 model""",
+    shortDesc = """From NIST 2019 CH2F2 model""",
 )
 
 entry(
@@ -3093,7 +3093,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.19e+35,'cm^3/(mol*s)'), n=-8.51, Ea=(8140,'cal/mol'), T0=(1,'K')),
     rank = 5,
-    shortDesc = u"""From NIST CH2F2 model""",
+    shortDesc = """From NIST CH2F2 model""",
 )
 
 entry(
@@ -3102,7 +3102,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(9.57e+38,'cm^3/(mol*s)'), n=-9.24, Ea=(7360,'cal/mol'), T0=(1,'K')),
     rank = 5,
-    shortDesc = u"""From NIST CH2F2 model""",
+    shortDesc = """From NIST CH2F2 model""",
 )
 
 entry(
@@ -3111,7 +3111,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.56e+45,'cm^3/(mol*s)'), n=-10.8, Ea=(8070,'cal/mol'), T0=(1,'K')),
     rank = 5,
-    shortDesc = u"""From NIST CH2F2 model""",
+    shortDesc = """From NIST CH2F2 model""",
 )
 
 entry(
@@ -3120,7 +3120,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.96e+37,'cm^3/(mol*s)'), n=-9.05, Ea=(7160,'cal/mol'), T0=(1,'K')),
     rank = 5,
-    shortDesc = u"""From NIST CH2F2 model""",
+    shortDesc = """From NIST CH2F2 model""",
 )
 
 entry(
@@ -3129,7 +3129,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(3.11e+40,'cm^3/(mol*s)'), n=-9.59, Ea=(7190,'cal/mol'), T0=(1,'K')),
     rank = 5,
-    shortDesc = u"""From NIST CH2F2 model""",
+    shortDesc = """From NIST CH2F2 model""",
 )
 
 entry(
@@ -3138,7 +3138,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.2e+44,'cm^3/(mol*s)'), n=-10.6, Ea=(7520,'cal/mol'), T0=(1,'K')),
     rank = 5,
-    shortDesc = u"""From NIST CH2F2 model""",
+    shortDesc = """From NIST CH2F2 model""",
 )
 
 entry(
@@ -3147,7 +3147,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.74e+43,'cm^3/(mol*s)'), n=-10.5, Ea=(7670,'cal/mol'), T0=(1,'K')),
     rank = 5,
-    shortDesc = u"""From NIST CH2F2 model""",
+    shortDesc = """From NIST CH2F2 model""",
 )
 
 entry(
@@ -3156,7 +3156,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(7.27e+42,'cm^3/(mol*s)'), n=-9.86, Ea=(7360,'cal/mol'), T0=(1,'K')),
     rank = 5,
-    shortDesc = u"""From NIST CH2F2 model""",
+    shortDesc = """From NIST CH2F2 model""",
 )
 
 entry(
@@ -3165,7 +3165,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(3.77e+46,'cm^3/(mol*s)'), n=-10.8, Ea=(8980,'cal/mol'), T0=(1,'K')),
     rank = 5,
-    shortDesc = u"""From NIST CH2F2 model""",
+    shortDesc = """From NIST CH2F2 model""",
 )
 
 entry(
@@ -3174,7 +3174,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.12e+47,'cm^3/(mol*s)'), n=-10.8, Ea=(4100,'cal/mol'), T0=(1,'K')),
     rank = 5,
-    shortDesc = u"""From NIST CH2F2 model""",
+    shortDesc = """From NIST CH2F2 model""",
 )
 
 entry(
@@ -3183,7 +3183,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.57e+31,'cm^3/(mol*s)'), n=-6.27, Ea=(4440,'cal/mol'), T0=(1,'K')),
     rank = 5,
-    shortDesc = u"""From NIST CH2F2 model""",
+    shortDesc = """From NIST CH2F2 model""",
 )
 
 entry(
@@ -3192,7 +3192,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.37e+24,'cm^3/(mol*s)'), n=-3.79, Ea=(2290,'cal/mol'), T0=(1,'K')),
     rank = 5,
-    shortDesc = u"""From NIST CH2F2 model""",
+    shortDesc = """From NIST CH2F2 model""",
 )
 
 entry(
@@ -3201,7 +3201,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(6.35e+08,'cm^3/(mol*s)'), n=0, Ea=(-9614,'cal/mol'), T0=(1,'K')),
     rank = 5,
-    shortDesc = u"""From NIST 2019 CH2F2 model""",
+    shortDesc = """From NIST 2019 CH2F2 model""",
 )
 
 entry(
@@ -3210,7 +3210,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(9.61e+38,'cm^3/(mol*s)'), n=-8.36, Ea=(6940,'cal/mol'), T0=(1,'K')),
     rank = 5,
-    shortDesc = u"""From NIST CH2F2 model""",
+    shortDesc = """From NIST CH2F2 model""",
 )
 
 entry(
@@ -3219,7 +3219,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.78e+33,'cm^3/(mol*s)'), n=-6.64, Ea=(5020,'cal/mol'), T0=(1,'K')),
     rank = 5,
-    shortDesc = u"""From NIST CH2F2 model""",
+    shortDesc = """From NIST CH2F2 model""",
 )
 
 entry(
@@ -3228,7 +3228,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.26e+24,'cm^3/(mol*s)'), n=-3.5, Ea=(3360,'cal/mol'), T0=(1,'K')),
     rank = 5,
-    shortDesc = u"""From NIST CH2F2 model""",
+    shortDesc = """From NIST CH2F2 model""",
 )
 
 entry(
@@ -3237,7 +3237,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.61e+26,'cm^3/(mol*s)'), n=-4.16, Ea=(4100,'cal/mol'), T0=(1,'K')),
     rank = 5,
-    shortDesc = u"""From NIST CH2F2 model""",
+    shortDesc = """From NIST CH2F2 model""",
 )
 
 entry(
@@ -3246,7 +3246,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.4e+34,'cm^3/(mol*s)'), n=-7.11, Ea=(5040,'cal/mol'), T0=(1,'K')),
     rank = 5,
-    shortDesc = u"""From NIST CH2F2 model""",
+    shortDesc = """From NIST CH2F2 model""",
 )
 
 entry(
@@ -3255,7 +3255,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.4e+34,'cm^3/(mol*s)'), n=-7.11, Ea=(5040,'cal/mol'), T0=(1,'K')),
     rank = 5,
-    shortDesc = u"""From NIST CH2F2 model""",
+    shortDesc = """From NIST CH2F2 model""",
 )
 
 entry(
@@ -3264,7 +3264,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.4e+34,'cm^3/(mol*s)'), n=-7.11, Ea=(5040,'cal/mol'), T0=(1,'K')),
     rank = 5,
-    shortDesc = u"""From NIST CH2F2 model""",
+    shortDesc = """From NIST CH2F2 model""",
 )
 
 entry(
@@ -3273,7 +3273,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.4e+34,'cm^3/(mol*s)'), n=-7.11, Ea=(5040,'cal/mol'), T0=(1,'K')),
     rank = 5,
-    shortDesc = u"""From NIST CH2F2 model""",
+    shortDesc = """From NIST CH2F2 model""",
 )
 
 entry(
@@ -3282,7 +3282,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.4e+34,'cm^3/(mol*s)'), n=-7.11, Ea=(5040,'cal/mol'), T0=(1,'K')),
     rank = 5,
-    shortDesc = u"""From NIST CH2F2 model""",
+    shortDesc = """From NIST CH2F2 model""",
 )
 
 entry(
@@ -3291,7 +3291,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(5e+13,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
     rank = 5,
-    shortDesc = u"""From NIST CH2F2 model""",
+    shortDesc = """From NIST CH2F2 model""",
 )
 
 entry(
@@ -3300,7 +3300,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(8e+16,'s^-1'), n=0, Ea=(109000,'cal/mol'), T0=(1,'K')),
     rank = 5,
-    shortDesc = u"""From NIST CH2F2 model""",
+    shortDesc = """From NIST CH2F2 model""",
 )
 
 entry(
@@ -3309,7 +3309,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(4e+13,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
     rank = 5,
-    shortDesc = u"""From NIST CH2F2 model""",
+    shortDesc = """From NIST CH2F2 model""",
 )
 
 entry(
@@ -3318,7 +3318,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(5e+15,'s^-1'), n=0, Ea=(116000,'cal/mol'), T0=(1,'K')),
     rank = 5,
-    shortDesc = u"""From NIST CH2F2 model""",
+    shortDesc = """From NIST CH2F2 model""",
 )
 
 entry(
@@ -3327,7 +3327,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1e+13,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
     rank = 5,
-    shortDesc = u"""From NIST CH2F2 model""",
+    shortDesc = """From NIST CH2F2 model""",
 )
 
 entry(
@@ -3336,7 +3336,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1e+13,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
     rank = 5,
-    shortDesc = u"""From NIST CH2F2 model""",
+    shortDesc = """From NIST CH2F2 model""",
 )
 
 entry(
@@ -3345,7 +3345,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(5e+13,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
     rank = 5,
-    shortDesc = u"""From NIST CH2F2 model""",
+    shortDesc = """From NIST CH2F2 model""",
 )
 
 entry(
@@ -3354,15 +3354,15 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(5e+13,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
     rank = 5,
-    shortDesc = u"""From NIST CH2F2 model""",
+    shortDesc = """From NIST CH2F2 model""",
 )
 
 entry(
     index = 178,
-    label = "[CH2]F_r + F[C](F)F_r <=> FCC(F)(F)F_p",
+    label = "CH2F + CF3 <=> FCC(F)(F)F_p",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.24e+12,'cm^3/(mol*s)'), n=0, Ea=(-4217,'cal/mol'), T0=(1,'K')),
     rank = 10,
-    shortDesc = u"""From NIST 2019 CH2F2 model""",
+    shortDesc = """From NIST 2019 CH2F2 model""",
 )
 
