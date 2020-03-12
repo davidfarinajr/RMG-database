@@ -2,8 +2,8 @@
 # encoding: utf-8
 
 name = "CO_Disproportionation/training"
-shortDesc = u"Reaction kinetics used to generate rate rules"
-longDesc = u"""
+shortDesc = "Reaction kinetics used to generate rate rules"
+longDesc = """
 Put kinetic parameters for specific reactions in this file to use as a
 training set for generating rate rules to populate this kinetics family.
 """
@@ -13,9 +13,9 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(9.03e+13,'cm^3/(mol*s)','*|/',2), n=0, Ea=(0,'cal/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2500,'K')),
     rank = 1,
-    shortDesc = u"""Review and estimation based on experimental results""",
+    shortDesc = """Review and estimation based on experimental results""",
     longDesc = 
-u"""
+"""
 p. 519
 R. Atkinson, D.L. Baulch, R.A. Cox, R.F. Hampson, J.A. Kerr, J. Troe,
 Evaluated Kinetic Data for Combustion Modelling
@@ -30,9 +30,9 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(3.01e+13,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
     rank = 5,
-    shortDesc = u"""FFCM-1""",
+    shortDesc = """FFCM-1""",
     longDesc = 
-u"""
+"""
 Taken from the FFCM-1 library
 """,
 )
@@ -43,9 +43,9 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(5.12e+13,'cm^3/(mol*s)'), n=0, Ea=(1690,'cal/mol'), T0=(1,'K')),
     rank = 1,
-    shortDesc = u"""Review and estimation based on experimental results""",
+    shortDesc = """Review and estimation based on experimental results""",
     longDesc = 
-u"""
+"""
 p. 1147, rxn (15,3)
 W. Tsang and R. F. Hampson
 Journal of Physical and Chemical Reference Data, 1986, 15, 1087
@@ -59,9 +59,9 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(4e+13,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K'), Tmin=(1004,'K'), Tmax=(1006,'K')),
     rank = 1,
-    shortDesc = u"""Shock Tube""",
+    shortDesc = """Shock Tube""",
     longDesc = 
-u"""
+"""
 p. 4131, Table 1, rxn [16]
 reported at 1005 K (value is anyway T-independent)
 A.M. Held, K.C. Manthorne, P.D. Pacey, H.P. Reinholdt,
@@ -76,9 +76,9 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(9.03e+13,'cm^3/(mol*s)','*|/',3), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
     rank = 1,
-    shortDesc = u"""Review and estimation based on experimental results""",
+    shortDesc = """Review and estimation based on experimental results""",
     longDesc = 
-u"""
+"""
 p. 1246, rxn (24,15)
 W. Tsang and R. F. Hampson
 Journal of Physical and Chemical Reference Data, 1986, 15, 1087
@@ -92,9 +92,9 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.8e+13,'cm^3/(mol*s)','+|-',9e+12), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
     rank = 1,
-    shortDesc = u"""Review and estimation based on experimental results""",
+    shortDesc = """Review and estimation based on experimental results""",
     longDesc = 
-u"""
+"""
 p. 1151, rxn (15,15 a)
 W. Tsang and R. F. Hampson
 Journal of Physical and Chemical Reference Data, 1986, 15, 1087
@@ -108,9 +108,9 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(9.033e+13,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
     rank = 5,
-    shortDesc = u"""JetSurF2.0""",
+    shortDesc = """JetSurF2.0""",
     longDesc = 
-u"""
+"""
 Taken from the JetSurF2.0 library
 """,
 )
@@ -121,9 +121,9 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(6e+13,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
     rank = 5,
-    shortDesc = u"""JetSurF2.0""",
+    shortDesc = """JetSurF2.0""",
     longDesc = 
-u"""
+"""
 Taken from the JetSurF2.0 library
 """,
 )
@@ -134,9 +134,9 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.2e+14,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
     rank = 5,
-    shortDesc = u"""JetSurF2.0""",
+    shortDesc = """JetSurF2.0""",
     longDesc = 
-u"""
+"""
 Taken from the JetSurF2.0 library
 """,
 )
@@ -147,9 +147,9 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(7.1e+12,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2500,'K')),
     rank = 1,
-    shortDesc = u"""Shock Tube""",
+    shortDesc = """Shock Tube""",
     longDesc = 
-u"""
+"""
 p. 4180, Table 2, rxn 1
 J. Dammeier , M. Colberg, G. Friedrichs,
 Phys. Chem. Chem. Phys., 2007, 9, 4177-4188
@@ -167,9 +167,9 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.24e+23,'cm^3/(mol*s)'), n=-3.29, Ea=(2355,'cal/mol'), T0=(1,'K'), Tmin=(1140,'K'), Tmax=(1650,'K')),
     rank = 1,
-    shortDesc = u"""Shock Tube""",
+    shortDesc = """Shock Tube""",
     longDesc = 
-u"""
+"""
 p. 463, Table II, rxn 2
 C-Y. Lin, H-T. Wang, M.C. Lin, C.F. Melius,
 Int. J. Chem. Kin, 1990, 22(5), 455-482
@@ -183,7 +183,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1e+13,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
     rank = 1,
-    shortDesc = u"""Taken from Klippenstein_Glarborg2016, Experimental, original source: doi 10.1002/kin.10183""",
+    shortDesc = """Taken from Klippenstein_Glarborg2016, Experimental, original source: doi 10.1002/kin.10183""",
 )
 
 entry(
@@ -192,7 +192,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(4.3e+13,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
     rank = 1,
-    shortDesc = u"""Taken from Klippenstein_Glarborg2016, Experimental, original source: doi 10.1021/j100296a057""",
+    shortDesc = """Taken from Klippenstein_Glarborg2016, Experimental, original source: doi 10.1021/j100296a057""",
 )
 
 entry(
@@ -201,7 +201,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(9e+13,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
     rank = 10,
-    shortDesc = u"""From NIST CH2F2 model""",
+    shortDesc = """From NIST CH2F2 model""",
 )
 
 entry(
@@ -210,7 +210,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(9e+13,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
     rank = 10,
-    shortDesc = u"""From NIST CH2F2 model""",
+    shortDesc = """From NIST CH2F2 model""",
 )
 
 entry(
@@ -219,7 +219,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(9e+13,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
     rank = 10,
-    shortDesc = u"""From NIST CH2F2 model""",
+    shortDesc = """From NIST CH2F2 model""",
 )
 
 entry(
@@ -229,7 +229,7 @@ entry(
     reversible = False,
     kinetics = Arrhenius(A=(1e+13,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
     rank = 10,
-    shortDesc = u"""From NIST CH2F2 model""",
+    shortDesc = """From NIST CH2F2 model""",
 )
 
 entry(
@@ -238,15 +238,15 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1e+13,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
     rank = 10,
-    shortDesc = u"""From NIST CH2F2 model""",
+    shortDesc = """From NIST CH2F2 model""",
 )
 
 entry(
     index = 18,
-    label = "[CH]DO_r423 + [OH]_r1 <=> CO + O_p41",
+    label = "[OH]_r1 + HCO <=> CO + O_p41",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(5e+13,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
     rank = 10,
-    shortDesc = u"""From NIST 2019 CH2F2 model""",
+    shortDesc = """From NIST 2019 CH2F2 model""",
 )
 
