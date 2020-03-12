@@ -2,8 +2,8 @@
 # encoding: utf-8
 
 name = "Disproportionation/training"
-shortDesc = u"Reaction kinetics used to generate rate rules"
-longDesc = u"""
+shortDesc = "Reaction kinetics used to generate rate rules"
+longDesc = """
 Put kinetic parameters for specific reactions in this file to use as a
 training set for generating rate rules to populate this kinetics family.
 """
@@ -13,9 +13,9 @@ entry(
     degeneracy = 3.0,
     kinetics = Arrhenius(A=(3.61e+13,'cm^3/(mol*s)','*|/',5), n=0, Ea=(0,'kcal/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2500,'K')),
     rank = 9,
-    shortDesc = u"""Tsang [90] Literature review.""",
+    shortDesc = """Tsang [90] Literature review.""",
     longDesc = 
-u"""
+"""
 [90] Tsang, W.; Journal of Physical and Chemical Reference Data (1987), 16(3), 471-508.
 Literature review: C2H + CH2OH --> C2H2 + CH2O
 
@@ -36,9 +36,9 @@ entry(
     degeneracy = 4.0,
     kinetics = Arrhenius(A=(1.04e+16,'cm^3/(mol*s)','*|/',5), n=-1.26, Ea=(3.31,'kcal/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K')),
     rank = 10,
-    shortDesc = u"""S.S. Merchant estimate""",
+    shortDesc = """S.S. Merchant estimate""",
     longDesc = 
-u"""
+"""
 This rate rule is a estimate taken from NIST, ref: Aromatic and Polycyclic Aromatic
 Hydrocarbon Formation in a Laminar Premixed n-butane Flame
 Derived from fitting to a complex mechanism for C2H3 + O2 = C2H2 + HO2
@@ -51,9 +51,9 @@ entry(
     degeneracy = 6.0,
     kinetics = Arrhenius(A=(4.338e+13,'cm^3/(mol*s)','*|/',3), n=0, Ea=(66.9022,'kJ/mol'), T0=(1,'K'), Tmin=(700,'K'), Tmax=(2500,'K')),
     rank = 10,
-    shortDesc = u"""[AJ] Miyoshi 2011 (Table 4, Node 'sp') dx.doi.org/10.1021/jp112152n""",
+    shortDesc = """[AJ] Miyoshi 2011 (Table 4, Node 'sp') dx.doi.org/10.1021/jp112152n""",
     longDesc = 
-u"""
+"""
 [91] Tsang, W.; Journal of Physical and Chemical Reference Data (1988), 17(2), 887-951.
 Literature review: i-C3H7 + O2 = HO2 + C3H6
 
@@ -81,9 +81,9 @@ entry(
     degeneracy = 3.0,
     kinetics = Arrhenius(A=(9.03e+13,'cm^3/(mol*s)','*|/',2), n=0, Ea=(0,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2500,'K')),
     rank = 10,
-    shortDesc = u"""Tsang [91] Literature review.""",
+    shortDesc = """Tsang [91] Literature review.""",
     longDesc = 
-u"""
+"""
 [91] Tsang, W.; Journal of Physical and Chemical Reference Data (1988), 17(2), 887-951.
 Literature review.  CH2(triplet) + i-C3H7 --> C3H6 + CH3
 
@@ -105,9 +105,9 @@ entry(
     degeneracy = 3.0,
     kinetics = Arrhenius(A=(1.083e+13,'cm^3/(mol*s)','*|/',2), n=0, Ea=(0,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2500,'K')),
     rank = 10,
-    shortDesc = u"""Tsang [91] Literature review.""",
+    shortDesc = """Tsang [91] Literature review.""",
     longDesc = 
-u"""
+"""
 [91] Tsang, W.; Journal of Physical and Chemical Reference Data (1988), 17(2), 887-951.
 Literature review.  H + i-C3H7 --> C3H6 + H2
 
@@ -128,9 +128,9 @@ entry(
     degeneracy = 3.0,
     kinetics = Arrhenius(A=(6.57e+14,'cm^3/(mol*s)','*|/',1.1), n=-0.68, Ea=(0,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2500,'K')),
     rank = 10,
-    shortDesc = u"""Tsang [91] Literature review.""",
+    shortDesc = """Tsang [91] Literature review.""",
     longDesc = 
-u"""
+"""
 [91] Tsang, W.; Journal of Physical and Chemical Reference Data (1988), 17(2), 887-951.
 Literature review.  CH3 + i-C3H7 --> C3H6 + CH4
 
@@ -167,9 +167,9 @@ entry(
     degeneracy = 3.0,
     kinetics = Arrhenius(A=(6.9e+13,'cm^3/(mol*s)','*|/',1.1), n=-0.35, Ea=(0,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2500,'K')),
     rank = 10,
-    shortDesc = u"""Tsang [91] Literature review.""",
+    shortDesc = """Tsang [91] Literature review.""",
     longDesc = 
-u"""
+"""
 [91] Tsang, W.; Journal of Physical and Chemical Reference Data (1988), 17(2), 887-951.
 Literature review.  C2H5 + i-C3H7 --> C3H6 + C2H6
 
@@ -192,9 +192,9 @@ entry(
     degeneracy = 6.0,
     kinetics = Arrhenius(A=(1.374e+14,'cm^3/(mol*s)','*|/',3), n=-0.35, Ea=(-0.54392,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2500,'K')),
     rank = 10,
-    shortDesc = u"""Tsang [93] Literature review.""",
+    shortDesc = """Tsang [93] Literature review.""",
     longDesc = 
-u"""
+"""
 [93] Tsang, W.; Journal of Physical and Chemical Reference Data (1991), 20(2), 221-273.
 Literature review: C3H5 + iC3H7 --> C3H6 + C3H6
 
@@ -218,9 +218,9 @@ entry(
     degeneracy = 3.0,
     kinetics = Arrhenius(A=(8.67e+12,'cm^3/(mol*s)','*|/',5), n=0, Ea=(0,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2500,'K')),
     rank = 10,
-    shortDesc = u"""Tsang [91] Literature review.""",
+    shortDesc = """Tsang [91] Literature review.""",
     longDesc = 
-u"""
+"""
 [91] Tsang, W.; Journal of Physical and Chemical Reference Data (1988), 17(2), 887-951.
 Literature review.  CH2OH + i-C3H7 --> C3H6 + CH3OH
 
@@ -241,9 +241,9 @@ entry(
     degeneracy = 3.0,
     kinetics = Arrhenius(A=(6.33e+14,'cm^3/(mol*s)','*|/',2), n=-0.7, Ea=(0,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2500,'K')),
     rank = 10,
-    shortDesc = u"""Tsang [91] Literature review.""",
+    shortDesc = """Tsang [91] Literature review.""",
     longDesc = 
-u"""
+"""
 [91] Tsang, W.; Journal of Physical and Chemical Reference Data (1988), 17(2), 887-951.
 Literature review.  i-C3H7 + i-C3H7 --> C3H6 + C3H8
 
@@ -265,9 +265,9 @@ entry(
     degeneracy = 3.0,
     kinetics = Arrhenius(A=(8.58e+15,'cm^3/(mol*s)','*|/',1.7), n=-1.1, Ea=(0,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2500,'K')),
     rank = 10,
-    shortDesc = u"""Tsang [92] Literature review.""",
+    shortDesc = """Tsang [92] Literature review.""",
     longDesc = 
-u"""
+"""
 [92] Tsang, W.; Journal of Physical and Chemical Reference Data (1990), 19(1), 1-68.
 Literature review: t-C4H9 + i-C3H7 --> C3H6 + i-C4H10
 
@@ -290,9 +290,9 @@ entry(
     degeneracy = 3.0,
     kinetics = Arrhenius(A=(4.56e+14,'cm^3/(mol*s)','*|/',1.5), n=-0.7, Ea=(0,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2500,'K')),
     rank = 10,
-    shortDesc = u"""Tsang [91] Literature review.""",
+    shortDesc = """Tsang [91] Literature review.""",
     longDesc = 
-u"""
+"""
 [91] Tsang, W.; Journal of Physical and Chemical Reference Data (1988), 17(2), 887-951.
 Literature review.  C2H3 + i-C3H7 --> C3H6 + C2H4
 
@@ -315,9 +315,9 @@ entry(
     degeneracy = 3.0,
     kinetics = Arrhenius(A=(1.083e+13,'cm^3/(mol*s)','*|/',2), n=0, Ea=(0,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2500,'K')),
     rank = 10,
-    shortDesc = u"""Tsang [91] Literature review.""",
+    shortDesc = """Tsang [91] Literature review.""",
     longDesc = 
-u"""
+"""
 [91] Tsang, W.; Journal of Physical and Chemical Reference Data (1988), 17(2), 887-951.
 Literature review.  C2H + i-C3H7 --> C3H6 + C2H2
 
@@ -338,9 +338,9 @@ entry(
     degeneracy = 3.0,
     kinetics = Arrhenius(A=(7.23e+13,'cm^3/(mol*s)','*|/',3), n=0, Ea=(0,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2500,'K')),
     rank = 10,
-    shortDesc = u"""Tsang [91] Literature review.""",
+    shortDesc = """Tsang [91] Literature review.""",
     longDesc = 
-u"""
+"""
 [91] Tsang, W.; Journal of Physical and Chemical Reference Data (1988), 17(2), 887-951.
 Literature review.  OH + i-C3H7 --> C3H6 + H2O
 
@@ -361,9 +361,9 @@ entry(
     degeneracy = 3.0,
     kinetics = Arrhenius(A=(5.43e+13,'cm^3/(mol*s)','*|/',3.16), n=0, Ea=(0,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1000,'K')),
     rank = 10,
-    shortDesc = u"""Baulch et al [95] literature review.""",
+    shortDesc = """Baulch et al [95] literature review.""",
     longDesc = 
-u"""
+"""
 [95] Baulch, D.L.; Cobos, C.J.; Cox, R.A.; Esser, C.; Frank, P.; Just, T.; Kerr, J.A.; Pilling, M.J.; Troe, J.; Walker, R.W.; Warnatz, J.; Journal of Physical and Chemical Reference Data (1992), 21(3), 411-734.
 pg.523: Discussion of evaluated data
 
@@ -383,9 +383,9 @@ entry(
     degeneracy = 4.0,
     kinetics = Arrhenius(A=(1.833e+13,'cm^3/(mol*s)','*|/',3), n=0, Ea=(62.1324,'kJ/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(900,'K')),
     rank = 10,
-    shortDesc = u"""[AJ] Miyoshi 2011 (Table 4, Node 'ss') dx.doi.org/10.1021/jp112152n""",
+    shortDesc = """[AJ] Miyoshi 2011 (Table 4, Node 'ss') dx.doi.org/10.1021/jp112152n""",
     longDesc = 
-u"""
+"""
 [91] Tsang, W.; Journal of Physical and Chemical Reference Data (1988), 17(2), 887-951.
 Literature review: n-C3H7 + O2 = HO2 + C3H6
 
@@ -412,9 +412,9 @@ entry(
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(3.62e+12,'cm^3/(mol*s)','*|/',5), n=0, Ea=(0,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2500,'K')),
     rank = 10,
-    shortDesc = u"""Tsang [91] Literature review.""",
+    shortDesc = """Tsang [91] Literature review.""",
     longDesc = 
-u"""
+"""
 [91] Tsang, W.; Journal of Physical and Chemical Reference Data (1988), 17(2), 887-951.
 Literature review.  CH2_triplet + n-C3H7 --> C3H6 + CH3
 
@@ -437,9 +437,9 @@ entry(
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(1.438,'cm^3/(mol*s)'), n=3.13, Ea=(-15.2716,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K')),
     rank = 6,
-    shortDesc = u"""CAC calc CBS-QB3, 1dhr""",
+    shortDesc = """CAC calc CBS-QB3, 1dhr""",
     longDesc = 
-u"""
+"""
 Converted to training reaction from rate rule: S_rad/OneDe;C/H2/Nd_Csrad
 """,
 )
@@ -450,9 +450,9 @@ entry(
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(3.62e+12,'cm^3/(mol*s)','*|/',2), n=0, Ea=(0,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2500,'K')),
     rank = 10,
-    shortDesc = u"""Tsang [91] Literature review.""",
+    shortDesc = """Tsang [91] Literature review.""",
     longDesc = 
-u"""
+"""
 [91] Tsang, W.; Journal of Physical and Chemical Reference Data (1988), 17(2), 887-951.
 Literature review.  H + n-C3H7 --> C3H6 + H2
 
@@ -473,9 +473,9 @@ entry(
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(1.526e+12,'cm^3/(mol*s)'), n=0, Ea=(-2.3012,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 11,
-    shortDesc = u"""Rough estimate based on 1/10 of #3026 in R_Recombination""",
+    shortDesc = """Rough estimate based on 1/10 of #3026 in R_Recombination""",
     longDesc = 
-u"""
+"""
 [91] Tsang, W.; Journal of Physical and Chemical Reference Data (1988), 17(2), 887-951.
 Literature review.  CH3 + n-C3H7 --> C3H6 + CH4
 
@@ -500,9 +500,9 @@ entry(
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(2.3e+13,'cm^3/(mol*s)','*|/',1.7), n=-0.32, Ea=(0,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2500,'K')),
     rank = 10,
-    shortDesc = u"""Tsang [91] Literature review.""",
+    shortDesc = """Tsang [91] Literature review.""",
     longDesc = 
-u"""
+"""
 [91] Tsang, W.; Journal of Physical and Chemical Reference Data (1988), 17(2), 887-951.
 Literature review.  CH3 + n-C3H7 --> C3H6 + CH4
 
@@ -527,9 +527,9 @@ entry(
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(2.9e+12,'cm^3/(mol*s)','*|/',1.4), n=0, Ea=(0,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2500,'K')),
     rank = 10,
-    shortDesc = u"""Tsang [91] Literature review.""",
+    shortDesc = """Tsang [91] Literature review.""",
     longDesc = 
-u"""
+"""
 [91] Tsang, W.; Journal of Physical and Chemical Reference Data (1988), 17(2), 887-951.
 Literature review.  C2H5 + n-C3H7 --> C3H6 + C2H6
 
@@ -554,9 +554,9 @@ entry(
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(3.88e+12,'cm^3/(mol*s)'), n=0, Ea=(1.50624,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 11,
-    shortDesc = u"""Rough estimate based on 1/10 of #3027 in R_Recombination""",
+    shortDesc = """Rough estimate based on 1/10 of #3027 in R_Recombination""",
     longDesc = 
-u"""
+"""
 [91] Tsang, W.; Journal of Physical and Chemical Reference Data (1988), 17(2), 887-951.
 Literature review.  C2H5 + n-C3H7 --> C3H6 + C2H6
 
@@ -581,9 +581,9 @@ entry(
     degeneracy = 4.0,
     kinetics = Arrhenius(A=(5.8e+12,'cm^3/(mol*s)','*|/',3), n=0, Ea=(-0.54392,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2500,'K')),
     rank = 10,
-    shortDesc = u"""Tsang [93] Literature review.""",
+    shortDesc = """Tsang [93] Literature review.""",
     longDesc = 
-u"""
+"""
 [93] Tsang, W.; Journal of Physical and Chemical Reference Data (1991), 20(2), 221-273.
 Literature review: C3H5 + nC3H7 --> C3H6 + C3H6
 
@@ -607,9 +607,9 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(7.63e+11,'cm^3/(mol*s)'), n=0, Ea=(-2.3012,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 11,
-    shortDesc = u"""VERY Rough estimate based on 1/10 of #3026 in R_Recombination""",
+    shortDesc = """VERY Rough estimate based on 1/10 of #3026 in R_Recombination""",
     longDesc = 
-u"""
+"""
 Converted to training reaction from rate rule: S_rad/OneDe;C/H/NdNd_Csrad
 """,
 )
@@ -620,9 +620,9 @@ entry(
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(9.64e+11,'cm^3/(mol*s)','*|/',3), n=0, Ea=(0,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2500,'K')),
     rank = 10,
-    shortDesc = u"""Tsang [91] Literature review.""",
+    shortDesc = """Tsang [91] Literature review.""",
     longDesc = 
-u"""
+"""
 [91] Tsang, W.; Journal of Physical and Chemical Reference Data (1988), 17(2), 887-951.
 Literature review.  CH2OH + n-C3H7 --> C3H6 + CH3OH
 
@@ -644,9 +644,9 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(7.63e+11,'cm^3/(mol*s)'), n=0, Ea=(-2.3012,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 11,
-    shortDesc = u"""Rough estimate based on 1/10 of #3026 in R_Recombination""",
+    shortDesc = """Rough estimate based on 1/10 of #3026 in R_Recombination""",
     longDesc = 
-u"""
+"""
 [91] Tsang, W.; Journal of Physical and Chemical Reference Data (1988), 17(2), 887-951.
 Literature review.  CH2OH + n-C3H7 --> C3H6 + CH3OH
 
@@ -668,9 +668,9 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(5.13e+13,'cm^3/(mol*s)','*|/',2), n=-0.35, Ea=(0,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2500,'K')),
     rank = 10,
-    shortDesc = u"""Tsang [91] Literature review.""",
+    shortDesc = """Tsang [91] Literature review.""",
     longDesc = 
-u"""
+"""
 [91] Tsang, W.; Journal of Physical and Chemical Reference Data (1988), 17(2), 887-951.
 Literature review.  i-C3H7 + n-C3H7 --> C3H6 + C3H8
 
@@ -696,9 +696,9 @@ entry(
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(4.32e+14,'cm^3/(mol*s)','*|/',2), n=-0.75, Ea=(0,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2500,'K')),
     rank = 10,
-    shortDesc = u"""Tsang [92] Literature review.""",
+    shortDesc = """Tsang [92] Literature review.""",
     longDesc = 
-u"""
+"""
 [92] Tsang, W.; Journal of Physical and Chemical Reference Data (1990), 19(1), 1-68.
 Literature review: t-C4H9 + n-C3H7 --> C3H6 + i-C4H10
 
@@ -722,9 +722,9 @@ entry(
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(2.42e+12,'cm^3/(mol*s)','*|/',3), n=0, Ea=(0,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2500,'K')),
     rank = 10,
-    shortDesc = u"""Tsang [91] Literature review.""",
+    shortDesc = """Tsang [91] Literature review.""",
     longDesc = 
-u"""
+"""
 [91] Tsang, W.; Journal of Physical and Chemical Reference Data (1988), 17(2), 887-951.
 Literature review.  C2H3 + n-C3H7 --> C3H6 + C2H4
 
@@ -745,9 +745,9 @@ entry(
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(1.288e+09,'cm^3/(mol*s)'), n=1.19, Ea=(2.13384,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 11,
-    shortDesc = u"""Very rough based on R_Recomb #491""",
+    shortDesc = """Very rough based on R_Recomb #491""",
     longDesc = 
-u"""
+"""
 Converted to training reaction from rate rule: S_rad/NonDeS;C/H2/Nd_Csrad/H/Cd
 """,
 )
@@ -758,9 +758,9 @@ entry(
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(1.206e+13,'cm^3/(mol*s)','*|/',3), n=0, Ea=(0,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2500,'K')),
     rank = 10,
-    shortDesc = u"""Tsang [91] Literature review.""",
+    shortDesc = """Tsang [91] Literature review.""",
     longDesc = 
-u"""
+"""
 [91] Tsang, W.; Journal of Physical and Chemical Reference Data (1988), 17(2), 887-951.
 Literature review.  C2H + n-C3H7 --> C3H6 + C2H2
 
@@ -782,9 +782,9 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(6.44e+08,'cm^3/(mol*s)'), n=1.19, Ea=(2.13384,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 11,
-    shortDesc = u"""Very rough based on R_Recomb #491""",
+    shortDesc = """Very rough based on R_Recomb #491""",
     longDesc = 
-u"""
+"""
 Converted to training reaction from rate rule: S_rad/NonDeS;S_Csrad
 """,
 )
@@ -795,9 +795,9 @@ entry(
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(4.82e+13,'cm^3/(mol*s)','*|/',3), n=0, Ea=(0,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2500,'K')),
     rank = 10,
-    shortDesc = u"""Tsang [91] Literature review.""",
+    shortDesc = """Tsang [91] Literature review.""",
     longDesc = 
-u"""
+"""
 [91] Tsang, W.; Journal of Physical and Chemical Reference Data (1988), 17(2), 887-951.
 Literature review.  OH + n-C3H7 --> C3H6 + H2O
 
@@ -818,9 +818,9 @@ entry(
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(2.4088e+10,'cm^3/(mol*s)','*|/',5), n=0, Ea=(0,'kJ/mol'), T0=(1,'K'), Tmin=(600,'K'), Tmax=(1000,'K')),
     rank = 10,
-    shortDesc = u"""Tsang [92] Literature review.""",
+    shortDesc = """Tsang [92] Literature review.""",
     longDesc = 
-u"""
+"""
 [92] Tsang, W.; Journal of Physical and Chemical Reference Data (1990), 19(1), 1-68.
 Literature review: O2 + iC4H9 --> iC4H8 + HO2
 
@@ -845,9 +845,9 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(6.03e+12,'cm^3/(mol*s)','*|/',3), n=0, Ea=(0,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2500,'K')),
     rank = 10,
-    shortDesc = u"""Tsang [92] Literature review.""",
+    shortDesc = """Tsang [92] Literature review.""",
     longDesc = 
-u"""
+"""
 [92] Tsang, W.; Journal of Physical and Chemical Reference Data (1990), 19(1), 1-68.
 Literature review: C2H + i-C4H9 --> i-C4H8 + C2H2
 
@@ -870,9 +870,9 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(9.04e+11,'cm^3/(mol*s)','*|/',2), n=0, Ea=(0,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2500,'K')),
     rank = 10,
-    shortDesc = u"""Tsang [92] Literature review.""",
+    shortDesc = """Tsang [92] Literature review.""",
     longDesc = 
-u"""
+"""
 [92] Tsang, W.; Journal of Physical and Chemical Reference Data (1990), 19(1), 1-68.
 Literature review: H + i-C4H9 --> i-C4H8 + H2
 
@@ -896,9 +896,9 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(6.02e+12,'cm^3/(mol*s)','*|/',2), n=-0.32, Ea=(0,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2500,'K')),
     rank = 10,
-    shortDesc = u"""Tsang [92] Literature review.""",
+    shortDesc = """Tsang [92] Literature review.""",
     longDesc = 
-u"""
+"""
 [92] Tsang, W.; Journal of Physical and Chemical Reference Data (1990), 19(1), 1-68.
 Literature review: CH3 + i-C4H9 --> i-C4H8 + CH4
 
@@ -920,9 +920,9 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(8.43e+11,'cm^3/(mol*s)','*|/',2), n=0, Ea=(0,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2500,'K')),
     rank = 10,
-    shortDesc = u"""Tsang [92] Literature review.""",
+    shortDesc = """Tsang [92] Literature review.""",
     longDesc = 
-u"""
+"""
 [92] Tsang, W.; Journal of Physical and Chemical Reference Data (1990), 19(1), 1-68.
 Literature review: C2H5 + i-C4H9 --> i-C4H8 + C2H6
 
@@ -946,9 +946,9 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.41e+11,'cm^3/(mol*s)','*|/',3), n=0, Ea=(0,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2500,'K')),
     rank = 10,
-    shortDesc = u"""Tsang [92] Literature review.""",
+    shortDesc = """Tsang [92] Literature review.""",
     longDesc = 
-u"""
+"""
 [92] Tsang, W.; Journal of Physical and Chemical Reference Data (1990), 19(1), 1-68.
 Literature review: CH2OH + i-C4H9 --> i-C4H8 + CH3OH
 
@@ -975,9 +975,9 @@ entry(
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(1.566e+12,'cm^3/(mol*s)','*|/',3), n=0, Ea=(-0.54392,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2500,'K')),
     rank = 10,
-    shortDesc = u"""Tsang [93] Literature review.""",
+    shortDesc = """Tsang [93] Literature review.""",
     longDesc = 
-u"""
+"""
 [93] Tsang, W.; Journal of Physical and Chemical Reference Data (1991), 20(2), 221-273.
 Literature review: C3H5 + iC4H9 --> iC4H8 + C3H6
 
@@ -1000,9 +1000,9 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.56e+13,'cm^3/(mol*s)','*|/',2), n=-0.35, Ea=(0,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2500,'K')),
     rank = 10,
-    shortDesc = u"""Tsang [92] Literature review.""",
+    shortDesc = """Tsang [92] Literature review.""",
     longDesc = 
-u"""
+"""
 [92] Tsang, W.; Journal of Physical and Chemical Reference Data (1990), 19(1), 1-68.
 Literature review: i-C3H7 + i-C4H9 --> i-C4H8 + C3H8
 
@@ -1028,9 +1028,9 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.08e+14,'cm^3/(mol*s)','*|/',2), n=-0.75, Ea=(0,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2500,'K')),
     rank = 10,
-    shortDesc = u"""Tsang [92] Literature review.""",
+    shortDesc = """Tsang [92] Literature review.""",
     longDesc = 
-u"""
+"""
 [92] Tsang, W.; Journal of Physical and Chemical Reference Data (1990), 19(1), 1-68.
 Literature review: t-C4H9 + i-C4H9 --> i-C4H8 + i-C4H10
 
@@ -1059,9 +1059,9 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(8.43e+11,'cm^3/(mol*s)','*|/',4), n=0, Ea=(0,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2500,'K')),
     rank = 10,
-    shortDesc = u"""Tsang [92] Literature review.""",
+    shortDesc = """Tsang [92] Literature review.""",
     longDesc = 
-u"""
+"""
 [92] Tsang, W.; Journal of Physical and Chemical Reference Data (1990), 19(1), 1-68.
 Literature review: C2H3 + i-C4H9 --> i-C4H8 + C2H4
 
@@ -1082,9 +1082,9 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.21e+13,'cm^3/(mol*s)','*|/',3), n=0, Ea=(0,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2500,'K')),
     rank = 10,
-    shortDesc = u"""Tsang [92] Literature review.""",
+    shortDesc = """Tsang [92] Literature review.""",
     longDesc = 
-u"""
+"""
 [92] Tsang, W.; Journal of Physical and Chemical Reference Data (1990), 19(1), 1-68.
 Literature review: OH + i-C4H9 --> i-C4H8 + H2O
 
@@ -1106,9 +1106,9 @@ entry(
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(1.2044e+12,'cm^3/(mol*s)'), n=0, Ea=(56.6932,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2500,'K')),
     rank = 10,
-    shortDesc = u"""Tsang [93] Literature review.""",
+    shortDesc = """Tsang [93] Literature review.""",
     longDesc = 
-u"""
+"""
 [93] Tsang, W.; Journal of Physical and Chemical Reference Data (1991), 20(2), 221-273.
 Literature review: O2 + C3H5 --> H2C=C=CH2 + HO2
 
@@ -1139,9 +1139,9 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(3.01e+12,'cm^3/(mol*s)','*|/',3), n=0, Ea=(25.104,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2500,'K')),
     rank = 11,
-    shortDesc = u"""SSM estimate. Original value with 6 kcal barrier""",
+    shortDesc = """SSM estimate. Original value with 6 kcal barrier""",
     longDesc = 
-u"""
+"""
 [93] Tsang, W.; Journal of Physical and Chemical Reference Data (1991), 20(2), 221-273.
 Literature review: CH3 + C3H5 --> H2C=C=CH2 + CH4
 
@@ -1171,9 +1171,9 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(9.64e+11,'cm^3/(mol*s)','*|/',2), n=0, Ea=(25.104,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2500,'K')),
     rank = 11,
-    shortDesc = u"""SSM estimate. Original value with 6 kcal barrier""",
+    shortDesc = """SSM estimate. Original value with 6 kcal barrier""",
     longDesc = 
-u"""
+"""
 [93] Tsang, W.; Journal of Physical and Chemical Reference Data (1991), 20(2), 221-273.
 Literature review: C2H5 + C3H5 --> H2C=C=CH2 + C2H6
 
@@ -1196,9 +1196,9 @@ entry(
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(1.686e+11,'cm^3/(mol*s)','*|/',2.5), n=0, Ea=(25.104,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2500,'K')),
     rank = 11,
-    shortDesc = u"""SSM estimate. Original value with 6 kcal barrier""",
+    shortDesc = """SSM estimate. Original value with 6 kcal barrier""",
     longDesc = 
-u"""
+"""
 [93] Tsang, W.; Journal of Physical and Chemical Reference Data (1991), 20(2), 221-273.
 Literature review: C3H5 + C3H5 --> H2C=C=CH2 + C3H6
 
@@ -1221,9 +1221,9 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(4.58e+12,'cm^3/(mol*s)','*|/',3), n=0, Ea=(25.104,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2500,'K')),
     rank = 11,
-    shortDesc = u"""SSM estimate. Original value with 6 kcal barrier""",
+    shortDesc = """SSM estimate. Original value with 6 kcal barrier""",
     longDesc = 
-u"""
+"""
 [93] Tsang, W.; Journal of Physical and Chemical Reference Data (1991), 20(2), 221-273.
 Literature review: iC3H7 + C3H5 --> H2C=C=CH2 + C3H8
 
@@ -1247,9 +1247,9 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.89e+13,'cm^3/(mol*s)','*|/',3), n=0, Ea=(25.104,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2500,'K')),
     rank = 11,
-    shortDesc = u"""SSM estimate. Original value with 6 kcal barrier""",
+    shortDesc = """SSM estimate. Original value with 6 kcal barrier""",
     longDesc = 
-u"""
+"""
 [93] Tsang, W.; Journal of Physical and Chemical Reference Data (1991), 20(2), 221-273.
 Literature review: tC4H9 + C3H5 --> H2C=C=CH2 + iC4H10
 
@@ -1273,9 +1273,9 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.41e+12,'cm^3/(mol*s)','*|/',3), n=0, Ea=(25.104,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2500,'K')),
     rank = 11,
-    shortDesc = u"""SSM estimate. Original value with 6 kcal barrier""",
+    shortDesc = """SSM estimate. Original value with 6 kcal barrier""",
     longDesc = 
-u"""
+"""
 [93] Tsang, W.; Journal of Physical and Chemical Reference Data (1991), 20(2), 221-273.
 Literature review: C2H3 + C3H5 --> H2C=C=CH2 + C2H4
 
@@ -1296,9 +1296,9 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(6.03e+12,'cm^3/(mol*s)','*|/',3), n=0, Ea=(25.104,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2500,'K')),
     rank = 11,
-    shortDesc = u"""SSM estimate. Original value with 6 kcal barrier""",
+    shortDesc = """SSM estimate. Original value with 6 kcal barrier""",
     longDesc = 
-u"""
+"""
 [93] Tsang, W.; Journal of Physical and Chemical Reference Data (1991), 20(2), 221-273.
 Literature review: OH + C3H5 --> H2C=C=CH2 + H2O
 
@@ -1319,9 +1319,9 @@ entry(
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(1.14418e+13,'cm^3/(mol*s)','*|/',2), n=0, Ea=(0,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K')),
     rank = 10,
-    shortDesc = u"""Atkinson et al [98] literature review.""",
+    shortDesc = """Atkinson et al [98] literature review.""",
     longDesc = 
-u"""
+"""
 [98] Atkinson, R.; Baulch, D.L.; Cox, R.A.; Crowley, J.N.; Hampson, R.F., Jr.; Kerr, J.A.; Rossi, M.J.; Troe, J. "Summary of Evaluated Kinetic and Photochemical Data for Atmospheric Chemistry,", 2001.
 Literature review: CH3CHOH + O2 --> CH3CHO + HO2
 
@@ -1343,9 +1343,9 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(9.04e+13,'cm^3/(mol*s)','+|-',3.01e+13), n=0, Ea=(0,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K')),
     rank = 6,
-    shortDesc = u"""Grotheer et al [189].""",
+    shortDesc = """Grotheer et al [189].""",
     longDesc = 
-u"""
+"""
 [189] Grotheer, H.; Riekert, G.; Walter, D.; Just, T. Symp. Int. Combust. Proc. 1989, 22, 963.
 Absolute value measured directly. Excitation: discharge, analysis: mass spectroscopy. Original uncertainty 3.0E+13
 
@@ -1369,9 +1369,9 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.21e+12,'cm^3/(mol*s)','*|/',3), n=0, Ea=(0,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2500,'K')),
     rank = 10,
-    shortDesc = u"""Tsang [90] Literature review.""",
+    shortDesc = """Tsang [90] Literature review.""",
     longDesc = 
-u"""
+"""
 [90] Tsang, W.; Journal of Physical and Chemical Reference Data (1987), 16(3), 471-508.
 Literature review: CH2 + CH2OH --> CH3 + CH2O
 
@@ -1393,9 +1393,9 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(2e+13,'cm^3/(mol*s)','+|-',1e+13), n=0, Ea=(0,'kJ/mol'), T0=(1,'K'), Tmin=(295,'K')),
     rank = 10,
-    shortDesc = u"""Edelbuttel-Einhaus et al [190].""",
+    shortDesc = """Edelbuttel-Einhaus et al [190].""",
     longDesc = 
-u"""
+"""
 [190] Edelbuttel-Einhaus, J.; Hoyermann, K.; Rohde, G.; Seeba, J. Symp. Int. Combust. Proc. 1992, 22, 661.
 Data derived from fitting to a complex mechanism. Excitation: discharge, analysis: mass spectroscopy. Original uncertainty 1.0E+13
 
@@ -1422,9 +1422,9 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(8.49e+13,'cm^3/(mol*s)'), n=0, Ea=(0,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K')),
     rank = 6,
-    shortDesc = u"""Pagsberg et al [191].""",
+    shortDesc = """Pagsberg et al [191].""",
     longDesc = 
-u"""
+"""
 [191] Pagsberg, P.; Munk, J.; Sillesen, A.; Anastasi, C. Chem. Phys. Lett. 1988, 146, 375.
 Absolute value measured directly. Excitatio: electron beam, analysis: Vis-UV absorption.
 
@@ -1452,9 +1452,9 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.41e+12,'cm^3/(mol*s)','*|/',5), n=0, Ea=(0,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2500,'K')),
     rank = 10,
-    shortDesc = u"""Tsang [90] Literature review.""",
+    shortDesc = """Tsang [90] Literature review.""",
     longDesc = 
-u"""
+"""
 [90] Tsang, W.; Journal of Physical and Chemical Reference Data (1987), 16(3), 471-508.
 Literature review: C2H5 + CH2OH --> C2H6 + CH2O
 
@@ -1477,9 +1477,9 @@ entry(
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(3.62e+13,'cm^3/(mol*s)','*|/',2.5), n=0, Ea=(0,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2500,'K')),
     rank = 10,
-    shortDesc = u"""Tsang [93] Literature review.""",
+    shortDesc = """Tsang [93] Literature review.""",
     longDesc = 
-u"""
+"""
 [93] Tsang, W.; Journal of Physical and Chemical Reference Data (1991), 20(2), 221-273.
 Literature review: C3H5 + CH2OH --> CH2O + C3H6
 
@@ -1502,9 +1502,9 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(4.82e+12,'cm^3/(mol*s)','*|/',2), n=0, Ea=(0,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2500,'K')),
     rank = 10,
-    shortDesc = u"""Tsang [90] Literature review.""",
+    shortDesc = """Tsang [90] Literature review.""",
     longDesc = 
-u"""
+"""
 [90] Tsang, W.; Journal of Physical and Chemical Reference Data (1987), 16(3), 471-508.
 Literature review: CH2OH + CH2OH --> CH3OH + CH2O
 
@@ -1534,9 +1534,9 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.35e+12,'cm^3/(mol*s)','*|/',5), n=0, Ea=(0,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2500,'K')),
     rank = 10,
-    shortDesc = u"""Tsang [91] Literature review.""",
+    shortDesc = """Tsang [91] Literature review.""",
     longDesc = 
-u"""
+"""
 [91] Tsang, W.; Journal of Physical and Chemical Reference Data (1988), 17(2), 887-951.
 Literature review: CH2OH + i-C3H7 = C3H8 + CH2O
 
@@ -1557,9 +1557,9 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(3.47e+14,'cm^3/(mol*s)','*|/',3), n=-0.75, Ea=(0,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2500,'K')),
     rank = 10,
-    shortDesc = u"""Tsang [92] Literature review.""",
+    shortDesc = """Tsang [92] Literature review.""",
     longDesc = 
-u"""
+"""
 [92] Tsang, W.; Journal of Physical and Chemical Reference Data (1990), 19(1), 1-68.
 Literature review: t-C4H9 + CH2OH = CH2O + i-C4H10
 
@@ -1585,9 +1585,9 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(3.01e+13,'cm^3/(mol*s)','*|/',2.5), n=0, Ea=(0,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2500,'K')),
     rank = 10,
-    shortDesc = u"""Tsang [90] Literature review.""",
+    shortDesc = """Tsang [90] Literature review.""",
     longDesc = 
-u"""
+"""
 [90] Tsang, W.; Journal of Physical and Chemical Reference Data (1987), 16(3), 471-508.
 Literature review: CH2OH + C2H3 --> C2H4 + CH2O
 
@@ -1610,9 +1610,9 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.81e+14,'cm^3/(mol*s)','*|/',3), n=0, Ea=(0,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2500,'K')),
     rank = 10,
-    shortDesc = u"""Tsang [90] Literature review.""",
+    shortDesc = """Tsang [90] Literature review.""",
     longDesc = 
-u"""
+"""
 [90] Tsang, W.; Journal of Physical and Chemical Reference Data (1987), 16(3), 471-508.
 Literature review: HCO + CH2OH --> CH2O + CH2O
 
@@ -1635,9 +1635,9 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.41e+13,'cm^3/(mol*s)','*|/',2), n=0, Ea=(0,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2500,'K')),
     rank = 10,
-    shortDesc = u"""Tsang [90] Literature review.""",
+    shortDesc = """Tsang [90] Literature review.""",
     longDesc = 
-u"""
+"""
 [90] Tsang, W.; Journal of Physical and Chemical Reference Data (1987), 16(3), 471-508.
 Literature review: OH + CH2OH --> H2O + CH2O
 
@@ -1660,9 +1660,9 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.41e+13,'cm^3/(mol*s)','*|/',2), n=0, Ea=(0,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2500,'K')),
     rank = 10,
-    shortDesc = u"""Tsang [90] Literature review.""",
+    shortDesc = """Tsang [90] Literature review.""",
     longDesc = 
-u"""
+"""
 [90] Tsang, W.; Journal of Physical and Chemical Reference Data (1987), 16(3), 471-508.
 Literature review: CH3O + CH2OH --> CH3OH + CH2O
 
@@ -1687,9 +1687,9 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.21e+13,'cm^3/(mol*s)','*|/',2), n=0, Ea=(0,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2500,'K')),
     rank = 10,
-    shortDesc = u"""Tsang [90] Literature review.""",
+    shortDesc = """Tsang [90] Literature review.""",
     longDesc = 
-u"""
+"""
 [90] Tsang, W.; Journal of Physical and Chemical Reference Data (1987), 16(3), 471-508.
 Literature review: HO2 + CH2OH --> CH3OH + H2O2
 
@@ -1712,9 +1712,9 @@ entry(
     degeneracy = 3.0,
     kinetics = Arrhenius(A=(2.937e+12,'cm^3/(mol*s)'), n=0, Ea=(0,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K')),
     rank = 10,
-    shortDesc = u"""Tycholiz et al [A].""",
+    shortDesc = """Tycholiz et al [A].""",
     longDesc = 
-u"""
+"""
 Converted to training reaction from rate rule: S_rad/NonDeC;Cmethyl_Srad
 """,
 )
@@ -1725,9 +1725,9 @@ entry(
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(6.74e-06,'cm^3/(mol*s)'), n=4.35, Ea=(4.76976,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 6,
-    shortDesc = u"""CAC calc CBS-QB3 1dhr""",
+    shortDesc = """CAC calc CBS-QB3 1dhr""",
     longDesc = 
-u"""
+"""
 Converted to training reaction from rate rule: C_rad/H/CsS;C/H2/Nd_Csrad
 """,
 )
@@ -1738,9 +1738,9 @@ entry(
     degeneracy = 6.0,
     kinetics = Arrhenius(A=(4.338e+13,'cm^3/(mol*s)','*|/',10), n=0, Ea=(92.048,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K')),
     rank = 11,
-    shortDesc = u"""S.S. Merchant estimate""",
+    shortDesc = """S.S. Merchant estimate""",
     longDesc = 
-u"""
+"""
 SSM estimate based on Miyoshi rate rule for secondary carbon in dx.doi.org/10.1021/jp112152n, 
 modified to account for allylic stability (+7 kcal)
 
@@ -1754,9 +1754,9 @@ entry(
     degeneracy = 4.0,
     kinetics = Arrhenius(A=(4e+10,'cm^3/(mol*s)'), n=0, Ea=(0,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2500,'K')),
     rank = 10,
-    shortDesc = u"""Estimated value, AG Vandeputte""",
+    shortDesc = """Estimated value, AG Vandeputte""",
     longDesc = 
-u"""
+"""
 Converted to training reaction from rate rule: O2b;C/H2/De_Csrad
 """,
 )
@@ -1767,9 +1767,9 @@ entry(
     degeneracy = 4.0,
     kinetics = Arrhenius(A=(4e+10,'cm^3/(mol*s)'), n=0, Ea=(0,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2500,'K')),
     rank = 10,
-    shortDesc = u"""Estimated value, AG Vandeputte""",
+    shortDesc = """Estimated value, AG Vandeputte""",
     longDesc = 
-u"""
+"""
 Converted to training reaction from rate rule: O2b;C/H2/Nd_Rrad
 """,
 )
@@ -1780,9 +1780,9 @@ entry(
     degeneracy = 4.0,
     kinetics = Arrhenius(A=(4e+10,'cm^3/(mol*s)'), n=0, Ea=(0,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2500,'K')),
     rank = 10,
-    shortDesc = u"""Estimated value, AG Vandeputte""",
+    shortDesc = """Estimated value, AG Vandeputte""",
     longDesc = 
-u"""
+"""
 Converted to training reaction from rate rule: O2b;C/H2/De_Rrad
 """,
 )
@@ -1793,9 +1793,9 @@ entry(
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(2e+10,'cm^3/(mol*s)'), n=0, Ea=(0,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2500,'K')),
     rank = 10,
-    shortDesc = u"""Estimated value, AG Vandeputte""",
+    shortDesc = """Estimated value, AG Vandeputte""",
     longDesc = 
-u"""
+"""
 Converted to training reaction from rate rule: O2b;C/H/NdNd_Rrad
 """,
 )
@@ -1806,9 +1806,9 @@ entry(
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(2e+10,'cm^3/(mol*s)'), n=0, Ea=(0,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2500,'K')),
     rank = 10,
-    shortDesc = u"""Estimated value, AG Vandeputte""",
+    shortDesc = """Estimated value, AG Vandeputte""",
     longDesc = 
-u"""
+"""
 Converted to training reaction from rate rule: O2b;C/H/NdDe_Rrad
 """,
 )
@@ -1819,9 +1819,9 @@ entry(
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(2e+10,'cm^3/(mol*s)'), n=0, Ea=(0,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2500,'K')),
     rank = 10,
-    shortDesc = u"""Estimated value, AG Vandeputte""",
+    shortDesc = """Estimated value, AG Vandeputte""",
     longDesc = 
-u"""
+"""
 Converted to training reaction from rate rule: O2b;C/H/DeDe_Rrad
 """,
 )
@@ -1832,9 +1832,9 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(920000,'cm^3/(mol*s)'), n=1.94, Ea=(-4.8116,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2500,'K')),
     rank = 2,
-    shortDesc = u"""Added by Beat Buesser""",
+    shortDesc = """Added by Beat Buesser""",
     longDesc = 
-u"""
+"""
 Added by Beat Buesser, value for reaction: NH2 + HO2 = NH3 + O2 (B&D #14d) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 
 Degeneracy not recalculated
@@ -1849,9 +1849,9 @@ entry(
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(2.4e+12,'cm^3/(mol*s)'), n=-0.34, Ea=(0.6276,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2500,'K')),
     rank = 2,
-    shortDesc = u"""Added by Beat Buesser""",
+    shortDesc = """Added by Beat Buesser""",
     longDesc = 
-u"""
+"""
 Added by Beat Buesser, value for reaction: NNH + O2 = N2 + HO2 (B&D #28b1) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 
 Converted to training reaction from rate rule: O2b;N3d/H_d_Nrad
@@ -1864,9 +1864,9 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.4e+08,'cm^3/(mol*s)'), n=1.5, Ea=(-3.72376,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2500,'K')),
     rank = 2,
-    shortDesc = u"""Added by Beat Buesser""",
+    shortDesc = """Added by Beat Buesser""",
     longDesc = 
-u"""
+"""
 Added by Beat Buesser, value for reaction: NNH + H = N2 + H2 (B&D #28c) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 
 Converted to training reaction from rate rule: H_rad;N3d/H_d_Nrad
@@ -1879,9 +1879,9 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.2e+06,'cm^3/(mol*s)'), n=2, Ea=(-4.97896,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2500,'K')),
     rank = 2,
-    shortDesc = u"""Added by Beat Buesser""",
+    shortDesc = """Added by Beat Buesser""",
     longDesc = 
-u"""
+"""
 Added by Beat Buesser, value for reaction: NNH + OH = N2 + H2O (B&D #28d2) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 
 Converted to training reaction from rate rule: O_pri_rad;N3d/H_d_Nrad
@@ -1894,9 +1894,9 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.7e+08,'cm^3/(mol*s)'), n=1.5, Ea=(-3.72376,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2500,'K')),
     rank = 2,
-    shortDesc = u"""Added by Beat Buesser""",
+    shortDesc = """Added by Beat Buesser""",
     longDesc = 
-u"""
+"""
 Added by Beat Buesser, value for reaction: NNH + O = N2 + OH (B&D #28e2) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 
 Converted to training reaction from rate rule: O_atom_triplet;N3d/H_d_Nrad
@@ -1909,9 +1909,9 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(920000,'cm^3/(mol*s)'), n=1.94, Ea=(-4.8116,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2500,'K')),
     rank = 2,
-    shortDesc = u"""Added by Beat Buesser""",
+    shortDesc = """Added by Beat Buesser""",
     longDesc = 
-u"""
+"""
 Added by Beat Buesser, value for reaction: NNH + NH2 = N2 + NH3 (B&D #28f) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 
 Converted to training reaction from rate rule: NH2_rad;N3d/H_d_Nrad
@@ -1924,9 +1924,9 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(14000,'cm^3/(mol*s)'), n=2.69, Ea=(-6.6944,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2500,'K')),
     rank = 2,
-    shortDesc = u"""Added by Beat Buesser""",
+    shortDesc = """Added by Beat Buesser""",
     longDesc = 
-u"""
+"""
 Added by Beat Buesser, value for reaction: NNH + HO2 = N2 + H2O2 (B&D #28g1) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 
 Converted to training reaction from rate rule: O_rad/NonDeO;N3d/H_d_Nrad
@@ -1939,9 +1939,9 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.2e+06,'cm^3/(mol*s)'), n=2, Ea=(-4.97896,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2500,'K')),
     rank = 2,
-    shortDesc = u"""Added by Beat Buesser""",
+    shortDesc = """Added by Beat Buesser""",
     longDesc = 
-u"""
+"""
 Added by Beat Buesser, value for reaction: NNH + NO = N2 + HNO (B&D #28h) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 
 Converted to training reaction from rate rule: N3d_rad/O;N3d/H_d_Nrad
@@ -1954,9 +1954,9 @@ entry(
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(9.6e+08,'cm^3/(mol*s)'), n=1.5, Ea=(-3.72376,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2500,'K')),
     rank = 2,
-    shortDesc = u"""Added by Beat Buesser""",
+    shortDesc = """Added by Beat Buesser""",
     longDesc = 
-u"""
+"""
 Added by Beat Buesser, value for reaction: H2NN + H = NNH + H2 (B&D #30c2) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 
 Converted to training reaction from rate rule: H_rad;N3s/H2_s_Nbirad
@@ -1969,9 +1969,9 @@ entry(
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(6.6e+08,'cm^3/(mol*s)'), n=1.5, Ea=(-3.72376,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2500,'K')),
     rank = 2,
-    shortDesc = u"""Added by Beat Buesser""",
+    shortDesc = """Added by Beat Buesser""",
     longDesc = 
-u"""
+"""
 Added by Beat Buesser, value for reaction: H2NN + O = NNH + OH (B&D #30d2) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 
 Converted to training reaction from rate rule: O_atom_triplet;N3s/H2_s_Nbirad
@@ -1984,9 +1984,9 @@ entry(
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(4.8e+06,'cm^3/(mol*s)'), n=2, Ea=(-4.97896,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2500,'K')),
     rank = 2,
-    shortDesc = u"""Added by Beat Buesser""",
+    shortDesc = """Added by Beat Buesser""",
     longDesc = 
-u"""
+"""
 Added by Beat Buesser, value for reaction: H2NN + OH = NNH + H2O (B&D #30e2) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 
 Converted to training reaction from rate rule: O_pri_rad;N3s/H2_s_Nbirad
@@ -1999,9 +1999,9 @@ entry(
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(3.2e+06,'cm^3/(mol*s)'), n=1.87, Ea=(0.54392,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2500,'K')),
     rank = 2,
-    shortDesc = u"""Added by Beat Buesser""",
+    shortDesc = """Added by Beat Buesser""",
     longDesc = 
-u"""
+"""
 Added by Beat Buesser, value for reaction: H2NN + CH3 = NNH + CH4 (B&D #30f3) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 
 Converted to training reaction from rate rule: C_methyl;N3s/H2_s_Nbirad
@@ -2014,9 +2014,9 @@ entry(
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(3.6e+06,'cm^3/(mol*s)'), n=1.94, Ea=(-4.8116,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2500,'K')),
     rank = 2,
-    shortDesc = u"""Added by Beat Buesser""",
+    shortDesc = """Added by Beat Buesser""",
     longDesc = 
-u"""
+"""
 Added by Beat Buesser, value for reaction: H2NN + NH2 = NNH + NH3 (B&D #30g2) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 
 Converted to training reaction from rate rule: NH2_rad;N3s/H2_s_Nbirad
@@ -2029,9 +2029,9 @@ entry(
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(58000,'cm^3/(mol*s)'), n=2.69, Ea=(-6.6944,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2500,'K')),
     rank = 2,
-    shortDesc = u"""Added by Beat Buesser""",
+    shortDesc = """Added by Beat Buesser""",
     longDesc = 
-u"""
+"""
 Added by Beat Buesser, value for reaction: H2NN + HO2 = NNH + H2O2 (B&D #30h2) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 
 Converted to training reaction from rate rule: O_rad/NonDeO;N3s/H2_s_Nbirad
@@ -2044,9 +2044,9 @@ entry(
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(4.8e+08,'cm^3/(mol*s)'), n=1.5, Ea=(0,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2500,'K')),
     rank = 2,
-    shortDesc = u"""Added by Beat Buesser""",
+    shortDesc = """Added by Beat Buesser""",
     longDesc = 
-u"""
+"""
 Added by Beat Buesser, value for reaction: N2H3 + H = N2H2 + H2 (B&D #31b) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 
 Converted to training reaction from rate rule: H_rad;N3s/H2_s_Nrad
@@ -2059,9 +2059,9 @@ entry(
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(3.4e+08,'cm^3/(mol*s)'), n=1.5, Ea=(-2.7196,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2500,'K')),
     rank = 2,
-    shortDesc = u"""Added by Beat Buesser""",
+    shortDesc = """Added by Beat Buesser""",
     longDesc = 
-u"""
+"""
 Added by Beat Buesser, value for reaction: N2H3 + O = N2H2 + OH (B&D #31c3) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 
 Converted to training reaction from rate rule: O_atom_triplet;N3s/H2_s_Nrad
@@ -2074,9 +2074,9 @@ entry(
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(2.4e+06,'cm^3/(mol*s)'), n=2, Ea=(-4.97896,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2500,'K')),
     rank = 2,
-    shortDesc = u"""Added by Beat Buesser""",
+    shortDesc = """Added by Beat Buesser""",
     longDesc = 
-u"""
+"""
 Added by Beat Buesser, value for reaction: N2H3 + OH = N2H2 + H2O (B&D #31d1) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 
 Converted to training reaction from rate rule: O_pri_rad;N3s/H2_s_Nrad
@@ -2089,9 +2089,9 @@ entry(
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(1.64e+06,'cm^3/(mol*s)'), n=1.87, Ea=(7.61488,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2500,'K')),
     rank = 2,
-    shortDesc = u"""Added by Beat Buesser""",
+    shortDesc = """Added by Beat Buesser""",
     longDesc = 
-u"""
+"""
 Added by Beat Buesser, value for reaction: N2H3 + CH3 = N2H2 + CH4 (B&D #31e1) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 
 Converted to training reaction from rate rule: C_methyl;N3s/H2_s_Nrad
@@ -2104,9 +2104,9 @@ entry(
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(920000,'cm^3/(mol*s)'), n=1.94, Ea=(-4.8116,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2500,'K')),
     rank = 2,
-    shortDesc = u"""Added by Beat Buesser""",
+    shortDesc = """Added by Beat Buesser""",
     longDesc = 
-u"""
+"""
 Added by Beat Buesser, value for reaction: N2H3 + NH2 = N2H2 + NH3 (B&D #31f1) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 
 Converted to training reaction from rate rule: NH2_rad;N3s/H2_s_Nrad
@@ -2119,9 +2119,9 @@ entry(
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(58000,'cm^3/(mol*s)'), n=2.69, Ea=(-6.6944,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2500,'K')),
     rank = 2,
-    shortDesc = u"""Added by Beat Buesser""",
+    shortDesc = """Added by Beat Buesser""",
     longDesc = 
-u"""
+"""
 Added by Beat Buesser, value for reaction: N2H3 + HO2 = N2H2 + H2O2 (B&D #31g2) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 
 Converted to training reaction from rate rule: O_rad/NonDeO;N3s/H2_s_Nrad
@@ -2134,9 +2134,9 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(920000,'cm^3/(mol*s)'), n=1.94, Ea=(8.91192,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2500,'K')),
     rank = 2,
-    shortDesc = u"""Added by Beat Buesser""",
+    shortDesc = """Added by Beat Buesser""",
     longDesc = 
-u"""
+"""
 Added by Beat Buesser, value for reaction: N2H3 + HO2 = N2H4 + O2 (B&D #31g3) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 
 Degeneracy not recalculated
@@ -2151,9 +2151,9 @@ entry(
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(9.6e+08,'cm^3/(mol*s)'), n=1.5, Ea=(6.52704,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2500,'K')),
     rank = 2,
-    shortDesc = u"""Added by Beat Buesser""",
+    shortDesc = """Added by Beat Buesser""",
     longDesc = 
-u"""
+"""
 Added by Beat Buesser, value for reaction: NH2O + H = HNO + H2 (B&D #37c2) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 
 Converted to training reaction from rate rule: H_rad;N3s/H2_s_Orad
@@ -2166,9 +2166,9 @@ entry(
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(6.6e+08,'cm^3/(mol*s)'), n=1.5, Ea=(2.05016,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2500,'K')),
     rank = 2,
-    shortDesc = u"""Added by Beat Buesser""",
+    shortDesc = """Added by Beat Buesser""",
     longDesc = 
-u"""
+"""
 Added by Beat Buesser, value for reaction: NH2O + O = HNO + OH (B&D #37d) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 
 Converted to training reaction from rate rule: O_atom_triplet;N3s/H2_s_Orad
@@ -2181,9 +2181,9 @@ entry(
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(4.8e+06,'cm^3/(mol*s)'), n=2, Ea=(-4.97896,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2500,'K')),
     rank = 2,
-    shortDesc = u"""Added by Beat Buesser""",
+    shortDesc = """Added by Beat Buesser""",
     longDesc = 
-u"""
+"""
 Added by Beat Buesser, value for reaction: NH2O + OH = HNO + H2O (B&D #37e) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 
 Converted to training reaction from rate rule: O_pri_rad;N3s/H2_s_Orad
@@ -2196,9 +2196,9 @@ entry(
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(3.2e+06,'cm^3/(mol*s)'), n=1.87, Ea=(12.3846,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2500,'K')),
     rank = 2,
-    shortDesc = u"""Added by Beat Buesser""",
+    shortDesc = """Added by Beat Buesser""",
     longDesc = 
-u"""
+"""
 Added by Beat Buesser, value for reaction: NH2O + CH3 = CH4 + HNO (B&D #37f2) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 
 Converted to training reaction from rate rule: C_methyl;N3s/H2_s_Orad
@@ -2211,9 +2211,9 @@ entry(
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(3.6e+06,'cm^3/(mol*s)'), n=1.94, Ea=(-4.8116,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2500,'K')),
     rank = 2,
-    shortDesc = u"""Added by Beat Buesser""",
+    shortDesc = """Added by Beat Buesser""",
     longDesc = 
-u"""
+"""
 Added by Beat Buesser, value for reaction: NH2O + NH2 = HNO + NH3 (B&D #37g) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 
 Converted to training reaction from rate rule: NH2_rad;N3s/H2_s_Orad
@@ -2226,9 +2226,9 @@ entry(
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(58000,'cm^3/(mol*s)'), n=2.69, Ea=(-6.6944,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2500,'K')),
     rank = 2,
-    shortDesc = u"""Added by Beat Buesser""",
+    shortDesc = """Added by Beat Buesser""",
     longDesc = 
-u"""
+"""
 Added by Beat Buesser, value for reaction: NH2O + HO2 = HNO + H2O2 (B&D #37h1) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 
 Converted to training reaction from rate rule: O_rad/NonDeO;N3s/H2_s_Orad
@@ -2241,9 +2241,9 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(29000,'cm^3/(mol*s)'), n=2.69, Ea=(-6.6944,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2500,'K')),
     rank = 2,
-    shortDesc = u"""Added by Beat Buesser""",
+    shortDesc = """Added by Beat Buesser""",
     longDesc = 
-u"""
+"""
 Added by Beat Buesser, value for reaction: NH2O + HO2 = NH2OH + O2 (B&D #37h2) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 
 Degeneracy not recalculated
@@ -2258,9 +2258,9 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(4.8e+08,'cm^3/(mol*s)'), n=1.5, Ea=(1.58992,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2500,'K')),
     rank = 2,
-    shortDesc = u"""Added by Beat Buesser""",
+    shortDesc = """Added by Beat Buesser""",
     longDesc = 
-u"""
+"""
 Added by Beat Buesser, value for reaction: HNOH + H = HNO + H2 (B&D #38b2) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 
 Converted to training reaction from rate rule: H_rad;O_Nrad
@@ -2273,9 +2273,9 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(3.3e+08,'cm^3/(mol*s)'), n=1.5, Ea=(-1.50624,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2500,'K')),
     rank = 2,
-    shortDesc = u"""Added by Beat Buesser""",
+    shortDesc = """Added by Beat Buesser""",
     longDesc = 
-u"""
+"""
 Added by Beat Buesser, value for reaction: HNOH + O = HNO + OH (B&D #38c2) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 
 Converted to training reaction from rate rule: O_atom_triplet;O_Nrad
@@ -2288,9 +2288,9 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.4e+06,'cm^3/(mol*s)'), n=2, Ea=(-4.97896,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2500,'K')),
     rank = 2,
-    shortDesc = u"""Added by Beat Buesser""",
+    shortDesc = """Added by Beat Buesser""",
     longDesc = 
-u"""
+"""
 Added by Beat Buesser, value for reaction: HNOH + OH = HNO + H2O (B&D #38d) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 
 Converted to training reaction from rate rule: O_pri_rad;O_Nrad
@@ -2303,9 +2303,9 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.6e+06,'cm^3/(mol*s)'), n=1.87, Ea=(8.7864,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2500,'K')),
     rank = 2,
-    shortDesc = u"""Added by Beat Buesser""",
+    shortDesc = """Added by Beat Buesser""",
     longDesc = 
-u"""
+"""
 Added by Beat Buesser, value for reaction: HNOH + CH3 = CH4 + HNO (B&D #38e2) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 
 Converted to training reaction from rate rule: C_methyl;O_Nrad
@@ -2318,9 +2318,9 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.8e+06,'cm^3/(mol*s)'), n=1.94, Ea=(-4.8116,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2500,'K')),
     rank = 2,
-    shortDesc = u"""Added by Beat Buesser""",
+    shortDesc = """Added by Beat Buesser""",
     longDesc = 
-u"""
+"""
 Added by Beat Buesser, value for reaction: HNOH + NH2 = HNO + NH3 (B&D #38f3)  in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 
 Converted to training reaction from rate rule: NH2_rad;O_Nrad
@@ -2333,9 +2333,9 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(29400,'cm^3/(mol*s)'), n=2.69, Ea=(-6.6944,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2500,'K')),
     rank = 2,
-    shortDesc = u"""Added by Beat Buesser""",
+    shortDesc = """Added by Beat Buesser""",
     longDesc = 
-u"""
+"""
 Added by Beat Buesser, value for reaction: HNOH + HO2 = HNO + H2O2 (B&D #38g2) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 
 Converted to training reaction from rate rule: O_rad/NonDeO;O_Nrad
@@ -2348,9 +2348,9 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(29000,'cm^3/(mol*s)'), n=2.69, Ea=(-6.6944,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2500,'K')),
     rank = 2,
-    shortDesc = u"""Added by Beat Buesser""",
+    shortDesc = """Added by Beat Buesser""",
     longDesc = 
-u"""
+"""
 Added by Beat Buesser, value for reaction: HNOH + HO2 = NH2OH + O2 (B&D #38g3) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 
 Degeneracy not recalculated
@@ -2365,9 +2365,9 @@ entry(
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(28000,'cm^3/(mol*s)'), n=2.69, Ea=(-6.73624,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2500,'K')),
     rank = 2,
-    shortDesc = u"""Added by Beat Buesser""",
+    shortDesc = """Added by Beat Buesser""",
     longDesc = 
-u"""
+"""
 Added by Beat Buesser, value for reaction: H2CN + HO2 = HCN + H2O2 (B&D #45b1) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 
 Converted to training reaction from rate rule: O_rad/NonDeO;Cds/H2_d_N3rad
@@ -2380,9 +2380,9 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(14000,'cm^3/(mol*s)'), n=2.69, Ea=(-6.73624,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2500,'K')),
     rank = 2,
-    shortDesc = u"""Added by Beat Buesser""",
+    shortDesc = """Added by Beat Buesser""",
     longDesc = 
-u"""
+"""
 Added by Beat Buesser, value for reaction: H2CN + HO2 = H2CNH + O2 (B&D #45b2) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 
 Degeneracy not recalculated
@@ -2397,9 +2397,9 @@ entry(
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(1.62e+06,'cm^3/(mol*s)'), n=1.87, Ea=(-4.64424,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2500,'K')),
     rank = 2,
-    shortDesc = u"""Added by Beat Buesser""",
+    shortDesc = """Added by Beat Buesser""",
     longDesc = 
-u"""
+"""
 Added by Beat Buesser, value for reaction: H2CN + CH3 = HCN + CH4 (B&D #45d) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 
 Converted to training reaction from rate rule: C_methyl;Cds/H2_d_N3rad
@@ -2412,9 +2412,9 @@ entry(
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(2.4e+06,'cm^3/(mol*s)'), n=2, Ea=(-4.97896,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2500,'K')),
     rank = 2,
-    shortDesc = u"""Added by Beat Buesser""",
+    shortDesc = """Added by Beat Buesser""",
     longDesc = 
-u"""
+"""
 Added by Beat Buesser, value for reaction: H2CN + OH = HCN + H2O (B&D #45e2) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 
 Converted to training reaction from rate rule: O_pri_rad;Cds/H2_d_N3rad
@@ -2427,9 +2427,9 @@ entry(
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(4.8e+08,'cm^3/(mol*s)'), n=1.5, Ea=(-3.72376,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2500,'K')),
     rank = 2,
-    shortDesc = u"""Added by Beat Buesser""",
+    shortDesc = """Added by Beat Buesser""",
     longDesc = 
-u"""
+"""
 Added by Beat Buesser, value for reaction: H2CN + H = HCN + H2 (B&D #45g) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 
 Converted to training reaction from rate rule: H_rad;Cds/H2_d_N3rad
@@ -2442,9 +2442,9 @@ entry(
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(1.84e+06,'cm^3/(mol*s)'), n=1.94, Ea=(-4.8116,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2500,'K')),
     rank = 2,
-    shortDesc = u"""Added by Beat Buesser""",
+    shortDesc = """Added by Beat Buesser""",
     longDesc = 
-u"""
+"""
 Added by Beat Buesser, value for reaction: H2CN + NH2 = HCN + NH3 (B&D #45h) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 
 Converted to training reaction from rate rule: NH2_rad;Cds/H2_d_N3rad
@@ -2457,9 +2457,9 @@ entry(
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(3.4e+08,'cm^3/(mol*s)'), n=1.5, Ea=(-3.72376,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2500,'K')),
     rank = 2,
-    shortDesc = u"""Added by Beat Buesser""",
+    shortDesc = """Added by Beat Buesser""",
     longDesc = 
-u"""
+"""
 Added by Beat Buesser, value for reaction: H2CN + O = HCN + OH (B&D #45i1) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 
 Converted to training reaction from rate rule: O_atom_triplet;Cds/H2_d_N3rad
@@ -2472,9 +2472,9 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.4e+08,'cm^3/(mol*s)'), n=1.5, Ea=(-3.72376,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2500,'K')),
     rank = 2,
-    shortDesc = u"""Added by Beat Buesser""",
+    shortDesc = """Added by Beat Buesser""",
     longDesc = 
-u"""
+"""
 Added by Beat Buesser, value for reaction: HCNH + H = HCN + H2 (B&D #46a2) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 
 Converted to training reaction from rate rule: H_rad;N3d/H_d_Crad
@@ -2487,9 +2487,9 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.7e+08,'cm^3/(mol*s)'), n=1.5, Ea=(-3.72376,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2500,'K')),
     rank = 2,
-    shortDesc = u"""Added by Beat Buesser""",
+    shortDesc = """Added by Beat Buesser""",
     longDesc = 
-u"""
+"""
 Added by Beat Buesser, value for reaction: HCNH + O = HCN + OH (B&D #46b2) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 
 Converted to training reaction from rate rule: O_atom_triplet;N3d/H_d_Crad
@@ -2502,9 +2502,9 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.2e+06,'cm^3/(mol*s)'), n=2, Ea=(-4.97896,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2500,'K')),
     rank = 2,
-    shortDesc = u"""Added by Beat Buesser""",
+    shortDesc = """Added by Beat Buesser""",
     longDesc = 
-u"""
+"""
 Added by Beat Buesser, value for reaction: HCNH + OH = HCN + H2O (B&D #46c) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 
 Converted to training reaction from rate rule: O_pri_rad;N3d/H_d_Crad
@@ -2517,9 +2517,9 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(820000,'cm^3/(mol*s)'), n=1.87, Ea=(-4.64424,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2500,'K')),
     rank = 2,
-    shortDesc = u"""Added by Beat Buesser""",
+    shortDesc = """Added by Beat Buesser""",
     longDesc = 
-u"""
+"""
 Added by Beat Buesser, value for reaction: HCNH + CH3 = HCN + CH4 (B&D #46d) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 
 Converted to training reaction from rate rule: C_methyl;N3d/H_d_Crad
@@ -2532,9 +2532,9 @@ entry(
     degeneracy = 3.0,
     kinetics = Arrhenius(A=(2.16e+09,'cm^3/(mol*s)'), n=1.5, Ea=(-3.72376,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2500,'K')),
     rank = 2,
-    shortDesc = u"""Added by Beat Buesser""",
+    shortDesc = """Added by Beat Buesser""",
     longDesc = 
-u"""
+"""
 Added by Beat Buesser, value for reaction: CH3NH + H = H2CNH + H2 (B&D #49b) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 
 Converted to training reaction from rate rule: H_rad;Cmethyl_Nrad
@@ -2547,9 +2547,9 @@ entry(
     degeneracy = 3.0,
     kinetics = Arrhenius(A=(1.5e+09,'cm^3/(mol*s)'), n=1.5, Ea=(-3.72376,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2500,'K')),
     rank = 2,
-    shortDesc = u"""Added by Beat Buesser""",
+    shortDesc = """Added by Beat Buesser""",
     longDesc = 
-u"""
+"""
 Added by Beat Buesser, value for reaction: CH3NH + O = H2CNH + OH (B&D #49c) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 
 Converted to training reaction from rate rule: O_atom_triplet;Cmethyl_Nrad
@@ -2562,9 +2562,9 @@ entry(
     degeneracy = 3.0,
     kinetics = Arrhenius(A=(1.08e+07,'cm^3/(mol*s)'), n=2, Ea=(-4.97896,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2500,'K')),
     rank = 2,
-    shortDesc = u"""Added by Beat Buesser""",
+    shortDesc = """Added by Beat Buesser""",
     longDesc = 
-u"""
+"""
 Added by Beat Buesser, value for reaction: CH3NH + OH = H2CNH + H2O (B&D #49d) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 
 Converted to training reaction from rate rule: O_pri_rad;Cmethyl_Nrad
@@ -2577,9 +2577,9 @@ entry(
     degeneracy = 3.0,
     kinetics = Arrhenius(A=(7.2e+06,'cm^3/(mol*s)'), n=1.87, Ea=(-4.64424,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2500,'K')),
     rank = 2,
-    shortDesc = u"""Added by Beat Buesser""",
+    shortDesc = """Added by Beat Buesser""",
     longDesc = 
-u"""
+"""
 Added by Beat Buesser, value for reaction: CH3NH + CH3 = H2CNH + CH4 (B&D #49e) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 
 Converted to training reaction from rate rule: C_methyl;Cmethyl_Nrad
@@ -2592,9 +2592,9 @@ entry(
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(8e+08,'cm^3/(mol*s)'), n=1.5, Ea=(-3.72376,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2500,'K')),
     rank = 2,
-    shortDesc = u"""Added by Beat Buesser""",
+    shortDesc = """Added by Beat Buesser""",
     longDesc = 
-u"""
+"""
 Added by Beat Buesser, value for reaction: CH2NH2 + H = H2CNH + H2 (B&D #50b) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 
 Converted to training reaction from rate rule: H_rad;N3s/H2_s_Cssrad
@@ -2607,9 +2607,9 @@ entry(
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(6.6e+08,'cm^3/(mol*s)'), n=1.5, Ea=(-3.72376,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2500,'K')),
     rank = 2,
-    shortDesc = u"""Added by Beat Buesser""",
+    shortDesc = """Added by Beat Buesser""",
     longDesc = 
-u"""
+"""
 Added by Beat Buesser, value for reaction: CH2NH2 + O = H2CNH + OH (B&D #50c2) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 
 Converted to training reaction from rate rule: O_atom_triplet;N3s/H2_s_Cssrad
@@ -2622,9 +2622,9 @@ entry(
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(4.8e+06,'cm^3/(mol*s)'), n=2, Ea=(-4.97896,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2500,'K')),
     rank = 2,
-    shortDesc = u"""Added by Beat Buesser""",
+    shortDesc = """Added by Beat Buesser""",
     longDesc = 
-u"""
+"""
 Added by Beat Buesser, value for reaction: CH2NH2 + OH = H2CNH + H2O (B&D #50d2) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 
 Converted to training reaction from rate rule: O_pri_rad;N3s/H2_s_Cssrad
@@ -2637,9 +2637,9 @@ entry(
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(3.2e+06,'cm^3/(mol*s)'), n=1.87, Ea=(-2.63592,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2500,'K')),
     rank = 2,
-    shortDesc = u"""Added by Beat Buesser""",
+    shortDesc = """Added by Beat Buesser""",
     longDesc = 
-u"""
+"""
 Added by Beat Buesser, value for reaction: CH2NH2 + CH3 = H2CNH + CH4 (B&D #50e2) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 
 Converted to training reaction from rate rule: C_methyl;N3s/H2_s_Cssrad
@@ -2652,9 +2652,9 @@ entry(
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(9.6e+08,'cm^3/(mol*s)'), n=1.5, Ea=(-3.72376,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2500,'K')),
     rank = 2,
-    shortDesc = u"""Added by Beat Buesser""",
+    shortDesc = """Added by Beat Buesser""",
     longDesc = 
-u"""
+"""
 Added by Beat Buesser, value for reaction: CH2NO + H = HCNO + H2
 The reacting structures are CH2=[N.+][O-] + R = [CH]#[N+][O-] + RH
 (D&B #57c2) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
@@ -2669,9 +2669,9 @@ entry(
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(4.8e+06,'cm^3/(mol*s)'), n=2, Ea=(-4.97896,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2500,'K')),
     rank = 2,
-    shortDesc = u"""Added by Beat Buesser""",
+    shortDesc = """Added by Beat Buesser""",
     longDesc = 
-u"""
+"""
 Added by Beat Buesser, value for reaction: CH2NO + OH = HCNO + H2O
 (D&B #57e2) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 
@@ -2685,9 +2685,9 @@ entry(
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(3.2e+06,'cm^3/(mol*s)'), n=1.87, Ea=(-4.64424,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2500,'K')),
     rank = 2,
-    shortDesc = u"""Added by Beat Buesser""",
+    shortDesc = """Added by Beat Buesser""",
     longDesc = 
-u"""
+"""
 Added by Beat Buesser, value for reaction: CH2NO + CH3 = HCNO + CH4
 (D&B #57f2) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 
@@ -2701,9 +2701,9 @@ entry(
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(3.6e+06,'cm^3/(mol*s)'), n=1.94, Ea=(-4.8116,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2500,'K')),
     rank = 2,
-    shortDesc = u"""Added by Beat Buesser""",
+    shortDesc = """Added by Beat Buesser""",
     longDesc = 
-u"""
+"""
 Added by Beat Buesser, value for reaction: CH2NO + NH2 = HCNO + NH3
 (D&B #57g2) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 
@@ -2717,9 +2717,9 @@ entry(
     degeneracy = 3.0,
     kinetics = Arrhenius(A=(1.5e+11,'cm^3/(mol*s)'), n=0, Ea=(0,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2500,'K')),
     rank = 11,
-    shortDesc = u"""Estimated by S.S. Merchant""",
+    shortDesc = """Estimated by S.S. Merchant""",
     longDesc = 
-u"""
+"""
 Estimating rate coefficient for cyclopentadienyl radical + butadieneyl radical
 NIST estimate for allyl + iso-butyl is 8E+11 at 1000 K, however in our system the butadieneyl radical is also resonance stabilized
 and it will be harder to break the bond to give butadiene + cyclopentadiene. Currently estimate it to be a factor of 5 slower.
@@ -2734,17 +2734,17 @@ entry(
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(1350,'cm^3/(mol*s)'), n=2.7, Ea=(-4.403,'kcal/mol'), T0=(1,'K')),
     reference = Article(
-        authors = ['Tranter, R. S.', 'Klippenstein, S. J.', 'Harding, L. B.', 'Giri, B. R.', 'Yang, X.', 'Kiefer, J. H.'],
-        title = 'Experimental and Theoretical Investigation of the Self-Reaction of Phenyl Radicals',
-        journal = 'The Journal of Physical Chemistry A',
-        volume = '114 (32)',
-        pages = '8240-8261',
-        year = '2010',
+        authors = [b'Tranter, R. S.', b'Klippenstein, S. J.', b'Harding, L. B.', b'Giri, B. R.', b'Yang, X.', b'Kiefer, J. H.'],
+        title = b'Experimental and Theoretical Investigation of the Self-Reaction of Phenyl Radicals',
+        journal = b'The Journal of Physical Chemistry A',
+        volume = b'114 (32)',
+        pages = b'8240-8261',
+        year = b'2010',
     ),
     referenceType = "theory",
     rank = 3,
     longDesc = 
-u"""
+"""
 CASPT2(2e,2o)/cc-pvdz (VRC-TST)
 """,
 )
@@ -2755,7 +2755,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(5.4e+10,'cm^3/(mol*s)'), n=0, Ea=(-7800,'cal/mol'), T0=(1,'K')),
     rank = 10,
-    shortDesc = u"""From NIST 2019 CH2F2 model""",
+    shortDesc = """From NIST 2019 CH2F2 model""",
 )
 
 entry(
@@ -2764,7 +2764,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(5.4e+10,'cm^3/(mol*s)'), n=0, Ea=(-7800,'cal/mol'), T0=(1,'K')),
     rank = 10,
-    shortDesc = u"""From NIST 2019 CH2F2 model""",
+    shortDesc = """From NIST 2019 CH2F2 model""",
 )
 
 entry(
@@ -2773,7 +2773,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.56e+19,'cm^3/(mol*s)'), n=-2.77, Ea=(1977,'cal/mol'), T0=(1,'K')),
     rank = 10,
-    shortDesc = u"""From NIST CH2F2 model""",
+    shortDesc = """From NIST CH2F2 model""",
 )
 
 entry(
@@ -2782,7 +2782,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(5.4e+09,'cm^3/(mol*s)'), n=0, Ea=(-7800,'cal/mol'), T0=(1,'K')),
     rank = 10,
-    shortDesc = u"""From NIST 2019 CH2F2 model""",
+    shortDesc = """From NIST 2019 CH2F2 model""",
 )
 
 entry(
@@ -2791,7 +2791,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(5.4e+10,'cm^3/(mol*s)'), n=0, Ea=(-7800,'cal/mol'), T0=(1,'K')),
     rank = 10,
-    shortDesc = u"""From NIST 2019 CH2F2 model""",
+    shortDesc = """From NIST 2019 CH2F2 model""",
 )
 
 entry(
@@ -2800,7 +2800,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(5.4e+09,'cm^3/(mol*s)'), n=0, Ea=(-7800,'cal/mol'), T0=(1,'K')),
     rank = 10,
-    shortDesc = u"""From NIST 2019 CH2F2 model""",
+    shortDesc = """From NIST 2019 CH2F2 model""",
 )
 
 entry(
@@ -2809,7 +2809,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(5.4e+09,'cm^3/(mol*s)'), n=0, Ea=(-7800,'cal/mol'), T0=(1,'K')),
     rank = 10,
-    shortDesc = u"""From NIST 2019 CH2F2 model""",
+    shortDesc = """From NIST 2019 CH2F2 model""",
 )
 
 entry(
@@ -2818,7 +2818,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(6.6e+13,'cm^3/(mol*s)'), n=0, Ea=(3000,'cal/mol'), T0=(1,'K')),
     rank = 10,
-    shortDesc = u"""From NIST CH2F2 model""",
+    shortDesc = """From NIST CH2F2 model""",
 )
 
 entry(
@@ -2827,7 +2827,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(4.4e+13,'cm^3/(mol*s)'), n=0, Ea=(3000,'cal/mol'), T0=(1,'K')),
     rank = 10,
-    shortDesc = u"""From NIST 2019 CH2F2 model""",
+    shortDesc = """From NIST 2019 CH2F2 model""",
 )
 
 entry(
@@ -2836,7 +2836,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(6.6e+13,'cm^3/(mol*s)'), n=0, Ea=(3000,'cal/mol'), T0=(1,'K')),
     rank = 10,
-    shortDesc = u"""From NIST CH2F2 model""",
+    shortDesc = """From NIST CH2F2 model""",
 )
 
 entry(
@@ -2845,7 +2845,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(4.4e+13,'cm^3/(mol*s)'), n=0, Ea=(3000,'cal/mol'), T0=(1,'K')),
     rank = 10,
-    shortDesc = u"""From NIST CH2F2 model""",
+    shortDesc = """From NIST CH2F2 model""",
 )
 
 entry(
@@ -2854,7 +2854,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.2e+13,'cm^3/(mol*s)'), n=0, Ea=(3000,'cal/mol'), T0=(1,'K')),
     rank = 10,
-    shortDesc = u"""From NIST CH2F2 model""",
+    shortDesc = """From NIST CH2F2 model""",
 )
 
 entry(
@@ -2863,7 +2863,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(6.6e+13,'cm^3/(mol*s)'), n=0, Ea=(3000,'cal/mol'), T0=(1,'K')),
     rank = 10,
-    shortDesc = u"""From NIST 2019 CH2F2 model""",
+    shortDesc = """From NIST 2019 CH2F2 model""",
 )
 
 entry(
@@ -2872,7 +2872,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(4.4e+13,'cm^3/(mol*s)'), n=0, Ea=(3000,'cal/mol'), T0=(1,'K')),
     rank = 10,
-    shortDesc = u"""From NIST CH2F2 model""",
+    shortDesc = """From NIST CH2F2 model""",
 )
 
 entry(
@@ -2881,7 +2881,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.2e+13,'cm^3/(mol*s)'), n=0, Ea=(3000,'cal/mol'), T0=(1,'K')),
     rank = 10,
-    shortDesc = u"""From NIST CH2F2 model""",
+    shortDesc = """From NIST CH2F2 model""",
 )
 
 entry(
@@ -2890,7 +2890,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.3e+13,'cm^3/(mol*s)'), n=-0.5, Ea=(0,'cal/mol'), T0=(1,'K')),
     rank = 10,
-    shortDesc = u"""From NIST CH2F2 model""",
+    shortDesc = """From NIST CH2F2 model""",
 )
 
 entry(
@@ -2899,7 +2899,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(6.5e+12,'cm^3/(mol*s)'), n=-0.5, Ea=(0,'cal/mol'), T0=(1,'K')),
     rank = 10,
-    shortDesc = u"""From NIST CH2F2 model""",
+    shortDesc = """From NIST CH2F2 model""",
 )
 
 entry(
@@ -2908,7 +2908,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.95e+13,'cm^3/(mol*s)'), n=-0.5, Ea=(0,'cal/mol'), T0=(1,'K')),
     rank = 10,
-    shortDesc = u"""From NIST CH2F2 model""",
+    shortDesc = """From NIST CH2F2 model""",
 )
 
 entry(
@@ -2917,7 +2917,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.3e+13,'cm^3/(mol*s)'), n=-0.5, Ea=(0,'cal/mol'), T0=(1,'K')),
     rank = 10,
-    shortDesc = u"""From NIST CH2F2 model""",
+    shortDesc = """From NIST CH2F2 model""",
 )
 
 entry(
@@ -2926,7 +2926,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(6.5e+12,'cm^3/(mol*s)'), n=-0.5, Ea=(0,'cal/mol'), T0=(1,'K')),
     rank = 10,
-    shortDesc = u"""From NIST CH2F2 model""",
+    shortDesc = """From NIST CH2F2 model""",
 )
 
 entry(
@@ -2935,7 +2935,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.95e+13,'cm^3/(mol*s)'), n=-0.5, Ea=(0,'cal/mol'), T0=(1,'K')),
     rank = 10,
-    shortDesc = u"""From NIST CH2F2 model""",
+    shortDesc = """From NIST CH2F2 model""",
 )
 
 entry(
@@ -2944,7 +2944,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.3e+13,'cm^3/(mol*s)'), n=-0.5, Ea=(0,'cal/mol'), T0=(1,'K')),
     rank = 10,
-    shortDesc = u"""From NIST CH2F2 model""",
+    shortDesc = """From NIST CH2F2 model""",
 )
 
 entry(
@@ -2953,7 +2953,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(6.5e+12,'cm^3/(mol*s)'), n=-0.5, Ea=(0,'cal/mol'), T0=(1,'K')),
     rank = 10,
-    shortDesc = u"""From NIST CH2F2 model""",
+    shortDesc = """From NIST CH2F2 model""",
 )
 
 entry(
@@ -2962,7 +2962,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(3e+11,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
     rank = 10,
-    shortDesc = u"""From NIST CH2F2 model""",
+    shortDesc = """From NIST CH2F2 model""",
 )
 
 entry(
@@ -2971,7 +2971,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(3e+11,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
     rank = 10,
-    shortDesc = u"""From NIST CH2F2 model""",
+    shortDesc = """From NIST CH2F2 model""",
 )
 
 entry(
@@ -2980,7 +2980,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(2e+11,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
     rank = 10,
-    shortDesc = u"""From NIST CH2F2 model""",
+    shortDesc = """From NIST CH2F2 model""",
 )
 
 entry(
@@ -2989,7 +2989,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(4e+11,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
     rank = 10,
-    shortDesc = u"""From NIST CH2F2 model""",
+    shortDesc = """From NIST CH2F2 model""",
 )
 
 entry(
@@ -2998,7 +2998,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(2e+11,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
     rank = 10,
-    shortDesc = u"""From NIST CH2F2 model""",
+    shortDesc = """From NIST CH2F2 model""",
 )
 
 entry(
@@ -3007,7 +3007,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1e+11,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
     rank = 10,
-    shortDesc = u"""From NIST CH2F2 model""",
+    shortDesc = """From NIST CH2F2 model""",
 )
 
 entry(
@@ -3016,7 +3016,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1e+11,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
     rank = 10,
-    shortDesc = u"""From NIST CH2F2 model""",
+    shortDesc = """From NIST CH2F2 model""",
 )
 
 entry(
@@ -3025,7 +3025,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1e+11,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
     rank = 10,
-    shortDesc = u"""From NIST CH2F2 model""",
+    shortDesc = """From NIST CH2F2 model""",
 )
 
 entry(
@@ -3034,7 +3034,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(3e+13,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
     rank = 10,
-    shortDesc = u"""From NIST CH2F2 model""",
+    shortDesc = """From NIST CH2F2 model""",
 )
 
 entry(
@@ -3043,7 +3043,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(2e+13,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
     rank = 10,
-    shortDesc = u"""From NIST CH2F2 model""",
+    shortDesc = """From NIST CH2F2 model""",
 )
 
 entry(
@@ -3052,7 +3052,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(2e+13,'cm^3/(mol*s)'), n=0, Ea=(23900,'cal/mol'), T0=(1,'K')),
     rank = 10,
-    shortDesc = u"""From NIST CH2F2 model""",
+    shortDesc = """From NIST CH2F2 model""",
 )
 
 entry(
@@ -3061,7 +3061,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(2e+13,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
     rank = 10,
-    shortDesc = u"""From NIST CH2F2 model""",
+    shortDesc = """From NIST CH2F2 model""",
 )
 
 entry(
@@ -3070,7 +3070,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(5e+13,'cm^3/(mol*s)'), n=0, Ea=(2390,'cal/mol'), T0=(1,'K')),
     rank = 10,
-    shortDesc = u"""From NIST CH2F2 model""",
+    shortDesc = """From NIST CH2F2 model""",
 )
 
 entry(
@@ -3079,7 +3079,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(5e+13,'cm^3/(mol*s)'), n=0, Ea=(4780,'cal/mol'), T0=(1,'K')),
     rank = 10,
-    shortDesc = u"""From NIST CH2F2 model""",
+    shortDesc = """From NIST CH2F2 model""",
 )
 
 entry(
@@ -3088,7 +3088,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1e+13,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
     rank = 10,
-    shortDesc = u"""From NIST CH2F2 model""",
+    shortDesc = """From NIST CH2F2 model""",
 )
 
 entry(
@@ -3097,7 +3097,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(5e+13,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
     rank = 10,
-    shortDesc = u"""From NIST CH2F2 model""",
+    shortDesc = """From NIST CH2F2 model""",
 )
 
 entry(
@@ -3106,7 +3106,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(2e+13,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
     rank = 10,
-    shortDesc = u"""From NIST CH2F2 model""",
+    shortDesc = """From NIST CH2F2 model""",
 )
 
 entry(
@@ -3115,7 +3115,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1e+13,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
     rank = 10,
-    shortDesc = u"""From NIST CH2F2 model""",
+    shortDesc = """From NIST CH2F2 model""",
 )
 
 entry(
@@ -3124,7 +3124,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1e+13,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
     rank = 10,
-    shortDesc = u"""From NIST CH2F2 model""",
+    shortDesc = """From NIST CH2F2 model""",
 )
 
 entry(
@@ -3133,7 +3133,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(3e+11,'cm^3/(mol*s)'), n=0, Ea=(17000,'cal/mol'), T0=(1,'K')),
     rank = 10,
-    shortDesc = u"""From NIST CH2F2 model""",
+    shortDesc = """From NIST CH2F2 model""",
 )
 
 entry(
@@ -3142,7 +3142,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(3e+11,'cm^3/(mol*s)'), n=0, Ea=(18500,'cal/mol'), T0=(1,'K')),
     rank = 10,
-    shortDesc = u"""From NIST CH2F2 model""",
+    shortDesc = """From NIST CH2F2 model""",
 )
 
 entry(
@@ -3151,7 +3151,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(2e+13,'cm^3/(mol*s)'), n=0, Ea=(3000,'cal/mol'), T0=(1,'K')),
     rank = 10,
-    shortDesc = u"""From NIST CH2F2 model""",
+    shortDesc = """From NIST CH2F2 model""",
 )
 
 entry(
@@ -3160,7 +3160,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(2e+13,'cm^3/(mol*s)'), n=0, Ea=(3000,'cal/mol'), T0=(1,'K')),
     rank = 10,
-    shortDesc = u"""From NIST CH2F2 model""",
+    shortDesc = """From NIST CH2F2 model""",
 )
 
 entry(
@@ -3169,7 +3169,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(2e+13,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
     rank = 10,
-    shortDesc = u"""From NIST CH2F2 model""",
+    shortDesc = """From NIST CH2F2 model""",
 )
 
 entry(
@@ -3178,7 +3178,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(2e+13,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
     rank = 10,
-    shortDesc = u"""From NIST CH2F2 model""",
+    shortDesc = """From NIST CH2F2 model""",
 )
 
 entry(
@@ -3187,7 +3187,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(5e+12,'cm^3/(mol*s)'), n=0, Ea=(2000,'cal/mol'), T0=(1,'K')),
     rank = 10,
-    shortDesc = u"""From NIST CH2F2 model""",
+    shortDesc = """From NIST CH2F2 model""",
 )
 
 entry(
@@ -3196,7 +3196,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(3e+12,'cm^3/(mol*s)'), n=0, Ea=(3000,'cal/mol'), T0=(1,'K')),
     rank = 10,
-    shortDesc = u"""From NIST CH2F2 model""",
+    shortDesc = """From NIST CH2F2 model""",
 )
 
 entry(
@@ -3205,7 +3205,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(3e+12,'cm^3/(mol*s)'), n=0, Ea=(1000,'cal/mol'), T0=(1,'K')),
     rank = 10,
-    shortDesc = u"""From NIST CH2F2 model""",
+    shortDesc = """From NIST CH2F2 model""",
 )
 
 entry(
@@ -3214,7 +3214,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(2e+12,'cm^3/(mol*s)'), n=0, Ea=(2000,'cal/mol'), T0=(1,'K')),
     rank = 10,
-    shortDesc = u"""From NIST CH2F2 model""",
+    shortDesc = """From NIST CH2F2 model""",
 )
 
 entry(
@@ -3223,7 +3223,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1e+13,'cm^3/(mol*s)'), n=0, Ea=(1000,'cal/mol'), T0=(1,'K')),
     rank = 10,
-    shortDesc = u"""From NIST CH2F2 model""",
+    shortDesc = """From NIST CH2F2 model""",
 )
 
 entry(
@@ -3232,7 +3232,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1e+13,'cm^3/(mol*s)'), n=0, Ea=(1000,'cal/mol'), T0=(1,'K')),
     rank = 10,
-    shortDesc = u"""From NIST CH2F2 model""",
+    shortDesc = """From NIST CH2F2 model""",
 )
 
 entry(
@@ -3241,87 +3241,87 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(5.4e+10,'cm^3/(mol*s)'), n=0, Ea=(-7800,'cal/mol'), T0=(1,'K')),
     rank = 10,
-    shortDesc = u"""From NIST 2019 CH2F2 model""",
+    shortDesc = """From NIST 2019 CH2F2 model""",
 )
 
 entry(
     index = 192,
-    label = "C[O]_r423 + [O][O]_r1 <=> CDO_p23 + [O]O_p41",
+    label = "CH3O-3 + O2 <=> CH2O-2 + HO2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(4.28e-13,'cm^3/(mol*s)'), n=7.6, Ea=(-3530,'cal/mol'), T0=(1,'K')),
     rank = 10,
-    shortDesc = u"""From NIST 2019 CH2F2 model""",
+    shortDesc = """From NIST 2019 CH2F2 model""",
 )
 
 entry(
     index = 193,
-    label = "[CH2]CDO_r423 + H <=> CDCDO_p23 + [H][H]_p41",
+    label = "[CH2]CDO_r423 + H <=> CDCDO_p23 + H2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.1e+13,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
     rank = 10,
-    shortDesc = u"""From NIST 2019 CH2F2 model""",
+    shortDesc = """From NIST 2019 CH2F2 model""",
 )
 
 entry(
     index = 194,
-    label = "[CH2]CDO_r423 + [OH]_r1 <=> CDCDO_p23 + O_p41",
+    label = "[CH2]CDO_r423 + HO <=> CDCDO_p23 + H2O",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.2e+13,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
     rank = 10,
-    shortDesc = u"""From NIST 2019 CH2F2 model""",
+    shortDesc = """From NIST 2019 CH2F2 model""",
 )
 
 entry(
     index = 195,
-    label = "C[C](F)F_r423 + H <=> CDC(F)F_p23 + [H][H]_p41",
+    label = "H + CH3-CF2 <=> CDC(F)F_p23 + H2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(2e+12,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
     rank = 10,
-    shortDesc = u"""From NIST 2019 CH2F2 model""",
+    shortDesc = """From NIST 2019 CH2F2 model""",
 )
 
 entry(
     index = 196,
-    label = "[CH2]C(F)F_r423 + H <=> CDC(F)F_p23 + [H][H]_p41",
+    label = "H + CHF2-CH2 <=> CDC(F)F_p23 + H2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(2e+12,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
     rank = 10,
-    shortDesc = u"""From NIST 2019 CH2F2 model""",
+    shortDesc = """From NIST 2019 CH2F2 model""",
 )
 
 entry(
     index = 197,
-    label = "C[C](F)F_r423 + O <=> CDC(F)F_p23 + [OH]_p41",
+    label = "O + CH3-CF2 <=> CDC(F)F_p23 + HO-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(3e+13,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
     rank = 10,
-    shortDesc = u"""From NIST 2019 CH2F2 model""",
+    shortDesc = """From NIST 2019 CH2F2 model""",
 )
 
 entry(
     index = 198,
-    label = "[CH2]C(F)F_r423 + O <=> CDC(F)F_p23 + [OH]_p41",
+    label = "O + CHF2-CH2 <=> CDC(F)F_p23 + HO-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(3e+13,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
     rank = 10,
-    shortDesc = u"""From NIST 2019 CH2F2 model""",
+    shortDesc = """From NIST 2019 CH2F2 model""",
 )
 
 entry(
     index = 199,
-    label = "C[C](F)F_r423 + F <=> CDC(F)F_p23 + F_p41",
+    label = "F + CH3-CF2 <=> CDC(F)F_p23 + F_p41",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(2e+13,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
     rank = 10,
-    shortDesc = u"""From NIST 2019 CH2F2 model""",
+    shortDesc = """From NIST 2019 CH2F2 model""",
 )
 
 entry(
     index = 200,
-    label = "[CH2]C(F)F_r423 + F <=> CDC(F)F_p23 + F_p41",
+    label = "F + CHF2-CH2 <=> CDC(F)F_p23 + F_p41",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(2e+13,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
     rank = 10,
-    shortDesc = u"""From NIST 2019 CH2F2 model""",
+    shortDesc = """From NIST 2019 CH2F2 model""",
 )
 
