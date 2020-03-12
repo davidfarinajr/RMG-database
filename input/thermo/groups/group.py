@@ -503,11 +503,16 @@ u"""
 )
 
 entry(
+<<<<<<< HEAD
     index = 24,
+=======
+    index = 1197,
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
     label = "Cb-S",
     group = 
 """
 1 * Cb u0 {2,S}
+<<<<<<< HEAD
 2   S  u0 {1,S}
 """,
     thermo = ThermoData(
@@ -519,6 +524,19 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+=======
+2   S u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([3.75, 3.75, 3.47, 3.5, 5.18, 6.15, 4.65], 'cal/(mol*K)'),
+        H298 = (18.76,'kcal/mol'),
+        S298 = (-0.62,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u""""
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
 
 """,
 )
@@ -586,7 +604,11 @@ entry(
     label = "Cb-Cds",
     group = 
 """
+<<<<<<< HEAD
 1 * Cb         u0 {2,S}
+=======
+1 * Cb      u0 {2,S}
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
 2   [Cd,CO,CS] u0 {1,S}
 """,
     thermo = u'Cb-(Cds-Cds)',
@@ -794,6 +816,7 @@ u"""
 )
 
 entry(
+<<<<<<< HEAD
     index = 39,
     label = "Cb-Cl",
     group = 
@@ -816,6 +839,9 @@ u"""
 
 entry(
     index = 40,
+=======
+    index = 20,
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
     label = "Ct",
     group = 
 """
@@ -891,6 +917,7 @@ u"""
 )
 
 entry(
+<<<<<<< HEAD
     index = 44,
     label = "Ct-StH",
     group = 
@@ -907,13 +934,35 @@ entry(
     ),
     shortDesc = u"""""",
     longDesc = 
+=======
+    index = 21,
+    label = "Ct-StH",
+    group =
+"""
+1 * Ct                 u0 {2,T} {3,S}
+2   [S4t,S6t,S6td]     u0 {1,T}
+3   H                  u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.3, 1.12, 1.92, 2.33, 1.71, 1.44, 2.24], 'cal/(mol*K)'),
+        H298 = (98.15,'kcal/mol'),
+        S298 = (-9.54,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
 u"""
 
 """,
 )
 
 entry(
+<<<<<<< HEAD
     index = 45,
+=======
+    index = 22,
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
     label = "Ct-CtOs",
     group = 
 """
@@ -957,16 +1006,27 @@ u"""
 )
 
 entry(
+<<<<<<< HEAD
     index = 47,
+=======
+    index = 1195,
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
     label = "Ct-CtS",
     group = 
 """
 1 * Ct u0 {2,T} {3,S}
 2   Ct u0 {1,T}
+<<<<<<< HEAD
 3   S  u0 {1,S}
 """,
     thermo = u'Ct-CtS2',
     shortDesc = u"""""",
+=======
+3   S u0 {1,S}
+""",
+    thermo = u'Ct-CtS2',
+    shortDesc = u"""CBS-QB3 GA 1D-HR Aaron Vandeputte 2010""",
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
     longDesc = 
 u"""
 
@@ -974,22 +1034,84 @@ u"""
 )
 
 entry(
+<<<<<<< HEAD
     index = 48,
     label = "Ct-CtS2",
     group = 
 """
 1 * Ct  u0 {2,T} {3,S}
 2   Ct  u0 {1,T}
+=======
+    index = 1195,
+    label = "Ct-CtS2",
+    group =
+"""
+1 * Ct u0 {2,T} {3,S}
+2   Ct u0 {1,T}
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
 3   S2s u0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
+<<<<<<< HEAD
         Cpdata = ([3.7,3.47,2.94,2.87,4.56,5.68,4.73],'cal/(mol*K)'),
         H298 = (45.23,'kcal/mol'),
         S298 = (14.57,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
+=======
+        Cpdata = ([3.7, 3.47, 2.94, 2.87, 4.56, 5.68, 4.73], 'cal/(mol*K)'),
+        H298 = (45.23,'kcal/mol'),
+        S298 = (14.57,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u"""
+
+""",
+)
+
+entry(
+    index = 1195,
+    label = "Ct-CtS4",
+    group =
+"""
+1 * Ct u0 {2,T} {3,S}
+2   Ct u0 {1,T}
+3   [S4s,S4d,S4b,S4t] u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([2.19, 2.04, 1.74, 1.81, 3.72, 4.89, 4.48], 'cal/(mol*K)'),
+        H298 = (56.56,'kcal/mol'),
+        S298 = (12.4,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u"""
+
+""",
+)
+
+entry(
+    index = 1195,
+    label = "Ct-CtS6",
+    group =
+"""
+1 * Ct u0 {2,T} {3,S}
+2   Ct u0 {1,T}
+3   [S6s,S6d,S6dd,S6t,S6td] u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([3.29,3.67,4,4.29,4.74,5.05,5.49],'cal/(mol*K)'),
+        H298 = (27.63,'kcal/mol'),
+        S298 = (6.32,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""CBS-QB3 GA 1D-HR Aaron Vandeputte 2010""",
+    longDesc =
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
 u"""
 
 """,
@@ -1149,8 +1271,13 @@ entry(
     label = "Ct-CtCds",
     group = 
 """
+<<<<<<< HEAD
 1 * Ct         u0 {2,T} {3,S}
 2   Ct         u0 {1,T}
+=======
+1 * Ct      u0 {2,T} {3,S}
+2   Ct      u0 {1,T}
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
 3   [Cd,CO,CS] u0 {1,S}
 """,
     thermo = u'Ct-Ct(Cds-Cds)',
@@ -1362,6 +1489,7 @@ u"""
 """,
 )
 
+<<<<<<< HEAD
 entry(
     index = 67,
     label = "Ct-FCt",
@@ -1383,6 +1511,8 @@ u"""
 
 """,
 )
+=======
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
 
 entry(
     index = 68,
@@ -1523,11 +1653,19 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
+<<<<<<< HEAD
         Cpdata = ([9.81,10.84,11.62,12.18,12.99,13.52,14.14],'cal/(mol*K)'),
         H298 = (-34.78,'kcal/mol'),
         S298 = (55.34,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
+=======
+        Cpdata = ([9.81, 10.84, 11.62, 12.18, 12.99, 13.52, 14.14], 'cal/(mol*K)'),
+        H298 = (-34.78,'kcal/mol'),
+        S298 = (55.34,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
     longDesc = 
 u"""
 
@@ -1537,7 +1675,24 @@ u"""
 entry(
     index = 75,
     label = "Cdd-SdSd",
-    group = 
+    group =
+"""
+1 * Cdd u0 {2,D} {3,D}
+2   S u0 {1,D}
+3   S u0 {1,D}
+""",
+    thermo = u'Cdd-S2dS2d',
+    shortDesc = u"""CBS-QB3 GA 1D-HR Aaron Vandeputte 2009""",
+    longDesc =
+u"""
+
+""",
+)
+
+entry(
+    index = 1199,
+    label = "Cdd-S2dS2d",
+    group =
 """
 1 * Cdd u0 {2,D} {3,D}
 2   S   u0 {1,D}
@@ -1566,8 +1721,57 @@ entry(
         H298 = (24.5,'kcal/mol'),
         S298 = (58.24,'cal/(mol*K)'),
     ),
+<<<<<<< HEAD
     shortDesc = u"""""",
     longDesc = 
+=======
+    shortDesc = u"""CBS-QB3 GA 1D-HR Aaron Vandeputte 2009""",
+    longDesc =
+u"""
+
+""",
+)
+
+entry(
+    index = 1199,
+    label = "Cdd-S4S4",
+    group =
+"""
+1 * Cdd u0 {2,D} {3,D}
+2   [S4d,S4dd] u0 {1,D}
+3   [S4d,S4dd] u0 {1,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([12.44, 10.6, 10.48, 10.8, 11.92, 12.75, 12.7], 'cal/(mol*K)'),
+        H298 = (54.12,'kcal/mol'),
+        S298 = (66.19,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u"""
+
+""",
+)
+
+entry(
+    index = 1199,
+    label = "Cdd-S2S4",
+    group =
+"""
+1 * Cdd u0 {2,D} {3,D}
+2   S2d u0 {1,D}
+3   [S4d,S4dd] u0 {1,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([11.88, 11.09, 11.15, 11.47, 12.26, 12.78, 13.01], 'cal/(mol*K)'),
+        H298 = (60.89,'kcal/mol'),
+        S298 = (65.93,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
 u"""
 
 """,
@@ -1761,6 +1965,7 @@ entry(
 """
 1 * Cdd u0 {2,D} {3,D}
 2   Cd  u0 {1,D}
+<<<<<<< HEAD
 3   S   u0 {1,D}
 """,
     thermo = u'Cdd-CdsS6d',
@@ -1830,6 +2035,11 @@ entry(
         H298 = (45.67,'kcal/mol'),
         S298 = (34.13,'cal/(mol*K)'),
     ),
+=======
+3   S u0 {1,D}
+""",
+    thermo = u'Cdd-CdsS6d',
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
     shortDesc = u"""""",
     longDesc = 
 u"""
@@ -1838,7 +2048,77 @@ u"""
 )
 
 entry(
+<<<<<<< HEAD
     index = 90,
+=======
+    index = -1,
+    label = "Cdd-CdsS6d",
+    group =
+"""
+1 * Cdd u0 {2,D} {3,D}
+2   Cd  u0 {1,D}
+3   [S6d,S6dd,S6ddd,S6td] u0 {1,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([7.18, 7.47, 7.69, 7.97, 8.76, 9.31, 9.81], 'cal/(mol*K)'),
+        H298 = (45.67,'kcal/mol'),
+        S298 = (34.13,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u"""
+
+""",
+)
+
+entry(
+    index = -1,
+    label = "Cdd-CdsS4d",
+    group =
+"""
+1 * Cdd u0 {2,D} {3,D}
+2   Cd  u0 {1,D}
+3   [S4d,S4dd] u0 {1,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([7.88,8.48,8.8,8.99,9.23,9.37,9.58],'cal/(mol*K)'),
+        H298 = (40.33,'kcal/mol'),
+        S298 = (34.24,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc =
+u"""
+
+""",
+)
+
+entry(
+    index = -1,
+    label = "Cdd-CdsS2d",
+    group =
+"""
+1 * Cdd u0 {2,D} {3,D}
+2   Cd  u0 {1,D}
+3   S2d u0 {1,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([7.88,8.48,8.8,8.99,9.23,9.37,9.58],'cal/(mol*K)'),
+        H298 = (40.33,'kcal/mol'),
+        S298 = (34.24,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc =
+u"""
+
+""",
+)
+
+entry(
+    index = -1,
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
     label = "Cdd-CddSd",
     group = 
 """
@@ -2384,12 +2664,17 @@ u"""
 )
 
 entry(
+<<<<<<< HEAD
     index = 117,
+=======
+    index = 1454,
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
     label = "CO-SH",
     group = 
 """
 1 * CO  u0 {2,D} {3,S} {4,S}
 2   O2d u0 {1,D}
+<<<<<<< HEAD
 3   S   u0 {1,S}
 4   H   u0 {1,S}
 """,
@@ -2397,6 +2682,84 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+=======
+3   S  u0 {1,S}
+4   H  u0 {1,S}
+""",
+    thermo = u'CO-S2H',
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2018""",
+    longDesc =
+u""""
+
+""",
+)
+
+entry(
+    index = 1454,
+    label = "CO-S2H",
+    group =
+"""
+1 * CO u0 {2,D} {3,S} {4,S}
+2   O2d u0 {1,D}
+3   S2s  u0 {1,S}
+4   H  u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([8.27, 9.88, 10.36, 10.77, 12.65, 14.02, 14.06], 'cal/(mol*K)'),
+        H298 = (-15.2,'kcal/mol'),
+        S298 = (41.26,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u""""
+
+""",
+)
+
+entry(
+    index = 1454,
+    label = "CO-S4H",
+    group =
+"""
+1 * CO u0 {2,D} {3,S} {4,S}
+2   O2d u0 {1,D}
+3   [S4s,S4d,S4b,S4t] u0 {1,S}
+4   H  u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([8.51, 9.3, 9.66, 10.35, 13.15, 14.94, 15.19], 'cal/(mol*K)'),
+        H298 = (-8.53,'kcal/mol'),
+        S298 = (39.05,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u""""
+
+""",
+)
+
+entry(
+    index = 1454,
+    label = "CO-S6H",
+    group =
+"""
+1 * CO u0 {2,D} {3,S} {4,S}
+2   O2d u0 {1,D}
+3   [S6s,S6d,S6dd,S6t,S6td] u0 {1,S}
+4   H  u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([6.08, 7.22, 8.24, 9.21, 11.83, 13.5, 14.27], 'cal/(mol*K)'),
+        H298 = (-8.01,'kcal/mol'),
+        S298 = (48.01,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u""""
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
 
 """,
 )
@@ -2436,6 +2799,7 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
+<<<<<<< HEAD
         Cpdata = ([8.51,9.3,9.66,10.35,13.15,14.94,15.19],'cal/(mol*K)'),
         H298 = (-8.53,'kcal/mol'),
         S298 = (39.05,'cal/(mol*K)'),
@@ -2443,6 +2807,15 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+=======
+        Cpdata = ([7.12, 8.65, 9.04, 9.38, 11.01, 11.97, 10.97], 'cal/(mol*K)'),
+        H298 = (-19.07,'kcal/mol'),
+        S298 = (20.3,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u""""
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
 
 """,
 )
@@ -2459,11 +2832,19 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
+<<<<<<< HEAD
         Cpdata = ([6.08,7.22,8.24,9.21,11.83,13.5,14.27],'cal/(mol*K)'),
         H298 = (-8.01,'kcal/mol'),
         S298 = (48.01,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
+=======
+        Cpdata = ([6.87, 9.51, 10.75, 11.62, 13.62, 14.53, 12.86], 'cal/(mol*K)'),
+        H298 = (-35.59,'kcal/mol'),
+        S298 = (16.37,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
     longDesc = 
 u"""
 
@@ -4144,7 +4525,7 @@ entry(
 3   S  u0 {1,S}
 4   H  u0 {1,S}
 """,
-    thermo = u'Cds-CdsSsH',
+    thermo = u'Cds-CdsSH',
     shortDesc = u"""""",
     longDesc = 
 u"""
@@ -4153,13 +4534,38 @@ u"""
 )
 
 entry(
+<<<<<<< HEAD
     index = 203,
+=======
+    index = 1180,
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
     label = "Cds-CdsSH",
     group = 
 """
 1 * Cd u0 {2,D} {3,S} {4,S}
 2   Cd u0 {1,D}
 3   S  u0 {1,S}
+<<<<<<< HEAD
+=======
+4   H  u0 {1,S}
+""",
+    thermo = u'Cds-CdsS4H',
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2018""",
+    longDesc =
+u""""
+
+""",
+)
+
+entry(
+    index = 1180,
+    label = "Cds-CdsS2H",
+    group =
+"""
+1 * Cd u0 {2,D} {3,S} {4,S}
+2   Cd u0 {1,D}
+3   S2s  u0 {1,S}
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
 4   H  u0 {1,S}
 """,
     thermo = u'Cds-CdsS4H',
@@ -4182,6 +4588,7 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
+<<<<<<< HEAD
         Cpdata = ([5.72,6.61,6.84,7.2,9.2,10.44,9.73],'cal/(mol*K)'),
         H298 = (18.92,'kcal/mol'),
         S298 = (12.2,'cal/(mol*K)'),
@@ -4189,6 +4596,61 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+=======
+        Cpdata = ([5.72, 6.61, 6.84, 7.2, 9.2, 10.44, 9.73], 'cal/(mol*K)'),
+        H298 = (18.92,'kcal/mol'),
+        S298 = (12.2,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u""""
+
+""",
+)
+
+entry(
+    index = 1180,
+    label = "Cds-CdsS4H",
+    group =
+"""
+1 * Cd u0 {2,D} {3,S} {4,S}
+2   Cd u0 {1,D}
+3   [S4s,S4d,S4b,S4t]  u0 {1,S}
+4   H  u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([7.22, 7.89, 7.54, 8.28, 10.6, 11.9, 10.95], 'cal/(mol*K)'),
+        H298 = (27.56,'kcal/mol'),
+        S298 = (5.06,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u""""
+
+""",
+)
+
+entry(
+    index = 1180,
+    label = "Cds-CdsS6H",
+    group =
+"""
+1 * Cd u0 {2,D} {3,S} {4,S}
+2   Cd u0 {1,D}
+3   [S6s,S6d,S6dd,S6t,S6td]  u0 {1,S}
+4   H  u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([4.03, 5.53, 6.45, 7.26, 9.65, 11.0, 10.77], 'cal/(mol*K)'),
+        H298 = (19.86,'kcal/mol'),
+        S298 = (13.58,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u""""
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
 
 """,
 )
@@ -5471,9 +5933,39 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
+<<<<<<< HEAD
         Cpdata = ([4.4,5.23,6.07,6.84,8.03,8.83,9.89],'cal/(mol*K)'),
         H298 = (7.8,'kcal/mol'),
         S298 = (8.3,'cal/(mol*K)'),
+=======
+        Cpdata = ([4.4, 5.23, 6.07, 6.84, 8.03, 8.83, 9.89], 'cal/(mol*K)'),
+        H298 = (7.8,'kcal/mol'),
+        S298 = (8.3,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u""""
+
+""",
+)
+
+entry(
+    index = 1999,
+    label = "Cd-Cd(CO)H",
+    group = 
+"""
+1 * Cd u0 {2,S} {3,S} {4,D}
+2   CO u0 {1,S} {5,D}
+3   H  u0 {1,S}
+4   Cd u0 {1,D}
+5   O2d u0 {2,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([18.08,21.17,24.43,27.41,32.22,35.73,40.97],'J/(mol*K)'),
+        H298 = (36.4,'kJ/mol'),
+        S298 = (33.51,'J/(mol*K)'),
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -6180,14 +6672,21 @@ entry(
 4   S  u0 {1,S}
 """,
     thermo = u'Cds-CdsCsS2',
+<<<<<<< HEAD
     shortDesc = u"""""",
     longDesc = 
 u"""
+=======
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2018""",
+    longDesc =
+u""""
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
 
 """,
 )
 
 entry(
+<<<<<<< HEAD
     index = 303,
     label = "Cds-CdsCsS2",
     group = 
@@ -6252,6 +6751,72 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+=======
+    index = 1181,
+    label = "Cds-CdsCsS2",
+    group =
+"""
+1 * Cd u0 {2,D} {3,S} {4,S}
+2   Cd u0 {1,D}
+3   Cs u0 {1,S}
+4   S2s  u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([5.3, 5.84, 5.62, 5.57, 6.97, 7.7, 6.11], 'cal/(mol*K)'),
+        H298 = (20.57,'kcal/mol'),
+        S298 = (-8.4,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u""""
+
+""",
+)
+
+entry(
+    index = 1181,
+    label = "Cds-CdsCsS4",
+    group =
+"""
+1 * Cd u0 {2,D} {3,S} {4,S}
+2   Cd u0 {1,D}
+3   Cs u0 {1,S}
+4   [S4s,S4d,S4b,S4t]  u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([5.74, 5.6, 4.93, 5.57, 7.72, 8.79, 7.32], 'cal/(mol*K)'),
+        H298 = (27.53,'kcal/mol'),
+        S298 = (-12.89,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u""""
+
+""",
+)
+
+entry(
+    index = 1181,
+    label = "Cds-CdsCsS6",
+    group =
+"""
+1 * Cd u0 {2,D} {3,S} {4,S}
+2   Cd u0 {1,D}
+3   Cs u0 {1,S}
+4   [S6s,S6d,S6dd,S6t,S6td]  u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([4.01, 5.41, 5.84, 6.2, 7.7, 8.36, 7.24], 'cal/(mol*K)'),
+        H298 = (21.44,'kcal/mol'),
+        S298 = (-2.61,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u""""
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
 
 """,
 )
@@ -10787,6 +11352,7 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
+<<<<<<< HEAD
         Cpdata = ([4.21,4.51,4.77,4.99,5.4,5.66,5.98],'cal/(mol*K)'),
         H298 = (9.24,'kcal/mol'),
         S298 = (-11.25,'cal/(mol*K)'),
@@ -10794,6 +11360,15 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+=======
+        Cpdata = ([4.21, 4.51, 4.77, 4.99, 5.4, 5.66, 5.98], 'cal/(mol*K)'),
+        H298 = (9.24,'kcal/mol'),
+        S298 = (-11.25,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u""""
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
 
 """,
 )
@@ -11114,6 +11689,27 @@ entry(
 """
 1 * CS u0 {2,D} {3,S} {4,S}
 2   S  u0 {1,D}
+<<<<<<< HEAD
+=======
+3   Cs u0 {1,S}
+4   H  u0 {1,S}
+""",
+    thermo = u'C=S2-CsH',
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2018""",
+    longDesc =
+u""""
+
+""",
+)
+
+entry(
+    index = 1184,
+    label = "C=S2-CsH",
+    group =
+"""
+1 * CS u0 {2,D} {3,S} {4,S}
+2   S2d  u0 {1,D}
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
 3   Cs u0 {1,S}
 4   H  u0 {1,S}
 """,
@@ -11137,6 +11733,7 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
+<<<<<<< HEAD
         Cpdata = ([10.09,9.4,9.55,10.13,11.37,12.36,13.87],'cal/(mol*K)'),
         H298 = (24.14,'kcal/mol'),
         S298 = (36.84,'cal/(mol*K)'),
@@ -11144,6 +11741,38 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+=======
+        Cpdata = ([10.09, 9.4, 9.55, 10.13, 11.37, 12.36, 13.87], 'cal/(mol*K)'),
+        H298 = (24.14,'kcal/mol'),
+        S298 = (36.84,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u""""
+
+""",
+)
+
+entry(
+    index = 1184,
+    label = "C=S4-CsH",
+    group =
+"""
+1 * CS u0 {2,D} {3,S} {4,S}
+2   [S4d,S4dd]  u0 {1,D}
+3   Cs u0 {1,S}
+4   H  u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([8.55, 7.96, 8.45, 9.22, 10.82, 11.81, 12.94], 'cal/(mol*K)'),
+        H298 = (16.51,'kcal/mol'),
+        S298 = (38.28,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u""""
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
 
 """,
 )
@@ -11176,6 +11805,7 @@ entry(
     label = "C=S-CdsH",
     group = 
 """
+<<<<<<< HEAD
 1 * CS      u0 {2,D} {3,S} {4,S}
 2   S2d     u0 {1,D}
 3   [Cd,Cb] u0 {1,S}
@@ -11190,6 +11820,22 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+=======
+1 * CS u0 {2,D} {3,S} {4,S}
+2   S2d u0 {1,D}
+3   [Cd,Cb] u0 {1,S}
+4   H  u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([7.41, 9.18, 10.55, 11.53, 12.8, 13.57, 14.62], 'cal/(mol*K)'),
+        H298 = (24.85,'kcal/mol'),
+        S298 = (33.97,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u""""
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
 
 """,
 )
@@ -11296,6 +11942,7 @@ entry(
     label = "C=S-CtH",
     group = 
 """
+<<<<<<< HEAD
 1 * CS  u0 {2,D} {3,S} {4,S}
 2   S2d u0 {1,D}
 3   Ct  u0 {1,S}
@@ -11313,6 +11960,26 @@ u"""
 
 """,
 )
+=======
+1 * CS u0 {2,D} {3,S} {4,S}
+2   S2d u0 {1,D}
+3   Ct u0 {1,S}
+4   H  u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([8.07, 8.97, 10.47, 10.17, 11.38, 12.33, 13.6], 'cal/(mol*K)'),
+        H298 = (30.53,'kcal/mol'),
+        S298 = (36.94,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u""""
+
+""",
+)
+
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
 
 entry(
     index = 551,
@@ -11327,6 +11994,7 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
+<<<<<<< HEAD
         Cpdata = ([7.79,9.18,10.41,11.42,12.82,13.64,14.54],'cal/(mol*K)'),
         H298 = (26.96,'kcal/mol'),
         S298 = (35.65,'cal/(mol*K)'),
@@ -11334,6 +12002,15 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+=======
+        Cpdata = ([7.79, 9.18, 10.41, 11.42, 12.82, 13.64, 14.54], 'cal/(mol*K)'),
+        H298 = (26.96,'kcal/mol'),
+        S298 = (35.65,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u""""
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
 
 """,
 )
@@ -11858,6 +12535,7 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
+<<<<<<< HEAD
         Cpdata = ([10.64,8.16,7.45,7.69,8.72,9.5,10.5],'cal/(mol*K)'),
         H298 = (20.9,'kcal/mol'),
         S298 = (16.55,'cal/(mol*K)'),
@@ -11865,6 +12543,15 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+=======
+        Cpdata = ([10.64, 8.16, 7.45, 7.69, 8.72, 9.5, 10.5], 'cal/(mol*K)'),
+        H298 = (20.9,'kcal/mol'),
+        S298 = (16.55,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u""""
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
 
 """,
 )
@@ -11881,11 +12568,19 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
+<<<<<<< HEAD
         Cpdata = ([9.58,9.38,9.53,9.87,10.47,10.79,11.17],'cal/(mol*K)'),
         H298 = (23.84,'kcal/mol'),
         S298 = (12.34,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
+=======
+        Cpdata = ([9.58, 9.38, 9.53, 9.87, 10.47, 10.79, 11.17], 'cal/(mol*K)'),
+        H298 = (23.84,'kcal/mol'),
+        S298 = (12.34,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
     longDesc = 
 u"""
 
@@ -12001,11 +12696,19 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
+<<<<<<< HEAD
         Cpdata = ([9.44,8.3,8.72,7.99,8.85,9.55,10.38],'cal/(mol*K)'),
         H298 = (26.63,'kcal/mol'),
         S298 = (16.54,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
+=======
+        Cpdata = ([9.44, 8.3, 8.72, 7.99, 8.85, 9.55, 10.38], 'cal/(mol*K)'),
+        H298 = (26.63,'kcal/mol'),
+        S298 = (16.54,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
     longDesc = 
 u"""
 
@@ -12024,6 +12727,7 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
+<<<<<<< HEAD
         Cpdata = ([8.94,8.73,9,9.46,10.17,10.53,10.9],'cal/(mol*K)'),
         H298 = (23.58,'kcal/mol'),
         S298 = (13.65,'cal/(mol*K)'),
@@ -12031,6 +12735,15 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+=======
+        Cpdata = ([8.94, 8.73, 9.0, 9.46, 10.17, 10.53, 10.9], 'cal/(mol*K)'),
+        H298 = (23.58,'kcal/mol'),
+        S298 = (13.65,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u""""
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
 
 """,
 )
@@ -12048,6 +12761,7 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
+<<<<<<< HEAD
         Cpdata = ([8.9,8.29,8.4,8.85,9.71,10.22,10.71],'cal/(mol*K)'),
         H298 = (24.34,'kcal/mol'),
         S298 = (15.85,'cal/(mol*K)'),
@@ -12055,6 +12769,15 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+=======
+        Cpdata = ([8.9, 8.29, 8.4, 8.85, 9.71, 10.22, 10.71], 'cal/(mol*K)'),
+        H298 = (24.34,'kcal/mol'),
+        S298 = (15.85,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u""""
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
 
 """,
 )
@@ -12248,6 +12971,7 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
+<<<<<<< HEAD
         Cpdata = ([9.08,10.35,11.52,12.5,14.08,15.25,17.14],'cal/(mol*K)'),
         H298 = (27.7,'kcal/mol'),
         S298 = (56.5,'cal/(mol*K)'),
@@ -12255,11 +12979,90 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+=======
+        Cpdata = ([9.08, 10.35, 11.52, 12.5, 14.08, 15.25, 17.14], 'cal/(mol*K)'),
+        H298 = (27.7,'kcal/mol'),
+        S298 = (56.5,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u""""
 
 """,
 )
 
 entry(
+    index = 1183,
+    label = "C=S4d-HH",
+    group =
+"""
+1 * CS u0 {2,D} {3,S} {4,S}
+2   [S4d,S4dd]  u0 {1,D}
+3   H  u0 {1,S}
+4   H  u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([9.82, 9.96, 10.83, 11.76, 13.57, 14.92, 16.57], 'cal/(mol*K)'),
+        H298 = (16.47,'kcal/mol'),
+        S298 = (57.73,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u""""
+
+""",
+)
+
+#entry(
+#    index = 1183,
+#    label = "C=S4dd-HH",
+#    group =
+#"""
+#1 * CS u0 {2,D} {3,S} {4,S}
+#2   S4dd  u0 {1,D}
+#3   H  u0 {1,S}
+#4   H  u0 {1,S}
+#""",
+#    thermo = ThermoData(
+#        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+#        Cpdata = ([9.08,10.35,11.52,12.50,14.08,15.25,17.14],'cal/(mol*K)'),
+#        H298 = (27.70,'kcal/mol'),
+#        S298 = (56.50,'cal/(mol*K)'),
+#    ),
+#    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2018""",
+#    longDesc =
+#u""""
+#
+#""",
+#)
+
+entry(
+    index = 1183,
+    label = "C=S6dd-HH",
+    group =
+"""
+1 * CS u0 {2,D} {3,S} {4,S}
+2   S6dd  u0 {1,D}
+3   H  u0 {1,S}
+4   H  u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([9.79, 11.27, 12.37, 13.22, 14.74, 15.89, 17.4], 'cal/(mol*K)'),
+        H298 = (14.2,'kcal/mol'),
+        S298 = (54.75,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u""""
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
+
+""",
+)
+
+entry(
+<<<<<<< HEAD
     index = 598,
     label = "C=S4d-HH",
     group = 
@@ -12324,14 +13127,64 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+=======
+    index = 1183,
+    label = "C=S6ddd-HH",
+    group =
+"""
+1 * CS u0 {2,D} {3,S} {4,S}
+2   [S6ddd,S6td]  u0 {1,D}
+3   H  u0 {1,S}
+4   H  u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([10.85, 10.47, 11.15, 12.02, 14.01, 15.34, 17.31], 'cal/(mol*K)'),
+        H298 = (10.97,'kcal/mol'),
+        S298 = (52.97,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u""""
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
 
 """,
 )
 
+<<<<<<< HEAD
 entry(
     index = 601,
     label = "C=S-SH",
     group = 
+=======
+#entry(
+#    index = 1183,
+#    label = "C=S6td-HH",
+#    group =
+#"""
+#1 * CS u0 {2,D} {3,S} {4,S}
+#2   S6td  u0 {1,D}
+#3   H  u0 {1,S}
+#4   H  u0 {1,S}
+#""",
+#    thermo = ThermoData(
+#        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+#        Cpdata = ([9.08,10.35,11.52,12.50,14.08,15.25,17.14],'cal/(mol*K)'),
+#        H298 = (27.70,'kcal/mol'),
+#        S298 = (56.50,'cal/(mol*K)'),
+#    ),
+#    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2018""",
+#    longDesc =
+#u""""
+#
+#""",
+#)
+
+entry(
+    index = 1184,
+    label = "C=S-HH",
+    group =
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
 """
 1 * CS u0 {2,D} {3,S} {4,S}
 2   S  u0 {1,D}
@@ -12347,17 +13200,67 @@ u"""
 )
 
 entry(
+<<<<<<< HEAD
     index = 602,
     label = "C=S-S2H",
     group = 
 """
 1 * CS  u0 {2,D} {3,S} {4,S}
+=======
+    index = 1189,
+    label = "C=S-SH",
+    group = 
+"""
+1 * CS u0 {2,D} {3,S} {4,S}
+2   S  u0 {1,D}
+3   S  u0 {1,S}
+4   H  u0 {1,S}
+""",
+    thermo = u'C=S-S2H',
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2018""",
+    longDesc =
+u""""
+
+""",
+)
+
+entry(
+    index = 1189,
+    label = "C=S6-S2H",
+    group =
+"""
+1 * CS u0 {2,D} {3,S} {4,S}
+2   [S6d,S6dd,S6ddd,S6td]  u0 {1,D}
+3   S2s u0 {1,S}
+4   H  u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([12.67, 15.3, 16.0, 16.78, 20.51, 22.83, 21.04], 'cal/(mol*K)'),
+        H298 = (32.31,'kcal/mol'),
+        S298 = (64.82,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u""""
+
+""",
+)
+
+entry(
+    index = 1189,
+    label = "C=S-S2H",
+    group =
+"""
+1 * CS u0 {2,D} {3,S} {4,S}
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
 2   S2d u0 {1,D}
 3   S2s u0 {1,S}
 4   H   u0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
+<<<<<<< HEAD
         Cpdata = ([9.85,10.7,11.13,11.7,14.22,15.76,15.35],'cal/(mol*K)'),
         H298 = (30.11,'kcal/mol'),
         S298 = (39.21,'cal/(mol*K)'),
@@ -12365,6 +13268,61 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+=======
+        Cpdata = ([9.85, 10.7, 11.13, 11.7, 14.22, 15.76, 15.35], 'cal/(mol*K)'),
+        H298 = (30.11,'kcal/mol'),
+        S298 = (39.21,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u""""
+
+""",
+)
+
+entry(
+    index = 1189,
+    label = "C=S-S4H",
+    group =
+"""
+1 * CS u0 {2,D} {3,S} {4,S}
+2   S2d u0 {1,D}
+3   [S4s,S4d,S4b,S4t] u0 {1,S}
+4   H  u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([8.98, 9.29, 9.55, 10.22, 13.01, 14.82, 15.15], 'cal/(mol*K)'),
+        H298 = (45.35,'kcal/mol'),
+        S298 = (42.42,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u""""
+
+""",
+)
+
+entry(
+    index = 1189,
+    label = "C=S-S6H",
+    group =
+"""
+1 * CS u0 {2,D} {3,S} {4,S}
+2   S2d u0 {1,D}
+3   [S6s,S6d,S6dd,S6t,S6td] u0 {1,S}
+4   H  u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([8.50,9.98,11.08,11.93,13.14,13.95,15.08],'cal/(mol*K)'),
+        H298 = (21.69,'kcal/mol'),
+        S298 = (34.23,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2018""",
+    longDesc =
+u""""
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
 
 """,
 )
@@ -12446,7 +13404,11 @@ entry(
 1 * CS u0 {2,D} {3,S} {4,S}
 2   S  u0 {1,D}
 3   C  u0 {1,S}
+<<<<<<< HEAD
 4   S  u0 {1,S}
+=======
+4   S u0 {1,S}
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
 """,
     thermo = u'C=S-CsSs',
     shortDesc = u"""""",
@@ -12642,12 +13604,44 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
+<<<<<<< HEAD
         Cpdata = ([10.76,9.54,8.97,9.22,11.6,13.02,12.13],'cal/(mol*K)'),
         H298 = (26.79,'kcal/mol'),
         S298 = (18.82,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
+=======
+        Cpdata = ([10.76, 9.54, 8.97, 9.22, 11.6, 13.02, 12.13], 'cal/(mol*K)'),
+        H298 = (26.79,'kcal/mol'),
+        S298 = (18.82,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 1206,
+    label = "C=S-S(CO)",
+    group =
+"""
+1 * CS u0 {2,D} {3,S} {4,S}
+2   S2d  u0 {1,D}
+3   CO u0 {1,S}
+4   S  u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([7.4,8.38,9.16,9.8,10.72,11.25,11.66],'cal/(mol*K)'),
+        H298 = (21.35,'kcal/mol'),
+        S298 = (14.52,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""CBS-QB3 GA 1D-HR Aaron Vandeputte 2010""",
+    longDesc =
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
 u"""
 
 """,
@@ -12673,6 +13667,7 @@ u"""
 )
 
 entry(
+<<<<<<< HEAD
     index = 618,
     label = "Cds-CdClH",
     group = 
@@ -12691,13 +13686,79 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+=======
+    index = 1457,
+    label = "C=S-OsH",
+    group = 
+"""
+1 * CS u0 {2,D} {3,S} {4,S}
+2   S  u0 {1,D}
+3   O2s u0 {1,S}
+4   H  u0 {1,S}
+""",
+    thermo = u'C=S2-OsH',
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2018""",
+    longDesc =
+u""""
 
 """,
 )
 
 entry(
+    index = 1457,
+    label = "C=S2-OsH",
+    group =
+"""
+1 * CS u0 {2,D} {3,S} {4,S}
+2   S2d  u0 {1,D}
+3   O2s u0 {1,S}
+4   H  u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([9.1, 10.53, 11.43, 12.21, 13.48, 14.27, 15.01], 'cal/(mol*K)'),
+        H298 = (19.05,'kcal/mol'),
+        S298 = (34.45,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u""""
+
+""",
+)
+
+entry(
+    index = 1457,
+    label = "C=S4-OsH",
+    group =
+"""
+1 * CS u0 {2,D} {3,S} {4,S}
+2   [S4d,S4dd]  u0 {1,D}
+3   O2s u0 {1,S}
+4   H  u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([7.67, 8.18, 9.52, 10.9, 13.34, 14.97, 16.45], 'cal/(mol*K)'),
+        H298 = (9.61,'kcal/mol'),
+        S298 = (32.61,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u""""
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
+
+""",
+)
+
+entry(
+<<<<<<< HEAD
     index = 619,
     label = "Cds-CdClCl",
+=======
+    index = 1458,
+    label = "C=S-CsOs",
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
     group = 
 """
 1 * Cd   u0 {2,D} {3,S} {4,S}
@@ -12707,11 +13768,19 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
+<<<<<<< HEAD
         Cpdata = ([10.97,12.42,13.33,13.92,14.63,15.01,15.44],'cal/(mol*K)'),
         H298 = (-5.76,'kcal/mol'),
         S298 = (40.77,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
+=======
+        Cpdata = ([10.55, 9.84, 9.67, 10.07, 11.21, 11.91, 12.2], 'cal/(mol*K)'),
+        H298 = (11.72,'kcal/mol'),
+        S298 = (12.22,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
     longDesc = 
 u"""
 
@@ -12719,8 +13788,13 @@ u"""
 )
 
 entry(
+<<<<<<< HEAD
     index = 620,
     label = "Cds-CdClC",
+=======
+    index = 1459,
+    label = "C=S-OsOs",
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
     group = 
 """
 1 * Cd   u0 {2,D} {3,S} {4,S}
@@ -12730,11 +13804,19 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
+<<<<<<< HEAD
         Cpdata = ([8,8.4,8.5,9,9.2,9.4,9.57],'cal/(mol*K)'),
         H298 = (-2.1,'kcal/mol'),
         S298 = (15,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
+=======
+        Cpdata = ([12.25, 13.98, 14.47, 14.69, 14.74, 14.19, 12.39], 'cal/(mol*K)'),
+        H298 = (9.69,'kcal/mol'),
+        S298 = (11.28,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
     longDesc = 
 u"""
 
@@ -12742,8 +13824,36 @@ u"""
 )
 
 entry(
+<<<<<<< HEAD
     index = 621,
     label = "Cds-CdClCd",
+=======
+    index = 1459,
+    label = "C=S-OsS",
+    group =
+"""
+1 * CS u0 {2,D} {3,S} {4,S}
+2   S2d u0 {1,D}
+3   O2s u0 {1,S}
+4   S  u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([9.39, 10.42, 10.78, 11.43, 14.16, 15.66, 14.34], 'cal/(mol*K)'),
+        H298 = (36.94,'kcal/mol'),
+        S298 = (16.85,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u"""
+
+""",
+)
+
+entry(
+    index = 329,
+    label = "Cs",
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
     group = 
 """
 1 * Cd   u0 {2,D} {3,S} {4,S}
@@ -13881,6 +14991,7 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
+<<<<<<< HEAD
         Cpdata = ([13.6,16.1,18.1,19.6,21.8,23.2,25.1],'cal/(mol*K)','+|-',[1,1,1,1,1,1,1]),
         H298 = (-13.9,'kcal/mol','+|-',1.3),
         S298 = (27.5,'cal/(mol*K)','+|-',1.2),
@@ -13888,6 +14999,15 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+=======
+        Cpdata = ([3.99, 7.23, 9.48, 11.01, 13.13, 14.7, 17.27], 'cal/(mol*K)'),
+        H298 = (-7.1,'kcal/mol'),
+        S298 = (31.12,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u""""
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
 
 """,
 )
@@ -13965,6 +15085,7 @@ u"""
 )
 
 entry(
+<<<<<<< HEAD
     index = 673,
     label = "Cs-(N3dOd)CsCsCs",
     group = 
@@ -13985,11 +15106,143 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+=======
+    index = 1451,
+    label = "Cs-OsSHH",
+    group = 
+"""
+1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+2   O2s u0 {1,S}
+3   S u0 {1,S}
+4   H  u0 {1,S}
+5   H  u0 {1,S}
+""",
+    thermo = u'Cs-OsS2HH',
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2018""",
+    longDesc =
+u""""
 
 """,
 )
 
 entry(
+    index = 1451,
+    label = "Cs-OsS2HH",
+    group =
+"""
+1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+2   O2s u0 {1,S}
+3   S2s u0 {1,S}
+4   H  u0 {1,S}
+5   H  u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([7.61, 10.2, 11.36, 12.27, 14.72, 16.15, 15.88], 'cal/(mol*K)'),
+        H298 = (3.32,'kcal/mol'),
+        S298 = (11.26,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u""""
+
+""",
+)
+
+entry(
+    index = 1451,
+    label = "Cs-OsS4HH",
+    group =
+"""
+1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+2   O2s u0 {1,S}
+3   [S4s,S4d,S4b,S4t] u0 {1,S}
+4   H  u0 {1,S}
+5   H  u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([5.97, 7.92, 9.33, 10.67, 14.39, 16.61, 16.95], 'cal/(mol*K)'),
+        H298 = (5.62,'kcal/mol'),
+        S298 = (8.3,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u""""
+
+""",
+)
+
+entry(
+    index = 1451,
+    label = "Cs-OsSSH",
+    group =
+"""
+1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+2   O2s u0 {1,S}
+3   S  u0 {1,S}
+4   S  u0 {1,S}
+5   H  u0 {1,S}
+""",
+    thermo = u'Cs-OsS2S2H',
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2018""",
+    longDesc =
+u""""
+
+""",
+)
+
+entry(
+    index = 1451,
+    label = "Cs-OsS2S2H",
+    group =
+"""
+1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+2   O2s u0 {1,S}
+3   S2s  u0 {1,S}
+4   S2s  u0 {1,S}
+5   H  u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([6.48,8.15,9.41,10.40,11.71,12.83,14.46],'cal/(mol*K)'),
+        H298 = (-10.34,'kcal/mol'),
+        S298 = (6.83,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2018""",
+    longDesc =
+u""""
+
+""",
+)
+
+entry(
+    index = 1451,
+    label = "Cs-OsS4S2H",
+    group =
+"""
+1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+2   O2s u0 {1,S}
+3   S2s  u0 {1,S}
+4   [S4s,S4d,S4b,S4t] u0 {1,S}
+5   H  u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([5.61, 9.0, 10.51, 11.92, 16.57, 18.75, 16.38], 'cal/(mol*K)'),
+        H298 = (19.45,'kcal/mol'),
+        S298 = (-12.67,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u""""
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
+
+""",
+)
+
+entry(
+<<<<<<< HEAD
     index = 674,
     label = "Cs-(N3dN3d)CsCsCs",
     group = 
@@ -14010,6 +15263,70 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+=======
+    index = 1464,
+    label = "Cs-OsOsSH",
+    group = 
+"""
+1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+2   O2s u0 {1,S}
+3   O2s u0 {1,S}
+4   S  u0 {1,S}
+5   H  u0 {1,S}
+""",
+    thermo = u'Cs-OsOsS2H',
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2018""",
+    longDesc =
+u""""
+
+""",
+)
+
+entry(
+    index = 1464,
+    label = "Cs-OsOsS2H",
+    group =
+"""
+1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+2   O2s u0 {1,S}
+3   O2s u0 {1,S}
+4   S2s  u0 {1,S}
+5   H  u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([6.28, 9.26, 10.65, 11.64, 14.06, 15.03, 13.66], 'cal/(mol*K)'),
+        H298 = (-3.58,'kcal/mol'),
+        S298 = (-10.1,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u""""
+
+""",
+)
+
+entry(
+    index = 1464,
+    label = "Cs-OsOsS4H",
+    group =
+"""
+1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+2   O2s u0 {1,S}
+3   O2s u0 {1,S}
+4   [S4s,S4d,S4b,S4t] u0 {1,S}
+5   H  u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([5.65, 7.55, 8.69, 9.85, 13.15, 14.98, 14.49], 'cal/(mol*K)'),
+        H298 = (-3.81,'kcal/mol'),
+        S298 = (-12.44,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u""""
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
 
 """,
 )
@@ -14025,6 +15342,7 @@ entry(
 4   Cs   u0 {1,S}
 5   Cs   u0 {1,S}
 """,
+<<<<<<< HEAD
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
         Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
@@ -14032,6 +15350,10 @@ entry(
         S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
+=======
+    thermo = u'Cs-S2sHHH',
+    shortDesc = u"""CBS-QB3 GA 1D-HR Aaron Vandeputte 2010""",
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
     longDesc = 
 u"""
 
@@ -14039,8 +15361,85 @@ u"""
 )
 
 entry(
+<<<<<<< HEAD
     index = 676,
     label = "Cs-(N5dcOdOs)CsCsCs",
+=======
+    index = 1162,
+    label = "Cs-S2sHHH",
+    group =
+"""
+1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+2   S2s  u0 {1,S}
+3   H  u0 {1,S}
+4   H  u0 {1,S}
+5   H  u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([6.68, 8.89, 10.23, 11.52, 14.91, 17.19, 18.48], 'cal/(mol*K)'),
+        H298 = (1.96,'kcal/mol'),
+        S298 = (35.84,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u""""
+
+""",
+)
+
+entry(
+    index = 1162,
+    label = "Cs-S4HHH",
+    group =
+"""
+1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+2   [S4s,S4d,S4b,S4t]  u0 {1,S}
+3   H  u0 {1,S}
+4   H  u0 {1,S}
+5   H  u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([5.48, 6.85, 8.1, 9.45, 13.61, 16.46, 18.29], 'cal/(mol*K)'),
+        H298 = (5.53,'kcal/mol'),
+        S298 = (33.83,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u""""
+
+""",
+)
+
+entry(
+    index = 1162,
+    label = "Cs-S6HHH",
+    group =
+"""
+1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+2   [S6s,S6d,S6dd,S6t,S6td]  u0 {1,S}
+3   H  u0 {1,S}
+4   H  u0 {1,S}
+5   H  u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([4.93, 7.19, 8.82, 10.34, 13.83, 16.2, 18.09], 'cal/(mol*K)'),
+        H298 = (-0.84,'kcal/mol'),
+        S298 = (41.29,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u""""
+
+""",
+)
+
+entry(
+    index = 1167,
+    label = "Cs-SsSsHH",
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
     group = 
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
@@ -14053,6 +15452,7 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
+<<<<<<< HEAD
         Cpdata = ([13.5,16,17.8,18.9,20.3,21.1,21.9],'cal/(mol*K)','+|-',[1,1,1,1,1,1,1]),
         H298 = (-12.7,'kcal/mol','+|-',1.3),
         S298 = (5.2,'cal/(mol*K)','+|-',1.2),
@@ -14060,6 +15460,15 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+=======
+        Cpdata = ([8.04, 11.14, 12.08, 12.95, 16.92, 19.0, 17.34], 'cal/(mol*K)'),
+        H298 = (19.1,'kcal/mol'),
+        S298 = (16.46,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u""""
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
 
 """,
 )
@@ -14077,6 +15486,7 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
+<<<<<<< HEAD
         Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
         H298 = (0,'kcal/mol'),
         S298 = (0,'cal/(mol*K)'),
@@ -14084,6 +15494,15 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+=======
+        Cpdata = ([8.14, 12.16, 12.79, 13.27, 17.74, 19.66, 15.75], 'cal/(mol*K)'),
+        H298 = (36.14,'kcal/mol'),
+        S298 = (-0.63,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u""""
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
 
 """,
 )
@@ -15249,6 +16668,7 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
+<<<<<<< HEAD
         Cpdata = ([24.94,31.41,36.47,40.49,46.72,51.49,59.29],'J/(mol*K)','+|-',[3.34,3.34,3.34,3.34,3.34,3.34,3.34]),
         H298 = (-16.9,'kJ/mol','+|-',2.85),
         S298 = (40.18,'J/(mol*K)','+|-',3.9),
@@ -15256,6 +16676,15 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+=======
+        Cpdata = ([3.04, 6.19, 8.2, 9.42, 10.99, 12.05, 13.72], 'cal/(mol*K)'),
+        H298 = (-1.72,'kcal/mol'),
+        S298 = (10.53,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u""""
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
 
 """,
 )
@@ -19496,10 +20925,22 @@ entry(
 5   H   u0 {1,S}
 6   O2d u0 {2,D}
 """,
+<<<<<<< HEAD
     thermo = u'Cs-(Cds-O2d)(Cds-Cds)(Cds-Cds)H',
     shortDesc = u"""""",
     longDesc = 
 u"""
+=======
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([2.36, 5.4, 7.24, 8.24, 9.35, 9.91, 10.56], 'cal/(mol*K)'),
+        H298 = (2.29,'kcal/mol'),
+        S298 = (-10.76,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u""""
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
 
 """,
 )
@@ -29103,8 +30544,38 @@ u"""
 )
 
 entry(
+<<<<<<< HEAD
     index = 1346,
     label = "Cs-CbCbCbCt",
+=======
+    index = 1179,
+    label = "Cs-C=SCsCsCs",
+    group = 
+"""
+1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+2   CS u0 {1,S} {6,D}
+3   Cs u0 {1,S}
+4   Cs u0 {1,S}
+5   Cs u0 {1,S}
+6   S2d u0 {2,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([2.49, 5.54, 7.04, 7.55, 7.81, 7.65, 7.27], 'cal/(mol*K)'),
+        H298 = (4.38,'kcal/mol'),
+        S298 = (-33.21,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u""""
+
+""",
+)
+
+entry(
+    index = -1,
+    label = "Cs-C=SCtCtCs",
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
     group = 
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
@@ -34942,6 +36413,7 @@ u"""
 )
 
 entry(
+<<<<<<< HEAD
     index = 1613,
     label = "Cs-(Cds-O2d)(Cds-Cdd-O2d)OsOs",
     group = 
@@ -34956,6 +36428,19 @@ entry(
 8   O2d u0 {4,D}
 """,
     thermo = u'Cs-(Cds-Cdd-O2d)CsOsOs',
+=======
+    index = -1,
+    label = "Cs-COsSH",
+    group = 
+"""
+1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+2   C  u0 {1,S}
+3   O2s u0 {1,S}
+4   S  u0 {1,S}
+5   H  u0 {1,S}
+""",
+    thermo = u'Cs-CsOsSH',
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
     shortDesc = u"""""",
     longDesc = 
 u"""
@@ -34964,6 +36449,7 @@ u"""
 )
 
 entry(
+<<<<<<< HEAD
     index = 1614,
     label = "Cs-(Cds-O2d)(Cds-Cdd-Cd)OsOs",
     group = 
@@ -34981,11 +36467,28 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+=======
+    index = 1452,
+    label = "Cs-CsOsSH",
+    group = 
+"""
+1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+2   Cs u0 {1,S}
+3   O2s u0 {1,S}
+4   S  u0 {1,S}
+5   H  u0 {1,S}
+""",
+    thermo = u'Cs-CsOsS2H',
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2018""",
+    longDesc =
+u""""
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
 
 """,
 )
 
 entry(
+<<<<<<< HEAD
     index = 1615,
     label = "Cs-(Cds-Cd)(Cds-Cd)OsOs",
     group = 
@@ -35007,6 +36510,51 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+=======
+    index = 1452,
+    label = "Cs-CsOsS2H",
+    group =
+"""
+1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+2   Cs u0 {1,S}
+3   O2s u0 {1,S}
+4   S2s  u0 {1,S}
+5   H  u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([7.76, 10.63, 11.62, 12.1, 13.03, 14.22, 12.83], 'cal/(mol*K)'),
+        H298 = (4.17,'kcal/mol'),
+        S298 = (-13.3,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u""""
+
+""",
+)
+
+entry(
+    index = 1452,
+    label = "Cs-CsOsS4H",
+    group =
+"""
+1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+2   Cs u0 {1,S}
+3   O2s u0 {1,S}
+4   [S4s,S4d,S4b,S4t] u0 {1,S}
+5   H  u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([5.67, 8.88, 10.44, 11.92, 15.43, 17.07, 15.18], 'cal/(mol*K)'),
+        H298 = (5.25,'kcal/mol'),
+        S298 = (-20.4,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u""""
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
 
 """,
 )
@@ -35024,10 +36572,22 @@ entry(
 6   Cd  u0 {2,D}
 7   Cd  u0 {3,D}
 """,
+<<<<<<< HEAD
     thermo = u'Cs-CsCsOsOs',
     shortDesc = u"""""",
     longDesc = 
 u"""
+=======
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([8.88, 11.94, 12.92, 13.33, 14.67, 15.02, 13.48], 'cal/(mol*K)'),
+        H298 = (5.37,'kcal/mol'),
+        S298 = (-11.83,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u""""
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
 
 """,
 )
@@ -35067,10 +36627,22 @@ entry(
 7   Cd  u0 {3,D}
 8   O2d u0 {4,D}
 """,
+<<<<<<< HEAD
     thermo = u'Cs-(Cds-Cdd-O2d)CsOsOs',
     shortDesc = u"""""",
     longDesc = 
 u"""
+=======
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([8.94, 11.75, 12.59, 12.98, 14.4, 14.78, 12.9], 'cal/(mol*K)'),
+        H298 = (4.61,'kcal/mol'),
+        S298 = (-13.38,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u""""
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
 
 """,
 )
@@ -35110,10 +36682,22 @@ entry(
 6   Cdd u0 {2,D}
 7   Cdd u0 {3,D}
 """,
+<<<<<<< HEAD
     thermo = u'Cs-(Cds-Cdd-Cd)(Cds-Cdd-Cd)OsOs',
     shortDesc = u"""""",
     longDesc = 
 u"""
+=======
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([7.94, 10.89, 11.45, 11.37, 11.9, 11.9, 9.51], 'cal/(mol*K)'),
+        H298 = (6.54,'kcal/mol'),
+        S298 = (-38.36,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u""""
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
 
 """,
 )
@@ -35156,10 +36740,22 @@ entry(
 8   O2d u0 {4,D}
 9   C   u0 {5,D}
 """,
+<<<<<<< HEAD
     thermo = u'Cs-(Cds-Cdd-O2d)(Cds-Cds)OsOs',
     shortDesc = u"""""",
     longDesc = 
 u"""
+=======
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([6.58, 8.97, 9.76, 10.23, 11.93, 12.31, 10.02], 'cal/(mol*K)'),
+        H298 = (-5.27,'kcal/mol'),
+        S298 = (-33.54,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u""""
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
 
 """,
 )
@@ -36248,6 +37844,7 @@ u"""
 )
 
 entry(
+<<<<<<< HEAD
     index = 1676,
     label = "Cs-CsOsOsSs",
     group = 
@@ -36264,6 +37861,19 @@ entry(
         H298 = (-5.27,'kcal/mol'),
         S298 = (-33.54,'cal/(mol*K)'),
     ),
+=======
+    index = -1,
+    label = "Cs-CCCS",
+    group = 
+"""
+1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+2   C  u0 {1,S}
+3   C  u0 {1,S}
+4   C  u0 {1,S}
+5   S u0 {1,S}
+""",
+    thermo = u'Cs-CsCsCsS',
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
     shortDesc = u"""""",
     longDesc = 
 u"""
@@ -36272,6 +37882,7 @@ u"""
 )
 
 entry(
+<<<<<<< HEAD
     index = 1677,
     label = "Cs-CCOsH",
     group = 
@@ -36286,11 +37897,28 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+=======
+    index = 1175,
+    label = "Cs-CsCsCsS",
+    group = 
+"""
+1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+2   Cs u0 {1,S}
+3   Cs u0 {1,S}
+4   Cs u0 {1,S}
+5   S u0 {1,S}
+""",
+    thermo = u'Cs-CsCsCsS2',
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2018""",
+    longDesc =
+u""""
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
 
 """,
 )
 
 entry(
+<<<<<<< HEAD
     index = 1678,
     label = "Cs-CsCsOsH",
     group = 
@@ -36310,6 +37938,51 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+=======
+    index = 1175,
+    label = "Cs-CsCsCsS2",
+    group =
+"""
+1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+2   Cs u0 {1,S}
+3   Cs u0 {1,S}
+4   Cs u0 {1,S}
+5   S2s u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([4.97, 6.93, 7.58, 8.09, 10.09, 10.99, 9.6], 'cal/(mol*K)'),
+        H298 = (10.75,'kcal/mol'),
+        S298 = (-31.6,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u""""
+
+""",
+)
+
+entry(
+    index = 1175,
+    label = "Cs-CsCsCsS4",
+    group =
+"""
+1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+2   Cs u0 {1,S}
+3   Cs u0 {1,S}
+4   Cs u0 {1,S}
+5   [S4s,S4d,S4b,S4t] u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([4.57, 5.49, 5.72, 6.11, 8.54, 9.77, 8.79], 'cal/(mol*K)'),
+        H298 = (14.82,'kcal/mol'),
+        S298 = (-29.47,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u""""
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
 
 """,
 )
@@ -39219,6 +40892,7 @@ u"""
 )
 
 entry(
+<<<<<<< HEAD
     index = 1815,
     label = "Cs-(Cds-Cdd-Cd)CbCtSs",
     group = 
@@ -39230,8 +40904,19 @@ entry(
 5   Ct  u0 {1,S}
 6   S2s u0 {1,S}
 7   C   u0 {3,D}
+=======
+    index = -1,
+    label = "Cs-CCSS",
+    group = 
+"""
+1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+2   C  u0 {1,S}
+3   C  u0 {1,S}
+4   S  u0 {1,S}
+5   S  u0 {1,S}
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
 """,
-    thermo = None,
+    thermo = u'Cs-CsCsSS',
     shortDesc = u"""""",
     longDesc = 
 u"""
@@ -39240,8 +40925,80 @@ u"""
 )
 
 entry(
+<<<<<<< HEAD
     index = 1816,
     label = "Cs-CbCbCdsSs",
+=======
+    index = 1202,
+    label = "Cs-CsCsSS",
+    group =
+"""
+1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+2   Cs u0 {1,S}
+3   Cs u0 {1,S}
+4   S  u0 {1,S}
+5   S  u0 {1,S}
+""",
+    thermo = u'Cs-CsCsS2S2',
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2018""",
+    longDesc =
+u""""
+
+""",
+)
+
+entry(
+    index = 1202,
+    label = "Cs-CsCsS2S2",
+    group =
+"""
+1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+2   Cs u0 {1,S}
+3   Cs u0 {1,S}
+4   S2s  u0 {1,S}
+5   S2s  u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([7.83, 10.39, 10.63, 10.76, 13.38, 14.21, 10.84], 'cal/(mol*K)'),
+        H298 = (24.52,'kcal/mol'),
+        S298 = (-26.78,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u""""
+
+""",
+)
+
+entry(
+    index = 1202,
+    label = "Cs-CsCsS6S2",
+    group =
+"""
+1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+2   Cs u0 {1,S}
+3   Cs u0 {1,S}
+4   [S6s,S6d,S6dd,S6t,S6td] u0 {1,S}
+5   S2s  u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([5.61, 8.47, 9.47, 10.23, 13.38, 14.44, 10.88], 'cal/(mol*K)'),
+        H298 = (20.26,'kcal/mol'),
+        S298 = (-21.75,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u""""
+
+""",
+)
+
+entry(
+    index = -1,
+    label = "Cs-CdsCsSsSs",
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
     group = 
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
@@ -40228,10 +41985,22 @@ entry(
 6   Cdd u0 {3,D}
 7   S2d u0 {2,D}
 """,
+<<<<<<< HEAD
     thermo = None,
     shortDesc = u"""""",
     longDesc = 
 u"""
+=======
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([8.76, 12.55, 12.86, 12.95, 16.67, 17.86, 12.77], 'cal/(mol*K)'),
+        H298 = (37.76,'kcal/mol'),
+        S298 = (-23.39,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u""""
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
 
 """,
 )
@@ -40437,15 +42206,21 @@ entry(
 5   S2s u0 {1,S}
 6   Cdd u0 {2,D}
 """,
-    thermo = None,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([9.33, 15.09, 16.62, 17.94, 24.67, 27.95, 23.34], 'cal/(mol*K)'),
+        H298 = (33.21,'kcal/mol'),
+        S298 = (-20.45,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u""""
 
 """,
 )
 
 entry(
+<<<<<<< HEAD
     index = 1873,
     label = "Cs-(Cds-Cdd-S2d)CsSsSs",
     group = 
@@ -40457,8 +42232,19 @@ entry(
 5   S2s u0 {1,S}
 6   S2s u0 {1,S}
 7   S2d u0 {3,D}
+=======
+    index = -1,
+    label = "Cs-CSSH",
+    group = 
+"""
+1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+2   C  u0 {1,S}
+3   S  u0 {1,S}
+4   S  u0 {1,S}
+5   H  u0 {1,S}
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
 """,
-    thermo = None,
+    thermo = u'Cs-CsSSH',
     shortDesc = u"""""",
     longDesc = 
 u"""
@@ -40467,6 +42253,7 @@ u"""
 )
 
 entry(
+<<<<<<< HEAD
     index = 1874,
     label = "Cs-(Cds-Cdd-Cd)CsSsSs",
     group = 
@@ -40483,6 +42270,94 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+=======
+    index = 1173,
+    label = "Cs-CsSSH",
+    group = 
+"""
+1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+2   Cs u0 {1,S}
+3   S  u0 {1,S}
+4   S  u0 {1,S}
+5   H  u0 {1,S}
+""",
+    thermo = u'Cs-CsS2S2H',
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2018""",
+    longDesc =
+u""""
+
+""",
+)
+
+entry(
+    index = 1173,
+    label = "Cs-CsS2S2H",
+    group =
+"""
+1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+2   Cs u0 {1,S}
+3   S2s  u0 {1,S}
+4   S2s  u0 {1,S}
+5   H  u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([8.47, 10.83, 11.17, 11.54, 14.74, 16.21, 13.93], 'cal/(mol*K)'),
+        H298 = (22.59,'kcal/mol'),
+        S298 = (-4.77,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u""""
+
+""",
+)
+
+entry(
+    index = 1173,
+    label = "Cs-CsS4S2H",
+    group =
+"""
+1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+2   Cs u0 {1,S}
+3   [S4s,S4d,S4b,S4t]  u0 {1,S}
+4   S2s  u0 {1,S}
+5   H  u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([8.81, 11.54, 12.42, 13.49, 17.89, 19.74, 16.4], 'cal/(mol*K)'),
+        H298 = (18.39,'kcal/mol'),
+        S298 = (-14.28,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u""""
+
+""",
+)
+
+entry(
+    index = 1173,
+    label = "Cs-CsS6S2H",
+    group =
+"""
+1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+2   Cs u0 {1,S}
+3   [S6s,S6d,S6dd,S6t,S6td]  u0 {1,S}
+4   S2s  u0 {1,S}
+5   H  u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([4.79, 9.79, 12.04, 13.48, 17.54, 19.23, 16.19], 'cal/(mol*K)'),
+        H298 = (18.74,'kcal/mol'),
+        S298 = (-6.26,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u""""
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
 
 """,
 )
@@ -40681,6 +42556,7 @@ u"""
 )
 
 entry(
+<<<<<<< HEAD
     index = 1884,
     label = "Cs-(Cds-Cdd-Cd)(Cds-Cdd-Cd)SsSs",
     group = 
@@ -40694,8 +42570,19 @@ entry(
 7   S2s u0 {1,S}
 8   C   u0 {4,D}
 9   C   u0 {5,D}
+=======
+    index = -1,
+    label = "Cs-CCSH",
+    group = 
+"""
+1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+2   C  u0 {1,S}
+3   C  u0 {1,S}
+4   S  u0 {1,S}
+5   H  u0 {1,S}
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
 """,
-    thermo = None,
+    thermo = u'Cs-CsCsSH',
     shortDesc = u"""""",
     longDesc = 
 u"""
@@ -40704,6 +42591,7 @@ u"""
 )
 
 entry(
+<<<<<<< HEAD
     index = 1885,
     label = "Cs-CtCsSsSs",
     group = 
@@ -40711,18 +42599,107 @@ entry(
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
 2   Ct  u0 {1,S}
 3   Cs  u0 {1,S}
-4   S2s u0 {1,S}
-5   S2s u0 {1,S}
+=======
+    index = 1169,
+    label = "Cs-CsCsSH",
+    group = 
+"""
+1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+2   Cs u0 {1,S}
+3   Cs u0 {1,S}
+4   S  u0 {1,S}
+5   H  u0 {1,S}
 """,
-    thermo = None,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
+    thermo = u'Cs-CsCsS2H',
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2018""",
+    longDesc =
+u""""
 
 """,
 )
 
 entry(
+    index = 1169,
+    label = "Cs-CsCsS2H",
+    group =
+"""
+1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+2   Cs u0 {1,S}
+3   Cs u0 {1,S}
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
+4   S2s u0 {1,S}
+5   S2s u0 {1,S}
+""",
+<<<<<<< HEAD
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+=======
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([5.41, 7.56, 8.52, 9.25, 11.57, 12.8, 12.07], 'cal/(mol*K)'),
+        H298 = (11.07,'kcal/mol'),
+        S298 = (-7.17,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u""""
+
+""",
+)
+
+entry(
+    index = 1169,
+    label = "Cs-CsCsS4H",
+    group =
+"""
+1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+2   Cs u0 {1,S}
+3   Cs u0 {1,S}
+4   [S4s,S4d,S4b,S4t] u0 {1,S}
+5   H  u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([4.45, 5.07, 5.65, 6.45, 9.65, 11.6, 12.52], 'cal/(mol*K)'),
+        H298 = (12.82,'kcal/mol'),
+        S298 = (-7.24,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u""""
+
+""",
+)
+
+entry(
+    index = 1169,
+    label = "Cs-CsCsS6H",
+    group =
+"""
+1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+2   Cs u0 {1,S}
+3   Cs u0 {1,S}
+4   [S6s,S6d,S6dd,S6t,S6td] u0 {1,S}
+5   H  u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([3.72, 5.38, 6.37, 7.25, 9.88, 11.39, 11.46], 'cal/(mol*K)'),
+        H298 = (5.98,'kcal/mol'),
+        S298 = (-5.67,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u""""
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
+
+""",
+)
+
+entry(
+<<<<<<< HEAD
     index = 1886,
     label = "Cs-CtCdsSsSs",
     group = 
@@ -40737,6 +42714,46 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+=======
+    index = 1170,
+    label = "Cs-CdsCsSH",
+    group = 
+"""
+1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+2   [Cd,CO] u0 {1,S}
+3   Cs u0 {1,S}
+4   S u0 {1,S}
+5   H  u0 {1,S}
+""",
+    thermo = u'Cs-(Cds-Cd)CsSsH',
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2018""",
+    longDesc =
+u""""
+
+""",
+)
+
+entry(
+    index = 1170,
+    label = "Cs-CdsCsS4H",
+    group =
+"""
+1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+2   [Cd,CO] u0 {1,S}
+3   Cs u0 {1,S}
+4   [S4s,S4d,S4b,S4t] u0 {1,S}
+5   H  u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([9.04343335957, 9.75110445492, 9.94209393877, 10.4997656958, 13.2831747075, 14.9311306186, 14.2720671252], 'cal/(mol*K)'),
+        H298 = (5.13822977388,'kcal/mol'),
+        S298 = (-1.82552093996,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u""""
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
 
 """,
 )
@@ -40753,7 +42770,7 @@ entry(
 5   S2s u0 {1,S}
 6   C   u0 {2,D}
 """,
-    thermo = None,
+    thermo = u'Cs-(Cds-Cds)CsSsH',
     shortDesc = u"""""",
     longDesc = 
 u"""
@@ -40773,8 +42790,13 @@ entry(
 5   S2s u0 {1,S}
 6   Cd  u0 {2,D}
 """,
-    thermo = None,
-    shortDesc = u"""""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([7.97, 10.76, 11.55, 11.83, 13.17, 13.89, 12.78], 'cal/(mol*K)'),
+        H298 = (10.35,'kcal/mol'),
+        S298 = (-9.71,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
     longDesc = 
 u"""
 
@@ -41052,10 +43074,22 @@ entry(
 5   S2s u0 {1,S}
 6   S2d u0 {2,D}
 """,
+<<<<<<< HEAD
     thermo = None,
     shortDesc = u"""""",
     longDesc = 
 u"""
+=======
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([5.62, 7.79, 8.7, 9.44, 11.69, 12.98, 11.46], 'cal/(mol*K)'),
+        H298 = (13.55,'kcal/mol'),
+        S298 = (-6.16,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u""""
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
 
 """,
 )
@@ -41239,10 +43273,22 @@ entry(
 4   S2s u0 {1,S}
 5   S2s u0 {1,S}
 """,
+<<<<<<< HEAD
     thermo = None,
     shortDesc = u"""""",
     longDesc = 
 u"""
+=======
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([6.44, 8.88, 9.92, 10.57, 12.5, 13.34, 12.17], 'cal/(mol*K)'),
+        H298 = (11.58,'kcal/mol'),
+        S298 = (-9.0,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u""""
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
 
 """,
 )
@@ -41463,6 +43509,7 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
+<<<<<<< HEAD
         Cpdata = ([9.33,15.09,16.62,17.94,24.67,27.95,23.34],'cal/(mol*K)'),
         H298 = (33.21,'kcal/mol'),
         S298 = (-20.45,'cal/(mol*K)'),
@@ -41470,6 +43517,15 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+=======
+        Cpdata = ([5.76, 10.49, 12.16, 12.69, 14.03, 14.39, 12.81], 'cal/(mol*K)'),
+        H298 = (12.61,'kcal/mol'),
+        S298 = (-10.23,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u""""
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
 
 """,
 )
@@ -41615,7 +43671,11 @@ entry(
 5   H   u0 {1,S}
 6   C   u0 {2,D}
 """,
+<<<<<<< HEAD
     thermo = None,
+=======
+    thermo = u'Cs-CsSHH',
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
     shortDesc = u"""""",
     longDesc = 
 u"""
@@ -41624,8 +43684,32 @@ u"""
 )
 
 entry(
+<<<<<<< HEAD
     index = 1930,
     label = "Cs-(Cds-Cds)SsSsH",
+=======
+    index = 1163,
+    label = "Cs-CsSHH",
+    group =
+"""
+1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+2   Cs u0 {1,S}
+3   S  u0 {1,S}
+4   H  u0 {1,S}
+5   H  u0 {1,S}
+""",
+    thermo = u'Cs-CsS2HH',
+    shortDesc = u"""""",
+    longDesc =
+u""""
+
+""",
+)
+
+entry(
+    index = 1163,
+    label = "Cs-CsS2HH",
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
     group = 
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
@@ -41635,10 +43719,70 @@ entry(
 5   H   u0 {1,S}
 6   Cd  u0 {2,D}
 """,
+<<<<<<< HEAD
     thermo = None,
     shortDesc = u"""""",
     longDesc = 
 u"""
+=======
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([5.96, 8.17, 9.34, 10.35, 13.25, 15.03, 15.38], 'cal/(mol*K)'),
+        H298 = (6.95,'kcal/mol'),
+        S298 = (14.5,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u""""
+
+""",
+)
+
+entry(
+    index = 1163,
+    label = "Cs-CsS4HH",
+    group =
+"""
+1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+2   Cs u0 {1,S}
+3   [S4s,S4d,S4b,S4t] u0 {1,S}
+4   H  u0 {1,S}
+5   H  u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([5.12, 6.09, 6.9, 7.99, 11.61, 14.01, 15.09], 'cal/(mol*K)'),
+        H298 = (9.13,'kcal/mol'),
+        S298 = (12.35,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u""""
+
+""",
+)
+
+entry(
+    index = 1163,
+    label = "Cs-CsS6HH",
+    group =
+"""
+1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+2   Cs u0 {1,S}
+3   [S6s,S6d,S6dd,S6t,S6td] u0 {1,S}
+4   H  u0 {1,S}
+5   H  u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([3.91, 5.81, 7.26, 8.55, 11.77, 13.8, 14.82], 'cal/(mol*K)'),
+        H298 = (3.84,'kcal/mol'),
+        S298 = (19.66,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u""""
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
 
 """,
 )
@@ -41655,10 +43799,22 @@ entry(
 5   H   u0 {1,S}
 6   Cdd u0 {2,D}
 """,
+<<<<<<< HEAD
     thermo = None,
     shortDesc = u"""""",
     longDesc = 
 u"""
+=======
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([8.96, 10.86, 11.45, 12.01, 14.21, 15.74, 15.89], 'cal/(mol*K)'),
+        H298 = (7.47,'kcal/mol'),
+        S298 = (12.31,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u""""
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
 
 """,
 )
@@ -41774,10 +43930,22 @@ entry(
 4   S  u0 {1,S}
 5   H  u0 {1,S}
 """,
+<<<<<<< HEAD
     thermo = u'Cs-CsCsSH',
     shortDesc = u"""""",
     longDesc = 
 u"""
+=======
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([5.95, 8.29, 9.45, 10.53, 13.39, 15.28, 14.76], 'cal/(mol*K)'),
+        H298 = (10.19,'kcal/mol'),
+        S298 = (15.23,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u""""
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
 
 """,
 )
@@ -41793,10 +43961,22 @@ entry(
 4   S  u0 {1,S}
 5   H  u0 {1,S}
 """,
+<<<<<<< HEAD
     thermo = u'Cs-CsCsS2H',
     shortDesc = u"""""",
     longDesc = 
 u"""
+=======
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([6.54, 8.82, 10.03, 11.08, 13.8, 15.37, 15.33], 'cal/(mol*K)'),
+        H298 = (6.16,'kcal/mol'),
+        S298 = (12.86,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u""""
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
 
 """,
 )
@@ -41814,6 +43994,7 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
+<<<<<<< HEAD
         Cpdata = ([5.41,7.56,8.52,9.25,11.57,12.8,12.07],'cal/(mol*K)'),
         H298 = (11.07,'kcal/mol'),
         S298 = (-7.17,'cal/(mol*K)'),
@@ -41821,6 +44002,15 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+=======
+        Cpdata = ([6.7, 11.06, 12.6, 13.3, 15.32, 16.4, 15.98], 'cal/(mol*K)'),
+        H298 = (10.03,'kcal/mol'),
+        S298 = (11.36,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u""""
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
 
 """,
 )
@@ -42447,9 +44637,15 @@ u"""
 )
 
 entry(
+<<<<<<< HEAD
     index = 1969,
     label = "Cs-(Cds-Cd)CbSsH",
     group = 
+=======
+    index = 1100,
+    label = "O2s-OsOs",
+    group =
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
 2   Cd  u0 {1,S} {6,D}
@@ -42458,9 +44654,42 @@ entry(
 5   H   u0 {1,S}
 6   C   u0 {2,D}
 """,
+<<<<<<< HEAD
     thermo = None,
     shortDesc = u"""""",
     longDesc = 
+=======
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([2.2,3.64,4.2,4.34,4.62,4.9,4.9],'cal/(mol*K)','+|-',[0.1,0.1,0.1,0.1,0.1,0.1,0.1]),
+        H298 = (8.85,'kcal/mol','+|-',0.16),
+        S298 = (9.4,'cal/(mol*K)','+|-',0.1),
+    ),
+    shortDesc = u"""O-OO LAY 1997=20 !!!WARNING! Cp1500 value taken as Cp1000""",
+    longDesc =
+u"""
+
+""",
+)
+
+entry(
+    index = 1100,
+    label = "O2s-SsOs",
+    group =
+"""
+1 * O2s u0 {2,S} {3,S}
+2   S   u0 {1,S}
+3   O2s u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([3.22, 3.81, 4.08, 4.22, 4.78, 4.9, 4.88], 'cal/(mol*K)'),
+        H298 = (-3.35,'kcal/mol'),
+        S298 = (8.69,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
 u"""
 
 """,
@@ -42559,9 +44788,20 @@ entry(
 4   S2s u0 {1,S}
 5   H   u0 {1,S}
 """,
+<<<<<<< HEAD
     thermo = None,
     shortDesc = u"""""",
     longDesc = 
+=======
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([19.07,19.8,20.85,22.07,24.57,26.95,31.66],'J/(mol*K)','+|-',[2.54,2.54,2.54,2.54,2.54,2.54,2.54]),
+        H298 = (-165.2,'kJ/mol','+|-',2.16),
+        S298 = (125.32,'J/(mol*K)','+|-',2.96),
+    ),
+    shortDesc = u"""\Derived from CBS-QB3 calculation with 1DHR treatment""",
+    longDesc =
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
 u"""
 
 """,
@@ -42598,10 +44838,22 @@ entry(
 5   H   u0 {1,S}
 6   S2d u0 {2,D}
 """,
+<<<<<<< HEAD
     thermo = None,
     shortDesc = u"""""",
     longDesc = 
 u"""
+=======
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([2.4, 3.15, 4.19, 5.05, 6.21, 7.04, 8.41], 'cal/(mol*K)'),
+        H298 = (-47.58,'kcal/mol'),
+        S298 = (27.77,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u""""
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
 
 """,
 )
@@ -43245,11 +45497,19 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
+<<<<<<< HEAD
         Cpdata = ([8.47,10.2,11.68,12.76,14.29,15.38,16.21],'cal/(mol*K)'),
         H298 = (-14.47,'kcal/mol'),
         S298 = (17.33,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
+=======
+        Cpdata = ([1.05, 1.22, 1.84, 2.44, 3.31, 3.94, 4.86], 'cal/(mol*K)'),
+        H298 = (-30.58,'kcal/mol'),
+        S298 = (5.73,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
     longDesc = 
 u"""
 
@@ -43309,11 +45569,15 @@ entry(
     label = "Cs-HFFCs",
     group = 
 """
+<<<<<<< HEAD
 1 * Cs  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2   H   u0 p0 c0 {1,S}
 3   F1s u0 p3 c0 {1,S}
 4   F1s u0 p3 c0 {1,S}
 5   Cs  u0 p0 c0 {1,S}
+=======
+1 * S ux
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -43329,8 +45593,32 @@ u"""
 )
 
 entry(
+<<<<<<< HEAD
     index = 2009,
     label = "Cs-HF2Cs-O2s",
+=======
+    index = 1400,
+    label = "Sc",
+    group = 
+"""
+1 * S ux px c+1
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([5,5,5,5,5,5,5],'cal/(mol*K)','+|-',[1,1,1,1,1,1,1]),
+        H298 = (200,'kcal/mol','+|-',1),
+        S298 = (20,'cal/(mol*K)','+|-',1),
+    ),
+    shortDesc = u"""Knocks out charged thermo""",
+    longDesc =
+u"""
+""",
+)
+
+entry(
+    index = -1,
+    label = "S2d",
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
     group = 
 """
 1 * Cs  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -43378,6 +45666,7 @@ u"""
 )
 
 entry(
+<<<<<<< HEAD
     index = 2011,
     label = "Cs-HFO2sCs",
     group = 
@@ -43387,6 +45676,14 @@ entry(
 3   O2s u0 p2 c0 {1,S}
 4   H   u0 p0 c0 {1,S}
 5   Cs  u0 p0 c0 {1,S}
+=======
+    index = 1160,
+    label = "S2d-C",
+    group = 
+"""
+1 * S2d u0 {2,D}
+2   C u0 {1,D}
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -43402,6 +45699,7 @@ u"""
 )
 
 entry(
+<<<<<<< HEAD
     index = 2012,
     label = "Cs-H2FCd",
     group = 
@@ -43419,6 +45717,22 @@ entry(
         S298 = (139.476,'J/(mol*K)'),
     ),
     shortDesc = u"""""",
+=======
+    index = 1161,
+    label = "S2d-S",
+    group = 
+"""
+1 * S2d u0 {2,D}
+2   S u0 {1,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([8.99, 7.45, 7.0, 6.93, 7.48, 7.75, 8.1], 'cal/(mol*K)'),
+        H298 = (4.59,'kcal/mol'),
+        S298 = (54.27,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
     longDesc = 
 u"""
 
@@ -43426,8 +45740,34 @@ u"""
 )
 
 entry(
+<<<<<<< HEAD
     index = 2013,
     label = "Cs-FFFCs",
+=======
+    index = 1161,
+    label = "S2d-O",
+    group =
+"""
+1 * S2d u0 {2,D}
+2   O u0 {1,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([7.27, 7.55, 7.84, 8.08, 8.39, 8.57, 8.77], 'cal/(mol*K)'),
+        H298 = (0.26,'kcal/mol'),
+        S298 = (50.87,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u"""
+
+""",
+)
+
+entry(
+    index = -1,
+    label = "S2s",
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
     group = 
 """
 1 * Cs  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -43462,6 +45802,7 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
+<<<<<<< HEAD
         Cpdata = ([29.8896,37.1441,44.1374,50.5352,61.2793,68.6235,79.4103],'J/(mol*K)'),
         H298 = (-253.52,'kJ/mol'),
         S298 = (136.362,'J/(mol*K)'),
@@ -43469,6 +45810,15 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+=======
+        Cpdata = ([8.15, 8.48, 8.84, 9.25, 10.09, 10.83, 12.09], 'cal/(mol*K)'),
+        H298 = (-5.38,'kcal/mol'),
+        S298 = (50.53,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u""""
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
 
 """,
 )
@@ -43511,6 +45861,7 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
+<<<<<<< HEAD
         Cpdata = ([39.2691,48.5248,56.3714,62.5879,70.2223,74.1324,82.0924],'J/(mol*K)'),
         H298 = (-471.578,'kJ/mol'),
         S298 = (148.331,'J/(mol*K)'),
@@ -43518,6 +45869,15 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+=======
+        Cpdata = ([5.73, 5.21, 5.55, 5.8, 4.98, 4.87, 7.06], 'cal/(mol*K)'),
+        H298 = (-7.93,'kcal/mol'),
+        S298 = (28.75,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u""""
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
 
 """,
 )
@@ -43535,6 +45895,7 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
+<<<<<<< HEAD
         Cpdata = ([31.2975,37.6504,43.2579,48.0897,55.6992,60.6955,67.119],'J/(mol*K)'),
         H298 = (-223.454,'kJ/mol'),
         S298 = (43.8897,'J/(mol*K)'),
@@ -43542,6 +45903,15 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+=======
+        Cpdata = ([4.59, 5.16, 6.11, 6.73, 6.25, 6.14, 8.62], 'cal/(mol*K)'),
+        H298 = (-6.3,'kcal/mol'),
+        S298 = (27.69,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u""""
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
 
 """,
 )
@@ -43557,10 +45927,22 @@ entry(
 4   H   u0 p0 c0 {1,S}
 5   Ct  u0 p0 c0 {1,S}
 """,
+<<<<<<< HEAD
     thermo = None,
     shortDesc = u"""""",
     longDesc = 
 u"""
+=======
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([5.77, 7.04, 8.31, 8.95, 8.11, 7.62, 9.5], 'cal/(mol*K)'),
+        H298 = (-11.24,'kcal/mol'),
+        S298 = (23.31,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u""""
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
 
 """,
 )
@@ -43579,6 +45961,7 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
+<<<<<<< HEAD
         Cpdata = ([34.6138,42.0017,48.4708,54.2651,63.1162,69.798,74.9561],'J/(mol*K)'),
         H298 = (-206.66,'kJ/mol'),
         S298 = (143.935,'J/(mol*K)'),
@@ -43586,13 +45969,27 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+=======
+        Cpdata = ([5.15, 6.51, 7.79, 8.49, 7.74, 7.43, 9.83], 'cal/(mol*K)'),
+        H298 = (-8.34,'kcal/mol'),
+        S298 = (24.34,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u""""
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
 
 """,
 )
 
 entry(
+<<<<<<< HEAD
     index = 2020,
     label = "Cs-HF2Cd",
+=======
+    index = 1462,
+    label = "S2s-(C=O)H",
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
     group = 
 """
 1 * Cs  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -43603,6 +46000,7 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
+<<<<<<< HEAD
         Cpdata = ([41.9512,51.3555,58.7148,64.0938,72.5156,78.3203,85.3906],'J/(mol*K)'),
         H298 = (-449.938,'kJ/mol'),
         S298 = (155.223,'J/(mol*K)'),
@@ -43610,13 +46008,27 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+=======
+        Cpdata = ([5.37, 5.5, 6.36, 7.04, 6.91, 6.85, 8.81], 'cal/(mol*K)'),
+        H298 = (-15.61,'kcal/mol'),
+        S298 = (23.19,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u""""
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
 
 """,
 )
 
 entry(
+<<<<<<< HEAD
     index = 2021,
     label = "Cs-HF2-Cd-Cd",
+=======
+    index = 1153,
+    label = "S2s-(C=S2d)H",
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
     group = 
 """
 1 * Cs  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -43628,6 +46040,7 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
+<<<<<<< HEAD
         Cpdata = ([40.436,48.2001,55.2367,61.42,70.8328,77.2651,85.2466],'J/(mol*K)'),
         H298 = (-426.333,'kJ/mol'),
         S298 = (155.182,'J/(mol*K)'),
@@ -43635,13 +46048,27 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+=======
+        Cpdata = ([4.59, 5.99, 7.09, 7.59, 6.62, 6.19, 8.26], 'cal/(mol*K)'),
+        H298 = (-4.41,'kcal/mol'),
+        S298 = (27.28,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u""""
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
 
 """,
 )
 
 entry(
+<<<<<<< HEAD
     index = 2022,
     label = "Cs-HFO2sCO",
+=======
+    index = 1147,
+    label = "S2s-S2sH",
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
     group = 
 """
 1 * Cs  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -43652,6 +46079,7 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
+<<<<<<< HEAD
         Cpdata = ([35.0928,43.5816,49.5317,53.9493,60.3492,64.4279,69.2941],'J/(mol*K)'),
         H298 = (-228.437,'kJ/mol'),
         S298 = (41.9056,'J/(mol*K)'),
@@ -43659,6 +46087,37 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+=======
+        Cpdata = ([5.8, 6.58, 7.13, 7.49, 8.0, 8.38, 8.96], 'cal/(mol*K)'),
+        H298 = (2.4,'kcal/mol'),
+        S298 = (32.51,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u""""
+
+""",
+)
+
+entry(
+    index = 11488,
+    label = "S2s-S_DeH",
+    group =
+"""
+1 * S2s u0 {2,S} {3,S}
+2   [S4d,S6d,S6dd]  u0 {1,S}
+3   H  u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([6.29, 6.86, 6.95, 7.35, 7.78, 8.09, 8.5], 'cal/(mol*K)'),
+        H298 = (1.99,'kcal/mol'),
+        S298 = (28.52,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u""""
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
 
 """,
 )
@@ -43674,12 +46133,16 @@ entry(
 4   O2s u0 p2 c0 {1,S}
 5   Cs  u0 p0 c0 {1,S}
 """,
+<<<<<<< HEAD
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
         Cpdata = ([32.3324,44.3229,51.1703,55.2743,60.0905,61.9203,60.8104],'J/(mol*K)'),
         H298 = (-319.364,'kJ/mol'),
         S298 = (-70.378,'J/(mol*K)'),
     ),
+=======
+    thermo = u'S2s-S2sH',
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
     shortDesc = u"""""",
     longDesc = 
 u"""
@@ -43700,6 +46163,7 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
+<<<<<<< HEAD
         Cpdata = ([30.554,37.725,43.8665,48.8937,56.5816,61.6944,67.8014],'J/(mol*K)'),
         H298 = (-213.155,'kJ/mol'),
         S298 = (48.29,'J/(mol*K)'),
@@ -43707,6 +46171,15 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+=======
+        Cpdata = ([6.26, 6.39, 6.35, 6.52, 6.64, 6.58, 6.03], 'cal/(mol*K)'),
+        H298 = (1.76,'kcal/mol'),
+        S298 = (9.13,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u""""
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
 
 """,
 )
@@ -43736,9 +46209,98 @@ u"""
 )
 
 entry(
+<<<<<<< HEAD
     index = 2026,
     label = "Cs-HF2Ct",
     group = 
+=======
+    index = 1152,
+    label = "S2s-SO",
+    group =
+"""
+1 * S2s u0 {2,S} {3,S}
+2   S ux {1,S}
+3   O ux {1,S}
+""",
+    thermo = u'S2s-S2O',
+    shortDesc = u""" """,
+    longDesc =
+u"""
+
+""",
+)
+
+entry(
+    index = 1152,
+    label = "S2s-S2O",
+    group =
+"""
+1 * S2s u0 {2,S} {3,S}
+2   S2s ux {1,S}
+3   O ux {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([6.98, 6.87, 6.93, 6.96, 6.69, 6.54, 5.98], 'cal/(mol*K)'),
+        H298 = (5.0,'kcal/mol'),
+        S298 = (10.55,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u"""
+
+""",
+)
+
+entry(
+    index = 1152,
+    label = "S2s-S4O",
+    group =
+"""
+1 * S2s u0 {2,S} {3,S}
+2   [S4s,S4d,S4b,S4t] ux {1,S}
+3   O ux {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([6.61, 7.25, 7.18, 7.84, 7.92, 7.81, 7.13], 'cal/(mol*K)'),
+        H298 = (6.05,'kcal/mol'),
+        S298 = (5.79,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u"""
+
+""",
+)
+
+entry(
+    index = 1152,
+    label = "S2s-S6O",
+    group =
+"""
+1 * S2s u0 {2,S} {3,S}
+2   [S6s,S6d,S6dd,S6t,S6td] ux {1,S}
+3   O ux {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([6.91, 8.77, 9.05, 9.21, 9.05, 8.65, 6.9], 'cal/(mol*K)'),
+        H298 = (4.43,'kcal/mol'),
+        S298 = (0.9,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u"""
+
+""",
+)
+
+entry(
+    index = -1,
+    label = "S2s-SC",
+    group =
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
 """
 1 * Cs  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2   H   u0 p0 c0 {1,S}
@@ -43746,7 +46308,11 @@ entry(
 4   F1s u0 p3 c0 {1,S}
 5   Ct  u0 p0 c0 {1,S}
 """,
+<<<<<<< HEAD
     thermo = None,
+=======
+    thermo = u'S2s-S2sC',
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
     shortDesc = u"""""",
     longDesc = 
 u"""
@@ -43755,8 +46321,13 @@ u"""
 )
 
 entry(
+<<<<<<< HEAD
     index = 2027,
     label = "Cs-HF2Ct-Ct",
+=======
+    index = -1,
+    label = "S2s-S2sC",
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
     group = 
 """
 1 * Cs  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -43766,12 +46337,16 @@ entry(
 5   F1s u0 p3 c0 {1,S}
 6   Ct  u0 p0 c0 {2,T}
 """,
+<<<<<<< HEAD
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
         Cpdata = ([43.7734,52.1941,58.7693,63.8258,71.8468,77.2762,79.3008],'J/(mol*K)'),
         H298 = (-414.434,'kJ/mol'),
         S298 = (166.444,'J/(mol*K)'),
     ),
+=======
+    thermo = u'S2s-S2sCs',
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
     shortDesc = u"""""",
     longDesc = 
 u"""
@@ -43780,6 +46355,7 @@ u"""
 )
 
 entry(
+<<<<<<< HEAD
     index = 2028,
     label = "Cs-H2FCO",
     group = 
@@ -43798,12 +46374,31 @@ entry(
     ),
     shortDesc = u"""""",
     longDesc = 
+=======
+    index = -1,
+    label = "S2s-S46C",
+    group =
+"""
+1 * S2s u0 {2,S} {3,S}
+2   [S4s,S4d,S4b,S4t,S6d,S6dd,S6t,S6td] u0 {1,S}
+3   C  u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([5.13, 4.53, 4.39, 4.58, 3.29, 2.61, 4.05], 'cal/(mol*K)'),
+        H298 = (-6.87,'kcal/mol'),
+        S298 = (5.39,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
 u"""
 
 """,
 )
 
 entry(
+<<<<<<< HEAD
     index = 2029,
     label = "Cs-HFO2sO2s",
     group = 
@@ -43823,11 +46418,31 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+=======
+    index = 1148,
+    label = "S2s-S2sCs",
+    group = 
+"""
+1 * S2s u0 {2,S} {3,S}
+2   S2s u0 {1,S}
+3   Cs u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([4.97, 4.54, 4.79, 4.86, 3.65, 3.01, 4.31], 'cal/(mol*K)'),
+        H298 = (-5.11,'kcal/mol'),
+        S298 = (6.93,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u""""
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
 
 """,
 )
 
 entry(
+<<<<<<< HEAD
     index = 2030,
     label = "Cs-HFCsCO",
     group = 
@@ -43847,11 +46462,31 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+=======
+    index = 1149,
+    label = "S2s-S2sCd",
+    group = 
+"""
+1 * S2s u0 {2,S} {3,S}
+2   S2s u0 {1,S}
+3   [Cd,CO,CS] u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([3.7, 4.33, 5.07, 5.44, 4.22, 3.51, 4.92], 'cal/(mol*K)'),
+        H298 = (-1.95,'kcal/mol'),
+        S298 = (7.45,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u""""
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
 
 """,
 )
 
 entry(
+<<<<<<< HEAD
     index = 2031,
     label = "Cs-F3Cd",
     group = 
@@ -43871,11 +46506,31 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+=======
+    index = 1150,
+    label = "S2s-S2sCt",
+    group = 
+"""
+1 * S2s u0 {2,S} {3,S}
+2   S2s u0 {1,S}
+3   Ct u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([4.79, 5.99, 7.05, 7.43, 6.04, 5.03, 6.05], 'cal/(mol*K)'),
+        H298 = (-4.98,'kcal/mol'),
+        S298 = (4.54,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u""""
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
 
 """,
 )
 
 entry(
+<<<<<<< HEAD
     index = 2032,
     label = "Cs-F3CO",
     group = 
@@ -43895,6 +46550,25 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+=======
+    index = 1151,
+    label = "S2s-S2sCb",
+    group = 
+"""
+1 * S2s u0 {2,S} {3,S}
+2   S2s u0 {1,S}
+3   Cb u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([5.16, 5.6, 6.38, 6.83, 5.95, 5.19, 6.4], 'cal/(mol*K)'),
+        H298 = (-8.28,'kcal/mol'),
+        S298 = (4.18,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u""""
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
 
 """,
 )
@@ -43936,6 +46610,7 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
+<<<<<<< HEAD
         Cpdata = ([30.6287,40.1389,46.5976,51.5638,58.7253,63.2546,63.8198],'J/(mol*K)'),
         H298 = (-224.078,'kJ/mol'),
         S298 = (50.5454,'J/(mol*K)'),
@@ -43943,6 +46618,15 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+=======
+        Cpdata = ([4.08, 3.18, 3.6, 3.63, 1.11, -0.35, 2.47], 'cal/(mol*K)'),
+        H298 = (-12.89,'kcal/mol'),
+        S298 = (1.98,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u""""
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
 
 """,
 )
@@ -43960,6 +46644,7 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
+<<<<<<< HEAD
         Cpdata = ([30.7861,38.1111,43.603,48.2415,55.1646,60.0151,61.187],'J/(mol*K)'),
         H298 = (-198.653,'kJ/mol'),
         S298 = (57.8985,'J/(mol*K)'),
@@ -43967,13 +46652,27 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+=======
+        Cpdata = ([4.39, 4.01, 4.68, 4.86, 2.31, 0.98, 4.01], 'cal/(mol*K)'),
+        H298 = (-12.92,'kcal/mol'),
+        S298 = (1.68,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u""""
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
 
 """,
 )
 
 entry(
+<<<<<<< HEAD
     index = 2036,
     label = "Cs-F3Ct",
+=======
+    index = 1463,
+    label = "S2s-Cs(C=O)",
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
     group = 
 """
 1 * Cs  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -43984,6 +46683,7 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
+<<<<<<< HEAD
         Cpdata = ([52.0389,62.3733,68.7511,73.3727,80.0037,83.838,83.1956],'J/(mol*K)'),
         H298 = (-651.1,'kJ/mol'),
         S298 = (172.936,'J/(mol*K)'),
@@ -43991,6 +46691,15 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+=======
+        Cpdata = ([2.59, 1.97, 3.07, 3.92, 2.65, 1.84, 4.64], 'cal/(mol*K)'),
+        H298 = (-23.07,'kcal/mol'),
+        S298 = (-5.22,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u""""
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
 
 """,
 )
@@ -44008,6 +46717,7 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
+<<<<<<< HEAD
         Cpdata = ([41.0107,50.4551,56.6455,61.0215,67.6387,70.8203,73.668],'J/(mol*K)'),
         H298 = (-508.344,'kJ/mol'),
         S298 = (41.5898,'J/(mol*K)'),
@@ -44015,6 +46725,15 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+=======
+        Cpdata = ([4.28, 4.58, 5.7, 6.11, 3.57, 2.07, 4.79], 'cal/(mol*K)'),
+        H298 = (-17.69,'kcal/mol'),
+        S298 = (-0.51,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u""""
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
 
 """,
 )
@@ -44032,6 +46751,7 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
+<<<<<<< HEAD
         Cpdata = ([51.5413,63.7011,72.1535,77.6324,84.7667,88.5803,90.9517],'J/(mol*K)'),
         H298 = (-745.396,'kJ/mol'),
         S298 = (157.327,'J/(mol*K)'),
@@ -44039,6 +46759,15 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+=======
+        Cpdata = ([3.39, 3.88, 5.06, 5.54, 3.13, 1.85, 5.1], 'cal/(mol*K)'),
+        H298 = (-13.96,'kcal/mol'),
+        S298 = (-0.49,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u""""
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
 
 """,
 )
@@ -44056,6 +46785,7 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
+<<<<<<< HEAD
         Cpdata = ([30.9987,39.8886,45.3146,49.3884,55.4549,58.5044,60.0874],'J/(mol*K)'),
         H298 = (-270.123,'kJ/mol'),
         S298 = (-83.8382,'J/(mol*K)'),
@@ -44063,6 +46793,15 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+=======
+        Cpdata = ([2.84, 3.28, 4.52, 5.08, 2.91, 1.76, 5.17], 'cal/(mol*K)'),
+        H298 = (-10.0,'kcal/mol'),
+        S298 = (3.65,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u""""
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
 
 """,
 )
@@ -44080,6 +46819,7 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
+<<<<<<< HEAD
         Cpdata = ([46.287,53.7663,60.0934,65.2981,72.5739,77.2067,84.1971],'J/(mol*K)'),
         H298 = (-416.205,'kJ/mol'),
         S298 = (159.162,'J/(mol*K)'),
@@ -44087,6 +46827,15 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+=======
+        Cpdata = ([3.35, 4.54, 6.16, 6.8, 4.41, 2.93, 5.43], 'cal/(mol*K)'),
+        H298 = (-14.92,'kcal/mol'),
+        S298 = (-0.53,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u""""
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
 
 """,
 )
@@ -44098,10 +46847,22 @@ entry(
 """
 1 * O u0
 """,
+<<<<<<< HEAD
     thermo = u'O2s-CsCs',
     shortDesc = u"""""",
     longDesc = 
 u"""
+=======
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([3.19, 4.37, 5.99, 6.68, 4.42, 3.05, 6.26], 'cal/(mol*K)'),
+        H298 = (-13.0,'kcal/mol'),
+        S298 = (0.31,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u""""
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
 
 """,
 )
@@ -44115,6 +46876,7 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
+<<<<<<< HEAD
         Cpdata = ([4.968,4.968,4.968,4.968,4.968,4.968,4.968],'cal/(mol*K)'),
         H298 = (104.81,'kcal/mol'),
         S298 = (34.25,'cal/(mol*K)'),
@@ -44122,6 +46884,15 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+=======
+        Cpdata = ([5.62, 8.35, 10.97, 12.26, 10.43, 9.14, 12.23], 'cal/(mol*K)'),
+        H298 = (1.21,'kcal/mol'),
+        S298 = (0.47,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u""""
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
 
 """,
 )
@@ -44133,10 +46904,22 @@ entry(
 """
 1 * O2d u0
 """,
+<<<<<<< HEAD
     thermo = u'O2d-Cd',
     shortDesc = u"""""",
     longDesc = 
 u"""
+=======
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([3.83, 5.58, 7.44, 8.2, 5.74, 4.15, 7.1], 'cal/(mol*K)'),
+        H298 = (-16.99,'kcal/mol'),
+        S298 = (-3.81,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u""""
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
 
 """,
 )
@@ -44151,6 +46934,7 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
+<<<<<<< HEAD
         Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
         H298 = (0,'kcal/mol'),
         S298 = (0,'cal/(mol*K)'),
@@ -44158,13 +46942,27 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+=======
+        Cpdata = ([2.85, 4.81, 6.83, 7.67, 5.37, 3.9, 6.97], 'cal/(mol*K)'),
+        H298 = (-15.35,'kcal/mol'),
+        S298 = (-2.38,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u""""
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
 
 """,
 )
 
 entry(
+<<<<<<< HEAD
     index = 2045,
     label = "O2d-Cdd",
+=======
+    index = 1154,
+    label = "S2s-(C=S2d)Cs",
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
     group = 
 """
 1 * O2d u0 {2,D}
@@ -44172,6 +46970,7 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
+<<<<<<< HEAD
         Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
         H298 = (0,'kcal/mol'),
         S298 = (0,'cal/(mol*K)'),
@@ -44179,10 +46978,20 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+=======
+        Cpdata = ([2.04, 2.62, 3.94, 4.57, 2.28, 1.0, 3.93], 'cal/(mol*K)'),
+        H298 = (-13.74,'kcal/mol'),
+        S298 = (2.06,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u""""
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
 
 """,
 )
 
+<<<<<<< HEAD
 entry(
     index = 2046,
     label = "O2d-Cdd-Cd",
@@ -44201,13 +47010,18 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+=======
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
 
-""",
-)
 
 entry(
+<<<<<<< HEAD
     index = 2047,
     label = "O2d-Cdd-CdF",
+=======
+    index = 1158,
+    label = "S2s-(C=S2d)(C=S2d)",
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
     group = 
 """
 1   Cdd u0 {2,D} {3,D}
@@ -44217,6 +47031,7 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
+<<<<<<< HEAD
         Cpdata = ([3.69448e+13,3.46816e+13,5.22222e+13,7.34849e+13,1.39862e+14,1.79826e+14,1.52734e+14],'J/(mol*K)'),
         H298 = (-9.66212e+14,'kJ/mol'),
         S298 = (7.62314e+13,'J/(mol*K)'),
@@ -44224,11 +47039,21 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+=======
+        Cpdata = ([2.02, 3.44, 5.09, 5.96, 3.79, 2.41, 4.8], 'cal/(mol*K)'),
+        H298 = (-4.19,'kcal/mol'),
+        S298 = (3.36,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u""""
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
 
 """,
 )
 
 entry(
+<<<<<<< HEAD
     index = 2048,
     label = "O2d-O2d",
     group = 
@@ -44245,10 +47070,31 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+=======
+    index = 1155,
+    label = "S2s-(C=S2d)Cmb",
+    group = 
+"""
+1 * S2s u0 {2,S} {3,S}
+2   [Cd,Cb,Ct,CO] u0 {1,S}
+3   CS u0 {1,S} {4,D}
+4   S2d u0 {3,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([2.39, 4.13, 5.9, 6.62, 4.15, 2.64, 5.52], 'cal/(mol*K)'),
+        H298 = (-10.72,'kcal/mol'),
+        S298 = (0.91,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u""""
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
 
 """,
 )
 
+<<<<<<< HEAD
 entry(
     index = 2049,
     label = "O2d-N3d",
@@ -44269,6 +47115,8 @@ u"""
 
 """,
 )
+=======
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
 
 entry(
     index = 2050,
@@ -45738,6 +48586,7 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
+<<<<<<< HEAD
         Cpdata = ([38.9612,42.183,44.7642,46.7165,49.6025,51.573,54.1726],'J/(mol*K)'),
         H298 = (-31.3648,'kJ/mol'),
         S298 = (236.335,'J/(mol*K)'),
@@ -45745,6 +48594,76 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+=======
+        Cpdata = ([7.22, 7.55, 7.83, 8.08, 8.24, 8.46, 8.72], 'cal/(mol*K)'),
+        H298 = (9.67,'kcal/mol'),
+        S298 = (30.8,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u""""
+
+""",
+)
+
+entry(
+    index = 2000,
+    label = "S2s-OC",
+    group =
+"""
+1 * S2s  u0 p2 {2,S} {3,S}
+2   O    ux {1,S}
+3   C    ux (1,S)
+""",
+    thermo = u'S2s-OCs',
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2018""",
+    longDesc =
+u""""
+
+""",
+)
+
+entry(
+    index = 2000,
+    label = "S2s-OCs",
+    group =
+"""
+1 * S2s  u0 p2 {2,S} {3,S}
+2   O    ux {1,S}
+3   Cs    ux (1,S)
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([6.26, 5.46, 5.62, 5.65, 4.15, 3.34, 4.29], 'cal/(mol*K)'),
+        H298 = (-0.85,'kcal/mol'),
+        S298 = (6.38,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u""""
+
+""",
+)
+
+entry(
+    index = 2000,
+    label = "S2s-OO",
+    group =
+"""
+1 * S2s  u0 p2 {2,S} {3,S}
+2   O    ux {1,S}
+3   O    ux (1,S)
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([7.28, 7.69, 8.3, 8.61, 8.32, 8.04, 7.13], 'cal/(mol*K)'),
+        H298 = (6.03,'kcal/mol'),
+        S298 = (8.53,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u""""
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
 
 """,
 )
@@ -45758,8 +48677,27 @@ entry(
 2   F1s u0 p3 c0 {1,S}
 3   O2s u0 p2 c0 {1,S}
 """,
+    thermo = u'S4d-OdCsCs',
+    shortDesc = u"""Sulfur/Oxygen Extension, Ryan Gillis""",
+    longDesc =
+u""""
+Inferred from a least squares fit from 40 species mostly calculated at cbsqb3, 4/2017, Ryan Gillis
+""",
+)
+
+entry(
+    index = 2001,
+    label = "S4d-OdCsCs",
+    group =
+"""
+1 * S4d  u0 p1 {2,D} {3,S} {4,S}
+2   O2d  u0 {1,D}
+3   Cs    ux (1,S)
+4   Cs    ux (1,S)
+""",
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
+<<<<<<< HEAD
         Cpdata = ([30.0114,33.0064,35.334,36.8917,38.8353,39.7347,41.1618],'J/(mol*K)'),
         H298 = (22.6968,'kJ/mol'),
         S298 = (133.435,'J/(mol*K)'),
@@ -45767,6 +48705,38 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+=======
+        Cpdata = ([10.65, 11.72, 12.66, 12.81, 9.35, 7.25, 8.64], 'cal/(mol*K)'),
+        H298 = (-47.94,'kcal/mol'),
+        S298 = (9.7,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u""""
+
+""",
+)
+
+entry(
+    index = 2001,
+    label = "S4d-OdCdCd",
+    group =
+"""
+1 * S4d  u0 p1 {2,D} {3,S} {4,S}
+2   O2d  u0 {1,D}
+3   Cd    ux (1,S)
+4   Cd    ux (1,S)
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([5.82, 7.03, 9.56, 9.62, 7.29, 6.09, 9.27], 'cal/(mol*K)'),
+        H298 = (-53.32,'kcal/mol'),
+        S298 = (17.34,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u""""
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
 
 """,
 )
@@ -45780,8 +48750,26 @@ entry(
 2   F1s u0 p3 c0 {1,S}
 3   Cd  u0 p0 c0 {1,S}
 """,
+    thermo = u'S4d-OdOsCs',
+    shortDesc = u"""Sulfur/Oxygen Extension, Ryan Gillis""",
+    longDesc =
+u""""
+""",
+)
+
+entry(
+    index = 2002,
+    label = "S4d-OdOsCs",
+    group =
+"""
+1 * S4d u0 p1 {2,D} {3,S} {4,S}
+2   O2d ux {1,D}
+3   Cs   ux (1,S)
+4   O   ux (1,S)
+""",
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
+<<<<<<< HEAD
         Cpdata = ([25.6532,25.8314,26.9015,28.7458,33.073,36.2716,39.0197],'J/(mol*K)'),
         H298 = (-7.0957,'kJ/mol'),
         S298 = (141.038,'J/(mol*K)'),
@@ -45789,6 +48777,38 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+=======
+        Cpdata = ([11.03, 12.12, 12.87, 13.15, 11.23, 10.02, 10.49], 'cal/(mol*K)'),
+        H298 = (-46.79,'kcal/mol'),
+        S298 = (12.6,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u""""
+
+""",
+)
+
+entry(
+    index = 2002,
+    label = "S4d-OdOsCd",
+    group =
+"""
+1 * S4d u0 p1 {2,D} {3,S} {4,S}
+2   O2d ux {1,D}
+3   Cd   ux (1,S)
+4   O   ux (1,S)
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([8.15, 9.65, 11.36, 11.59, 10.33, 9.63, 10.88], 'cal/(mol*K)'),
+        H298 = (-48.07,'kcal/mol'),
+        S298 = (15.92,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u""""
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
 
 """,
 )
@@ -45805,6 +48825,7 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
+<<<<<<< HEAD
         Cpdata = ([29.5609,33.4218,36.0105,37.9997,40.3205,41.556,42.6901],'J/(mol*K)'),
         H298 = (-44.6382,'kJ/mol'),
         S298 = (132.372,'J/(mol*K)'),
@@ -45812,6 +48833,15 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+=======
+        Cpdata = ([9.59, 10.13, 11.04, 11.14, 9.76, 8.95, 10.26], 'cal/(mol*K)'),
+        H298 = (-33.31,'kcal/mol'),
+        S298 = (16.13,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u""""
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
 
 """,
 )
@@ -45827,6 +48857,7 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
+<<<<<<< HEAD
         Cpdata = ([26.5464,28.6355,30.9727,33.3017,36.8009,38.9003,41.4126],'J/(mol*K)'),
         H298 = (-38.3248,'kJ/mol'),
         S298 = (136.319,'J/(mol*K)'),
@@ -45834,6 +48865,15 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+=======
+        Cpdata = ([9.82, 10.07, 10.6, 10.43, 10.54, 10.66, 10.61], 'cal/(mol*K)'),
+        H298 = (-17.88,'kcal/mol'),
+        S298 = (23.27,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u""""
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
 
 """,
 )
@@ -45850,6 +48890,7 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
+<<<<<<< HEAD
         Cpdata = ([25.8744,25.7247,26.51,28.6672,33.1641,36.3134,40.9493],'J/(mol*K)'),
         H298 = (-29.1385,'kJ/mol'),
         S298 = (139.656,'J/(mol*K)'),
@@ -45857,6 +48898,15 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+=======
+        Cpdata = ([3.94,4.77,5.73,6.51,7.67,8.38,9.30],'cal/(mol*K)'),
+        H298 = (21.19,'kcal/mol'),
+        S298 = (39.44,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2018""",
+    longDesc =
+u""""
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
 
 """,
 )
@@ -45870,10 +48920,63 @@ entry(
 2   F1s u0 p3 c0 {1,S}
 3   Ct  u0 p0 c0 {1,S}
 """,
+<<<<<<< HEAD
     thermo = None,
     shortDesc = u"""""",
     longDesc = 
 u"""
+=======
+    thermo = u'S4d-OdCsH',
+    shortDesc = u"""Sulfur/Oxygen Extension, Ryan Gillis""",
+    longDesc =
+u""""
+Inferred from a least squares fit from 40 species mostly calculated at cbsqb3, 4/2017, Ryan Gillis
+""",
+)
+
+entry(
+    index = 2006,
+    label = "S4d-OdCsH",
+    group =
+"""
+1 * S4d  u0 p1 {2,D} {3,S} {4,S}
+2   O2d  ux {1,D}
+3   Cs    ux (1,S)
+4   H    ux (1,S)
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([8.79, 10.53, 12.04, 12.87, 12.36, 12.08, 13.59], 'cal/(mol*K)'),
+        H298 = (-27.22,'kcal/mol'),
+        S298 = (31.86,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u""""
+
+""",
+)
+
+entry(
+    index = 2006,
+    label = "S4d-OdCdH",
+    group =
+"""
+1 * S4d  u0 p1 {2,D} {3,S} {4,S}
+2   O2d  ux {1,D}
+3   Cd    ux (1,S)
+4   H    ux (1,S)
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([7.55, 9.7, 11.89, 12.33, 11.69, 11.45, 13.54], 'cal/(mol*K)'),
+        H298 = (-31.31,'kcal/mol'),
+        S298 = (37.66,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u""""
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
 
 """,
 )
@@ -45890,6 +48993,7 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
+<<<<<<< HEAD
         Cpdata = ([30.3623,31.9959,33.3816,32.172,35.9072,37.9154,40.541],'J/(mol*K)'),
         H298 = (-13.9858,'kJ/mol'),
         S298 = (149.419,'J/(mol*K)'),
@@ -45898,6 +49002,39 @@ entry(
     longDesc = 
 u"""
 
+=======
+        Cpdata = ([9.11, 10.24, 11.59, 11.97, 13.17, 13.96, 14.81], 'cal/(mol*K)'),
+        H298 = (-13.85,'kcal/mol'),
+        S298 = (39.74,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u""""
+
+""",
+)
+
+entry(
+    index = 2008,
+    label = "S4d-OdOH",
+    group =
+"""
+1 * S4d  u0 p1 {2,D} {3,S} {4,S}
+2   O2d  ux {1,D}
+3   O    ux (1,S)
+4   H    ux (1,S)
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([10.93, 12.17, 12.99, 13.57, 14.11, 14.5, 14.89], 'cal/(mol*K)'),
+        H298 = (-25.38,'kcal/mol'),
+        S298 = (35.22,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u""""
+
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
 """,
 )
 
@@ -45912,6 +49049,7 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
+<<<<<<< HEAD
         Cpdata = ([29.7488,29.7571,29.3109,28.8683,29.0678,30.1266,33.0986],'J/(mol*K)'),
         H298 = (-7.8021,'kJ/mol'),
         S298 = (148.31,'J/(mol*K)'),
@@ -45919,6 +49057,15 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+=======
+        Cpdata = ([12.02, 13.07, 13.64, 13.98, 13.71, 13.43, 12.62], 'cal/(mol*K)'),
+        H298 = (-50.32,'kcal/mol'),
+        S298 = (10.96,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u""""
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
 
 """,
 )
@@ -45930,10 +49077,22 @@ entry(
 """
 1 * Si u0
 """,
+<<<<<<< HEAD
     thermo = u'Cs-HHHH',
     shortDesc = u"""""",
     longDesc = 
 u"""
+=======
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([10.86, 12.2, 13.01, 13.23, 13.15, 12.93, 12.03], 'cal/(mol*K)'),
+        H298 = (-29.87,'kcal/mol'),
+        S298 = (17.5,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u""""
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
 
 """,
 )
@@ -45943,12 +49102,28 @@ entry(
     label = "SiJ2(S)",
     group = 
 """
+<<<<<<< HEAD
 1 * Si u0 p1
 """,
     thermo = u'CJ2_singlet',
     shortDesc = u"""""",
     longDesc = 
 u"""
+=======
+1 * S4dd  u0 p1 {2,D} {3,D}
+2   O2d   ux p2 {1,D}
+3   O2d   ux p2 (1,D)
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([9.57, 10.44, 11.16, 11.7, 12.44, 12.92, 13.45], 'cal/(mol*K)'),
+        H298 = (-71.22,'kcal/mol'),
+        S298 = (60.73,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u""""
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
 
 """,
 )
@@ -45960,10 +49135,166 @@ entry(
 """
 1 * S ux
 """,
+<<<<<<< HEAD
     thermo = u'S2s-CsCs',
     shortDesc = u"""""",
     longDesc = 
 u"""
+=======
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([2.64, 4.67, 5.46, 5.81, 5.99, 6.04, 6.34], 'cal/(mol*K)'),
+        H298 = (-24.69,'kcal/mol'),
+        S298 = (4.78,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u""""
+
+""",
+)
+
+entry(
+    index = 2012,
+    label = "S4dd-CdCd",
+    group =
+"""
+1 * S4dd  u0 p1 {2,D} {3,D}
+2   C     ux {1,D}
+3   C     ux (1,D)
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-3.54, -0.74, 0.01, 0.11, -0.46, -0.94, -0.92], 'cal/(mol*K)'),
+        H298 = (21.12,'kcal/mol'),
+        S298 = (-51.68,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u""""
+
+""",
+)
+
+entry(
+    index = 2012,
+    label = "S4dd-OdSd",
+    group =
+"""
+1 * S4dd  u0 p1 {2,D} {3,D}
+2   O     ux {1,D}
+3   S     ux (1,D)
+""",
+    thermo = u'S4dd-OdS4d',
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2018""",
+    longDesc =
+u""""
+
+""",
+)
+
+entry(
+    index = 2012,
+    label = "S4dd-OdS4d",
+    group =
+"""
+1 * S4dd  u0 p1 {2,D} {3,D}
+2   O     ux {1,D}
+3   [S4d,S4dd]     ux (1,D)
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([4.65, 7.66, 9.29, 10.12, 10.39, 10.88, 10.49], 'cal/(mol*K)'),
+        H298 = (-4.33,'kcal/mol'),
+        S298 = (24.93,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u""""
+
+""",
+)
+
+entry(
+    index = 2012,
+    label = "S4dd-OdS6d",
+    group =
+"""
+1 * S4dd  u0 p1 {2,D} {3,D}
+2   O     ux {1,D}
+3   [S6d,S6dd,S6ddd,S6td]     ux (1,D)
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([13.95, 12.32, 11.99, 12.11, 12.88, 13.34, 13.96], 'cal/(mol*K)'),
+        H298 = (-14.29,'kcal/mol'),
+        S298 = (63.4,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u""""
+
+""",
+)
+
+entry(
+    index = 2012,
+    label = "S4dd-SdCd",
+    group =
+"""
+1 * S4dd  u0 p1 {2,D} {3,D}
+2   C     ux {1,D}
+3   S     ux (1,D)
+""",
+    thermo = u'S4dd-S46dCd',
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2018""",
+    longDesc =
+u""""
+
+""",
+)
+
+entry(
+    index = 2012,
+    label = "S4dd-S46dCd",
+    group =
+"""
+1 * S4dd  u0 p1 {2,D} {3,D}
+2   C     ux {1,D}
+3   [S4d,S4dd,S6d,S6dd,S6ddd,S6td]     ux (1,D)
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([8.65, 7.45, 7.16, 7.17, 7.22, 6.89, 6.86], 'cal/(mol*K)'),
+        H298 = (0.95,'kcal/mol'),
+        S298 = (13.93,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u""""
+
+""",
+)
+
+entry(
+    index = 2012,
+    label = "S4dd-S2dCd",
+    group =
+"""
+1 * S4dd  u0 p1 {2,D} {3,D}
+2   C     ux {1,D}
+3   S2d     ux (1,D)
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-2.07,-1.49,-1.34,-1.37,-1.46,-1.60,-2.06],'cal/(mol*K)'),
+        H298 = (-1.36,'kcal/mol'),
+        S298 = (-49.24,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2018""",
+    longDesc =
+u""""
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
 
 """,
 )
@@ -45975,8 +49306,28 @@ entry(
 """
 1 * S ux c+1
 """,
+    thermo = u'S6dd-OdOdCsCs',
+    shortDesc = u"""Sulfur/Oxygen Extension, Ryan Gillis""",
+    longDesc =
+u""""
+Inferred from a least squares fit from 40 species mostly calculated at cbsqb3, 4/2017, Ryan Gillis
+""",
+)
+
+entry(
+    index = 2013,
+    label = "S6dd-OdOdCsCs",
+    group =
+"""
+1 * S6dd u0 p0 {2,D} {3,D} {4,S} {5,S}
+2   O2d  ux {1,D}
+3   O2d  ux {1,D}
+4   Cs   ux {1,S}
+5   Cs   ux {1,S}
+""",
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
+<<<<<<< HEAD
         Cpdata = ([5,5,5,5,5,5,5],'cal/(mol*K)','+|-',[1,1,1,1,1,1,1]),
         H298 = (200,'kcal/mol','+|-',1),
         S298 = (20,'cal/(mol*K)','+|-',1),
@@ -45984,19 +49335,79 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+=======
+        Cpdata = ([14.64, 14.54, 15.0, 15.25, 13.44, 12.58, 14.73], 'cal/(mol*K)'),
+        H298 = (-90.0,'kcal/mol'),
+        S298 = (1.03,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u""""
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
 
 """,
 )
 
 entry(
+<<<<<<< HEAD
     index = 2134,
     label = "Sa(S)",
     group = 
+=======
+    index = 2013,
+    label = "S6dd-OdOdCdCd",
+    group =
 """
-1 * S u0 p3 c0
+1 * S6dd u0 p0 {2,D} {3,D} {4,S} {5,S}
+2   O2d  ux {1,D}
+3   O2d  ux {1,D}
+4   Cd   ux {1,S}
+5   Cd   ux {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([14.34, 14.68, 15.09, 15.34, 13.41, 12.49, 14.85], 'cal/(mol*K)'),
+        H298 = (-87.32,'kcal/mol'),
+        S298 = (5.39,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u""""
+
+""",
+)
+
+
+entry(
+    index = 2014,
+    label = "S6dd-OdOdCH",
+    group =
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
+"""
+1 * S u0 p3 c0
+""",
+    thermo = u'S6dd-OdOdCsH',
+    shortDesc = u"""Sulfur/Oxygen Extension, Ryan Gillis""",
+    longDesc =
+u""""
+Inferred from a least squares fit from 40 species mostly calculated at cbsqb3, 4/2017, Ryan Gillis
+""",
+)
+
+entry(
+    index = 2014,
+    label = "S6dd-OdOdCsH",
+    group =
+"""
+1 * S6dd    u0 p0 {2,D} {3,D} {4,S} {5,S}
+2   O2d     ux {1,D}
+3   O2d     ux {1,D}
+4   Cs       ux {1,S}
+5   H       ux {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+<<<<<<< HEAD
         Cpdata = ([4.97,4.97,4.97,4.97,4.97,5.13,5.06],'cal/(mol*K)','+|-',[1,1,1,1,1,1,1]),
         H298 = (66.2,'kcal/mol','+|-',1),
         S298 = (40.11,'cal/(mol*K)','+|-',1),
@@ -46004,6 +49415,39 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+=======
+        Cpdata = ([12.64, 13.86, 15.05, 15.97, 16.14, 16.47, 18.79], 'cal/(mol*K)'),
+        H298 = (-74.06,'kcal/mol'),
+        S298 = (32.2,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u""""
+
+""",
+)
+
+entry(
+    index = 2014,
+    label = "S6dd-OdOdCdH",
+    group =
+"""
+1 * S6dd    u0 p0 {2,D} {3,D} {4,S} {5,S}
+2   O2d     ux {1,D}
+3   O2d     ux {1,D}
+4   Cd       ux {1,S}
+5   H       ux {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([12.09, 13.45, 14.58, 15.49, 15.79, 16.26, 18.8], 'cal/(mol*K)'),
+        H298 = (-69.95,'kcal/mol'),
+        S298 = (34.66,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u""""
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
 
 """,
 )
@@ -46015,10 +49459,22 @@ entry(
 """
 1 * S2d u0
 """,
+<<<<<<< HEAD
     thermo = None,
     shortDesc = u"""""",
     longDesc = 
 u"""
+=======
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([10.86, 12.82, 14.59, 15.68, 17.55, 18.77, 20.03], 'cal/(mol*K)'),
+        H298 = (-58.11,'kcal/mol'),
+        S298 = (44.42,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u""""
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
 
 """,
 )
@@ -46031,8 +49487,28 @@ entry(
 1 * S2d u0 {2,D}
 2   C   u0 {1,D}
 """,
+    thermo = u'S6dd-OdOdCsOs',
+    shortDesc = u"""Sulfur/Oxygen Extension, Ryan Gillis""",
+    longDesc =
+u""""
+Inferred from a least squares fit from 40 species mostly calculated at cbsqb3, 4/2017, Ryan Gillis
+""",
+)
+
+entry(
+    index = 2016,
+    label = "S6dd-OdOdCsOs",
+    group =
+"""
+1 * S6dd    u0 p0 {2,D} {3,D} {4,S} {5,S}
+2   O2d     ux {1,D}
+3   O2d     ux {1,D}
+4   Cs       ux {1,S}
+5   O       ux {1,S}
+""",
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
+<<<<<<< HEAD
         Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
         H298 = (0,'kcal/mol'),
         S298 = (0,'cal/(mol*K)'),
@@ -46040,6 +49516,39 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+=======
+        Cpdata = ([13.56, 14.36, 15.29, 15.97, 15.5, 15.29, 16.42], 'cal/(mol*K)'),
+        H298 = (-95.47,'kcal/mol'),
+        S298 = (9.6,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u""""
+
+""",
+)
+
+entry(
+    index = 2016,
+    label = "S6dd-OdOdCdOs",
+    group =
+"""
+1 * S6dd    u0 p0 {2,D} {3,D} {4,S} {5,S}
+2   O2d     ux {1,D}
+3   O2d     ux {1,D}
+4   Cd      ux {1,S}
+5   O       ux {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([13.37, 14.34, 15.19, 15.88, 15.36, 15.15, 16.38], 'cal/(mol*K)'),
+        H298 = (-94.3,'kcal/mol'),
+        S298 = (11.82,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u""""
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
 
 """,
 )
@@ -46054,6 +49563,7 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
+<<<<<<< HEAD
         Cpdata = ([8.99,7.45,7,6.93,7.48,7.75,8.1],'cal/(mol*K)'),
         H298 = (4.59,'kcal/mol'),
         S298 = (54.27,'cal/(mol*K)'),
@@ -46061,6 +49571,15 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+=======
+        Cpdata = ([13.6, 14.32, 15.26, 15.6, 15.14, 14.88, 15.86], 'cal/(mol*K)'),
+        H298 = (-75.54,'kcal/mol'),
+        S298 = (12.81,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u""""
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
 
 """,
 )
@@ -46075,6 +49594,7 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
+<<<<<<< HEAD
         Cpdata = ([7.27,7.55,7.84,8.08,8.39,8.57,8.77],'cal/(mol*K)'),
         H298 = (0.26,'kcal/mol'),
         S298 = (50.87,'cal/(mol*K)'),
@@ -46082,6 +49602,15 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+=======
+        Cpdata = ([13.66, 14.99, 15.99, 15.76, 15.89, 16.31, 16.71], 'cal/(mol*K)'),
+        H298 = (-60.04,'kcal/mol'),
+        S298 = (24.66,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u""""
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
 
 """,
 )
@@ -46093,10 +49622,22 @@ entry(
 """
 1 * S2s u0
 """,
+<<<<<<< HEAD
     thermo = None,
     shortDesc = u"""""",
     longDesc = 
 u"""
+=======
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([11.03, 13.12, 15.11, 16.81, 19.28, 21.0, 23.29], 'cal/(mol*K)'),
+        H298 = (-55.94,'kcal/mol'),
+        S298 = (61.76,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u""""
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
 
 """,
 )
@@ -46112,6 +49653,7 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
+<<<<<<< HEAD
         Cpdata = ([8.15,8.48,8.84,9.25,10.09,10.83,12.09],'cal/(mol*K)'),
         H298 = (-5.38,'kcal/mol'),
         S298 = (50.53,'cal/(mol*K)'),
@@ -46119,6 +49661,15 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+=======
+        Cpdata = ([14.64, 16.22, 17.16, 17.82, 17.92, 18.06, 17.79], 'cal/(mol*K)'),
+        H298 = (-98.03,'kcal/mol'),
+        S298 = (15.1,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u""""
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
 
 """,
 )
@@ -46132,10 +49683,22 @@ entry(
 2   C   u0 {1,S}
 3   H   u0 {1,S}
 """,
+<<<<<<< HEAD
     thermo = None,
     shortDesc = u"""""",
     longDesc = 
 u"""
+=======
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([11.97, 13.8, 15.36, 16.73, 18.83, 19.72, 20.78], 'cal/(mol*K)'),
+        H298 = (-79.78,'kcal/mol'),
+        S298 = (40.9,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u""""
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
 
 """,
 )
@@ -46151,6 +49714,7 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
+<<<<<<< HEAD
         Cpdata = ([5.73,5.21,5.55,5.8,4.98,4.87,7.06],'cal/(mol*K)'),
         H298 = (-7.93,'kcal/mol'),
         S298 = (28.75,'cal/(mol*K)'),
@@ -46158,6 +49722,15 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+=======
+        Cpdata = ([14.13, 15.31, 16.33, 16.74, 17.12, 17.44, 17.58], 'cal/(mol*K)'),
+        H298 = (-77.13,'kcal/mol'),
+        S298 = (21.78,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u""""
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
 
 """,
 )
@@ -46173,6 +49746,7 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
+<<<<<<< HEAD
         Cpdata = ([4.59,5.16,6.11,6.73,6.25,6.14,8.62],'cal/(mol*K)'),
         H298 = (-6.3,'kcal/mol'),
         S298 = (27.69,'cal/(mol*K)'),
@@ -46180,14 +49754,75 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+=======
+        Cpdata = ([12.21, 13.87, 15.2, 16.17, 17.5, 18.31, 19.08], 'cal/(mol*K)'),
+        H298 = (-94.93,'kcal/mol'),
+        S298 = (61.47,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u""""
 
 """,
 )
 
 entry(
+    index = 2023,
+    label = "S6ddd-OdXdXd",
+    group =
+"""
+1 * S6ddd   u0 p0 {2,D} {3,D} {4,D}
+2   O2d     ux {1,D}
+3   [C,S2d,S4d,S4dd,S6ddd,S6td,S6dd,S6d]     ux {1,D}
+4   [C,S2d,S4d,S4dd,S6ddd,S6td,S6dd,S6d]     ux {1,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-2.96, 1.79, 3.54, 4.16, 3.79, 3.66, 3.3], 'cal/(mol*K)'),
+        H298 = (2.27,'kcal/mol'),
+        S298 = (-36.84,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u""""
+
+""",
+)
+
+entry(
+    index = 2023,
+    label = "S6ddd-OdOdXd",
+    group =
+"""
+1 * S6ddd   u0 p0 {2,D} {3,D} {4,D}
+2   O2d     ux {1,D}
+3   O2d     ux {1,D}
+4   [C,S2d,S4d,S4dd,S6ddd,S6td,S6dd,S6d]     ux {1,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([4.61, 7.82, 9.36, 10.15, 10.64, 10.98, 11.18], 'cal/(mol*K)'),
+        H298 = (-46.89,'kcal/mol'),
+        S298 = (14.06,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u""""
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
+
+""",
+)
+
+entry(
+<<<<<<< HEAD
     index = 2144,
     label = "S2s-CtH",
     group = 
+=======
+    index = 2024,
+    label = "O2d-Sd",
+    group =
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
 """
 1 * S2s u0 {2,S} {3,S}
 2   Ct  u0 {1,S}
@@ -46195,6 +49830,7 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
+<<<<<<< HEAD
         Cpdata = ([5.77,7.04,8.31,8.95,8.11,7.62,9.5],'cal/(mol*K)'),
         H298 = (-11.24,'kcal/mol'),
         S298 = (23.31,'cal/(mol*K)'),
@@ -46203,10 +49839,22 @@ entry(
     longDesc = 
 u"""
 
+=======
+        Cpdata = ([0.0,0.0,0.0,0.0,0.0,0.0,0.0],'cal/(mol*K)'),
+        H298 = (0.0,'kcal/mol'),
+        S298 = (0.0,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u""""
+Inferred from a least squares fit from 40 species mostly calculated at cbsqb3, 4/2017, Ryan Gillis
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
 """,
 )
 
+
 entry(
+<<<<<<< HEAD
     index = 2145,
     label = "S2s-CbH",
     group = 
@@ -46224,11 +49872,53 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+=======
+    index = 2025,
+    label = "O2s-CS6",
+    group =
+"""
+1 * O2s   u0 {2,S} {3,S}
+2   [S6s,S6d,S6dd,S6t,S6td]  ux {1,S}
+3   C    ux {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([2.4, 2.24, 2.31, 2.47, 3.22, 3.56, 3.99], 'cal/(mol*K)'),
+        H298 = (-23.77,'kcal/mol'),
+        S298 = (10.68,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u""""
 
 """,
 )
 
 entry(
+    index = 2032,
+    label = "O2s-CS4",
+    group =
+"""
+1 * O2s   u0 {2,S} {3,S}
+2   [S4s,S4d,S4b,S4t]   ux {1,S}
+3   C    ux {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([1.73, 1.7, 1.94, 2.26, 3.23, 3.84, 4.43], 'cal/(mol*K)'),
+        H298 = (-22.17,'kcal/mol'),
+        S298 = (10.56,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u""""
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
+
+""",
+)
+
+entry(
+<<<<<<< HEAD
     index = 2146,
     label = "S2s-(C=O)H",
     group = 
@@ -46247,11 +49937,31 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+=======
+    index = 2032,
+    label = "O2s-CS2",
+    group =
+"""
+1 * O2s   u0 {2,S} {3,S}
+2   S2s   ux {1,S}
+3   Cs    ux {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([2.78, 3.48, 3.83, 4.16, 5.02, 5.4, 5.86], 'cal/(mol*K)'),
+        H298 = (-22.57,'kcal/mol'),
+        S298 = (7.17,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u""""
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
 
 """,
 )
 
 entry(
+<<<<<<< HEAD
     index = 2147,
     label = "S2s-(C=S2d)H",
     group = 
@@ -46270,6 +49980,82 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+=======
+    index = 2026,
+    label = "O2s-S_nonDeH",
+    group =
+"""
+1 * O2s   u0 {2,S} {3,S}
+2   [S2s,S4s,S6s]   ux {1,S}
+3   H     ux {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([3.88, 4.91, 5.45, 5.86, 6.66, 7.13, 7.81], 'cal/(mol*K)'),
+        H298 = (-36.34,'kcal/mol'),
+        S298 = (29.09,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u""""
+
+""",
+)
+
+entry(
+    index = 2026,
+    label = "O2s-S_DeH",
+    group =
+"""
+1 * O2s   u0 {2,S} {3,S}
+2   [S4d,S6d,S6dd]   ux {1,S}
+3   H     ux {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([3.89, 4.41, 4.73, 4.97, 5.74, 6.3, 7.25], 'cal/(mol*K)'),
+        H298 = (-37.92,'kcal/mol'),
+        S298 = (30.0,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u""""
+
+""",
+)
+
+entry(
+    index = 2027,
+    label = "O2s-SH",
+    group =
+"""
+1 * O2s   u0 {2,S} {3,S}
+2   S     ux {1,S}
+3   H     ux {1,S}
+""",
+    thermo = u'O2s-S_nonDeH',
+    shortDesc = u"""Sulfur/Oxygen Extension, Ryan Gillis""",
+    longDesc =
+u""""
+""",
+)
+
+entry(
+    index = 2028,
+    label = "O2s-CS",
+    group =
+"""
+1 * O2s   u0 {2,S} {3,S}
+2   S     ux {1,S}
+3   C     ux {1,S}
+""",
+    thermo = u'O2s-CS4',
+    shortDesc = u"""Sulfur/Oxygen Extension, Ryan Gillis""",
+    longDesc =
+u""""
+""",
+)
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
 
 """,
 )
@@ -46288,6 +50074,20 @@ entry(
     longDesc = 
 u"""
 
+<<<<<<< HEAD
+=======
+entry(
+    index = 2030,
+    label = "S6ddd",
+    group =
+"""
+1 * S6ddd  u0
+""",
+    thermo = u'S6ddd-XdXdXd',
+    shortDesc = u"""Sulfur/Oxygen Extension, Ryan Gillis""",
+    longDesc =
+u""""
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
 """,
 )
 
@@ -46324,6 +50124,7 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
+<<<<<<< HEAD
         Cpdata = ([6.29,6.86,6.95,7.35,7.78,8.09,8.5],'cal/(mol*K)'),
         H298 = (1.99,'kcal/mol'),
         S298 = (28.52,'cal/(mol*K)'),
@@ -46331,6 +50132,15 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+=======
+        Cpdata = ([11.51, 12.57, 13.68, 14.04, 14.27, 14.27, 13.38], 'cal/(mol*K)'),
+        H298 = (29.21,'kcal/mol'),
+        S298 = (-10.57,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u""""
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
 
 """,
 )
@@ -46363,6 +50173,7 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
+<<<<<<< HEAD
         Cpdata = ([6.26,6.39,6.35,6.52,6.64,6.58,6.03],'cal/(mol*K)'),
         H298 = (1.76,'kcal/mol'),
         S298 = (9.13,'cal/(mol*K)'),
@@ -46371,22 +50182,149 @@ entry(
     longDesc = 
 u"""
 
+=======
+        Cpdata = ([13.46, 12.07, 12.63, 12.69, 7.76, 5.42, 10.58], 'cal/(mol*K)'),
+        H298 = (76.13,'kcal/mol'),
+        S298 = (-111.16,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u""""
+Calculated at CBS-QB3, June 2017
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
 """,
 )
 
 entry(
+<<<<<<< HEAD
     index = 2153,
     label = "S2s-SO",
     group = 
+=======
+    index = 2035,
+    label = "S6s-SOOCCH",
+    group =
+"""
+1 * S6s   u0 p0 {2,S} {3,S} {4,S} {5,S} {6,S} {7,S}
+2   S     ux {1,S}
+3   O     ux {1,S}
+4   O     ux {1,S}
+5   C     ux {1,S}
+6   C     ux {1,S}
+7   H     u0 {1,S}
+""",
+        thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([13.67, 11.03, 11.69, 12.23, 10.78, 10.53, 14.25], 'cal/(mol*K)'),
+        H298 = (40.9,'kcal/mol'),
+        S298 = (-66.41,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u""""
+Calculated at CBS-QB3, June 2017
+""",
+)
+
+
+entry(
+    index = 2036,
+    label = "S4s-OCCH",
+    group =
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
 """
 1 * S2s u0 {2,S} {3,S}
 2   S   ux {1,S}
 3   O   ux {1,S}
 """,
+<<<<<<< HEAD
     thermo = u'S2s-S2O',
     shortDesc = u"""""",
     longDesc = 
 u"""
+=======
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([10.58,11.43,12.51,13.49,14.96,15.33,16.12],'cal/(mol*K)'),
+        H298 = (45.75,'kcal/mol'),
+        S298 = (-21.17,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2018""",
+    longDesc =
+u""""
+
+""",
+)
+
+entry(
+    index = 2036,
+    label = "S4s-OOCC",
+    group =
+"""
+1 * S4s   u0 p1 {2,S} {3,S} {4,S} {5,S}
+2   O     ux {1,S}
+3   O     ux {1,S}
+4   C     ux {1,S}
+5   C     u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([11.68,10.98,11.54,12.28,13.55,13.51,13.81],'cal/(mol*K)'),
+        H298 = (7.83,'kcal/mol'),
+        S298 = (-46.41,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2018""",
+    longDesc =
+u""""
+
+""",
+)
+
+entry(
+    index = 2036,
+    label = "S4s-SOCH",
+    group =
+"""
+1 * S4s   u0 p1 {2,S} {3,S} {4,S} {5,S}
+2   S     ux {1,S}
+3   O     ux {1,S}
+4   C     ux {1,S}
+5   H     u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([14.55, 13.48, 13.14, 13.2, 11.78, 10.9, 11.16], 'cal/(mol*K)'),
+        H298 = (12.88,'kcal/mol'),
+        S298 = (-10.63,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u""""
+
+""",
+)
+
+entry(
+    index = 2036,
+    label = "S4s-SOOH",
+    group =
+"""
+1 * S4s   u0 p1 {2,S} {3,S} {4,S} {5,S}
+2   S     ux {1,S}
+3   O     ux {1,S}
+4   O     ux {1,S}
+5   H     u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([11.68,10.98,11.54,12.28,13.55,13.51,13.81],'cal/(mol*K)'),
+        H298 = (7.83,'kcal/mol'),
+        S298 = (-46.41,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2018""",
+    longDesc =
+u""""
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
 
 """,
 )
@@ -46402,6 +50340,7 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
+<<<<<<< HEAD
         Cpdata = ([6.98,6.87,6.93,6.96,6.69,6.54,5.98],'cal/(mol*K)'),
         H298 = (5,'kcal/mol'),
         S298 = (10.55,'cal/(mol*K)'),
@@ -46409,6 +50348,15 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+=======
+        Cpdata = ([14.12, 12.36, 12.67, 12.71, 8.75, 7.04, 11.45], 'cal/(mol*K)'),
+        H298 = (54.74,'kcal/mol'),
+        S298 = (-90.21,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u""""
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
 
 """,
 )
@@ -46424,6 +50372,7 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
+<<<<<<< HEAD
         Cpdata = ([6.61,7.25,7.18,7.84,7.92,7.81,7.13],'cal/(mol*K)'),
         H298 = (6.05,'kcal/mol'),
         S298 = (5.79,'cal/(mol*K)'),
@@ -46431,6 +50380,15 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+=======
+        Cpdata = ([12.7, 13.05, 14.45, 15.56, 14.84, 14.71, 17.5], 'cal/(mol*K)'),
+        H298 = (-5.1,'kcal/mol'),
+        S298 = (-25.46,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u""""
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
 
 """,
 )
@@ -46446,6 +50404,7 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
+<<<<<<< HEAD
         Cpdata = ([6.91,8.77,9.05,9.21,9.05,8.65,6.9],'cal/(mol*K)'),
         H298 = (4.43,'kcal/mol'),
         S298 = (0.9,'cal/(mol*K)'),
@@ -46453,6 +50412,18 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+=======
+        Cpdata = ([6.79,8.88,10.35,11.48,13.31,14.04,14.47],'cal/(mol*K)'),
+        H298 = (79.31,'kcal/mol'),
+        S298 = (-37.87,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2018""",
+    longDesc =
+u""""
+
+""",
+)
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
 
 """,
 )
@@ -46492,9 +50463,122 @@ u"""
 )
 
 entry(
+<<<<<<< HEAD
     index = 2159,
     label = "S2s-S2sCs",
     group = 
+=======
+    index = 2042,
+    label = "S4d-Sd",
+    group =
+"""
+1 * S4d u0 p1 {2,D}
+2   S   ux    {1,D}
+""",
+    thermo = u'S4d-SdOC',
+    shortDesc = u"""Sulfur/Oxygen Extension, Ryan Gillis""",
+    longDesc =
+u""""
+""",
+)
+
+entry(
+    index = 2053,
+    label = "S4d-SdOC",
+    group =
+"""
+1 * S4d  u0 p1 {2,D} {3,S} {4,S}
+2   S    ux {1,D}
+3   O    ux {1,S}
+4   C    ux {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([2.73, 5.08, 6.27, 6.72, 4.37, 2.93, 3.02], 'cal/(mol*K)'),
+        H298 = (-0.53,'kcal/mol'),
+        S298 = (-38.29,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u""""
+
+""",
+)
+
+entry(
+    index = 2053,
+    label = "S4d-SdOH",
+    group =
+"""
+1 * S4d  u0 p1 {2,D} {3,S} {4,S}
+2   S    ux {1,D}
+3   O    ux {1,S}
+4   H    ux {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([4.25, 7.29, 8.38, 8.82, 8.27, 7.9, 7.26], 'cal/(mol*K)'),
+        H298 = (18.23,'kcal/mol'),
+        S298 = (-16.74,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u""""
+
+""",
+)
+
+entry(
+    index = 2053,
+    label = "S4d-SdCH",
+    group =
+"""
+1 * S4d  u0 p1 {2,D} {3,S} {4,S}
+2   S    ux {1,D}
+3   H    ux {1,S}
+4   C    ux {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([10.75, 8.55, 8.19, 7.43, 6.36, 5.7, 8.6], 'cal/(mol*K)'),
+        H298 = (-2.01,'kcal/mol'),
+        S298 = (24.87,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u""""
+
+""",
+)
+
+entry(
+    index = 2053,
+    label = "S4d-SdSC",
+    group =
+"""
+1 * S4d  u0 p1 {2,D} {3,S} {4,S}
+2   S    ux {1,D}
+3   S    ux {1,S}
+4   C    ux {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([4.2, 5.12, 5.01, 4.82, 1.87, 0.29, 1.16], 'cal/(mol*K)'),
+        H298 = (1.85,'kcal/mol'),
+        S298 = (-36.46,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u""""
+
+""",
+)
+
+entry(
+    index = 2043,
+    label = "S4t",
+    group =
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
 """
 1 * S2s u0 {2,S} {3,S}
 2   S2s u0 {1,S}
@@ -46558,9 +50642,103 @@ u"""
 )
 
 entry(
+<<<<<<< HEAD
     index = 2162,
     label = "S2s-S2sCb",
     group = 
+=======
+    index = 2045,
+    label = "S6dd-OdSd",
+    group =
+"""
+1 * S6dd   u0 p0 {2,D} {3,D}
+2   O2d    u0 {1,D}
+3   S      ux {1,D}
+""",
+    thermo = u'S6dd-OdSdOC',
+    shortDesc = u"""Sulfur/Oxygen Extension, Ryan Gillis""",
+    longDesc =
+u""""
+""",
+)
+
+entry(
+    index = 2063,
+    label = "S6dd-OdSdOC",
+    group =
+"""
+1 * S6dd u0 p0 {2,D} {3,D} {4,S} {5,S}
+2   O2d  u0 {1,D}
+3   S    ux {1,D}
+4   C    ux {1,S}
+5   O    ux {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([7.38, 10.01, 11.28, 11.7, 10.06, 9.15, 9.07], 'cal/(mol*K)'),
+        H298 = (-36.41,'kcal/mol'),
+        S298 = (-43.9,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u""""
+
+""",
+)
+
+entry(
+    index = 2063,
+    label = "S6dd-OdSdOH",
+    group =
+"""
+1 * S6dd u0 p0 {2,D} {3,D} {4,S} {5,S}
+2   O2d  u0 {1,D}
+3   S    ux {1,D}
+4   H    ux {1,S}
+5   O    ux {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([5.42, 8.8, 10.42, 11.4, 11.87, 12.37, 12.86], 'cal/(mol*K)'),
+        H298 = (-19.76,'kcal/mol'),
+        S298 = (-11.85,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u""""
+
+""",
+)
+
+entry(
+    index = 2063,
+    label = "S6dd-OdSdCH",
+    group =
+"""
+1 * S6dd u0 p0 {2,D} {3,D} {4,S} {5,S}
+2   O2d  u0 {1,D}
+3   S    ux {1,D}
+4   C    ux {1,S}
+5   H    ux {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([5.14, 7.72, 9.25, 10.1, 9.72, 9.71, 11.2], 'cal/(mol*K)'),
+        H298 = (-16.02,'kcal/mol'),
+        S298 = (-20.03,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u""""
+
+""",
+)
+
+entry(
+    index = 2046,
+    label = "S6dd-CdCd",
+    group =
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
 """
 1 * S2s u0 {2,S} {3,S}
 2   S2s u0 {1,S}
@@ -46629,6 +50807,7 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
+<<<<<<< HEAD
         Cpdata = ([4.08,3.18,3.6,3.63,1.11,-0.35,2.47],'cal/(mol*K)'),
         H298 = (-12.89,'kcal/mol'),
         S298 = (1.98,'cal/(mol*K)'),
@@ -46636,6 +50815,15 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+=======
+        Cpdata = ([3.87, 5.65, 6.38, 6.77, 6.73, 6.63, 6.95], 'cal/(mol*K)'),
+        H298 = (27.48,'kcal/mol'),
+        S298 = (-29.43,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u""""
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
 
 """,
 )
@@ -46651,6 +50839,7 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
+<<<<<<< HEAD
         Cpdata = ([4.39,4.01,4.68,4.86,2.31,0.98,4.01],'cal/(mol*K)'),
         H298 = (-12.92,'kcal/mol'),
         S298 = (1.68,'cal/(mol*K)'),
@@ -46658,6 +50847,15 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+=======
+        Cpdata = ([3.64, 5.68, 6.69, 7.14, 5.62, 4.77, 6.37], 'cal/(mol*K)'),
+        H298 = (25.84,'kcal/mol'),
+        S298 = (-20.06,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u""""
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
 
 """,
 )
@@ -46674,6 +50872,7 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
+<<<<<<< HEAD
         Cpdata = ([2.59,1.97,3.07,3.92,2.65,1.84,4.64],'cal/(mol*K)'),
         H298 = (-23.07,'kcal/mol'),
         S298 = (-5.22,'cal/(mol*K)'),
@@ -46681,6 +50880,15 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+=======
+        Cpdata = ([1.33, 3.4, 4.62, 5.47, 6.49, 7.25, 8.78], 'cal/(mol*K)'),
+        H298 = (42.16,'kcal/mol'),
+        S298 = (1.02,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u""""
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
 
 """,
 )
@@ -46696,6 +50904,7 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
+<<<<<<< HEAD
         Cpdata = ([4.28,4.58,5.7,6.11,3.57,2.07,4.79],'cal/(mol*K)'),
         H298 = (-17.69,'kcal/mol'),
         S298 = (-0.51,'cal/(mol*K)'),
@@ -46703,6 +50912,15 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+=======
+        Cpdata = ([4.83, 6.25, 6.67, 6.58, 3.83, 2.18, 2.8], 'cal/(mol*K)'),
+        H298 = (8.84,'kcal/mol'),
+        S298 = (-41.43,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u""""
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
 
 """,
 )
@@ -46718,6 +50936,7 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
+<<<<<<< HEAD
         Cpdata = ([3.39,3.88,5.06,5.54,3.13,1.85,5.1],'cal/(mol*K)'),
         H298 = (-13.96,'kcal/mol'),
         S298 = (-0.49,'cal/(mol*K)'),
@@ -46725,6 +50944,15 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+=======
+        Cpdata = ([3.49, 5.71, 6.73, 7.26, 7.26, 7.27, 7.72], 'cal/(mol*K)'),
+        H298 = (22.11,'kcal/mol'),
+        S298 = (-18.81,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u""""
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
 
 """,
 )
@@ -46740,6 +50968,7 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
+<<<<<<< HEAD
         Cpdata = ([2.84,3.28,4.52,5.08,2.91,1.76,5.17],'cal/(mol*K)'),
         H298 = (-10,'kcal/mol'),
         S298 = (3.65,'cal/(mol*K)'),
@@ -46747,6 +50976,15 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+=======
+        Cpdata = ([9.54, 9.51, 9.84, 10.13, 9.9, 9.77, 10.77], 'cal/(mol*K)'),
+        H298 = (-38.28,'kcal/mol'),
+        S298 = (45.08,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u""""
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
 
 """,
 )
@@ -46762,6 +51000,7 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
+<<<<<<< HEAD
         Cpdata = ([3.35,4.54,6.16,6.8,4.41,2.93,5.43],'cal/(mol*K)'),
         H298 = (-14.92,'kcal/mol'),
         S298 = (-0.53,'cal/(mol*K)'),
@@ -46769,6 +51008,15 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+=======
+        Cpdata = ([10.17, 10.15, 10.6, 11.21, 13.36, 14.74, 15.51], 'cal/(mol*K)'),
+        H298 = (-24.12,'kcal/mol'),
+        S298 = (66.64,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u""""
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
 
 """,
 )
@@ -46784,6 +51032,7 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
+<<<<<<< HEAD
         Cpdata = ([3.19,4.37,5.99,6.68,4.42,3.05,6.26],'cal/(mol*K)'),
         H298 = (-13,'kcal/mol'),
         S298 = (0.31,'cal/(mol*K)'),
@@ -46791,6 +51040,15 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+=======
+        Cpdata = ([12.38, 11.65, 11.4, 11.31, 12.16, 12.69, 12.2], 'cal/(mol*K)'),
+        H298 = (-40.3,'kcal/mol'),
+        S298 = (46.32,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u""""
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
 
 """,
 )
@@ -46828,6 +51086,7 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
+<<<<<<< HEAD
         Cpdata = ([3.83,5.58,7.44,8.2,5.74,4.15,7.1],'cal/(mol*K)'),
         H298 = (-16.99,'kcal/mol'),
         S298 = (-3.81,'cal/(mol*K)'),
@@ -46835,6 +51094,15 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+=======
+        Cpdata = ([2.87, 1.85, 1.58, 1.37, -1.28, -2.78, -0.97], 'cal/(mol*K)'),
+        H298 = (57.75,'kcal/mol'),
+        S298 = (-104.28,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u""""
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
 
 """,
 )
@@ -47062,6 +51330,7 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
+<<<<<<< HEAD
         Cpdata = ([2.64,4.67,5.46,5.81,5.99,6.04,6.34],'cal/(mol*K)'),
         H298 = (-24.69,'kcal/mol'),
         S298 = (4.78,'cal/(mol*K)'),
@@ -47069,6 +51338,15 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+=======
+        Cpdata = ([0.08, 0.58, 1.26, 1.83, 1.41, 1.26, 3.2], 'cal/(mol*K)'),
+        H298 = (69.6,'kcal/mol'),
+        S298 = (-73.49,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u""""
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
 
 """,
 )
@@ -47084,6 +51362,7 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
+<<<<<<< HEAD
         Cpdata = ([-3.54,-0.74,0.01,0.11,-0.46,-0.94,-0.92],'cal/(mol*K)'),
         H298 = (21.12,'kcal/mol'),
         S298 = (-51.68,'cal/(mol*K)'),
@@ -47091,6 +51370,15 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+=======
+        Cpdata = ([1.46, 2.57, 3.31, 3.63, 2.23, 1.2, 1.36], 'cal/(mol*K)'),
+        H298 = (46.88,'kcal/mol'),
+        S298 = (-98.33,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u""""
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
 
 """,
 )
@@ -47123,6 +51411,7 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
+<<<<<<< HEAD
         Cpdata = ([4.65,7.66,9.29,10.12,10.39,10.88,10.49],'cal/(mol*K)'),
         H298 = (-4.33,'kcal/mol'),
         S298 = (24.93,'cal/(mol*K)'),
@@ -47130,6 +51419,15 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+=======
+        Cpdata = ([8.65, 7.93, 8.24, 8.33, 6.87, 6.07, 7.56], 'cal/(mol*K)'),
+        H298 = (-3.53,'kcal/mol'),
+        S298 = (-29.64,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u""""
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
 
 """,
 )
@@ -47145,6 +51443,7 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
+<<<<<<< HEAD
         Cpdata = ([13.95,12.32,11.99,12.11,12.88,13.34,13.96],'cal/(mol*K)'),
         H298 = (-14.29,'kcal/mol'),
         S298 = (63.4,'cal/(mol*K)'),
@@ -47152,6 +51451,15 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+=======
+        Cpdata = ([6.54, 6.96, 7.76, 8.52, 8.63, 8.91, 11.16], 'cal/(mol*K)'),
+        H298 = (0.76,'kcal/mol'),
+        S298 = (-21.89,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u""""
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
 
 """,
 )
@@ -47184,6 +51492,7 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
+<<<<<<< HEAD
         Cpdata = ([-2.07,-1.49,-1.34,-1.37,-1.46,-1.6,-2.06],'cal/(mol*K)'),
         H298 = (-1.36,'kcal/mol'),
         S298 = (-49.24,'cal/(mol*K)'),
@@ -47191,6 +51500,111 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+=======
+        Cpdata = ([8.93, 8.96, 9.5, 9.97, 8.89, 8.13, 8.68], 'cal/(mol*K)'),
+        H298 = (-18.83,'kcal/mol'),
+        S298 = (-44.17,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u""""
+
+""",
+)
+
+entry(
+    index = 2063,
+    label = "S6dd-OdCdOH",
+    group =
+"""
+1 * S6dd u0 p0 {2,D} {3,D} {4,S} {5,S}
+2   O2d  u0 {1,D}
+3   C    ux {1,D}
+4   H    ux {1,S}
+5   O    ux {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([7.06, 9.02, 10.52, 11.62, 12.49, 12.94, 13.19], 'cal/(mol*K)'),
+        H298 = (-1.99,'kcal/mol'),
+        S298 = (-13.94,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u""""
+
+""",
+)
+
+entry(
+    index = 2063,
+    label = "S6dd-OdCdOS",
+    group =
+"""
+1 * S6dd u0 p0 {2,D} {3,D} {4,S} {5,S}
+2   O2d  u0 {1,D}
+3   C    ux {1,D}
+4   S    ux {1,S}
+5   O    ux {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([8.12, 8.63, 9.14, 9.39, 9.28, 9.17, 9.38], 'cal/(mol*K)'),
+        H298 = (-4.86,'kcal/mol'),
+        S298 = (-28.94,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u""""
+
+""",
+)
+
+entry(
+    index = 2063,
+    label = "S6dd-OdCdSH",
+    group =
+"""
+1 * S6dd u0 p0 {2,D} {3,D} {4,S} {5,S}
+2   O2d  u0 {1,D}
+3   C    ux {1,D}
+4   H    ux {1,S}
+5   S    ux {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([6.1, 7.25, 8.55, 9.3, 10.38, 11.06, 12.03], 'cal/(mol*K)'),
+        H298 = (12.06,'kcal/mol'),
+        S298 = (-5.77,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u""""
+
+""",
+)
+
+entry(
+    index = 2063,
+    label = "S6dd-OdCdOO",
+    group =
+"""
+1 * S6dd u0 p0 {2,D} {3,D} {4,S} {5,S}
+2   O2d  u0 {1,D}
+3   C    ux {1,D}
+4   O    ux {1,S}
+5   O    ux {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([9.83, 11.13, 11.78, 12.17, 11.47, 11.11, 10.34], 'cal/(mol*K)'),
+        H298 = (-23.6,'kcal/mol'),
+        S298 = (-37.31,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u""""
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
 
 """,
 )
@@ -47206,6 +51620,7 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
+<<<<<<< HEAD
         Cpdata = ([8.65,7.45,7.16,7.17,7.22,6.89,6.86],'cal/(mol*K)'),
         H298 = (0.95,'kcal/mol'),
         S298 = (13.93,'cal/(mol*K)'),
@@ -47213,6 +51628,15 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+=======
+        Cpdata = ([19.0, 15.96, 14.89, 14.22, 11.57, 10.28, 12.58], 'cal/(mol*K)'),
+        H298 = (11.59,'kcal/mol'),
+        S298 = (41.24,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u""""
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
 
 """,
 )
@@ -47260,6 +51684,7 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
+<<<<<<< HEAD
         Cpdata = ([3.94,4.77,5.73,6.51,7.67,8.38,9.3],'cal/(mol*K)'),
         H298 = (21.19,'kcal/mol'),
         S298 = (39.44,'cal/(mol*K)'),
@@ -47267,6 +51692,15 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+=======
+        Cpdata = ([10.26, 10.74, 11.95, 13.44, 17.14, 19.55, 21.82], 'cal/(mol*K)'),
+        H298 = (50.77,'kcal/mol'),
+        S298 = (67.32,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u""""
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
 
 """,
 )
@@ -47301,6 +51735,7 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
+<<<<<<< HEAD
         Cpdata = ([10.65,11.72,12.66,12.81,9.35,7.25,8.64],'cal/(mol*K)'),
         H298 = (-47.94,'kcal/mol'),
         S298 = (9.7,'cal/(mol*K)'),
@@ -47308,6 +51743,15 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+=======
+        Cpdata = ([16.27, 14.42, 14.26, 14.24, 13.24, 12.82, 14.25], 'cal/(mol*K)'),
+        H298 = (-12.08,'kcal/mol'),
+        S298 = (-13.95,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u""""
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
 
 """,
 )
@@ -47324,6 +51768,7 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
+<<<<<<< HEAD
         Cpdata = ([5.82,7.03,9.56,9.62,7.29,6.09,9.27],'cal/(mol*K)'),
         H298 = (-53.32,'kcal/mol'),
         S298 = (17.34,'cal/(mol*K)'),
@@ -47331,6 +51776,15 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+=======
+        Cpdata = ([14.27, 13.66, 14.24, 14.95, 16.09, 16.97, 18.46], 'cal/(mol*K)'),
+        H298 = (-0.66,'kcal/mol'),
+        S298 = (17.2,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u""""
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
 
 """,
 )
@@ -47365,6 +51819,7 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
+<<<<<<< HEAD
         Cpdata = ([8.79,10.53,12.04,12.87,12.36,12.08,13.59],'cal/(mol*K)'),
         H298 = (-27.22,'kcal/mol'),
         S298 = (31.86,'cal/(mol*K)'),
@@ -47372,9 +51827,19 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+=======
+        Cpdata = ([7.12, 7.84, 8.16, 8.32, 8.21, 8.26, 8.78], 'cal/(mol*K)'),
+        H298 = (12.45,'kcal/mol'),
+        S298 = (-7.14,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u""""
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
 
 """,
 )
+
 
 entry(
     index = 2201,
@@ -47388,6 +51853,7 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
+<<<<<<< HEAD
         Cpdata = ([7.55,9.7,11.89,12.33,11.69,11.45,13.54],'cal/(mol*K)'),
         H298 = (-31.31,'kcal/mol'),
         S298 = (37.66,'cal/(mol*K)'),
@@ -47395,6 +51861,15 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+=======
+        Cpdata = ([13.72, 13.21, 13.52, 13.94, 14.8, 15.4, 16.57], 'cal/(mol*K)'),
+        H298 = (-54.95,'kcal/mol'),
+        S298 = (42.23,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u""""
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
 
 """,
 )
@@ -47411,6 +51886,7 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
+<<<<<<< HEAD
         Cpdata = ([9.59,10.13,11.04,11.14,9.76,8.95,10.26],'cal/(mol*K)'),
         H298 = (-33.31,'kcal/mol'),
         S298 = (16.13,'cal/(mol*K)'),
@@ -47418,6 +51894,15 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+=======
+        Cpdata = ([13.25, 13.84, 14.72, 15.64, 18.27, 19.93, 20.96], 'cal/(mol*K)'),
+        H298 = (-43.98,'kcal/mol'),
+        S298 = (72.22,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""RMG-type entries for Sulfur Groups, based on quantum calculations perfomred by Vandeputte (2011), Gillis, Class (2013), and Bozzelli, refit by Ryan Gillis in 2019""",
+    longDesc =
+u""""
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
 
 """,
 )
@@ -50849,6 +55334,173 @@ u"""
 """,
 )
 
+entry(
+    index = 2086,
+    label = "Cb-I",
+    group =
+"""
+1 * Cb u0 {2,S}
+2   I1s u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([8.0,8.9,9.6,9.9,10.3,10.5,10.7],'cal/(mol*K)'),
+        H298 = (24.0,'kcal/mol'),
+        S298 = (23.7,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""Cb-I BENSON""",
+    longDesc =
+u"""
+Thermochemical Kinetics 2nd Ed., by Sidney Benson (Table A4, p.281)
+Cpdata at 1500K was not in the book, Cpdata at 1500K = Cpdata at 1000K + 0.2
+""",
+)
+
+entry(
+    index = 2087,
+    label = "Cds-CdIH",
+    group =
+"""
+1 * Cd u0 {2,D} {3,S} {4,S}
+2   C  u0 {1,D}
+3   I1s u0 {1,S}
+4   H  u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([8.8,10.0,10.9,11.6,12.6,13.3,14.0],'cal/(mol*K)'),
+        H298 = (24.5,'kcal/mol'),
+        S298 = (40.5,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""Cd-(I)(H) BENSON""",
+    longDesc =
+u"""
+Thermochemical Kinetics 2nd Ed., by Sidney Benson (Table A4, p.280)
+Cpdata at 1500K was not in the book, Cpdata at 1500K = Cpdata at 1000K + 0.7
+""",
+)
+
+entry(
+    index = 2088,
+    label = "Cs-CIIH",
+    group =
+"""
+1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+2   C   u0 {1,S}
+3   I1s u0 {1,S}
+4   I1s u0 {1,S}
+5   H   u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([12.2,13.4,16.4,17.0,17.7,18.4,19.1],'cal/(mol*K)'),
+        H298 = (26.0,'kcal/mol'),
+        S298 = (54.6,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""C-(I)2(C)(H) BENSON""",
+    longDesc =
+u"""
+Thermochemical Kinetics 2nd Ed., by Sidney Benson (Table A4, p.280)
+Cpdata from 600 to 1500K estimated (base on entry 2088)
+""",
+)
+
+entry(
+    index = 2089,
+    label = "Cs-CCCI",
+    group =
+"""
+1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+2   C   u0 {1,S}
+3   C   u0 {1,S}
+4   C   u0 {1,S}
+5   I1s u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([9.7,11.4,12.7,13.9,14.7,15.3,15.9],'cal/(mol*K)'),
+        H298 = (13.0,'kcal/mol'),
+        S298 = (0.0,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""C-(I)(C)3  BENSON""",
+    longDesc =
+u"""
+Thermochemical Kinetics 2nd Ed., by Sidney Benson (Table A4, p.280)
+Cpdata from 400 to 1500K estimated (base on entry 2092)
+""",
+)
+
+entry(
+    index = 2090,
+    label = "Cs-CCIH",
+    group =
+"""
+1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+2   C   u0 {1,S}
+3   C   u0 {1,S}
+4   I1s u0 {1,S}
+5   H   u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([9.2,10.9,12.2,13.0,14.2,14.8,15.4],'cal/(mol*K)'),
+        H298 = (10.5,'kcal/mol'),
+        S298 = (21.3,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""C-(I)(H)(C)2 BENSON""",
+    longDesc =
+u"""
+Thermochemical Kinetics 2nd Ed., by Sidney Benson (Table A4, p.280)
+Cpdata at 1500K = Cpdata at 1000K + 0.6
+""",
+)
+
+entry(
+    index = 2091,
+    label = "Cs-CIHH",
+    group =
+"""
+1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+2   C   u0 {1,S}
+3   I1s u0 {1,S}
+4   H   u0 {1,S}
+5   H   u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([9.2,11.0,12.9,13.9,15.8,17.2,18.6],'cal/(mol*K)'),
+        H298 = (8.0,'kcal/mol'),
+        S298 = (43.0,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""C-(I)(H)2(C) BENSON""",
+    longDesc =
+u"""
+Thermochemical Kinetics 2nd Ed., by Sidney Benson (Table A4, p.280)
+Cpdata at 1500K = Cpdata at 1000K + 1.4
+""",
+)
+
+entry(
+    index = 2092,
+    label = "I1s",
+    group =
+"""
+1 *  I1s u0
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.0,0.0,0.0,0.0,0.0,0.0,0.0],'cal/(mol*K)'),
+        H298 = (0.0,'kcal/mol'),
+        S298 = (0.0,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""Dummy Iodine group""",
+    longDesc =
+u"""
+Dummy group for singly-bonded iodine.
+Benson groups for iodoalkanes already account for I in the Carbon-centered groups.
+""",
+)
+
 tree(
 """
 L1: R
@@ -50891,6 +55543,7 @@ L1: R
                     L6: Cb-(CtN3t)
                 L5: Cb-Cb
             L4: Cb-Cl
+            L4: Cb-I
         L3: Ct
             L4: Ct-CtN3s
             L4: Ct-N3tN3s
@@ -50918,10 +55571,13 @@ L1: R
                 L5: Ct-CtCt
                     L6: Ct-Ct(CtN3t)
                 L5: Ct-CtCb
+<<<<<<< HEAD
             L4: Ct-FCt
                 L5: Ct-FCt-Cd
                 L5: Ct-FCt-Cs
                 L5: Ct-FCt-O2s
+=======
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
         L3: Cdd
             L4: Cdd-N3dCd
             L4: Cdd-OdOd
@@ -51466,19 +56122,29 @@ L1: R
                             L8: C=S-(Cds-Cdd-Cd)S2s
                             L8: C=S-(Cds-Cdd-S2d)S2s
                 L5: C=S-S(CO)
+<<<<<<< HEAD
                 L5: C=S-CtSs
+=======
+		L5: C=S-CtSs
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
                 L5: C=S-CsSs
                 L5: C=S-C=SSs
             L4: Cds-CdClH
+            L4: Cds-CdIH
             L4: Cds-CdClCl
             L4: Cds-CdClC
                 L5: Cds-CdClCd
+<<<<<<< HEAD
             L4: C=S-OsH
+=======
+                L4: C=S-OsH
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
                 L5: C=S2-OsH
                 L5: C=S4-OsH
             L4: C=S-CsOs
             L4: C=S-OsOs
             L4: C=S-OsS
+<<<<<<< HEAD
             L4: Cd-HFCd
                 L5: Cd-HFCd-O2s
                 L5: Cd-HFCd-Cd
@@ -51500,6 +56166,8 @@ L1: R
             L4: Cd-F2Cdd
             L4: Cd-FCdCt
             L4: CO-F2O2d
+=======
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
         L3: Cs
             L4: Cs-NHHH
                 L5: Cs-N3sHHH
@@ -52854,11 +57522,15 @@ L1: R
             L4: Cs-ClClClH
             L4: Cs-ClClClCl
             L4: Cs-CClHH
+            L4: Cs-CIHH
             L4: Cs-CClClH
+            L4: Cs-CIIH
             L4: Cs-CClClCl
             L4: Cs-CCClH
+            L4: Cs-CCIH
             L4: Cs-CCClCl
             L4: Cs-CCCCl
+<<<<<<< HEAD
             L4: Cs-HFFCs
                 L5: Cs-HF2Cs-O2s
             L4: Cs-HHFCs
@@ -52892,6 +57564,9 @@ L1: R
             L4: Cs-F3O2s
             L4: Cs-FO2sCsCs
             L4: Cs-HF2CO
+=======
+            L4: Cs-CCCI
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
     L2: O
         L3: Oa(S)
         L3: O2d
@@ -52972,6 +57647,7 @@ L1: R
             L4: O2s-SH
                 L5: O2s-S_nonDeH
                 L5: O2s-S_DeH
+<<<<<<< HEAD
             L4: O2s-F
                 L5: O2s-FO2s
                 L5: O2d-FCd
@@ -52985,6 +57661,12 @@ L1: R
         L3: SiJ2(S)
     L2: S
         L3: Sc
+=======
+    L2: Si
+        L3: SiJ2(S)
+    L2: S
+	L3: Sc
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
         L3: Sa(S)
         L3: S2d
             L4: S2d-C
@@ -53048,11 +57730,19 @@ L1: R
             L4: S4d-Od
                 L5: S4d-OdHH
                 L5: S4d-OdCC
+<<<<<<< HEAD
                     L6: S4d-OdCsCs
                     L6: S4d-OdCdCd
                 L5: S4d-OdCH
                     L6: S4d-OdCsH
                     L6: S4d-OdCdH
+=======
+                    L6:S4d-OdCsCs
+                    L6:S4d-OdCdCd
+                L5: S4d-OdCH
+                    L6:S4d-OdCsH
+                    L6:S4d-OdCdH
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
                 L5: S4d-OdCS
                 L5: S4d-OdCO
                     L6: S4d-OdOsCs
@@ -53101,7 +57791,11 @@ L1: R
                     L6: S6dd-OdOdCdH
                 L5: S6dd-OdOdCS
                 L5: S6dd-OdOdCO
+<<<<<<< HEAD
                     L6: S6dd-OdOdCsOs
+=======
+		    L6: S6dd-OdOdCsOs
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
                     L6: S6dd-OdOdCdOs
                 L5: S6dd-OdOdOO
                 L5: S6dd-OdOdOH
@@ -53209,7 +57903,11 @@ L1: R
             L4: N5dc-OdOsN3s
         L3: N5ddc
     L2: Cl1s
+<<<<<<< HEAD
     L2: F1s
+=======
+    L2: I1s
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
 """
 )
 

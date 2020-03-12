@@ -4930,6 +4930,7 @@ entry(
     label = "CsJ-CsCdH-F1sHHCdH-F1s",
     group = 
 """
+<<<<<<< HEAD
 multiplicity [2]
 1    Cs  u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
 2  * Cs  u1 p0 c0 {1,S} {3,S} {8,S}
@@ -4941,6 +4942,12 @@ multiplicity [2]
 8    H   u0 p0 c0 {2,S}
 9    H   u0 p0 c0 {3,S}
 10   F1s u0 p3 c0 {4,S}
+=======
+1 * Cs u1 {2,S} {3,S} {4,S}
+2   S  ux {1,S}
+3   R  ux {1,S}
+4   R  ux {1,S}
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -4974,8 +4981,36 @@ u"""
 )
 
 entry(
+<<<<<<< HEAD
     index = 184,
     label = "CsJ-CdCsH-F1sHCdHH",
+=======
+    index = 244,
+    label = "CsJ-SsOsH",
+    group =
+"""
+1 * Cs u1 {2,S} {3,S} {4,S}
+2   S  ux {1,S}
+3   O  ux {1,S}
+4   H  u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-1.95,-2.60,-2.88,-2.90,-2.72,-2.63,-3.06],'cal/(mol*K)'),
+        H298 = (96.64,'kcal/mol'),
+        S298 = (-0.74,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""Sulfur/Oxygen Extension, Ryan Gillis""",
+    longDesc =
+u""""
+From comparison with the saturated closed-shell species, mostly calculated at cbsqb3 with the hydrogen value take from BurcatH2O2 library, 3/2018, Ryan Gillis
+""",
+)
+
+entry(
+    index = -1,
+    label = "CsJ-CSH",
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
     group = 
 """
 multiplicity [2]
@@ -6176,8 +6211,35 @@ u"""
 )
 
 entry(
+<<<<<<< HEAD
     index = 230,
     label = "bicyclo[2.2.2]octane-C1",
+=======
+    index = 84,
+    label = "SCJ=O",
+    group =
+"""
+1 * CO  u1 {2,D} {3,S}
+2   O2d u0 {1,D}
+3   S   u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.30,-0.86,-1.50,-2.06,-2.99,-3.68,-4.70],'cal/(mol*K)'),
+        H298 = (86.68,'kcal/mol'),
+        S298 = (-1.02,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""Sulfur/Oxygen Extension, Ryan Gillis""",
+    longDesc =
+u""""
+From comparison with the saturated closed-shell species, mostly calculated at cbsqb3 with the hydrogen value take from BurcatH2O2 library, 3/2018, Ryan Gillis
+""",
+)
+
+entry(
+    index = 85,
+    label = "(O)CJOH",
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
     group = 
 """
 1 * Cs u1 {3,S} {6,S} {8,S}
@@ -6872,8 +6934,13 @@ u"""
 )
 
 entry(
+<<<<<<< HEAD
     index = 255,
     label = "bicyclo[2.1.0]pent-2-ene-C1",
+=======
+    index = 257,
+    label = "S2s-CJ=C",
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
     group = 
 """
 1 * Cs u1 {2,S} {3,S} {5,S}
@@ -7010,6 +7077,7 @@ entry(
 3   Cs u0 {1,S}
 4   Cs u0 {1,S}
 """,
+<<<<<<< HEAD
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
         Cpdata = ([-0.04,-1.01,-1.74,-2.41,-3.19,-3.65,-3.65],'cal/(mol*K)'),
@@ -7017,6 +7085,10 @@ entry(
         S298 = (1.48,'cal/(mol*K)'),
     ),
     shortDesc = u"""LAY et al.""",
+=======
+    thermo = u'C=SJ-H',
+    shortDesc = u"""""",
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
     longDesc = 
 u"""
 
@@ -7187,6 +7259,7 @@ entry(
     label = "CsJOCC",
     group = 
 """
+<<<<<<< HEAD
 1   Cs  u0 {3,S} {4,S} {5,S} {6,S}
 2 * Cs  u1 {3,S} {7,S} {8,S}
 3   O2s u0 {1,S} {2,S}
@@ -7195,6 +7268,10 @@ entry(
 6   H   u0 {1,S}
 7   H   u0 {2,S}
 8   H   u0 {2,S}
+=======
+1 * O2s u1 {2,S}
+2   C  ux {1,S}
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -7655,8 +7732,35 @@ u"""
 )
 
 entry(
+<<<<<<< HEAD
     index = 287,
     label = "CsJ-CsO2sH-F1sHF1sCs",
+=======
+    index = 3021,
+    label = "SCOJ",
+    group =
+"""
+1   C  ux {2,S} {3,S}
+2 * O2s u1 {1,S}
+3   S   ux {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-3.09,-4.17,-4.38,-4.16,-3.24,-2.43,-1.96],'cal/(mol*K)'),
+        H298 = (104.33,'kcal/mol'),
+        S298 = (1.24,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""Sulfur/Oxygen Extension, Ryan Gillis""",
+    longDesc =
+u""""
+From comparison with the saturated closed-shell species, mostly calculated at cbsqb3 with the hydrogen value take from BurcatH2O2 library, 3/2018, Ryan Gillis
+""",
+)
+
+entry(
+    index = 101,
+    label = "OOJ",
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
     group = 
 """
 multiplicity [2]
@@ -7771,6 +7875,31 @@ u"""
 """,
 )
 
+<<<<<<< HEAD
+=======
+entry(
+    index = 105,
+    label = "SOOJ",
+    group =
+"""
+1   O2s u0 {2,S} {3,S}
+2 * O2s u1 {1,S}
+3   S  u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-1.39,-2.62,-2.95,-3.22,-3.66,-3.98,-4.52],'cal/(mol*K)'),
+        H298 = (91.79,'kcal/mol'),
+        S298 = (1.36,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""Sulfur/Oxygen Extension, Ryan Gillis""",
+    longDesc =
+u""""
+From comparison with the saturated closed-shell species, mostly calculated at cbsqb3 with the hydrogen value take from BurcatH2O2 library, 3/2018, Ryan Gillis
+""",
+)
+
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
 entry(
     index = 292,
     label = "CCsJOC(O)C",
@@ -8158,11 +8287,64 @@ entry(
 4   C   u0 {1,S}
 5   C   u0 {2,S}
 """,
+<<<<<<< HEAD
     thermo = u'C2CsJOCs',
     shortDesc = u"""""",
     longDesc = 
 u"""
+=======
+    thermo = u'S2sJ-(CsHHH)',
+    shortDesc = u"""Sulfur/Oxygen Extension, Ryan Gillis""",
+    longDesc =
+u""""
+From comparison with the saturated closed-shell species, mostly calculated at cbsqb3 with the hydrogen value take from BurcatH2O2 library, 3/2018, Ryan Gillis
+""",
+)
 
+entry(
+    index = 236,
+    label = "S2sJ-(CsHHH)",
+    group =
+"""
+1 * S2s u1 p2 {2,S}
+2   Cs  u0    {1,S} {3,S} {4,S} {5,S}
+3   H   u0    {2,S}
+4   H   u0    {2,S}
+5   H   u0    {2,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-1.35,-1.58,-1.87,-2.16,-2.66,-3.11,-3.95],'cal/(mol*K)'),
+        H298 = (87.08,'kcal/mol'),
+        S298 = (-3.45,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""Sulfur/Oxygen Extension, Ryan Gillis""",
+    longDesc =
+u""""
+From comparison with the saturated closed-shell species, mostly calculated at cbsqb3 with the hydrogen value take from BurcatH2O2 library, 3/2018, Ryan Gillis
+""",
+)
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
+
+entry(
+    index = 236,
+    label = "S2J-(Cs-Cb)",
+    group =
+"""
+1 * S2s u1 p2 {2,S}
+2   Cs  u0    {1,S} {3,S}
+3   Cb  u0    {2,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-3.29,-3.84,-4.16,-4.58,-5.31,-5.90,-6.84],'cal/(mol*K)'),
+        H298 = (86.83,'kcal/mol'),
+        S298 = (-4.81,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""Sulfur/Oxygen Extension, Ryan Gillis""",
+    longDesc =
+u""""
+From comparison with the saturated closed-shell species, mostly calculated at cbsqb3 with the hydrogen value take from BurcatH2O2 library, 3/2018, Ryan Gillis
 """,
 )
 
@@ -9087,6 +9269,7 @@ entry(
     label = "CsJ-CsCdF1s-HHHH",
     group = 
 """
+<<<<<<< HEAD
 multiplicity [2]
 1   Cs  u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
 2 * Cs  u1 p0 c0 {1,S} {3,S} {7,S}
@@ -9105,11 +9288,159 @@ u"""
 """,
 )
 
+=======
+1 * O2s    u1 p2 c0 {2,S}
+2   S2s    u0 p2 c0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.53,-0.81,-0.99,-1.17,-1.56,-1.88,-2.49],'cal/(mol*K)'),
+        H298 = (79.78,'kcal/mol'),
+        S298 = (1.28,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""Sulfur/Oxygen Extension, Ryan Gillis""",
+    longDesc =
+u""""
+From comparison with the saturated closed-shell species, mostly calculated at cbsqb3 with the hydrogen value take from BurcatH2O2 library, 3/2018, Ryan Gillis
+""",
+)
+
+entry(
+    index = 2006,
+    label = "O2sJ-S4d",
+    group =
+"""
+1 * O2s    u1 p2 c0 {2,S}
+2   S4d    u0 p1 c0 {1,S}
+""",
+    thermo = u'O2sJ-(S4d-OdO)',
+    shortDesc = u"""Sulfur/Oxygen Extension, Ryan Gillis""",
+    longDesc =
+u""""
+From comparison with the saturated closed-shell species, mostly calculated at cbsqb3 with the hydrogen value of 52.103 kcal/mol, 4/2017, Ryan Gillis
+""",
+)
+
+entry(
+    index = 2006,
+    label = "O2sJ-(S4d-OdO)",
+    group =
+"""
+1 * O2s    u1 p2 c0 {2,S}
+2   S4d    u0 p1 c0 {1,S} {3,D} {4,S}
+3   O2d    u0 p2 c0 {2,D}
+4   O      u0 p2 c0 {2,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.62,-0.07,-0.61,-0.93,-1.55,-2.00,-2.49],'cal/(mol*K)'),
+        H298 = (28.13,'kcal/mol'),
+        S298 = (2.64,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""Sulfur/Oxygen Extension, Ryan Gillis""",
+    longDesc =
+u""""
+From comparison with the saturated closed-shell species, mostly calculated at cbsqb3 with the hydrogen value take from BurcatH2O2 library, 3/2018, Ryan Gillis
+""",
+)
+
+entry(
+    index = 2006,
+    label = "O2sJ-S6d",
+    group =
+"""
+1 * O2s    u1 p2 c0 {2,S}
+2   S6d    u0 p0 c0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-1.68,-2.09,-2.45,-2.77,-3.30,-3.71,-4.41],'cal/(mol*K)'),
+        H298 = (106.21,'kcal/mol'),
+        S298 = (-1.07,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""Sulfur/Oxygen Extension, Ryan Gillis""",
+    longDesc =
+u""""
+From comparison with the saturated closed-shell species, mostly calculated at cbsqb3 with the hydrogen value take from BurcatH2O2 library, 3/2018, Ryan Gillis
+""",
+)
+
+entry(
+    index = 2006,
+    label = "O2sJ-(S4d-OdC)",
+    group =
+"""
+1 * O2s    u1 p2 c0 {2,S}
+2   S4d    u0 p1 c0 {1,S} {3,D} {4,S}
+3   O      u0 p2 c0 {2,D}
+4   C      u0 p0 c0 {2,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-2.33,-2.94,-3.19,-3.38,-3.72,-4.01,-4.59],'cal/(mol*K)'),
+        H298 = (78.16,'kcal/mol'),
+        S298 = (-0.19,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""Sulfur/Oxygen Extension, Ryan Gillis""",
+    longDesc =
+u""""
+From comparison with the saturated closed-shell species, mostly calculated at cbsqb3 with the hydrogen value take from BurcatH2O2 library, 3/2018, Ryan Gillis
+""",
+)
+
+entry(
+    index = 2006,
+    label = "O2sJ-(S4d-CdC)",
+    group =
+"""
+1 * O2s      u1 p2 c0 {2,S}
+2   S4d    u0 p1 c0 {1,S} {3,D} {4,S}
+3   C      u0 p0 c0 {2,D}
+4   C      u0 p0 c0 {2,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-1.13,-1.86,-2.28,-2.63,-3.2,-3.64,-4.39],'cal/(mol*K)'),
+        H298 = (74.659,'kcal/mol'),
+        S298 = (0.698,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""Sulfur/Oxygen Extension, Ryan Gillis""",
+    longDesc =
+u""""
+From comparison with the saturated closed-shell species, mostly calculated at cbsqb3 with the hydrogen value take from BurcatH2O2 library, 3/2018, Ryan Gillis
+""",
+)
+
+entry(
+    index = 2006,
+    label = "O2sJ-(S4d-OdH)",
+    group =
+"""
+1 * O2s      u1 p2 c0 {2,S}
+2   S4d    u0 p1 c0 {1,S} {3,D} {4,S}
+3   O      u0 p2 c0 {2,D}
+4   H      u0 p0 c0 {2,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-2.69,-3.3,-3.74,-4.07,-4.4,-4.54,-4.927],'cal/(mol*K)'),
+        H298 = (79.582,'kcal/mol'),
+        S298 = (-1.49,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""Sulfur/Oxygen Extension, Ryan Gillis""",
+    longDesc =
+u""""
+From comparison with the saturated closed-shell species, mostly calculated at cbsqb3 with the hydrogen value take from BurcatH2O2 library, 3/2018, Ryan Gillis
+""",
+)
+
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
 entry(
     index = 351,
     label = "CsJ-CdF1sCs-CdHHHH",
     group = 
 """
+<<<<<<< HEAD
 multiplicity [2]
 1   Cs  u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
 2 * Cs  u1 p0 c0 {1,S} {3,S} {7,S}
@@ -9120,6 +9451,10 @@ multiplicity [2]
 7   F1s u0 p3 c0 {2,S}
 8   Cd  u0 p0 c0 {3,D}
 9   H   u0 p0 c0 {3,S}
+=======
+1 * O   u1 p2 c0 {2,S}
+2   S   ux px c0 {1,S}
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -9242,9 +9577,53 @@ u"""
 )
 
 entry(
+<<<<<<< HEAD
     index = 357,
     label = "CsJ-O2sF1sCs-HHF1sCs",
     group = 
+=======
+    index = 2050,
+    label = "S6dJ",
+    group =
+"""
+1 * S6d   u1 p0
+""",
+    thermo = u'S6dJ-OdOCC',
+    shortDesc = u"""Calculated at CBS-QB3""",
+    longDesc =
+u""""
+""",
+)
+
+entry(
+    index = 2051,
+    label = "S6dJ-OdOCC",
+    group =
+"""
+1 * S6d    u1 p0 c0 {2,S} {3,S} {4,S} {5,D}
+2   O      ux {1,S}
+3   C      ux {1,S}
+4   C      ux {1,S}
+5   O      ux {1,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([3.35,1.6,-0.19,-0.45,-0.95,-1.42,-3.65],'cal/(mol*K)'),
+        H298 = (56.531,'kcal/mol'),
+        S298 = (3.34,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""Sulfur/Oxygen Extension, Ryan Gillis""",
+    longDesc =
+u""""
+Based on radical calculations at CBS-QB3
+""",
+)
+
+entry(
+    index = 2010,
+    label = "S4sJ-CCC",
+    group =
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
 """
 multiplicity [2]
 1   Cs  u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
@@ -9256,18 +9635,60 @@ multiplicity [2]
 7   F1s u0 p3 c0 {2,S}
 8   H   u0 p0 c0 {3,S}
 """,
+<<<<<<< HEAD
     thermo = None,
     shortDesc = u"""""",
     longDesc = 
 u"""
 
+=======
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-2.055,-3.801,-4.696,-5.408,-6.524,-7.325,-8.52],'cal/(mol*K)'),
+        H298 = (63.249,'kcal/mol'),
+        S298 = (12.849,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""Sulfur/Oxygen Extension, Ryan Gillis""",
+    longDesc =
+u""""
+Calculated at CBS-QB3
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
 """,
 )
 
 entry(
+<<<<<<< HEAD
     index = 358,
     label = "CsJ-CsF1sO2s-F1sCsHH-H",
     group = 
+=======
+    index = 2011,
+    label = "S4sJ-OCC",
+    group =
+"""
+1 * S4s    u1 p1 c0 {2,S} {3,S} {4,S}
+2   O      ux {1,S}
+3   C      ux {1,S}
+4   C      ux {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([2.475,-.55,-2.75,-4.66,-7.27,-9.325,-8.64],'cal/(mol*K)'),
+        H298 = (21.67,'kcal/mol'),
+        S298 = (15.449,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""Sulfur/Oxygen Extension, Ryan Gillis""",
+    longDesc =
+u""""
+Based on radical calculations at CBS-QB3
+""",
+)
+
+entry(
+    index = 2010,
+    label = "S6sJ-CCCCC",
+    group =
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
 """
 multiplicity [2]
 1   Cs  u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
@@ -9420,11 +9841,35 @@ multiplicity [2]
 7   F1s u0 p3 c0 {2,S}
 8   Cs  u0 p0 c0 {3,S}
 """,
+<<<<<<< HEAD
     thermo = None,
     shortDesc = u"""""",
     longDesc = 
 u"""
 
+=======
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.762975,-1.091932,-1.454467,-1.908359,-2.748445,-3.446538,-4.576528],'cal/(mol*K)','+|-',[0.226952,0.226952,0.226952,0.226952,0.226952,0.226952,0.226952]),
+        H298 = (83.668243,'kcal/mol','+|-',0.869131),
+        S298 = (1.433096,'cal/(mol*K)','+|-',0.350884),
+    ),
+    shortDesc = u"""Calculations from Hexylbenzene Library, Lawrence Lai""",
+    longDesc =
+u""""
+Based on CBS-QB3 calculations and group values for radical groups already present in the database, 07/2018, Lawrence Lai
+
+Uncertainty of CBS-QB3 is 2.4kcal/mol, by Somers, K, and Simmie, J, "Benchmarking Compound Methods (CBS-QB3, CBS-APNO, G3, G4, W1BD") against the Active Thermochemical  Tables: Formation Enthalpies of Radicals. 2015.
+http://pubs.acs.org/doi/abs/10.1021/acs.jpca.5b05448
+
+Model Species used include:
+C1=CC=C2C=CC[CH]C2=C1
+CC1=CC[CH]C2=CC=CC=C12
+CCC1=CC[CH]C2=CC=CC=C12
+
+Modified 10/2019 by Max Liu. Added enthalpy of H atom so that GAV predicted
+enthalpy for C1=CC=C2C=CC[CH]C2=C1 matches calculated value.
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
 """,
 )
 
@@ -9449,6 +9894,12 @@ multiplicity [2]
     longDesc = 
 u"""
 
+<<<<<<< HEAD
+=======
+Model Species used include:
+C[C]1CC=CC2=CC=CC=C12
+CC[C]1CC=CC2=CC=CC=C12
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
 """,
 )
 
@@ -20635,9 +21086,15 @@ u"""
 )
 
 entry(
+<<<<<<< HEAD
     index = 842,
     label = "NJ2_O",
     group = 
+=======
+    index = 2082,
+    label = "Aromatic_pi_S_(fused7)_1_3",
+    group =
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
 """
 1 * N3s u2 p1 {2,S}
 2   O   u0 p2 {1,S}
@@ -21103,6 +21560,7 @@ L1: Radical
                         L7: CsJ-SsSsSs
                     L6: CCsJOS
                         L7: CCsJOHSH
+                    L6: CsJ-SsOsH
                 L5: CsJN
                 L5: CCsJN
                 L5: C2CsJN
@@ -21213,10 +21671,14 @@ L1: Radical
                             L8: (O)CJOCC
                             L8: (O)CJOCC2
                             L8: (O)CJOCC3
+<<<<<<< HEAD
                             L8: COJ-O2dO2s-Cs-F1s
                                 L9: COJ-O2sO2d-Cs-HF1s
                 L5: Cds-P-Cl
                     L6: CJ(Cl)=CC
+=======
+                    L6: SCJ=O
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
                 L5: Cds_P
                     L6: C=C=CJ
                         L7: CdJ-HCdd-Cd-F1s
@@ -21251,6 +21713,7 @@ L1: Radical
                         L7: CC(C)CJ=C=O
                         L7: C=C(C)CJ=C=O
                     L6: OC=CJCb
+<<<<<<< HEAD
                     L6: CdJ-CsCd-CsF1s
                         L7: CdJ-CsCd-F1sHCs
                             L8: CdJ-CdCs-CsF1sF1sH
@@ -21285,6 +21748,9 @@ L1: Radical
                     L6: CdJ-CsCd-F1sHHH
                     L6: CdJ-CdCs-HHHCsH-HF1s
                 L5: CdsJ-S2s
+=======
+                L5: S2s-CJ=C
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
                 L5: C=CJO
                     L6: CdJ-CdO2s-F1sH
                         L7: CdJ-CdO2s-CsF1sH
@@ -21516,8 +21982,12 @@ L1: Radical
                     L6: OJC=O
                         L7: OC=OOJ
                 L5: OCOJ
+<<<<<<< HEAD
                     L6: O2sJ-Cs-HHO2s-Cs-F1s
                         L7: O2sJ-Cs-HO2sH-Cs-F1sH
+=======
+                L5: SCOJ
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
                 L5: CsOJ
                     L6: H3COJ
                     L6: O2sJ-Cs-F1s
@@ -21529,6 +21999,7 @@ L1: Radical
                 L5: ROOJ
                     L6: C(=O)OOJ
                     L6: C3COOJ
+<<<<<<< HEAD
                     L6: O2sJ-O2s-Cs-F1s
                         L7: O2sJ-O2s-Cs-CsF1s
                             L8: O2sJ-O2s-Cs-F1sCsF1s
@@ -21547,6 +22018,18 @@ L1: Radical
                 L5: HOOJ
             L4: SOJ
                 L5: O2sJ-S2s
+=======
+                    L6: SOOJ
+                L5: HOOJ
+            L4: SOJ
+                L5:O2sJ-S2s
+                L5:O2sJ-S4d
+                    L6:O2sJ-(S4d-OdO)
+                    L6:O2sJ-(S4d-OdC)
+                    L6:O2sJ-(S4d-OdH)
+                    L6:O2sJ-(S4d-CdC)
+                L5:O2sJ-S6d
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
         L3: NJ
             L4: N3sJ
                 L5: NH2J
@@ -21564,6 +22047,8 @@ L1: Radical
                 L5: S2J-H
                 L5: S2J-C
                     L6: S2J-Cs
+                        L7: S2sJ-(CsHHH)
+                        L7: S2J-(Cs-Cb)
                     L6: S2J-Ct
                     L6: S2J-Cb
                     L6: S2J-Cd
@@ -21576,12 +22061,23 @@ L1: Radical
                 L5: S2sJ-O
             L4: S4sJ
                 L5: S4sJ-CCC
+<<<<<<< HEAD
             L4: S4dJ
+=======
+		L5: S4sJ-OCC
+            L4:S4dJ
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
                 L5: S4dJ-OdH
                 L5: S4dJ-OdO
             L4: S6sJ
                 L5: S6sJ-CCCCC
+<<<<<<< HEAD
             L4: S6ddJ
+=======
+	    L4:S6dJ
+                L5: S6dJ-OdOCC
+            L4:S6ddJ
+>>>>>>> d626e2bd535faf1cb4c3c1618cfff8ad1bbe3dd9
                 L5: S6ddJ-OdOdH
                 L5: S6ddJ-OdOdO
     L2: RJ2_triplet
