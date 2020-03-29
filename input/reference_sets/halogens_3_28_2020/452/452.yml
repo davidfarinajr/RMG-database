@@ -1,0 +1,26 @@
+Identifiers:
+  adjacency_list: |
+    multiplicity 4
+    1 C u1 p0 c0 {2,D} {4,S}
+    2 C u0 p0 c0 {1,D} {3,D}
+    3 C u2 p0 c0 {2,D}
+    4 H u0 p0 c0 {1,S}
+  formula: C3H
+  inchi: InChI=1S/C3H/c1-3-2/h1H
+  inchi_key: WWDRUPNDOSDMRD-UHFFFAOYSA-N
+  label: '452'
+  smiles: '[C]=C=[CH]'
+Properties:
+  charge: 0
+  molecular_weight:
+    class: ScalarQuantity
+    units: amu
+    value: 37.040043346750195
+  multiplicity: 4
+RMG_version: 2.4.1
+calculated_data: {}
+class: ReferenceSpecies
+datetime: 2019-11-25 14:54
+index: 452
+is_ts: false
+reference_data: {}
