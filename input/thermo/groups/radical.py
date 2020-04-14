@@ -98,6 +98,81 @@ entry(
 )
 
 entry(
+    index = 5234124124,
+    label = "CsJ-HNN3ds",
+    group = 
+"""
+1 * Cs u1 {2,S} {3,S} {4,S}
+2   N u0 {1,S}
+3   [N3d,N3s]  u0 {1,S}
+4   H          u0 {1,S}
+""",
+    thermo = None,
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 52341124,
+    label = "CsJ-HN(N3dN3d)",
+    group = 
+"""
+1 * Cs u1 {2,S} {3,S} {4,S}
+2   N  u0 {1,S}
+3   N3d  u0 {1,S} {5,D}
+4   H          u0 {1,S}
+5   N3d u0 {3,D}
+""",
+    thermo = None,
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 52341124666,
+    label = "CsJ-HN(N3dOd)",
+    group = 
+"""
+1 * Cs u1 {2,S} {3,S} {4,S}
+2   N  u0 {1,S}
+3   N3d  u0 {1,S} {5,D}
+4   H          u0 {1,S}
+5   O2d u0 {3,D}
+""",
+    thermo = None,
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 52341124666666,
+    label = "CsJ-HN(N3dCd)",
+    group = 
+"""
+1 * Cs u1 {2,S} {3,S} {4,S}
+2   N  u0 {1,S}
+3   N3d  u0 {1,S} {5,D}
+4   H          u0 {1,S}
+5   [Cd,Cdd] u0 {3,D}
+""",
+    thermo = None,
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
     index = 6,
     label = "CsJ-NNN_449",
     group = 
@@ -7532,6 +7607,101 @@ entry(
 )
 
 entry(
+    index = 2884212,
+    label = "CsJN3dN3d",
+    group = 
+"""
+1 * Cs u1 {2,S} {3,S} {4,S}
+2   N3d  u0 {1,S} {5,D}
+3   H  u0 {1,S}
+4   H  u0 {1,S}
+5   N3d u0 {2,D}
+""",
+    thermo = None,
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 288421277,
+    label = "CsJN3dOd",
+    group = 
+"""
+1 * Cs u1 {2,S} {3,S} {4,S}
+2   N3d  u0 {1,S} {5,D}
+3   H  u0 {1,S}
+4   H  u0 {1,S}
+5   O2d u0 {2,D}
+""",
+    thermo = None,
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 28842126677,
+    label = "CsJN3dCd",
+    group = 
+"""
+1 * Cs u1 {2,S} {3,S} {4,S}
+2   N3d  u0 {1,S} {5,D}
+3   H  u0 {1,S}
+4   H  u0 {1,S}
+5   Cd u0 {2,D}
+""",
+    thermo = None,
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 2884212667789,
+    label = "CsJN3dCdd",
+    group = 
+"""
+1 * Cs u1 {2,S} {3,S} {4,S}
+2   N3d  u0 {1,S} {5,D}
+3   H  u0 {1,S}
+4   H  u0 {1,S}
+5   Cdd u0 {2,D}
+""",
+    thermo = None,
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 2884299012,
+    label = "CsJN3dN5dc",
+    group = 
+"""
+1 * Cs u1 {2,S} {3,S} {4,S}
+2   N3d  u0 {1,S} {5,D}
+3   H  u0 {1,S}
+4   H  u0 {1,S}
+5   N5dc u0 {2,D}
+""",
+    thermo = None,
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
     index = 2881412,
     label = "CsJN3s",
     group = 
@@ -7568,6 +7738,24 @@ entry(
 )
 
 entry(
+    index = 2881412884354,
+    label = "CsJN5sc",
+    group = 
+"""
+1 * Cs u1 {2,S} {3,S} {4,S}
+2   N5sc  u0 {1,S}
+3   H  u0 {1,S}
+4   H  u0 {1,S}
+""",
+    thermo = None,
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
     index = 288141112,
     label = "CsJN5dcOd",
     group = 
@@ -7576,7 +7764,66 @@ entry(
 2   [N5dc,N5ddc]  u0 {1,S} {5,D}
 3   H  u0 {1,S}
 4   H  u0 {1,S}
-5   O2d u0 {2,S}
+5   O2d u0 {2,D}
+""",
+    thermo = None,
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 2881489112,
+    label = "CsJN5dcN3d",
+    group = 
+"""
+1 * Cs u1 {2,S} {3,S} {4,S}
+2   [N5dc,N5ddc]  u0 {1,S} {5,D}
+3   H  u0 {1,S}
+4   H  u0 {1,S}
+5   N3d u0 {2,D}
+""",
+    thermo = None,
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 2881489112,
+    label = "CsJN5dcN3dO0sc",
+    group = 
+"""
+1 * Cs u1 {2,S} {3,S} {4,S}
+2   N5dc  u0 {1,S} {5,D} {6,S}
+3   H  u0 {1,S}
+4   H  u0 {1,S}
+5   N3d u0 {2,D}
+6   O0sc u0 {2,S}
+""",
+    thermo = None,
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 2881489112,
+    label = "CsJN5dcN3dO2s",
+    group = 
+"""
+1 * Cs u1 {2,S} {3,S} {4,S}
+2   N5dc  u0 {1,S} {5,D} {6,S}
+3   H  u0 {1,S}
+4   H  u0 {1,S}
+5   N3d u0 {2,D}
+6   O2s u0 {2,S}
 """,
     thermo = None,
     shortDesc = """""",
@@ -7595,7 +7842,7 @@ entry(
 2   N5dc  u0 {1,S} {5,D} {6,S}
 3   H  u0 {1,S}
 4   H  u0 {1,S}
-5   O2d u0 {2,S}
+5   O2d u0 {2,D}
 6   O0sc u0 {2,S}
 """,
     thermo = None,
@@ -7615,7 +7862,7 @@ entry(
 2   N5dc  u0 {1,S} {5,D} {6,S}
 3   H  u0 {1,S}
 4   H  u0 {1,S}
-5   O2d u0 {2,S}
+5   O2d u0 {2,D}
 6   O2s u0 {2,S}
 """,
     thermo = None,
@@ -7733,6 +7980,113 @@ entry(
 1 * Cd u1 {2,S} {3,D}
 2   H  u0 {1,S}
 3   N  u0 {1,D}
+""",
+    thermo = None,
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 2956352,
+    label = "CdJ-HN3d",
+    group = 
+"""
+1 * Cd u1 {2,S} {3,D}
+2   H  u0 {1,S}
+3   N3d  u0 {1,D}
+""",
+    thermo = None,
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 295635211111112,
+    label = "CdJ-HN5dc",
+    group = 
+"""
+1 * Cd u1 {2,S} {3,D}
+2   H  u0 {1,S}
+3   N5dc  u0 {1,D}
+""",
+    thermo = None,
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 29563521412,
+    label = "CdJ-H(N3dOs)",
+    group = 
+"""
+1 * Cd u1 {2,S} {3,D}
+2   H  u0 {1,S}
+3   N3d  u0 {1,D} {4,S}
+4   O2s  u0 {3,S}
+""",
+    thermo = None,
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 2956352141444,
+    label = "CdJ-H(N3dN3d)",
+    group = 
+"""
+1 * Cd u1 {2,S} {3,D}
+2   H  u0 {1,S}
+3   N3d  u0 {1,D} {4,S}
+4   N3d  u0 {3,S}
+""",
+    thermo = None,
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 2352141444,
+    label = "CdJ-H(N3dCd)",
+    group = 
+"""
+1 * Cd u1 {2,S} {3,D}
+2   H  u0 {1,S}
+3   N3d  u0 {1,D} {4,S}
+4   [Cd,Cdd]  u0 {3,S}
+""",
+    thermo = None,
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 29563521412666,
+    label = "CdJ-H(N3dCO)",
+    group = 
+"""
+1 * Cd u1 {2,S} {3,D}
+2   H  u0 {1,S}
+3   N3d  u0 {1,D} {4,S}
+4   CO  u0 {3,S} {5,D}
+5   O2d u0 {4,D}
 """,
     thermo = None,
     shortDesc = """""",
@@ -9195,12 +9549,202 @@ entry(
 )
 
 entry(
+    index = 35612412666,
+    label = "O2sJ-N3sC",
+    group = 
+"""
+1 * O2s u1 {2,S}
+2   N3s u0 {1,S} {3,S}
+3   C u0 {2,S}
+""",
+    thermo = None,
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 3561241266,
+    label = "O2sJ-N3sCO",
+    group = 
+"""
+1 * O2s u1 {2,S}
+2   N3s u0 {1,S} {3,S}
+3   CO u0 {2,S} {4,D}
+4   O2d u0 {3,D}
+""",
+    thermo = None,
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 35612412999,
+    label = "O2sJ-N3sO2s",
+    group = 
+"""
+1 * O2s u1 {2,S}
+2   N3s u0 {1,S} {3,S}
+3   O2s u0 {2,S}
+""",
+    thermo = None,
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 356124129997,
+    label = "O2sJ-N3sN3ds",
+    group = 
+"""
+1 * O2s u1 {2,S}
+2   N3s u0 {1,S} {3,S}
+3   [N3d,N3s] u0 {2,S}
+""",
+    thermo = None,
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 3561241299975,
+    label = "O2sJ-N3sN5sdc",
+    group = 
+"""
+1 * O2s u1 {2,S}
+2   N3s u0 {1,S} {3,S}
+3   [N5sc,N5dc] u0 {2,S}
+""",
+    thermo = None,
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 1299975,
+    label = "O2sJ-N3s(N5sdcO0sc)",
+    group = 
+"""
+1 * O2s u1 {2,S}
+2   N3s u0 {1,S} {3,S}
+3   [N5sc,N5dc] u0 {2,S} {4,S}
+4   O0sc u0 {3,S}
+""",
+    thermo = None,
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 35612497,
+    label = "O2sJ-N3s(N3dOd)",
+    group = 
+"""
+1 * O2s u1 {2,S}
+2   N3s u0 {1,S} {3,S}
+3   N3d u0 {2,S} {4,D}
+4   O2d u0 {3,D}
+""",
+    thermo = None,
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
     index = 3561212,
     label = "O2sJ-N3d",
     group = 
 """
 1 * O2s u1 {2,S}
 2   N3d u0 {1,S}
+""",
+    thermo = None,
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 3561224212,
+    label = "O2sJ-N3dN3d",
+    group = 
+"""
+1 * O2s u1 {2,S}
+2   N3d u0 {1,S} {3,D}
+3   N3d u0 {2,D}
+""",
+    thermo = None,
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 361212,
+    label = "O2sJ-N3dN5dc",
+    group = 
+"""
+1 * O2s u1 {2,S}
+2   N3d u0 {1,S} {3,D}
+3   N5dc u0 {2,D}
+""",
+    thermo = None,
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 36333312,
+    label = "O2sJ-N3dOd",
+    group = 
+"""
+1 * O2s u1 {2,S}
+2   N3d u0 {1,S} {3,D}
+3   O2d u0 {2,D}
+""",
+    thermo = None,
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 3633312,
+    label = "O2sJ-N3dCd",
+    group = 
+"""
+1 * O2s u1 {2,S}
+2   N3d u0 {1,S} {3,D}
+3   [Cd,Cdd] u0 {2,D}
 """,
     thermo = None,
     shortDesc = """""",
@@ -9232,7 +9776,7 @@ entry(
     group = 
 """
 1 * O2s u1 {2,S}
-2   [N5dc,N5ddc] u0 {1,S} {3,S}
+2   [N5dc,N5ddc] u0 {1,S} {3,D}
 3   O2d u0 {2,D}
 """,
     thermo = None,
@@ -9249,7 +9793,7 @@ entry(
     group = 
 """
 1 * O2s u1 {2,S}
-2   [N5dc,N5ddc] u0 {1,S} {3,S} {4,S}
+2   [N5dc,N5ddc] u0 {1,S} {3,D} {4,S}
 3   O2d u0 {2,D}
 4   O0sc u0 {2,S}
 """,
@@ -9267,7 +9811,7 @@ entry(
     group = 
 """
 1 * O2s u1 {2,S}
-2   [N5dc,N5ddc] u0 {1,S} {3,S} {4,S}
+2   [N5dc,N5ddc] u0 {1,S} {3,D} {4,S}
 3   O2d u0 {2,D}
 4   O2s u0 {2,S}
 """,
@@ -12217,6 +12761,10 @@ L1: Radical
             L4: CtJ-N_457
             L4: CsJ
                 L5: CsJ-HNN_450
+                    L6: CsJ-HNN3ds
+                        L7: CsJ-HN(N3dCd)
+                        L7: CsJ-HN(N3dOd)
+                        L7: CsJ-HN(N3dN3d)
                 L5: CsJ-NNN_449
                 L5: CsJ-HNO_448
                 L5: CsJ-NNO_447
@@ -12502,16 +13050,31 @@ L1: Radical
                 L5: CsJN
                     L6: CsJN3s
                     L6: CsJN3d
+                        L7: CsJN3dN3d
+                        L7: CsJN3dCd
+                        L7: CsJN3dCdd
+                        L7: CsJN3dOd
+                        L7: CsJN3dN5dc
                     L6: CsJN5sdtc
+                        L7: CsJN5sc
                         L7: CsJN5dcOd
                             L8: CsJN5dcOdO0sc
                             L8: CsJN5dcOdO2s
+                        L7: CsJN5dcN3d
+                            L8: CsJN5dcN3dO0sc
+                            L8: CsJN5dcN3dO2s
                     L6: CsJN1sc
                 L5: CCsJN
                 L5: C2CsJN
                 L5: OCJO
             L4: CdsJ
                 L5: CdJ-HN_456
+                    L6: CdJ-HN3d
+                        L7: CdJ-H(N3dOs)
+                        L7: CdJ-H(N3dCO)
+                        L7: CdJ-H(N3dN3d)
+                        L7: CdJ-H(N3dCd)
+                    L6: CdJ-HN5dc
                 L5: CdJ-NN_455
                 L5: COJ-NO_454
                 L5: CdJ-CN_453
@@ -12576,7 +13139,18 @@ L1: Radical
         L3: OJ
             L4: O2sJ-N_458
                 L5: O2sJ-N3s
+                    L6: O2sJ-N3sC
+                        L7: O2sJ-N3sCO
+                    L6: O2sJ-N3sO2s
+                    L6: O2sJ-N3sN3ds
+                        L7: O2sJ-N3s(N3dOd)
+                    L6: O2sJ-N3sN5sdc
+                        L7: O2sJ-N3s(N5sdcO0sc)
                 L5: O2sJ-N3d
+                    L6: O2sJ-N3dN3d
+                    L6: O2sJ-N3dN5dc
+                    L6: O2sJ-N3dCd
+                    L6: O2sJ-N3dOd
                 L5: O2sJ-N5sdtc
                     L6: O2sJ-N5dcOd
                         L7: O2sJ-N5dcOdO0sc
