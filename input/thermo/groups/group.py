@@ -53381,7 +53381,12 @@ entry(
 """
 1 * N5dc u0
 """,
-    thermo = None,
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (0,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
+    ),
     shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
     longDesc = 
 """
