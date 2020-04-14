@@ -116,6 +116,42 @@ entry(
 )
 
 entry(
+    index = 52341241241124,
+    label = "CsJ-HNN5sc",
+    group = 
+"""
+1 * Cs u1 {2,S} {3,S} {4,S}
+2   N u0 {1,S}
+3   N5sc  u0 {1,S}
+4   H          u0 {1,S}
+""",
+    thermo = None,
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 5234124124112499,
+    label = "CsJ-HN5scN5sc",
+    group = 
+"""
+1 * Cs u1 {2,S} {3,S} {4,S}
+2   N5sc u0 {1,S}
+3   N5sc  u0 {1,S}
+4   H          u0 {1,S}
+""",
+    thermo = None,
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
     index = 52341124,
     label = "CsJ-HN(N3dN3d)",
     group = 
@@ -125,6 +161,25 @@ entry(
 3   N3d  u0 {1,S} {5,D}
 4   H          u0 {1,S}
 5   N3d u0 {3,D}
+""",
+    thermo = None,
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 5231124,
+    label = "CsJ-HN(N3dN5dc)",
+    group = 
+"""
+1 * Cs u1 {2,S} {3,S} {4,S}
+2   N  u0 {1,S}
+3   N3d  u0 {1,S} {5,D}
+4   H          u0 {1,S}
+5   N5dc u0 {3,D}
 """,
     thermo = None,
     shortDesc = """""",
@@ -198,6 +253,24 @@ entry(
 1 * Cs u1 {2,S} {3,S} {4,S}
 2   O  u0 {1,S}
 3   N  u0 {1,S}
+4   H  u0 {1,S}
+""",
+    thermo = None,
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 7666661,
+    label = "CsJ-HON1sc",
+    group = 
+"""
+1 * Cs u1 {2,S} {3,S} {4,S}
+2   O  u0 {1,S}
+3   N1sc  u0 {1,S}
 4   H  u0 {1,S}
 """,
     thermo = None,
@@ -7915,6 +7988,24 @@ entry(
 )
 
 entry(
+    index = 289487529342,
+    label = "CdCsJN",
+    group = 
+"""
+1 * Cs u1 {2,S} {3,S} {4,S}
+2   N  u0 {1,S}
+3   Cd  u0 {1,S}
+4   H  u0 {1,S}
+""",
+    thermo = None,
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
     index = 290,
     label = "C2CsJN",
     group = 
@@ -8129,6 +8220,24 @@ entry(
 
 """,
 )
+
+entry(
+    index = 296,
+    label = "CdJ-CddN",
+    group = 
+"""
+1 * Cd u1 {2,S} {3,D}
+2   N  u0 {1,S}
+3   Cdd  u0 {1,D}
+""",
+    thermo = None,
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
 
 entry(
     index = 296,
@@ -8837,6 +8946,24 @@ entry(
         S298 = (1.29,'cal/(mol*K)'),
     ),
     shortDesc = """LAY et al.""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 325141122111174,
+    label = "N=C=CJ",
+    group = 
+"""
+1 * Cd  u1 {2,D} {3,S}
+2   Cdd u0 {1,D} {4,D}
+3   H   u0 {1,S}
+4   N   u0 {2,D}
+""",
+    thermo = None,
+    shortDesc = """""",
     longDesc = 
 """
 
@@ -9793,7 +9920,7 @@ entry(
     group = 
 """
 1 * O2s u1 {2,S}
-2   [N5dc,N5ddc] u0 {1,S} {3,D} {4,S}
+2   N5dc u0 {1,S} {3,D} {4,S}
 3   O2d u0 {2,D}
 4   O0sc u0 {2,S}
 """,
@@ -10221,6 +10348,22 @@ entry(
 Derived using calculations at B3LYP/6-311G(d,p)/CBS-QB3 level of theory. 1DH-rotors
 optimized at the B3LYP/6-31G(d).Paraskevas et al, Chem. Eur. J. 2013, 19, 16431-16452,
 DOI: 10.1002/chem.201301381
+""",
+)
+
+entry(
+    index = 37245654112,
+    label = "N=COJ",
+    group = 
+"""
+1   Cd  u0 {2,S} {3,D}
+2 * O2s u1 {1,S}
+3   N   u0 {1,D}
+""",
+    thermo = None,
+    shortDesc = """""",
+    longDesc = 
+"""
 """,
 )
 
@@ -11410,6 +11553,23 @@ entry(
 )
 
 entry(
+    index = 444657773921,
+    label = "N3sJ-CtO",
+    group = 
+"""
+1 * N3s u1 {2,S} {3,S}
+2   Ct   u0 {1,S}
+3   O   u0 {1,S}
+""",
+    thermo = None,
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
     index = 446,
     label = "N3sJ",
     group = 
@@ -11469,6 +11629,23 @@ entry(
 )
 
 entry(
+    index = 44846799235,
+    label = "NHJ_Cd",
+    group = 
+"""
+1 * N3s u1 p1 {2,S} {3,S}
+2   [Cd,Cdd]   u0 p0 {1,S}
+3   H   u0 p0 {1,S}
+""",
+    thermo = None,
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
     index = 449,
     label = "NHJ_O",
     group = 
@@ -11513,6 +11690,62 @@ entry(
 )
 
 entry(
+    index = 45009759,
+    label = "NHJ_N3d",
+    group = 
+"""
+1 * N3s u1 p1 {2,S} {3,S}
+2   N3d   u0 {1,S}
+3   H   u0 p0 {1,S}
+""",
+    thermo = None,
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 4505509759,
+    label = "NHJ_N5dc",
+    group = 
+"""
+1 * N3s u1 p1 {2,S} {3,S}
+2   N5dc  u0 {1,S}
+3   H   u0 p0 {1,S}
+""",
+    thermo = None,
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+# entry(
+#     index = 451,
+#     label = "NJ_CC",
+#     group = 
+# """
+# 1 * N3s u1 p1 {2,S} {3,S}
+# 2   C   u0 p0 {1,S}
+# 3   C   u0 p0 {1,S}
+# """,
+#     thermo = ThermoData(
+#         Tdata = ([300,400,500,600,800,1000,1500],'K'),
+#         Cpdata = ([3.46,3.7,3.86,3.95,3.73,3.16,1.98],'cal/(mol*K)'),
+#         H298 = (120.063,'kcal/mol'),
+#         S298 = (10.18,'cal/(mol*K)'),
+#     ),
+#     shortDesc = """Calculated w.r.t CH3NHCH3 and CH3[N]CH3, both from thermo_DFT_CCSDTF12_BAC""",
+#     longDesc = 
+# """
+
+# """,
+# )
+
+entry(
     index = 451,
     label = "NJ_CC",
     group = 
@@ -11521,13 +11754,43 @@ entry(
 2   C   u0 p0 {1,S}
 3   C   u0 p0 {1,S}
 """,
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([3.46,3.7,3.86,3.95,3.73,3.16,1.98],'cal/(mol*K)'),
-        H298 = (120.063,'kcal/mol'),
-        S298 = (10.18,'cal/(mol*K)'),
-    ),
+    thermo = None,
     shortDesc = """Calculated w.r.t CH3NHCH3 and CH3[N]CH3, both from thermo_DFT_CCSDTF12_BAC""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 45114124,
+    label = "NJ_CCd",
+    group = 
+"""
+1 * N3s u1 p1 {2,S} {3,S}
+2   C   u0 p0 {1,S}
+3   [Cd,Cdd]   u0 p0 {1,S}
+""",
+    thermo = None,
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 451141242342,
+    label = "NJ_CCO",
+    group = 
+"""
+1 * N3s u1 p1 {2,S} {3,S}
+2   C  u0 p0 {1,S}
+3   CO   u0 p0 {1,S} {4,D}
+4   O2d u0 p2 {3,D}
+""",
+    thermo = None,
+    shortDesc = """""",
     longDesc = 
 """
 
@@ -11571,6 +11834,22 @@ entry(
 )
 
 entry(
+    index = 453121125523,
+    label = "N3dJ_Cdd",
+    group = 
+"""
+1 * N3d u1 p1 {2,D}
+2   Cdd   u0 p0 {1,D}
+""",
+    thermo = None,
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
     index = 454,
     label = "N3dJ_O",
     group = 
@@ -11606,6 +11885,38 @@ entry(
         S298 = (1.49,'cal/(mol*K)'),
     ),
     shortDesc = """Calculated w.r.t HN=NH and [N]=NH, both from thermo_DFT_CCSDTF12_BAC""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 455113462111,
+    label = "N3dJ_N5dc",
+    group = 
+"""
+1 * N3d u1 p1 {2,D}
+2   N5dc   u0 {1,D}
+""",
+    thermo = None,
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 45511346211,
+    label = "N3dJ_N3d",
+    group = 
+"""
+1 * N3d u1 p1 {2,D}
+2   N3d   u0 {1,D}
+""",
+    thermo = None,
+    shortDesc = """""",
     longDesc = 
 """
 
@@ -12765,8 +13076,12 @@ L1: Radical
                         L7: CsJ-HN(N3dCd)
                         L7: CsJ-HN(N3dOd)
                         L7: CsJ-HN(N3dN3d)
+                        L7: CsJ-HN(N3dN5dc)
+                    L6: CsJ-HNN5sc
+                        L7: CsJ-HN5scN5sc
                 L5: CsJ-NNN_449
                 L5: CsJ-HNO_448
+                    L6: CsJ-HON1sc
                 L5: CsJ-NNO_447
                 L5: CsJ-NOO_446
                 L5: CsJ-CNN_445
@@ -13065,6 +13380,7 @@ L1: Radical
                             L8: CsJN5dcN3dO2s
                     L6: CsJN1sc
                 L5: CCsJN
+                    L6: CdCsJN
                 L5: C2CsJN
                 L5: OCJO
             L4: CdsJ
@@ -13078,6 +13394,7 @@ L1: Radical
                 L5: CdJ-NN_455
                 L5: COJ-NO_454
                 L5: CdJ-CN_453
+                    L6: CdJ-CddN
                 L5: CdJ-NO_452
                 L5: CdJ-CN_451
                 L5: CdsJO
@@ -13107,6 +13424,7 @@ L1: Radical
                     L6: SCJ=O
                 L5: Cds_P
                     L6: C=C=CJ
+                    L6: N=C=CJ
                 L5: Cds_S
                     L6: C=CJC=O
                     L6: C=CJC=C
@@ -13172,6 +13490,7 @@ L1: Radical
                 L5: CdsOJ
                     L6: RC=COJ
                         L7: C=COJ
+                        L7: N=COJ
                     L6: OJC=O
                         L7: OC=OOJ
                 L5: OCOJ
@@ -13235,16 +13554,25 @@ L1: Radical
             L4: N3sJ-OO_463
             L4: N3sJ-CN_461
             L4: N3sJ-CO_460
+                L5: N3sJ-CtO
             L4: N3sJ
                 L5: NH2J
                 L5: NHJ_C
+                    L6: NHJ_Cd
                 L5: NHJ_O
                 L5: NHJ_N
+                    L6: NHJ_N3d
+                    L6: NHJ_N5dc
                 L5: NJ_CC
+                    L6: NJ_CCd
+                    L6: NJ_CCO
             L4: N3dJ
                 L5: N3dJ_C
+                    L6: N3dJ_Cdd
                 L5: N3dJ_O
                 L5: N3dJ_N
+                    L6: N3dJ_N5dc
+                    L6: N3dJ_N3d
         L3: SiJ
         L3: SJ
             L4: S2J
