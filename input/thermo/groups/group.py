@@ -50257,7 +50257,7 @@ entry(
 """
 1 * N u0
 """,
-    thermo = None,
+    thermo = "N3s-CsCsCs",
     shortDesc = """Derived from Nitrogen_G4 ThermoLibrary""",
     longDesc = 
 """
