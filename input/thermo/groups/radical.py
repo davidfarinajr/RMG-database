@@ -9853,7 +9853,7 @@ entry(
 1 * O2s u1 {2,S}
 2   N   u0 {1,S}
 """,
-    thermo = None,
+    thermo = "O2sJ-N3s",
     shortDesc = """""",
     longDesc = 
 """
@@ -9869,7 +9869,7 @@ entry(
 1 * O2s u1 {2,S}
 2   N3s u0 {1,S}
 """,
-    thermo = None,
+    thermo = "O2sJ-N3sC",
     shortDesc = """""",
     longDesc = 
 """
