@@ -56,6 +56,16 @@ entry(
 )
 
 entry(
+    index = 2000,
+    label = "Niv",
+    group = 
+"""
+1 *3 Niv u0
+""",
+    kinetics=None,
+)
+
+entry(
     index = 3,
     label="VacantSite2",
     group =
@@ -211,6 +221,7 @@ L1: Adsorbate
         L3: N-H
     L2: C-H
 L1: VacantSite1
+    L2: Niv
 
 L1: VacantSite2
 """

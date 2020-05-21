@@ -104,6 +104,17 @@ multiplicity [1]
     kinetics = None,
 )
 
+entry(
+    index = 7,
+    label="Cu",
+    group =
+"""
+1 *4 Cuv u0 p0 c0
+""",
+    kinetics = None,
+)
+
+
 tree(
 """
 L1: Combined
@@ -112,5 +123,6 @@ L1: Combined
         L3: O-H
         L3: N-H
 L1: VacantSite
+    L2: Cu
 """
 )

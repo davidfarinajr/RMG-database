@@ -15,7 +15,7 @@ entry(
     group=
 """
 1 R  ux
-2 X  ux
+2 Pt  ux
 """,
     thermo=None,
     shortDesc=u"""Anything adsorbed anyhow.""",
@@ -43,7 +43,7 @@ R*bidentate or R*single_chemisorbed and thus not R*vdW.
 #    label = "R-*",
 #    group =
 #"""
-#1 X  u0 p0 c0 {2,S}
+#1 Pt u0 p0 c0 {2,S}
 #2 R  u0 p0 c0 {1,S}
 #""",
 #    thermo=ThermoData(
@@ -70,7 +70,7 @@ R*bidentate or R*single_chemisorbed and thus not R*vdW.
 #     label = "(R2)*",
 #     group =
 # """
-# 1 X  u0 p0 c0
+# 1 Pt u0 p0 c0
 # 2 R  u0 p0 c0 {3,S}
 # 3 R  u0 p0 c0 {2,S}
 # """,
@@ -97,7 +97,7 @@ entry(
     label = "(OR2)*",
     group =
 """
-1 X  u0 p0 c0
+1 Pt u0 p0 c0
 2 O  u0 p2 c0 {3,S} {4,S}
 3 R  u0 p[0,1,2] c0 {2,S}
 4 R  u0 p[0,1,2] c0 {2,S}
@@ -125,7 +125,7 @@ entry(
     label = "O-*R",
     group =
 """
-1 X  u0 p0 c0 {2,S}
+1 Pt u0 p0 c0 {2,S}
 2 O  u0 p2 c0 {1,S} {3,S}
 3 R  u0 px c0 {2,S}
 """,
@@ -153,7 +153,7 @@ entry(
     label = "(OROR)*",
     group =
 """
-1 X  u0 p0 c0
+1 Pt u0 p0 c0
 2 O  u0 p2 c0 {3,S} {4,S}
 3 O  u0 p2 c0 {2,S} {5,S}
 4 R  u0 p0 c0 {2,S}
@@ -182,8 +182,8 @@ entry(
     label = "O*O*",
     group =
 """
-1 X  u0 p0 c0 {3,S}
-2 X  u0 p0 c0 {4,S}
+1 Pt u0 p0 c0 {3,S}
+2 Pt u0 p0 c0 {4,S}
 3 O  u0 p2 c0 {1,S} {4,S}
 4 O  u0 p2 c0 {2,S} {3,S}
 """,
@@ -209,7 +209,7 @@ entry(
     label = "O-*OR",
     group =
 """
-1 X  u0 p0 c0 {2,S}
+1 Pt u0 p0 c0 {2,S}
 2 O  u0 p2 c0 {1,S} {3,S}
 3 O  u0 p2 c0 {2,S} {4,S}
 4 R  u0 p0 c0 {3,S}
@@ -238,7 +238,7 @@ entry(
     label = "O=*",
     group =
 """
-1 X  u0 p0 c0 {2,D}
+1 Pt u0 p0 c0 {2,D}
 2 O  u0 p2 c0 {1,D}
 """,
     thermo=ThermoData(
@@ -263,7 +263,7 @@ entry(
     label = "O-*NR2",
     group =
 """
-1 X  u0 p0 c0 {3,S}
+1 Pt u0 p0 c0 {3,S}
 2 N  u0 p1 c0 {3,S} {4,S} {5,S}
 3 O  u0 p2 c0 {1,S} {2,S}
 4 R  u0 p0 c0 {2,S}
@@ -293,7 +293,7 @@ entry(
     label = "O-*CR3",
     group =
 """
-1 X  u0 p0 c0 {3,S}
+1 Pt u0 p0 c0 {3,S}
 2 C  u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
 3 O  u0 p2 c0 {1,S} {2,S}
 4 R  u0 p0 c0 {2,S}
@@ -324,7 +324,7 @@ entry(
     label = "(NR3)*",
     group =
 """
-1 X  u0 p0 c0
+1 Pt u0 p0 c0
 2 N  u0 p1 c0 {3,S} {4,S} {5,S}
 3 R  u0 px c0 {2,S}
 4 R  u0 px c0 {2,S}
@@ -352,7 +352,7 @@ entry(
     label = "N-*R2",
     group =
 """
-1 X  u0 p0 c0 {2,S}
+1 Pt u0 p0 c0 {2,S}
 2 N  u0 p1 c0 {1,S} {3,[S,D]}
 3 R  u0 px c0 {2,[S,D]}
 """,
@@ -378,7 +378,7 @@ entry(
     label = "N=*R",
     group =
 """
-1 X  u0 p0 c0 {2,D}
+1 Pt u0 p0 c0 {2,D}
 2 N  u0 p1 c0 {1,D} {3,S}
 3 R  u0 px c0 {2,S}
 """,
@@ -404,7 +404,7 @@ entry(
     label = "N#*",
     group =
 """
-1 X  u0 p0 c0 {2,T}
+1 Pt u0 p0 c0 {2,T}
 2 N  u0 p1 c0 {1,T}
 """,
     thermo=ThermoData(
@@ -429,7 +429,7 @@ entry(
     label = "(NR2OR)*",
     group =
 """
-1 X  u0 p0 c0
+1 Pt u0 p0 c0
 2 N  u0 p1 c0 {3,S} {4,S} {5,S}
 3 O  u0 p2 c0 {2,S} {6,S}
 4 R  u0 p0 c0 {2,S}
@@ -459,7 +459,7 @@ entry(
     label = "(NRO)*",
     group =
 """
-1 X  u0 p0 c0
+1 Pt u0 p0 c0
 2 N  u0 p1 c0 {3,D} {4,S}
 3 O  u0 p2 c0 {2,D}
 4 R  u0 p0 c0 {2,S}
@@ -487,7 +487,7 @@ entry(
     label = "N-*ROR",
     group =
 """
-1 X  u0 p0 c0 {2,S}
+1 Pt u0 p0 c0 {2,S}
 2 N  u0 p1 c0 {1,S} {3,S} {4,S}
 3 O  u0 p2 c0 {2,S} {5,S}
 4 R  u0 p0 c0 {2,S}
@@ -515,7 +515,7 @@ entry(
     label = "N-*O",
     group =
 """
-1 X  u0 p0 c0 {2,S}
+1 Pt u0 p0 c0 {2,S}
 2 N  u0 p1 c0 {1,S} {3,D}
 3 O  u0 p2 c0 {2,D}
 """,
@@ -543,8 +543,8 @@ entry(
     label = "N=*O-*",
     group =
 """
-1 X  u0 p0 c0 {3,D}
-2 X  u0 p0 c0 {4,S}
+1 Pt u0 p0 c0 {3,D}
+2 Pt u0 p0 c0 {4,S}
 3 N  u0 p1 c0 {1,D} {4,S}
 4 O  u0 p2 c0 {2,S} {3,S}
 """,
@@ -570,7 +570,7 @@ entry(
     label = "N=*OR",
     group =
 """
-1 X  u0 p0 c0 {2,D}
+1 Pt u0 p0 c0 {2,D}
 2 N  u0 p1 c0 {1,D} {3,S}
 3 O  u0 p2 c0 {2,S} {4,S}
 4 R  u0 p0 c0 {3,S}
@@ -599,7 +599,7 @@ entry(
     label = "(NR2NR2)*",
     group =
 """
-1 X  u0 p0 c0
+1 Pt u0 p0 c0
 2 N  u0 p1 c0 {3,S} {4,S} {5,S}
 3 N  u0 p1 c0 {2,S} {6,S} {7,S}
 4 R  u0 p0 c0 {2,S}
@@ -630,7 +630,7 @@ entry(
     label = "(NRNR)*",
     group =
 """
-1 X  u0 p0 c0
+1 Pt u0 p0 c0
 2 N  u0 p1 c0 {3,D} {4,S}
 3 N  u0 p1 c0 {2,D} {5,S}
 4 R  u0 p0 c0 {2,S}
@@ -659,7 +659,7 @@ entry(
 #    label = "(NN)*",
 #    group =
 #"""
-#1 X  u0 p0 c0 
+#1 Pt u0 p0 c0 
 #3 N  u0 p1 c0 {3,T}
 #4 N  u0 p1 c0 {2,T}
 #""",
@@ -686,7 +686,7 @@ entry(
     label = "N-*RNR2",
     group =
 """
-1 X  u0 p0 c0 {2,S}
+1 Pt u0 p0 c0 {2,S}
 2 N  u0 p1 c0 {1,S} {3,S} {4,S}
 3 N  u0 p1 c0 {2,S} {5,S} {6,S}
 4 R  u0 p0 c0 {2,S}
@@ -715,7 +715,7 @@ entry(
     label = "N-*NR",
     group =
 """
-1 X  u0 p0 c0 {2,S}
+1 Pt u0 p0 c0 {2,S}
 2 N  u0 p1 c0 {1,S} {3,D}
 3 N  u0 p1 c0 {2,D} {4,S}
 4 R  u0 p0 c0 {3,S}
@@ -744,7 +744,7 @@ entry(
     label = "N=*NR2",
     group =
 """
-1 X  u0 p0 c0 {2,D}
+1 Pt u0 p0 c0 {2,D}
 2 N  u0 p1 c0 {1,D} {3,S}
 3 N  u0 p1 c0 {2,S} {4,S} {5,S}
 4 R  u0 p0 c0 {3,S}
@@ -774,8 +774,8 @@ entry(
     label = "N-*RN-*R",
     group =
 """
-1 X  u0 p0 c0 {3,S}
-2 X  u0 p0 c0 {4,S}
+1 Pt u0 p0 c0 {3,S}
+2 Pt u0 p0 c0 {4,S}
 3 N  u0 p1 c0 {1,S} {4,S} {5,S}
 4 N  u0 p1 c0 {2,S} {3,S} {6,S}
 5 R  u0 p0 c0 {3,S}
@@ -803,7 +803,7 @@ entry(
     label = "N-*RCR3",
     group =
 """
-1 X  u0 p0 c0 {3,S}
+1 Pt u0 p0 c0 {3,S}
 2 C  u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
 3 N  u0 p1 c0 {1,S} {2,S} {7,S}
 4 R  u0 p0 c0 {2,S}
@@ -833,7 +833,7 @@ entry(
     label = "N-*CR2",
     group =
 """
-1 X  u0 p0 c0 {3,S}
+1 Pt u0 p0 c0 {3,S}
 2 C  u0 p0 c0 {3,D} {4,S} {5,S}
 3 N  u0 p1 c0 {1,S} {2,D}
 4 R  u0 p0 c0 {2,S}
@@ -863,7 +863,7 @@ entry(
     label = "N=*CR3",
     group =
 """
-1 X  u0 p0 c0 {3,D}
+1 Pt u0 p0 c0 {3,D}
 2 C  u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
 3 N  u0 p1 c0 {1,D} {2,S}
 4 R  u0 p0 c0 {2,S}
@@ -896,7 +896,7 @@ entry(
 #     label = "N-*O2",
 #     group =
 # """
-# 1 X  u0  p0 c0 {2,S}
+# 1 Pt u0  p0 c0 {2,S}
 # 2 N  u0  p0 c+1 {1,S} {3,S} {4,D}
 # 3 O  u0  p2 c-1 {2,S}
 # 4 O  u0  p2 c0 {2,D}
@@ -923,7 +923,7 @@ entry(
     label = "Cq*",
     group =
 """
-1 X  u0 p0 c0 {2,Q}
+1 Pt u0 p0 c0 {2,Q}
 2 C  u0 p0 c0 {1,Q}
 """,
     thermo=ThermoData(
@@ -948,8 +948,8 @@ entry(
     label = "C-*C-*",
     group =
 """
-1 X  u0  p0 c0 {3,D}
-2 X  u0  p0 c0 {4,D}
+1 Pt u0  p0 c0 {3,D}
+2 Pt u0  p0 c0 {4,D}
 3 C  u0  p0 c0 {1,D} {4,D}
 4 C  u0  p0 c0 {2,D} {3,D}
 """,
@@ -975,7 +975,7 @@ entry(
     label = "C=*(=R)",
     group =
 """
-1 X   u0  p0 c0 {2,D}
+1 Pt  u0  p0 c0 {2,D}
 2 C   u0  p0 c0 {1,D} {3,D}
 3 R!H u0  px c0 {2,D}
 """,
@@ -1006,7 +1006,7 @@ entry(
     label = "C#*CR3",
     group =
 """
-1 X  u0 p0 c0 {3,T}
+1 Pt u0 p0 c0 {3,T}
 2 C  u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
 3 C  u0 p0 c0 {1,T} {2,S}
 4 R  u0 p0 c0 {2,S}
@@ -1037,7 +1037,7 @@ entry(
     label = "C#*R",
     group =
 """
-1 X  u0 p0 c0 {2,T}
+1 Pt u0 p0 c0 {2,T}
 2 C  u0 p0 c0 {1,T} {3,S}
 3 R  u0 px c0 {2,S}
 """,
@@ -1065,8 +1065,8 @@ entry(
     label = "C=*RC=*R",
     group =
 """
-1 X  u0 p0 c0 {3,D}
-2 X  u0 p0 c0 {4,D}
+1 Pt u0 p0 c0 {3,D}
+2 Pt u0 p0 c0 {4,D}
 3 C  u0 p0 c0 {1,D} {4,S} {5,S}
 4 C  u0 p0 c0 {2,D} {3,S} {6,S}
 5 R  u0 p0 c0 {3,S}
@@ -1094,7 +1094,7 @@ entry(
     label = "C=*R2",
     group =
 """
-1 X  u0 p0 c0 {2,D}
+1 Pt u0 p0 c0 {2,D}
 2 C  u0 p0 c0 {1,D} {3,S} {4,S}
 3 R  u0 px c0 {2,S}
 4 R  u0 px c0 {2,S}
@@ -1121,8 +1121,8 @@ entry(
     label = "C-*R2C-*R2",
     group =
 """
-1 X  u0 p0 c0 {3,S}
-2 X  u0 p0 c0 {4,S}
+1 Pt u0 p0 c0 {3,S}
+2 Pt u0 p0 c0 {4,S}
 3 C  u0 p0 c0 {1,S} {4,S} {5,S} {6,S}
 4 C  u0 p0 c0 {2,S} {3,S} {7,S} {8,S}
 5 R  u0 p0 c0 {3,S}
@@ -1152,7 +1152,7 @@ entry(
     label = "C-*R3",
     group =
 """
-1 X  u0 p0 c0 {2,S}
+1 Pt u0 p0 c0 {2,S}
 2 C  u0 p0 c0 {1,S} {3,[S,D]} {4,[S,D]}
 3 R  u0 px c0 {2,[S,D]}
 4 R  u0 px c0 {2,[S,D]}
@@ -1179,7 +1179,7 @@ entry(
     label = "(CR3CR3)*",
     group =
 """
-1 X  u0 p0 c0
+1 Pt u0 p0 c0
 2 C  u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
 3 C  u0 p0 c0 {2,S} {7,S} {8,S} {9,S}
 4 R  u0 p0 c0 {2,S}
@@ -1212,7 +1212,7 @@ entry(
     label = "(CR4)*",
     group =
 """
-1 X  u0 p0 c0
+1 Pt u0 p0 c0
 2 C  u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
 3 R  u0 px c0 {2,S}
 4 R  u0 px c0 {2,S}
@@ -1242,8 +1242,8 @@ entry(
     label = "C=*N-*",
     group =
 """
-1 X  u0  p0 c0 {3,D}
-2 X  u0  p0 c0 {4,S}
+1 Pt u0  p0 c0 {3,D}
+2 Pt u0  p0 c0 {4,S}
 3 C  u0  p0 c0 {1,D} {4,D}
 4 N  u0  p1 c0 {2,S} {3,D}
 """,
@@ -1269,7 +1269,7 @@ entry(
     label = "C=*(=NR)",
     group =
 """
-1 X  u0  p0 c0 {2,D}
+1 Pt u0  p0 c0 {2,D}
 2 C  u0  p0 c0 {1,D} {3,D}
 3 N  u0  p1 c0 {2,D} {4,S}
 4 R  u0  p0 c0 {3,S}
@@ -1298,7 +1298,7 @@ entry(
     label = "C#*NR2",
     group =
 """
-1 X  u0 p0 c0 {2,T}
+1 Pt u0 p0 c0 {2,T}
 2 C  u0 p0 c0 {1,T} {3,S}
 3 N  u0 p1 c0 {2,S} {4,S} {5,S}
 4 R  u0 p0 c0 {3,S}
@@ -1330,7 +1330,7 @@ entry(
 #     label = "C=*O",
 #     group =
 # """
-# 1 X  u0  p0 c0 {2,D}
+# 1 Pt u0  p0 c0 {2,D}
 # 2 C  u0  p0 c0 {1,D} {3,D}
 # 3 O  u0  p2 c0 {2,D}
 # """,
@@ -1358,7 +1358,7 @@ entry(
     label = "C#*OR",
     group =
 """
-1 X  u0 p0 c0 {2,T}
+1 Pt u0 p0 c0 {2,T}
 2 C  u0 p0 c0 {1,T} {3,S}
 3 O  u0 p2 c0 {2,S} {4,S}
 4 R  u0 p0 c0 {3,S}
@@ -1387,8 +1387,8 @@ entry(
     label = "C-*R2C=*R",
     group =
 """
-1 X  u0 p0 c0 {3,S}
-2 X  u0 p0 c0 {4,D}
+1 Pt u0 p0 c0 {3,S}
+2 Pt u0 p0 c0 {4,D}
 3 C  u0 p0 c0 {1,S} {4,S} {5,S} {6,S}
 4 C  u0 p0 c0 {2,D} {3,S} {7,S}
 5 R  u0 p0 c0 {3,S}
@@ -1417,7 +1417,7 @@ entry(
     label = "C-*R2CR3",
     group =
 """
-1 X  u0 p0 c0 {2,S}
+1 Pt u0 p0 c0 {2,S}
 2 C  u0 p0 c0 {1,S} {3,S} {4,S} {5,S}
 3 C  u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
 4 R  u0 p0 c0 {2,S}
@@ -1450,7 +1450,7 @@ entry(
     label = "(CR2NR)*",
     group =
 """
-1 X  u0 p0 c0
+1 Pt u0 p0 c0
 2 C  u0 p0 c0 {3,D} {4,S} {5,S}
 3 N  u0 p1 c0 {2,D} {6,S}
 4 R  u0 p0 c0 {2,S}
@@ -1480,7 +1480,7 @@ entry(
     label = "C-*R2NR2",
     group =
 """
-1 X  u0 p0 c0 {2,S}
+1 Pt u0 p0 c0 {2,S}
 2 C  u0 p0 c0 {1,S} {3,S} {4,S} {5,S}
 3 N  u0 p1 c0 {2,S} {6,S} {7,S}
 4 R  u0 p0 c0 {2,S}
@@ -1512,7 +1512,7 @@ entry(
     label = "(CR2O)*",
     group =
 """
-1 X  u0 p0 c0
+1 Pt u0 p0 c0
 2 C  u0 p0 c0 {3,D} {4,S} {5,S}
 3 O  u0 p2 c0 {2,D}
 4 R  u0 p0 c0 {2,S}
@@ -1540,7 +1540,7 @@ entry(
     label = "C-*R2OR",
     group =
 """
-1 X  u0 p0 c0 {2,S}
+1 Pt u0 p0 c0 {2,S}
 2 C  u0 p0 c0 {1,S} {3,S} {4,S} {5,S}
 3 O  u0 p2 c0 {2,S} {6,S}
 4 R  u0 p0 c0 {2,S}
@@ -1571,7 +1571,7 @@ entry(
     label = "(CR3NR2)*",
     group =
 """
-1 X  u0 p0 c0
+1 Pt u0 p0 c0
 2 C  u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
 3 N  u0 p1 c0 {2,S} {7,S} {8,S}
 4 R  u0 p0 c0 {2,S}
@@ -1603,7 +1603,7 @@ entry(
     label = "(CR3OR)*",
     group =
 """
-1 X  u0 p0 c0
+1 Pt u0 p0 c0
 2 C  u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
 3 O  u0 p2 c0 {2,S} {7,S}
 4 R  u0 p0 c0 {2,S}
@@ -1634,8 +1634,8 @@ entry(
     label = "C-*RC=*",
     group =
 """
-1 X  u0  p0 c0 {3,S}
-2 X  u0  p0 c0 {4,D}
+1 Pt u0  p0 c0 {3,S}
+2 Pt u0  p0 c0 {4,D}
 3 C  u0  p0 c0 {1,S} {4,D} {5,S}
 4 C  u0  p0 c0 {2,D} {3,D}
 5 R  u0  p0 c0 {3,S}
@@ -1662,7 +1662,7 @@ entry(
     label = "C-*RCR2",
     group =
 """
-1 X  u0  p0 c0 {2,S}
+1 Pt u0  p0 c0 {2,S}
 2 C  u0  p0 c0 {1,S} {3,D} {4,S}
 3 C  u0  p0 c0 {2,D} {5,S} {6,S}
 4 R  u0  p0 c0 {2,S}
@@ -1693,7 +1693,7 @@ entry(
     label = "C=*RCR3",
     group =
 """
-1 X  u0 p0 c0 {3,D}
+1 Pt u0 p0 c0 {3,D}
 2 C  u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
 3 C  u0 p0 c0 {1,D} {2,S} {7,S}
 4 R  u0 p0 c0 {2,S}
@@ -1725,7 +1725,7 @@ entry(
     label = "(CRN)*",
     group =
 """
-1 X  u0  p0 c0
+1 Pt u0  p0 c0
 2 C  u0  p0 c0 {3,T} {4,S}
 3 N  u0  p1 c0 {2,T}
 4 R  u0  p0 c0 {2,S}
@@ -1753,8 +1753,8 @@ entry(
     label = "C=*RN=*",
     group =
 """
-1 X  u0 p0 c0 {3,D}
-2 X  u0 p0 c0 {4,D}
+1 Pt u0 p0 c0 {3,D}
+2 Pt u0 p0 c0 {4,D}
 3 C  u0 p0 c0 {1,D} {4,S} {5,S}
 4 N  u0 p1 c0 {2,D} {3,S}
 5 R  u0 p0 c0 {3,S}
@@ -1783,7 +1783,7 @@ entry(
     label = "C-*RNR",
     group =
 """
-1 X  u0  p0 c0 {2,S}
+1 Pt u0  p0 c0 {2,S}
 2 C  u0  p0 c0 {1,S} {3,D} {4,S}
 3 N  u0  p1 c0 {2,D} {5,S}
 4 R  u0  p0 c0 {2,S}
@@ -1813,8 +1813,8 @@ entry(
     label = "C=*RN-*R",
     group =
 """
-1 X  u0 p0 c0 {3,D}
-2 X  u0 p0 c0 {4,S}
+1 Pt u0 p0 c0 {3,D}
+2 Pt u0 p0 c0 {4,S}
 3 C  u0 p0 c0 {1,D} {4,S} {5,S}
 4 N  u0 p1 c0 {2,S} {3,S} {6,S}
 5 R  u0 p0 c0 {3,S}
@@ -1842,7 +1842,7 @@ entry(
     label = "C=*RNR2",
     group =
 """
-1 X  u0 p0 c0 {2,D}
+1 Pt u0 p0 c0 {2,D}
 2 C  u0 p0 c0 {1,D} {3,S} {4,S}
 3 N  u0 p1 c0 {2,S} {5,S} {6,S}
 4 R  u0 p0 c0 {2,S}
@@ -1873,7 +1873,7 @@ entry(
     label = "C-*RO",
     group =
 """
-1 X  u0  p0 c0 {2,S}
+1 Pt u0  p0 c0 {2,S}
 2 C  u0  p0 c0 {1,S} {3,D} {4,S}
 3 O  u0  p2 c0 {2,D}
 4 R  u0  p0 c0 {2,S}
@@ -1902,8 +1902,8 @@ entry(
     label = "C=*RO-*",
     group =
 """
-1 X  u0 p0 c0 {3,D}
-2 X  u0 p0 c0 {4,S}
+1 Pt u0 p0 c0 {3,D}
+2 Pt u0 p0 c0 {4,S}
 3 C  u0 p0 c0 {1,D} {4,S} {5,S}
 4 O  u0 p2 c0 {2,S} {3,S}
 5 R  u0 p0 c0 {3,S}
@@ -1932,7 +1932,7 @@ entry(
     label = "C=*ROR",
     group =
 """
-1 X  u0 p0 c0 {2,D}
+1 Pt u0 p0 c0 {2,D}
 2 C  u0 p0 c0 {1,D} {3,S} {4,S}
 3 O  u0 p2 c0 {2,S} {5,S}
 4 R  u0 p0 c0 {2,S}
@@ -1962,7 +1962,7 @@ entry(
     label = "C*",
     group =
 """
-1 X  u0 {2,[S,D,T,Q]}
+1 Pt u0 {2,[S,D,T,Q]}
 2 C  ux {1,[S,D,T,Q]}
 """,
     thermo=u'C-*R3',
@@ -1974,7 +1974,7 @@ entry(
     label = "N*",
     group =
 """
-1 X  u0 {2,[S,D,T]}
+1 Pt u0 {2,[S,D,T]}
 2 N  ux {1,[S,D,T]}
 """,
     thermo=u'N-*R2',
@@ -1986,7 +1986,7 @@ entry(
     label = "O*",
     group =
 """
-1 X  u0 {2,[S,D]}
+1 Pt u0 {2,[S,D]}
 2 O  ux {1,[S,D]}
 """,
     thermo=u'O-*R',
@@ -1998,7 +1998,7 @@ entry(
     label = "R*single_chemisorbed",
     group =
 """
-1 X  u0 {2,[S,D,T,Q]}
+1 Pt u0 {2,[S,D,T,Q]}
 2 R  ux {1,[S,D,T,Q]}
 """,
     thermo=ThermoData(
@@ -2015,8 +2015,8 @@ entry(
     label = "C*C*",
     group =
 """
-1 X  u0 {3,[S,D]}
-2 X  u0 {4,[S,D]}
+1 Pt u0 {3,[S,D]}
+2 Pt u0 {4,[S,D]}
 3 C  u0 {1,[S,D]} {4,[S,D]}
 4 C  u0 {2,[S,D]} {3,[S,D]}
 """,
@@ -2029,8 +2029,8 @@ entry(
     label = "C*N*",
     group =
 """
-1 X  u0 {3,[S,D]}
-2 X  u0 {4,[S,D,T]}
+1 Pt u0 {3,[S,D]}
+2 Pt u0 {4,[S,D,T]}
 3 C  u0 {1,[S,D]} {4,[S,D,T]}
 4 N  u0 {2,[S,D,T]} {3,[S,D,T]}
 """,
@@ -2043,8 +2043,8 @@ entry(
     label = "C*O*",
     group =
 """
-1 X  u0 {3,[S,D,T]}
-2 X  u0 {4,S}
+1 Pt u0 {3,[S,D,T]}
+2 Pt u0 {4,S}
 3 C  u0 {1,[S,D,T]} {4,[S,D,T]}
 4 O  u0 {2,S} {3,[S,D,T]}
 """,
@@ -2056,8 +2056,8 @@ entry(
     label = "N*N*",
     group =
 """
-1 X  u0 {3,[S,D]}
-2 X  u0 {4,[S,D]}
+1 Pt u0 {3,[S,D]}
+2 Pt u0 {4,[S,D]}
 3 N  u0 {1,[S,D]} {4,[S,D]}
 4 N  u0 {2,[S,D]} {3,[S,D]}
 """,
@@ -2070,8 +2070,8 @@ entry(
     label = "R*bidentate",
     group =
 """
-1 X   u0 {3,[S,D,T]}
-2 X   u0 {4,[S,D,T]}
+1 Pt  u0 {3,[S,D,T]}
+2 Pt  u0 {4,[S,D,T]}
 3 R!H ux {1,[S,D,T]} {4,[S,D,T]}
 4 R!H ux {2,[S,D,T]} {3,[S,D,T]}
 """,
@@ -2089,7 +2089,7 @@ entry(
     label = "R*vdW",
     group =
 """
-1 X  u0 
+1 Pt u0 
 2 R  u0
 """,
     thermo=ThermoData(
@@ -2106,8 +2106,8 @@ entry(
     label = "N*O*",
     group =
 """
-1 X  u0 p0 c0 {3,[S,D]}
-2 X  u0 p0 c0 {4,[S,D]}
+1 Pt u0 p0 c0 {3,[S,D]}
+2 Pt u0 p0 c0 {4,[S,D]}
 3 N  u0 p1 c0 {1,[S,D]} {4,[S,D]}
 4 O  u0 p2 c0 {2,[S,D]} {3,[S,D]}
 """,
@@ -2120,8 +2120,8 @@ entry(
 #    label = "O*O*",
 #    group =
 #"""
-#1 X  u0 p0 c0 {3,S}
-#2 X  u0 p0 c0 {4,S}
+#1 Pt u0 p0 c0 {3,S}
+#2 Pt u0 p0 c0 {4,S}
 #3 O  u0 p2 c0 {1,S} {4,S}
 #4 O  u0 p2 c0 {2,S} {3,S}
 #""",
@@ -2136,7 +2136,7 @@ entry(
 #    label = "N#*R",
 #    group =
 #"""
-#1 X  u0 c-1 {2,T}
+#1 Pt u0 c-1 {2,T}
 #2 N  u0 c+1 {1,T} {3,S}
 #3 R  u0 c0  {2,S}
 #""",
@@ -2148,7 +2148,7 @@ entry(
     label = "N#*",
     group =
 """
-1 X  u0 p0 {2,T}
+1 Pt u0 p0 {2,T}
 2 N  u0 p1 {1,T}
 """,
     thermo=u'N*'
@@ -2158,7 +2158,7 @@ entry(
     label = "(CR3)*",
     group =
 """
-1 X   u0 
+1 Pt  u0 
 2 C   u0 {3,D} {4,S} {5,S}
 3 R!H u0 {2,D}
 4 R   u0 {2,S}
@@ -2173,7 +2173,7 @@ entry(
     label = "(CR2)*",
     group =
 """
-1 X   u0
+1 Pt  u0
 2 C   u0 {3,T} {4,S}
 3 R!H u0 {2,T}
 4 R   u0 {2,S}
@@ -2186,7 +2186,7 @@ entry(
     label = "(NR2CR3)*",
     group =
 """
-1 X  u0 p0 c0
+1 Pt u0 p0 c0
 2 N  u0 p1 c0 {3,S} {4,S} {5,S}
 3 Cs u0 p0 c0 {2,S}
 4 R  u0 p0 c0 {2,S}
@@ -2201,7 +2201,7 @@ entry(
     label = "(NR2)*",
     group =
 """
-1 X   u0 
+1 Pt  u0 
 2 N   u0 {3,D} {4,S}
 3 R!H u0 {2,D}
 4 R   u0 {2,S}
@@ -2215,8 +2215,8 @@ entry(
     label = "N-*RN=*",
     group =
 """
-1 X  u0 p0 c0 {3,S}
-2 X  u0 p0 c0 {4,D}
+1 Pt u0 p0 c0 {3,S}
+2 Pt u0 p0 c0 {4,D}
 3 N  u0 p1 c0 {1,S} {4,S} {5,S}
 4 N  u0 p1 c0 {2,D} {3,S}
 5 R  u0 p0 c0 {3,S}
@@ -2243,7 +2243,7 @@ entry(
     label = "(CRCR)*",
     group =
 """
-1 X  u0 p0 c0
+1 Pt u0 p0 c0
 2 C  u0 p0 c0 {3,T} {4,S}
 3 C  u0 p0 c0 {2,T} {5,S}
 4 R  u0 p0 c0 {2,S}
@@ -2272,8 +2272,8 @@ entry(
     label = "C-*R2N=*",
     group =
 """
-1 X  u0 p0 c0 {3,S}
-2 X  u0 p0 c0 {4,D}
+1 Pt u0 p0 c0 {3,S}
+2 Pt u0 p0 c0 {4,D}
 3 C  u0 p0 c0 {1,S} {4,S} {5,S} {6,S}
 4 N  u0 p1 c0 {2,D} {3,S}
 5 R  u0 p0 c0 {3,S}
@@ -2301,8 +2301,8 @@ entry(
     label = "C-*R2N-*R",
     group =
 """
-1 X  u0 p0 c0 {3,S}
-2 X  u0 p0 c0 {4,S}
+1 Pt u0 p0 c0 {3,S}
+2 Pt u0 p0 c0 {4,S}
 3 C  u0 p0 c0 {1,S} {4,S} {5,S} {6,S}
 4 N  u0 p1 c0 {2,S} {3,S} {7,S}
 5 R  u0 p0 c0 {3,S}
@@ -2331,7 +2331,7 @@ entry(
     label = "C=*(=C)",
     group =
 """
-1 X  u0  p0 c0 {2,D}
+1 Pt u0  p0 c0 {2,D}
 2 C  u0  p0 c0 {1,D} {3,D}
 3 C  u0  p0 c0 {2,D}
 """,
@@ -2362,8 +2362,8 @@ entry(
     label = "C-*R2O-*",
     group = 
 """
-1 X  u0 p0 c0 {3,S}
-2 X  u0 p0 c0 {4,S}
+1 Pt u0 p0 c0 {3,S}
+2 Pt u0 p0 c0 {4,S}
 3 C  u0 p0 c0 {1,S} {4,S} {5,S} {6,S}
 4 O  u0 p2 c0 {2,S} {3,S}
 5 R  u0 p0 c0 {3,S}
