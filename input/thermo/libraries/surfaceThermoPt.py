@@ -3,6 +3,8 @@
 
 
 name = "SurfaceThermoPt"
+metal = "Pt"
+facet = "111"
 #Note: "-h" means "horizontal".
 
 entry(
@@ -10,7 +12,7 @@ entry(
     label = "vacant",
     molecule =
 """
-1 Pt u0 p0 c0
+1 X  u0 p0 c0
 """,
     thermo = NASA(
         polynomials = [
@@ -31,7 +33,7 @@ entry(
     label = "H_ads",
     molecule =
 """
-1 Pt u0 p0 c0 {2,S}
+1 X  u0 p0 c0 {2,S}
 2 H  u0 p0 c0 {1,S}
 """,
     thermo = NASA(
@@ -53,7 +55,7 @@ entry(
     label = "H2_ads",
     molecule =
 """
-1 Pt u0 p0 c0
+1 X  u0 p0 c0
 2 H  u0 p0 c0 {3,S}
 3 H  u0 p0 c0 {2,S}
 """,
@@ -77,7 +79,7 @@ entry(
     label = "H2O_ads",
     molecule =
 """
-1 Pt u0 p0 c0
+1 X  u0 p0 c0
 2 O  u0 p2 c0 {3,S} {4,S}
 3 H  u0 p0 c0 {2,S}
 4 H  u0 p0 c0 {2,S}
@@ -102,7 +104,7 @@ entry(
     label = "OH_ads",
     molecule =
 """
-1 Pt u0 p0 c0 {2,S}
+1 X  u0 p0 c0 {2,S}
 2 O  u0 p2 c0 {1,S} {3,S}
 3 H  u0 p0 c0 {2,S}
 """,
@@ -125,7 +127,7 @@ entry(
     label = "HO-OH_ads",
     molecule =
 """
-1 Pt u0 p0 c0
+1 X  u0 p0 c0
 2 O  u0 p2 c0 {3,S} {4,S}
 3 O  u0 p2 c0 {2,S} {5,S}
 4 H  u0 p0 c0 {2,S}
@@ -151,8 +153,8 @@ entry(
     label = "O2_ads",
     molecule =
 """
-1 Pt u0 p0 c0 {3,S}
-2 Pt u0 p0 c0 {4,S}
+1 X  u0 p0 c0 {3,S}
+2 X  u0 p0 c0 {4,S}
 3 O  u0 p2 c0 {1,S} {4,S}
 4 O  u0 p2 c0 {2,S} {3,S}
 """,
@@ -175,7 +177,7 @@ entry(
     label = "OOH_ads",
     molecule =
 """
-1 Pt u0 p0 c0 {2,S}
+1 X  u0 p0 c0 {2,S}
 2 O  u0 p2 c0 {1,S} {3,S}
 3 O  u0 p2 c0 {2,S} {4,S}
 4 H  u0 p0 c0 {3,S}
@@ -199,7 +201,7 @@ entry(
     label = "O_ads",
     molecule =
 """
-1 Pt u0 p0 c0 {2,D}
+1 X  u0 p0 c0 {2,D}
 2 O  u0 p2 c0 {1,D}
 """,
     thermo = NASA(
@@ -221,7 +223,7 @@ entry(
     label = "O-NH2_ads",
     molecule =
 """
-1 Pt u0 p0 c0 {3,S}
+1 X  u0 p0 c0 {3,S}
 2 N  u0 p1 c0 {3,S} {4,S} {5,S}
 3 O  u0 p2 c0 {1,S} {2,S}
 4 H  u0 p0 c0 {2,S}
@@ -246,7 +248,7 @@ entry(
     label = "O-CH3_ads",
     molecule =
 """
-1 Pt u0 p0 c0 {3,S}
+1 X  u0 p0 c0 {3,S}
 2 C  u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
 3 O  u0 p2 c0 {1,S} {2,S}
 4 H  u0 p0 c0 {2,S}
@@ -272,7 +274,7 @@ entry(
     label = "NH3_ads",
     molecule =
 """
-1 Pt u0 p0 c0
+1 X  u0 p0 c0
 2 N  u0 p1 c0 {3,S} {4,S} {5,S}
 3 H  u0 p0 c0 {2,S}
 4 H  u0 p0 c0 {2,S}
@@ -297,7 +299,7 @@ entry(
     label = "NH2_ads",
     molecule =
 """
-1 Pt u0 p0 c0 {2,S}
+1 X  u0 p0 c0 {2,S}
 2 N  u0 p1 c0 {1,S} {3,S} {4,S}
 3 H  u0 p0 c0 {2,S}
 4 H  u0 p0 c0 {2,S}
@@ -321,7 +323,7 @@ entry(
     label = "NH_ads",
     molecule =
 """
-1 Pt u0 p0 c0 {2,D}
+1 X  u0 p0 c0 {2,D}
 2 N  u0 p1 c0 {1,D} {3,S}
 3 H  u0 p0 c0 {2,S}
 """,
@@ -344,7 +346,7 @@ entry(
     label = "N_ads",
     molecule =
 """
-1 Pt u0 p0 c0 {2,T}
+1 X  u0 p0 c0 {2,T}
 2 N  u0 p1 c0 {1,T}
 """,
     thermo = NASA(
@@ -366,7 +368,7 @@ entry(
     label = "H2N-OH_ads",
     molecule =
 """
-1 Pt u0 p0 c0
+1 X  u0 p0 c0
 2 N  u0 p1 c0 {3,S} {4,S} {5,S}
 3 O  u0 p2 c0 {2,S} {6,S}
 4 H  u0 p0 c0 {2,S}
@@ -393,7 +395,7 @@ entry(
     label = "HN-O_ads",
     molecule =
 """
-1 Pt u0 p0 c0
+1 X  u0 p0 c0
 2 N  u0 p1 c0 {3,D} {4,S}
 3 O  u0 p2 c0 {2,D}
 4 H  u0 p0 c0 {2,S}
@@ -418,7 +420,7 @@ entry(
     label = "HN-OH_ads",
     molecule =
 """
-1 Pt u0 p0 c0 {2,S}
+1 X  u0 p0 c0 {2,S}
 2 N  u0 p1 c0 {1,S} {3,S} {4,S}
 3 O  u0 p2 c0 {2,S} {5,S}
 4 H  u0 p0 c0 {2,S}
@@ -443,7 +445,7 @@ entry(
     label = "NO_ads",
     molecule =
 """
-1 Pt u0 p0 c0 {2,S}
+1 X  u0 p0 c0 {2,S}
 2 N  u0 p1 c0 {1,S} {3,D}
 3 O  u0 p2 c0 {2,D}
 """,
@@ -466,8 +468,8 @@ entry(
     label = "NO-h_ads",
     molecule =
 """
-1 Pt u0 p0 c0 {3,D}
-2 Pt u0 p0 c0 {4,S}
+1 X  u0 p0 c0 {3,D}
+2 X  u0 p0 c0 {4,S}
 3 N  u0 p1 c0 {1,D} {4,S}
 4 O  u0 p2 c0 {2,S} {3,S}
 """,
@@ -490,7 +492,7 @@ entry(
     label = "NOH_ads",
     molecule =
 """
-1 Pt u0 p0 c0 {2,D}
+1 X  u0 p0 c0 {2,D}
 2 N  u0 p1 c0 {1,D} {3,S}
 3 O  u0 p2 c0 {2,S} {4,S}
 4 H  u0 p0 c0 {3,S}
@@ -514,7 +516,7 @@ entry(
     label = "H2N-NH2_ads",
     molecule =
 """
-1 Pt u0 p0 c0
+1 X  u0 p0 c0
 2 N  u0 p1 c0 {3,S} {4,S} {5,S}
 3 N  u0 p1 c0 {2,S} {6,S} {7,S}
 4 H  u0 p0 c0 {2,S}
@@ -542,7 +544,7 @@ entry(
     label = "HN-NH_ads",
     molecule =
 """
-1 Pt u0 p0 c0
+1 X  u0 p0 c0
 2 N  u0 p1 c0 {3,D} {4,S}
 3 N  u0 p1 c0 {2,D} {5,S}
 4 H  u0 p0 c0 {2,S}
@@ -567,7 +569,7 @@ entry(
     label = "NN_ads",
     molecule =
 """
-1 Pt u0 p0 c0 
+1 X  u0 p0 c0 
 2 N  u0 p1 c0 {3,T}
 3 N  u0 p1 c0 {2,T}
 """,
@@ -591,7 +593,7 @@ entry(
     label = "HN-NH2_ads",
     molecule =
 """
-1 Pt u0 p0 c0 {2,S}
+1 X  u0 p0 c0 {2,S}
 2 N  u0 p1 c0 {1,S} {3,S} {4,S}
 3 N  u0 p1 c0 {2,S} {5,S} {6,S}
 4 H  u0 p0 c0 {2,S}
@@ -617,7 +619,7 @@ entry(
     label = "N-NH_ads",
     molecule =
 """
-1 Pt u0 p0 c0 {2,S}
+1 X  u0 p0 c0 {2,S}
 2 N  u0 p1 c0 {1,S} {3,D}
 3 N  u0 p1 c0 {2,D} {4,S}
 4 H  u0 p0 c0 {3,S}
@@ -641,7 +643,7 @@ entry(
     label = "N-NH2_ads",
     molecule =
 """
-1 Pt u0 p0 c0 {2,D}
+1 X  u0 p0 c0 {2,D}
 2 N  u0 p1 c0 {1,D} {3,S}
 3 N  u0 p1 c0 {2,S} {4,S} {5,S}
 4 H  u0 p0 c0 {3,S}
@@ -666,8 +668,8 @@ entry(
     label = "HN-NH-h_ads",
     molecule =
 """
-1 Pt u0 p0 c0 {3,S}
-2 Pt u0 p0 c0 {4,S}
+1 X  u0 p0 c0 {3,S}
+2 X  u0 p0 c0 {4,S}
 3 N  u0 p1 c0 {1,S} {4,S} {5,S}
 4 N  u0 p1 c0 {2,S} {3,S} {6,S}
 5 H  u0 p0 c0 {3,S}
@@ -692,8 +694,8 @@ entry(
     label = "HN-N-h_ads",
     molecule =
 """
-1 Pt u0 p0 c0 {3,S}
-2 Pt u0 p0 c0 {4,D}
+1 X  u0 p0 c0 {3,S}
+2 X  u0 p0 c0 {4,D}
 3 N  u0 p1 c0 {1,S} {4,S} {5,S}
 4 N  u0 p1 c0 {2,D} {3,S}
 5 H  u0 p0 c0 {3,S}
@@ -717,7 +719,7 @@ entry(
     label = "HN-CH3_ads",
     molecule =
 """
-1 Pt u0 p0 c0 {3,S}
+1 X  u0 p0 c0 {3,S}
 2 C  u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
 3 N  u0 p1 c0 {1,S} {2,S} {7,S}
 4 H  u0 p0 c0 {2,S}
@@ -744,7 +746,7 @@ entry(
     label = "N-CH2_ads",
     molecule =
 """
-1 Pt u0 p0 c0 {3,S}
+1 X  u0 p0 c0 {3,S}
 2 C  u0 p0 c0 {3,D} {4,S} {5,S}
 3 N  u0 p1 c0 {1,S} {2,D}
 4 H  u0 p0 c0 {2,S}
@@ -769,7 +771,7 @@ entry(
     label = "N-CH3_ads",
     molecule =
 """
-1 Pt u0 p0 c0 {3,D}
+1 X  u0 p0 c0 {3,D}
 2 C  u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
 3 N  u0 p1 c0 {1,D} {2,S}
 4 H  u0 p0 c0 {2,S}
@@ -795,7 +797,7 @@ entry(
 #     label = "ON-O_ads",
 #     molecule =
 # """
-# 1 Pt u0  p0 c0 {2,S}
+# 1 X  u0  p0 c0 {2,S}
 # 2 N  u0  p0 c+1 {1,S} {3,S} {4,D}
 # 3 O  u0  p2 c-1 {2,S}
 # 4 O  u0  p2 c0 {2,D}
@@ -824,7 +826,7 @@ entry(
     label = "C_ads",
     molecule =
 """
-1 Pt u0 p0 c0 {2,Q}
+1 X  u0 p0 c0 {2,Q}
 2 C  u0 p0 c0 {1,Q}
 """,
     thermo = NASA(
@@ -846,8 +848,8 @@ entry(
     label = "C-C_ads",
     molecule =
 """
-1 Pt u0  p0 c0 {3,D}
-2 Pt u0  p0 c0 {4,D}
+1 X  u0  p0 c0 {3,D}
+2 X  u0  p0 c0 {4,D}
 3 C  u0  p0 c0 {1,D} {4,D}
 4 C  u0  p0 c0 {2,D} {3,D}
 """,
@@ -870,7 +872,7 @@ entry(
     label = "C-CH2_ads",
     molecule =
 """
-1 Pt u0  p0 c0 {2,D}
+1 X  u0  p0 c0 {2,D}
 2 C  u0  p0 c0 {1,D} {3,D}
 3 C  u0  p0 c0 {2,D} {4,S} {5,S}
 4 H  u0  p0 c0 {3,S}
@@ -895,7 +897,7 @@ entry(
     label = "C-CH3_ads",
     molecule =
 """
-1 Pt u0 p0 c0 {3,T}
+1 X  u0 p0 c0 {3,T}
 2 C  u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
 3 C  u0 p0 c0 {1,T} {2,S}
 4 H  u0 p0 c0 {2,S}
@@ -921,7 +923,7 @@ entry(
     label = "CH_ads",
     molecule =
 """
-1 Pt u0 p0 c0 {2,T}
+1 X  u0 p0 c0 {2,T}
 2 C  u0 p0 c0 {1,T} {3,S}
 3 H  u0 p0 c0 {2,S}
 """,
@@ -944,8 +946,8 @@ entry(
     label = "CH-CH_ads",
     molecule =
 """
-1 Pt u0 p0 c0 {3,D}
-2 Pt u0 p0 c0 {4,D}
+1 X  u0 p0 c0 {3,D}
+2 X  u0 p0 c0 {4,D}
 3 C  u0 p0 c0 {1,D} {4,S} {5,S}
 4 C  u0 p0 c0 {2,D} {3,S} {6,S}
 5 H  u0 p0 c0 {3,S}
@@ -970,7 +972,7 @@ entry(
     label = "CH-CH-vdw_ads",
     molecule =
 """
-1 Pt u0 p0 c0
+1 X  u0 p0 c0
 2 C  u0 p0 c0 {3,T} {4,S}
 3 C  u0 p0 c0 {2,T} {5,S}
 4 H  u0 p0 c0 {2,S}
@@ -996,7 +998,7 @@ entry(
     label = "CH2_ads",
     molecule =
 """
-1 Pt u0 p0 c0 {2,D}
+1 X  u0 p0 c0 {2,D}
 2 C  u0 p0 c0 {1,D} {3,S} {4,S}
 3 H  u0 p0 c0 {2,S}
 4 H  u0 p0 c0 {2,S}
@@ -1020,8 +1022,8 @@ entry(
     label = "CH2-CH2_ads",
     molecule =
 """
-1 Pt u0 p0 c0 {3,S}
-2 Pt u0 p0 c0 {4,S}
+1 X  u0 p0 c0 {3,S}
+2 X  u0 p0 c0 {4,S}
 3 C  u0 p0 c0 {1,S} {4,S} {5,S} {6,S}
 4 C  u0 p0 c0 {2,S} {3,S} {7,S} {8,S}
 5 H  u0 p0 c0 {3,S}
@@ -1048,7 +1050,7 @@ entry(
     label = "CH3_ads",
     molecule =
 """
-1 Pt u0 p0 c0 {2,S}
+1 X  u0 p0 c0 {2,S}
 2 C  u0 p0 c0 {1,S} {3,S} {4,S} {5,S}
 3 H  u0 p0 c0 {2,S}
 4 H  u0 p0 c0 {2,S}
@@ -1073,7 +1075,7 @@ entry(
     label = "CH3-CH3_ads",
     molecule =
 """
-1 Pt u0 p0 c0
+1 X  u0 p0 c0
 2 C  u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
 3 C  u0 p0 c0 {2,S} {7,S} {8,S} {9,S}
 4 H  u0 p0 c0 {2,S}
@@ -1103,7 +1105,7 @@ entry(
     label = "CH4_ads",
     molecule =
 """
-1 Pt u0 p0 c0
+1 X  u0 p0 c0
 2 C  u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
 3 H  u0 p0 c0 {2,S}
 4 H  u0 p0 c0 {2,S}
@@ -1130,8 +1132,8 @@ entry(
     label = "CN_ads",
     molecule =
 """
-1 Pt u0  p0 c0 {3,D}
-2 Pt u0  p0 c0 {4,S}
+1 X  u0  p0 c0 {3,D}
+2 X  u0  p0 c0 {4,S}
 3 C  u0  p0 c0 {1,D} {4,D}
 4 N  u0  p1 c0 {2,S} {3,D}
 """,
@@ -1154,7 +1156,7 @@ entry(
     label = "CNH_ads",
     molecule =
 """
-1 Pt u0  p0 c0 {2,D}
+1 X  u0  p0 c0 {2,D}
 2 C  u0  p0 c0 {1,D} {3,D}
 3 N  u0  p1 c0 {2,D} {4,S}
 4 H  u0  p0 c0 {3,S}
@@ -1178,7 +1180,7 @@ entry(
     label = "CNH2_ads",
     molecule =
 """
-1 Pt u0 p0 c0 {2,T}
+1 X  u0 p0 c0 {2,T}
 2 C  u0 p0 c0 {1,T} {3,S}
 3 N  u0 p1 c0 {2,S} {4,S} {5,S}
 4 H  u0 p0 c0 {3,S}
@@ -1203,7 +1205,7 @@ entry(
     label = "CO-f_ads",
     molecule =
 """
-1 Pt u0  p0 c0 {2,D}
+1 X  u0  p0 c0 {2,D}
 2 C  u0  p0 c0 {1,D} {3,D}
 3 O  u0  p2 c0 {2,D}
 """,
@@ -1226,7 +1228,7 @@ entry(
     label = "COH_ads",
     molecule =
 """
-1 Pt u0 p0 c0 {2,T}
+1 X  u0 p0 c0 {2,T}
 2 C  u0 p0 c0 {1,T} {3,S}
 3 O  u0 p2 c0 {2,S} {4,S}
 4 H  u0 p0 c0 {3,S}
@@ -1250,8 +1252,8 @@ entry(
     label = "H2C-CH_ads",
     molecule =
 """
-1 Pt u0 p0 c0 {3,S}
-2 Pt u0 p0 c0 {4,D}
+1 X  u0 p0 c0 {3,S}
+2 X  u0 p0 c0 {4,D}
 3 C  u0 p0 c0 {1,S} {4,S} {5,S} {6,S}
 4 C  u0 p0 c0 {2,D} {3,S} {7,S}
 5 H  u0 p0 c0 {3,S}
@@ -1277,7 +1279,7 @@ entry(
     label = "H2C-CH3_ads",
     molecule =
 """
-1 Pt u0 p0 c0 {2,S}
+1 X  u0 p0 c0 {2,S}
 2 C  u0 p0 c0 {1,S} {3,S} {4,S} {5,S}
 3 C  u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
 4 H  u0 p0 c0 {2,S}
@@ -1305,7 +1307,7 @@ entry(
     label = "H2C-NH_ads",
     molecule =
 """
-1 Pt u0 p0 c0
+1 X  u0 p0 c0
 2 C  u0 p0 c0 {3,D} {4,S} {5,S}
 3 N  u0 p1 c0 {2,D} {6,S}
 4 H  u0 p0 c0 {2,S}
@@ -1332,7 +1334,7 @@ entry(
     label = "H2C-NH2_ads",
     molecule =
 """
-1 Pt u0 p0 c0 {2,S}
+1 X  u0 p0 c0 {2,S}
 2 C  u0 p0 c0 {1,S} {3,S} {4,S} {5,S}
 3 N  u0 p1 c0 {2,S} {6,S} {7,S}
 4 H  u0 p0 c0 {2,S}
@@ -1359,7 +1361,7 @@ entry(
     label = "H2C-O_ads",
     molecule =
 """
-1 Pt u0 p0 c0
+1 X  u0 p0 c0
 2 C  u0 p0 c0 {3,D} {4,S} {5,S}
 3 O  u0 p2 c0 {2,D}
 4 H  u0 p0 c0 {2,S}
@@ -1384,7 +1386,7 @@ entry(
     label = "H2C-OH_ads",
     molecule =
 """
-1 Pt u0 p0 c0 {2,S}
+1 X  u0 p0 c0 {2,S}
 2 C  u0 p0 c0 {1,S} {3,S} {4,S} {5,S}
 3 O  u0 p2 c0 {2,S} {6,S}
 4 H  u0 p0 c0 {2,S}
@@ -1410,8 +1412,8 @@ entry(
     label = "H2CN-h_ads",
     molecule =
 """
-1 Pt u0 p0 c0 {3,S}
-2 Pt u0 p0 c0 {4,D}
+1 X  u0 p0 c0 {3,S}
+2 X  u0 p0 c0 {4,D}
 3 C  u0 p0 c0 {1,S} {4,S} {5,S} {6,S}
 4 N  u0 p1 c0 {2,D} {3,S}
 5 H  u0 p0 c0 {3,S}
@@ -1436,8 +1438,8 @@ entry(
     label = "H2CNH-h_ads",
     molecule =
 """
-1 Pt u0 p0 c0 {3,S}
-2 Pt u0 p0 c0 {4,S}
+1 X  u0 p0 c0 {3,S}
+2 X  u0 p0 c0 {4,S}
 3 C  u0 p0 c0 {1,S} {4,S} {5,S} {6,S}
 4 N  u0 p1 c0 {2,S} {3,S} {7,S}
 5 H  u0 p0 c0 {3,S}
@@ -1463,7 +1465,7 @@ entry(
     label = "H3C-NH2_ads",
     molecule =
 """
-1 Pt u0 p0 c0
+1 X  u0 p0 c0
 2 C  u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
 3 N  u0 p1 c0 {2,S} {7,S} {8,S}
 4 H  u0 p0 c0 {2,S}
@@ -1492,7 +1494,7 @@ entry(
     label = "H3C-OH_ads",
     molecule =
 """
-1 Pt u0 p0 c0
+1 X  u0 p0 c0
 2 C  u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
 3 O  u0 p2 c0 {2,S} {7,S}
 4 H  u0 p0 c0 {2,S}
@@ -1520,8 +1522,8 @@ entry(
     label = "HC-C_ads",
     molecule =
 """
-1 Pt u0  p0 c0 {3,S}
-2 Pt u0  p0 c0 {4,D}
+1 X  u0  p0 c0 {3,S}
+2 X  u0  p0 c0 {4,D}
 3 C  u0  p0 c0 {1,S} {4,D} {5,S}
 4 C  u0  p0 c0 {2,D} {3,D}
 5 H  u0  p0 c0 {3,S}
@@ -1546,7 +1548,7 @@ entry(
 #    label = "HC-CH2_ads",
 #    molecule =
 #"""
-#1 Pt u0  p0 c0 {2,S}
+#1 X  u0  p0 c0 {2,S}
 #2 C  u0  p0 c0 {1,S} {3,D} {4,S}
 #3 C  u0  p0 c0 {2,D} {5,S} {6,S}
 #4 H  u0  p0 c0 {2,S}
@@ -1576,7 +1578,7 @@ entry(
     label = "HC-CH3_ads",
     molecule =
 """
-1 Pt u0 p0 c0 {3,D}
+1 X  u0 p0 c0 {3,D}
 2 C  u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
 3 C  u0 p0 c0 {1,D} {2,S} {7,S}
 4 H  u0 p0 c0 {2,S}
@@ -1603,7 +1605,7 @@ entry(
     label = "HCN_ads",
     molecule =
 """
-1 Pt u0  p0 c0
+1 X  u0  p0 c0
 2 C  u0  p0 c0 {3,T} {4,S}
 3 N  u0  p1 c0 {2,T}
 4 H  u0  p0 c0 {2,S}
@@ -1628,8 +1630,8 @@ entry(
     label = "HCN-h_ads",
     molecule =
 """
-1 Pt u0 p0 c0 {3,D}
-2 Pt u0 p0 c0 {4,D}
+1 X  u0 p0 c0 {3,D}
+2 X  u0 p0 c0 {4,D}
 3 C  u0 p0 c0 {1,D} {4,S} {5,S}
 4 N  u0 p1 c0 {2,D} {3,S}
 5 H  u0 p0 c0 {3,S}
@@ -1653,7 +1655,7 @@ entry(
     label = "HCNH_ads",
     molecule =
 """
-1 Pt u0  p0 c0 {2,S}
+1 X  u0  p0 c0 {2,S}
 2 C  u0  p0 c0 {1,S} {3,D} {4,S}
 3 N  u0  p1 c0 {2,D} {5,S}
 4 H  u0  p0 c0 {2,S}
@@ -1678,8 +1680,8 @@ entry(
     label = "HCNH-h_ads",
     molecule =
 """
-1 Pt u0 p0 c0 {3,D}
-2 Pt u0 p0 c0 {4,S}
+1 X  u0 p0 c0 {3,D}
+2 X  u0 p0 c0 {4,S}
 3 C  u0 p0 c0 {1,D} {4,S} {5,S}
 4 N  u0 p1 c0 {2,S} {3,S} {6,S}
 5 H  u0 p0 c0 {3,S}
@@ -1704,7 +1706,7 @@ entry(
     label = "HCNH2_ads",
     molecule =
 """
-1 Pt u0 p0 c0 {2,D}
+1 X  u0 p0 c0 {2,D}
 2 C  u0 p0 c0 {1,D} {3,S} {4,S}
 3 N  u0 p1 c0 {2,S} {5,S} {6,S}
 4 H  u0 p0 c0 {2,S}
@@ -1730,7 +1732,7 @@ entry(
     label = "HCO_ads",
     molecule =
 """
-1 Pt u0  p0 c0 {2,S}
+1 X  u0  p0 c0 {2,S}
 2 C  u0  p0 c0 {1,S} {3,D} {4,S}
 3 O  u0  p2 c0 {2,D}
 4 H  u0  p0 c0 {2,S}
@@ -1754,8 +1756,8 @@ entry(
     label = "HCO-h_ads",
     molecule =
 """
-1 Pt u0 p0 c0 {3,D}
-2 Pt u0 p0 c0 {4,S}
+1 X  u0 p0 c0 {3,D}
+2 X  u0 p0 c0 {4,S}
 3 C  u0 p0 c0 {1,D} {4,S} {5,S}
 4 O  u0 p2 c0 {2,S} {3,S}
 5 H  u0 p0 c0 {3,S}
@@ -1779,7 +1781,7 @@ entry(
     label = "HCOH_ads",
     molecule =
 """
-1 Pt u0 p0 c0 {2,D}
+1 X  u0 p0 c0 {2,D}
 2 C  u0 p0 c0 {1,D} {3,S} {4,S}
 3 O  u0 p2 c0 {2,S} {5,S}
 4 H  u0 p0 c0 {2,S}
@@ -1804,8 +1806,8 @@ entry(
     label = "H2CO-h_ads",
     molecule = 
 """
-1 Pt u0 p0 c0 {3,S}
-2 Pt u0 p0 c0 {4,S}
+1 X  u0 p0 c0 {3,S}
+2 X  u0 p0 c0 {4,S}
 3 C  u0 p0 c0 {1,S} {4,S} {5,S} {6,S}
 4 O  u0 p2 c0 {2,S} {3,S}
 5 H  u0 p0 c0 {3,S}

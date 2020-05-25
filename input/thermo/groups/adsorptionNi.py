@@ -2,6 +2,7 @@
 # encoding: utf-8
 
 name = "Surface Adsorption Corrections"
+metal = "Ni"
 shortDesc = u""
 longDesc = u"""
 Changes due to adsorbing on a surface.
