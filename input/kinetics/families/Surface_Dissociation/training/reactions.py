@@ -140,7 +140,7 @@ metal = 'Ni'
 
 entry(
     index = 18,
-    label = "CHNi_3 + HNi_5 <=> CH2X_1 + Ni_4",
+    label = "CHNi_3 + HNi_5 <=> CH2Ni_1 + Ni_4",
     degeneracy = 2,
     kinetics = SurfaceArrhenius(
         A=(9.77E20, 'm^2/(mol*s)'),
