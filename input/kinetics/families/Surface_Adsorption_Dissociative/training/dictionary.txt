@@ -1,24 +1,48 @@
 Ni_3
-1 *3 Ni u0 p0 c0
+metal Ni
+1 *3 X u0 p0 c0
 
 Ni_4
-1 *4 Ni u0 p0 c0
+metal Ni
+1 *4 X u0 p0 c0
+
+Pt_3
+metal Pt
+1 *3 X u0 p0 c0
+
+Pt_4
+metal Pt
+1 *4 X u0 p0 c0
 
 H2
 1 *1 H u0 p0 c0 {2,S}
 2 *2 H u0 p0 c0 {1,S}
 
 HX_3
+metal Ni
 1 *1 H u0 p0 {2,S}
-2 *3 Ni u0 p0 {1,S}
+2 *3 X u0 p0 {1,S}
 
 HX_4
+metal Ni
 1 *2 H u0 p0 {2,S}
-2 *4 Ni u0 p0 {1,S}
+2 *4 X u0 p0 {1,S}
+
+HPt_3
+metal Pt
+1 *1 H u0 p0 {2,S}
+2 *3 X u0 p0 {1,S}
+
+HPt_4
+metal Pt
+1 *2 H u0 p0 {2,S}
+2 *4 X u0 p0 {1,S}
+
 
 HOX_1
+metal Ni
 1 *1 O u0 p2 c0 {2,S} {3,S}
-2 *3 Ni u0 p0 c0 {1,S}
+2 *3 X u0 p0 c0 {1,S}
 3    H u0 p0 c0 {1,S}
 
 H2O

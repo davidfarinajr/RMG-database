@@ -10,7 +10,7 @@ training set for generating rate rules to populate this kinetics family.
 
 entry(
     index = 7,
-    label = "NH3_X + Cu4 <=> NH2_X + H*",
+    label = "NH3_Ni + Ni4 <=> NH2_Ni + HNi",
     degeneracy = 3,
     kinetics = SurfaceArrhenius(
         A = (5.723e22, 'cm^2/(mol*s)'),

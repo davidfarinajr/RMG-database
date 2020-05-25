@@ -5,6 +5,12 @@ HCO*
 4 *3 Cu u0 p0 c0 {2,S}
 
 H*
+metal Cu
+1 *2 H u0 p0 c0 {2,S}
+2 *4 Cu u0 p0 c0 {1,S}
+
+HNi
+metal Ni
 1 *2 H u0 p0 c0 {2,S}
 2 *4 Cu u0 p0 c0 {1,S}
 
@@ -16,7 +22,12 @@ CH2O*
 5 *3 Cu u0 p0 c0
 
 Cu4
+metal Cu
 1 *4 Cu u0 p0 c0
+
+Ni4
+metal Ni
+1 *4 X u0 p0 c0
 
 H2O*
 1 *1 O u0 p2 c0 {2,S} {3,S}
@@ -91,13 +102,15 @@ CH3OH_1*
 7 *3 Cu u0 p0 c0
 
 NH3_X
+metal Ni
 1 *1 N u0 p1 c0 {2,S} {3,S} {4,S}
 2 *2 H u0 p0 c0 {1,S}
 3    H u0 p0 c0 {1,S}
 4    H u0 p0 c0 {1,S}
 5 *3 Cu u0 p0 c0
 
-NH2_X
+NH2_Ni
+metal Ni
 1 *1 N u0 p1 c0 {2,S} {3,S} {4,S}
 2    H u0 p0 c0 {1,S}
 3    H u0 p0 c0 {1,S}

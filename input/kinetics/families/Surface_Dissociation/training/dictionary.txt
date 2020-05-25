@@ -1,82 +1,169 @@
-CH2X_3
+CH2Ni_3
+metal Ni
 1 *1 C u0 p0 {2,S} {3,S} {4,D}
 2    H u0 p0 {1,S}
 3    H u0 p0 {1,S}
 4 *3 X u0 p0 {1,D}
 
 Ni_4
+metal Ni
 1 *4 X u0 p0 c0
 
-CH3X_1
+Pt_4
+metal Pt
+1 *4 X u0 p0 c0
+
+Cu_4
+metal Cu
+1 *4 X u0 p0 c0
+
+CH3Ni_1
+metal Ni
 1 *1 C u0 p0 {2,S} {3,S} {4,S} {5,S}
 2 *2 H u0 p0 {1,S}
 3    H u0 p0 {1,S}
 4    H u0 p0 {1,S}
 5 *3 X u0 p0 {1,S}
 
-HX_5
+HCu_5
+metal Cu
 1 *2 H u0 p0 {2,S}
 2 *4 X u0 p0 {1,S}
 
-CHX_3
+HNi_5
+metal Ni
+1 *2 H u0 p0 {2,S}
+2 *4 X u0 p0 {1,S}
+
+CHNi_3
+metal Ni
 1 *1 C u0 p0 {2,S} {3,T}
 2    H u0 p0 {1,S}
 3 *3 X u0 p0 {1,T}
 
-CH2X_1
+CH2Ni_1
+metal Ni
 1 *1 C u0 p0 {2,S} {3,S} {4,D}
 2 *2 H u0 p0 {1,S}
 3    H u0 p0 {1,S}
 4 *3 X u0 p0 {1,D}
 
-HOX_1
+HONi_1
+metal Cu
 1 *1 O u0 p2 {2,S} {3,S}
 2 *2 H u0 p0 {1,S}
 3 *3 X u0 p0 {1,S}
 
-OX_3
+HOCu_1
+metal Cu
+1 *1 O u0 p2 {2,S} {3,S}
+2 *2 H u0 p0 {1,S}
+3 *3 X u0 p0 {1,S}
+
+ONi_3
+metal Ni
 1 *1 X u0 p0 c0 {2,D}
 2 *3 O u0 p2 c0 {1,D}
 
-HOCXO_1
+OCu_3
+metal Cu
+1 *1 X u0 p0 c0 {2,D}
+2 *3 O u0 p2 c0 {1,D}
+
+HOCPtO_1
+metal Pt
 1 *1 C u0 p0 {2,D} {3,S} {5,S}
 2    O u0 p2 {1,D}
 3 *2 O u0 p2 {1,S} {4,S}
 4    H u0 p0 {3,S}
 5 *3 X u0 p0 {1,S}
 
-OCX_3
+HOCCuO_1
+metal Cu
+1 *1 C u0 p0 {2,D} {3,S} {5,S}
+2    O u0 p2 {1,D}
+3 *2 O u0 p2 {1,S} {4,S}
+4    H u0 p0 {3,S}
+5 *3 X u0 p0 {1,S}
+
+HOCNiO_1
+metal Ni
+1 *1 C u0 p0 {2,D} {3,S} {5,S}
+2    O u0 p2 {1,D}
+3 *2 O u0 p2 {1,S} {4,S}
+4    H u0 p0 {3,S}
+5 *3 X u0 p0 {1,S}
+
+OCPt_3
+metal Pt
 1 *1 C u0 p0 {2,D} {3,D}
 2    O u0 p2 {1,D}
 3 *3 X u0 p0 {1,D}
 
-HOX_5
+OCCu_3
+metal Cu
+1 *1 C u0 p0 {2,D} {3,D}
+2    O u0 p2 {1,D}
+3 *3 X u0 p0 {1,D}
+
+OCNi_3
+metal Ni
+1 *1 C u0 p0 {2,D} {3,D}
+2    O u0 p2 {1,D}
+3 *3 X u0 p0 {1,D}
+
+HOPt_5
+metal Pt
 1 *2 O u0 p2 {2,S} {3,S}
 2    H u0 p0 {1,S}
 3 *4 X u0 p0 {1,S}
 
-CXHO_1
+HOCu_5
+metal Cu
+1 *2 O u0 p2 {2,S} {3,S}
+2    H u0 p0 {1,S}
+3 *4 X u0 p0 {1,S}
+
+HONi_5
+metal Ni
+1 *2 O u0 p2 {2,S} {3,S}
+2    H u0 p0 {1,S}
+3 *4 X u0 p0 {1,S}
+
+CCuHO_1
+metal Cu
 1 *1 C u0 p0 {2,D} {3,S} {4,S}
 2    O u0 p2 {1,D}
 3 *2 H u0 p0 {1,S}
 4 *3 X u0 p0 {1,S}
 
-CHX_1
+CNiHO_1
+metal Ni
+1 *1 C u0 p0 {2,D} {3,S} {4,S}
+2    O u0 p2 {1,D}
+3 *2 H u0 p0 {1,S}
+4 *3 X u0 p0 {1,S}
+
+CHNi_1
+metal Ni
 1 *1 C u0 p0 {2,S} {3,T}
 2 *2 H u0 p0 {1,S}
 3 *3 X u0 p0 {1,T}
 
-CX_3
+CNi_3
+metal Ni
 1 *1 C u0 p0 {2,Q}
 2 *3 X u0 p0 {1,Q}
 
 HCO*
+metal Cu
 1    O u0 p2 c0 {2,D}
 2 *2 C u0 p0 c0 {1,D} {3,S} {4,S}
 3    H u0 p0 c0 {2,S}
 4 *4 X u0 p0 c0 {2,S}
 
 HCOO*
+metal Cu
 1 *1 O u0 p2 c0 {3,S} {5,S}
 2    O u0 p2 c0 {3,D}
 3 *2 C u0 p0 c0 {1,S} {2,D} {4,S}
@@ -84,6 +171,7 @@ HCOO*
 5 *3 X u0 p0 c0 {1,S}
 
 HCOH*
+metal Cu
 1    O u0 p2 c0 {2,S} {4,S}
 2 *1 C u0 p0 c0 {1,S} {3,S} {5,D}
 3    H u0 p0 c0 {2,S}
@@ -91,6 +179,7 @@ HCOH*
 5 *3 X u0 p0 c0 {2,D}
 
 CH2OH*
+metal Cu
 1    O u0 p2 c0 {2,S} {5,S}
 2 *1 C u0 p0 c0 {1,S} {3,S} {4,S} {6,S}
 3 *2 H u0 p0 c0 {2,S}
@@ -99,6 +188,7 @@ CH2OH*
 6 *3 X u0 p0 c0 {2,S}
 
 CH2OH*_2
+metal Cu
 1    O u0 p2 c0 {2,S} {5,S}
 2 *2 C u0 p0 c0 {1,S} {3,S} {4,S} {6,S}
 3    H u0 p0 c0 {2,S}
@@ -107,6 +197,7 @@ CH2OH*_2
 6 *4 X u0 p0 c0 {2,S}
 
 CH3O2*
+metal Cu
 1    O u0 p2 c0 {3,S} {6,S}
 2 *1 O u0 p2 c0 {3,S} {7,S}
 3 *2 C u0 p0 c0 {1,S} {2,S} {4,S} {5,S}
@@ -115,22 +206,26 @@ CH3O2*
 6    H u0 p0 c0 {1,S}
 7 *3 X u0 p0 c0 {2,S}
 
-NH2_X
+NH2_Ni
+metal Ni
 1 *1 N u0 p1 c0 {2,S} {3,S} {4,S}
 2 *2 H u0 p0 c0 {1,S}
 3    H u0 p0 c0 {1,S}
 4 *3 X u0 p0 c0 {1,S}
 
-NHX_1
+NHNi_1
+metal Ni
 1 *1 N u0 p1 c0 {2,D} {3,S}
 2 *3 X u0 p0 c0 {1,D}
 3    H u0 p0 c0 {1,S}
 
-NHX_2
+NHNi_2
+metal Ni
 1 *1 N u0 p1 c0 {2,D} {3,S}
 2 *3 X u0 p0 c0 {1,D}
 3 *2 H u0 p0 c0 {1,S}
 
-NX
+NNi
+metal Ni
 1 *1 N u0 p1 c0 {2,T}
 2 *3 X u0 p0 c0 {1,T}

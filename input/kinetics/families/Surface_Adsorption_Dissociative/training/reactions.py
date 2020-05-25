@@ -30,7 +30,7 @@ Catalysts, 2015, 5, 871-904
 
 entry(
    index = 2,
-   label = "H2 + Ni_3 + Ni_4 <=> HX_3 + HX_4",
+   label = "H2 + Pt_3 + Pt_4 <=> HPt_3 + HPt_4",
    degeneracy = 2,
    kinetics = StickingCoefficient(
        A = 0.046,
