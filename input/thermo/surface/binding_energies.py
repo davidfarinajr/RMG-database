@@ -409,16 +409,6 @@ entry(
 )
 
 entry(
-     index = 24,
-     label = "Cu",
-     bindingEnergies = "Cu211",
-     shortDesc = u"",
-     longDesc = u"""
-
-     """,
-)
-
-entry(
      index = 25,
      label = "Ru",
      bindingEnergies = "Ru0001",
