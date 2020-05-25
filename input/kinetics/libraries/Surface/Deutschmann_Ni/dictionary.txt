@@ -1,5 +1,6 @@
 
 Ni
+metal Ni
 1 X u0 p0 c0
 
 O2
@@ -59,11 +60,13 @@ CH3OH
 
 
 OX
+metal Ni
 1 X u0 p0 c0 {2,D}
 2 O u0 p2 c0 {1,D}
 
 
 CH3X
+metal Ni
 1 C u0 p0 {2,S} {3,S} {4,S} {5,S}
 2 H u0 p0 {1,S}
 3 H u0 p0 {1,S}
@@ -71,37 +74,44 @@ CH3X
 5 X u0 p0 {1,S}
 
 CH2X
+metal Ni
 1 C u0 p0 {2,S} {3,S} {4,D}
 2 H u0 p0 {1,S}
 3 H u0 p0 {1,S}
 4 X u0 p0 {1,D}
 
 CHX
+metal Ni
 1 C u0 p0 {2,S} {3,T}
 2 H u0 p0 {1,S}
 3 X u0 p0 {1,T}
 
 CX
+metal Ni
 1 C u0 p0 {2,Q}
 2 X u0 p0 {1,Q}
 
 HX
+metal Ni
 1 H u0 p0 {2,S}
 2 X u0 p0 {1,S}
 
 
 HOX
+metal Ni
 1 O u0 p2 {2,S} {3,S}
 2 H u0 p0 {1,S}
 3 X u0 p0 {1,S}
 
 
 OCX
+metal Ni
 1 C u0 p0 {2,D} {3,D}
 2 O u0 p2 {1,D} 
 3 X u0 p0 {1,D} 
 
 OCXOX
+metal Ni
 1 C u0 p0 {2,D} {3,S} {4,S}
 2 O u0 p2 {1,D}
 3 X u0 p0 {1,S}
@@ -109,6 +119,7 @@ OCXOX
 5 X u0 p0 {4,S}
 
 HOCXO
+metal Ni
 1 C u0 p0 {2,D} {3,S} {5,S}
 2 O u0 p2 {1,D}
 3 O u0 p2 {1,S} {4,S}
@@ -116,6 +127,7 @@ HOCXO
 5 X u0 p0 {1,S}
 
 CXHO
+metal Ni
 1 C u0 p0 {2,D} {3,S} {4,S}
 2 O u0 p2 {1,D}
 3 H u0 p0 {1,S}

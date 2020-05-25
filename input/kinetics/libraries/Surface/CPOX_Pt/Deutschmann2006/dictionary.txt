@@ -1,12 +1,11 @@
-
 Pt
+metal Pt
 1 X u0 p0 c0
 
 O2
 multiplicity 3
 1 O u1 p2 c0 {2,S}
 2 O u1 p2 c0 {1,S}
-
 
 CH4
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -28,6 +27,7 @@ H2O
 
 
 H2OX
+metal Pt
 1 X u0 p0 c0
 2 O u0 p2 c0 {3,S} {4,S}
 3 H u0 p0 c0 {2,S}
@@ -46,6 +46,7 @@ CO2
 
 
 CO2X
+metal Pt
 1 X u0 p0 c0
 2 C u0 p0 c0 {3,D} {4,D}
 3 O u0 p2 c0 {2,D}
@@ -53,11 +54,12 @@ CO2X
 
 
 OX
+metal Pt
 1 X u0 p0 c0 {2,D}
 2 O u0 p2 c0 {1,D}
 
-
 CH3X
+metal Pt
 1 C u0 p0 {2,S} {3,S} {4,S} {5,S}
 2 H u0 p0 {1,S}
 3 H u0 p0 {1,S}
@@ -65,34 +67,37 @@ CH3X
 5 X u0 p0 {1,S}
 
 CH2X
+metal Pt
 1 C u0 p0 {2,S} {3,S} {4,D}
 2 H u0 p0 {1,S}
 3 H u0 p0 {1,S}
 4 X u0 p0 {1,D}
 
 CHX
+metal Pt
 1 C u0 p0 {2,S} {3,T}
 2 H u0 p0 {1,S}
 3 X u0 p0 {1,T}
 
 CX
+metal Pt
 1 C u0 p0 {2,Q}
 2 X u0 p0 {1,Q}
 
 HX
+metal Pt
 1 H u0 p0 {2,S}
 2 X u0 p0 {1,S}
 
-
 HOX
+metal Pt
 1 O u0 p2 {2,S} {3,S}
 2 H u0 p0 {1,S}
 3 X u0 p0 {1,S}
 
 
 OCX
+metal Pt
 1 C u0 p0 {2,D} {3,D}
 2 O u0 p2 {1,D} 
 3 X u0 p0 {1,D} 
-
-
