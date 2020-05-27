@@ -24,7 +24,7 @@ reactantNum=2
 productNum=2
 
 recipe(actions=[
-    ['FORM_BOND', '*1', 1, '*2'],
+    ['CHANGE_BOND', '*1', 1, '*2'],
     ['CHANGE_BOND', '*2', -1, '*3'],
     ['FORM_BOND', '*3', 1, '*4'],
     ['BREAK_BOND', '*4', 1, '*5'],
@@ -36,8 +36,8 @@ entry(
     group =
 """
 multiplicity [1]
-1 *1 Xv  u0 p0 c0
-2 *2 R!H ux px cx {3,[D,T]}
+1 *1 Xv  u0 p0 c0 {2,vdW}
+2 *2 R!H ux px cx {3,[D,T]} {1,vdW}
 3 *3 R!H ux px cx {2,[D,T]}
 """,
     kinetics = None,
@@ -116,8 +116,8 @@ entry(
     group =
 """
 multiplicity [1]
-1 *1 Xv  u0 p0 c0
-2 *2 O   ux px cx {3,D}
+1 *1 Xv  u0 p0 c0 {2,vdW}
+2 *2 O   ux px cx {3,D} {1,vdW}
 3 *3 R!H ux px cx {2,D}
 """,
     kinetics = None,
@@ -129,8 +129,8 @@ entry(
     group =
 """
 multiplicity [1]
-1 *1 Xv  u0 p0 c0
-2 *2 C   ux px cx {3,[D,T]}
+1 *1 Xv  u0 p0 c0 {2,vdW}
+2 *2 C   ux px cx {3,[D,T]} {1,vdW}
 3 *3 R!H ux px cx {2,[D,T]}
 """,
     kinetics = None,
@@ -142,8 +142,8 @@ entry(
     group =
 """
 multiplicity [1]
-1 *1 Xv u0 p0 c0
-2 *2 O  ux p2 cx {3,D}
+1 *1 Xv u0 p0 c0 {2,vdW}
+2 *2 O  ux p2 cx {3,D} {1,vdW}
 3 *3 C  ux px cx {2,D}
 """,
     kinetics = None,
@@ -155,8 +155,8 @@ entry(
     group =
 """
 multiplicity [1]
-1 *1 Xv u0 p0 c0
-2 *2 O  u0 p2 c0 {3,D}
+1 *1 Xv u0 p0 c0 {2,vdW}
+2 *2 O  u0 p2 c0 {3,D} {1,vdW}
 3 *3 O  u0 p2 c0 {2,D}
 """,
     kinetics = None,
@@ -168,8 +168,8 @@ entry(
     group =
 """
 multiplicity [1]
-1 *1 Xv u0 p0 c0
-2 *2 C  u0 p0 c0 {3,D}
+1 *1 Xv u0 p0 c0 {2,vdW}
+2 *2 C  u0 p0 c0 {3,D} {1,vdW}
 3 *3 O  u0 p2 c0 {2,D}
 """,
     kinetics = None,
@@ -181,8 +181,8 @@ entry(
     group =
 """
 multiplicity [1]
-1 *1 Xv u0 p0 c0
-2 *2 C  u0 p0 c0 {3,D} {4,D}
+1 *1 Xv u0 p0 c0 {2,vdW}
+2 *2 C  u0 p0 c0 {3,D} {4,D} {1,vdW}
 3 *3 O  u0 p2 c0 {2,D}
 4    O  u0 p2 c0 {2,D}
 """,
@@ -195,8 +195,8 @@ entry(
     group =
 """
 multiplicity [1]
-1 *1 Xv u0 p0 c0
-2 *2 O  u0 p2 c0 {3,D}
+1 *1 Xv u0 p0 c0 {2,vdW}
+2 *2 O  u0 p2 c0 {3,D} {1,vdW}
 3 *3 N  ux px cx {2,D}
 """,
     kinetics = None,
@@ -208,8 +208,8 @@ entry(
     group =
 """
 multiplicity [1]
-1 *1 Xv u0 p0 c0
-2 *2 O  u0 p2 c0 {3,D}
+1 *1 Xv u0 p0 c0 {2,vdW}
+2 *2 O  u0 p2 c0 {3,D} {1,vdW}
 3 *3 N  u0 p1 c0 {2,D} {4,S}
 4    O  u0 p2 c0 {3,S} {5,S}
 5    H  u0 p0 c0 {4,S}
@@ -223,8 +223,8 @@ entry(
     group =
 """
 multiplicity [1]
-1 *1 Xv u0 p0 c0
-2 *2 O  u0 p2 c0 {3,D}
+1 *1 Xv u0 p0 c0 {2,vdW}
+2 *2 O  u0 p2 c0 {3,D} {1,vdW}
 3 *3 N  u0 p1 c0 {2,D} {4,S}
 4    O  u0 p2 c0 {3,S} {5,S}
 5    R  u0 p0 c0 {4,S}
@@ -238,8 +238,8 @@ entry(
     group =
 """
 multiplicity [1]
-1 *1 Xv u0 p0 c0
-2 *2 O  u0 p2 c0 {3,D}
+1 *1 Xv u0 p0 c0 {2,vdW}
+2 *2 O  u0 p2 c0 {3,D} {1,vdW}
 3 *3 N  u0 p1 c0 {2,D} {4,S}
 4    R  ux px cx {3,S}
 """,
@@ -252,8 +252,8 @@ entry(
     group =
 """
 multiplicity [1]
-1 *1 Xv u0 p0 c0
-2 *2 C  u0 p0 c0 {3,[D,T]}
+1 *1 Xv u0 p0 c0 {2,vdW}
+2 *2 C  u0 p0 c0 {3,[D,T]} {1,vdW}
 3 *3 C  u0 p0 c0 {2,[D,T]}
 """,
     kinetics = None,
@@ -265,8 +265,8 @@ entry(
     group =
 """
 multiplicity [1]
-1 *1 Xv u0 p0 c0
-2 *2 C  u0 p0 c0 {3,D}
+1 *1 Xv u0 p0 c0 {2,vdW}
+2 *2 C  u0 p0 c0 {3,D} {1,vdW}
 3 *3 C  u0 p0 c0 {2,D}
 """,
     kinetics = None,
@@ -278,8 +278,8 @@ entry(
     group =
 """
 multiplicity [1]
-1 *1 Xv u0 p0 c0
-2 *2 C  u0 p0 c0 {3,T}
+1 *1 Xv u0 p0 c0 {2,vdW}
+2 *2 C  u0 p0 c0 {3,T} {1,vdW}
 3 *3 C  u0 p0 c0 {2,T}
 """,
     kinetics = None,
@@ -291,8 +291,8 @@ entry(
     group =
 """
 multiplicity [1]
-1 *1 Xv u0 p0 c0
-2 *2 C  ux px cx {3,[D,T]}
+1 *1 Xv u0 p0 c0 {2,vdW}
+2 *2 C  ux px cx {3,[D,T]} {1,vdW}
 3 *3 N  ux px cx {2,[D,T]}
 """,
     kinetics = None,
@@ -304,8 +304,8 @@ entry(
     group =
 """
 multiplicity [1]
-1 *1 Xv u0 p0 c0
-2 *2 C  u0 p0 c0 {3,D}
+1 *1 Xv u0 p0 c0 {2,vdW}
+2 *2 C  u0 p0 c0 {3,D} {1,vdW}
 3 *3 N  u0 px cx {2,D}
 """,
     kinetics = None,
@@ -317,8 +317,8 @@ entry(
     group =
 """
 multiplicity [1]
-1 *1 Xv u0 p0 c0
-2 *2 C  u0 px cx {3,T}
+1 *1 Xv u0 p0 c0 {2,vdW}
+2 *2 C  u0 px cx {3,T} {1,vdW}
 3 *3 N  ux px cx {2,T}
 """,
     kinetics = None,
@@ -330,8 +330,8 @@ entry(
     group =
 """
 multiplicity [1]
-1 *1 Xv u0 p0 c0
-2 *2 C  u0 p0 c0 {3,D}
+1 *1 Xv u0 p0 c0 {2,vdW}
+2 *2 C  u0 p0 c0 {3,D} {1,vdW}
 3 *3 N  u0 px c0 {2,D} {4,S}
 4    R  u0 px c0 {3,S}
 """,
@@ -344,8 +344,8 @@ entry(
     group =
 """
 multiplicity [1]
-1 *1 Xv u0 p0 c0
-2 *2 C  u0 p0 c0 {3,T} {4,S}
+1 *1 Xv u0 p0 c0 {2,vdW}
+2 *2 C  u0 p0 c0 {3,T} {4,S} {1,vdW}
 3 *3 N  u0 p1 c0 {2,T}
 4    R  u0 p0 c0 {2,S}
 """,
@@ -358,8 +358,8 @@ entry(
     group =
 """
 multiplicity [1]
-1 *1 Xv  u0 p0 c0
-2 *2 N   ux px cx {3,[D,T]}
+1 *1 Xv  u0 p0 c0 {2,vdW}
+2 *2 N   ux px cx {3,[D,T]} {1,vdW}
 3 *3 R!H ux px cx {2,[D,T]}
 """,
     kinetics = None,
@@ -371,8 +371,8 @@ entry(
     group =
 """
 multiplicity [1]
-1 *1 Xv u0 p0 c0
-2 *2 N  ux px cx {3,D}
+1 *1 Xv u0 p0 c0 {2,vdW}
+2 *2 N  ux px cx {3,D} {1,vdW}
 3 *3 O  u0 p2 c0 {2,D}
 """,
     kinetics = None,
@@ -384,8 +384,8 @@ entry(
     group =
 """
 multiplicity [1]
-1 *1 Xv u0 p0 c0
-2 *2 N  ux px cx {3,[D,T]}
+1 *1 Xv u0 p0 c0 {2,vdW}
+2 *2 N  ux px cx {3,[D,T]} {1,vdW}
 3 *3 C  ux px cx {2,[D,T]}
 """,
     kinetics = None,
@@ -397,8 +397,8 @@ entry(
     group =
 """
 multiplicity [1]
-1 *1 Xv u0 p0 c0
-2 *2 N  ux px cx {3,D}
+1 *1 Xv u0 p0 c0 {2,vdW}
+2 *2 N  ux px cx {3,D} {1,vdW}
 3 *3 C  ux px cx {2,D}
 """,
     kinetics = None,
@@ -410,8 +410,8 @@ entry(
     group =
 """
 multiplicity [1]
-1 *1 Xv u0 p0 c0
-2 *2 N  ux px cx {3,T}
+1 *1 Xv u0 p0 c0 {2,vdW}
+2 *2 N  ux px cx {3,T} {1,vdW}
 3 *3 C  ux px cx {2,T}
 """,
     kinetics = None,
@@ -423,9 +423,9 @@ entry(
     group =
 """
 multiplicity [1]
-1 *1 Xv u0 p0 c0
+1 *1 Xv u0 p0 c0 {3,vdW}
 2 *3 C  u0 p0 c0 {3,D}
-3 *2 N  u0 px c0 {2,D} {4,S}
+3 *2 N  u0 px c0 {2,D} {4,S} {1,vdW}
 4    R  u0 px c0 {3,S}
 """,
     kinetics = None,
@@ -437,9 +437,9 @@ entry(
     group =
 """
 multiplicity [1]
-1 *1 Xv u0 p0 c0
+1 *1 Xv u0 p0 c0 {3,vdW}
 2 *3 C  u0 p0 c0 {3,T} {4,S}
-3 *2 N  u0 p1 c0 {2,T}
+3 *2 N  u0 p1 c0 {2,T} {1,vdW}
 4    R  u0 p0 c0 {2,S}
 """,
     kinetics = None,
@@ -451,9 +451,9 @@ entry(
     group =
 """
 multiplicity [1]
-1 *1 Xv u0 p0 c0
+1 *1 Xv u0 p0 c0 {3,vdW}
 2 *3 O  u0 p2 c0 {3,D}
-3 *2 N  u0 p1 c0 {2,D} {4,S}
+3 *2 N  u0 p1 c0 {2,D} {4,S} {1,vdW}
 4    O  u0 p2 c0 {3,S} {5,S}
 5    H  u0 p0 c0 {4,S}
 """,
@@ -466,9 +466,9 @@ entry(
     group =
 """
 multiplicity [1]
-1 *1 Xv u0 p0 c0
+1 *1 Xv u0 p0 c0 {3,vdW}
 2 *3 O  u0 p2 c0 {3,D}
-3 *2 N  u0 p1 c0 {2,D} {4,S}
+3 *2 N  u0 p1 c0 {2,D} {4,S} {1,vdW}
 4    O  u0 p2 c0 {3,S} {5,S}
 5    R  u0 p0 c0 {4,S}
 """,
@@ -481,9 +481,9 @@ entry(
     group =
 """
 multiplicity [1]
-1 *1 Xv u0 p0 c0
+1 *1 Xv u0 p0 c0 {3,vdW}
 2 *3 O  u0 p2 c0 {3,D}
-3 *2 N  u0 p1 c0 {2,D} {4,S}
+3 *2 N  u0 p1 c0 {2,D} {4,S} {1,vdW}
 4    R  ux px cx {3,S}
 """,
     kinetics = None,
@@ -496,9 +496,9 @@ entry(
 """
 multiplicity [1]
 1    O  u0 p2 c0 {3,D}
-2 *2 O  u0 p2 c0 {3,D}
+2 *2 O  u0 p2 c0 {3,D} {4,vdW}
 3 *3 C  u0 p0 c0 {1,D} {2,D}
-4 *1 Xv u0 p0 c0
+4 *1 Xv u0 p0 c0 {2,vdW}
 """,
     kinetics = None,
 )
@@ -509,8 +509,8 @@ entry(
     group =
 """
 multiplicity [1]
-1 *1 Xv u0 p0 c0
-2 *2 O  u0 p2 c0 {3,D}
+1 *1 Xv u0 p0 c0 {2,vdW}
+2 *2 O  u0 p2 c0 {3,D} {1,vdW}
 3 *3 N  u0 p1 c0 {2,D} {4,S}
 4    H  u0 p0 c0 {3,S}
 """,
@@ -523,9 +523,9 @@ entry(
     group =
 """
 multiplicity [1]
-1 *1 Xv u0 p0 c0
+1 *1 Xv u0 p0 c0 {3,vdW}
 2 *3 O  u0 p2 c0 {3,D}
-3 *2 C  u0 p0 c0 {2,D} {4,S} {5,S}
+3 *2 C  u0 p0 c0 {2,D} {4,S} {5,S} {1,vdW}
 4    R  ux px cx {3,S}
 5    R  ux px cx {3,S}
 """,
@@ -538,9 +538,9 @@ entry(
     group =
 """
 multiplicity [1]
-1 *1 Xv  u0 p0 c0
+1 *1 Xv  u0 p0 c0 {3,vdW}
 2 *3 O   u0 p2 c0 {3,D}
-3 *2 C   u0 p0 c0 {2,D} {4,D}
+3 *2 C   u0 p0 c0 {2,D} {4,D} {1,vdW}
 4    R!H ux px cx {3,D}
 """,
     kinetics = None,
@@ -552,8 +552,8 @@ entry(
     group =
 """
 multiplicity [1]
-1 *1 Xv u0 p0 c0
-2 *2 N  ux px cx {3,[D,T]}
+1 *1 Xv u0 p0 c0 {2,vdW}
+2 *2 N  ux px cx {3,[D,T]} {1,vdW}
 3 *3 N  ux px cx {2,[D,T]}
 """,
     kinetics = None,
@@ -565,8 +565,8 @@ entry(
     group =
 """
 multiplicity [1]
-1 *1 Xv u0 p0 c0
-2 *2 N  ux px cx {3,D}
+1 *1 Xv u0 p0 c0 {2,vdW}
+2 *2 N  ux px cx {3,D} {1,vdW}
 3 *3 N  ux px cx {2,D}
 """,
     kinetics = None,
@@ -578,8 +578,8 @@ entry(
     group =
 """
 multiplicity [1]
-1 *1 Xv u0 p0 c0
-2 *2 N  u0 p1 c0 {3,T}
+1 *1 Xv u0 p0 c0 {2,vdW}
+2 *2 N  u0 p1 c0 {3,T} {1,vdW}
 3 *3 N  u0 p1 c0 {2,T}
 """,
     kinetics = None,
@@ -633,17 +633,17 @@ L1: Adsorbate1
 """
 )
 
-forbidden(
-    label = "chargedBond",
-    group =
-"""
-1 *2 R!H ux c[+1,-1] {2,[S,D,T]}
-2 *3 R!H ux c[+1,-1] {1,[S,D,T]}
-3 *1 Xv  u0 p0 c0
-""",
-    shortDesc = u"""""",
-    longDesc =
-u"""
-The adsorbing molecule should not have a charge on the surface.
-""",
-)
+# forbidden(
+#     label = "chargedBond",
+#     group =
+# """
+# 1 *2 R!H ux c[+1,-1] {2,[S,D,T]}
+# 2 *3 R!H ux c[+1,-1] {1,[S,D,T]}
+# 3 *1 Xv  u0 p0 c0
+# """,
+#     shortDesc = u"""""",
+#     longDesc =
+# u"""
+# The adsorbing molecule should not have a charge on the surface.
+# """,
+# )

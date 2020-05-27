@@ -18,10 +18,10 @@ metal Ni
 CH2O*
 metal Cu
 1    O u0 p2 c0 {2,D}
-2 *1 C u0 p0 c0 {1,D} {3,S} {4,S}
+2 *1 C u0 p0 c0 {1,D} {3,S} {4,S} {5,vdW}
 3    H u0 p0 c0 {2,S}
 4 *2 H u0 p0 c0 {2,S}
-5 *3 X u0 p0 c0
+5 *3 X u0 p0 c0 {2,vdW}
 
 Cu4
 metal Cu
@@ -33,10 +33,10 @@ metal Ni
 
 H2O*
 metal Cu
-1 *1 O u0 p2 c0 {2,S} {3,S}
+1 *1 O u0 p2 c0 {2,S} {3,S} {4,vdW}
 2    H u0 p0 c0 {1,S}
 3 *2 H u0 p0 c0 {1,S}
-4 *3 X u0 p0 c0
+4 *3 X u0 p0 c0 {1,vdW}
 
 OH*
 metal Cu
@@ -56,10 +56,10 @@ HCOOH*
 metal Cu
 1    O u0 p2 c0 {3,S} {5,S}
 2    O u0 p2 c0 {3,D}
-3 *1 C u0 p0 c0 {1,S} {2,D} {4,S}
+3 *1 C u0 p0 c0 {1,S} {2,D} {4,S} {6,vdW}
 4 *2 H u0 p0 c0 {3,S}
 5    H u0 p0 c0 {1,S}
-6 *3 X u0 p0 c0
+6 *3 X u0 p0 c0 {3,vdW}
 
 
 HCOO*
@@ -72,21 +72,21 @@ metal Cu
 
 HCOOH_1*
 metal Cu
-1 *1 O u0 p2 c0 {3,S} {5,S}
+1 *1 O u0 p2 c0 {3,S} {5,S} {6,vdW}
 2    O u0 p2 c0 {3,D}
 3    C u0 p0 c0 {1,S} {2,D} {4,S}
 4    H u0 p0 c0 {3,S}
 5 *2 H u0 p0 c0 {1,S}
-6 *3 X u0 p0 c0
+6 *3 X u0 p0 c0 {1,vdW}
 
 HCOOH_2*
 metal Cu
 1 *2 O u0 p2 c0 {3,S} {5,S}
 2    O u0 p2 c0 {3,D}
-3 *1 C u0 p0 c0 {1,S} {2,D} {4,S}
+3 *1 C u0 p0 c0 {1,S} {2,D} {4,S} {6,vdW}
 4    H u0 p0 c0 {3,S}
 5    H u0 p0 c0 {1,S}
-6 *3 X u0 p0 c0
+6 *3 X u0 p0 c0 {3,vdW}
 
 OH_2*
 metal Cu
@@ -106,20 +106,20 @@ metal Cu
 CH3OH_1*
 metal Cu
 1    O u0 p2 c0 {2,S} {6,S}
-2 *1 C u0 p0 c0 {1,S} {3,S} {4,S} {5,S}
+2 *1 C u0 p0 c0 {1,S} {3,S} {4,S} {5,S} {7,vdW}
 3 *2 H u0 p0 c0 {2,S}
 4    H u0 p0 c0 {2,S}
 5    H u0 p0 c0 {2,S}
 6    H u0 p0 c0 {1,S}
-7 *3 X u0 p0 c0
+7 *3 X u0 p0 c0 {2,vdW}
 
 NH3_Ni
 metal Ni
-1 *1 N u0 p1 c0 {2,S} {3,S} {4,S}
+1 *1 N u0 p1 c0 {2,S} {3,S} {4,S} {5,vdW}
 2 *2 H u0 p0 c0 {1,S}
 3    H u0 p0 c0 {1,S}
 4    H u0 p0 c0 {1,S}
-5 *3 X u0 p0 c0
+5 *3 X u0 p0 c0 {1,vdW}
 
 NH2_Ni
 metal Ni
@@ -139,10 +139,10 @@ metal Cu
 
 CH3OH_2*
 metal Cu
-1 *1 O u0 p2 c0 {2,S} {6,S}
+1 *1 O u0 p2 c0 {2,S} {6,S} {7,vdW}
 2    C u0 p0 c0 {1,S} {3,S} {4,S} {5,S}
 3    H u0 p0 c0 {2,S}
 4    H u0 p0 c0 {2,S}
 5    H u0 p0 c0 {2,S}
 6 *2 H u0 p0 c0 {1,S}
-7 *3 X u0 p0 c0
+7 *3 X u0 p0 c0 {1,vdW}

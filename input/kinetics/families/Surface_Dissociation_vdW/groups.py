@@ -24,7 +24,7 @@ reactantNum=2
 productNum=2
 
 recipe(actions=[
-    ['FORM_BOND', '*1', 1, '*3'],
+    ['CHANGE_BOND', '*1', 1, '*3'],
     ['FORM_BOND', '*2', 1, '*4'],
     ['BREAK_BOND', '*1', 1, '*2'],
 ])
@@ -35,9 +35,9 @@ entry(
     group =
 """
 multiplicity [1]
-1 *1 R!H ux px cx {2,S}
+1 *1 R!H ux px cx {2,S} {3,vdW}
 2 *2 R   ux px cx {1,S}
-3 *3 Xv  u0 p0 c0
+3 *3 Xv  u0 p0 c0 {1,vdW}
 """,
     kinetics = None,
 )
@@ -58,9 +58,9 @@ entry(
     group =
 """
 multiplicity [1]
-1 *1 R!H ux px cx {2,S}
+1 *1 R!H ux px cx {2,S} {3,vdW}
 2 *2 H   u0 p0 c0 {1,S}
-3 *3 Xv  u0 p0 c0
+3 *3 Xv  u0 p0 c0 {1,vdW}
 """,
     kinetics = None,
 )
@@ -71,9 +71,9 @@ entry(
     group =
 """
 multiplicity [1]
-1 *1 C  ux px cx {2,S}
+1 *1 C  ux px cx {2,S} {3,vdW}
 2 *2 H  u0 p0 c0 {1,S}
-3 *3 Xv u0 p0 c0
+3 *3 Xv u0 p0 c0 {1,vdW}
 """,
     kinetics = None,
 )
@@ -84,9 +84,9 @@ entry(
     group =
 """
 multiplicity [1]
-1 *1 O  ux px cx {2,S}
+1 *1 O  ux px cx {2,S} {3,vdW}
 2 *2 H  u0 p0 c0 {1,S}
-3 *3 Xv u0 p0 c0
+3 *3 Xv u0 p0 c0 {1,vdW}
 """,
     kinetics = None,
 )
@@ -97,9 +97,9 @@ entry(
     group =
 """
 multiplicity [1]
-1 *1 N  ux px cx {2,S}
+1 *1 N  ux px cx {2,S} {3,vdW}
 2 *2 H  u0 p0 c0 {1,S}
-3 *3 Xv u0 p0 c0
+3 *3 Xv u0 p0 c0 {1,vdW}
 """,
     kinetics = None,
 )

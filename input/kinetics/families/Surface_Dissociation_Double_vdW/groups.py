@@ -25,7 +25,7 @@ reactantNum=2
 productNum=2
 
 recipe(actions=[
-    ['FORM_BOND', '*1', 1, '*2'],
+    ['CHANGE_BOND', '*1', 1, '*2'],
     ['CHANGE_BOND', '*1', 1, '*2'],
     ['CHANGE_BOND', '*2', -1, '*3'],
     ['BREAK_BOND', '*2', 1, '*3'],
@@ -39,8 +39,8 @@ entry(
     group =
 """
 multiplicity [1]
-1 *1 Xv  ux px cx
-2 *2 R!H ux px cx {3,D}
+1 *1 Xv  ux px cx {2,vdW}
+2 *2 R!H ux px cx {3,D} {1,vdW}
 3 *3 R!H ux px cx {2,D}
 """,
     kinetics = None,
@@ -74,9 +74,9 @@ entry(
     group =
 """
 multiplicity [1]
-1 *1 Xv u0 p0 c0
+1 *1 Xv u0 p0 c0 {3,vdW}
 2 *3 C  u0 p0 c0 {3,D}
-3 *2 O  u0 p2 c0 {2,D}
+3 *2 O  u0 p2 c0 {2,D} {1,vdW}
 """,
     kinetics = None,
 )
@@ -88,9 +88,9 @@ entry(
 """
 multiplicity [1]
 1    O  u0 p2 c0 {3,D}
-2 *2 O  u0 p2 c0 {3,D}
+2 *2 O  u0 p2 c0 {3,D} {4,vdW}
 3 *3 C  u0 p0 c0 {1,D} {2,D}
-4 *1 Xv u0 p0 c0
+4 *1 Xv u0 p0 c0 {2,vdW}
 """,
     kinetics = None,
 )
@@ -101,8 +101,8 @@ entry(
     group =
 """
 multiplicity [1]
-1 *1 Xv u0 p0 c0
-2 *2 N  u0 p1 c0 {3,D}
+1 *1 Xv u0 p0 c0 {2,vdW}
+2 *2 N  u0 p1 c0 {3,D} {1,vdW}
 3 *3 C  u0 p0 c0 {2,D}
 """,
     kinetics = None,
@@ -114,9 +114,9 @@ entry(
     group =
 """
 multiplicity [1]
-1 *1 Xv u0 p0 c0
+1 *1 Xv u0 p0 c0 {3,vdW}
 2 *3 N  u0 px cx {3,D}
-3 *2 O  u0 p2 c0 {2,D}
+3 *2 O  u0 p2 c0 {2,D} {1,vdW}
 """,
     kinetics = None,
 )
@@ -127,9 +127,9 @@ entry(
     group =
 """
 multiplicity [1]
-1 *1 Xv u0 p0 c0
+1 *1 Xv u0 p0 c0 {3,vdW}
 2 *3 N  u0 p1 c0 {3,D} {4,S}
-3 *2 O  u0 p2 c0 {2,D}
+3 *2 O  u0 p2 c0 {2,D} {1,vdW}
 4    R  u0 px c0 {2,S}
 """,
     kinetics = None,
@@ -189,17 +189,17 @@ Any CN should not match *2 and *3 respectively because of duplicate reactions
 """,
 )
 
-forbidden(
-    label = "chargedBond",
-    group =
-"""
-1 *2 R!H ux c[+1,-1] {2,[S,D,T]}
-2 *3 R!H ux c[+1,-1] {1,[S,D,T]}
-3 *1 Xv  u0 p0 c0
-""",
-    shortDesc = u"""""",
-    longDesc =
-u"""
-The adsorbing molecule should not have a charge on the surface.
-""",
-)
+# forbidden(
+#     label = "chargedBond",
+#     group =
+# """
+# 1 *2 R!H ux c[+1,-1] {2,[S,D,T]}
+# 2 *3 R!H ux c[+1,-1] {1,[S,D,T]}
+# 3 *1 Xv  u0 p0 c0
+# """,
+#     shortDesc = u"""""",
+#     longDesc =
+# u"""
+# The adsorbing molecule should not have a charge on the surface.
+# """,
+# )

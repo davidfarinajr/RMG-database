@@ -12,10 +12,10 @@ metal Cu
 
 H2O*
 metal Cu
-1 *2 O u0 p2 c0 {2,S} {3,S}
+1 *2 O u0 p2 c0 {2,S} {3,S} {4,vdW}
 2 *3 H u0 p0 c0 {1,S}
 3    H u0 p0 c0 {1,S}
-4 *1 X u0 p0 c0
+4 *1 X u0 p0 c0 {1,vdW}
 
 O*
 metal Cu
@@ -45,12 +45,12 @@ metal Cu
 
 HCOOH*
 metal Cu
-1 *2 O u0 p2 c0 {3,S} {5,S}
+1 *2 O u0 p2 c0 {3,S} {5,S} {6,vdW}
 2    O u0 p2 c0 {3,D}
 3    C u0 p0 c0 {1,S} {2,D} {4,S}
 4    H u0 p0 c0 {3,S}
 5 *3 H u0 p0 c0 {1,S}
-6 *1 X u0 p0 c0
+6 *1 X u0 p0 c0 {1,vdW}
 
 CH3O*
 metal Cu
@@ -63,25 +63,25 @@ metal Cu
 
 CH3OH*
 metal Cu
-1 *2 O u0 p2 c0 {2,S} {6,S}
+1 *2 O u0 p2 c0 {2,S} {6,S} {7,vdW}
 2    C u0 p0 c0 {1,S} {3,S} {4,S} {5,S}
 3    H u0 p0 c0 {2,S}
 4    H u0 p0 c0 {2,S}
 5    H u0 p0 c0 {2,S}
 6 *3 H u0 p0 c0 {1,S}
-7 *1 X u0 p0 c0
+7 *1 X u0 p0 c0 {1,vdW}
 
 HCOOCH3*
 metal Cu
 1    O u0 p2 c0 {2,D}
 2 *3 C u0 p0 c0 {1,D} {3,S} {5,S}
-3 *2 O u0 p2 c0 {2,S} {4,S}
+3 *2 O u0 p2 c0 {2,S} {4,S} {9,vdW}
 4    C u0 p0 c0 {3,S} {6,S} {7,S} {8,S}
 5    H u0 p0 c0 {2,S}
 6    H u0 p0 c0 {4,S}
 7    H u0 p0 c0 {4,S}
 8    H u0 p0 c0 {4,S}
-9 *1 X u0 p0 c0
+9 *1 X u0 p0 c0 {3,vdW}
 
 HCOO_5*
 metal Cu
