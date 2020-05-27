@@ -19,7 +19,8 @@ entry(
         Tmax = (3000, 'K'),
     ),
     shortDesc = u"""Deutschmann_Pt""",
-    longDesc = u"""R6.Deutschmann_Pt."""
+    longDesc = u"""R6.Deutschmann_Pt.""",
+    rank = 10
 )
 
 entry(
@@ -33,5 +34,6 @@ entry(
         Tmax = (3000, 'K'),
     ),
     shortDesc = u"""Default""",
-    longDesc = u"""R7. Deutschmann_Pt."""
+    longDesc = u"""R7. Deutschmann_Pt.""",
+    rank = 10
 )
