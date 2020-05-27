@@ -32,7 +32,7 @@ entry(
     group =
 """
 multiplicity [1]
-1 *1 R u0 p[1,2,3] cx
+1 *1 R u0 px cx
 """,
     kinetics = None,
 )
@@ -43,7 +43,7 @@ entry(
     group =
 """
 multiplicity [1]
-1 *1 O u0 p[1,2,3] cx
+1 *1 O u0
 """,
     kinetics = None,
 )
@@ -142,8 +142,8 @@ tree(
 """
 L1: Adsorbate
     L2: O
-        L3: Os
         L3: Od
+        L3: Os
     L2: N
         L3: N3s
         L3: N3d

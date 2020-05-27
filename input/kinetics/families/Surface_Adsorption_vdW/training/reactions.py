@@ -11,7 +11,7 @@ training set for generating rate rules to populate this kinetics family.
 entry(
     index = 1,
     label = "H2O + Pt <=> H2OX",
-    kinetics = StickingCoefficientBEP(
+    kinetics = StickingCoefficient(
         A = 7.5E-1,
         n = 0,
         Ea=(0, 'J/mol'),
@@ -25,7 +25,7 @@ entry(
 entry(
     index = 2,
     label = "CO2 + Pt <=> CO2X",
-    kinetics = StickingCoefficientBEP(
+    kinetics = StickingCoefficient(
         A = 5.0E-3,
         n = 0,
         Ea=(0, 'J/mol'),

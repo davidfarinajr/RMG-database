@@ -29,18 +29,3 @@ entry(
     metal = Pt
     """
 )
-
-entry(
-    index = 2,
-    label = "CO + Pt <=> OCX",
-    kinetics = StickingCoefficient(
-        A = 8.4E-1,
-        n = 0,
-        Ea=(0, 'J/mol'),
-        Tmin = (200, 'K'),
-        Tmax = (3000, 'K'),
-    ),
-    shortDesc=u"""Deutschmann_Pt""",
-    longDesc=u"""Deutschmann_Pt"""
-)
-
