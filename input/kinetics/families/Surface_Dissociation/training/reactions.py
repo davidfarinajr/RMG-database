@@ -29,7 +29,7 @@ entry(
 )
 
 entry(
-    index = 4,
+    index = 2,
     label = "HOCNiO_1 + Ni_4 <=> OCNi_3 + HONi_5",
     degeneracy = 1,
     kinetics = SurfaceArrhenius(
@@ -51,7 +51,7 @@ metal = 'Ni'
 )
 
 entry(
-    index = 10,
+    index = 3,
     label = "OCCu_3 + HOCu_5 <=> HOCCuO_1 + Cu_4",
     degeneracy = 1,
     kinetics = SurfaceArrhenius(
@@ -73,7 +73,7 @@ A factor from paper / surface site density of Cu
 )
 
 entry(
-    index = 9,
+    index = 4,
     label = "NH2_Ni + Ni_4 <=> NHNi_1 + HNi_5",
     degeneracy = 2,
     kinetics = SurfaceArrhenius(
@@ -95,7 +95,50 @@ entry(
 )
 
 entry(
-    index = 11,
+    index = 5,
+    label = "NH2_Pt + Pt111 <=> NH_Pt + HPt_5",
+    degeneracy = 2,
+    kinetics = SurfaceArrhenius(
+        A = (1.2415e+18, 'm^2/(mol*s)'),
+        n = 0,
+        Ea = (110, 'kJ/mol'),
+        Tmin = (200, 'K'),
+        Tmax = (3000, 'K'),
+    ),
+    rank = 10,
+    shortDesc = u"""NH2 Surface Dissociation on Pt""",
+    longDesc = u"""
+    "Ammonia activation on platinum {1 1 1}: A density functional theory study"
+    https://doi.org/10.1016/j.susc.2006.01.031
+
+    A factor from paper / surface site density of Pt
+    5e12 1/s / 2.483e-05 mol/m^2 = 1.2415e+18 m^2/(mol*s)
+    """
+)
+
+entry(
+    index = 6,
+    label = "NHPt_2 + Pt111 <=> NPt + HPt_5",
+    kinetics = SurfaceArrhenius(
+        A = (1.78776e+18, 'm^2/(mol*s)'),
+        n = 0,
+        Ea = (118.0, 'kJ/mol'),
+        Tmin = (200, 'K'),
+        Tmax = (3000, 'K'),
+    ),
+    rank = 10,
+    shortDesc = u"""NH Surface Dissociation Pt""",
+    longDesc = u"""
+    "Ammonia activation on platinum {1 1 1}: A density functional theory study"
+    https://doi.org/10.1016/j.susc.2006.01.031
+
+    A factor from paper / surface site density of Pt
+    7.2e12 1/s / 2.483e-05 mol/m^2 = 1.78776e+18 m^2/(mol*s)
+    """
+)
+
+entry(
+    index = 7,
     label = "NHNi_2 + Ni_4 <=> NNi + HNi_5",
     kinetics = SurfaceArrhenius(
         A = (6.213e19, 'cm^2/(mol*s)'),
@@ -116,7 +159,7 @@ entry(
 )
 
 entry(
-    index = 16,
+    index = 8,
     label = "CH2Ni_3 + HNi_5 <=> CH3Ni_1 + Ni_4",
     degeneracy = 3,
     kinetics = SurfaceArrhenius(
@@ -139,7 +182,7 @@ metal = 'Ni'
 
 
 entry(
-    index = 18,
+    index = 9,
     label = "CHNi_3 + HNi_5 <=> CH2Ni_1 + Ni_4",
     degeneracy = 2,
     kinetics = SurfaceArrhenius(
@@ -184,7 +227,7 @@ metal = 'Ni'
 #)
 
 entry(
-    index = 20,
+    index = 10,
     label = "CNi_3 + HNi_5 <=> CHNi_1 + Ni_4",
     degeneracy = 1,
     kinetics = SurfaceArrhenius(
@@ -206,7 +249,7 @@ metal = 'Ni'
 )
 
 entry(
-    index = 28,
+    index = 11,
     label = "HCOO* + Cu_4 <=> HCO* + OCu_3",
     degeneracy = 1,
     kinetics = SurfaceArrhenius(
@@ -228,7 +271,7 @@ A factor from paper / surface site density of Cu
 )
 
 entry(
-    index = 31,
+    index = 12,
     label = "HCOH* + HCu_5 <=> CH2OH* + Cu_4",
     degeneracy = 1,
     kinetics = SurfaceArrhenius(
@@ -250,7 +293,7 @@ A factor from paper / surface site density of Cu
 )
 
 entry(
-    index = 32,
+    index = 13,
     label = "HONi_1 + Ni_4 <=> ONi_3 + HNi_5",
     degeneracy = 1,
     kinetics = SurfaceArrhenius(
@@ -272,7 +315,7 @@ metal = 'Ni'
 )
 
 entry(
-    index = 15,
+    index = 14,
     label = "HOCu_1 + Cu_4 <=> OCu_3 + HCu_5",
     degeneracy = 1,
     kinetics = SurfaceArrhenius(
@@ -294,7 +337,7 @@ A factor from paper / surface site density of Cu
 )
 
 entry(
-    index = 36,
+    index = 15,
     label = "CH3O2* + Cu_4 <=> CH2OH*_2 + OCu_3",
     degeneracy = 1,
     kinetics = SurfaceArrhenius(
@@ -316,7 +359,7 @@ A factor from paper / surface site density of Cu
 )
 
 entry(
-    index = 48,
+    index = 16,
     label = "CNiHO_1 + Ni_4 <=> OCNi_3 + HNi_5",
     degeneracy = 1,
     kinetics = SurfaceArrhenius(
@@ -338,7 +381,7 @@ metal = 'Ni'
 )
 
 entry(
-    index = 26,
+    index = 17,
     label = "OCCu_3 + HCu_5 <=> CCuHO_1 + Cu_4",
     degeneracy = 1,
     kinetics = SurfaceArrhenius(
