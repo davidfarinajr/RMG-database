@@ -7,9 +7,10 @@ longDesc = u"""
 Put kinetic parameters for specific reactions in this file to use as a
 training set for generating rate rules to populate this kinetics family.
 """
+
 entry(
-    index = 48,
-    label = "NO + Pt <=> NO_X",
+    index = 1,
+    label = "NO + Pt111 <=> NO_Pt111",
     degeneracy = 1,
     kinetics = StickingCoefficient(
         A = 0.85,
@@ -18,7 +19,7 @@ entry(
         Tmin = (200, 'K'),
         Tmax = (3000, 'K'),
     ),
-    rank = 11,
+    rank = 10,
     shortDesc = u"""NO Adsorption""",
     longDesc = u"""
     Detailed surface reaction mechanism in a three-way catalyst
@@ -29,3 +30,26 @@ entry(
     metal = Pt
     """
 )
+
+entry(
+    index = 2,
+    label = "NO_Pt533 <=> NO + Pt533",
+    degeneracy = 1,
+    kinetics = SurfaceArrhenius(
+        A=(1.9864e+20, 'm^2/(mol*s)'),
+        n = 0.,
+        Ea = (163.0, 'kJ/mol'),
+        Tmin = (298, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    rank = 9,
+    shortDesc = u"""NO desorption""",
+    longDesc = u"""
+    Reaction 12 in "Modeling ammonia oxidation over a Pt (533) surface"
+    https://doi.org/10.1016/j.susc.2011.08.014
+
+    A factor from paper / surface site density of Pt
+    8e14 1/s / 2.483e05 mol/m^2 = 1.9864e+20 m^2/(mol*s)
+    """
+)
+
