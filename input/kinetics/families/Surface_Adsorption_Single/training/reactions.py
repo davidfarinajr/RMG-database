@@ -31,25 +31,25 @@ entry(
     """
 )
 
-entry(
-    index = 2,
-    label = "NO_Pt533 <=> NO + Pt533",
-    degeneracy = 1,
-    kinetics = SurfaceArrhenius(
-        A=(1.9864e+20, 'm^2/(mol*s)'),
-        n = 0.,
-        Ea = (163.0, 'kJ/mol'),
-        Tmin = (298, 'K'),
-        Tmax = (2000, 'K'),
-    ),
-    rank = 9,
-    shortDesc = u"""NO desorption""",
-    longDesc = u"""
-    Reaction 12 in "Modeling ammonia oxidation over a Pt (533) surface"
-    https://doi.org/10.1016/j.susc.2011.08.014
+# entry(
+#     index = 2,
+#     label = "NO_Pt533 <=> NO + Pt533",
+#     degeneracy = 1,
+#     kinetics = SurfaceArrhenius(
+#         A=(1.9864e+20, 'm^2/(mol*s)'),
+#         n = 0.,
+#         Ea = (163.0, 'kJ/mol'),
+#         Tmin = (298, 'K'),
+#         Tmax = (2000, 'K'),
+#     ),
+#     rank = 9,
+#     shortDesc = u"""NO desorption""",
+#     longDesc = u"""
+#     Reaction 12 in "Modeling ammonia oxidation over a Pt (533) surface"
+#     https://doi.org/10.1016/j.susc.2011.08.014
 
-    A factor from paper / surface site density of Pt
-    8e14 1/s / 2.483e05 mol/m^2 = 1.9864e+20 m^2/(mol*s)
-    """
-)
+#     A factor from paper / surface site density of Pt
+#     8e14 1/s / 2.483e05 mol/m^2 = 1.9864e+20 m^2/(mol*s)
+#     """
+# )
 
