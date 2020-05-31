@@ -71,3 +71,38 @@ metal Cu
 1    O u0 p2 c0 {2,D}
 2 *3 C u0 p0 c0 {1,D} {3,D}
 3 *5 X u0 p0 c0 {2,D}
+
+NH2_Pt
+metal Pt facet 533
+1 *3 N u0 p1 c0 {2,S} {3,S} {4,S}
+2 *4 H u0 p0 c0 {1,S}
+3    H u0 p0 c0 {1,S}
+4 *5 X u0 p0 c0 {1,S}
+
+O_Pt
+metal Pt facet 533
+1 *1 O u0 p2 c0 {2,D}
+2 *2 X u0 p0 c0 {1,D}
+
+NH_Pt
+metal Pt facet 533
+1 *3 N u0 p1 c0 {2,S} {3,D}
+2    H u0 p0 c0 {1,S}
+3 *5 X u0 p0 c0 {1,D}
+
+HO_Pt
+metal Pt facet 533
+1 *1 O u0 p2 c0 {2,S} {3,S}
+2 *4 H u0 p0 c0 {1,S}
+3 *2 X u0 p0 c0 {1,S}
+
+NHr_Pt
+metal Pt facet 533
+1 *3 N u0 p1 c0 {2,S} {3,D}
+2 *4 H u0 p0 c0 {1,S}
+3 *5 X u0 p0 c0 {1,D}
+
+N_Pt
+metal Pt facet 533
+1 *3 N u0 p1 c0 {2,T}
+2 *5 X u0 p0 c0 {1,T}
