@@ -15,6 +15,11 @@ metal Ni
 1 *2 H u0 p0 c0 {2,S}
 2 *4 X u0 p0 c0 {1,S}
 
+HPt
+metal Pt facet 111
+1 *2 H u0 p0 c0 {2,S}
+2 *4 X u0 p0 c0 {1,S}
+
 CH2O*
 metal Cu
 1    O u0 p2 c0 {2,D}
@@ -29,6 +34,10 @@ metal Cu
 
 Ni4
 metal Ni
+1 *4 X u0 p0 c0
+
+Pt
+metal Pt facet 111
 1 *4 X u0 p0 c0
 
 H2O*
@@ -121,8 +130,23 @@ metal Ni
 4    H u0 p0 c0 {1,S}
 5 *3 X u0 p0 c0
 
+NH3_Pt
+metal Pt facet 111
+1 *1 N u0 p1 c0 {2,S} {3,S} {4,S}
+2 *2 H u0 p0 c0 {1,S}
+3    H u0 p0 c0 {1,S}
+4    H u0 p0 c0 {1,S}
+5 *3 X u0 p0 c0
+
 NH2_Ni
 metal Ni
+1 *1 N u0 p1 c0 {2,S} {3,S} {4,S}
+2    H u0 p0 c0 {1,S}
+3    H u0 p0 c0 {1,S}
+4 *3 X u0 p0 c0 {1,S}
+
+NH2_Pt
+metal Pt facet 111
 1 *1 N u0 p1 c0 {2,S} {3,S} {4,S}
 2    H u0 p0 c0 {1,S}
 3    H u0 p0 c0 {1,S}
