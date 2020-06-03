@@ -9,7 +9,7 @@ training set for generating rate rules to populate this kinetics family.
 """
 
 entry(
-    index = 24,
+    index = 1,
     label = "CH2X_1 + HOX_3 <=> CH3X_4 + OX_5",
     degeneracy = 1,
     kinetics = SurfaceArrhenius(
@@ -29,7 +29,7 @@ Catalysts, 2015, 5, 871-904. Reaction R24
 )
 
 entry(
-    index = 26,
+    index = 2,
     label = "CHX_1 + HOX_3 <=> CH2X_4 + OX_5",
     degeneracy = 1,
     kinetics = SurfaceArrhenius(
@@ -70,7 +70,7 @@ Catalysts, 2015, 5, 871-904. Reaction R26
 #)
 
 entry(
-    index = 28,
+    index = 3,
     label = "HOX_3 + CX_1 <=> OX_5 + CHX_4 ",
     degeneracy = 1,
     kinetics = SurfaceArrhenius(
@@ -90,7 +90,7 @@ Catalysts, 2015, 5, 871-904. Reaction R28
 )
 
 entry(
-    index = 39,
+    index = 4,
     label = "O* + HCO* <=> OH* + CO*",
     degeneracy = 1,
     kinetics = SurfaceArrhenius(
@@ -112,11 +112,11 @@ A factor from paper / surface site density of Cu
 )
 
 entry(
-    index = 40,
+    index = 5,
     label = "NH2_Pt + O_Pt <=> NH_Pt + HO_Pt",
     degeneracy = 1,
     kinetics = SurfaceArrhenius(
-        A = (1.51463e+18, 'm^2/(mol*s)'),
+        A = (2.4567e+17, 'm^2/(mol*s)'),
         n = 0.,
         Ea = (87.0, 'kJ/mol'),
         Tmin = (298, 'K'),
@@ -134,11 +134,11 @@ A factor from paper / surface site density of Pt
 )
 
 entry(
-    index = 41,
+    index = 6,
     label = "NHr_Pt + O_Pt <=> N_Pt + HO_Pt",
     degeneracy = 1,
     kinetics = SurfaceArrhenius(
-        A = (2.483e+18, 'm^2/(mol*s)'),
+        A = (4.027e+17, 'm^2/(mol*s)'),
         n = 0.,
         Ea = (84.0, 'kJ/mol'),
         Tmin = (298, 'K'),
