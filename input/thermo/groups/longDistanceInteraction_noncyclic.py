@@ -1087,9 +1087,51 @@ entry(
     label = "intCl",
     group = 
 """
-1 *1 [Cs,Cd]    u0 {2,[S,D]} {3,S}
-2 *2 [Cs,Cd]    u0 {1,[S,D]}
+1 *1 [Cs,Cd,CO]    u0 {2,[S,D]} {3,S}
+2 *2 [Cs,Cd,CO]    u0 {1,[S,D]}
 3    Cl1s u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (0.0,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+""",
+)
+
+entry(
+    index = 0,
+    label = "intF",
+    group = 
+"""
+1 *1 [Cs,Cd,CO]    u0 {2,[S,D]} {3,S}
+2 *2 [Cs,Cd,CO]    u0 {1,[S,D]}
+3    F1s u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (0.0,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+""",
+)
+
+entry(
+    index = 0,
+    label = "intBr",
+    group = 
+"""
+1 *1 [Cs,Cd,CO]    u0 {2,[S,D]} {3,S}
+2 *2 [Cs,Cd,CO]    u0 {1,[S,D]}
+3    Br1s u0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -1507,6 +1549,767 @@ Divided by two to avoid doublecounting
 """,
 )
 
+entry(
+    index = 0,
+    label = "C(Cl)-C(O2d)",
+    group = 
+"""
+1 *1 [Cs,Cd]    u0 {2,S} {3,S}
+2 *2 CO    u0 {1,S} {4,D}
+3    Cl1s u0 {1,S}
+4    O2d u0 {2,D}
+""",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+""",
+)
+
+entry(
+    index = 0,
+    label = "C(Cl)2-C(O2d)",
+    group = 
+"""
+1 *1 Cs    u0 {2,S} {3,S} {5,S}
+2 *2 CO    u0 {1,S} {4,D}
+3    Cl1s u0 {1,S}
+4    O2d u0 {2,D}
+5    Cl1s u0 {1,S}
+""",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+""",
+)
+
+entry(
+    index = 0,
+    label = "Cs(F)3-Cs(F)3",
+    group = 
+"""
+1 *1 Cs    u0 {2,S} {3,S} {5,S} {7,S}
+2 *2 Cs    u0 {1,S} {4,S} {6,S} {8,S}
+3    F1s u0 {1,S}
+4    F1s u0 {2,S}
+5    F1s u0 {1,S}
+6    F1s u0 {2,S}
+7    F1s u0 {1,S}
+8    F1s u0 {2,S}
+""",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 0,
+    label = "Cs(F)3-Cs(F)2",
+    group = 
+"""
+1 *1 Cs   u0 {2,S} {3,S} {5,S} {7,S}
+2 *2 Cs   u0 {1,S} {4,S} {6,S} {8,S}
+3    F1s u0 {1,S}
+4    F1s u0 {2,S}
+5    F1s u0 {1,S}
+6    F1s u0 {2,S}
+7    F1s u0 {1,S}
+8    [C,H,N,O,S] u0 {2,S}
+""",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+""",
+)
+
+entry(
+    index = 0,
+    label = "Cs(F)2-Cs(F)2",
+    group = 
+"""
+1 *1 Cs   u0 {2,S} {3,S} {5,S} {7,S}
+2 *2 Cs   u0 {1,S} {4,S} {6,S} {8,S}
+3    F1s u0 {1,S}
+4    F1s u0 {2,S}
+5    F1s u0 {1,S}
+6    F1s u0 {2,S}
+7    [C,H,N,O,S] u0 {1,S}
+8    [C,H,N,O,S] u0 {2,S}
+""",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+""",
+)
+
+entry(
+    index = 0,
+    label = "Cs(F)3-C(F)",
+    group = 
+"""
+1 *1 Cs   u0 {2,S} {3,S} {5,S} {7,S}
+2 *2 [Cs,Cd]    u0 {1,S} {4,S}
+3    F1s u0 {1,S}
+4    F1s u0 {2,S}
+5    F1s u0 {1,S}
+7    F1s u0 {1,S}
+""",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+""",
+)
+
+entry(
+    index = 0,
+    label = "Cs(F)3-Cs(F)",
+    group = 
+"""
+1 *1 Cs   u0 {2,S} {3,S} {5,S} {7,S} 
+2 *2 Cs   u0 {1,S} {4,S} {6,S} {8,S}
+3    F1s u0 {1,S}
+4    F1s u0 {2,S}
+5    F1s u0 {1,S}
+6    [C,H,N,O,S] u0 {2,S}
+7    F1s u0 {1,S}
+8    [C,H,N,O,S] u0 {2,S}
+""",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+""",
+)
+
+entry(
+    index = 0,
+    label = "Cs(F)3-Cds(F)",
+    group = 
+"""
+1 *1 Cs   u0 {2,S} {3,S} {5,S} {7,S} 
+2 *2 Cd   u0 {1,S} {4,S} {6,D}
+3    F1s u0 {1,S}
+4    F1s u0 {2,S}
+5    F1s u0 {1,S}
+6    [C,N,O,S] u0 {2,D}
+7    F1s u0 {1,S}
+""",
+    thermo=None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+""",
+)
+
+entry(
+    index = 0,
+    label = "Cs(F)2-C(F)",
+    group = 
+"""
+1 *1 Cs   u0 {2,S} {3,S} {5,S} {7,S}
+2 *2 [Cs,Cd]    u0 {1,S} {4,S}
+3    F1s u0 {1,S}
+4    F1s u0 {2,S}
+5    F1s u0 {1,S}
+7    [C,H,N,O,S] u0 {1,S}
+""",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+""",
+)
+
+entry(
+    index = 0,
+    label = "Cs(F)2-Cs(F)",
+    group = 
+"""
+1 *1 Cs   u0 {2,S} {3,S} {5,S} {7,S}
+2 *2 Cs   u0 {1,S} {4,S} {6,S} {8,S}
+3    F1s u0 {1,S}
+4    F1s u0 {2,S}
+5    F1s u0 {1,S}
+6    [C,H,N,O,S] u0 {2,S}
+7    [C,H,N,O,S] u0 {1,S}
+8    [C,H,N,O,S] u0 {2,S}
+""",
+    thermo=None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+""",
+)
+
+entry(
+    index = 0,
+    label = "Cs(F)2-Cds(F)",
+    group = 
+"""
+1 *1 Cs   u0 {2,S} {3,S} {5,S} {7,S}
+2 *2 Cd   u0 {1,S} {4,S} {6,D}
+3    F1s u0 {1,S}
+4    F1s u0 {2,S}
+5    F1s u0 {1,S}
+6    [C,N,O,S] u0 {2,D}
+7    [C,H,N,O,S] u0 {1,S}
+""",
+    thermo=None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+""",
+)
+
+entry(
+    index = 0,
+    label = "C(F)-C(F)",
+    group = 
+"""
+1 *1 [Cs,Cd]    u0 {2,S} {3,S}
+2 *2 [Cs,Cd]    u0 {1,S} {4,S}
+3    F1s u0 {1,S}
+4    F1s u0 {2,S}
+""",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+""",
+)
+
+entry(
+    index = 0,
+    label = "Cs(F)-Cs(F)",
+    group = 
+"""
+1 *1 Cs   u0 {2,S} {3,S} {5,S} {7,S}
+2 *2 Cs   u0 {1,S} {4,S} {6,S} {8,S}
+3    F1s u0 {1,S}
+4    F1s u0 {2,S}
+5    [C,H,N,O,S] u0 {1,S}
+6    [C,H,N,O,S] u0 {2,S}
+7    [C,H,N,O,S] u0 {1,S}
+8    [C,H,N,O,S] u0 {2,S}
+""",
+    thermo=None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 0,
+    label = "Cs(F)-Cds(F)",
+    group = 
+"""
+1 *1 Cs   u0 {2,S} {3,S} {5,S} {7,S}
+2 *2 Cd   u0 {1,S} {4,S} {6,D}
+3    F1s u0 {1,S}
+4    F1s u0 {2,S}
+5    [C,H,N,O,S] u0 {1,S}
+6    [C,N,O,S] u0 {2,D}
+7    [C,H,N,O,S] u0 {1,S}
+""",
+    thermo=None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 0,
+    label = "Cds(F)-Cds(F)",
+    group = 
+"""
+1 *1 Cd   u0 {2,S} {3,S} {5,D}
+2 *2 Cd   u0 {1,S} {4,S} {6,D}
+3    F1s u0 {1,S}
+4    F1s u0 {2,S}
+5    [C,N,O,S] u0 {1,D}
+6    [C,N,O,S] u0 {2,D}
+""",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 0,
+    label = "Cds(F)2=Cds(F)2",
+    group = 
+"""
+1 *1 Cd   u0 {2,D} {3,S} {5,S}
+2 *2 Cd   u0 {1,D} {4,S} {6,S}
+3    F1s u0 {1,S}
+4    F1s u0 {2,S}
+5    F1s u0 {1,S}
+6    F1s u0 {2,S}
+""",
+    thermo=None,
+    shortDesc=u"""""",
+    longDesc=u"""
+
+""",
+)
+
+entry(
+    index = 0,
+    label = "Cds(F)2=Cds(F)",
+    group = 
+"""
+1 *1 Cd   u0 {2,D} {3,S} {5,S}
+2 *2 Cd   u0 {1,D} {4,S} {6,S}
+3    F1s u0 {1,S}
+4    F1s u0 {2,S}
+5    F1s u0 {1,S}
+6    [C,H,O,N,S] u0 {2,S}
+""",
+    thermo=None,
+    shortDesc=u"""""",
+    longDesc=u"""
+
+""",
+)
+
+entry(
+    index = 0,
+    label = "Cds(F)=Cds(F)",
+    group = 
+"""
+1 *1 Cd   u0 {2,D} {3,S} {5,S}
+2 *2 Cd   u0 {1,D} {4,S} {6,S}
+3    F1s u0 {1,S}
+4    F1s u0 {2,S}
+5    [C,H,O,N,S] u0 {1,S}
+6    [C,H,O,N,S] u0 {2,S}
+""",
+    thermo=None,
+    shortDesc=u"""""",
+    longDesc=u"""
+
+""",
+)
+
+entry(
+    index = 0,
+    label = "C(F)-C(O2d)",
+    group = 
+"""
+1 *1 [Cs,Cd]    u0 {2,S} {3,S}
+2 *2 CO    u0 {1,S} {4,D}
+3    F1s u0 {1,S}
+4    O2d u0 {2,D}
+""",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+""",
+)
+
+entry(
+    index = 0,
+    label = "C(F)2-C(O2d)",
+    group = 
+"""
+1 *1 Cs    u0 {2,S} {3,S} {5,S}
+2 *2 CO    u0 {1,S} {4,D}
+3    F1s u0 {1,S}
+4    O2d u0 {2,D}
+5    F1s u0 {1,S}
+""",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+""",
+)
+
+#####
+
+entry(
+    index = 0,
+    label = "Cs(Br)3-Cs(Br)3",
+    group = 
+"""
+1 *1 Cs    u0 {2,S} {3,S} {5,S} {7,S}
+2 *2 Cs    u0 {1,S} {4,S} {6,S} {8,S}
+3    Br1s u0 {1,S}
+4    Br1s u0 {2,S}
+5    Br1s u0 {1,S}
+6    Br1s u0 {2,S}
+7    Br1s u0 {1,S}
+8    Br1s u0 {2,S}
+""",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 0,
+    label = "Cs(Br)3-Cs(Br)2",
+    group = 
+"""
+1 *1 Cs   u0 {2,S} {3,S} {5,S} {7,S}
+2 *2 Cs   u0 {1,S} {4,S} {6,S} {8,S}
+3    Br1s u0 {1,S}
+4    Br1s u0 {2,S}
+5    Br1s u0 {1,S}
+6    Br1s u0 {2,S}
+7    Br1s u0 {1,S}
+8    [C,H,N,O,S] u0 {2,S}
+""",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 0,
+    label = "Cs(Br)2-Cs(Br)2",
+    group = 
+"""
+1 *1 Cs   u0 {2,S} {3,S} {5,S} {7,S}
+2 *2 Cs   u0 {1,S} {4,S} {6,S} {8,S}
+3    Br1s u0 {1,S}
+4    Br1s u0 {2,S}
+5    Br1s u0 {1,S}
+6    Br1s u0 {2,S}
+7    [C,H,N,O,S] u0 {1,S}
+8    [C,H,N,O,S] u0 {2,S}
+""",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 0,
+    label = "Cs(Br)3-C(Br)",
+    group = 
+"""
+1 *1 Cs   u0 {2,S} {3,S} {5,S} {7,S}
+2 *2 [Cs,Cd]    u0 {1,S} {4,S}
+3    Br1s u0 {1,S}
+4    Br1s u0 {2,S}
+5    Br1s u0 {1,S}
+7    Br1s u0 {1,S}
+""",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 0,
+    label = "Cs(Br)3-Cs(Br)",
+    group = 
+"""
+1 *1 Cs   u0 {2,S} {3,S} {5,S} {7,S} 
+2 *2 Cs   u0 {1,S} {4,S} {6,S} {8,S}
+3    Br1s u0 {1,S}
+4    Br1s u0 {2,S}
+5    Br1s u0 {1,S}
+6    [C,H,N,O,S] u0 {2,S}
+7    Br1s u0 {1,S}
+8    [C,H,N,O,S] u0 {2,S}
+""",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 0,
+    label = "Cs(Br)3-Cds(Br)",
+    group = 
+"""
+1 *1 Cs   u0 {2,S} {3,S} {5,S} {7,S} 
+2 *2 Cd   u0 {1,S} {4,S} {6,D}
+3    Br1s u0 {1,S}
+4    Br1s u0 {2,S}
+5    Br1s u0 {1,S}
+6    [C,N,O,S] u0 {2,D}
+7    Br1s u0 {1,S}
+""",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 0,
+    label = "Cs(Br)2-C(Br)",
+    group = 
+"""
+1 *1 Cs   u0 {2,S} {3,S} {5,S} {7,S}
+2 *2 [Cs,Cd]    u0 {1,S} {4,S}
+3    Br1s u0 {1,S}
+4    Br1s u0 {2,S}
+5    Br1s u0 {1,S}
+7    [C,H,N,O,S] u0 {1,S}
+""",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 0,
+    label = "Cs(Br)2-Cs(Br)",
+    group = 
+"""
+1 *1 Cs   u0 {2,S} {3,S} {5,S} {7,S}
+2 *2 Cs   u0 {1,S} {4,S} {6,S} {8,S}
+3    Br1s u0 {1,S}
+4    Br1s u0 {2,S}
+5    Br1s u0 {1,S}
+6    [C,H,N,O,S] u0 {2,S}
+7    [C,H,N,O,S] u0 {1,S}
+8    [C,H,N,O,S] u0 {2,S}
+""",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 0,
+    label = "Cs(Br)2-Cds(Br)",
+    group = 
+"""
+1 *1 Cs   u0 {2,S} {3,S} {5,S} {7,S}
+2 *2 Cd   u0 {1,S} {4,S} {6,D}
+3    Br1s u0 {1,S}
+4    Br1s u0 {2,S}
+5    Br1s u0 {1,S}
+6    [C,N,O,S] u0 {2,D}
+7    [C,H,N,O,S] u0 {1,S}
+""",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 0,
+    label = "C(Br)-C(Br)",
+    group = 
+"""
+1 *1 [Cs,Cd]    u0 {2,S} {3,S}
+2 *2 [Cs,Cd]    u0 {1,S} {4,S}
+3    Br1s u0 {1,S}
+4    Br1s u0 {2,S}
+""",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 0,
+    label = "Cs(Br)-Cs(Br)",
+    group = 
+"""
+1 *1 Cs   u0 {2,S} {3,S} {5,S} {7,S}
+2 *2 Cs   u0 {1,S} {4,S} {6,S} {8,S}
+3    Br1s u0 {1,S}
+4    Br1s u0 {2,S}
+5    [C,H,N,O,S] u0 {1,S}
+6    [C,H,N,O,S] u0 {2,S}
+7    [C,H,N,O,S] u0 {1,S}
+8    [C,H,N,O,S] u0 {2,S}
+""",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 0,
+    label = "Cs(Br)-Cds(Br)",
+    group = 
+"""
+1 *1 Cs   u0 {2,S} {3,S} {5,S} {7,S}
+2 *2 Cd   u0 {1,S} {4,S} {6,D}
+3    Br1s u0 {1,S}
+4    Br1s u0 {2,S}
+5    [C,H,N,O,S] u0 {1,S}
+6    [C,N,O,S] u0 {2,D}
+7    [C,H,N,O,S] u0 {1,S}
+""",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 0,
+    label = "Cds(Br)-Cds(Br)",
+    group = 
+"""
+1 *1 Cd   u0 {2,S} {3,S} {5,D}
+2 *2 Cd   u0 {1,S} {4,S} {6,D}
+3    Br1s u0 {1,S}
+4    Br1s u0 {2,S}
+5    [C,N,O,S] u0 {1,D}
+6    [C,N,O,S] u0 {2,D}
+""",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 0,
+    label = "Cds(Br)2=Cds(Br)2",
+    group = 
+"""
+1 *1 Cd   u0 {2,D} {3,S} {5,S}
+2 *2 Cd   u0 {1,D} {4,S} {6,S}
+3    Br1s u0 {1,S}
+4    Br1s u0 {2,S}
+5    Br1s u0 {1,S}
+6    Br1s u0 {2,S}
+""",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 0,
+    label = "Cds(Br)2=Cds(Br)",
+    group = 
+"""
+1 *1 Cd   u0 {2,D} {3,S} {5,S}
+2 *2 Cd   u0 {1,D} {4,S} {6,S}
+3    Br1s u0 {1,S}
+4    Br1s u0 {2,S}
+5    Br1s u0 {1,S}
+6    [C,H,O,N,S] u0 {2,S}
+""",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 0,
+    label = "Cds(Br)=Cds(Br)",
+    group = 
+"""
+1 *1 Cd   u0 {2,D} {3,S} {5,S}
+2 *2 Cd   u0 {1,D} {4,S} {6,S}
+3    Br1s u0 {1,S}
+4    Br1s u0 {2,S}
+5    [C,H,O,N,S] u0 {1,S}
+6    [C,H,O,N,S] u0 {2,S}
+""",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 0,
+    label = "C(Br)-C(O2d)",
+    group = 
+"""
+1 *1 [Cs,Cd]    u0 {2,S} {3,S}
+2 *2 CO    u0 {1,S} {4,D}
+3    Br1s u0 {1,S}
+4    O2d u0 {2,D}
+""",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+""",
+)
+
+entry(
+    index = 0,
+    label = "C(Br)2-C(O2d)",
+    group = 
+"""
+1 *1 Cs    u0 {2,S} {3,S} {5,S}
+2 *2 CO    u0 {1,S} {4,D}
+3    Br1s u0 {1,S}
+4    O2d u0 {2,D}
+5    Br1s u0 {1,S}
+""",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+""",
+)
+
 tree(
 """
 L1: R
@@ -1518,15 +2321,55 @@ L1: R
             L4: Cs(Cl)3-Cds(Cl)
         L3: Cs(Cl)2-Cs(Cl)2
         L3: Cs(Cl)2-C(Cl)
-	    L4: Cs(Cl)2-Cs(Cl)
-	    L4: Cs(Cl)2-Cds(Cl)
+	        L4: Cs(Cl)2-Cs(Cl)
+	        L4: Cs(Cl)2-Cds(Cl)
         L3: C(Cl)-C(Cl)
             L4: Cs(Cl)-Cs(Cl)
-	    L4: Cs(Cl)-Cds(Cl)
-	    L4: Cds(Cl)-Cds(Cl)
+	        L4: Cs(Cl)-Cds(Cl)
+	        L4: Cds(Cl)-Cds(Cl)
         L3: Cds(Cl)=Cds(Cl)
         L3: Cds(Cl)2=Cds(Cl)
         L3: Cds(Cl)2=Cds(Cl)2
+        L3: C(Cl)-C(O2d)
+            L4: C(Cl)2-C(O2d)
+    L2: intF
+        L3: Cs(F)3-Cs(F)3
+        L3: Cs(F)3-Cs(F)2
+        L3: Cs(F)3-C(F)
+            L4: Cs(F)3-Cs(F)
+            L4: Cs(F)3-Cds(F)
+        L3: Cs(F)2-Cs(F)2
+        L3: Cs(F)2-C(F)
+	        L4: Cs(F)2-Cs(F)
+	        L4: Cs(F)2-Cds(F)
+        L3: C(F)-C(F)
+            L4: Cs(F)-Cs(F)
+	        L4: Cs(F)-Cds(F)
+	        L4: Cds(F)-Cds(F)
+        L3: Cds(F)=Cds(F)
+        L3: Cds(F)2=Cds(F)
+        L3: Cds(F)2=Cds(F)2
+        L3: C(F)-C(O2d)
+            L4: C(F)2-C(O2d)
+    L2: intBr
+        L3: Cs(Br)3-Cs(Br)3
+        L3: Cs(Br)3-Cs(Br)2
+        L3: Cs(Br)3-C(Br)
+            L4: Cs(Br)3-Cs(Br)
+            L4: Cs(Br)3-Cds(Br)
+        L3: Cs(Br)2-Cs(Br)2
+        L3: Cs(Br)2-C(Br)
+	        L4: Cs(Br)2-Cs(Br)
+	        L4: Cs(Br)2-Cds(Br)
+        L3: C(Br)-C(Br)
+            L4: Cs(Br)-Cs(Br)
+	        L4: Cs(Br)-Cds(Br)
+	        L4: Cds(Br)-Cds(Br)
+        L3: Cds(Br)=Cds(Br)
+        L3: Cds(Br)2=Cds(Br)
+        L3: Cds(Br)2=Cds(Br)2
+        L3: C(Br)-C(O2d)
+            L4: C(Br)2-C(O2d)
     L2: int14_gauche
         L3: CsCs
             L4: CsCs-P
