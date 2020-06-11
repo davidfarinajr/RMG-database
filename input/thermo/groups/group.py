@@ -968,9 +968,9 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([27.7947,29.7095,31.5496,32.3438,35.295,37.4273,38.4157],'J/(mol*K)'),
-        H298 = (13.5901,'kJ/mol'),
-        S298 = (130.346,'J/(mol*K)'),
+        Cpdata = ([27.8246,29.7238,31.5682,32.3599,35.304,37.4356,38.4511],'J/(mol*K)'),
+        H298 = (14.6052,'kJ/mol'),
+        S298 = (130.334,'J/(mol*K)'),
     ),
     shortDesc = """Derived from Fluorine species in thermo libraries""",
     longDesc = 
@@ -2999,8 +2999,8 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([37.9451,42.437,46.709,50.328,55.8032,59.5268,63.6316],'J/(mol*K)'),
-        H298 = (-350.882,'kJ/mol'),
+        Cpdata = ([38.003,42.4628,46.7249,50.3296,55.7815,59.4944,63.6329],'J/(mol*K)'),
+        H298 = (-349.307,'kJ/mol'),
         S298 = (155.801,'J/(mol*K)'),
     ),
     shortDesc = """Derived from Fluorine species in thermo libraries""",
@@ -3022,9 +3022,9 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([37.5624,43.2686,47.9272,51.3967,56.9207,60.4583,64.5257],'J/(mol*K)'),
-        H298 = (-343.623,'kJ/mol'),
-        S298 = (163.77,'J/(mol*K)'),
+        Cpdata = ([37.5753,43.2733,47.9269,51.3919,56.9092,60.443,64.516],'J/(mol*K)'),
+        H298 = (-343.311,'kJ/mol'),
+        S298 = (163.773,'J/(mol*K)'),
     ),
     shortDesc = """Derived from Fluorine species in thermo libraries""",
     longDesc = 
@@ -3164,9 +3164,9 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([28.9503,33.4226,38.0126,42.0654,48.5968,53.3315,59.5617],'J/(mol*K)'),
-        H298 = (-154.772,'kJ/mol'),
-        S298 = (136.538,'J/(mol*K)'),
+        Cpdata = ([29.0065,33.4454,38.0249,42.0632,48.5713,53.2954,59.5597],'J/(mol*K)'),
+        H298 = (-153.209,'kJ/mol'),
+        S298 = (136.537,'J/(mol*K)'),
     ),
     shortDesc = """Derived from Fluorine species in thermo libraries""",
     longDesc = 
@@ -3187,9 +3187,9 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([28.3931,33.5186,38.3229,42.1462,48.7415,53.4491,59.9316],'J/(mol*K)'),
-        H298 = (-149.584,'kJ/mol'),
-        S298 = (143.822,'J/(mol*K)'),
+        Cpdata = ([28.406,33.5233,38.3226,42.1413,48.73,53.4339,59.9219],'J/(mol*K)'),
+        H298 = (-149.272,'kJ/mol'),
+        S298 = (143.824,'J/(mol*K)'),
     ),
     shortDesc = """Derived from Fluorine species in thermo libraries""",
     longDesc = 
@@ -3306,9 +3306,9 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([38.7605,48.4122,55.015,59.6807,65.1001,67.4059,67.6561],'J/(mol*K)'),
-        H298 = (-434.812,'kJ/mol'),
-        S298 = (142.378,'J/(mol*K)'),
+        Cpdata = ([38.747,48.3792,54.9726,59.6349,65.05,67.3572,67.6189],'J/(mol*K)'),
+        H298 = (-434.77,'kJ/mol'),
+        S298 = (142.377,'J/(mol*K)'),
     ),
     shortDesc = """Derived from Fluorine species in thermo libraries""",
     longDesc = 
@@ -3329,9 +3329,9 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([25.2831,29.3876,33.2703,36.5879,41.5504,44.6744,46.6955],'J/(mol*K)'),
-        H298 = (-173.825,'kJ/mol'),
-        S298 = (52.403,'J/(mol*K)'),
+        Cpdata = ([25.2971,29.3482,33.2038,36.5039,41.4415,44.5583,46.6115],'J/(mol*K)'),
+        H298 = (-172.87,'kJ/mol'),
+        S298 = (52.3908,'J/(mol*K)'),
     ),
     shortDesc = """Derived from Fluorine species in thermo libraries""",
     longDesc = 
@@ -3352,9 +3352,9 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([25.9624,29.5024,32.6355,35.4327,39.86,42.4377,44.3387],'J/(mol*K)'),
-        H298 = (-151.054,'kJ/mol'),
-        S298 = (50.9686,'J/(mol*K)'),
+        Cpdata = ([25.9347,29.4278,32.541,35.3306,39.7469,42.3282,44.2542],'J/(mol*K)'),
+        H298 = (-150.807,'kJ/mol'),
+        S298 = (50.9303,'J/(mol*K)'),
     ),
     shortDesc = """Derived from Fluorine species in thermo libraries""",
     longDesc = 
@@ -3376,9 +3376,9 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([52.6753,58.9434,64.3179,69.1011,76.2704,80.8624,85.7028],'J/(mol*K)'),
-        H298 = (-176.619,'kJ/mol'),
-        S298 = (187.328,'J/(mol*K)'),
+        Cpdata = ([52.6563,58.8719,64.2232,68.9957,76.1496,80.7427,85.6119],'J/(mol*K)'),
+        H298 = (-176.164,'kJ/mol'),
+        S298 = (187.292,'J/(mol*K)'),
     ),
     shortDesc = """Derived from Fluorine species in thermo libraries""",
     longDesc = 
@@ -3471,9 +3471,9 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([37.1795,42.7681,47.126,50.6002,55.4249,58.3716,61.5381],'J/(mol*K)'),
-        H298 = (-370.911,'kJ/mol'),
-        S298 = (161.606,'J/(mol*K)'),
+        Cpdata = ([37.2097,42.9692,47.2713,50.7808,55.6591,58.5781,61.3013],'J/(mol*K)'),
+        H298 = (-380.889,'kJ/mol'),
+        S298 = (160.383,'J/(mol*K)'),
     ),
     shortDesc = """Derived from Fluorine species in thermo libraries""",
     longDesc = 
@@ -3494,9 +3494,9 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([27.1862,30.9407,34.1779,36.2577,40.1634,42.5669,44.8133],'J/(mol*K)'),
-        H298 = (-167.218,'kJ/mol'),
-        S298 = (48.9691,'J/(mol*K)'),
+        Cpdata = ([27.4614,31.0563,34.1682,36.1283,40.038,42.377,44.305],'J/(mol*K)'),
+        H298 = (-167.903,'kJ/mol'),
+        S298 = (49.5041,'J/(mol*K)'),
     ),
     shortDesc = """Derived from Fluorine species in thermo libraries""",
     longDesc = 
@@ -3517,9 +3517,9 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([27.0779,30.3404,32.8888,34.8744,38.2751,40.1993,42.4025],'J/(mol*K)'),
-        H298 = (-152.435,'kJ/mol'),
-        S298 = (47.6005,'J/(mol*K)'),
+        Cpdata = ([27.0693,30.3373,32.889,34.8776,38.2828,40.2094,42.409],'J/(mol*K)'),
+        H298 = (-152.642,'kJ/mol'),
+        S298 = (47.5989,'J/(mol*K)'),
     ),
     shortDesc = """Derived from Fluorine species in thermo libraries""",
     longDesc = 
@@ -15591,9 +15591,9 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([50.3225,59.2323,65.5291,70.1412,76.6964,80.3845,84.5411],'J/(mol*K)'),
-        H298 = (-717.703,'kJ/mol'),
-        S298 = (181.255,'J/(mol*K)'),
+        Cpdata = ([50.3367,59.2507,65.5509,70.1625,76.7162,80.4022,84.5548],'J/(mol*K)'),
+        H298 = (-717.484,'kJ/mol'),
+        S298 = (181.234,'J/(mol*K)'),
     ),
     shortDesc = """Derived from Fluorine species in thermo libraries""",
     longDesc = 
@@ -15710,9 +15710,9 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([44.1766,51.7217,57.4259,62.0813,69.3798,74.0332,80.2853],'J/(mol*K)'),
-        H298 = (-485.284,'kJ/mol'),
-        S298 = (161.858,'J/(mol*K)'),
+        Cpdata = ([44.1909,51.74,57.4477,62.1026,69.3996,74.0509,80.299],'J/(mol*K)'),
+        H298 = (-485.065,'kJ/mol'),
+        S298 = (161.836,'J/(mol*K)'),
     ),
     shortDesc = """Derived from Fluorine species in thermo libraries""",
     longDesc = 
@@ -15772,9 +15772,9 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([34.0181,41.0834,47.392,52.8739,61.795,67.7936,76.6456],'J/(mol*K)'),
-        H298 = (-252.903,'kJ/mol'),
-        S298 = (142.962,'J/(mol*K)'),
+        Cpdata = ([34.0323,41.1018,47.4138,52.8952,61.8148,67.8113,76.6594],'J/(mol*K)'),
+        H298 = (-252.684,'kJ/mol'),
+        S298 = (142.941,'J/(mol*K)'),
     ),
     shortDesc = """Derived from Fluorine species in thermo libraries""",
     longDesc = 
@@ -15891,9 +15891,9 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([45.6293,57.5112,64.1316,68.0245,71.6933,73.1217,72.055],'J/(mol*K)'),
-        H298 = (-533.748,'kJ/mol'),
-        S298 = (58.0171,'J/(mol*K)'),
+        Cpdata = ([45.5973,57.4102,63.9992,67.8787,71.5288,72.9597,71.9318],'J/(mol*K)'),
+        H298 = (-533.289,'kJ/mol'),
+        S298 = (57.9823,'J/(mol*K)'),
     ),
     shortDesc = """Derived from Fluorine species in thermo libraries""",
     longDesc = 
@@ -15953,9 +15953,9 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([36.9352,48.0296,54.7129,58.8166,63.0318,65.2806,66.7201],'J/(mol*K)'),
-        H298 = (-303.247,'kJ/mol'),
-        S298 = (38.0387,'J/(mol*K)'),
+        Cpdata = ([36.9032,47.9286,54.5805,58.6708,62.8673,65.1187,66.5969],'J/(mol*K)'),
+        H298 = (-302.787,'kJ/mol'),
+        S298 = (38.004,'J/(mol*K)'),
     ),
     shortDesc = """Derived from Fluorine species in thermo libraries""",
     longDesc = 
@@ -16205,9 +16205,9 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([53.2927,62.2174,68.3912,73.0135,79.1062,82.7477,86.0837],'J/(mol*K)'),
-        H298 = (-680.21,'kJ/mol'),
-        S298 = (178.07,'J/(mol*K)'),
+        Cpdata = ([53.0877,62.064,68.2794,72.947,79.1076,82.7891,86.1053],'J/(mol*K)'),
+        H298 = (-683.034,'kJ/mol'),
+        S298 = (177.689,'J/(mol*K)'),
     ),
     shortDesc = """Derived from Fluorine species in thermo libraries""",
     longDesc = 
@@ -16324,9 +16324,9 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([46.4515,53.5915,59.2296,63.9656,71.0512,75.8108,81.2955],'J/(mol*K)'),
-        H298 = (-440.772,'kJ/mol'),
-        S298 = (160.517,'J/(mol*K)'),
+        Cpdata = ([46.4824,53.6617,59.3157,64.0723,71.1811,75.9475,81.3741],'J/(mol*K)'),
+        H298 = (-442.836,'kJ/mol'),
+        S298 = (160.773,'J/(mol*K)'),
     ),
     shortDesc = """Derived from Fluorine species in thermo libraries""",
     longDesc = 
@@ -16386,9 +16386,9 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([36.7793,43.6592,49.6305,54.8636,63.1522,69.0836,77.0462],'J/(mol*K)'),
-        H298 = (-222.756,'kJ/mol'),
-        S298 = (141.609,'J/(mol*K)'),
+        Cpdata = ([36.6325,43.496,49.4727,54.7198,63.0334,69.0011,76.9775],'J/(mol*K)'),
+        H298 = (-223.805,'kJ/mol'),
+        S298 = (141.608,'J/(mol*K)'),
     ),
     shortDesc = """Derived from Fluorine species in thermo libraries""",
     longDesc = 
@@ -16505,9 +16505,9 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([46.1857,56.312,61.9003,65.4703,69.338,70.8132,69.8194],'J/(mol*K)'),
-        H298 = (-492.671,'kJ/mol'),
-        S298 = (63.5303,'J/(mol*K)'),
+        Cpdata = ([45.8792,55.9109,61.4069,64.9919,68.8869,70.3835,69.4506],'J/(mol*K)'),
+        H298 = (-496.899,'kJ/mol'),
+        S298 = (63.974,'J/(mol*K)'),
     ),
     shortDesc = """Derived from Fluorine species in thermo libraries""",
     longDesc = 
@@ -16567,9 +16567,9 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([34.8569,44.2497,50.7509,55.3611,61.1675,64.3721,66.5245],'J/(mol*K)'),
-        H298 = (-261.287,'kJ/mol'),
-        S298 = (40.7642,'J/(mol*K)'),
+        Cpdata = ([34.6895,43.9262,50.2969,54.8513,60.6113,63.8318,66.0997],'J/(mol*K)'),
+        H298 = (-264.012,'kJ/mol'),
+        S298 = (41.2726,'J/(mol*K)'),
     ),
     shortDesc = """Derived from Fluorine species in thermo libraries""",
     longDesc = 
@@ -16629,9 +16629,9 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([36.0308,47.038,52.352,54.8834,56.9964,56.9179,53.3522],'J/(mol*K)'),
-        H298 = (-309.656,'kJ/mol'),
-        S298 = (-49.2323,'J/(mol*K)'),
+        Cpdata = ([35.9927,46.895,52.1626,54.6725,56.7549,56.6786,53.1703],'J/(mol*K)'),
+        H298 = (-308.746,'kJ/mol'),
+        S298 = (-49.3056,'J/(mol*K)'),
     ),
     shortDesc = """Derived from Fluorine species in thermo libraries""",
     longDesc = 
@@ -16748,9 +16748,9 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([46.4924,53.5722,57.395,60.1615,64.0972,66.0828,66.5086],'J/(mol*K)'),
-        H298 = (-456.606,'kJ/mol'),
-        S298 = (68.3143,'J/(mol*K)'),
+        Cpdata = ([46.4128,53.8936,57.7878,60.5701,64.4664,66.3857,66.5791],'J/(mol*K)'),
+        H298 = (-459.862,'kJ/mol'),
+        S298 = (67.9028,'J/(mol*K)'),
     ),
     shortDesc = """Derived from Fluorine species in thermo libraries""",
     longDesc = 
@@ -16810,9 +16810,9 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([35.709,41.7728,46.0917,49.5574,55.0025,58.5472,62.2197],'J/(mol*K)'),
-        H298 = (-225.759,'kJ/mol'),
-        S298 = (49.9595,'J/(mol*K)'),
+        Cpdata = ([35.539,41.7883,46.1771,49.6797,55.1275,58.6523,62.1984],'J/(mol*K)'),
+        H298 = (-227.159,'kJ/mol'),
+        S298 = (49.7008,'J/(mol*K)'),
     ),
     shortDesc = """Derived from Fluorine species in thermo libraries""",
     longDesc = 
@@ -16872,9 +16872,9 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([32.4811,39.7182,43.7618,46.4376,49.8938,51.0518,49.9508],'J/(mol*K)'),
-        H298 = (-273.158,'kJ/mol'),
-        S298 = (-36.1764,'J/(mol*K)'),
+        Cpdata = ([32.4621,39.6467,43.6671,46.3322,49.773,50.9321,49.8599],'J/(mol*K)'),
+        H298 = (-272.703,'kJ/mol'),
+        S298 = (-36.2131,'J/(mol*K)'),
     ),
     shortDesc = """Derived from Fluorine species in thermo libraries""",
     longDesc = 
@@ -47516,9 +47516,9 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([30.0689,32.2007,34.261,35.7322,37.7802,38.4283,39.5344],'J/(mol*K)'),
-        H298 = (25.5441,'kJ/mol'),
-        S298 = (138.218,'J/(mol*K)'),
+        Cpdata = ([30.0972,32.2432,34.3127,35.7844,37.8317,38.4758,39.5711],'J/(mol*K)'),
+        H298 = (25.8833,'kJ/mol'),
+        S298 = (138.183,'J/(mol*K)'),
     ),
     shortDesc = """Derived from Fluorine species in thermo libraries""",
     longDesc = 
@@ -47572,9 +47572,9 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([31.0094,32.5835,33.5532,34.6467,36.9135,38.2428,39.3653],'J/(mol*K)'),
-        H298 = (-28.2527,'kJ/mol'),
-        S298 = (141.256,'J/(mol*K)'),
+        Cpdata = ([31.0476,32.7266,33.7426,34.8575,37.155,38.4821,39.5472],'J/(mol*K)'),
+        H298 = (-29.1626,'kJ/mol'),
+        S298 = (141.329,'J/(mol*K)'),
     ),
     shortDesc = """Derived from Fluorine species in thermo libraries""",
     longDesc = 
