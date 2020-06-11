@@ -163,8 +163,13 @@ entry(
 3   F1s u0 {1,S}
 4   F1s u0 {1,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-1.18036,-2.33146,-4.09302,-6.02403,-9.61477,-12.2331,-15.825],'J/(mol*K)'),
+        H298 = (390.874,'kJ/mol'),
+        S298 = (1.736,'J/(mol*K)'),
+    ),
+    shortDesc = """Derived from Fluorine species in thermo libraries""",
     longDesc = 
 """
 
@@ -217,8 +222,13 @@ entry(
 3   H   u0 {1,S}
 4   F1s u0 {1,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-4.31528,-5.06776,-6.50032,-8.416,-11.972,-14.1558,-17.4804],'J/(mol*K)'),
+        H298 = (377.141,'kJ/mol'),
+        S298 = (-5.33739,'J/(mol*K)'),
+    ),
+    shortDesc = """Derived from Fluorine species in thermo libraries""",
     longDesc = 
 """
 
@@ -271,8 +281,13 @@ entry(
 3   O2s u0 {1,S}
 4   F1s u0 {1,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-8.3682,-11.6019,-13.6034,-14.4981,-15.2144,-15.3368,-14.9873],'J/(mol*K)'),
+        H298 = (356.218,'kJ/mol'),
+        S298 = (1.87218,'J/(mol*K)'),
+    ),
+    shortDesc = """Derived from Fluorine species in thermo libraries""",
     longDesc = 
 """
 
@@ -487,8 +502,13 @@ entry(
 3   CO  u0 {1,S}
 4   F1s u0 {1,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-5.64156,-7.20979,-8.9554,-10.6207,-13.2444,-15.048,-17.0724],'J/(mol*K)'),
+        H298 = (374.109,'kJ/mol'),
+        S298 = (0.504245,'J/(mol*K)'),
+    ),
+    shortDesc = """Derived from Fluorine species in thermo libraries""",
     longDesc = 
 """
 
@@ -595,8 +615,13 @@ entry(
 3   F1s u0 {1,S}
 4   F1s u0 {1,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-3.85792,-7.11953,-9.36265,-11.1924,-14.2048,-16.4926,-19.9039],'J/(mol*K)'),
+        H298 = (431.059,'kJ/mol'),
+        S298 = (8.91769,'J/(mol*K)'),
+    ),
+    shortDesc = """Derived from Fluorine species in thermo libraries""",
     longDesc = 
 """
 
@@ -649,8 +674,13 @@ entry(
 3   H   u0 {1,S}
 4   F1s u0 {1,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.841061,-3.62256,-6.3193,-8.74773,-12.6626,-15.4863,-19.5603],'J/(mol*K)'),
+        H298 = (417.029,'kJ/mol'),
+        S298 = (6.43249,'J/(mol*K)'),
+    ),
+    shortDesc = """Derived from Fluorine species in thermo libraries""",
     longDesc = 
 """
 
@@ -703,8 +733,13 @@ entry(
 3   O2s u0 {1,S}
 4   F1s u0 {1,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-7.44577,-9.45593,-9.87563,-10.698,-12.817,-14.5306,-17.2755],'J/(mol*K)'),
+        H298 = (421.031,'kJ/mol'),
+        S298 = (8.79856,'J/(mol*K)'),
+    ),
+    shortDesc = """Derived from Fluorine species in thermo libraries""",
     longDesc = 
 """
 
@@ -811,8 +846,13 @@ entry(
 3   F1s u0 {1,S}
 4   F1s u0 {1,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([3.22312,-0.147383,-3.20681,-5.83029,-10.0469,-13.1937,-17.954],'J/(mol*K)'),
+        H298 = (393.385,'kJ/mol'),
+        S298 = (1.07982,'J/(mol*K)'),
+    ),
+    shortDesc = """Derived from Fluorine species in thermo libraries""",
     longDesc = 
 """
 
@@ -865,8 +905,13 @@ entry(
 3   H   u0 {1,S}
 4   F1s u0 {1,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([1.00314,-1.33299,-4.10501,-6.68006,-10.8649,-13.9999,-19.0894],'J/(mol*K)'),
+        H298 = (370.923,'kJ/mol'),
+        S298 = (0.188661,'J/(mol*K)'),
+    ),
+    shortDesc = """Derived from Fluorine species in thermo libraries""",
     longDesc = 
 """
 
@@ -1081,8 +1126,13 @@ entry(
 3   F1s u0 {1,S}
 4   F1s u0 {1,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-1.89951,-3.26462,-4.9419,-6.59386,-9.58996,-11.9408,-15.4608],'J/(mol*K)'),
+        H298 = (388.58,'kJ/mol'),
+        S298 = (-2.23686,'J/(mol*K)'),
+    ),
+    shortDesc = """Derived from Fluorine species in thermo libraries""",
     longDesc = 
 """
 
@@ -1135,8 +1185,13 @@ entry(
 3   H   u0 {1,S}
 4   F1s u0 {1,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-2.85783,-3.26431,-4.57289,-6.18785,-9.15562,-11.4855,-15.2269],'J/(mol*K)'),
+        H298 = (361.223,'kJ/mol'),
+        S298 = (-3.56095,'J/(mol*K)'),
+    ),
+    shortDesc = """Derived from Fluorine species in thermo libraries""",
     longDesc = 
 """
 
@@ -1405,8 +1460,13 @@ entry(
 3   F1s u0 {1,S}
 4   F1s u0 {1,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-2.86025,-6.50566,-9.2782,-11.4132,-14.5389,-16.7718,-20.2558],'J/(mol*K)'),
+        H298 = (420.785,'kJ/mol'),
+        S298 = (10.7662,'J/(mol*K)'),
+    ),
+    shortDesc = """Derived from Fluorine species in thermo libraries""",
     longDesc = 
 """
 
@@ -1459,8 +1519,13 @@ entry(
 3   H   u0 {1,S}
 4   F1s u0 {1,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.717114,-4.36246,-7.29309,-9.64882,-13.2824,-15.8216,-19.4228],'J/(mol*K)'),
+        H298 = (414.259,'kJ/mol'),
+        S298 = (11.3089,'J/(mol*K)'),
+    ),
+    shortDesc = """Derived from Fluorine species in thermo libraries""",
     longDesc = 
 """
 
@@ -1513,8 +1578,13 @@ entry(
 3   O2s u0 {1,S}
 4   F1s u0 {1,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.799437,-6.35617,-10.3517,-13.1038,-16.7888,-19.0878,-21.8566],'J/(mol*K)'),
+        H298 = (413.255,'kJ/mol'),
+        S298 = (14.4258,'J/(mol*K)'),
+    ),
+    shortDesc = """Derived from Fluorine species in thermo libraries""",
     longDesc = 
 """
 
@@ -1567,8 +1637,13 @@ entry(
 3   Ct  u0 {1,S}
 4   F1s u0 {1,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-3.16834,-6.72199,-9.1461,-11.1176,-14.2335,-16.4962,-19.8954],'J/(mol*K)'),
+        H298 = (371.939,'kJ/mol'),
+        S298 = (20.2669,'J/(mol*K)'),
+    ),
+    shortDesc = """Derived from Fluorine species in thermo libraries""",
     longDesc = 
 """
 
@@ -1621,8 +1696,13 @@ entry(
 3   Cd  u0 {1,S}
 4   F1s u0 {1,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-5.75764,-6.55291,-7.7261,-9.01089,-11.0329,-12.5589,-15.718],'J/(mol*K)'),
+        H298 = (363.626,'kJ/mol'),
+        S298 = (1.36165,'J/(mol*K)'),
+    ),
+    shortDesc = """Derived from Fluorine species in thermo libraries""",
     longDesc = 
 """
 
@@ -1675,8 +1755,13 @@ entry(
 3   Cs  u0 {1,S}
 4   F1s u0 {1,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-4.36093,-9.26173,-12.151,-14.0441,-16.5978,-18.3363,-20.8928],'J/(mol*K)'),
+        H298 = (410.487,'kJ/mol'),
+        S298 = (17.3926,'J/(mol*K)'),
+    ),
+    shortDesc = """Derived from Fluorine species in thermo libraries""",
     longDesc = 
 """
 
@@ -9595,23 +9680,6 @@ entry(
 
 entry(
     index = 397,
-    label = "CdBr1sCO",
-    group = 
-"""
-1 * Cd   u1 {2,S} {3,D}
-2   Br1s u0 {1,S}
-3   CO   u0 {1,D}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 398,
     label = "CdBr1sCdd",
     group = 
 """
@@ -9628,24 +9696,7 @@ entry(
 )
 
 entry(
-    index = 399,
-    label = "CdCOCl1s",
-    group = 
-"""
-1 * Cd   u1 {2,S} {3,D}
-2   Cl1s u0 {1,S}
-3   CO   u0 {1,D}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 400,
+    index = 398,
     label = "CdCddCl1s",
     group = 
 """
@@ -9662,24 +9713,7 @@ entry(
 )
 
 entry(
-    index = 401,
-    label = "CdCOF1s",
-    group = 
-"""
-1 * Cd  u1 {2,S} {3,D}
-2   F1s u0 {1,S}
-3   CO  u0 {1,D}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 402,
+    index = 399,
     label = "CdCddF1s",
     group = 
 """
@@ -9687,8 +9721,13 @@ entry(
 2   F1s u0 {1,S}
 3   Cdd u0 {1,D}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.209974,-3.36484,-6.35948,-8.68241,-12.1668,-14.7775,-18.9345],'J/(mol*K)'),
+        H298 = (431.851,'kJ/mol'),
+        S298 = (4.79066,'J/(mol*K)'),
+    ),
+    shortDesc = """Derived from Fluorine species in thermo libraries""",
     longDesc = 
 """
 
@@ -9696,7 +9735,7 @@ entry(
 )
 
 entry(
-    index = 403,
+    index = 400,
     label = "CdBr1sCd",
     group = 
 """
@@ -9713,7 +9752,7 @@ entry(
 )
 
 entry(
-    index = 404,
+    index = 401,
     label = "CdCdCl1s",
     group = 
 """
@@ -9730,7 +9769,7 @@ entry(
 )
 
 entry(
-    index = 405,
+    index = 402,
     label = "CdCdF1s",
     group = 
 """
@@ -9738,8 +9777,13 @@ entry(
 2   F1s u0 {1,S}
 3   Cd  u0 {1,D}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-1.81126,-4.99936,-7.57713,-9.70066,-13.1108,-15.6182,-19.3904],'J/(mol*K)'),
+        H298 = (475.97,'kJ/mol'),
+        S298 = (5.3441,'J/(mol*K)'),
+    ),
+    shortDesc = """Derived from Fluorine species in thermo libraries""",
     longDesc = 
 """
 
@@ -9747,7 +9791,7 @@ entry(
 )
 
 entry(
-    index = 406,
+    index = 403,
     label = "CdsJO",
     group = 
 """
@@ -9763,7 +9807,7 @@ entry(
 )
 
 entry(
-    index = 407,
+    index = 404,
     label = "COBr1sO2d",
     group = 
 """
@@ -9780,7 +9824,7 @@ entry(
 )
 
 entry(
-    index = 408,
+    index = 405,
     label = "COCl1sO2d",
     group = 
 """
@@ -9797,7 +9841,7 @@ entry(
 )
 
 entry(
-    index = 409,
+    index = 406,
     label = "COF1sO2d",
     group = 
 """
@@ -9805,8 +9849,13 @@ entry(
 2   F1s u0 {1,S}
 3   O2d u0 {1,D}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-1.5161,-4.14182,-6.58709,-8.81176,-12.5075,-15.1831,-19.205],'J/(mol*K)'),
+        H298 = (423.036,'kJ/mol'),
+        S298 = (1.67394,'J/(mol*K)'),
+    ),
+    shortDesc = """Derived from Fluorine species in thermo libraries""",
     longDesc = 
 """
 
@@ -9814,7 +9863,7 @@ entry(
 )
 
 entry(
-    index = 410,
+    index = 407,
     label = "COJ-NOd",
     group = 
 """
@@ -9836,7 +9885,7 @@ entry(
 )
 
 entry(
-    index = 411,
+    index = 408,
     label = "HCdsJO",
     group = 
 """
@@ -9858,7 +9907,7 @@ entry(
 )
 
 entry(
-    index = 412,
+    index = 409,
     label = "CCJ=O",
     group = 
 """
@@ -9875,7 +9924,7 @@ entry(
 )
 
 entry(
-    index = 413,
+    index = 410,
     label = "CC(C)CJ=O",
     group = 
 """
@@ -9901,7 +9950,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 414,
+    index = 411,
     label = "CC(C)2CJ=O",
     group = 
 """
@@ -9928,7 +9977,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 415,
+    index = 412,
     label = "CC(C)(C=O)CJ=O",
     group = 
 """
@@ -9956,7 +10005,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 416,
+    index = 413,
     label = "C=CC(C)(C=O)CJ=O",
     group = 
 """
@@ -9985,7 +10034,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 417,
+    index = 414,
     label = "C=CC(C)2CJ=O",
     group = 
 """
@@ -10013,7 +10062,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 418,
+    index = 415,
     label = "CC(C)(O)CJ=O",
     group = 
 """
@@ -10040,7 +10089,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 419,
+    index = 416,
     label = "C=CC(C)(O)CJ=O",
     group = 
 """
@@ -10068,7 +10117,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 420,
+    index = 417,
     label = "CCCJ=O",
     group = 
 """
@@ -10093,7 +10142,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 421,
+    index = 418,
     label = "C=OCCJ=O",
     group = 
 """
@@ -10119,7 +10168,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 422,
+    index = 419,
     label = "C=OC=OCJ=O",
     group = 
 """
@@ -10146,7 +10195,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 423,
+    index = 420,
     label = "C=C(C)CJ=O",
     group = 
 """
@@ -10172,7 +10221,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 424,
+    index = 421,
     label = "CsCJ=O",
     group = 
 """
@@ -10194,7 +10243,7 @@ entry(
 )
 
 entry(
-    index = 425,
+    index = 422,
     label = "C=CCJ=O",
     group = 
 """
@@ -10219,7 +10268,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 426,
+    index = 423,
     label = "OC=OCJ=O",
     group = 
 """
@@ -10245,7 +10294,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 427,
+    index = 424,
     label = "(O)CJO",
     group = 
 """
@@ -10262,7 +10311,7 @@ entry(
 )
 
 entry(
-    index = 428,
+    index = 425,
     label = "(O)CJOH",
     group = 
 """
@@ -10285,7 +10334,7 @@ entry(
 )
 
 entry(
-    index = 429,
+    index = 426,
     label = "(O)CJOC",
     group = 
 """
@@ -10310,7 +10359,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 430,
+    index = 427,
     label = "(O)CJOCH3",
     group = 
 """
@@ -10336,7 +10385,7 @@ entry(
 )
 
 entry(
-    index = 431,
+    index = 428,
     label = "(O)CJOCC",
     group = 
 """
@@ -10362,7 +10411,7 @@ entry(
 )
 
 entry(
-    index = 432,
+    index = 429,
     label = "(O)CJOCC2",
     group = 
 """
@@ -10388,7 +10437,7 @@ entry(
 )
 
 entry(
-    index = 433,
+    index = 430,
     label = "(O)CJOCC3",
     group = 
 """
@@ -10414,7 +10463,7 @@ entry(
 )
 
 entry(
-    index = 434,
+    index = 431,
     label = "SCJ=O",
     group = 
 """
@@ -10437,7 +10486,7 @@ From comparison with the saturated closed-shell species, mostly calculated at cb
 )
 
 entry(
-    index = 435,
+    index = 432,
     label = "Cds_P",
     group = 
 """
@@ -10459,7 +10508,7 @@ entry(
 )
 
 entry(
-    index = 436,
+    index = 433,
     label = "C=C=CJ",
     group = 
 """
@@ -10482,7 +10531,7 @@ entry(
 )
 
 entry(
-    index = 437,
+    index = 434,
     label = "N=C=CJ",
     group = 
 """
@@ -10505,7 +10554,7 @@ entry(
 )
 
 entry(
-    index = 438,
+    index = 435,
     label = "Cds_S",
     group = 
 """
@@ -10527,7 +10576,7 @@ entry(
 )
 
 entry(
-    index = 439,
+    index = 436,
     label = "C=CJC=O",
     group = 
 """
@@ -10552,7 +10601,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 440,
+    index = 437,
     label = "C=CJC=C",
     group = 
 """
@@ -10574,7 +10623,7 @@ entry(
 )
 
 entry(
-    index = 441,
+    index = 438,
     label = "cyclobutadiene-C1",
     group = 
 """
@@ -10597,7 +10646,7 @@ entry(
 )
 
 entry(
-    index = 442,
+    index = 439,
     label = "bicyclo[2.2.0]hexa-1(4),2,5-triene-C2",
     group = 
 """
@@ -10622,7 +10671,7 @@ entry(
 )
 
 entry(
-    index = 443,
+    index = 440,
     label = "1,3-cyclopentadiene-vinyl-2",
     group = 
 """
@@ -10646,7 +10695,7 @@ entry(
 )
 
 entry(
-    index = 444,
+    index = 441,
     label = "cyclopropenyl-vinyl",
     group = 
 """
@@ -10668,7 +10717,7 @@ entry(
 )
 
 entry(
-    index = 445,
+    index = 442,
     label = "cyclobutene-vinyl",
     group = 
 """
@@ -10691,7 +10740,7 @@ entry(
 )
 
 entry(
-    index = 446,
+    index = 443,
     label = "bicyclo[2.1.0]pent-2-ene-C2",
     group = 
 """
@@ -10715,7 +10764,7 @@ entry(
 )
 
 entry(
-    index = 447,
+    index = 444,
     label = "tricyclo[2.1.1.0(1,4)]hex-2-ene-C2",
     group = 
 """
@@ -10740,7 +10789,7 @@ entry(
 )
 
 entry(
-    index = 448,
+    index = 445,
     label = "bicyclo[2.2.0]hexa-2,5-diene-C2",
     group = 
 """
@@ -10765,7 +10814,7 @@ entry(
 )
 
 entry(
-    index = 449,
+    index = 446,
     label = "cyclopentene-vinyl",
     group = 
 """
@@ -10789,7 +10838,7 @@ entry(
 )
 
 entry(
-    index = 450,
+    index = 447,
     label = "bicyclo[2.1.1]hex-2-ene-C2",
     group = 
 """
@@ -10814,7 +10863,7 @@ entry(
 )
 
 entry(
-    index = 451,
+    index = 448,
     label = "1,3-cyclopentadiene-vinyl-1",
     group = 
 """
@@ -10838,7 +10887,7 @@ entry(
 )
 
 entry(
-    index = 452,
+    index = 449,
     label = "CCCJ=C=O",
     group = 
 """
@@ -10864,7 +10913,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 453,
+    index = 450,
     label = "CC(C)CJ=C=O",
     group = 
 """
@@ -10891,7 +10940,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 454,
+    index = 451,
     label = "C=C(C)CJ=C=O",
     group = 
 """
@@ -10918,7 +10967,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 455,
+    index = 452,
     label = "OC=CJCb",
     group = 
 """
@@ -10941,7 +10990,7 @@ Fit to CCSD(T)-F12/cc-pVDZ-F12//M06/vtz calculations for OC=[C]c1ccccc1
 )
 
 entry(
-    index = 456,
+    index = 453,
     label = "N=C=CJC",
     group = 
 """
@@ -10964,7 +11013,7 @@ entry(
 )
 
 entry(
-    index = 457,
+    index = 454,
     label = "S2s-CJ=C",
     group = 
 """
@@ -10986,7 +11035,7 @@ entry(
 )
 
 entry(
-    index = 458,
+    index = 455,
     label = "C=CJO",
     group = 
 """
@@ -11010,7 +11059,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 459,
+    index = 456,
     label = "CdJ-NN",
     group = 
 """
@@ -11032,7 +11081,7 @@ entry(
 )
 
 entry(
-    index = 460,
+    index = 457,
     label = "CdJ-CdN",
     group = 
 """
@@ -11054,7 +11103,7 @@ entry(
 )
 
 entry(
-    index = 461,
+    index = 458,
     label = "CdJ-CddN",
     group = 
 """
@@ -11076,7 +11125,7 @@ entry(
 )
 
 entry(
-    index = 462,
+    index = 459,
     label = "CdJ-NdO",
     group = 
 """
@@ -11098,7 +11147,7 @@ entry(
 )
 
 entry(
-    index = 463,
+    index = 460,
     label = "CdJ-NdC",
     group = 
 """
@@ -11120,7 +11169,7 @@ entry(
 )
 
 entry(
-    index = 464,
+    index = 461,
     label = "CdJ-HN3d",
     group = 
 """
@@ -11142,7 +11191,7 @@ entry(
 )
 
 entry(
-    index = 465,
+    index = 462,
     label = "CdJ-H(N3dOs)",
     group = 
 """
@@ -11165,7 +11214,7 @@ entry(
 )
 
 entry(
-    index = 466,
+    index = 463,
     label = "CdJ-H(N3dCO)",
     group = 
 """
@@ -11189,7 +11238,7 @@ entry(
 )
 
 entry(
-    index = 467,
+    index = 464,
     label = "CdJ-H(N3dN3d)",
     group = 
 """
@@ -11212,7 +11261,7 @@ entry(
 )
 
 entry(
-    index = 468,
+    index = 465,
     label = "CdJ-H(N3dCd)",
     group = 
 """
@@ -11235,7 +11284,7 @@ entry(
 )
 
 entry(
-    index = 469,
+    index = 466,
     label = "CdJ-HN5dc",
     group = 
 """
@@ -11257,7 +11306,7 @@ entry(
 )
 
 entry(
-    index = 470,
+    index = 467,
     label = "CtJ",
     group = 
 """
@@ -11273,7 +11322,7 @@ entry(
 )
 
 entry(
-    index = 471,
+    index = 468,
     label = "Acetyl",
     group = 
 """
@@ -11295,7 +11344,7 @@ entry(
 )
 
 entry(
-    index = 472,
+    index = 469,
     label = "CbJ",
     group = 
 """
@@ -11317,7 +11366,7 @@ entry(
 )
 
 entry(
-    index = 473,
+    index = 470,
     label = "C=SJ",
     group = 
 """
@@ -11333,7 +11382,7 @@ entry(
 )
 
 entry(
-    index = 474,
+    index = 471,
     label = "C=SJ-S2s",
     group = 
 """
@@ -11350,7 +11399,7 @@ entry(
 )
 
 entry(
-    index = 475,
+    index = 472,
     label = "C=SJ-H",
     group = 
 """
@@ -11372,7 +11421,7 @@ entry(
 )
 
 entry(
-    index = 476,
+    index = 473,
     label = "C=SJ-C",
     group = 
 """
@@ -11389,7 +11438,7 @@ entry(
 )
 
 entry(
-    index = 477,
+    index = 474,
     label = "C=SJ-Cd",
     group = 
 """
@@ -11411,7 +11460,7 @@ entry(
 )
 
 entry(
-    index = 478,
+    index = 475,
     label = "C=SJ-Cs",
     group = 
 """
@@ -11433,7 +11482,7 @@ entry(
 )
 
 entry(
-    index = 479,
+    index = 476,
     label = "OJ",
     group = 
 """
@@ -11448,7 +11497,7 @@ entry(
 )
 
 entry(
-    index = 480,
+    index = 477,
     label = "HOJ",
     group = 
 """
@@ -11469,7 +11518,7 @@ entry(
 )
 
 entry(
-    index = 481,
+    index = 478,
     label = "COJ",
     group = 
 """
@@ -11485,7 +11534,7 @@ entry(
 )
 
 entry(
-    index = 482,
+    index = 479,
     label = "CCOJ",
     group = 
 """
@@ -11509,7 +11558,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 483,
+    index = 480,
     label = "C=OCOJ",
     group = 
 """
@@ -11534,7 +11583,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 484,
+    index = 481,
     label = "C=CC(C)(C=O)OJ",
     group = 
 """
@@ -11562,7 +11611,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 485,
+    index = 482,
     label = "CC(C)(C=O)OJ",
     group = 
 """
@@ -11589,7 +11638,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 486,
+    index = 483,
     label = "C=OC=OOJ",
     group = 
 """
@@ -11615,7 +11664,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 487,
+    index = 484,
     label = "CC(C)OJ",
     group = 
 """
@@ -11640,7 +11689,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 488,
+    index = 485,
     label = "CC(C)2OJ",
     group = 
 """
@@ -11666,7 +11715,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 489,
+    index = 486,
     label = "C=CC(C)2OJ",
     group = 
 """
@@ -11693,7 +11742,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 490,
+    index = 487,
     label = "CC(C)(O)OJ",
     group = 
 """
@@ -11719,7 +11768,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 491,
+    index = 488,
     label = "C=CC(C)(O)OJ",
     group = 
 """
@@ -11746,7 +11795,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 492,
+    index = 489,
     label = "C=C(C)OJ",
     group = 
 """
@@ -11771,7 +11820,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 493,
+    index = 490,
     label = "CdsOJ",
     group = 
 """
@@ -11787,7 +11836,7 @@ entry(
 )
 
 entry(
-    index = 494,
+    index = 491,
     label = "RC=COJ",
     group = 
 """
@@ -11808,7 +11857,7 @@ entry(
 )
 
 entry(
-    index = 495,
+    index = 492,
     label = "C=COJ",
     group = 
 """
@@ -11832,7 +11881,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 496,
+    index = 493,
     label = "N=COJ",
     group = 
 """
@@ -11854,7 +11903,7 @@ entry(
 )
 
 entry(
-    index = 497,
+    index = 494,
     label = "OJC=O",
     group = 
 """
@@ -11876,7 +11925,7 @@ entry(
 )
 
 entry(
-    index = 498,
+    index = 495,
     label = "OC=OOJ",
     group = 
 """
@@ -11901,7 +11950,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 499,
+    index = 496,
     label = "OCOJ",
     group = 
 """
@@ -11925,7 +11974,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 500,
+    index = 497,
     label = "SCOJ",
     group = 
 """
@@ -11948,7 +11997,7 @@ From comparison with the saturated closed-shell species, mostly calculated at cb
 )
 
 entry(
-    index = 501,
+    index = 498,
     label = "CsOJ",
     group = 
 """
@@ -11969,7 +12018,7 @@ entry(
 )
 
 entry(
-    index = 502,
+    index = 499,
     label = "H3COJ",
     group = 
 """
@@ -11993,7 +12042,7 @@ entry(
 )
 
 entry(
-    index = 503,
+    index = 500,
     label = "CbOJ",
     group = 
 """
@@ -12009,7 +12058,7 @@ entry(
 )
 
 entry(
-    index = 504,
+    index = 501,
     label = "OOJ",
     group = 
 """
@@ -12025,7 +12074,7 @@ entry(
 )
 
 entry(
-    index = 505,
+    index = 502,
     label = "ROOJ",
     group = 
 """
@@ -12047,7 +12096,7 @@ entry(
 )
 
 entry(
-    index = 506,
+    index = 503,
     label = "C(=O)OOJ",
     group = 
 """
@@ -12070,7 +12119,7 @@ entry(
 )
 
 entry(
-    index = 507,
+    index = 504,
     label = "C3COOJ",
     group = 
 """
@@ -12095,7 +12144,7 @@ entry(
 )
 
 entry(
-    index = 508,
+    index = 505,
     label = "SOOJ",
     group = 
 """
@@ -12118,7 +12167,7 @@ From comparison with the saturated closed-shell species, mostly calculated at cb
 )
 
 entry(
-    index = 509,
+    index = 506,
     label = "HOOJ",
     group = 
 """
@@ -12140,7 +12189,7 @@ entry(
 )
 
 entry(
-    index = 510,
+    index = 507,
     label = "SOJ",
     group = 
 """
@@ -12156,7 +12205,7 @@ entry(
 )
 
 entry(
-    index = 511,
+    index = 508,
     label = "O2sJ-S2s",
     group = 
 """
@@ -12178,7 +12227,7 @@ From comparison with the saturated closed-shell species, mostly calculated at cb
 )
 
 entry(
-    index = 512,
+    index = 509,
     label = "O2sJ-S4d",
     group = 
 """
@@ -12195,7 +12244,7 @@ From comparison with the saturated closed-shell species, mostly calculated at cb
 )
 
 entry(
-    index = 513,
+    index = 510,
     label = "O2sJ-(S4d-OdO)",
     group = 
 """
@@ -12219,7 +12268,7 @@ From comparison with the saturated closed-shell species, mostly calculated at cb
 )
 
 entry(
-    index = 514,
+    index = 511,
     label = "O2sJ-(S4d-OdC)",
     group = 
 """
@@ -12243,7 +12292,7 @@ From comparison with the saturated closed-shell species, mostly calculated at cb
 )
 
 entry(
-    index = 515,
+    index = 512,
     label = "O2sJ-(S4d-OdH)",
     group = 
 """
@@ -12267,7 +12316,7 @@ From comparison with the saturated closed-shell species, mostly calculated at cb
 )
 
 entry(
-    index = 516,
+    index = 513,
     label = "O2sJ-(S4d-CdC)",
     group = 
 """
@@ -12291,7 +12340,7 @@ From comparison with the saturated closed-shell species, mostly calculated at cb
 )
 
 entry(
-    index = 517,
+    index = 514,
     label = "O2sJ-S6d",
     group = 
 """
@@ -12313,7 +12362,7 @@ From comparison with the saturated closed-shell species, mostly calculated at cb
 )
 
 entry(
-    index = 518,
+    index = 515,
     label = "O2sJ-N",
     group = 
 """
@@ -12329,7 +12378,7 @@ entry(
 )
 
 entry(
-    index = 519,
+    index = 516,
     label = "O2sJ-N3s",
     group = 
 """
@@ -12345,7 +12394,7 @@ entry(
 )
 
 entry(
-    index = 520,
+    index = 517,
     label = "O2sJ-N3sC",
     group = 
 """
@@ -12367,7 +12416,7 @@ entry(
 )
 
 entry(
-    index = 521,
+    index = 518,
     label = "O2sJ-N3sCO",
     group = 
 """
@@ -12390,7 +12439,7 @@ entry(
 )
 
 entry(
-    index = 522,
+    index = 519,
     label = "O2sJ-N3sO2s",
     group = 
 """
@@ -12412,7 +12461,7 @@ entry(
 )
 
 entry(
-    index = 523,
+    index = 520,
     label = "O2sJ-N3s(N5sdcO0sc)",
     group = 
 """
@@ -12435,7 +12484,7 @@ entry(
 )
 
 entry(
-    index = 524,
+    index = 521,
     label = "O2sJ-N5sdtc",
     group = 
 """
@@ -12456,7 +12505,7 @@ entry(
 )
 
 entry(
-    index = 525,
+    index = 522,
     label = "O2sJ-N5dcOd",
     group = 
 """
@@ -12478,7 +12527,7 @@ entry(
 )
 
 entry(
-    index = 526,
+    index = 523,
     label = "O2sJ-N5dcOdO0sc",
     group = 
 """
@@ -12501,7 +12550,7 @@ entry(
 )
 
 entry(
-    index = 527,
+    index = 524,
     label = "O2sJ-N1sc",
     group = 
 """
@@ -12522,7 +12571,7 @@ entry(
 )
 
 entry(
-    index = 528,
+    index = 525,
     label = "O2sJ-N3dN3d",
     group = 
 """
@@ -12544,7 +12593,7 @@ entry(
 )
 
 entry(
-    index = 529,
+    index = 526,
     label = "O2sJ-N3dCd",
     group = 
 """
@@ -12566,7 +12615,7 @@ entry(
 )
 
 entry(
-    index = 530,
+    index = 527,
     label = "SiJ",
     group = 
 """
@@ -12581,7 +12630,7 @@ entry(
 )
 
 entry(
-    index = 531,
+    index = 528,
     label = "SJ",
     group = 
 """
@@ -12596,7 +12645,7 @@ entry(
 )
 
 entry(
-    index = 532,
+    index = 529,
     label = "S2J",
     group = 
 """
@@ -12611,7 +12660,7 @@ entry(
 )
 
 entry(
-    index = 533,
+    index = 530,
     label = "S2J-H",
     group = 
 """
@@ -12632,7 +12681,7 @@ entry(
 )
 
 entry(
-    index = 534,
+    index = 531,
     label = "S2J-C",
     group = 
 """
@@ -12648,7 +12697,7 @@ entry(
 )
 
 entry(
-    index = 535,
+    index = 532,
     label = "S2J-Cs",
     group = 
 """
@@ -12665,7 +12714,7 @@ From comparison with the saturated closed-shell species, mostly calculated at cb
 )
 
 entry(
-    index = 536,
+    index = 533,
     label = "S2sJ-(CsHHH)",
     group = 
 """
@@ -12690,7 +12739,7 @@ From comparison with the saturated closed-shell species, mostly calculated at cb
 )
 
 entry(
-    index = 537,
+    index = 534,
     label = "S2J-(Cs-Cb)",
     group = 
 """
@@ -12713,7 +12762,7 @@ From comparison with the saturated closed-shell species, mostly calculated at cb
 )
 
 entry(
-    index = 538,
+    index = 535,
     label = "S2J-Ct",
     group = 
 """
@@ -12734,7 +12783,7 @@ entry(
 )
 
 entry(
-    index = 539,
+    index = 536,
     label = "S2J-Cb",
     group = 
 """
@@ -12755,7 +12804,7 @@ entry(
 )
 
 entry(
-    index = 540,
+    index = 537,
     label = "S2J-Cd",
     group = 
 """
@@ -12777,7 +12826,7 @@ entry(
 )
 
 entry(
-    index = 541,
+    index = 538,
     label = "S2J-C=S",
     group = 
 """
@@ -12799,7 +12848,7 @@ entry(
 )
 
 entry(
-    index = 542,
+    index = 539,
     label = "S2J-CO",
     group = 
 """
@@ -12821,7 +12870,7 @@ entry(
 )
 
 entry(
-    index = 543,
+    index = 540,
     label = "S2J-S2s",
     group = 
 """
@@ -12837,7 +12886,7 @@ entry(
 )
 
 entry(
-    index = 544,
+    index = 541,
     label = "S2J-S2s-H",
     group = 
 """
@@ -12859,7 +12908,7 @@ entry(
 )
 
 entry(
-    index = 545,
+    index = 542,
     label = "S2J-S2s-Cs",
     group = 
 """
@@ -12881,7 +12930,7 @@ entry(
 )
 
 entry(
-    index = 546,
+    index = 543,
     label = "S2J-S2s-S2s",
     group = 
 """
@@ -12903,7 +12952,7 @@ entry(
 )
 
 entry(
-    index = 547,
+    index = 544,
     label = "S2sJ-O",
     group = 
 """
@@ -12925,7 +12974,7 @@ From comparison with the saturated closed-shell species, mostly calculated at cb
 )
 
 entry(
-    index = 548,
+    index = 545,
     label = "S4sJ",
     group = 
 """
@@ -12940,7 +12989,7 @@ entry(
 )
 
 entry(
-    index = 549,
+    index = 546,
     label = "S4sJ-CCC",
     group = 
 """
@@ -12964,7 +13013,7 @@ Calculated at CBS-QB3
 )
 
 entry(
-    index = 550,
+    index = 547,
     label = "S4sJ-OCC",
     group = 
 """
@@ -12988,7 +13037,7 @@ Based on radical calculations at CBS-QB3
 )
 
 entry(
-    index = 551,
+    index = 548,
     label = "S4dJ",
     group = 
 """
@@ -13003,7 +13052,7 @@ entry(
 )
 
 entry(
-    index = 552,
+    index = 549,
     label = "S4dJ-OdH",
     group = 
 """
@@ -13026,7 +13075,7 @@ From comparison with the saturated closed-shell species, mostly calculated at cb
 )
 
 entry(
-    index = 553,
+    index = 550,
     label = "S4dJ-OdO",
     group = 
 """
@@ -13049,7 +13098,7 @@ From comparison with the saturated closed-shell species, mostly calculated at cb
 )
 
 entry(
-    index = 554,
+    index = 551,
     label = "S6sJ",
     group = 
 """
@@ -13064,7 +13113,7 @@ entry(
 )
 
 entry(
-    index = 555,
+    index = 552,
     label = "S6sJ-CCCCC",
     group = 
 """
@@ -13090,7 +13139,7 @@ From comparison with the saturated closed-shell species, mostly calculated at cb
 )
 
 entry(
-    index = 556,
+    index = 553,
     label = "S6dJ",
     group = 
 """
@@ -13105,7 +13154,7 @@ entry(
 )
 
 entry(
-    index = 557,
+    index = 554,
     label = "S6dJ-OdOCC",
     group = 
 """
@@ -13130,7 +13179,7 @@ Based on radical calculations at CBS-QB3
 )
 
 entry(
-    index = 558,
+    index = 555,
     label = "S6ddJ",
     group = 
 """
@@ -13145,7 +13194,7 @@ entry(
 )
 
 entry(
-    index = 559,
+    index = 556,
     label = "S6ddJ-OdOdH",
     group = 
 """
@@ -13169,7 +13218,7 @@ From comparison with the saturated closed-shell species, mostly calculated at cb
 )
 
 entry(
-    index = 560,
+    index = 557,
     label = "S6ddJ-OdOdO",
     group = 
 """
@@ -13193,7 +13242,7 @@ From comparison with the saturated closed-shell species, mostly calculated at cb
 )
 
 entry(
-    index = 561,
+    index = 558,
     label = "NJ",
     group = 
 """
@@ -13208,7 +13257,7 @@ entry(
 )
 
 entry(
-    index = 562,
+    index = 559,
     label = "N5scJ-HNO",
     group = 
 """
@@ -13231,7 +13280,7 @@ entry(
 )
 
 entry(
-    index = 563,
+    index = 560,
     label = "N5scJ-NNO",
     group = 
 """
@@ -13254,7 +13303,7 @@ entry(
 )
 
 entry(
-    index = 564,
+    index = 561,
     label = "N5scJ-HOO",
     group = 
 """
@@ -13277,7 +13326,7 @@ entry(
 )
 
 entry(
-    index = 565,
+    index = 562,
     label = "N5scJ-NOO",
     group = 
 """
@@ -13300,7 +13349,7 @@ entry(
 )
 
 entry(
-    index = 566,
+    index = 563,
     label = "N5scJ-CHO",
     group = 
 """
@@ -13323,7 +13372,7 @@ entry(
 )
 
 entry(
-    index = 567,
+    index = 564,
     label = "N5scJ-CNO",
     group = 
 """
@@ -13346,7 +13395,7 @@ entry(
 )
 
 entry(
-    index = 568,
+    index = 565,
     label = "N5scJ-COO",
     group = 
 """
@@ -13369,7 +13418,7 @@ entry(
 )
 
 entry(
-    index = 569,
+    index = 566,
     label = "N5scJ-CCO",
     group = 
 """
@@ -13392,7 +13441,7 @@ entry(
 )
 
 entry(
-    index = 570,
+    index = 567,
     label = "N5dcJ-NOd",
     group = 
 """
@@ -13414,7 +13463,7 @@ entry(
 )
 
 entry(
-    index = 571,
+    index = 568,
     label = "N5dcJ-NdO",
     group = 
 """
@@ -13436,7 +13485,7 @@ entry(
 )
 
 entry(
-    index = 572,
+    index = 569,
     label = "N5dcJ-CdO",
     group = 
 """
@@ -13458,7 +13507,7 @@ entry(
 )
 
 entry(
-    index = 573,
+    index = 570,
     label = "N3sJ-NN",
     group = 
 """
@@ -13480,7 +13529,7 @@ entry(
 )
 
 entry(
-    index = 574,
+    index = 571,
     label = "N3sJ-NO",
     group = 
 """
@@ -13502,7 +13551,7 @@ entry(
 )
 
 entry(
-    index = 575,
+    index = 572,
     label = "N3sJ-OO",
     group = 
 """
@@ -13524,7 +13573,7 @@ entry(
 )
 
 entry(
-    index = 576,
+    index = 573,
     label = "N3sJ-CN",
     group = 
 """
@@ -13546,7 +13595,7 @@ entry(
 )
 
 entry(
-    index = 577,
+    index = 574,
     label = "N3sJ-CO",
     group = 
 """
@@ -13568,7 +13617,7 @@ entry(
 )
 
 entry(
-    index = 578,
+    index = 575,
     label = "N3sJ-CtO",
     group = 
 """
@@ -13590,7 +13639,7 @@ entry(
 )
 
 entry(
-    index = 579,
+    index = 576,
     label = "N3sJ",
     group = 
 """
@@ -13605,7 +13654,7 @@ entry(
 )
 
 entry(
-    index = 580,
+    index = 577,
     label = "NH2J",
     group = 
 """
@@ -13627,7 +13676,7 @@ entry(
 )
 
 entry(
-    index = 581,
+    index = 578,
     label = "NHJ_C",
     group = 
 """
@@ -13649,7 +13698,7 @@ entry(
 )
 
 entry(
-    index = 582,
+    index = 579,
     label = "NHJ_Cd",
     group = 
 """
@@ -13671,7 +13720,7 @@ entry(
 )
 
 entry(
-    index = 583,
+    index = 580,
     label = "NHJ_O",
     group = 
 """
@@ -13693,7 +13742,7 @@ entry(
 )
 
 entry(
-    index = 584,
+    index = 581,
     label = "NHJ_N",
     group = 
 """
@@ -13715,7 +13764,7 @@ entry(
 )
 
 entry(
-    index = 585,
+    index = 582,
     label = "NHJ_N3d",
     group = 
 """
@@ -13737,7 +13786,7 @@ entry(
 )
 
 entry(
-    index = 586,
+    index = 583,
     label = "NHJ_N5dc",
     group = 
 """
@@ -13759,7 +13808,7 @@ entry(
 )
 
 entry(
-    index = 587,
+    index = 584,
     label = "NJ_CC",
     group = 
 """
@@ -13781,7 +13830,7 @@ entry(
 )
 
 entry(
-    index = 588,
+    index = 585,
     label = "NJ_CCd",
     group = 
 """
@@ -13803,7 +13852,7 @@ entry(
 )
 
 entry(
-    index = 589,
+    index = 586,
     label = "NJ_CCO",
     group = 
 """
@@ -13826,7 +13875,7 @@ entry(
 )
 
 entry(
-    index = 590,
+    index = 587,
     label = "N3dJ",
     group = 
 """
@@ -13841,7 +13890,7 @@ entry(
 )
 
 entry(
-    index = 591,
+    index = 588,
     label = "N3dJ_C",
     group = 
 """
@@ -13862,7 +13911,7 @@ entry(
 )
 
 entry(
-    index = 592,
+    index = 589,
     label = "N3dJ_Cdd",
     group = 
 """
@@ -13883,7 +13932,7 @@ entry(
 )
 
 entry(
-    index = 593,
+    index = 590,
     label = "N3dJ_O",
     group = 
 """
@@ -13904,7 +13953,7 @@ entry(
 )
 
 entry(
-    index = 594,
+    index = 591,
     label = "N3dJ_N",
     group = 
 """
@@ -13925,7 +13974,7 @@ entry(
 )
 
 entry(
-    index = 595,
+    index = 592,
     label = "N3dJ_N5dc",
     group = 
 """
@@ -13946,7 +13995,7 @@ entry(
 )
 
 entry(
-    index = 596,
+    index = 593,
     label = "N3dJ_N3d",
     group = 
 """
@@ -13967,7 +14016,7 @@ entry(
 )
 
 entry(
-    index = 597,
+    index = 594,
     label = "RJ2_triplet",
     group = 
 """
@@ -13982,7 +14031,7 @@ entry(
 )
 
 entry(
-    index = 598,
+    index = 595,
     label = "CJ2_triplet",
     group = 
 """
@@ -13997,7 +14046,7 @@ entry(
 )
 
 entry(
-    index = 599,
+    index = 596,
     label = "OsCsJ2H_triplet",
     group = 
 """
@@ -14023,7 +14072,7 @@ J. Phys. Chem. A 2012, 116, 9033-9057.
 )
 
 entry(
-    index = 600,
+    index = 597,
     label = "CsJ2_triplet",
     group = 
 """
@@ -14038,7 +14087,7 @@ entry(
 )
 
 entry(
-    index = 601,
+    index = 598,
     label = "CH2_triplet",
     group = 
 """
@@ -14060,7 +14109,7 @@ entry(
 )
 
 entry(
-    index = 602,
+    index = 599,
     label = "CsJ2_P_triplet",
     group = 
 """
@@ -14077,7 +14126,7 @@ entry(
 )
 
 entry(
-    index = 603,
+    index = 600,
     label = "CsCsJ2_triplet",
     group = 
 """
@@ -14094,7 +14143,7 @@ entry(
 )
 
 entry(
-    index = 604,
+    index = 601,
     label = "CCJ2_triplet",
     group = 
 """
@@ -14119,7 +14168,7 @@ entry(
 )
 
 entry(
-    index = 605,
+    index = 602,
     label = "PhCH_triplet",
     group = 
 """
@@ -14141,7 +14190,7 @@ entry(
 )
 
 entry(
-    index = 606,
+    index = 603,
     label = "AllylJ2_triplet",
     group = 
 """
@@ -14163,7 +14212,7 @@ entry(
 )
 
 entry(
-    index = 607,
+    index = 604,
     label = "CsJ2_S_triplet",
     group = 
 """
@@ -14180,7 +14229,7 @@ entry(
 )
 
 entry(
-    index = 608,
+    index = 605,
     label = "CdJ2_triplet",
     group = 
 """
@@ -14195,7 +14244,7 @@ entry(
 )
 
 entry(
-    index = 609,
+    index = 606,
     label = "CCdJ2_triplet",
     group = 
 """
@@ -14211,7 +14260,7 @@ entry(
 )
 
 entry(
-    index = 610,
+    index = 607,
     label = "CdCdJ2_triplet",
     group = 
 """
@@ -14237,7 +14286,7 @@ Fitted to RQCISD(T)/cc-PV(infinity)(Q)Z calculations of:
 )
 
 entry(
-    index = 611,
+    index = 608,
     label = "(CO)CdJ2_triplet",
     group = 
 """
@@ -14262,7 +14311,7 @@ Fitted to RQCISD(T)/cc-PV(infinity)(Q)Z calculations of:
 )
 
 entry(
-    index = 612,
+    index = 609,
     label = "NCdJ2_triplet",
     group = 
 """
@@ -14283,7 +14332,7 @@ entry(
 )
 
 entry(
-    index = 613,
+    index = 610,
     label = "CdJ2-Sd_triplet",
     group = 
 """
@@ -14304,7 +14353,7 @@ entry(
 )
 
 entry(
-    index = 614,
+    index = 611,
     label = "Oa_triplet",
     group = 
 """
@@ -14324,7 +14373,7 @@ entry(
 )
 
 entry(
-    index = 615,
+    index = 612,
     label = "SiJ2_triplet",
     group = 
 """
@@ -14339,7 +14388,7 @@ entry(
 )
 
 entry(
-    index = 616,
+    index = 613,
     label = "SJ2_triplet",
     group = 
 """
@@ -14359,7 +14408,7 @@ entry(
 )
 
 entry(
-    index = 617,
+    index = 614,
     label = "NJ2_triplet",
     group = 
 """
@@ -14374,7 +14423,7 @@ entry(
 )
 
 entry(
-    index = 618,
+    index = 615,
     label = "N3sJ2",
     group = 
 """
@@ -14389,7 +14438,7 @@ entry(
 )
 
 entry(
-    index = 619,
+    index = 616,
     label = "NHJ2",
     group = 
 """
@@ -14410,7 +14459,7 @@ entry(
 )
 
 entry(
-    index = 620,
+    index = 617,
     label = "NJ2_C",
     group = 
 """
@@ -14431,7 +14480,7 @@ entry(
 )
 
 entry(
-    index = 621,
+    index = 618,
     label = "NJ2_O",
     group = 
 """
@@ -14452,7 +14501,7 @@ entry(
 )
 
 entry(
-    index = 622,
+    index = 619,
     label = "RJ3",
     group = 
 """
@@ -14467,7 +14516,7 @@ entry(
 )
 
 entry(
-    index = 623,
+    index = 620,
     label = "CJ3",
     group = 
 """
@@ -14487,7 +14536,7 @@ entry(
 )
 
 entry(
-    index = 624,
+    index = 621,
     label = "SiJ3",
     group = 
 """
@@ -14900,11 +14949,8 @@ L1: Radical
                     L6: CdCsJN
                 L5: C2CsJN
             L4: CdsJ
-                L5: CdBr1sCO
                 L5: CdBr1sCdd
-                L5: CdCOCl1s
                 L5: CdCddCl1s
-                L5: CdCOF1s
                 L5: CdCddF1s
                 L5: CdBr1sCd
                 L5: CdCdCl1s
