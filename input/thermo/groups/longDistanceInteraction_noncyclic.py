@@ -1152,8 +1152,13 @@ entry(
 7    Br1s        u0 {1,S}
 8    [C,H,N,O,S] u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-1.26137,-3.21586,-3.96479,-4.65219,-5.46937,-5.31927,-3.10366],'J/(mol*K)'),
+        H298 = (24.7386,'kJ/mol'),
+        S298 = (14.5448,'J/(mol*K)'),
+    ),
+    shortDesc = """Derived from Bromine species in thermo libraries""",
     longDesc = 
 """
 
@@ -1165,12 +1170,12 @@ entry(
     label = "Cs(Br)3-C(Br)",
     group = 
 """
-1 *1 Cs      u0 {2,S} {3,S} {5,S} {6,S}
-2 *2 [Cs,Cd] u0 {1,S} {4,S}
+1 *1 Cs      u0 {2,S} {3,S} {4,S} {5,S}
+2 *2 [Cs,Cd] u0 {1,S} {6,S}
 3    Br1s    u0 {1,S}
-4    Br1s    u0 {2,S}
+4    Br1s    u0 {1,S}
 5    Br1s    u0 {1,S}
-6    Br1s    u0 {1,S}
+6    Br1s    u0 {2,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -1199,8 +1204,13 @@ entry(
 7    Br1s        u0 {1,S}
 8    [C,H,N,O,S] u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.0616075,-0.591998,-0.782394,-1.22607,-1.884,-1.75009,-0.0281582],'J/(mol*K)'),
+        H298 = (10.5477,'kJ/mol'),
+        S298 = (5.07066,'J/(mol*K)'),
+    ),
+    shortDesc = """Derived from Bromine species in thermo libraries""",
     longDesc = 
 """
 
@@ -1242,8 +1252,13 @@ entry(
 7    [C,H,N,O,S] u0 {1,S}
 8    [C,H,N,O,S] u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-1.79588,-2.57965,-2.59911,-2.58817,-2.33286,-1.90765,-0.778093],'J/(mol*K)'),
+        H298 = (8.05588,'kJ/mol'),
+        S298 = (5.52935,'J/(mol*K)'),
+    ),
+    shortDesc = """Derived from Bromine species in thermo libraries""",
     longDesc = 
 """
 
@@ -1255,12 +1270,12 @@ entry(
     label = "Cs(Br)2-C(Br)",
     group = 
 """
-1 *1 Cs          u0 {2,S} {3,S} {5,S} {6,S}
-2 *2 [Cs,Cd]     u0 {1,S} {4,S}
+1 *1 Cs          u0 {2,S} {3,S} {4,S} {5,S}
+2 *2 [Cs,Cd]     u0 {1,S} {6,S}
 3    Br1s        u0 {1,S}
-4    Br1s        u0 {2,S}
-5    Br1s        u0 {1,S}
-6    [C,H,N,O,S] u0 {1,S}
+4    Br1s        u0 {1,S}
+5    [C,H,N,O,S] u0 {1,S}
+6    Br1s        u0 {2,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -1289,8 +1304,13 @@ entry(
 7    [C,H,N,O,S] u0 {1,S}
 8    [C,H,N,O,S] u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.326439,-1.06733,-0.872835,-0.801797,-0.72407,-0.343688,1.12368],'J/(mol*K)'),
+        H298 = (9.83905,'kJ/mol'),
+        S298 = (-0.0597878,'J/(mol*K)'),
+    ),
+    shortDesc = """Derived from Bromine species in thermo libraries""",
     longDesc = 
 """
 
@@ -1302,16 +1322,21 @@ entry(
     label = "Cs(Br)2-Cds(Br)",
     group = 
 """
-1 *1 Cs          u0 {2,S} {3,S} {5,S} {7,S}
-2 *2 Cd          u0 {1,S} {4,S} {6,D}
+1 *1 Cs          u0 {2,S} {3,S} {4,S} {5,S}
+2 *2 Cd          u0 {1,S} {6,S} {7,D}
 3    Br1s        u0 {1,S}
-4    Br1s        u0 {2,S}
-5    Br1s        u0 {1,S}
-6    [C,N,O,S]   u0 {2,D}
-7    [C,H,N,O,S] u0 {1,S}
+4    Br1s        u0 {1,S}
+5    [C,H,N,O,S] u0 {1,S}
+6    Br1s        u0 {2,S}
+7    [C,N,O,S]   u0 {2,D}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-3.11346,-2.95658,-2.06993,-0.573182,0.891629,1.54872,3.02214],'J/(mol*K)'),
+        H298 = (1.13493,'kJ/mol'),
+        S298 = (0.341285,'J/(mol*K)'),
+    ),
+    shortDesc = """Derived from Bromine species in thermo libraries""",
     longDesc = 
 """
 
@@ -1355,8 +1380,13 @@ entry(
 7    [C,H,N,O,S] u0 {1,S}
 8    [C,H,N,O,S] u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.298748,-0.232254,0.152791,0.385098,0.568146,0.754993,1.15422],'J/(mol*K)'),
+        H298 = (2.62224,'kJ/mol'),
+        S298 = (-1.19321,'J/(mol*K)'),
+    ),
+    shortDesc = """Derived from Bromine species in thermo libraries""",
     longDesc = 
 """
 
@@ -1368,16 +1398,21 @@ entry(
     label = "Cs(Br)-Cds(Br)",
     group = 
 """
-1 *1 Cs          u0 {2,S} {3,S} {5,S} {7,S}
-2 *2 Cd          u0 {1,S} {4,S} {6,D}
+1 *1 Cs          u0 {2,S} {3,S} {4,S} {5,S}
+2 *2 Cd          u0 {1,S} {6,S} {7,D}
 3    Br1s        u0 {1,S}
-4    Br1s        u0 {2,S}
+4    [C,H,N,O,S] u0 {1,S}
 5    [C,H,N,O,S] u0 {1,S}
-6    [C,N,O,S]   u0 {2,D}
-7    [C,H,N,O,S] u0 {1,S}
+6    Br1s        u0 {2,S}
+7    [C,N,O,S]   u0 {2,D}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-2.95746,-2.90816,-2.21198,-1.00569,0.116269,0.800843,2.65696],'J/(mol*K)'),
+        H298 = (2.14458,'kJ/mol'),
+        S298 = (-0.735541,'J/(mol*K)'),
+    ),
+    shortDesc = """Derived from Bromine species in thermo libraries""",
     longDesc = 
 """
 
@@ -1396,8 +1431,13 @@ entry(
 5    [C,N,O,S] u0 {1,D}
 6    [C,N,O,S] u0 {2,D}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.848553,1.90457,1.83845,2.31766,1.76422,1.28937,0.885185],'J/(mol*K)'),
+        H298 = (-0.177434,'kJ/mol'),
+        S298 = (-3.68324,'J/(mol*K)'),
+    ),
+    shortDesc = """Derived from Bromine species in thermo libraries""",
     longDesc = 
 """
 
@@ -1416,8 +1456,13 @@ entry(
 5    [C,H,O,N,S] u0 {1,S}
 6    [C,H,O,N,S] u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([1.56198,1.80563,1.72693,1.50582,0.80628,0.275192,-0.17243],'J/(mol*K)'),
+        H298 = (-0.491826,'kJ/mol'),
+        S298 = (-1.57959,'J/(mol*K)'),
+    ),
+    shortDesc = """Derived from Bromine species in thermo libraries""",
     longDesc = 
 """
 
@@ -1436,8 +1481,13 @@ entry(
 5    Br1s        u0 {1,S}
 6    [C,H,O,N,S] u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([4.96417,5.29651,4.81575,4.12214,2.32288,1.05542,0.192316],'J/(mol*K)'),
+        H298 = (1.69564,'kJ/mol'),
+        S298 = (-7.40438,'J/(mol*K)'),
+    ),
+    shortDesc = """Derived from Bromine species in thermo libraries""",
     longDesc = 
 """
 
@@ -1456,8 +1506,13 @@ entry(
 5    Br1s u0 {1,S}
 6    Br1s u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([2.24901,2.75128,2.39637,2.0226,0.904266,-0.0892755,-0.862529],'J/(mol*K)'),
+        H298 = (1.9332,'kJ/mol'),
+        S298 = (-0.295765,'J/(mol*K)'),
+    ),
+    shortDesc = """Derived from Bromine species in thermo libraries""",
     longDesc = 
 """
 
@@ -1474,8 +1529,13 @@ entry(
 3    Br1s u0 {1,S}
 4    O2d  u0 {2,D}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.0558217,0.122408,0.161036,0.879168,0.513532,0.712393,3.78075],'J/(mol*K)'),
+        H298 = (11.0867,'kJ/mol'),
+        S298 = (-4.66996,'J/(mol*K)'),
+    ),
+    shortDesc = """Derived from Bromine species in thermo libraries""",
     longDesc = 
 """
 
@@ -1492,8 +1552,13 @@ entry(
 3    Br1s u0 {1,S}
 4    O2d  u0 {2,D}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([2.23266,1.36458,0.943371,0.376736,-0.139231,-0.439512,0.637492],'J/(mol*K)'),
+        H298 = (8.57038,'kJ/mol'),
+        S298 = (0.231177,'J/(mol*K)'),
+    ),
+    shortDesc = """Derived from Bromine species in thermo libraries""",
     longDesc = 
 """
 
@@ -1511,8 +1576,13 @@ entry(
 4    Br1s u0 {1,S}
 5    O2d  u0 {2,D}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([1.8799,1.58349,1.18728,0.671541,0.141805,-0.173482,1.00635],'J/(mol*K)'),
+        H298 = (7.89011,'kJ/mol'),
+        S298 = (-3.44795,'J/(mol*K)'),
+    ),
+    shortDesc = """Derived from Bromine species in thermo libraries""",
     longDesc = 
 """
 
@@ -1531,8 +1601,13 @@ entry(
 5    Br1s u0 {1,S}
 6    O2d  u0 {2,D}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([4.36115,3.80596,2.37853,0.58909,-2.05155,-3.01838,-2.43301],'J/(mol*K)'),
+        H298 = (21.0463,'kJ/mol'),
+        S298 = (12.4088,'J/(mol*K)'),
+    ),
+    shortDesc = """Derived from Bromine species in thermo libraries""",
     longDesc = 
 """
 
