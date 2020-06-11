@@ -491,6 +491,81 @@ Divided by two to avoid overcounting
 
 entry(
     index = 18,
+    label = "Cd(Cl)-CO",
+    group = 
+"""
+1 *1 Cd   u0 {2,S} {3,S}
+2 *2 CO   u0 {1,S} {4,D}
+3    Cl1s u0 {1,S}
+4    O2d  u0 {2,D}
+""",
+    thermo = None,
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 19,
+    label = "Cs(Cl)-CO",
+    group = 
+"""
+1 *1 Cs   u0 {2,S} {3,S}
+2 *2 CO   u0 {1,S} {4,D}
+3    Cl1s u0 {1,S}
+4    O2d  u0 {2,D}
+""",
+    thermo = None,
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 20,
+    label = "Cs(Cl)2-CO",
+    group = 
+"""
+1 *1 Cs   u0 {2,S} {3,S} {4,S}
+2 *2 CO   u0 {1,S} {5,D}
+3    Cl1s u0 {1,S}
+4    Cl1s u0 {1,S}
+5    O2d  u0 {2,D}
+""",
+    thermo = None,
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 21,
+    label = "Cs(Cl)3-CO",
+    group = 
+"""
+1 *1 Cs   u0 {2,S} {3,S} {4,S} {5,S}
+2 *2 CO   u0 {1,S} {6,D}
+3    Cl1s u0 {1,S}
+4    Cl1s u0 {1,S}
+5    Cl1s u0 {1,S}
+6    O2d  u0 {2,D}
+""",
+    thermo = None,
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 22,
     label = "intF",
     group = 
 """
@@ -512,7 +587,7 @@ entry(
 )
 
 entry(
-    index = 19,
+    index = 23,
     label = "Cs(F)3-Cs(F)3",
     group = 
 """
@@ -527,9 +602,9 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0.0843551,0.611319,1.24257,1.45446,1.23075,0.734862,0.429729],'J/(mol*K)'),
-        H298 = (8.8165,'kJ/mol'),
-        S298 = (-0.14132,'J/(mol*K)'),
+        Cpdata = ([0.289355,0.764719,1.35437,1.52096,1.22935,0.693462,0.408129],'J/(mol*K)'),
+        H298 = (11.6405,'kJ/mol'),
+        S298 = (0.23968,'J/(mol*K)'),
     ),
     shortDesc = """Derived from Fluorine species in thermo libraries""",
     longDesc = 
@@ -539,7 +614,7 @@ entry(
 )
 
 entry(
-    index = 20,
+    index = 24,
     label = "Cs(F)3-Cs(F)2",
     group = 
 """
@@ -554,9 +629,9 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-0.272339,-1.18779,-1.04603,-0.870551,-0.592065,-0.16441,1.12732],'J/(mol*K)'),
-        H298 = (32.2469,'kJ/mol'),
-        S298 = (4.79092,'J/(mol*K)'),
+        Cpdata = ([0.00386539,-1.16779,-1.08935,-0.957646,-0.713343,-0.285424,1.13656],'J/(mol*K)'),
+        H298 = (36.4148,'kJ/mol'),
+        S298 = (5.4441,'J/(mol*K)'),
     ),
     shortDesc = """Derived from Fluorine species in thermo libraries""",
     longDesc = 
@@ -566,7 +641,7 @@ entry(
 )
 
 entry(
-    index = 21,
+    index = 25,
     label = "Cs(F)3-C(F)",
     group = 
 """
@@ -591,7 +666,7 @@ entry(
 )
 
 entry(
-    index = 22,
+    index = 26,
     label = "Cs(F)3-Cs(F)",
     group = 
 """
@@ -606,9 +681,9 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0.715543,1.12785,1.4689,1.52674,1.44638,1.44022,1.86247],'J/(mol*K)'),
-        H298 = (18.7264,'kJ/mol'),
-        S298 = (-1.50257,'J/(mol*K)'),
+        Cpdata = ([0.94824,1.2667,1.55225,1.5577,1.41314,1.37739,1.84895],'J/(mol*K)'),
+        H298 = (21.813,'kJ/mol'),
+        S298 = (-1.07785,'J/(mol*K)'),
     ),
     shortDesc = """Derived from Fluorine species in thermo libraries""",
     longDesc = 
@@ -618,7 +693,7 @@ entry(
 )
 
 entry(
-    index = 23,
+    index = 27,
     label = "Cs(F)3-Cds(F)",
     group = 
 """
@@ -632,9 +707,9 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-1.89033,-1.91016,-1.65223,-0.974279,-0.59965,-0.236585,0.505353],'J/(mol*K)'),
-        H298 = (30.8412,'kJ/mol'),
-        S298 = (3.94689,'J/(mol*K)'),
+        Cpdata = ([-1.91484,-1.86524,-1.54846,-0.8174,-0.519171,-0.147934,0.902416],'J/(mol*K)'),
+        H298 = (35.0304,'kJ/mol'),
+        S298 = (3.839,'J/(mol*K)'),
     ),
     shortDesc = """Derived from Fluorine species in thermo libraries""",
     longDesc = 
@@ -644,7 +719,7 @@ entry(
 )
 
 entry(
-    index = 24,
+    index = 28,
     label = "Cs(F)2-Cs(F)2",
     group = 
 """
@@ -659,9 +734,9 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-0.633485,-0.855677,-0.570279,-0.382069,-0.211278,0.00946864,0.899222],'J/(mol*K)'),
-        H298 = (12.7233,'kJ/mol'),
-        S298 = (1.8428,'J/(mol*K)'),
+        Cpdata = ([-0.58155,-0.936327,-0.66829,-0.492098,-0.318208,-0.0807247,0.894555],'J/(mol*K)'),
+        H298 = (14.7958,'kJ/mol'),
+        S298 = (1.85706,'J/(mol*K)'),
     ),
     shortDesc = """Derived from Fluorine species in thermo libraries""",
     longDesc = 
@@ -671,7 +746,7 @@ entry(
 )
 
 entry(
-    index = 25,
+    index = 29,
     label = "Cs(F)2-C(F)",
     group = 
 """
@@ -696,7 +771,7 @@ entry(
 )
 
 entry(
-    index = 26,
+    index = 30,
     label = "Cs(F)2-Cs(F)",
     group = 
 """
@@ -711,9 +786,9 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-0.173264,0.536812,1.2467,1.55883,1.61944,1.68082,2.36737],'J/(mol*K)'),
-        H298 = (12.896,'kJ/mol'),
-        S298 = (-0.554929,'J/(mol*K)'),
+        Cpdata = ([-0.0594872,0.510005,1.19321,1.48268,1.53667,1.60532,2.39063],'J/(mol*K)'),
+        H298 = (15.7371,'kJ/mol'),
+        S298 = (-0.589991,'J/(mol*K)'),
     ),
     shortDesc = """Derived from Fluorine species in thermo libraries""",
     longDesc = 
@@ -723,7 +798,7 @@ entry(
 )
 
 entry(
-    index = 27,
+    index = 31,
     label = "Cs(F)2-Cds(F)",
     group = 
 """
@@ -737,9 +812,9 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-0.981323,-0.875943,-0.835268,-0.306014,-0.132743,0.0934748,0.837569],'J/(mol*K)'),
-        H298 = (24.5629,'kJ/mol'),
-        S298 = (3.54066,'J/(mol*K)'),
+        Cpdata = ([-1.21408,-1.06147,-0.921592,-0.29769,-0.136948,0.149593,1.27553],'J/(mol*K)'),
+        H298 = (28.1634,'kJ/mol'),
+        S298 = (2.86983,'J/(mol*K)'),
     ),
     shortDesc = """Derived from Fluorine species in thermo libraries""",
     longDesc = 
@@ -749,7 +824,7 @@ entry(
 )
 
 entry(
-    index = 28,
+    index = 32,
     label = "C(F)-C(F)",
     group = 
 """
@@ -772,7 +847,7 @@ entry(
 )
 
 entry(
-    index = 29,
+    index = 33,
     label = "Cs(F)-Cs(F)",
     group = 
 """
@@ -787,9 +862,9 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-0.441064,0.09717,0.589545,0.867111,1.02808,1.08842,1.36608],'J/(mol*K)'),
-        H298 = (3.19547,'kJ/mol'),
-        S298 = (-1.12282,'J/(mol*K)'),
+        Cpdata = ([-0.34569,0.170906,0.654646,0.922377,1.07562,1.126,1.41746],'J/(mol*K)'),
+        H298 = (4.06715,'kJ/mol'),
+        S298 = (-1.11643,'J/(mol*K)'),
     ),
     shortDesc = """Derived from Fluorine species in thermo libraries""",
     longDesc = 
@@ -799,7 +874,7 @@ entry(
 )
 
 entry(
-    index = 30,
+    index = 34,
     label = "Cs(F)-Cds(F)",
     group = 
 """
@@ -813,9 +888,9 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-1.2322,-1.16047,-1.14233,-0.541341,-0.363069,-0.170037,0.662619],'J/(mol*K)'),
-        H298 = (15.2272,'kJ/mol'),
-        S298 = (3.97011,'J/(mol*K)'),
+        Cpdata = ([-1.36619,-1.17103,-1.04364,-0.339721,-0.17259,0.0578569,1.20989],'J/(mol*K)'),
+        H298 = (17.7468,'kJ/mol'),
+        S298 = (3.39948,'J/(mol*K)'),
     ),
     shortDesc = """Derived from Fluorine species in thermo libraries""",
     longDesc = 
@@ -825,7 +900,7 @@ entry(
 )
 
 entry(
-    index = 31,
+    index = 35,
     label = "Cds(F)-Cds(F)",
     group = 
 """
@@ -838,9 +913,9 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0.229286,2.55296,3.19287,3.8085,3.63725,3.21069,1.73127],'J/(mol*K)'),
-        H298 = (4.59275,'kJ/mol'),
-        S298 = (-3.1931,'J/(mol*K)'),
+        Cpdata = ([-0.0912434,2.39478,3.16522,3.91249,3.75261,3.39173,2.24695],'J/(mol*K)'),
+        H298 = (5.53107,'kJ/mol'),
+        S298 = (-3.80501,'J/(mol*K)'),
     ),
     shortDesc = """Derived from Fluorine species in thermo libraries""",
     longDesc = 
@@ -850,7 +925,7 @@ entry(
 )
 
 entry(
-    index = 32,
+    index = 36,
     label = "Cds(F)=Cds(F)",
     group = 
 """
@@ -863,9 +938,9 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([1.83826,1.89985,1.51617,1.16853,0.524393,0.0778739,-0.0883132],'J/(mol*K)'),
-        H298 = (7.61965,'kJ/mol'),
-        S298 = (0.282989,'J/(mol*K)'),
+        Cpdata = ([1.82635,1.91121,1.53512,1.1921,0.547734,0.10789,-0.069506],'J/(mol*K)'),
+        H298 = (6.75873,'kJ/mol'),
+        S298 = (0.303027,'J/(mol*K)'),
     ),
     shortDesc = """Derived from Fluorine species in thermo libraries""",
     longDesc = 
@@ -875,7 +950,7 @@ entry(
 )
 
 entry(
-    index = 33,
+    index = 37,
     label = "Cds(F)2=Cds(F)",
     group = 
 """
@@ -888,9 +963,9 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([4.75832,4.95646,4.21456,3.31735,1.73678,0.632414,-0.0642652],'J/(mol*K)'),
-        H298 = (25.0498,'kJ/mol'),
-        S298 = (-0.777122,'J/(mol*K)'),
+        Cpdata = ([4.80403,5.01291,4.26048,3.34701,1.76742,0.667437,-0.123315],'J/(mol*K)'),
+        H298 = (22.8737,'kJ/mol'),
+        S298 = (-0.585465,'J/(mol*K)'),
     ),
     shortDesc = """Derived from Fluorine species in thermo libraries""",
     longDesc = 
@@ -900,7 +975,7 @@ entry(
 )
 
 entry(
-    index = 34,
+    index = 38,
     label = "Cds(F)2=Cds(F)2",
     group = 
 """
@@ -913,8 +988,8 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([2.41066,3.53104,3.49548,3.08211,1.96719,0.927726,-0.193132],'J/(mol*K)'),
-        H298 = (21.5671,'kJ/mol'),
+        Cpdata = ([2.35276,3.50524,3.47958,3.08051,1.98889,0.960126,-0.194432],'J/(mol*K)'),
+        H298 = (19.9921,'kJ/mol'),
         S298 = (-0.0260821,'J/(mol*K)'),
     ),
     shortDesc = """Derived from Fluorine species in thermo libraries""",
@@ -925,7 +1000,102 @@ entry(
 )
 
 entry(
-    index = 35,
+    index = 39,
+    label = "Cd(F)-CO",
+    group = 
+"""
+1 *1 Cd  u0 {2,S} {3,S}
+2 *2 CO  u0 {1,S} {4,D}
+3    F1s u0 {1,S}
+4    O2d u0 {2,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-3.80305,-2.39807,-1.0135,0.457324,0.926104,1.65051,5.2633],'J/(mol*K)'),
+        H298 = (16.4238,'kJ/mol'),
+        S298 = (-6.23693,'J/(mol*K)'),
+    ),
+    shortDesc = """Derived from Fluorine species in thermo libraries""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 40,
+    label = "Cs(F)-CO",
+    group = 
+"""
+1 *1 Cs  u0 {2,S} {3,S}
+2 *2 CO  u0 {1,S} {4,D}
+3    F1s u0 {1,S}
+4    O2d u0 {2,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([1.07337,0.884697,0.972558,0.940696,0.809972,0.60741,0.932122],'J/(mol*K)'),
+        H298 = (20.4793,'kJ/mol'),
+        S298 = (0.053619,'J/(mol*K)'),
+    ),
+    shortDesc = """Derived from Fluorine species in thermo libraries""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 41,
+    label = "Cs(F)2-CO",
+    group = 
+"""
+1 *1 Cs  u0 {2,S} {3,S} {4,S}
+2 *2 CO  u0 {1,S} {5,D}
+3    F1s u0 {1,S}
+4    F1s u0 {1,S}
+5    O2d u0 {2,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.818345,-0.252834,-0.481084,-0.785642,-1.06231,-1.04452,-0.161197],'J/(mol*K)'),
+        H298 = (35.0442,'kJ/mol'),
+        S298 = (-0.417999,'J/(mol*K)'),
+    ),
+    shortDesc = """Derived from Fluorine species in thermo libraries""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 42,
+    label = "Cs(F)3-CO",
+    group = 
+"""
+1 *1 Cs  u0 {2,S} {3,S} {4,S} {5,S}
+2 *2 CO  u0 {1,S} {6,D}
+3    F1s u0 {1,S}
+4    F1s u0 {1,S}
+5    F1s u0 {1,S}
+6    O2d u0 {2,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([2.61411,1.87944,1.30665,0.68918,-0.261861,-0.799591,-0.40815],'J/(mol*K)'),
+        H298 = (39.3408,'kJ/mol'),
+        S298 = (4.65702,'J/(mol*K)'),
+    ),
+    shortDesc = """Derived from Fluorine species in thermo libraries""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 43,
     label = "intBr",
     group = 
 """
@@ -947,7 +1117,7 @@ entry(
 )
 
 entry(
-    index = 36,
+    index = 44,
     label = "Cs(Br)3-Cs(Br)3",
     group = 
 """
@@ -969,7 +1139,7 @@ entry(
 )
 
 entry(
-    index = 37,
+    index = 45,
     label = "Cs(Br)3-Cs(Br)2",
     group = 
 """
@@ -991,7 +1161,7 @@ entry(
 )
 
 entry(
-    index = 38,
+    index = 46,
     label = "Cs(Br)3-C(Br)",
     group = 
 """
@@ -1016,7 +1186,7 @@ entry(
 )
 
 entry(
-    index = 39,
+    index = 47,
     label = "Cs(Br)3-Cs(Br)",
     group = 
 """
@@ -1038,7 +1208,7 @@ entry(
 )
 
 entry(
-    index = 40,
+    index = 48,
     label = "Cs(Br)3-Cds(Br)",
     group = 
 """
@@ -1059,7 +1229,7 @@ entry(
 )
 
 entry(
-    index = 41,
+    index = 49,
     label = "Cs(Br)2-Cs(Br)2",
     group = 
 """
@@ -1081,7 +1251,7 @@ entry(
 )
 
 entry(
-    index = 42,
+    index = 50,
     label = "Cs(Br)2-C(Br)",
     group = 
 """
@@ -1106,7 +1276,7 @@ entry(
 )
 
 entry(
-    index = 43,
+    index = 51,
     label = "Cs(Br)2-Cs(Br)",
     group = 
 """
@@ -1128,7 +1298,7 @@ entry(
 )
 
 entry(
-    index = 44,
+    index = 52,
     label = "Cs(Br)2-Cds(Br)",
     group = 
 """
@@ -1149,7 +1319,7 @@ entry(
 )
 
 entry(
-    index = 45,
+    index = 53,
     label = "C(Br)-C(Br)",
     group = 
 """
@@ -1172,7 +1342,7 @@ entry(
 )
 
 entry(
-    index = 46,
+    index = 54,
     label = "Cs(Br)-Cs(Br)",
     group = 
 """
@@ -1194,7 +1364,7 @@ entry(
 )
 
 entry(
-    index = 47,
+    index = 55,
     label = "Cs(Br)-Cds(Br)",
     group = 
 """
@@ -1215,7 +1385,7 @@ entry(
 )
 
 entry(
-    index = 48,
+    index = 56,
     label = "Cds(Br)-Cds(Br)",
     group = 
 """
@@ -1235,7 +1405,7 @@ entry(
 )
 
 entry(
-    index = 49,
+    index = 57,
     label = "Cds(Br)=Cds(Br)",
     group = 
 """
@@ -1255,7 +1425,7 @@ entry(
 )
 
 entry(
-    index = 50,
+    index = 58,
     label = "Cds(Br)2=Cds(Br)",
     group = 
 """
@@ -1275,7 +1445,7 @@ entry(
 )
 
 entry(
-    index = 51,
+    index = 59,
     label = "Cds(Br)2=Cds(Br)2",
     group = 
 """
@@ -1295,7 +1465,82 @@ entry(
 )
 
 entry(
-    index = 52,
+    index = 60,
+    label = "Cd(Br)-CO",
+    group = 
+"""
+1 *1 Cd   u0 {2,S} {3,S}
+2 *2 CO   u0 {1,S} {4,D}
+3    Br1s u0 {1,S}
+4    O2d  u0 {2,D}
+""",
+    thermo = None,
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 61,
+    label = "Cs(Br)-CO",
+    group = 
+"""
+1 *1 Cs   u0 {2,S} {3,S}
+2 *2 CO   u0 {1,S} {4,D}
+3    Br1s u0 {1,S}
+4    O2d  u0 {2,D}
+""",
+    thermo = None,
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 62,
+    label = "Cs(Br)2-CO",
+    group = 
+"""
+1 *1 Cs   u0 {2,S} {3,S} {4,S}
+2 *2 CO   u0 {1,S} {5,D}
+3    Br1s u0 {1,S}
+4    Br1s u0 {1,S}
+5    O2d  u0 {2,D}
+""",
+    thermo = None,
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 63,
+    label = "Cs(Br)3-CO",
+    group = 
+"""
+1 *1 Cs   u0 {2,S} {3,S} {4,S} {5,S}
+2 *2 CO   u0 {1,S} {6,D}
+3    Br1s u0 {1,S}
+4    Br1s u0 {1,S}
+5    Br1s u0 {1,S}
+6    O2d  u0 {2,D}
+""",
+    thermo = None,
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 64,
     label = "int14_gauche",
     group = 
 """
@@ -1316,7 +1561,7 @@ entry(
 )
 
 entry(
-    index = 53,
+    index = 65,
     label = "CsCs",
     group = 
 """
@@ -1337,7 +1582,7 @@ entry(
 )
 
 entry(
-    index = 54,
+    index = 66,
     label = "CsCs-P",
     group = 
 """
@@ -1361,7 +1606,7 @@ entry(
 )
 
 entry(
-    index = 55,
+    index = 67,
     label = "CsCs-S",
     group = 
 """
@@ -1385,7 +1630,7 @@ entry(
 )
 
 entry(
-    index = 56,
+    index = 68,
     label = "CsCs-SS",
     group = 
 """
@@ -1412,7 +1657,7 @@ entry(
 )
 
 entry(
-    index = 57,
+    index = 69,
     label = "CsCs-ST",
     group = 
 """
@@ -1439,7 +1684,7 @@ entry(
 )
 
 entry(
-    index = 58,
+    index = 70,
     label = "CsCs-SQ",
     group = 
 """
@@ -1466,7 +1711,7 @@ entry(
 )
 
 entry(
-    index = 59,
+    index = 71,
     label = "CsCs-T",
     group = 
 """
@@ -1490,7 +1735,7 @@ entry(
 )
 
 entry(
-    index = 60,
+    index = 72,
     label = "CsCs-TT",
     group = 
 """
@@ -1517,7 +1762,7 @@ Half Value!!!
 )
 
 entry(
-    index = 61,
+    index = 73,
     label = "CsCs-T(TTP)",
     group = 
 """
@@ -1550,7 +1795,7 @@ entry(
 )
 
 entry(
-    index = 62,
+    index = 74,
     label = "CsCs-T(TTS)",
     group = 
 """
@@ -1583,7 +1828,7 @@ entry(
 )
 
 entry(
-    index = 63,
+    index = 75,
     label = "CsCs-T(TTT)",
     group = 
 """
@@ -1616,7 +1861,7 @@ entry(
 )
 
 entry(
-    index = 64,
+    index = 76,
     label = "CsCs-T(TTQ)",
     group = 
 """
@@ -1649,7 +1894,7 @@ entry(
 )
 
 entry(
-    index = 65,
+    index = 77,
     label = "CsCs-TQ",
     group = 
 """
@@ -1676,7 +1921,7 @@ entry(
 )
 
 entry(
-    index = 66,
+    index = 78,
     label = "CsCs-Q",
     group = 
 """
@@ -1700,7 +1945,7 @@ entry(
 )
 
 entry(
-    index = 67,
+    index = 79,
     label = "CsCs-QQ",
     group = 
 """
@@ -1727,7 +1972,7 @@ Half Value!!!
 )
 
 entry(
-    index = 68,
+    index = 80,
     label = "OsCs",
     group = 
 """
@@ -1748,7 +1993,7 @@ entry(
 )
 
 entry(
-    index = 69,
+    index = 81,
     label = "OsCs-P",
     group = 
 """
@@ -1770,7 +2015,7 @@ entry(
 )
 
 entry(
-    index = 70,
+    index = 82,
     label = "OsCs-S",
     group = 
 """
@@ -1792,7 +2037,7 @@ entry(
 )
 
 entry(
-    index = 71,
+    index = 83,
     label = "OsCs-SP",
     group = 
 """
@@ -1817,7 +2062,7 @@ entry(
 )
 
 entry(
-    index = 72,
+    index = 84,
     label = "OsCs-SS",
     group = 
 """
@@ -1842,7 +2087,7 @@ entry(
 )
 
 entry(
-    index = 73,
+    index = 85,
     label = "OsCs-ST",
     group = 
 """
@@ -1867,7 +2112,7 @@ entry(
 )
 
 entry(
-    index = 74,
+    index = 86,
     label = "OsCs-SQ",
     group = 
 """
@@ -1892,7 +2137,7 @@ entry(
 )
 
 entry(
-    index = 75,
+    index = 87,
     label = "CdCs",
     group = 
 """
@@ -1914,7 +2159,7 @@ entry(
 )
 
 entry(
-    index = 76,
+    index = 88,
     label = "CdCs-P",
     group = 
 """
@@ -1937,7 +2182,7 @@ entry(
 )
 
 entry(
-    index = 77,
+    index = 89,
     label = "CdCs-S",
     group = 
 """
@@ -1960,7 +2205,7 @@ entry(
 )
 
 entry(
-    index = 78,
+    index = 90,
     label = "CdCs-SP",
     group = 
 """
@@ -1986,7 +2231,7 @@ entry(
 )
 
 entry(
-    index = 79,
+    index = 91,
     label = "CdCs-SS",
     group = 
 """
@@ -2012,7 +2257,7 @@ entry(
 )
 
 entry(
-    index = 80,
+    index = 92,
     label = "CdCs-ST",
     group = 
 """
@@ -2038,7 +2283,7 @@ entry(
 )
 
 entry(
-    index = 81,
+    index = 93,
     label = "CdCs-SQ",
     group = 
 """
@@ -2064,7 +2309,7 @@ entry(
 )
 
 entry(
-    index = 82,
+    index = 94,
     label = "int15",
     group = 
 """
@@ -2091,7 +2336,7 @@ entry(
 )
 
 entry(
-    index = 83,
+    index = 95,
     label = "CsCsCs",
     group = 
 """
@@ -2118,7 +2363,7 @@ entry(
 )
 
 entry(
-    index = 84,
+    index = 96,
     label = "CsCsCs-TQ",
     group = 
 """
@@ -2146,7 +2391,7 @@ entry(
 )
 
 entry(
-    index = 85,
+    index = 97,
     label = "CsCsCs-QQ",
     group = 
 """
@@ -2174,7 +2419,7 @@ Half Value!!!
 )
 
 entry(
-    index = 86,
+    index = 98,
     label = "CsOsCs",
     group = 
 """
@@ -2201,7 +2446,7 @@ entry(
 )
 
 entry(
-    index = 87,
+    index = 99,
     label = "CsOsCs-TQ",
     group = 
 """
@@ -2229,7 +2474,7 @@ entry(
 )
 
 entry(
-    index = 88,
+    index = 100,
     label = "CsOsCs-QQ",
     group = 
 """
@@ -2257,7 +2502,7 @@ Half Value!!!
 )
 
 entry(
-    index = 89,
+    index = 101,
     label = "CsSsCs",
     group = 
 """
@@ -2284,7 +2529,7 @@ entry(
 )
 
 entry(
-    index = 90,
+    index = 102,
     label = "CsSsCs-TQ",
     group = 
 """
@@ -2312,7 +2557,7 @@ entry(
 )
 
 entry(
-    index = 91,
+    index = 103,
     label = "CsSsCs-QQ",
     group = 
 """
@@ -2359,6 +2604,10 @@ L1: R
         L3: Cds(Cl)=Cds(Cl)
         L3: Cds(Cl)2=Cds(Cl)
         L3: Cds(Cl)2=Cds(Cl)2
+        L3: Cd(Cl)-CO
+        L3: Cs(Cl)-CO
+            L4: Cs(Cl)2-CO
+                L5: Cs(Cl)3-CO
     L2: intF
         L3: Cs(F)3-Cs(F)3
         L3: Cs(F)3-Cs(F)2
@@ -2376,6 +2625,10 @@ L1: R
         L3: Cds(F)=Cds(F)
         L3: Cds(F)2=Cds(F)
         L3: Cds(F)2=Cds(F)2
+        L3: Cd(F)-CO
+        L3: Cs(F)-CO
+            L4: Cs(F)2-CO
+                L5: Cs(F)3-CO
     L2: intBr
         L3: Cs(Br)3-Cs(Br)3
         L3: Cs(Br)3-Cs(Br)2
@@ -2393,6 +2646,10 @@ L1: R
         L3: Cds(Br)=Cds(Br)
         L3: Cds(Br)2=Cds(Br)
         L3: Cds(Br)2=Cds(Br)2
+        L3: Cd(Br)-CO
+        L3: Cs(Br)-CO
+            L4: Cs(Br)2-CO
+                L5: Cs(Br)3-CO
     L2: int14_gauche
         L3: CsCs
             L4: CsCs-P
