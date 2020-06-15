@@ -44932,6 +44932,46 @@ entry(
     kinetics = None,
 )
 
+entry(
+    index = 3054,
+    label = "Val7J",
+    group =
+"""
+1 *3 Val7 u1
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 3055,
+    label = "F",
+    group =
+"""
+1 *3 F u1
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 3056,
+    label = "Cl",
+    group =
+"""
+1 *3 Cl u1
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 3057,
+    label = "Br",
+    group =
+"""
+1 *3 Br u1
+""",
+    kinetics = None,
+)
+
 tree(
 """
 L1: R_R
@@ -47596,6 +47636,10 @@ L1: R_R
                 L5: Sd_Cds-C=SC=S
 L1: YJ
     L2: HJ
+    L2: Val7J
+        L3: F
+        L3: Cl
+        L3: Br
     L2: Y_1centerquadrad
         L3: C_quintet
         L3: C_triplet
