@@ -92,11 +92,11 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0.53,0.22,-0.075,-0.22,-0.365,-0.085,0.235],'cal/(mol*K)'),
-        H298 = (6.81,'kcal/mol'),
-        S298 = (-0.435,'cal/(mol*K)'),
+        Cpdata = ([0.924522,0.599729,0.38181,-0.079594,-0.783959,-0.862323,0.303151],'J/(mol*K)'),
+        H298 = (19.0259,'kJ/mol'),
+        S298 = (1.37169,'J/(mol*K)'),
     ),
-    shortDesc = """INT/Cl6 from 1998 Chen and Bozzelli""",
+    shortDesc = """Derived from Chlorine species in thermo libraries""",
     longDesc = 
 """
 Divided by 2 to avoid overcounting
@@ -119,11 +119,11 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0.45,0.02,-0.31,-0.44,-0.53,0.02,0.18],'cal/(mol*K)'),
-        H298 = (10.88,'kcal/mol'),
-        S298 = (-2.47,'cal/(mol*K)'),
+        Cpdata = ([0.149106,-1.32537,-1.36122,-1.33453,-1.01851,-0.507599,1.0612],'J/(mol*K)'),
+        H298 = (27.3596,'kJ/mol'),
+        S298 = (1.65284,'J/(mol*K)'),
     ),
-    shortDesc = """INT/Cl5 from 1998 Chen and Bozzelli""",
+    shortDesc = """Derived from Chlorine species in thermo libraries""",
     longDesc = 
 """
 
@@ -135,12 +135,12 @@ entry(
     label = "Cs(Cl)3-C(Cl)",
     group = 
 """
-1 *1 Cs      u0 {2,S} {3,S} {5,S} {6,S}
-2 *2 [Cs,Cd] u0 {1,S} {4,S}
+1 *1 Cs      u0 {2,S} {3,S} {4,S} {5,S}
+2 *2 [Cs,Cd] u0 {1,S} {6,S}
 3    Cl1s    u0 {1,S}
-4    Cl1s    u0 {2,S}
+4    Cl1s    u0 {1,S}
 5    Cl1s    u0 {1,S}
-6    Cl1s    u0 {1,S}
+6    Cl1s    u0 {2,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -171,11 +171,11 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0.05,-0.11,-0.26,-0.24,-0.1,0.43,0.73],'cal/(mol*K)'),
-        H298 = (5.1,'kcal/mol'),
-        S298 = (-2.15,'cal/(mol*K)'),
+        Cpdata = ([0.943073,-0.382307,-0.502606,-0.418424,-0.233848,0.321368,1.3456],'J/(mol*K)'),
+        H298 = (16.504,'kJ/mol'),
+        S298 = (-4.38509,'J/(mol*K)'),
     ),
-    shortDesc = """INT/Cl4 from 1998 Chen and Bozzelli""",
+    shortDesc = """Derived from Chlorine species in thermo libraries""",
     longDesc = 
 """
 
@@ -187,21 +187,21 @@ entry(
     label = "Cs(Cl)3-Cds(Cl)",
     group = 
 """
-1 *1 Cs        u0 {2,S} {3,S} {5,S} {7,S}
-2 *2 Cd        u0 {1,S} {4,S} {6,D}
+1 *1 Cs        u0 {2,S} {3,S} {4,S} {5,S}
+2 *2 Cd        u0 {1,S} {6,S} {7,D}
 3    Cl1s      u0 {1,S}
-4    Cl1s      u0 {2,S}
+4    Cl1s      u0 {1,S}
 5    Cl1s      u0 {1,S}
-6    [C,N,O,S] u0 {2,D}
-7    Cl1s      u0 {1,S}
+6    Cl1s      u0 {2,S}
+7    [C,N,O,S] u0 {2,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0.05,-0.11,-0.26,-0.24,-0.1,0.43,0.73],'cal/(mol*K)'),
-        H298 = (5.1,'kcal/mol'),
-        S298 = (-2.15,'cal/(mol*K)'),
+        Cpdata = ([-2.70828,-1.41375,-0.701321,0.0353376,0.730152,1.19561,1.53947],'J/(mol*K)'),
+        H298 = (9.24175,'kJ/mol'),
+        S298 = (-0.652047,'J/(mol*K)'),
     ),
-    shortDesc = """INT/Cl4 from 1998 Chen and Bozzelli""",
+    shortDesc = """Derived from Chlorine species in thermo libraries""",
     longDesc = 
 """
 
@@ -224,11 +224,11 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0.025,-0.055,-0.13,-0.12,-0.05,0.215,0.365],'cal/(mol*K)'),
-        H298 = (2.55,'kcal/mol'),
-        S298 = (-1.075,'cal/(mol*K)'),
+        Cpdata = ([-1.46681,-1.70464,-1.22656,-0.88686,-0.3755,0.254885,2.11199],'J/(mol*K)'),
+        H298 = (9.91234,'kJ/mol'),
+        S298 = (0.90676,'J/(mol*K)'),
     ),
-    shortDesc = """INT/Cl4 from 1998 Chen and Bozzelli""",
+    shortDesc = """Derived from Chlorine species in thermo libraries""",
     longDesc = 
 """
 Divided by 2 to avoid overcounting
@@ -240,12 +240,12 @@ entry(
     label = "Cs(Cl)2-C(Cl)",
     group = 
 """
-1 *1 Cs          u0 {2,S} {3,S} {5,S} {6,S}
-2 *2 [Cs,Cd]     u0 {1,S} {4,S}
+1 *1 Cs          u0 {2,S} {3,S} {4,S} {5,S}
+2 *2 [Cs,Cd]     u0 {1,S} {6,S}
 3    Cl1s        u0 {1,S}
-4    Cl1s        u0 {2,S}
-5    Cl1s        u0 {1,S}
-6    [C,H,N,O,S] u0 {1,S}
+4    Cl1s        u0 {1,S}
+5    [C,H,N,O,S] u0 {1,S}
+6    Cl1s        u0 {2,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -276,11 +276,11 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0.58,0.33,0.04,-0.12,-0.24,-0.24,0.2],'cal/(mol*K)'),
-        H298 = (3.85,'kcal/mol'),
-        S298 = (-1.86,'cal/(mol*K)'),
+        Cpdata = ([-0.836101,-0.938035,-0.159818,0.321618,0.772498,1.42116,3.2585],'J/(mol*K)'),
+        H298 = (11.206,'kJ/mol'),
+        S298 = (-3.07178,'J/(mol*K)'),
     ),
-    shortDesc = """INT/Cl3 from 1998 Chen and Bozzelli""",
+    shortDesc = """Derived from Chlorine species in thermo libraries""",
     longDesc = 
 """
 
@@ -292,21 +292,21 @@ entry(
     label = "Cs(Cl)2-Cds(Cl)",
     group = 
 """
-1 *1 Cs          u0 {2,S} {3,S} {5,S} {7,S}
-2 *2 Cd          u0 {1,S} {4,S} {6,D}
+1 *1 Cs          u0 {2,S} {3,S} {4,S} {5,S}
+2 *2 Cd          u0 {1,S} {6,S} {7,D}
 3    Cl1s        u0 {1,S}
-4    Cl1s        u0 {2,S}
-5    Cl1s        u0 {1,S}
-6    [C,N,O,S]   u0 {2,D}
-7    [C,H,N,O,S] u0 {1,S}
+4    Cl1s        u0 {1,S}
+5    [C,H,N,O,S] u0 {1,S}
+6    Cl1s        u0 {2,S}
+7    [C,N,O,S]   u0 {2,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0.58,0.33,0.04,-0.12,-0.24,-0.24,0.2],'cal/(mol*K)'),
-        H298 = (3.85,'kcal/mol'),
-        S298 = (-1.86,'cal/(mol*K)'),
+        Cpdata = ([-1.83536,-0.872034,0.0653068,1.09851,1.66225,1.87974,2.88616],'J/(mol*K)'),
+        H298 = (6.05658,'kJ/mol'),
+        S298 = (-2.78108,'J/(mol*K)'),
     ),
-    shortDesc = """INT/Cl3 from 1998 Chen and Bozzelli""",
+    shortDesc = """Derived from Chlorine species in thermo libraries""",
     longDesc = 
 """
 
@@ -352,11 +352,11 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0.375,0.23,0.115,0.04,-0.025,-0.025,0.01],'cal/(mol*K)'),
-        H298 = (1.27,'kcal/mol'),
-        S298 = (-0.645,'cal/(mol*K)'),
+        Cpdata = ([-0.105377,-0.147523,0.112086,0.344358,0.53993,0.746497,0.923394],'J/(mol*K)'),
+        H298 = (3.39102,'kJ/mol'),
+        S298 = (-1.92845,'J/(mol*K)'),
     ),
-    shortDesc = """INT/Cl2 from 1998 Chen and Bozzelli""",
+    shortDesc = """Derived from Chlorine species in thermo libraries""",
     longDesc = 
 """
 Divided by two to avoid overcounting
@@ -368,21 +368,21 @@ entry(
     label = "Cs(Cl)-Cds(Cl)",
     group = 
 """
-1 *1 Cs          u0 {2,S} {3,S} {5,S} {7,S}
-2 *2 Cd          u0 {1,S} {4,S} {6,D}
+1 *1 Cs          u0 {2,S} {3,S} {4,S} {5,S}
+2 *2 Cd          u0 {1,S} {6,S} {7,D}
 3    Cl1s        u0 {1,S}
-4    Cl1s        u0 {2,S}
+4    [C,H,N,O,S] u0 {1,S}
 5    [C,H,N,O,S] u0 {1,S}
-6    [C,N,O,S]   u0 {2,D}
-7    [C,H,N,O,S] u0 {1,S}
+6    Cl1s        u0 {2,S}
+7    [C,N,O,S]   u0 {2,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0.375,0.23,0.115,0.04,-0.025,-0.025,0.01],'cal/(mol*K)'),
-        H298 = (1.27,'kcal/mol'),
-        S298 = (-0.645,'cal/(mol*K)'),
+        Cpdata = ([-2.05067,-2.01115,-1.58222,-0.708389,0.0281639,0.480737,2.03697],'J/(mol*K)'),
+        H298 = (5.40389,'kJ/mol'),
+        S298 = (-0.120949,'J/(mol*K)'),
     ),
-    shortDesc = """INT/Cl2 from 1998 Chen and Bozzelli""",
+    shortDesc = """Derived from Chlorine species in thermo libraries""",
     longDesc = 
 """
 Divided by two to avoid overcounting
@@ -403,11 +403,11 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0.375,0.23,0.115,0.04,-0.025,-0.025,0.01],'cal/(mol*K)'),
-        H298 = (1.27,'kcal/mol'),
-        S298 = (-0.645,'cal/(mol*K)'),
+        Cpdata = ([-0.363617,0.832538,1.14328,1.72489,1.47287,1.20093,0.790556],'J/(mol*K)'),
+        H298 = (2.87416,'kJ/mol'),
+        S298 = (-1.47205,'J/(mol*K)'),
     ),
-    shortDesc = """INT/Cl2 from 1998 Chen and Bozzelli""",
+    shortDesc = """Derived from Chlorine species in thermo libraries""",
     longDesc = 
 """
 Divided by two to avoid overcounting
@@ -428,11 +428,11 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0.08,0.075,0.015,-0.075,-0.01,0.01,0.065],'cal/(mol*K)'),
-        H298 = (1.55,'kcal/mol'),
-        S298 = (-0.065,'cal/(mol*K)'),
+        Cpdata = ([1.93924,2.12001,1.78763,1.40215,0.593652,0.093719,-0.284055],'J/(mol*K)'),
+        H298 = (0.819161,'kJ/mol'),
+        S298 = (-1.03211,'J/(mol*K)'),
     ),
-    shortDesc = """INT/CD/Cl2 from 1998 Chen and Bozzelli""",
+    shortDesc = """Derived from Chlorine species in thermo libraries""",
     longDesc = 
 """
 Divided by two to avoid doublecounting
@@ -453,11 +453,11 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0.39,0.18,0.04,-0.06,0.01,0.04,0.1],'cal/(mol*K)'),
-        H298 = (5.08,'kcal/mol'),
-        S298 = (1.5,'cal/(mol*K)'),
+        Cpdata = ([4.81661,5.18051,4.50518,3.50973,1.65793,0.556059,-0.178283],'J/(mol*K)'),
+        H298 = (5.96449,'kJ/mol'),
+        S298 = (-4.6297,'J/(mol*K)'),
     ),
-    shortDesc = """INT/CD/Cl3 from 1998 Chen and Bozzelli""",
+    shortDesc = """Derived from Chlorine species in thermo libraries""",
     longDesc = 
 """
 
@@ -478,11 +478,11 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0.395,0.13,0.03,0.01,0.01,0.025,0.045],'cal/(mol*K)'),
-        H298 = (4.185,'kcal/mol'),
-        S298 = (1.34,'cal/(mol*K)'),
+        Cpdata = ([1.90458,2.63379,2.2864,1.75795,0.50078,-0.476563,-1.22502],'J/(mol*K)'),
+        H298 = (5.483,'kJ/mol'),
+        S298 = (-0.838443,'J/(mol*K)'),
     ),
-    shortDesc = """INT/CD/Cl4 from 1998 Chen and Bozzelli""",
+    shortDesc = """Derived from Chlorine species in thermo libraries""",
     longDesc = 
 """
 Divided by two to avoid overcounting
@@ -499,8 +499,13 @@ entry(
 3    Cl1s u0 {1,S}
 4    O2d  u0 {2,D}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-2.13367,-1.77748,-1.27854,-0.304786,-0.206749,0.330058,3.45121],'J/(mol*K)'),
+        H298 = (14.0552,'kJ/mol'),
+        S298 = (-3.39801,'J/(mol*K)'),
+    ),
+    shortDesc = """Derived from Chlorine species in thermo libraries""",
     longDesc = 
 """
 
@@ -517,8 +522,13 @@ entry(
 3    Cl1s u0 {1,S}
 4    O2d  u0 {2,D}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([2.46723,1.13894,0.652971,0.213029,-0.058674,-0.314394,0.442164],'J/(mol*K)'),
+        H298 = (9.57573,'kJ/mol'),
+        S298 = (1.02958,'J/(mol*K)'),
+    ),
+    shortDesc = """Derived from Chlorine species in thermo libraries""",
     longDesc = 
 """
 
@@ -536,8 +546,13 @@ entry(
 4    Cl1s u0 {1,S}
 5    O2d  u0 {2,D}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([3.78349,3.52905,2.98975,2.25795,1.35257,0.717302,0.923315],'J/(mol*K)'),
+        H298 = (11.0007,'kJ/mol'),
+        S298 = (-5.91683,'J/(mol*K)'),
+    ),
+    shortDesc = """Derived from Chlorine species in thermo libraries""",
     longDesc = 
 """
 
@@ -556,8 +571,13 @@ entry(
 5    Cl1s u0 {1,S}
 6    O2d  u0 {2,D}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([2.85447,1.32929,-0.0293689,-1.23666,-2.83913,-3.49653,-3.40889],'J/(mol*K)'),
+        H298 = (34.0633,'kJ/mol'),
+        S298 = (5.39382,'J/(mol*K)'),
+    ),
+    shortDesc = """Derived from Chlorine species in thermo libraries""",
     longDesc = 
 """
 
