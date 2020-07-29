@@ -209,7 +209,7 @@ entry(
         H298 = (227.429,'kJ/mol'),
         S298 = (270.992,'J/(mol*K)'),
     ),
-    shortDesc = """Derived from Chlorine species in thermo libraries""",
+    shortDesc = """Derived from chloro-carbene species in CHOCl_G4 library""",
     longDesc = 
 """
 
@@ -227,11 +227,11 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([32.7615,35.735,37.4682,38.4589,39.6594,40.1575,40.5123],'J/(mol*K)'),
-        H298 = (301.545,'kJ/mol'),
-        S298 = (154.821,'J/(mol*K)'),
+        Cpdata = ([29.4595,35.0721,39.0728,41.8057,44.4124,45.5776,44.8022],'J/(mol*K)'),
+        H298 = (284.224,'kJ/mol'),
+        S298 = (142.276,'J/(mol*K)'),
     ),
-    shortDesc = """Derived from Chlorine species in thermo libraries""",
+    shortDesc = """Derived from chloro-carbene species in CHOCl_G4 library""",
     longDesc = 
 """
 
@@ -247,8 +247,13 @@ entry(
 2   Cl u0 p3 {1,S}
 3   Cs u0 {1,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([34.1934,36.4338,37.4224,37.7908,38.5273,38.7442,39.5255],'J/(mol*K)'),
+        H298 = (303.901,'kJ/mol'),
+        S298 = (156.749,'J/(mol*K)'),
+    ),
+    shortDesc = """Derived from chloro-carbene species in CHOCl_G4 library""",
     longDesc = 
 """
 
@@ -284,11 +289,11 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([30.7906,34.515,37.8518,40.3072,42.2277,43.9525,44.8553],'J/(mol*K)'),
-        H298 = (160.605,'kJ/mol'),
-        S298 = (132.51,'J/(mol*K)'),
+        Cpdata = ([30.8127,34.5386,37.8776,40.3352,42.2519,43.9774,44.8755],'J/(mol*K)'),
+        H298 = (160.631,'kJ/mol'),
+        S298 = (132.474,'J/(mol*K)'),
     ),
-    shortDesc = """Derived from Chlorine species in thermo libraries""",
+    shortDesc = """Derived from chloro-carbene species in CHOCl_G4 library""",
     longDesc = 
 """
 
@@ -17125,8 +17130,13 @@ entry(
 4   Cl u0 {1,S}
 5   Cl u0 {1,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([67.8274,73.2337,77.0374,80.414,84.6436,86.9398,87.3373],'J/(mol*K)'),
+        H298 = (-74.6472,'kJ/mol'),
+        S298 = (220.446,'J/(mol*K)'),
+    ),
+    shortDesc = """Derived from chloro-carbene species in CHOCl_G4 library""",
     longDesc = 
 """
 
