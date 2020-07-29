@@ -114,8 +114,13 @@ entry(
 3   Cl1s u0 {1,S}
 4   Cl1s u0 {1,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-6.91884,-8.59486,-9.55962,-10.3141,-11.8247,-13.0921,-15.624],'J/(mol*K)'),
+        H298 = (359.694,'kJ/mol'),
+        S298 = (4.91584,'J/(mol*K)'),
+    ),
+    shortDesc = """Derived from chlorine species in thermo libraries""",
     longDesc = 
 """
 
@@ -214,8 +219,13 @@ entry(
 3   H    u0 {1,S}
 4   Cl1s u0 {1,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-1.47314,-2.01153,-3.50263,-5.01674,-7.95897,-10.6439,-15.2288],'J/(mol*K)'),
+        H298 = (369.245,'kJ/mol'),
+        S298 = (-11.1575,'J/(mol*K)'),
+    ),
+    shortDesc = """Derived from chlorine species in thermo libraries""",
     longDesc = 
 """
 
@@ -278,8 +288,13 @@ entry(
 3   O2s  u0 {1,S}
 4   Cl1s u0 {1,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-9.14155,-13.2228,-15.4281,-15.9586,-16.1948,-16.0581,-15.398],'J/(mol*K)'),
+        H298 = (338.561,'kJ/mol'),
+        S298 = (0.45681,'J/(mol*K)'),
+    ),
+    shortDesc = """Derived from chlorine species in thermo libraries""",
     longDesc = 
 """
 
@@ -504,8 +519,13 @@ entry(
 3   CO   u0 {1,S}
 4   Cl1s u0 {1,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-4.91959,-6.70827,-8.57741,-10.3623,-13.153,-14.9515,-17.4379],'J/(mol*K)'),
+        H298 = (360.663,'kJ/mol'),
+        S298 = (4.08751,'J/(mol*K)'),
+    ),
+    shortDesc = """Derived from chlorine species in thermo libraries""",
     longDesc = 
 """
 
@@ -586,8 +606,13 @@ entry(
 3   Cl1s u0 {1,S}
 4   Cl1s u0 {1,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.264229,-5.28261,-9.68332,-13.1121,-17.6017,-20.073,-22.3664],'J/(mol*K)'),
+        H298 = (397.027,'kJ/mol'),
+        S298 = (15.9788,'J/(mol*K)'),
+    ),
+    shortDesc = """Derived from chlorine species in thermo libraries""",
     longDesc = 
 """
 
@@ -686,8 +711,13 @@ entry(
 3   H    u0 {1,S}
 4   Cl1s u0 {1,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([2.29951,-1.46783,-5.21678,-8.19058,-12.713,-15.7342,-19.8346],'J/(mol*K)'),
+        H298 = (402.933,'kJ/mol'),
+        S298 = (5.3957,'J/(mol*K)'),
+    ),
+    shortDesc = """Derived from chlorine species in thermo libraries""",
     longDesc = 
 """
 
@@ -750,8 +780,13 @@ entry(
 3   O2s  u0 {1,S}
 4   Cl1s u0 {1,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-2.52354,-9.28392,-13.0519,-15.1791,-18.1337,-19.9069,-21.668],'J/(mol*K)'),
+        H298 = (402.23,'kJ/mol'),
+        S298 = (15.8811,'J/(mol*K)'),
+    ),
+    shortDesc = """Derived from chlorine species in thermo libraries""",
     longDesc = 
 """
 
@@ -832,8 +867,13 @@ entry(
 3   Cl1s u0 {1,S}
 4   Cl1s u0 {1,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.357325,-3.2905,-5.8946,-8.23039,-12.0659,-14.8601,-18.9276],'J/(mol*K)'),
+        H298 = (349.417,'kJ/mol'),
+        S298 = (2.87047,'J/(mol*K)'),
+    ),
+    shortDesc = """Derived from chlorine species in thermo libraries""",
     longDesc = 
 """
 
@@ -932,8 +972,13 @@ entry(
 3   H    u0 {1,S}
 4   Cl1s u0 {1,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([1.32401,-1.0459,-3.58602,-5.92634,-9.94439,-13.0604,-17.806],'J/(mol*K)'),
+        H298 = (360.9,'kJ/mol'),
+        S298 = (5.26899,'J/(mol*K)'),
+    ),
+    shortDesc = """Derived from chlorine species in thermo libraries""",
     longDesc = 
 """
 
@@ -1122,8 +1167,13 @@ entry(
 3   Cl1s u0 {1,S}
 4   Cl1s u0 {1,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-4.57785,-6.3448,-7.8971,-9.2971,-11.6961,-13.5697,-16.7592],'J/(mol*K)'),
+        H298 = (352.324,'kJ/mol'),
+        S298 = (-3.33368,'J/(mol*K)'),
+    ),
+    shortDesc = """Derived from chlorine species in thermo libraries""",
     longDesc = 
 """
 
@@ -1222,8 +1272,13 @@ entry(
 3   H    u0 {1,S}
 4   Cl1s u0 {1,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-1.14246,-2.01058,-3.44175,-5.01132,-7.83188,-10.1815,-14.4905],'J/(mol*K)'),
+        H298 = (351.981,'kJ/mol'),
+        S298 = (-5.04776,'J/(mol*K)'),
+    ),
+    shortDesc = """Derived from chlorine species in thermo libraries""",
     longDesc = 
 """
 
@@ -1466,8 +1521,13 @@ entry(
 3   Cl1s u0 {1,S}
 4   Cl1s u0 {1,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-1.44034,-6.28103,-10.1943,-13.356,-17.5819,-19.9096,-21.3479],'J/(mol*K)'),
+        H298 = (388.491,'kJ/mol'),
+        S298 = (17.0977,'J/(mol*K)'),
+    ),
+    shortDesc = """Derived from chlorine species in thermo libraries""",
     longDesc = 
 """
 
@@ -1566,8 +1626,13 @@ entry(
 3   H    u0 {1,S}
 4   Cl1s u0 {1,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([1.78065,-2.72641,-6.6356,-9.7591,-14.2906,-17.2287,-21.1612],'J/(mol*K)'),
+        H298 = (402.931,'kJ/mol'),
+        S298 = (13.8548,'J/(mol*K)'),
+    ),
+    shortDesc = """Derived from chlorine species in thermo libraries""",
     longDesc = 
 """
 
@@ -1630,8 +1695,13 @@ entry(
 3   O2s  u0 {1,S}
 4   Cl1s u0 {1,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.187496,-4.43981,-8.17454,-11.2451,-15.6679,-18.372,-21.2631],'J/(mol*K)'),
+        H298 = (395.187,'kJ/mol'),
+        S298 = (16.1392,'J/(mol*K)'),
+    ),
+    shortDesc = """Derived from chlorine species in thermo libraries""",
     longDesc = 
 """
 
@@ -1694,8 +1764,13 @@ entry(
 3   Ct   u0 {1,S}
 4   Cl1s u0 {1,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-1.19873,-5.36644,-8.42525,-10.789,-14.397,-17.0151,-20.7009],'J/(mol*K)'),
+        H298 = (354.228,'kJ/mol'),
+        S298 = (17.0843,'J/(mol*K)'),
+    ),
+    shortDesc = """Derived from chlorine species in thermo libraries""",
     longDesc = 
 """
 
@@ -1817,8 +1892,13 @@ entry(
 3   Cs   u0 {1,S}
 4   Cl1s u0 {1,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-2.39344,-7.19209,-11.2117,-14.4565,-18.8236,-21.2207,-24.0014],'J/(mol*K)'),
+        H298 = (393.291,'kJ/mol'),
+        S298 = (23.5842,'J/(mol*K)'),
+    ),
+    shortDesc = """Derived from chlorine species in thermo libraries""",
     longDesc = 
 """
 
@@ -9789,8 +9869,13 @@ entry(
 2   Cl1s u0 {1,S}
 3   Cdd  u0 {1,D}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.704038,-4.45006,-7.15658,-9.41275,-13.0236,-15.5938,-19.2078],'J/(mol*K)'),
+        H298 = (402.334,'kJ/mol'),
+        S298 = (8.27769,'J/(mol*K)'),
+    ),
+    shortDesc = """Derived from chlorine species in thermo libraries""",
     longDesc = 
 """
 
@@ -9850,8 +9935,13 @@ entry(
 2   Cl1s u0 {1,S}
 3   Cd   u0 {1,D}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-1.13824,-4.38436,-7.14841,-9.50581,-13.1702,-15.7501,-19.5796],'J/(mol*K)'),
+        H298 = (456.771,'kJ/mol'),
+        S298 = (6.79017,'J/(mol*K)'),
+    ),
+    shortDesc = """Derived from chlorine species in thermo libraries""",
     longDesc = 
 """
 
@@ -9922,8 +10012,13 @@ entry(
 2   Cl1s u0 {1,S}
 3   O2d  u0 {1,D}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.728145,-3.61421,-6.36682,-8.74552,-12.5501,-15.3211,-19.2885],'J/(mol*K)'),
+        H298 = (380.235,'kJ/mol'),
+        S298 = (4.85507,'J/(mol*K)'),
+    ),
+    shortDesc = """Derived from chlorine species in thermo libraries""",
     longDesc = 
 """
 
