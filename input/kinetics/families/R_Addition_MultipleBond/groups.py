@@ -33,7 +33,7 @@ entry(
 entry(
     index = 1,
     label = "YJ",
-    group = "OR{HJ, Y_1centerquadrad, Y_1centertrirad, Y_1centerbirad, CJ, OJ, SJ, NJ}",
+    group = "OR{HJ, Y_1centerquadrad, Y_1centertrirad, Y_1centerbirad, CJ, OJ, SJ, NJ, Val7J}",
     kinetics = None,
 )
 
